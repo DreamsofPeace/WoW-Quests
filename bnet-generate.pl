@@ -622,6 +622,7 @@ sub __main__() {
 #	legendary_thunderfury ($count, %multiuserquests);
 #	legendary_cloak ($count, %multiuserquests);
 #	legendary_ring ($count, %multiuserquests);
+#	legendary_rogue_daggers ($count, %multiuserquests);
 
 }
 

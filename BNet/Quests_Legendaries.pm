@@ -114,4 +114,24 @@ sub legendary_ring ($%) {
 
 }
 
+sub legendary_rogue_daggers ($%) {
+	my ($count, %multiuserquests) = @_;
+	BNet::Utils::groupheader ("Fangs of the Father");
+	BNet::Utils::preprint ($count, '29801', "Proving Your Worth", %multiuserquests);
+	BNet::Utils::preprint ($count, '29802', "A Hidden Message", %multiuserquests);
+	BNet::Utils::preprint ($count, '29934', "To Ravenholdt", %multiuserquests);
+	BNet::Utils::preprint ($count, '29847', "To Catch a Thief", %multiuserquests);
+	BNet::Utils::preprint ($count, '30092', "Our Man in Gilneas", %multiuserquests);
+	BNet::Utils::preprint ($count, '30093', "Assassinate Creed", %multiuserquests);
+	BNet::Utils::preprint ($count, '30106', "The Deed is Done", %multiuserquests);
+	BNet::Utils::preprint ($count, '30107', "Cluster Clutch", %multiuserquests);
+	BNet::Utils::preprint ($count, '30108', "Our Man in Karazhan", %multiuserquests);
+	BNet::Utils::preprint ($count, '30109', "Blood of the Betrayer", %multiuserquests);
+	BNet::Utils::preprint ($count, '30113', "Victory in the Depths", %multiuserquests);
+	BNet::Utils::preprint ($count, '30116', "Sharpening Your Fangs", %multiuserquests);
+	BNet::Utils::preprint ($count, '30118', "Patricide", %multiuserquests);
+
+}
+
+
 1;
