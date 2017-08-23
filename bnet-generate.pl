@@ -618,6 +618,9 @@ sub __main__() {
 	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
 
+#Class Specific
+	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
+
 #Legendaries
 #	legendary_thunderfury ($count, %multiuserquests);
 #	legendary_cloak ($count, %multiuserquests);
