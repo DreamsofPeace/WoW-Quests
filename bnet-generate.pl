@@ -95,7 +95,7 @@ sub __main__() {
 		my @columns = split (/\t/, $f);
 		if( defined($columns[2]) ){
 			chomp ($columns[2]);
-		s}
+		}
 		if ($count == 0) {
 			if( defined($columns[1]) ){
 				$userinfo00 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
