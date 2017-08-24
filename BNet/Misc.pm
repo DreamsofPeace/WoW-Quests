@@ -55,7 +55,7 @@ sub hidden_base ($%) {
 	BNet::Utils::groupheader ("Warrior");
 	BNet::Utils::preprint ($count, '32025', "Arms: The Arcanite Bladebreaker", %multiusercriteria);
 	BNet::Utils::preprint ($count, '32026', "Unknown Spec", %multiusercriteria);
-	BNet::Utils::preprint ($count, '32027', "Warrior: Protection:Burning Plate of the Worldbreaker", %multiusercriteria);
+	BNet::Utils::preprint ($count, '32027', "Protection:Burning Plate of the Worldbreaker", %multiusercriteria);
 
 }
 
