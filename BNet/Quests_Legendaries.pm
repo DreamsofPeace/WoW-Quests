@@ -123,6 +123,33 @@ sub legendary_valanyr ($%) {
 
 }
 
+
+sub legendary_shadowmourne ($%) {
+
+	my ($count, %multiuserquests) = @_;
+	BNet::Utils::groupheader ("Legendary: Shadowmourne");
+	BNet::Utils::preprint ($count, '24545', "The Sacred and the Corrupt", %multiuserquests);
+	BNet::Utils::preprint ($count, '24547', "A Feast of Souls", %multiuserquests);
+	BNet::Utils::preprint ($count, '24743', "Shadow's Edge", %multiuserquests);
+	BNet::Utils::preprint ($count, '24749', "Unholy Infusion", %multiuserquests);
+	BNet::Utils::preprint ($count, '24756', "Blood Infusion", %multiuserquests);
+	BNet::Utils::preprint ($count, '24757', "Frost Infusion", %multiuserquests);
+	BNet::Utils::preprint ($count, '24548', "The Splintered Throne", %multiuserquests);
+	BNet::Utils::preprint ($count, '24549', "Shadowmourne...", %multiuserquests);
+	BNet::Utils::preprint ($count, '24748', "The Lich King's Last Stand", %multiuserquests);
+	BNet::Utils::groupheader ("Legendary: Shadowmourne: Rewards");
+	BNet::Utils::preprint ($count, '24914', "Personal Property", %multiuserquests);
+	BNet::Utils::preprint ($count, '24915', "Mograine's Reunion", %multiuserquests);
+	BNet::Utils::preprint ($count, '24916', "Jaina's Locket", %multiuserquests);
+	BNet::Utils::preprint ($count, '24917', "Muradin's Lament", %multiuserquests);
+	BNet::Utils::preprint ($count, '24918', "Sylvanas' Vengeance", %multiuserquests);
+	BNet::Utils::preprint ($count, '24919', "The Lightbringer's Redemption", %multiuserquests);
+
+
+}
+
+
+
 sub legendary_rogue_daggers ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("Legendary: Fangs of the Father");
