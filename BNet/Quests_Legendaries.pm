@@ -57,7 +57,7 @@ sub legendary_cloak ($%) {
 
 sub legendary_thunderfury ($%) {
 	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("Thunderfury");
+	BNet::Utils::groupheader ("Legendary: Thunderfury. Blessed Blade of the Windseeker");
 	BNet::Utils::preprint ($count, '7785', "Examine the Vessel", %multiuserquests);
 	BNet::Utils::preprint ($count, '7786', "Thunderaan the Windseeker", %multiuserquests);
 	BNet::Utils::preprint ($count, '7787', "Rise, Thunderfury!", %multiuserquests);
@@ -114,9 +114,18 @@ sub legendary_ring ($%) {
 
 }
 
+
+sub legendary_valanyr ($%) {
+	my ($count, %multiuserquests) = @_;
+	BNet::Utils::groupheader ("Legendary: Val'anyr, Hammer of Ancient Kings");
+	BNet::Utils::preprint ($count, '13622', "Ancient History", %multiuserquests);
+	BNet::Utils::preprint ($count, '13629', "Val'anyr, Hammer of Ancient Kings", %multiuserquests);
+
+}
+
 sub legendary_rogue_daggers ($%) {
 	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("Fangs of the Father");
+	BNet::Utils::groupheader ("Legendary: Fangs of the Father");
 	BNet::Utils::preprint ($count, '29801', "Proving Your Worth", %multiuserquests);
 	BNet::Utils::preprint ($count, '29802', "A Hidden Message", %multiuserquests);
 	BNet::Utils::preprint ($count, '29934', "To Ravenholdt", %multiuserquests);
