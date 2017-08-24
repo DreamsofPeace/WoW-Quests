@@ -214,6 +214,31 @@ sub preprint ($$$%) {
 	
 }
 
+sub preprintachievement ($$$$%) {
+	my ($count, $qid, $aid, $ql, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "\t\t\t<a href=\"http://www.wowhead.com/achievement=" . $aid . "\"  rel=\"achievement=" . $aid . "\">" . $ql ."</a>";
+#	print $wowheadurl;
+	$qc{zero} = $multiuserquests{0}{$qid};
+	$qc{one} = $multiuserquests{1}{$qid};
+	$qc{two} = $multiuserquests{2}{$qid};
+	$qc{three} = $multiuserquests{3}{$qid};
+	$qc{four} = $multiuserquests{4}{$qid};
+	$qc{five} = $multiuserquests{5}{$qid};
+	$qc{six} = $multiuserquests{6}{$qid};
+	$qc{seven} = $multiuserquests{7}{$qid};
+	$qc{eight} = $multiuserquests{8}{$qid};
+	$qc{nine} = $multiuserquests{9}{$qid};
+	$qc{ten} = $multiuserquests{10}{$qid};
+	$qc{eleven} = $multiuserquests{11}{$qid};
+	$qc{twelve} = $multiuserquests{12}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+	
+}
+
 sub valueprint($ % ) {
 	my($da, $d0, %d1) = @_;
 	BNet::Utils::tableprint("beginrow");

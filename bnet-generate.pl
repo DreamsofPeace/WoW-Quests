@@ -701,7 +701,8 @@ sub __main__() {
 	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
 
 #Artifact Base Hidden Appearances
-	BNet::Misc::hidden_base ($count, %multiusercriteria);
+	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
 
 #Class Specific
 	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
