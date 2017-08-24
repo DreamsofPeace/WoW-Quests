@@ -7,9 +7,6 @@ use warnings;
 sub dungeons ($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Dungeons");
-	BNet::Utils::preprint ($count, '12747', "Hero's Call: Northrend! <span class=\"dkimage\"></span>", %multiuserquests);
-
 }
 
 
@@ -28,6 +25,5 @@ sub warlock_green_fire ($%) {
 	BNet::Utils::preprint ($count, '32358', "The Soulcore", %multiuserquests);
 
 }
-
 
 1;
