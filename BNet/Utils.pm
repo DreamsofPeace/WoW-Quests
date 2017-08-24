@@ -173,7 +173,7 @@ sub printcharacter($$) {
 }
 sub percharachievementscriteria ($) {
 	my ($decoded) = @_;
-	my @raids = @{ $decoded->{'criteria'} };
+	my @raids = @{ $decoded->{'achievements'}{'criteria'} };
 	return @raids;
 }
 

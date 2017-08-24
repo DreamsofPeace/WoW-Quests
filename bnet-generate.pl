@@ -37,8 +37,10 @@ sub findinarray($@) {
 sub __main__() {
 	my $file;
 	my %keys;
+	my $apikey;
 	GetOptions (
 		'f=s' => \$file,
+		'a=s' => \$apikey,
 	);
 
 	open(my $yourhandle, '<', $file) # always use a variable here containing filename
@@ -84,7 +86,6 @@ sub __main__() {
 	
 	my $fetchtype = 'quests';
 	my $fetchtypeachiev = 'achievements';
-	my $apikey = "";
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
 	BNet::Utils::tableprint("beginrow");
@@ -389,12 +390,13 @@ sub __main__() {
 	BNet::Utils::tableprint("endrow");
 	
 	my %multiuserquests;
+	my %multiusercriteria;
 	
 #		print $count;
 #		print "\n";
 	if (0 < $count) {
 		my @UI00 = BNet::Utils::percharquests ($userinfo00);
-#		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00achiev);
+		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00achiev);
 #		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00achiev);
 		foreach my $uq (@UI00) {
 			my $lookupres= findinarray($uq, @UI00);
