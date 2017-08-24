@@ -189,8 +189,8 @@ sub legendary_dragonwrath ($%) {
 	BNet::Utils::preprint ($count, '29269', "At One", %multiuserquests);
 	BNet::Utils::preprint ($count, '29270', "Time Grows Short", %multiuserquests);
 	BNet::Utils::preprint ($count, '29285', "Alignment", %multiuserquests);
-	BNet::Utils::preprint ($count, '29307', "Heart of Flame	alliance", %multiuserquests);
-	BNet::Utils::preprint ($count, '29308', "Heart of Flame	horde", %multiuserquests);
+	BNet::Utils::preprint ($count, '29307', "Heart of Flame <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29308', "Heart of Flame <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '29312', "The Stuff of Legends <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '29309', "The Stuff of Legends <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 
