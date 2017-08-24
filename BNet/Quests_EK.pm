@@ -92,7 +92,7 @@ sub sz_1_10_belf_eversong ($%) {
 }
 
 
-sub z_10_ghostlands ($%) {
+sub z_10_20_ghostlands ($%) {
 	my ($count, %multiuserquests) = @_;
 
 
