@@ -134,4 +134,30 @@ sub legendary_rogue_daggers ($%) {
 }
 
 
+sub legendary_dragonwrath ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Legendary: Dragonwrath: Tarecgosa's Rest");
+	BNet::Utils::preprint ($count, '29453', "Your Time Has Come <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29452', "Your Time Has Come <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29132', "A Legendary Engagement <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29129', "A Legendary Engagement <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29134', "A Wrinkle in Time", %multiuserquests);
+	BNet::Utils::preprint ($count, '29135', "All-Seeing Eye", %multiuserquests);
+	BNet::Utils::preprint ($count, '29193', "On a Wing and a Prayer", %multiuserquests);
+	BNet::Utils::preprint ($count, '29194', "Through a Glass, Darkly", %multiuserquests);
+	BNet::Utils::preprint ($count, '29225', "Actionable Intelligence", %multiuserquests);
+	BNet::Utils::preprint ($count, '29234', "Delegation", %multiuserquests);
+	BNet::Utils::preprint ($count, '29239', "Nordrassil's Bough", %multiuserquests);
+	BNet::Utils::preprint ($count, '29240', "Emergency Extraction", %multiuserquests);
+	BNet::Utils::preprint ($count, '29269', "At One", %multiuserquests);
+	BNet::Utils::preprint ($count, '29270', "Time Grows Short", %multiuserquests);
+	BNet::Utils::preprint ($count, '29285', "Alignment", %multiuserquests);
+	BNet::Utils::preprint ($count, '29307', "Heart of Flame	alliance", %multiuserquests);
+	BNet::Utils::preprint ($count, '29308', "Heart of Flame	horde", %multiuserquests);
+	BNet::Utils::preprint ($count, '29312', "The Stuff of Legends <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29309', "The Stuff of Legends <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+}
+
 1;

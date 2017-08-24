@@ -622,10 +622,11 @@ sub __main__() {
 	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
 
 #Legendaries
-#	legendary_thunderfury ($count, %multiuserquests);
-#	legendary_cloak ($count, %multiuserquests);
-#	legendary_ring ($count, %multiuserquests);
-#	legendary_rogue_daggers ($count, %multiuserquests);
+#	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
+#	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
+#	BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
+#	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
+#	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
 
 }
 
