@@ -203,12 +203,12 @@ sub z_62_65_terokkar_forest ($%) {
 	BNet::Utils::preprint ($count, '39188', "Hero's Call: Terokkar Forest <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '39182', "Warchief's Command: Terokkar Forest <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::groupheader ("62: Terrokar Forest: Shattrath");
-1	BNet::Utils::preprint ($count, '0210', "A'dal", %multiuserquests);
-1	BNet::Utils::preprint ($count, '0211', "City of Light", %multiuserquests);
-1	BNet::Utils::preprint ($count, '0037', "Rather Be Fishin'", %multiuserquests);
-1	BNet::Utils::preprint ($count, '0917', "The Outcast's Plight", %multiuserquests);
-1	BNet::Utils::preprint ($count, '0180', "Can't Stay Away", %multiuserquests);
-1	BNet::Utils::preprint ($count, '0847', "The Eyes of Skettis", %multiuserquests);
+	BNet::Utils::preprint ($count, '10210', "A'dal", %multiuserquests);
+	BNet::Utils::preprint ($count, '10211', "City of Light", %multiuserquests);
+	BNet::Utils::preprint ($count, '10037', "Rather Be Fishin'", %multiuserquests);
+	BNet::Utils::preprint ($count, '10917', "The Outcast's Plight", %multiuserquests);
+	BNet::Utils::preprint ($count, '10180', "Can't Stay Away", %multiuserquests);
+	BNet::Utils::preprint ($count, '10847', "The Eyes of Skettis", %multiuserquests);
 	BNet::Utils::preprint ($count, '10849', "Seek Out Kirrik", %multiuserquests);
 	BNet::Utils::preprint ($count, '10839', "Veil Skith: Darkstone of Terokk", %multiuserquests);
 	BNet::Utils::preprint ($count, '10848', "Veil Rhaze: Unliving Evil", %multiuserquests);

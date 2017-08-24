@@ -623,10 +623,10 @@ sub __main__() {
 
 #Legendaries
 #	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
 #	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
 #	BNet::Quests_Legendaries::legendary_shadowmourne ($count, %multiuserquests);
 #	BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
+#	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
 #	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
 #	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
 
