@@ -62,7 +62,7 @@ sub artifact_hidden_base ($%) {
 	BNet::Utils::preprintachievement ($count, '32000', '10460', "Restoration: Acorn of the Endless", %multiusercriteria);
 	BNet::Utils::groupheader ("Hunter");
 	BNet::Utils::preprintachievement ($count, '32001', '10460', "Beast Mastery: Designs of the Grand Architect", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '32002', '10460', "Unknown Spec", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '32002', '10460', "Marksmanship: Syriel Crescentfall's Notes: Ravenguard", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32003', '10460', "Unknown Spec", %multiusercriteria);
 	BNet::Utils::groupheader ("Mage");
 	BNet::Utils::preprintachievement ($count, '32004', '10460', "Unknown Spec", %multiusercriteria);
