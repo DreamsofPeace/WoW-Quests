@@ -7,7 +7,9 @@ Quest Completion Order from http://wow.gamepedia.com and user comments from http
 
 #How to Use
 
-bnet-generate.pl -f file-name
+bnet-generate.pl -f file-name -a api-key
+
+api-key is from https://dev.battle.net
 
 file-name is in a tab delimited format.
 
