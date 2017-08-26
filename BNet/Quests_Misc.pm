@@ -163,8 +163,8 @@ sub dungeons ($%) {
 	BNet::Utils::preprint ($count, '27589', "The Grim Guzzler <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27591', "The Dark Iron Pact <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27593', "Rebirth of the K.E.F. <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27596', "The Heart of the Mountain
-	BNet::Utils::preprint ($count, '27603', "The Sealed Gate
+	BNet::Utils::preprint ($count, '27596', "The Heart of the Mountain", %multiuserquests);
+	BNet::Utils::preprint ($count, '27603', "The Sealed Gate", %multiuserquests);
 	BNet::Utils::preprint ($count, '28068', "Adventurers Wanted: Blackrock Depths <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '28069', "Adventurers Wanted: Blackrock Depths <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '28328', "Twilight Scheming <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_priest.jpg\">", %multiuserquests);
