@@ -15,7 +15,7 @@ sub apiget ($$$$){
 	my ($character, $server, $field, $apikey) = @_;
 	my $definedurl = "https://us.api.battle.net/wow/character/" . $server . "/" . $character . "?fields=" . $field . "&apikey=" . $apikey;
 	my $url = get($definedurl);
-	die "Couldn't get it!" unless defined $url;
+	die "Couldn't get it! $character $server" unless defined $url;
 
 	my $decoded = decode_json($url);
 	return $decoded;
