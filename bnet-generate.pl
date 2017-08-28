@@ -116,6 +116,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo00->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -133,6 +138,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo01->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -152,6 +162,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo02->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -169,6 +184,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo03->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -188,6 +208,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo04->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -205,6 +230,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo05->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -224,6 +254,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo06->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -241,6 +276,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo07->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -260,6 +300,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo08->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -277,6 +322,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo09->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -296,6 +346,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo10->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -313,6 +368,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo11->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -332,6 +392,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo12->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -349,6 +414,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo13->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -368,6 +438,11 @@ sub __main__() {
 					print "\n\t\t\t\t<div>";
 					print $userinfo14->{'level'};
 					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
+					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -385,6 +460,11 @@ sub __main__() {
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo15->{'level'};
+					print "</div>";
+				} else {
+					print "\n\t\t\t\t<div></div>\n";
+					print "\n\t\t\t\t<div>";
+					print $userinfo00->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
