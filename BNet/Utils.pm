@@ -115,9 +115,9 @@ sub determineclass ($) {
 sub determinegender ($) {
 	my ($decoded) = @_;
 	if ($decoded->{'gender'} == 1) {
-		print "Female&nbsp;";
+		print "Female";
 	} else {
-		print "Male&nbsp;";
+		print "Male";
 	}
 }
 
@@ -187,6 +187,21 @@ sub percharquests ($) {
 	my ($decoded) = @_;
 	my @raids = @{ $decoded->{'quests'} };
 	return @raids;
+}
+
+sub reputationtojson ($) {
+	my ($reputation) = @_;
+	my @raids = @{ $reputation->{'reputation'} };
+	return @raids;
+}
+
+sub reputationtohash ($%) {
+	my (@raids, %rephash) = @_;
+
+	foreach my $f ( @raids ) {
+	
+	}
+
 }
 
 sub preprint ($$$%) {
