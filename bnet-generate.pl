@@ -5,6 +5,8 @@ use LWP::Simple;
 use Data::Dumper;
 use Getopt::Long;
 use List::Util 1.33 'any';
+use Encode;
+
 #use FindBin;
 #use lib "$FindBin::Bin/BNet";
 BEGIN {
@@ -44,7 +46,7 @@ sub __main__() {
 		'a=s' => \$apikey,
 	);
 
-	open(my $yourhandle, '<', $file) # always use a variable here containing filename
+	open(my $yourhandle, '<:encoding(UCS-2le)', $file) # always use a variable here containing filename
 		or die "Unable to open file, $!";
 
 	my @entire_file=<$yourhandle>;
@@ -98,6 +100,7 @@ sub __main__() {
 		if( defined($columns[2]) ){
 			chomp ($columns[2]);
 		}
+		$columns[0] =~ s/^\x{FEFF}//;
 		if ($count == 0) {
 			if( defined($columns[1]) ){
 				$userinfo00 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
