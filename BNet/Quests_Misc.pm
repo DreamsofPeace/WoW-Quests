@@ -460,14 +460,72 @@ sub dungeons ($%) {
 }
 
 
+sub class_quests ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Various Class Quests");
+=pod
+27225	A Summons from Ander Germaine	class=1	Warrior	icon-alliance
+27265	Lord Grayson Shadowbreaker	class=2	Paladin	icon-alliance
+27266	Wulf Calls	class=3	Hunter	icon-alliance
+27267	Make Contact with SI:7	class=4	Rogue	icon-alliance
+27268	Make Haste to the Cathedral	class=5	Priest	icon-alliance
+27269	The Temple of the Moon	class=5	Priest
+27270	An Audience with the Farseer	class=7	Shaman
+27271	Journey to the Wizard's Sanctum	class=8	Mage	icon-alliance
+27272	Demisette Sends Word	class=9	Warlock	icon-alliance
+27273	An Invitation from Moonglade	class=11	Druid
+27274	The Chief Surgeon	class=5	Priest
+27277	An Audience with Ureda	class=8	Mage	icon-horde
+27278	Grimshot's Call	class=3	Hunter	icon-horde
+27279	The Shattered Hand	class=4	Rogue	icon-horde
+27280	The Earthbreaker Calls	class=7	Shaman	icon-horde
+27281	Grezz Ragefist	class=1	Warrior	icon-horde
+27282	Kranosh's Behest	class=9	Warlock	icon-horde
+27283	A Journey to Moonglade	class=11	Druid
+27298	Seek Out Master Pyreanor	class=2	Paladin
+27304	Follow the Sun	class=2	Paladin
+27331	The Seer's Call	class=5	Priest	icon-horde
+27332	Seek the Shadow-Walker	class=5	Priest
+27334	Dark Cleric Cecille	class=5	Priest
+27335	Journey to Orgrimmar	class=5	Priest
+27337	A Fitting Weapon	class=1	Warrior	icon-alliance
+27343	The Hand of the Light	class=2	Paladin
+27344	A Well-Earned Reward	class=3	Hunter	icon-alliance
+27351	A Royal Reward	class=4	Rogue	icon-alliance
+27353	Blessings of the Elements	class=7	Shaman
+27354	Mastering the Arcane	class=8	Mage	icon-alliance
+27355	A Boon for the Powerful	class=9	Warlock	icon-alliance
+27356	The Circle's Future	class=11	Druid
+27361	Favored of the Light	class=5	Priest	icon-alliance
+27362	Favored of Elune	class=5	Priest
+27363	A Budding Young Surgeon	class=5	Priest
+27365	A Fitting Weapon	class=1	Warrior	icon-horde
+27395	A Marksman's Weapon	class=3	Hunter	icon-horde
+27396	Blade of the Shattered Hand	class=4	Rogue	icon-horde
+27397	Terga's Task	class=7	Shaman	icon-horde
+27400	Mastering the Arcane	class=8	Mage	icon-horde
+27402	Token of Power	class=9	Warlock	icon-horde
+27403	A True Sunwalker	class=2	Paladin
+27404	The Circle's Future	class=11	Druid
+27434	The Adept's Path	class=2	Paladin
+27435	A Seer's Staff	class=5	Priest
+27436	The Shadow-Walker's Task	class=5	Priest
+27437	The Dark Cleric's Bidding	class=5	Priest
+27439	Staff of the Light	class=5	Priest
+27441	A Seer's Staff	class=5	Priest
+28164	Seek Brother Silverhallow	class=5	Priest	icon-horde
+=cut
+}
+
 sub warlock_green_fire ($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Warlock: Green Fire");
 	BNet::Utils::preprint ($count, '32295', "An Unusual Tome", %multiuserquests);
 	BNet::Utils::preprint ($count, '32307', "Reader for the Dead Tongue", %multiuserquests);
-	BNet::Utils::preprint ($count, '32309', "A Tale of Six Masters horde", %multiuserquests);
-	BNet::Utils::preprint ($count, '32310', "A Tale of Six Masters alliance", %multiuserquests);
+	BNet::Utils::preprint ($count, '32310', "A Tale of Six Masters <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32309', "A Tale of Six Masters <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '32317', "Seeking the Soulstones", %multiuserquests);
 	BNet::Utils::preprint ($count, '32324', "Seek the Signal", %multiuserquests);
 	BNet::Utils::preprint ($count, '32325', "Infiltrating the Black Temple", %multiuserquests);
