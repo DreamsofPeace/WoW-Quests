@@ -105,12 +105,12 @@ sub class_hall_set ($%) {
 
 	BNet::Utils::groupheader ("Class Order Hall Set");
 	BNet::Utils::preprintachievement ($count, '5212', '11298', "Class Hall Helm (Level 110)", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Shoulders (8 Final Dungeon Bosses)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Shoulders (Nightfallen Exaulted)", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Chestpiece", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '5212', '11298', "Class Hall Bracers", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Gloves", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Bracers", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Gloves (Nightfallen Honored)", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '30103', '11298', "Class Hall Belt", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Leggings", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Leggings (8 Final Dungeon Bosses)", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Boots", %multiusercriteria);
 
 
