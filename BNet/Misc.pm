@@ -104,13 +104,33 @@ sub class_hall_set ($%) {
 	my ($count, %multiusercriteria) = @_;
 
 	BNet::Utils::groupheader ("Class Order Hall Set");
+	#Needs to check if level 110
 	BNet::Utils::preprintachievement ($count, '5212', '11298', "Class Hall Helm (Level 110)", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Shoulders (8 Final Dungeon Bosses)", %multiusercriteria);
+	#Needs to check if 42000
+	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Shoulders (Nightfallen Exalted)", %multiusercriteria);
+	#Final Quest of the Order Hall Campaign
+	#43686	The Fourth Horseman	Death Knight
+	#43186	I Am the Slayer!	Demon Hunter
+	#42055	The Demi-God's Return	Druid
+	#42659	In Defense of Dalaran	Hunter
+	#41087	Storm Brew	Monk
+	#42734	Into the Oculus	Mage
+	#43697	Warriors of Light	Paladin
+	#43402	High Priest of Netherlight	Priest
+	#37689	The Imposter	Rogue
+	#41888	Allegiance of Flame	Shaman
+	#41796	Selecting a Sixth	Warlock
+	#42974	The Fate of Hodir	Warrior
 	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Chestpiece", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '5212', '11298', "Class Hall Bracers", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Gloves", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '30103', '11298', "Class Hall Belt", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Leggings", %multiusercriteria);
+	#Recruit 6 Champions, Check if 6 or over
+	BNet::Utils::preprintachievement ($count, '33142', '11298', "Class Hall Bracers", %multiusercriteria);
+	#Needs to check if over 9000
+	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Gloves (Nightfallen Honored)", %multiusercriteria);
+	#Needs to check if over 100000
+	BNet::Utils::preprintachievement ($count, '30103', '11298', "Class Hall Belt (100k AP)", %multiusercriteria);
+	#Defeat 8 Final Dungeons bosses
+	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Leggings (8 Final Dungeon Bosses)", %multiusercriteria);
+	#Exaulted with 2 Broken Isles Factions
 	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Boots", %multiusercriteria);
 
 

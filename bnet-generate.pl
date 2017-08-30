@@ -481,7 +481,7 @@ sub __main__() {
 	if (0 < $count) {
 		my @UI00 = BNet::Utils::percharquests ($userinfo00);
 		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00achiev);
-#		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00achiev);
+		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00achiev);
 		foreach my $uq (@UI00) {
 			my $lookupres= findinarray($uq, @UI00);
 			$multiuserquests{0}{$uq} = $lookupres;
@@ -494,6 +494,7 @@ sub __main__() {
 	if (1 < $count) {
 		my @UI01 = BNet::Utils::percharquests ($userinfo01);
 		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01achiev);
+		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01achiev);
 		foreach my $uq (@UI01) {
 			my $lookupres= findinarray($uq, @UI01);
 			$multiuserquests{1}{$uq} = $lookupres;
@@ -506,6 +507,7 @@ sub __main__() {
 	if (2 < $count) {
 		my @UI02 = BNet::Utils::percharquests ($userinfo02);
 		my @UI02A = BNet::Utils::percharachievementscriteria ($userinfo02achiev);
+		my @UI02B = BNet::Utils::percharachievementscriteriaquantity ($userinfo02achiev);
 		foreach my $uq (@UI02) {
 			my $lookupres= findinarray($uq, @UI02);
 			$multiuserquests{2}{$uq} = $lookupres;
@@ -518,6 +520,7 @@ sub __main__() {
 	if (3 < $count) {
 		my @UI03 = BNet::Utils::percharquests ($userinfo03);
 		my @UI03A = BNet::Utils::percharachievementscriteria ($userinfo03achiev);
+		my @UI03B = BNet::Utils::percharachievementscriteriaquantity ($userinfo03achiev);
 		foreach my $uq (@UI03) {
 			my $lookupres= findinarray($uq, @UI03);
 			$multiuserquests{3}{$uq} = $lookupres;
@@ -530,6 +533,7 @@ sub __main__() {
 	if (4 < $count) {
 		my @UI04 = BNet::Utils::percharquests ($userinfo04);
 		my @UI04A = BNet::Utils::percharachievementscriteria ($userinfo04achiev);
+		my @UI04B = BNet::Utils::percharachievementscriteriaquantity ($userinfo04achiev);
 		foreach my $uq (@UI04) {
 			my $lookupres= findinarray($uq, @UI04);
 			$multiuserquests{4}{$uq} = $lookupres;
@@ -542,6 +546,7 @@ sub __main__() {
 	if (5 < $count) {
 		my @UI05 = BNet::Utils::percharquests ($userinfo05);
 		my @UI05A = BNet::Utils::percharachievementscriteria ($userinfo05achiev);
+		my @UI05B = BNet::Utils::percharachievementscriteriaquantity ($userinfo05achiev);
 		foreach my $uq (@UI05) {
 			my $lookupres= findinarray($uq, @UI05);
 			$multiuserquests{5}{$uq} = $lookupres;
@@ -554,6 +559,7 @@ sub __main__() {
 	if (6 < $count) {
 		my @UI06 = BNet::Utils::percharquests ($userinfo06);
 		my @UI06A = BNet::Utils::percharachievementscriteria ($userinfo06achiev);
+		my @UI06B = BNet::Utils::percharachievementscriteriaquantity ($userinfo06achiev);
 		foreach my $uq (@UI06) {
 			my $lookupres= findinarray($uq, @UI06);
 			$multiuserquests{6}{$uq} = $lookupres;
@@ -566,6 +572,7 @@ sub __main__() {
 	if (7 < $count) {
 		my @UI07 = BNet::Utils::percharquests ($userinfo07);
 		my @UI07A = BNet::Utils::percharachievementscriteria ($userinfo07achiev);
+		my @UI07B = BNet::Utils::percharachievementscriteriaquantity ($userinfo07achiev);
 		foreach my $uq (@UI07) {
 			my $lookupres= findinarray($uq, @UI07);
 			$multiuserquests{7}{$uq} = $lookupres;
@@ -578,6 +585,7 @@ sub __main__() {
 	if (8 < $count) {
 		my @UI08 = BNet::Utils::percharquests ($userinfo08);
 		my @UI08A = BNet::Utils::percharachievementscriteria ($userinfo08achiev);
+		my @UI08B = BNet::Utils::percharachievementscriteriaquantity ($userinfo08achiev);
 		foreach my $uq (@UI08) {
 			my $lookupres= findinarray($uq, @UI08);
 			$multiuserquests{8}{$uq} = $lookupres;
@@ -590,6 +598,7 @@ sub __main__() {
 	if (9 < $count) {
 		my @UI09 = BNet::Utils::percharquests ($userinfo09);
 		my @UI09A = BNet::Utils::percharachievementscriteria ($userinfo09achiev);
+		my @UI09B = BNet::Utils::percharachievementscriteriaquantity ($userinfo09achiev);
 		foreach my $uq (@UI09) {
 			my $lookupres= findinarray($uq, @UI09);
 			$multiuserquests{9}{$uq} = $lookupres;
@@ -602,6 +611,7 @@ sub __main__() {
 	if (10 < $count) {
 		my @UI10 = BNet::Utils::percharquests ($userinfo10);
 		my @UI10A = BNet::Utils::percharachievementscriteria ($userinfo10achiev);
+		my @UI10B = BNet::Utils::percharachievementscriteriaquantity ($userinfo10achiev);
 		foreach my $uq (@UI10) {
 			my $lookupres= findinarray($uq, @UI10);
 			$multiuserquests{10}{$uq} = $lookupres;
@@ -614,6 +624,7 @@ sub __main__() {
 	if (11 < $count) {
 		my @UI11 = BNet::Utils::percharquests ($userinfo11);
 		my @UI11A = BNet::Utils::percharachievementscriteria ($userinfo11achiev);
+		my @UI11B = BNet::Utils::percharachievementscriteriaquantity ($userinfo11achiev);
 		foreach my $uq (@UI11) {
 			my $lookupres= findinarray($uq, @UI11);
 			$multiuserquests{11}{$uq} = $lookupres;
@@ -626,6 +637,7 @@ sub __main__() {
 	if (12 < $count) {
 		my @UI12 = BNet::Utils::percharquests ($userinfo12);
 		my @UI12A = BNet::Utils::percharachievementscriteria ($userinfo12achiev);
+		my @UI12B = BNet::Utils::percharachievementscriteriaquantity ($userinfo12achiev);
 		foreach my $uq (@UI12) {
 			my $lookupres= findinarray($uq, @UI12);
 			$multiuserquests{12}{$uq} = $lookupres;
@@ -638,6 +650,7 @@ sub __main__() {
 	if (13 < $count) {
 		my @UI13 = BNet::Utils::percharquests ($userinfo13);
 		my @UI13A = BNet::Utils::percharachievementscriteria ($userinfo13achiev);
+		my @UI13B = BNet::Utils::percharachievementscriteriaquantity ($userinfo13achiev);
 		foreach my $uq (@UI13) {
 			my $lookupres= findinarray($uq, @UI13);
 			$multiuserquests{13}{$uq} = $lookupres;
@@ -650,6 +663,7 @@ sub __main__() {
 	if (14 < $count) {
 		my @UI14 = BNet::Utils::percharquests ($userinfo14);
 		my @UI14A = BNet::Utils::percharachievementscriteria ($userinfo14achiev);
+		my @UI14B = BNet::Utils::percharachievementscriteriaquantity ($userinfo14achiev);
 		foreach my $uq (@UI14) {
 			my $lookupres= findinarray($uq, @UI14);
 			$multiuserquests{14}{$uq} = $lookupres;
@@ -662,6 +676,7 @@ sub __main__() {
 	if (15 < $count) {
 		my @UI15 = BNet::Utils::percharquests ($userinfo15);
 		my @UI15A = BNet::Utils::percharachievementscriteria ($userinfo15achiev);
+		my @UI15B = BNet::Utils::percharachievementscriteriaquantity ($userinfo15achiev);
 		foreach my $uq (@UI15) {
 			my $lookupres= findinarray($uq, @UI15);
 			$multiuserquests{15}{$uq} = $lookupres;
