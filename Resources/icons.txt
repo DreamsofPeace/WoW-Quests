@@ -10,4 +10,4 @@
  <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\">
  <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_warlock.jpg\">
  <img src=\"http://wow.zamimg.com/images/wow/icons/small/alliance.png\">
- <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/horde.png\">

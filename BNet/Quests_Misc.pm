@@ -262,7 +262,6 @@ sub dungeons ($%) {
 	BNet::Utils::preprint ($count, '29689', "Advancing the Campaign <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '29688', "Advancing the Campaign <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::groupheader ("Shadow Labyrinth");
-	BNet::Utils::preprint ($count, '10649', "The Book of Fel Names", %multiuserquests);
 	BNet::Utils::preprint ($count, '29640', "Find Spy To'gun", %multiuserquests);
 	BNet::Utils::preprint ($count, '29641', "The Soul Devices", %multiuserquests);
 	BNet::Utils::preprint ($count, '29642', "Trouble at Auchindoun", %multiuserquests);
