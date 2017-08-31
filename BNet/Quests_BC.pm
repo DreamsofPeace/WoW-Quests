@@ -527,4 +527,16 @@ sub z_67_70_shadowmoon_valley ($%) {
 
 }
 
+sub z_70_isle_of_queldanas ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("70: Isle of Quel'Danas");
+	BNet::Utils::preprint ($count, '11554', "A Friend in the Frontlines", %multiuserquests);
+	BNet::Utils::preprint ($count, '11555', "Honored by Your Allies", %multiuserquests);
+	BNet::Utils::preprint ($count, '11556', "Revered in the Field of Battle", %multiuserquests);
+	BNet::Utils::preprint ($count, '11557', "Exalted Among All Combatants", %multiuserquests);
+	BNet::Utils::preprint ($count, '11549', "A Magnanimous Benefactor", %multiuserquests);
+
+}
+
 1;
