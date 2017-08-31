@@ -89,7 +89,7 @@ sub artifact_hidden_base ($%) {
 	BNet::Utils::preprintachievement ($count, '32020', '10460', "Enhancement: The Warmace of Shirvallah", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32021', '10460', "Unknown Spec", %multiusercriteria);
 	BNet::Utils::groupheader ("Warlock");
-	BNet::Utils::preprintachievement ($count, '32022', '10460', "Unknown Spec", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '32022', '10460', "Affliction: Essence of the Executioner", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32023', '10460', "Unknown Spec", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32024', '10460', "Unknown Spec", %multiusercriteria);
 	BNet::Utils::groupheader ("Warrior");
