@@ -109,7 +109,6 @@ sub class_hall_set ($%) {
 	BNet::Utils::groupheader ("Class Order Hall Set");
 	#Needs to check if level 110
 	BNet::Utils::preprintachievement ($count, '5212', '11298', "Class Hall Helm (Level 110)", %multiusercriteria);
-<<<<<<< HEAD
 	#Needs to check if 42000
 	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Shoulders (Nightfallen Exalted)", %multiusercriteria);
 	#Final Quest of the Order Hall Campaign
@@ -135,16 +134,6 @@ sub class_hall_set ($%) {
 	#Defeat 8 Final Dungeons bosses
 	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Leggings (8 Final Dungeon Bosses)", %multiusercriteria);
 	#Exaulted with 2 Broken Isles Factions
-=======
-	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Shoulders (Nightfallen Exaulted)", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Chestpiece", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Bracers", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '30499', '11298', "Class Hall Gloves (Nightfallen Honored)", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '30103', '11298', "Class Hall Belt", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Leggings (8 Final Dungeon Bosses)", %multiusercriteria);
->>>>>>> master
-	BNet::Utils::preprintachievement ($count, '0', '11298', "Class Hall Boots", %multiusercriteria);
-
 
 }
 
