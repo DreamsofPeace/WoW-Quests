@@ -1,0 +1,13 @@
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_deathknight.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_demonhunter.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_druid.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_hunter.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_mage.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_monk.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_paladin.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_priest.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_rogue.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_warlock.jpg\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/alliance.png\">
+ <img src=\"http://wow.zamimg.com/images/wow/icons/small/horde.png\">

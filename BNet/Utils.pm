@@ -179,7 +179,7 @@ sub percharachievementscriteria ($) {
 
 sub percharachievementscriteriaquantity ($) {
 	my ($decoded) = @_;
-	my @raids = @{ $decoded->{'criteriaQuantity'} };
+	my @raids = @{ $decoded->{'achievements'}{'criteriaQuantity'} };
 	return @raids;
 }
 
@@ -474,39 +474,51 @@ sub htmlheadprint () {
 	print "\t\t\tfont-size:	14px;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Death-Knight {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#C41F3B;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Demon-Hunter {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#A330C9;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Druid {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#FF7D0A;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Hunter {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#ABD473;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Mage {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#69CCF0;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Monk {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#00FF96;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Paladin {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#F58CBA;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Priest {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#FFFFFF;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Rogue {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#FFF569;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Shaman {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#0070DE;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Warlock {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#9482C9;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Warrior {\n";
+	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#C79C6E;\n";
 	print "\t\t}\n";
 	print "\t\ttable tr.Complete {\n";
