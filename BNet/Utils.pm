@@ -179,7 +179,7 @@ sub percharachievementscriteria ($) {
 
 sub percharachievementscriteriaquantity ($) {
 	my ($decoded) = @_;
-	my @raids = @{ $decoded->{'criteriaQuantity'} };
+	my @raids = @{ $decoded->{'achievements'}{'criteriaQuantity'} };
 	return @raids;
 }
 
