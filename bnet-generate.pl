@@ -742,7 +742,7 @@ sub __main__() {
 #	BNet::Quests_BC::z_58_63_hellfire_peninsula ($count, %multiuserquests);
 #	BNet::Quests_BC::z_60_64_zangarmarsh ($count, %multiuserquests);
 #	BNet::Quests_BC::z_62_65_terokkar_forest ($count, %multiuserquests);
-	BNet::Quests_BC::z_64_67_Nagrand ($count, %multiuserquests);
+	BNet::Quests_BC::z_64_67_nagrand ($count, %multiuserquests);
 ##	BNet::Quests_BC::z_65_68_Blades_Edge_Mountains ($count, %multiuserquests);
 ##	BNet::Quests_BC::z_67_70_netherstorm ($count, %multiuserquests);
 ##	BNet::Quests_BC::z_67_70_shadowmoon_valley ($count, %multiuserquests);
@@ -793,9 +793,9 @@ sub __main__() {
 	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
 	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
 	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_Argus_Krokuun ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_Argus_MacAree ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_Argus_Antoran_Wastes ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus_Krokuun ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus_MacAree ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus_Antoran_Wastes ($count, %multiuserquests);
 
 #Artifact Base Hidden Appearances
 	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
