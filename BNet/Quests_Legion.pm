@@ -322,12 +322,6 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39439', "Stonedark Relics", %multiuserquests);
 	BNet::Utils::preprint ($count, '39437', "Deep in the Cavern", %multiuserquests);
 	BNet::Utils::preprint ($count, '39438', "Guhruhlruhlruh", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Shipwreck Cove");
-	BNet::Utils::preprint ($count, '40049', "Slime Time", %multiuserquests);
-	BNet::Utils::preprint ($count, '40047', "I'll Huff, I'll Puff...", %multiuserquests);
-	BNet::Utils::preprint ($count, '40045', "Nature vs. Nurture", %multiuserquests);
-	BNet::Utils::preprint ($count, '40102', "Murlocs: The Next Generation", %multiuserquests);
-	BNet::Utils::preprint ($count, '40230', "Oh, the Clawdacity!", %multiuserquests);
 	BNet::Utils::groupheader ("Highmountain: Rockcrawler Chasm");
 	BNet::Utils::preprint ($count, '40070', "Eagle Egg Recovery", %multiuserquests);
 	BNet::Utils::preprint ($count, '39305', "Empty Nest", %multiuserquests);
@@ -340,7 +334,19 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '40170', "Amateur Hour", %multiuserquests);
 	BNet::Utils::preprint ($count, '39859', "Note-Eating Goats", %multiuserquests);
 	BNet::Utils::preprint ($count, '40216', "A Hunter at Heart", %multiuserquests);
+	BNet::Utils::preprint ($count, '40228', "Scout It Out", %multiuserquests);
+	BNet::Utils::preprint ($count, '39392', "Bear Huntin'", %multiuserquests);
+	BNet::Utils::preprint ($count, '39123', "Lion Stalkin'", %multiuserquests);
+	BNet::Utils::preprint ($count, '39124', "Moose Shootin'", %multiuserquests);
+	BNet::Utils::preprint ($count, '39178', "Moose on the Loose'", %multiuserquests);
 	BNet::Utils::preprint ($count, '39867', "I\'m Not Lion!", %multiuserquests);
+	BNet::Utils::preprint ($count, '40244', "That Guy in the Costume", %multiuserquests);
+	BNet::Utils::groupheader ("Highmountain: Shipwreck Cove");
+	BNet::Utils::preprint ($count, '40049', "Slime Time", %multiuserquests);
+	BNet::Utils::preprint ($count, '40047', "I'll Huff, I'll Puff...", %multiuserquests);
+	BNet::Utils::preprint ($count, '40045', "Nature vs. Nurture", %multiuserquests);
+	BNet::Utils::preprint ($count, '40102', "Murlocs: The Next Generation", %multiuserquests);
+	BNet::Utils::preprint ($count, '40230', "Oh, the Clawdacity!", %multiuserquests);
 	BNet::Utils::groupheader ("Highmountain: Candle King");
 	BNet::Utils::preprint ($count, '39768', "Candle to the Grave", %multiuserquests);
 	BNet::Utils::preprint ($count, '39765', "Wax On, Wax Off", %multiuserquests);
@@ -1008,6 +1014,8 @@ sub z_110_Argus_Krokuun ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("110: Argus: Krokuun (Quest List Retrieved from wowhead on 2017-08-18");
 
+	BNet::Utils::preprint ($count, '48506', "The Hand of Fate", %multiuserquests);
+	BNet::Utils::preprint ($count, '48507', "The Hand of Fate", %multiuserquests);
 	BNet::Utils::preprint ($count, '40238', "A Grim Equation", %multiuserquests);
 	BNet::Utils::preprint ($count, '46213', "Crystals Not Included", %multiuserquests);
 	BNet::Utils::preprint ($count, '46297', "Overwhelming Power", %multiuserquests);
@@ -1068,8 +1076,6 @@ sub z_110_Argus_Krokuun ($%) {
 	BNet::Utils::preprint ($count, '48461', "Where They Least Expect It", %multiuserquests);
 	BNet::Utils::preprint ($count, '48483', "A Stranger's Plea", %multiuserquests);
 	BNet::Utils::preprint ($count, '48500', "A Moment of Respite", %multiuserquests);
-	BNet::Utils::preprint ($count, '48506', "The Hand of Fate", %multiuserquests);
-	BNet::Utils::preprint ($count, '48507', "The Hand of Fate", %multiuserquests);
 	BNet::Utils::preprint ($count, '48542', "Strike Back", %multiuserquests);
 	BNet::Utils::preprint ($count, '48544', "Woah, Nelly!", %multiuserquests);
 	BNet::Utils::preprint ($count, '48803', "Forging a Key to the Past", %multiuserquests);
