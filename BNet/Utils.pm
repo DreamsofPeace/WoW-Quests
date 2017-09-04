@@ -188,6 +188,14 @@ sub percharquests ($) {
 	my @raids = @{ $decoded->{'quests'} };
 	return @raids;
 }
+#$reputation->{'professions'}{'primary'}{'recipes'} };
+
+
+#sub percharquests ($) {
+#	my ($decoded) = @_;
+#	my @raids = @{ $decoded->{'quests'} };
+#	return @raids;
+#}
 
 sub reputationtojson ($) {
 	my ($reputation) = @_;
