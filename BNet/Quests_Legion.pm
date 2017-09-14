@@ -996,26 +996,11 @@ sub empoweredartifacts ($%) {
 	BNet::Utils::preprint ($count, '45905', "Krull's Gift", %multiuserquests);
 }
 
-
-
-
-sub artifact_skins_base ($%) {
-	my ($count, %multiuserquests) = @_;
-	
-	
-	groupheader ("Base Colors");
-	preprint ($count, '44153', "Light's Charge", %multiuserquests);
-	groupheader ("Hidden Potential");
-
-
-}
-
 sub z_110_Argus_Krokuun ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("110: Argus: Krokuun (Quest List Retrieved from wowhead on 2017-08-18");
-
-	BNet::Utils::preprint ($count, '48506', "The Hand of Fate", %multiuserquests);
-	BNet::Utils::preprint ($count, '48507', "The Hand of Fate", %multiuserquests);
+	BNet::Utils::preprint ($count, '47221', "The Hand of Fate <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47835', "The Hand of Fate <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '40238', "A Grim Equation", %multiuserquests);
 	BNet::Utils::preprint ($count, '46213', "Crystals Not Included", %multiuserquests);
 	BNet::Utils::preprint ($count, '46297', "Overwhelming Power", %multiuserquests);
