@@ -259,6 +259,114 @@ sub preprintachievement ($$$$%) {
 	$qc{fourteen} = $multiuserquests{14}{$qid};
 	$qc{fifteen} = $multiuserquests{15}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
+}
+
+sub preprintachievementvia4q ($$$$$$$$%) {
+	my ($count, $qid, $aid, $ql, $q01, $q02, $q03, $q04, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "\t\t\t<a href=\"http://www.wowhead.com/achievement=" . $aid . "\"  rel=\"achievement=" . $aid . "\">" . $ql ."</a>";
+#	print $wowheadurl;
+
+	if ($multiuserquests{0}{$q01} == $q01 ||
+		$multiuserquests{0}{$q02} == $q02 ||
+		$multiuserquests{0}{$q03} == $q03 ||
+		$multiuserquests{0}{$q04} == $q04) {
+		$qc{zero} = 'yes'
+	} else {
+		$qc{zero} = 'no'
+	}
+	#if ($multiuserquests{1}{$qid} == $q01 || $multiuserquests{1}{$qid} == $q02 || $multiuserquests{1}{$qid} == $q03 || $multiuserquests{1}{$q04} == $q04) {
+	#	$qc{one} = 'yes'
+	#} else {
+	#	$qc{one} = 'no'
+	#}
+	#if ($multiuserquests{2}{$qid} == $q01 || $multiuserquests{2}{$qid} == $q02 || $multiuserquests{2}{$qid} == $q03 || $multiuserquests{2}{$q04} == $q04) {
+	#	$qc{two} = 'yes'
+	#} else {
+	#	$qc{two} = 'no'
+	#}
+	#if ($multiuserquests{3}{$qid} == $q01 || $multiuserquests{3}{$qid} == $q02 || $multiuserquests{3}{$qid} == $q03 || $multiuserquests{3}{$q04} == $q04) {
+	#	$qc{three} = 'yes'
+	#} else {
+	#	$qc{three} = 'no'
+	#}
+	#if ($multiuserquests{4}{$qid} == $q01 || $multiuserquests{4}{$qid} == $q02 || $multiuserquests{4}{$qid} == $q03 || $multiuserquests{4}{$q04} == $q04) {
+	#	$qc{four} = 'yes'
+	#} else {
+	#	$qc{four} = 'no'
+	#}
+	#if ($multiuserquests{5}{$qid} == $q01 || $multiuserquests{5}{$qid} == $q02 || $multiuserquests{5}{$qid} == $q03 || $multiuserquests{5}{$q04} == $q04) {
+	#	$qc{five} = 'yes'
+	#} else {
+	#	$qc{five} = 'no'
+	#}
+	#if ($multiuserquests{6}{$qid} == $q01 || $multiuserquests{6}{$qid} == $q02 || $multiuserquests{6}{$qid} == $q03 || $multiuserquests{6}{$q04} == $q04) {
+	#	$qc{six} = 'yes'
+	#} else {
+	#	$qc{six} = 'no'
+	#}
+	#if ($multiuserquests{7}{$qid} == $q01 || $multiuserquests{7}{$qid} == $q02 || $multiuserquests{7}{$qid} == $q03 || $multiuserquests{7}{$q04} == $q04) {
+	#	$qc{seven} = 'yes'
+	#} else {
+	#	$qc{seven} = 'no'
+	#}
+	#if ($multiuserquests{8}{$qid} == $q01 || $multiuserquests{8}{$qid} == $q02 || $multiuserquests{8}{$qid} == $q03 || $multiuserquests{8}{$q04} == $q04) {
+	#	$qc{eight} = 'yes'
+	#} else {
+	#	$qc{eight} = 'no'
+	#}
+	#if ($multiuserquests{9}{$qid} == $q01 || $multiuserquests{9}{$qid} == $q02 || $multiuserquests{9}{$qid} == $q03 || $multiuserquests{9}{$q04} == $q04) {
+	#	$qc{nine} = 'yes'
+	#} else {
+	#	$qc{nine} = 'no'
+	#}
+	#if ($multiuserquests{10}{$qid} == $q01 || $multiuserquests{10}{$qid} == $q02 || $multiuserquests{10}{$qid} == $q03 || $multiuserquests{10}{$q04} == $q04) {
+	#	$qc{ten} = 'yes'
+	#} else {
+	#	$qc{ten} = 'no'
+	#}
+	#if ($multiuserquests{11}{$qid} == $q01 || $multiuserquests{11}{$qid} == $q02 || $multiuserquests{11}{$qid} == $q03 || $multiuserquests{11}{$q04} == $q04) {
+	#	$qc{eleven} = 'yes'
+	#} else {
+	#	$qc{eleven} = 'no'
+	#}
+	#if ($multiuserquests{12}{$qid} == $q01 || $multiuserquests{12}{$qid} == $q02 || $multiuserquests{12}{$qid} == $q03 || $multiuserquests{12}{$q04} == $q04) {
+	#	$qc{twelve} = 'yes'
+	#} else {
+	#	$qc{twelve} = 'no'
+	#}
+	#if ($multiuserquests{13}{$qid} == $q01 || $multiuserquests{13}{$qid} == $q02 || $multiuserquests{13}{$qid} == $q03 || $multiuserquests{13}{$q04} == $q04) {
+	#	$qc{thirteen} = 'yes'
+	#} else {
+	#	$qc{thirteen} = 'no'
+	#}
+	#if ($multiuserquests{14}{$qid} == $q01 || $multiuserquests{14}{$qid} == $q02 || $multiuserquests{14}{$qid} == $q03 || $multiuserquests{14}{$q04} == $q04) {
+	#	$qc{fourteen} = 'yes'
+	#} else {
+	#	$qc{fourteen} = 'no'
+	#}
+	#if ($multiuserquests{15}{$qid} == $q01 || $multiuserquests{15}{$qid} == $q02 || $multiuserquests{15}{$qid} == $q03 || $multiuserquests{15}{$q04} == $q04) {
+	#	$qc{fifteen} = 'yes'
+	#} else {
+	#	$qc{fifteen} = 'no'
+	#}
+#	$qc{zero}     = $multiuserquests{0}{$qid};
+#	$qc{one}      = $multiuserquests{1}{$qid};
+#	$qc{two}      = $multiuserquests{2}{$qid};
+#	$qc{three}    = $multiuserquests{3}{$qid};
+#	$qc{four}     = $multiuserquests{4}{$qid};
+#	$qc{five}     = $multiuserquests{5}{$qid};
+#	$qc{six}      = $multiuserquests{6}{$qid};
+#	$qc{seven}    = $multiuserquests{7}{$qid};
+#	$qc{eight}    = $multiuserquests{8}{$qid};
+#	$qc{nine}     = $multiuserquests{9}{$qid};
+#	$qc{ten}      = $multiuserquests{10}{$qid};
+#	$qc{eleven}   = $multiuserquests{11}{$qid};
+#	$qc{twelve}   = $multiuserquests{12}{$qid};
+#	$qc{thirteen} = $multiuserquests{13}{$qid};
+#	$qc{fourteen} = $multiuserquests{14}{$qid};
+#	$qc{fifteen}  = $multiuserquests{15}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
 	
 }
 
