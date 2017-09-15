@@ -742,11 +742,11 @@ sub __main__() {
 #	BNet::Quests_BC::z_58_63_hellfire_peninsula ($count, %multiuserquests);
 #	BNet::Quests_BC::z_60_64_zangarmarsh ($count, %multiuserquests);
 #	BNet::Quests_BC::z_62_65_terokkar_forest ($count, %multiuserquests);
-	BNet::Quests_BC::z_64_67_nagrand ($count, %multiuserquests);
+#	BNet::Quests_BC::z_64_67_nagrand ($count, %multiuserquests);
 ##	BNet::Quests_BC::z_65_68_Blades_Edge_Mountains ($count, %multiuserquests);
 ##	BNet::Quests_BC::z_67_70_netherstorm ($count, %multiuserquests);
 ##	BNet::Quests_BC::z_67_70_shadowmoon_valley ($count, %multiuserquests);
-	BNet::Quests_BC::z_70_isle_of_queldanas ($count, %multiuserquests);
+#	BNet::Quests_BC::z_70_isle_of_queldanas ($count, %multiuserquests);
 #
 ##Northrend
 #	BNet::Quests_Wrath::z_68_72_borean_tundra ($count, %multiuserquests);
@@ -786,7 +786,7 @@ sub __main__() {
 ##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
 
 #Legion
-	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
 	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
 	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
 	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
@@ -799,10 +799,11 @@ sub __main__() {
 
 #Artifact Base Hidden Appearances
 	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
 	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
 	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 	BNet::Misc::class_hall_set ($count, %multiusercriteria);
+	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 
 #Class Specific
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
