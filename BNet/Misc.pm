@@ -47,7 +47,7 @@ sub artifact_non_hidden ($%) {
 sub artifact_hidden_base ($%) {
 	my ($count, %multiusercriteria) = @_;
 
-#List COmpleted by Gabriellus 
+#List Completed by Gabriellus 
 #https://us.battle.net/forums/en/bnet/topic/20758756614
 
 	BNet::Utils::groupheader ("Artifact: Hidden Base Appearances");
@@ -137,4 +137,31 @@ sub class_hall_set ($%) {
 
 }
 
+sub pvp_prestige ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("PvP: Prestige Levels");
+	BNet::Utils::preprintachievement ($count, '31783', '10991', "First Step into a Larger World (Prestige 1)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '31784', '10992', "Here We Go Again (Prestige 2)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '31785', '10993', "Third Time's The Charm (Prestige 3)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '31786', '10995', "For Prestige (Prestige 4)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '35023', '11468', "Alive for Five (Prestige 5)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '35024', '11469', "The River Six (Prestige 6)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '35025', '11470', "Slayin' to Seven (Prestige 7)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '35026', '11471', "Don't Hate, Grind to Eight (Prestige 8)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '35027', '11472', "Hell, It's About Nine (Prestige 9)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36183', '11685', "Decade of Dominance (Prestige 10)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36184', '11686', "These Go To Eleven (Prestige 11)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36185', '11687', "Demonic Dozen (Prestige 12)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36186', '11688', "Floor Thirteen (Prestige 13)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36187', '11689', "Fourteen for the Team (Prestige 14)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36188', '11690', "When You're Fifteen (Prestige 15)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36189', '11691', "You Are Sixteen (Prestige 16)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36190', '11692', "Going On Seventeen (Prestige 17)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36191', '11693', "Eighteen and Over (Prestige 18)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36192', '11694', "Hell, It's About Nineteen (Prestige 19)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37966', '12108', "Double Decade of Dominance (Prestige 20)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37967', '12109', "Twenty-One Arms Salute (Prestige 21)", %multiusercriteria);
+
+}
 1;

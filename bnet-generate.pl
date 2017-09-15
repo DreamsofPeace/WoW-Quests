@@ -803,6 +803,7 @@ sub __main__() {
 	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
 	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 	BNet::Misc::class_hall_set ($count, %multiusercriteria);
+	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 
 #Class Specific
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
