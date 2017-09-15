@@ -786,7 +786,7 @@ sub __main__() {
 ##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
 
 #Legion
-	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
 	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
 	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
 	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
