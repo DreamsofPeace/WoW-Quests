@@ -1050,14 +1050,24 @@ sub z_110_Argus_Krokuun ($%) {
 	BNet::Utils::preprint ($count, '47287', "The Vindicaar Matrix Core", %multiuserquests);
 	BNet::Utils::preprint ($count, '48559', "An Offering of Light", %multiuserquests);
 	BNet::Utils::preprint ($count, '48199', "The Burning Heart", %multiuserquests);
+	BNet::Utils::groupheader ("110: Argus: Krokuun: Week 2");
+	BNet::Utils::preprint ($count, '47889', "The Speaker Calls", %multiuserquests);
+	BNet::Utils::preprint ($count, '47890', "Visions of Torment", %multiuserquests);
+	BNet::Utils::preprint ($count, '47891', "Dire News", %multiuserquests);
+	BNet::Utils::preprint ($count, '47892', "Storming the Citadel", %multiuserquests);
+	
+	BNet::Utils::groupheader ("110: Argus: Krokuun: Wranglers");
+	BNet::Utils::preprint ($count, '48460', "The Wranglers", %multiuserquests);
+	BNet::Utils::preprint ($count, '47967', "An Argus Roper", %multiuserquests);
+	BNet::Utils::preprint ($count, '48455', "Duskcloak Problem", %multiuserquests);
+	BNet::Utils::preprint ($count, '48453', "Strike Back", %multiuserquests);
+	BNet::Utils::preprint ($count, '48542', "Strike Back", %multiuserquests);
+	BNet::Utils::preprint ($count, '48544', "Woah, Nelly!", %multiuserquests);
 	BNet::Utils::groupheader ("110: Argus: Krokuun: Unsorted");
 	BNet::Utils::preprint ($count, '47990', "A Touch of Fel", %multiuserquests);
-	BNet::Utils::preprint ($count, '47967', "An Argus Roper", %multiuserquests);
 	BNet::Utils::preprint ($count, '47988', "Chaos Theory", %multiuserquests);
 	BNet::Utils::preprint ($count, '47991', "Dark Machinations", %multiuserquests);
 	BNet::Utils::preprint ($count, '47992', "Dawn of Justice", %multiuserquests);
-	BNet::Utils::preprint ($count, '47891', "Dire News", %multiuserquests);
-	BNet::Utils::preprint ($count, '48455', "Duskcloak Problem", %multiuserquests);
 	BNet::Utils::preprint ($count, '48278', "Fate of the Life-Binder", %multiuserquests);
 	BNet::Utils::preprint ($count, '47134', "Foiling the Legion's Jailbreak", %multiuserquests);
 	BNet::Utils::preprint ($count, '48803', "Forging a Key to the Past", %multiuserquests);
@@ -1069,23 +1079,15 @@ sub z_110_Argus_Krokuun ($%) {
 	BNet::Utils::preprint ($count, '47993', "Lord of the Spire", %multiuserquests);
 	BNet::Utils::preprint ($count, '47987', "Preventive Measures", %multiuserquests);
 	BNet::Utils::preprint ($count, '47986', "Scars of the Past", %multiuserquests);
-	BNet::Utils::preprint ($count, '47892', "Storming the Citadel", %multiuserquests);
-	BNet::Utils::preprint ($count, '48453', "Strike Back", %multiuserquests);
-	BNet::Utils::preprint ($count, '48542', "Strike Back", %multiuserquests);
 	BNet::Utils::preprint ($count, '48864', "The Broken Blacksmith", %multiuserquests);
 	BNet::Utils::preprint ($count, '47002', "The Crown of the Triumvirate", %multiuserquests);
 	BNet::Utils::preprint ($count, '47102', "The Mysterious Missive", %multiuserquests);
-	BNet::Utils::preprint ($count, '47889', "The Speaker Calls", %multiuserquests);
 	BNet::Utils::preprint ($count, '48273', "The Speaker Listens", %multiuserquests);
 	BNet::Utils::preprint ($count, '48277', "The Speaker Seeks", %multiuserquests);
-	BNet::Utils::preprint ($count, '48460', "The Wranglers", %multiuserquests);
-	BNet::Utils::preprint ($count, '48281', "Tracking Quest", %multiuserquests);
 	BNet::Utils::preprint ($count, '47288', "Valuable Fossils", %multiuserquests);
 	BNet::Utils::preprint ($count, '48280', "Visions of Another", %multiuserquests);
 	BNet::Utils::preprint ($count, '48272', "Visions of Fear", %multiuserquests);
-	BNet::Utils::preprint ($count, '47890', "Visions of Torment", %multiuserquests);
 	BNet::Utils::preprint ($count, '48461', "Where They Least Expect It", %multiuserquests);
-	BNet::Utils::preprint ($count, '48544', "Woah, Nelly!", %multiuserquests);
 		
 
 
