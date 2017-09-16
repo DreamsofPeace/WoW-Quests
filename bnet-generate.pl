@@ -22,6 +22,7 @@ BEGIN {
 	require 'BNet/Quests_Legion.pm';
 	require 'BNet/Quests_Misc.pm';
 	require 'BNet/Misc.pm';
+	require 'BNet/Achievements.pm';
 }
 
 
@@ -785,25 +786,25 @@ sub __main__() {
 ##	BNet::Quests_Warlords::z_98_100_nagrand ($count, %multiuserquests);
 ##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
 
-#Legion
-#	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus_Krokuun ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus_MacAree ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus_Antoran_Wastes ($count, %multiuserquests);
-
-#Artifact Base Hidden Appearances
-	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
-	BNet::Misc::class_hall_set ($count, %multiusercriteria);
-	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
+##Legion
+##	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_Argus_Krokuun ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_Argus_MacAree ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_Argus_Antoran_Wastes ($count, %multiuserquests);
+#
+##Artifact Base Hidden Appearances
+#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
+#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+#	BNet::Misc::class_hall_set ($count, %multiusercriteria);
+#	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 
 #Class Specific
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
@@ -817,6 +818,20 @@ sub __main__() {
 #	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
 #	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
 
+#Various Achievements
+	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
+	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
+#	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
+#	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
+#	BNet::Achievements::p51_inyourbase ($count, %multiusercriteria);
+#	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
+#	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
+#	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
 }
 
 __main__();
