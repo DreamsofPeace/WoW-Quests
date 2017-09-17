@@ -8,22 +8,25 @@ sub z_10_20_Azshara ($%) {
 	my ($count, %multiuserquests) = @_;
 
 #	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-	BNet::Utils::groupheader ("10-20: Azshara <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> (Unsorted\)");
+	BNet::Utils::groupheader ("10-20: Azshara: The Rear Gate <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '28496', "Warchief's Command: Azshara!", %multiuserquests);
-	BNet::Utils::preprint ($count, '14117', "The Eyes of Ashenvale", %multiuserquests);
-	BNet::Utils::preprint ($count, '14118', "Venison for the Troops", %multiuserquests);
-	BNet::Utils::preprint ($count, '14127', "Return of the Highborne?", %multiuserquests);
-	BNet::Utils::preprint ($count, '14128', "Return of the Highborne?", %multiuserquests);
+	BNet::Utils::preprint ($count, '25275', "Report to the Labor Captain", %multiuserquests);
 	BNet::Utils::preprint ($count, '14129', "Runaway Shredder!", %multiuserquests);
-	BNet::Utils::preprint ($count, '14130', "Friends Come In All Colors", %multiuserquests);
-	BNet::Utils::preprint ($count, '14131', "A Little Pick-me-up", %multiuserquests);
-	BNet::Utils::preprint ($count, '14132', "That's Just Rude!", %multiuserquests);
 	BNet::Utils::preprint ($count, '14134', "The Captain's Logs", %multiuserquests);
 	BNet::Utils::preprint ($count, '14135', "Up a Tree", %multiuserquests);
 	BNet::Utils::preprint ($count, '14146', "Defend the Gates!", %multiuserquests);
 	BNet::Utils::preprint ($count, '14155', "Arborcide", %multiuserquests);
-	BNet::Utils::preprint ($count, '14161', "Basilisk Bashin'", %multiuserquests);
+	BNet::Utils::preprint ($count, '14118', "Venison for the Troops", %multiuserquests);
+	BNet::Utils::preprint ($count, '14117', "The Eyes of Ashenvale", %multiuserquests);
+	BNet::Utils::preprint ($count, '14127', "Return of the Highborne?", %multiuserquests);
+	BNet::Utils::groupheader ("10-20: Azshara: Orgrimmar Rocketway Exchange");
 	BNet::Utils::preprint ($count, '14162', "Report to Horzak", %multiuserquests);
+	BNet::Utils::preprint ($count, '14128', "Return of the Highborne?", %multiuserquests);
+	BNet::Utils::groupheader ("10-20: Azshara <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> (Unsorted\)");
+	BNet::Utils::preprint ($count, '14130', "Friends Come In All Colors", %multiuserquests);
+	BNet::Utils::preprint ($count, '14131', "A Little Pick-me-up", %multiuserquests);
+	BNet::Utils::preprint ($count, '14132', "That's Just Rude!", %multiuserquests);
+	BNet::Utils::preprint ($count, '14161', "Basilisk Bashin'", %multiuserquests);
 	BNet::Utils::preprint ($count, '14165', "Stone Cold", %multiuserquests);
 	BNet::Utils::preprint ($count, '14190', "The Perfect Prism", %multiuserquests);
 	BNet::Utils::preprint ($count, '14192', "Prismbreak", %multiuserquests);
@@ -116,7 +119,6 @@ sub z_10_20_Azshara ($%) {
 	BNet::Utils::preprint ($count, '24478', "The Trial of Frost", %multiuserquests);
 	BNet::Utils::preprint ($count, '24479', "The Trial of Shadow", %multiuserquests);
 	BNet::Utils::preprint ($count, '24497', "Airborne Again", %multiuserquests);
-	BNet::Utils::preprint ($count, '25275', "Report to the Labor Captain", %multiuserquests);
 
 }
 
