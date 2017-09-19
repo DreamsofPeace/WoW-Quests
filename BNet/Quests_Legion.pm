@@ -867,6 +867,8 @@ sub z_110_legion_fall ($%) {
 	BNet::Utils::preprint ($count, '46250', "Take Out the Head...", %multiuserquests);
 	BNet::Utils::preprint ($count, '46249', "Championing Our Cause", %multiuserquests);
 	BNet::Utils::preprint ($count, '46246', "Strike Them Down", %multiuserquests);
+	BNet::Utils::groupheader ("Broken Shore: Dungeon/Raid Quests");
+	BNet::Utils::preprint ($count, '46244', "Altar of the Aegis", %multiuserquests);
 	BNet::Utils::preprint ($count, '46253', "Pillars of Creation", %multiuserquests);
 	BNet::Utils::preprint ($count, '46805', "The Deceiver's Downfall", %multiuserquests);
 
