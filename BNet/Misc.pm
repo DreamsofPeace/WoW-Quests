@@ -4,14 +4,16 @@ use strict;
 use warnings;
 
 sub artifact_non_hidden ($%) {
-	my ($count, %multiusercriteria, %multiuserquests) = @_;
+#sub artifact_non_hidden ($%%) {
+#	my ($count, %multiusercriteria, %multiuserquests) = @_;
+	my ($count, %multiusercriteria) = @_;
 
 	BNet::Utils::groupheader ("Fighting with Style: Classic");
 	#42213	The Tidestone of Golganneth
 	#40890	The Tears of Elune
 	#42454	The Hammer of Khaz'goroth
 	#43349	The Aegis of Aggramar
-	BNet::Utils::preprintachievementvia4q ($count, '99999999', '10461', "Pillars of Creation", '42213', '40890', '42454', '43349', %multiuserquests);
+#	BNet::Utils::preprintachievementvia4q ($count, '99999999', '10461', "Pillars of Creation", '42213', '40890', '42454', '43349', %multiuserquests);
 	BNet::Utils::preprintachievement ($count, '33167', '10461', "Light\'s Charge", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33168', '10461', "Order Hall Part 1", %multiusercriteria);
 

@@ -787,21 +787,22 @@ sub __main__() {
 ##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
 
 ##Legion
-##	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_Argus_Krokuun ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_Argus_MacAree ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_Argus_Antoran_Wastes ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus_Krokuun ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus_MacAree ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus_Antoran_Wastes ($count, %multiuserquests);
 #
 ##Artifact Base Hidden Appearances
 #	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
+	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
 #	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 #	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 #	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
@@ -819,8 +820,8 @@ sub __main__() {
 #	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
 
 #Various Achievements
-	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
-	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
+#	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
+#	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
 #	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
 #	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
 #	BNet::Achievements::p51_inyourbase ($count, %multiusercriteria);

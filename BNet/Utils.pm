@@ -267,10 +267,10 @@ sub preprintachievementvia4q ($$$$$$$$%) {
 	my $wowheadurl = "\t\t\t<a href=\"http://www.wowhead.com/achievement=" . $aid . "\"  rel=\"achievement=" . $aid . "\">" . $ql ."</a>";
 #	print $wowheadurl;
 
-	if ($multiuserquests{0}{$q01} == $q01 ||
-		$multiuserquests{0}{$q02} == $q02 ||
-		$multiuserquests{0}{$q03} == $q03 ||
-		$multiuserquests{0}{$q04} == $q04) {
+	if ($multiuserquests{0}{$q01} eq "yes" ||
+		$multiuserquests{0}{$q02} eq "yes" ||
+		$multiuserquests{0}{$q03} eq "yes" ||
+		$multiuserquests{0}{$q04} eq "yes") {
 		$qc{zero} = 'yes'
 	} else {
 		$qc{zero} = 'no'
