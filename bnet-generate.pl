@@ -737,7 +737,7 @@ sub __main__() {
 ##	BNet::Quests_KD::z_50_55_UnGoro_Crater ($count, %multiuserquests);
 ##	BNet::Quests_KD::z_50_55_Winterspring ($count, %multiuserquests);
 ##	BNet::Quests_KD::z_55_60_Blasted_Lands ($count, %multiuserquests);
-##	BNet::Quests_KD::z_55_60_Silithus ($count, %multiuserquests);
+	BNet::Quests_KD::z_55_60_Silithus ($count, %multiuserquests);
 #
 ##Outland
 #	BNet::Quests_BC::z_58_63_hellfire_peninsula ($count, %multiuserquests);

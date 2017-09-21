@@ -230,8 +230,16 @@ sub z_55_60_Silithus ($%) {
 	BNet::Utils::preprint ($count, '8323', "True Believers", %multiuserquests);
 	BNet::Utils::preprint ($count, '8287', "A Terrible Purpose", %multiuserquests);
 	BNet::Utils::groupheader ("55-60: Silithus: PvP");
-	BNet::Utils::preprint ($count, '9416', "Report to General Kirika <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '9415', "Report to Marshal Bluewall <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '9416', "Report to General Kirika <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("55-60: Silithus: Obsolete");
+	BNet::Utils::preprint ($count, '8381', "Armaments of War (Obsolete) (Mage, Warlock)", %multiuserquests);
+	BNet::Utils::preprint ($count, '8379', "Armaments of War (Obsolete) (Priest)", %multiuserquests);
+	BNet::Utils::preprint ($count, '8382', "Armaments of War (Obsolete) (Druid)", %multiuserquests);
+	BNet::Utils::preprint ($count, '8378', "Armaments of War (Obsolete) (Rogue)", %multiuserquests);
+	BNet::Utils::preprint ($count, '8377', "Armaments of War (Obsolete) (Hunter)", %multiuserquests);
+	BNet::Utils::preprint ($count, '8380', "Armaments of War (Obsolete) (Shaman)", %multiuserquests);
+	BNet::Utils::preprint ($count, '8376', "Armaments of War (Obsolete) (Paladin)", %multiuserquests);
 
 }
 
