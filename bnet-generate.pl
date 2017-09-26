@@ -778,6 +778,7 @@ sub __main__() {
 ##	BNet::Quests_Mists::z_90_Isle_of_Thunder ($count, %multiuserquests);
 #
 ##Draenor
+	BNet::Quests_Warlords::z_90_blasted_lands_intro ($count, %multiuserquests);
 ##	BNet::Quests_Warlords::z_90_92_frostfire_ridge ($count, %multiuserquests);
 ##	BNet::Quests_Warlords::z_90_92_shadowmoon_valley ($count, %multiuserquests);
 ##	BNet::Quests_Warlords::z_92_94_gorgrond ($count, %multiuserquests);
