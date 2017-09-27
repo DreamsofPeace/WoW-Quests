@@ -795,9 +795,7 @@ sub __main__() {
 	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
 	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
 	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus_Krokuun ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus_MacAree ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus_Antoran_Wastes ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
 #
 ##Artifact Base Hidden Appearances
 #	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);

@@ -998,12 +998,15 @@ sub empoweredartifacts ($%) {
 	BNet::Utils::preprint ($count, '45905', "Krull's Gift", %multiuserquests);
 }
 
-sub z_110_Argus_Krokuun ($%) {
+sub z_110_Argus ($%) {
 	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("110: Argus: Krokuun (Quest List Retrieved from wowhead on 2017-08-18");
-	BNet::Utils::groupheader ("110: Argus: Krokuun: A Foothold on Argus");
-	BNet::Utils::preprint ($count, '47221', "The Hand of Fate <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '47835', "The Hand of Fate <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("110: Argus: The Assault Begins");
+	BNet::Utils::preprint ($count, '47221', "The Hand of Fate <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47835', "The Hand of Fate <img src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47222', "Two If By Sea <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47867', "Two If By Sea <img src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47223', "Light's Exodus", %multiuserquests);
 	BNet::Utils::preprint ($count, '47224', "The Vindicaar", %multiuserquests);
 	BNet::Utils::preprint ($count, '48440', "Into the Night", %multiuserquests);
 	BNet::Utils::preprint ($count, '46938', "Alone in the Abyss", %multiuserquests);
@@ -1011,149 +1014,120 @@ sub z_110_Argus_Krokuun ($%) {
 	BNet::Utils::preprint ($count, '46297', "Overwhelming Power", %multiuserquests);
 	BNet::Utils::preprint ($count, '48483', "A Stranger's Plea", %multiuserquests);
 	BNet::Utils::preprint ($count, '47627', "Vengeance", %multiuserquests);
-	BNet::Utils::preprint ($count, '47641', "Signs of Resistance", %multiuserquests);
+	BNet::Utils::preprint ($count, '47641', "Sign of Resistance", %multiuserquests);
 	BNet::Utils::preprint ($count, '46732', "The Prophet's Gambit", %multiuserquests);
 	BNet::Utils::preprint ($count, '46816', "Rendezvous", %multiuserquests);
 	BNet::Utils::preprint ($count, '46839', "From Darkness", %multiuserquests);
-	BNet::Utils::preprint ($count, '46841', "Threat Reduction", %multiuserquests);
 	BNet::Utils::preprint ($count, '46840', "Prisoners No More", %multiuserquests);
+	BNet::Utils::preprint ($count, '46841', "Threat Reduction", %multiuserquests);
 	BNet::Utils::preprint ($count, '46842', "A Strike at the Heart", %multiuserquests);
 	BNet::Utils::preprint ($count, '46843', "Return to the Vindicaar", %multiuserquests);
-	BNet::Utils::groupheader ("110: Argus: Krokuun: To The Xenedaar");
 	BNet::Utils::preprint ($count, '48500', "A Moment of Respite", %multiuserquests);
 	BNet::Utils::preprint ($count, '47431', "Gathering Light", %multiuserquests);
 	BNet::Utils::preprint ($count, '46213', "Crystals Not Included", %multiuserquests);
-	BNet::Utils::preprint ($count, '47541', "The Best Prevention", %multiuserquests);
 	BNet::Utils::preprint ($count, '40238', "A Grim Equation", %multiuserquests);
-	BNet::Utils::preprint ($count, '47508', "Fire At Will", %multiuserquests);
+	BNet::Utils::preprint ($count, '47541', "The Best Prevention", %multiuserquests);
+	BNet::Utils::preprint ($count, '47508', "Fire at Will", %multiuserquests);
 	BNet::Utils::preprint ($count, '47771', "Locating the Longshot", %multiuserquests);
 	BNet::Utils::preprint ($count, '47526', "Bringing the Big Guns", %multiuserquests);
 	BNet::Utils::preprint ($count, '47754', "Lightly Roasted", %multiuserquests);
-	BNet::Utils::preprint ($count, '47652', "The Light Mother", %multiuserquests);
 	BNet::Utils::preprint ($count, '47653', "Light's Return", %multiuserquests);
 	BNet::Utils::preprint ($count, '47743', "The Child of Light and Shadow", %multiuserquests);
 	BNet::Utils::preprint ($count, '49143', "Essence of the Light Mother", %multiuserquests);
 	BNet::Utils::preprint ($count, '47287', "The Vindicaar Matrix Core", %multiuserquests);
 	BNet::Utils::preprint ($count, '48559', "An Offering of Light", %multiuserquests);
 	BNet::Utils::preprint ($count, '48199', "The Burning Heart", %multiuserquests);
-	BNet::Utils::groupheader ("110: Argus: Krokuun: Week 2");
+	BNet::Utils::preprint ($count, '48200', "Securing a Foothold", %multiuserquests);
+	BNet::Utils::preprint ($count, '48201', "Reinforce Light's Purchase", %multiuserquests);
+	BNet::Utils::preprint ($count, '48202', "Reinforce the Veiled Den", %multiuserquests);
+	BNet::Utils::preprint ($count, '47473', "Sizing Up The Opposition", %multiuserquests);
+
+	BNet::Utils::groupheader ("110: Argus: Dark Awakenings");
 	BNet::Utils::preprint ($count, '47889', "The Speaker Calls", %multiuserquests);
 	BNet::Utils::preprint ($count, '47890', "Visions of Torment", %multiuserquests);
 	BNet::Utils::preprint ($count, '47891', "Dire News", %multiuserquests);
 	BNet::Utils::preprint ($count, '47892', "Storming the Citadel", %multiuserquests);
-	
-	BNet::Utils::groupheader ("110: Argus: Krokuun: Wranglers");
+	BNet::Utils::preprint ($count, '47986', "Scars of the Past", %multiuserquests);
+	BNet::Utils::preprint ($count, '47987', "Preventive Measures", %multiuserquests);
+	BNet::Utils::preprint ($count, '47988', "Chaos Theory", %multiuserquests);
+	BNet::Utils::preprint ($count, '47991', "Dark Machinations", %multiuserquests);
+	BNet::Utils::preprint ($count, '47990', "A Touch of Fel", %multiuserquests);
+	BNet::Utils::preprint ($count, '47989', "Heralds of Apocalypse", %multiuserquests);
+	BNet::Utils::preprint ($count, '47992', "Dawn of Justice", %multiuserquests);
+	BNet::Utils::preprint ($count, '47993', "Lord of the Spire", %multiuserquests);
+	BNet::Utils::preprint ($count, '47994', "Forming a Bond", %multiuserquests);
+	BNet::Utils::preprint ($count, '48081', "A Floating Ruin", %multiuserquests);
+	BNet::Utils::preprint ($count, '46815', "Mac'Aree, Jewel of Argus", %multiuserquests);
+	BNet::Utils::preprint ($count, '46818', "Defenseless and Afraid", %multiuserquests);
+	BNet::Utils::preprint ($count, '46834', "Khazaduum, First of His Name", %multiuserquests);
+	BNet::Utils::preprint ($count, '47066', "Consecrating Ground", %multiuserquests);
+	BNet::Utils::preprint ($count, '46941', "The Path Forward", %multiuserquests);
+	BNet::Utils::preprint ($count, '47686', "Not-So-Humble Beginnings", %multiuserquests);
+	BNet::Utils::preprint ($count, '47882', "Conservation of Magic", %multiuserquests);
+	BNet::Utils::preprint ($count, '47688', "Invasive Species", %multiuserquests);
+	BNet::Utils::preprint ($count, '47883', "The Longest Vigil", %multiuserquests);
+	BNet::Utils::preprint ($count, '47689', "Gatekeeper's Challenge: Tenacity", %multiuserquests);
+	BNet::Utils::preprint ($count, '47685', "Gatekeeper's Challenge: Cunning", %multiuserquests);
+	BNet::Utils::preprint ($count, '47687', "Gatekeeper's Challenge: Mastery", %multiuserquests);
+	BNet::Utils::preprint ($count, '47690', "The Defiler's Legacy", %multiuserquests);
+	BNet::Utils::preprint ($count, '48107', "The Sigil of Awakening", %multiuserquests);
+
+	BNet::Utils::groupheader ("110: Argus: War of Light and Shadow");
+	BNet::Utils::preprint ($count, '48461', "Where They Least Expect It", %multiuserquests);
+	BNet::Utils::preprint ($count, '48344', "We Have a Problem", %multiuserquests);
+	BNet::Utils::preprint ($count, '47691', "A Non-Prophet Organization", %multiuserquests);
+	BNet::Utils::preprint ($count, '47854', "Wrath of the Hight Exarch", %multiuserquests);
+	BNet::Utils::preprint ($count, '47995', "Overt Ops", %multiuserquests);
+	BNet::Utils::preprint ($count, '47853', "Flanking Maneuvers", %multiuserquests);
+	BNet::Utils::preprint ($count, '48345', "Talgath's Forces", %multiuserquests);
+	BNet::Utils::preprint ($count, '47855', "What Might Have Been", %multiuserquests);
+	BNet::Utils::preprint ($count, '47856', "Across the Universe", %multiuserquests);
+	BNet::Utils::preprint ($count, '47416', "Shadow of the Triumvirate", %multiuserquests);
+	BNet::Utils::preprint ($count, '47238', "The Seat of the Triumvirate", %multiuserquests);
+	BNet::Utils::preprint ($count, '40761', "Whispers from Oronaar", %multiuserquests);
+	BNet::Utils::preprint ($count, '47101', "Arkhaan's Prayers", %multiuserquests);
+	BNet::Utils::preprint ($count, '47180', "The Pulsing Madness", %multiuserquests);
+	BNet::Utils::preprint ($count, '47100', "Arkhaan's Pain", %multiuserquests);
+	BNet::Utils::preprint ($count, '47183', "Arkhaan's Plan", %multiuserquests);
+	BNet::Utils::preprint ($count, '47184', "Arkhaan's Peril", %multiuserquests);
+	BNet::Utils::preprint ($count, '47203', "Throwing Shade", %multiuserquests);
+	BNet::Utils::preprint ($count, '47217', "Sources of Darkness", %multiuserquests);
+	BNet::Utils::preprint ($count, '47218', "The Shadowguard Incursion", %multiuserquests);
+	BNet::Utils::preprint ($count, '47219', "A Vessel Made Ready", %multiuserquests);
+	BNet::Utils::preprint ($count, '47220', "A Beacon in the Dark", %multiuserquests);
+	BNet::Utils::preprint ($count, '48560', "An Offering of Shadow", %multiuserquests);
+	BNet::Utils::preprint ($count, '47654', "Seat of the Triumvirate: The Crest of Knowledge", %multiuserquests);
+
+	BNet::Utils::groupheader ("110: Argus: Side Chain: Class Hall");
 	BNet::Utils::preprint ($count, '48460', "The Wranglers", %multiuserquests);
 	BNet::Utils::preprint ($count, '47967', "An Argus Roper", %multiuserquests);
 	BNet::Utils::preprint ($count, '48455', "Duskcloak Problem", %multiuserquests);
 	BNet::Utils::preprint ($count, '48453', "Strike Back", %multiuserquests);
-	BNet::Utils::preprint ($count, '48542', "Strike Back", %multiuserquests);
 	BNet::Utils::preprint ($count, '48544', "Woah, Nelly!", %multiuserquests);
-	BNet::Utils::groupheader ("110: Argus: Krokuun: Unsorted");
-	BNet::Utils::preprint ($count, '47990', "A Touch of Fel", %multiuserquests);
-	BNet::Utils::preprint ($count, '47988', "Chaos Theory", %multiuserquests);
-	BNet::Utils::preprint ($count, '47991', "Dark Machinations", %multiuserquests);
-	BNet::Utils::preprint ($count, '47992', "Dawn of Justice", %multiuserquests);
-	BNet::Utils::preprint ($count, '48278', "Fate of the Life-Binder", %multiuserquests);
-	BNet::Utils::preprint ($count, '47134', "Foiling the Legion's Jailbreak", %multiuserquests);
-	BNet::Utils::preprint ($count, '48803', "Forging a Key to the Past", %multiuserquests);
-	BNet::Utils::preprint ($count, '47994', "Forming a Bond", %multiuserquests);
-	BNet::Utils::preprint ($count, '47989', "Heralds of Apocalypse", %multiuserquests);
-	BNet::Utils::preprint ($count, '47104', "Imprisoned Inquisitor", %multiuserquests);
-	BNet::Utils::preprint ($count, '47554', "Intercepting the Legion's Plans", %multiuserquests);
-	BNet::Utils::preprint ($count, '47182', "Long Overdue", %multiuserquests);
-	BNet::Utils::preprint ($count, '47993', "Lord of the Spire", %multiuserquests);
-	BNet::Utils::preprint ($count, '47987', "Preventive Measures", %multiuserquests);
-	BNet::Utils::preprint ($count, '47986', "Scars of the Past", %multiuserquests);
-	BNet::Utils::preprint ($count, '48864', "The Broken Blacksmith", %multiuserquests);
-	BNet::Utils::preprint ($count, '47002', "The Crown of the Triumvirate", %multiuserquests);
-	BNet::Utils::preprint ($count, '47102', "The Mysterious Missive", %multiuserquests);
-	BNet::Utils::preprint ($count, '48273', "The Speaker Listens", %multiuserquests);
-	BNet::Utils::preprint ($count, '48277', "The Speaker Seeks", %multiuserquests);
-	BNet::Utils::preprint ($count, '47288', "Valuable Fossils", %multiuserquests);
-	BNet::Utils::preprint ($count, '48280', "Visions of Another", %multiuserquests);
-	BNet::Utils::preprint ($count, '48272', "Visions of Fear", %multiuserquests);
-	BNet::Utils::preprint ($count, '48461', "Where They Least Expect It", %multiuserquests);
-		
-
-
-}
-
-sub z_110_Argus_MacAree ($%) {
-	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("110: Argus: Mac'Aree (Unsorted)");
-	BNet::Utils::preprint ($count, '47220', "A Beacon in the Dark", %multiuserquests);
-	BNet::Utils::preprint ($count, '48081', "A Floating Ruin", %multiuserquests);
-	BNet::Utils::preprint ($count, '47691', "A Non-Prophet Organization", %multiuserquests);
-	BNet::Utils::preprint ($count, '47219', "A Vessel Made Ready", %multiuserquests);
-	BNet::Utils::preprint ($count, '47856', "Across the Universe", %multiuserquests);
-	BNet::Utils::preprint ($count, '47100', "Arkhaan's Pain", %multiuserquests);
-	BNet::Utils::preprint ($count, '47184', "Arkhaan's Peril", %multiuserquests);
-	BNet::Utils::preprint ($count, '47183', "Arkhaan's Plan", %multiuserquests);
-	BNet::Utils::preprint ($count, '47101', "Arkhaan's Prayers", %multiuserquests);
-	BNet::Utils::preprint ($count, '48654', "Beneath Oronaar", %multiuserquests);
-	BNet::Utils::preprint ($count, '47066', "Consecrating Ground", %multiuserquests);
-	BNet::Utils::preprint ($count, '47882', "Conservation of Magic", %multiuserquests);
-	BNet::Utils::preprint ($count, '46818', "Defenseless and Afraid", %multiuserquests);
-	BNet::Utils::preprint ($count, '47853', "Flanking Maneuvers", %multiuserquests);
-	BNet::Utils::preprint ($count, '48230', "Fragment of the Past", %multiuserquests);
-	BNet::Utils::preprint ($count, '47685', "Gatekeeper's Challenge: Cunning", %multiuserquests);
-	BNet::Utils::preprint ($count, '47687', "Gatekeeper's Challenge: Mastery", %multiuserquests);
-	BNet::Utils::preprint ($count, '47689', "Gatekeeper's Challenge: Tenacity", %multiuserquests);
-	BNet::Utils::preprint ($count, '47688', "Invasive Species", %multiuserquests);
-	BNet::Utils::preprint ($count, '46834', "Khazaduum, First of His Name", %multiuserquests);
-	BNet::Utils::preprint ($count, '48668', "Lightforged Beacon: City Center", %multiuserquests);
-	BNet::Utils::preprint ($count, '46815', "Mac'Aree, Jewel of Argus", %multiuserquests);
-	BNet::Utils::preprint ($count, '48635', "More Void Inoculation", %multiuserquests);
-	BNet::Utils::preprint ($count, '47686', "Not-So-Humble Beginnings", %multiuserquests);
-	BNet::Utils::preprint ($count, '47995', "Overt Ops", %multiuserquests);
-	BNet::Utils::preprint ($count, '48271', "Recovering the Pieces", %multiuserquests);
-	BNet::Utils::preprint ($count, '48446', "Relics of the Ancient Eredar", %multiuserquests);
-	BNet::Utils::preprint ($count, '47416', "Shadow of the Triumvirate", %multiuserquests);
-	BNet::Utils::preprint ($count, '48447', "Shadowguard Dispersion", %multiuserquests);
-	BNet::Utils::preprint ($count, '47217', "Sources of Darkness", %multiuserquests);
-	BNet::Utils::preprint ($count, '48345', "Talgath's Forces", %multiuserquests);
-	BNet::Utils::preprint ($count, '47690', "The Defiler's Legacy", %multiuserquests);
-	BNet::Utils::preprint ($count, '47883', "The Longest Vigil", %multiuserquests);
-	BNet::Utils::preprint ($count, '46941', "The Path Forward", %multiuserquests);
-	BNet::Utils::preprint ($count, '48261', "The Power to Reforge", %multiuserquests);
-	BNet::Utils::preprint ($count, '47180', "The Pulsing Madness", %multiuserquests);
+	BNet::Utils::preprint ($count, '48441', "Remnants of Darkfall Ridge", %multiuserquests);
+	BNet::Utils::preprint ($count, '48442', "Nath'raxas Hold: Preparations", %multiuserquests);
+	BNet::Utils::preprint ($count, '48443', "Nath'raxas Hold: Rescue Mission", %multiuserquests);
 	BNet::Utils::preprint ($count, '48445', "The Ruins of Oronaar", %multiuserquests);
-	BNet::Utils::preprint ($count, '47238', "The Seat of the Triumvirate", %multiuserquests);
-	BNet::Utils::preprint ($count, '47218', "The Shadowguard Incursion", %multiuserquests);
-	BNet::Utils::preprint ($count, '48107', "The Sigil of Awakening", %multiuserquests);
-	BNet::Utils::preprint ($count, '47203', "Throwing Shade", %multiuserquests);
-	BNet::Utils::preprint ($count, '48632', "Void Extract", %multiuserquests);
-	BNet::Utils::preprint ($count, '48344', "We Have a Problem", %multiuserquests);
-	BNet::Utils::preprint ($count, '47855', "What Might Have Been", %multiuserquests);
-	BNet::Utils::preprint ($count, '40761', "Whispers from Oronaar", %multiuserquests);
-	BNet::Utils::preprint ($count, '47854', "Wrath of the High Exarch", %multiuserquests);
-
-
-}
-
-
-sub z_110_Argus_Antoran_Wastes ($%) {
-	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("110: Argus: Antoran Wastes: From Krokuun");
-	BNet::Utils::preprint ($count, '48199', "The Burning Heart", %multiuserquests);
-	BNet::Utils::preprint ($count, '48200', "Securing a Foothold", %multiuserquests);
-	BNet::Utils::groupheader ("110: Argus: Antoran Wastes: The Veiled Den");
-	BNet::Utils::preprint ($count, '48202', "Reinforce the Veiled Den", %multiuserquests);
-	BNet::Utils::groupheader ("110: Argus: Antoran Wastes: Light's Puchase");
-	BNet::Utils::preprint ($count, '48201', "Reinforce Light's Purchase", %multiuserquests);
-	BNet::Utils::preprint ($count, '48929', "Sizing Up The Opposition", %multiuserquests);
-	BNet::Utils::preprint ($count, '48799', "Fuel of a Doomed World", %multiuserquests);
-	BNet::Utils::groupheader ("110: Argus: Antoran Wastes (Unsorted)");
-	BNet::Utils::preprint ($count, '47473', "Sizing Up The Opposition", %multiuserquests);
-	BNet::Utils::preprint ($count, '48203', "The Burning Throne", %multiuserquests);
+	BNet::Utils::preprint ($count, '48446', "Relics of the Ancient Eredar", %multiuserquests);
+	BNet::Utils::preprint ($count, '48654', "Beneath Oronaar", %multiuserquests);
+	BNet::Utils::preprint ($count, '48447', "Shadowguard Dispersion", %multiuserquests);
+	BNet::Utils::preprint ($count, '48911', "Void Inoculation", %multiuserquests);
 	BNet::Utils::preprint ($count, '48448', "Hindering the Legion War Machine", %multiuserquests);
+	BNet::Utils::preprint ($count, '48600', "Take the Edge Off", %multiuserquests);
+	BNet::Utils::preprint ($count, '48912', "Supplying the Antoran Campaign", %multiuserquests);
 	BNet::Utils::preprint ($count, '48601', "Felfire Shattering", %multiuserquests);
-	BNet::Utils::preprint ($count, '48636', "Fueling the Antoran Campaign", %multiuserquests);
-	BNet::Utils::preprint ($count, '48870', "The Many-Faced Devourer", %multiuserquests);
-	BNet::Utils::preprint ($count, '48964', "Immortal Ace", %multiuserquests);
-	BNet::Utils::preprint ($count, '49007', "Commander on Deck!", %multiuserquests);
-	BNet::Utils::preprint ($count, '49014', "The Burning Throne", %multiuserquests);
+
+	BNet::Utils::groupheader ("110: Argus: Side Chain: Invasion Points");
+	BNet::Utils::preprint ($count, '48461', "Where They Least Expect It", %multiuserquests);
+	BNet::Utils::preprint ($count, '48513', "Invasion Point Offensive", %multiuserquests);
+	BNet::Utils::preprint ($count, '48605', "Commander's Downfall", %multiuserquests);
+
+	BNet::Utils::groupheader ("110: Argus: Side Chain: The Fel Heart of Argus");
+	BNet::Utils::preprint ($count, '47102', "The Mysterious Missive", %multiuserquests);
+	BNet::Utils::preprint ($count, '47554', "Intercepting the Legion's Plans", %multiuserquests);
+	BNet::Utils::preprint ($count, '47104', "Imprisoned Inquisitor", %multiuserquests);
+	BNet::Utils::preprint ($count, '47134', "Foiling the Legion's Jailbreak", %multiuserquests);
+	BNet::Utils::preprint ($count, '47182', "Long Overdue", %multiuserquests);
 
 }
 
