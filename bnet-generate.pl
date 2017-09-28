@@ -805,6 +805,7 @@ sub __main__() {
 #	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 #	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 #	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
+#	BNet::Quests_Misc::dungeons ($count, %multiusercriteria);
 
 #Class Specific
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
@@ -827,11 +828,14 @@ sub __main__() {
 #	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
 #	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
 #	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
+	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
+	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
+	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
+	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
+	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
+	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
+	BNet::Achievements::p73_invasion_obliteration ($count, %multiusercriteria);
+
 }
 
 __main__();
