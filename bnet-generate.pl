@@ -2,13 +2,9 @@ use strict;
 use warnings;
 use JSON;
 use LWP::Simple;
-use Data::Dumper;
 use Getopt::Long;
 use List::Util 1.33 'any';
-use Encode;
 
-#use FindBin;
-#use lib "$FindBin::Bin/BNet";
 BEGIN {
 	require 'BNet/Utils.pm';
 	require 'BNet/Quests_KD.pm';
