@@ -857,7 +857,6 @@ sub z_110_legion_fall ($%) {
 	BNet::Utils::preprint ($count, '46832', "Aalgen Point", %multiuserquests);
 	BNet::Utils::preprint ($count, '46845', "Vengeance Point", %multiuserquests);
 	BNet::Utils::preprint ($count, '46247', "Defending Broken Isles", %multiuserquests);
-	BNet::Utils::preprint ($count, '46244', "Altar of the Aegis", %multiuserquests);
 	BNet::Utils::preprint ($count, '47137', "Champions of Legionfall", %multiuserquests);
 	BNet::Utils::preprint ($count, '46251', "Shard Times", %multiuserquests);
 	BNet::Utils::preprint ($count, '47139', "Mark of the Sentinax", %multiuserquests);
