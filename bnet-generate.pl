@@ -818,12 +818,16 @@ sub __main__() {
 #Various Achievements
 #	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
 #	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
-#	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
-#	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
-#	BNet::Achievements::p51_inyourbase ($count, %multiusercriteria);
-#	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
-#	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
-#	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
+	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
+	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
+	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
+	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
+	BNet::Achievements::p54_bigger_bag ($count, %multiusercriteria);
+	BNet::Achievements::p60_heralds_of_the_legion ($count, %multiusercriteria);
+	BNet::Achievements::p60_fight_the_power ($count, %multiusercriteria);
+	BNet::Achievements::p60_ancient_no_more ($count, %multiusercriteria);
+	BNet::Achievements::p60_gorgrond_monster_hunter ($count, %multiusercriteria);
+	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
 	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
 	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
 	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);

@@ -35,6 +35,7 @@ sub p20_bloody_rare ($%) {
 	BNet::Utils::preprintachievement ($count, '4504', '1312', "Ambassador Jerrikar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '4508', '1312', "Collidus the Warp-Watcher", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '4515', '1312', "Kraator", %multiusercriteria);
+
 }
 
 sub p30_frostbitten ($%) {
@@ -72,32 +73,329 @@ sub p30_frostbitten ($%) {
 	BNet::Utils::preprintachievement ($count, '8102', '2257', "Hildana Deathstealer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '8122', '2257', "Putridus the Ancient", %multiusercriteria);
 
-	
-
 }
 
 sub p30_higher_learning ($%) {
-	
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Higher Learning");
+
+	BNet::Utils::preprintachievement ($count, '7236', '1956', "The Schools of Arcane Magic - Introduction", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '7237', '1956', "The Schools of Arcane Magic - Abjuration", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '7238', '1956', "The Schools of Arcane Magic - Conjuration", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '7239', '1956', "The Schools of Arcane Magic - Divination", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '7240', '1956', "The Schools of Arcane Magic - Enchantment", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '7241', '1956', "The Schools of Arcane Magic - Illusion", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '7242', '1956', "The Schools of Arcane Magic - Necromancy", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '7243', '1956', "The Schools of Arcane Magic - Transmutation", %multiusercriteria);
+
 }
 
 sub p50_glorious ($%) {
-	
-}
+	my ($count, %multiusercriteria) = @_;
 
-sub p51_inyourbase ($%) {
-	
+	BNet::Utils::groupheader ("Glorious!");
+	BNet::Utils::preprintachievement ($count, '21048', '7439', "Mister Ferocious", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21049', '7439', "Bonobos", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21050', '7439', "Spriggin", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21051', '7439', "Scritch", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21052', '7439', "The Yowler", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21053', '7439', "Ik-Ik the Nimble", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21054', '7439', "Major Nanners", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21055', '7439', "Aethis", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21056', '7439', "Sele'na", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21057', '7439', "Cournith Waterstrider", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21058', '7439', "Zai the Outcast", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21059', '7439', "Eshelon", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21060', '7439', "Nalash Verdantis", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21061', '7439', "Sahn Tidehunter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21062', '7439', "Krax'ik", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21063', '7439', "Nal'lak the Ripper", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21064', '7439', "Torik-Ethis", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21065', '7439', "Ski'thik", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21066', '7439', "Lith'ik the Stalker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21067', '7439', "Gar'lok", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21068', '7439', "Kal'tik the Blight", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21069', '7439', "Kor'nas Nightsavage", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21070', '7439', "Sulik'shor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21071', '7439', "Gaarn the Toxic", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21072', '7439', "Borginn Darkfist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21073', '7439', "Norlaxx", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21074', '7439', "Karr the Darkener", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21075', '7439', "Kang the Soul Thief", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21076', '7439', "Morgrinn Crackfang", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21077', '7439', "Jonn-Dar", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21078', '7439', "Qu'nas", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21079', '7439', "Havak", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21080', '7439', "Kah'tir", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21081', '7439', "Krol the Blade", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21082', '7439', "Urgolax", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21083', '7439', "Urobi the Walker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21084', '7439', "Nasra Spothide", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21085', '7439', "Ruun Ghostpaw", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21086', '7439', "Ahone the Wanderer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21087', '7439', "Yul Wildpaw", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21088', '7439', "Ai-Li Skymirror", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21089', '7439', "Ai-Ran the Shifting Cloud", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21090', '7439', "Sarnak", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21091', '7439', "Salyin Warscout", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21092', '7439', "Arness the Scale", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21093', '7439', "Nessos the Oracle", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21094', '7439', "Siltriss the Sharpener", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21095', '7439', "Omnis Grinlok", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21096', '7439', "Moldo One-Eye", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21097', '7439', "Ferdinand", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21098', '7439', "Blackhoof", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21099', '7439', "Go-Kan", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21100', '7439', "Korda Torros", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21101', '7439', "Lon the Bull", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21102', '7439', "Dak the Breaker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '21103', '7439', "Yorik Sharpeye", %multiusercriteria);
 }
 
 sub p52_champions_of_lei_shen ($%) {
-	
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Champions of Lei Shen");
+	BNet::Utils::preprintachievement ($count, '22820', '8103', "Haywire Sunreaver Construct", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22821', '8103', "Mumta", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22822', '8103', "Ku'lai the Skyclaw", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22823', '8103', "Progenitus", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22824', '8103', "Goda", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22825', '8103', "God-Hulk Ramuk", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22826', '8103', "Al'tabim the All-Seeing", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22827', '8103', "Backbreaker Uru", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22828', '8103', "Lu-Ban", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22829', '8103', "Molthor", %multiusercriteria);
 }
 
 sub p54_timeless_champion ($%) {
-	
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Timeless Champion");
+	BNet::Utils::preprintachievement ($count, '23967', '8714', "Emerald Gander", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23968', '8714', "Ironfur Steelhorn", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23969', '8714', "Great Turtle Furyshell", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23970', '8714', "Gu'chi the Swarmbringer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23971', '8714', "Zesqua", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23972', '8714', "Zhu-Gon the Sour", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23973', '8714', "Karkanos", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23974', '8714', "Chelon", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23975', '8714', "Spelurk", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23976', '8714', "Cranegnasher", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23977', '8714', "Rattleskew", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23978', '8714', "Spirit of Jadefire", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23979', '8714', "Leafmender", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23986', '8714', "Bufo", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23982', '8714', "Garnia", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23983', '8714', "Tsavo'ka", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23985', '8714', "Monstrous Spineclaw", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23989', '8714', "Imperial Python", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24144', '8714', "Stinkbraid", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23980', '8714', "Rock Moss", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23992', '8714', "Watcher Osu", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23994', '8714', "Jakur of Ordon", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23996', '8714', "Champion of the Black Flame", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23981', '8714', "Cinderfall", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23993', '8714', "Urdur the Cauterizer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23995', '8714', "Flintlord Gairan", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23984', '8714', "Huolon", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23988', '8714', "Golganarr", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23990', '8714', "Evermaw", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23987', '8714', "Dread Ship Vazuvius", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '0', '8714', "Archiereus of Flame (Untrackable)", %multiusercriteria);
+
 }
 
+sub p54_bigger_bag ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Going To Need A Bigger Bag (Account Wide");
+	BNet::Utils::preprintachievement ($count, '24024', '8728', "Cursed Swabby Helmet", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24080', '8728', "Warped Warning Sign", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24079', '8728', "Giant Purse of Timeless Coins", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24078', '8728', "Crystal of Insanity", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24077', '8728', "Battle Horn", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24075', '8728', "Forager's Gloves", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24074', '8728', "Big Bag of Herbs", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24073', '8728', "Overgrown Lilypad", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24072', '8728', "Hardened Shell", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24071', '8728', "Bubbling Pi'jiu Brew", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24070', '8728', "Thick Pi'jiu Brew", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24069', '8728', "Misty Pi'jiu Brew", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24068', '8728', "Warning Sign", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24067', '8728', "Ash-Covered Horn", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24066', '8728', "Cauterizing Core", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24065', '8728', "Captain Zvezdan's Lost Leg", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24064', '8728', "Cursed Talisman", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24063', '8728', "Golden Moss", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24062', '8728', "Strange Glowing Mushroom", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24061', '8728', "Eternal Kiln", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24060', '8728', "Jadefire Spirit", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24059', '8728', "Sunset Stone", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24058', '8728', "Ashen Stone", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24057', '8728', "Blizzard Stone", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24056', '8728', "Rain Stone", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24055', '8728', "Blackflame Daggers", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24054', '8728', "Falling Flame", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24053', '8728', "Ordon Death Chime", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24052', '8728', "Blazing Sigil of Ordos", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24051', '8728', "Ordon Ceremonial Robes", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24050', '8728', "Rime of the Time-Lost Mariner", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24049', '8728', "Scuttler's Shell", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24048', '8728', "Partially-Digested Meal", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24047', '8728', "Swarmling of Gu'chi", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24046', '8728', "Sticky Silkworm Goo", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24045', '8728', "Faintly-Glowing Herb", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24044', '8728', "Condensed Jademist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24043', '8728', "Windfeather Plume", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24042', '8728', "Quivering Firestorm Egg", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24081', '8728', "Reins of the Thundering Onyx Cloud Serpent", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24041', '8728', "Pristine Stalker Hide", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24040', '8728', "Glinting Pile of Stone", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24039', '8728', "Odd Polished Stone", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24038', '8728', "Glowing Blue Ash", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24037', '8728', "Glowing Green Ash", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24035', '8728', "Bonkers", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24034', '8728', "Gulp Froglet", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24033', '8728', "Spineclaw Crab", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24032', '8728', "Skunky Alemental", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24031', '8728', "Ominous Flame", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24030', '8728', "Jademist Dancer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24029', '8728', "Death Adder Hatchling", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24028', '8728', "Dandelion Frolicker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24027', '8728', "Ruby Droplet", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24026', '8728', "Azure Crane Chick", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24025', '8728', "Ashleaf Spriteling", %multiusercriteria);
+
+}
+
+sub p60_heralds_of_the_legion ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Heralds of the Legion");
+	BNet::Utils::preprintachievement ($count, '26476', '9638', "Orumo the Observer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26477', '9638', "Lord Korinak", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26478', '9638', "Lady Demlash", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26479', '9638', "Shadowflame Terrorwalker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26480', '9638', "Kurlosh Doomfang", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26481', '9638', "Matron of Sin", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26582', '9638', "Vigilant Paarthos", %multiusercriteria);
+
+}
+
+sub p60_fight_the_power ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Fight the Power");
+	BNet::Utils::preprintachievement ($count, '26542', '9655', "Maniacal Madgard", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26543', '9655', "Defector Dazgo", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26544', '9655', "Durp the Hated", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26545', '9655', "Inventor Blammo", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26548', '9655', "Horgg", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26550', '9655', "Blademaster Ro'gor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26551', '9655', "Morgo Kain", %multiusercriteria);
+
+}
+
+sub p60_ancient_no_more ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Ancient No More");
+	BNet::Utils::preprintachievement ($count, '26593', '9678', "Swift Onyx Flayer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26594', '9678', "Mogamago", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26595', '9678', "Protectors of the Grove", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26596', '9678', "Venolasix", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26597', '9678', "Alkali", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26598', '9678', "Depthroot", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26599', '9678', "Firestarter Grash", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26600', '9678', "Grove Warden Yal", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '26606', '9678', "Hunter Bal'ra", %multiusercriteria);
+
+}
+
+sub p60_gorgrond_monster_hunter ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Gorgrond Monster Hunter");
+	BNet::Utils::preprintachievement ($count, '25568', '9400', "Biolante", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '25569', '9400', "Roardan the Sky Terror", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '25570', '9400', "Crater Lord Igneous", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '25571', '9400', "Dessicus of the Dead Pools", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '25572', '9400', "Khargax the Devourer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '25573', '9400', "Erosian the Violent", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '25574', '9400', "Charl Doomwing", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '25575', '9400', "Fungal Praetorian", %multiusercriteria);
+
+}
+
+
 sub p62_jungle_stalker ($%) {
-	
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Jungle Stalker");
+	BNet::Utils::preprintachievement ($count, '28329', '10070', "Podlord Wakkawam", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28330', '10070', "Bramblefell", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28331', '10070', "Zeter'el", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28332', '10070', "Felspark", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28333', '10070', "Imp-Master Valessa", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28334', '10070', "Lady Oran", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28335', '10070', "Jax'zor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28336', '10070', "Ceraxas", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28337', '10070', "Mistress Thavra", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28338', '10070', "Cindral the Wildfire", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28339', '10070', "Sergeant Mor'grak", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28340', '10070', "Varyx the Damned", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28341', '10070', "Rasthe", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28342', '10070', "Painmistress Selora", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28343', '10070', "Grand Warlock Nethekurse", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28344', '10070', "Steelsnout", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28345', '10070', "Magwia", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28346', '10070', "Commander Krag'goth", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28347', '10070', "Tho'gar Gorefist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28348', '10070', "Grannok", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28349', '10070', "Szirek the Twisted", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28350', '10070', "The Iron Houndmaster", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28351', '10070', "Bilkor the Thrower", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28352', '10070', "Rogond the Tracker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28353', '10070', "Dorg the Bloody", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28354', '10070', "Drivnul", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28355', '10070', "Bloodhunter Zulk", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28356', '10070', "Relgor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28357', '10070', "Broodlord Ixkor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28358', '10070', "Soulslicer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28359', '10070', "Gloomtalon", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28360', '10070', "Krell the Serene", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28361', '10070', "The Blackfang", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28362', '10070', "Thromma the Gutslicer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28363', '10070', "Belgork", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28364', '10070', "Sylissa", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28365', '10070', "Rendrak", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28366', '10070', "The Night Haunter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28367', '10070', "The Goreclaw", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28368', '10070', "Gorabosh", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28369', '10070', "Driss Vile", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28370', '10070', "(The Real) Captain Ironbeard", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28371', '10070', "Glub'glok", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28372', '10070', "Felbore", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28373', '10070', "Akrrilo", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28374', '10070', "Rendarr", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28375', '10070', "Eyepiercer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28376', '10070', "Bleeding Hollow Horror", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28377', '10070', "Kris'kar the Unredeemed", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28380', '10070', "Executor Riloth", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28722', '10070', "Argosh the Destroyer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28723', '10070', "Zoug the Heavy", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28724', '10070', "Harbormaster Korak", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28725', '10070', "Shadowthrash", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28726', '10070', "Felsmith Damorka", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28727', '10070', "Putre'thar", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28728', '10070', "Xanzith the Everlasting", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28729', '10070', "Overlord Ma'gruth", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28730', '10070', "Captain Grok'mar", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28731', '10070', "Commander Org'mok", %multiusercriteria);
+
+
 }
 
 sub p70_adventurer_of_azsuna ($%) {
