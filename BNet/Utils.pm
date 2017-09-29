@@ -160,6 +160,8 @@ sub determinerace ($) {
 
 sub printcharacter($$) {
 	my ($server, $char) = @_;
+	chomp $server;
+	chomp $char;
 	my $url = "https://worldofwarcraft.com/en-us/character/" . $server . "/" . $char . "/";
 #	print "\t\t\t\t$columns[0]\n";
 #	print "\t\t\t\t</br>\n";
@@ -169,6 +171,9 @@ sub printcharacter($$) {
 	print "\">";
 	print $char;
 	print "</a>";
+	print "</br/>";
+	print $server;
+	print "</br/>";
 	
 }
 sub percharachievementscriteria ($) {
