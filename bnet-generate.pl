@@ -750,7 +750,7 @@ sub __main__() {
 ##	BNet::Quests_Wrath::z_68_71_Howling_Fjord ($count, %multiuserquests);
 ##	BNet::Quests_Wrath::z_71_74_Dragonblight ($count, %multiuserquests);
 ##	BNet::Quests_Wrath::z_73_75_Grizzly_Hills ($count, %multiuserquests);
-##	BNet::Quests_Wrath::z_74_77_Zul'Drak ($count, %multiuserquests);
+##	BNet::Quests_Wrath::z_74_77_ZulDrak ($count, %multiuserquests);
 ##	BNet::Quests_Wrath::z_76_78_Sholazar_Basin ($count, %multiuserquests);
 ##	BNet::Quests_Wrath::z_77_80_Icecrown ($count, %multiuserquests);
 ##	BNet::Quests_Wrath::z_77_80_Storm_Peaks ($count, %multiuserquests);
@@ -835,6 +835,8 @@ sub __main__() {
 	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
 	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
 	BNet::Achievements::p73_invasion_obliteration ($count, %multiusercriteria);
+	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
+	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
 
 }
 

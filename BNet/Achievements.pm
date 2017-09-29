@@ -642,4 +642,48 @@ sub p73_invasion_obliteration ($%) {
 
 }
 
+sub p70_archy_a_keen_eye ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("A Keen Eye");
+	BNet::Utils::preprintachievement ($count, '29966', '10603', "Crystalline Eye of Undravius", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29967', '10603', "Starlight Beacon", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29968', '10603', "Spear of Rethu", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29969', '10603', "Crown Jewels of Suramar", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29970', '10603', "Imp Generator", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29971', '10603', "Black Rook Key", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29972', '10603', "Wyrmy Tunkins", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29973', '10603', "Shard of Sciallax", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29974', '10603', "Prizerock Neckband", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29975', '10603', "Blood of Young Mannoroth", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29976', '10603', "Key to Nar'thalas Academy", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29977', '10603', "Purple Hills of Mac'Aree", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29978', '10603', "Spirit of Eche'ro", %multiusercriteria);
+
+
+}
+
+sub p70_archy_legion_curator ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Legion Curator");
+	BNet::Utils::preprintachievement ($count, '29979', '10604', "Pristine Imp's Cup", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29980', '10604', "Pristine Flayed-Skin Chronicle", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29981', '10604', "Pristine Malformed Abyssal", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29982', '10604', "Pristine Orb of Inner Chaos", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29983', '10604', "Pristine Houndstooth Hauberk", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29984', '10604', "Pristine Violetglass Vessel", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29985', '10604', "Pristine Inert Leystone Charm", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29986', '10604', "Pristine Quietwine Vial", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29987', '10604', "Pristine Pre-War Highborne Tapestry", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29988', '10604', "Pristine Nobleman's Letter Opener", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29989', '10604', "Pristine Trailhead Drum", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29990', '10604', "Pristine Moosebone Fish-Hook", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29991', '10604', "Pristine Hand-Smoothed Pyrestone", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29992', '10604', "Pristine Drogbar Gem-Roller", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '29993', '10604', "Pristine Stonewood Bow", %multiusercriteria);
+
+
+}
+
 1;
