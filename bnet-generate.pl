@@ -834,7 +834,8 @@ sub __main__() {
 	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
 	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
 	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
-	BNet::Achievements::p73_invasion_obliteration ($count, %multiusercriteria);
+	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
+	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
 	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
 	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
 

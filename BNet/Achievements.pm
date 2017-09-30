@@ -627,12 +627,30 @@ sub p73_adventurer_of_argus ($%) {
 
 }
 
-
-
-sub p73_invasion_obliteration ($%) {
+sub p73_invasion_lesser ($%) {
 	my ($count, %multiusercriteria) = @_;
 
-	BNet::Utils::groupheader ("Invasion Obliteration");
+	BNet::Utils::groupheader ("Argus: Lesser Invasions");
+	BNet::Utils::preprintachievement ($count, '37456', '12028', "Mazgoroth", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37457', '12028', "Gorgoloth", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37458', '12028', "Dread Knight Zak'gal", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37459', '12028', "Fel Lord Kaz'ral", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37460', '12028', "Flamecaller Vazrah", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37461', '12028', "Flameweaver Verathix", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37462', '12028', "Harbinger Drel'nathar", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37463', '12028', "Dreadbringer Valus", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37464', '12028', "Malphazel", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37465', '12028', "Vogrethar the Defiled", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37466', '12028', "Vel'thrak the Punisher", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37467', '12028', "Flamebringer Az'rothel", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37468', '12028', "Baldrazar", %multiusercriteria);
+
+}
+
+sub p73_invasion_greater ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Argus: Greater Invasions");
 	BNet::Utils::preprintachievement ($count, '37450', '12026', "Occularus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37451', '12026', "Sotanathor", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37452', '12026', "Matron Folnuna", %multiusercriteria);
@@ -682,7 +700,6 @@ sub p70_archy_legion_curator ($%) {
 	BNet::Utils::preprintachievement ($count, '29991', '10604', "Pristine Hand-Smoothed Pyrestone", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29992', '10604', "Pristine Drogbar Gem-Roller", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29993', '10604', "Pristine Stonewood Bow", %multiusercriteria);
-
 
 }
 
