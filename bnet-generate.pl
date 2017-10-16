@@ -84,12 +84,17 @@ sub __main__() {
 
 	my $count = 0;
 	
-	my $fetchtype = 'quests';
+	my $fetchtype = 'quests,items';
 	my $fetchtypeachiev = 'achievements';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
 	BNet::Utils::tableprint("beginrow");
 	BNet::Utils::tableprint("beginth");
+	print "\t\t\t\t<div>Character</div>";
+	print "\t\t\t\t<div>Server</div>";
+	print "\t\t\t\t<div>Average iLvl</div>";
+	print "\t\t\t\t<div>Wowhead</div>";
+	print "\t\t\t\t<div>Level</div>";
 	BNet::Utils::tableprint("endth");
 
 	foreach my $f (@entire_file) {
@@ -104,8 +109,9 @@ sub __main__() {
 				$userinfo00achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo00);
+				my $ail = BNet::Utils::retrieveail($userinfo00);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -127,8 +133,9 @@ sub __main__() {
 				$userinfo01achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo01);
+				my $ail = BNet::Utils::retrieveail($userinfo01);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -139,7 +146,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo01->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -150,8 +157,9 @@ sub __main__() {
 				$userinfo02achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo02);
+				my $ail = BNet::Utils::retrieveail($userinfo02);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -162,7 +170,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo02->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -173,8 +181,9 @@ sub __main__() {
 				$userinfo03achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo03);
+				my $ail = BNet::Utils::retrieveail($userinfo03);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -185,7 +194,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo03->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -196,8 +205,9 @@ sub __main__() {
 				$userinfo04achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo04);
+				my $ail = BNet::Utils::retrieveail($userinfo04);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -208,7 +218,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo04->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -219,8 +229,9 @@ sub __main__() {
 				$userinfo05achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo05);
+				my $ail = BNet::Utils::retrieveail($userinfo05);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -231,7 +242,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo05->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -242,8 +253,9 @@ sub __main__() {
 				$userinfo06achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo06);
+				my $ail = BNet::Utils::retrieveail($userinfo06);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -254,7 +266,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo06->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -265,8 +277,9 @@ sub __main__() {
 				$userinfo07achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo07);
+				my $ail = BNet::Utils::retrieveail($userinfo07);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -277,7 +290,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo07->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -288,8 +301,9 @@ sub __main__() {
 				$userinfo08achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo08);
+				my $ail = BNet::Utils::retrieveail($userinfo08);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -300,7 +314,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo08->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -311,8 +325,9 @@ sub __main__() {
 				$userinfo09achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo09);
+				my $ail = BNet::Utils::retrieveail($userinfo09);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -323,7 +338,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo09->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -334,8 +349,9 @@ sub __main__() {
 				$userinfo10achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo10);
+				my $ail = BNet::Utils::retrieveail($userinfo10);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -346,7 +362,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo10->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -357,8 +373,9 @@ sub __main__() {
 				$userinfo11achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo11);
+				my $ail = BNet::Utils::retrieveail($userinfo11);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -369,7 +386,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo11->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -380,8 +397,9 @@ sub __main__() {
 				$userinfo12achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo12);
+				my $ail = BNet::Utils::retrieveail($userinfo12);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -392,7 +410,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo12->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -403,8 +421,9 @@ sub __main__() {
 				$userinfo13achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo13);
+				my $ail = BNet::Utils::retrieveail($userinfo13);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -415,7 +434,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo13->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -426,8 +445,9 @@ sub __main__() {
 				$userinfo14achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo14);
+				my $ail = BNet::Utils::retrieveail($userinfo14);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -438,7 +458,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo14->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -449,8 +469,9 @@ sub __main__() {
 				$userinfo15achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo15);
+				my $ail = BNet::Utils::retrieveail($userinfo15);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1]);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					print $columns[2];
@@ -461,7 +482,7 @@ sub __main__() {
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
-					print $userinfo00->{'level'};
+					print $userinfo15->{'level'};
 					print "</div>";
 				}
 				BNet::Utils::tableprint("endtd");
@@ -840,13 +861,13 @@ sub __main__() {
 #	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
 #	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
 
-	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
-	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
-	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
-	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
-	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
-	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
-	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
+#	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
+#	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
+#	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
+#	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
+#	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
+#	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
+#	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
 	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
 
 }

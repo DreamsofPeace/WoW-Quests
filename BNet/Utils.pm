@@ -121,6 +121,12 @@ sub determinegender ($) {
 	}
 }
 
+sub retrieveail ($) {
+	my ($decoded) = @_;
+	my $class = $decoded->{'items'}->{'averageItemLevelEquipped'};
+	return $class;
+}
+
 sub determinerace ($) {
 	my ($decoded) = @_;
 	
@@ -158,22 +164,25 @@ sub determinerace ($) {
 
 }
 
-sub printcharacter($$) {
-	my ($server, $char) = @_;
+sub printcharacter($$$) {
+	my ($server, $char, $ail) = @_;
 	chomp $server;
 	chomp $char;
+	chomp $ail;
 	my $url = "https://worldofwarcraft.com/en-us/character/" . $server . "/" . $char . "/";
 #	print "\t\t\t\t$columns[0]\n";
 #	print "\t\t\t\t</br>\n";
 #	print "\t\t\t\t$columns[1]\n";
-	print "\t\t\t\t<a href=\"";
+	print "\n\t\t\t\t<div><a href=\"";
 	print $url;
 	print "\">";
 	print $char;
 	print "</a>";
-	print "</br/>";
+	print "</div>\n\t\t\t\t<div>";
 	print $server;
-	print "</br/>";
+	print "</div>\n\t\t\t\t<div>";
+	print $ail;
+	print "</div>\n";
 	
 }
 sub percharachievementscriteria ($) {
