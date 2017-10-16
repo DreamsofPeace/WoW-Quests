@@ -459,6 +459,99 @@ sub dungeons ($%) {
 }
 
 
+sub raid_60_aq10 ($%) {
+	my ($count, %multiuserquests) = @_;
+	BNet::Utils::groupheader ("Ruins of Ahn\'Qiraj");
+	BNet::Utils::groupheader ("Druid");
+	BNet::Utils::preprint ($count, '8692', "Cloak of Unending Life", %multiuserquests);
+	BNet::Utils::preprint ($count, '8708', "Mace of Unending Life", %multiuserquests);
+	BNet::Utils::preprint ($count, '8700', "Band of Unending Life", %multiuserquests);
+	BNet::Utils::groupheader ("Hunter");
+	BNet::Utils::preprint ($count, '8696', "Cloak of the Unseen Path", %multiuserquests);
+	BNet::Utils::preprint ($count, '8712', "Scythe of the Unseen Path", %multiuserquests);
+	BNet::Utils::preprint ($count, '8704', "Signet of the Unseen Path", %multiuserquests);
+	BNet::Utils::groupheader ("Mage");
+	BNet::Utils::preprint ($count, '8691', "Drape of Vaulted Secrets", %multiuserquests);
+	BNet::Utils::preprint ($count, '8707', "Blade of Vaulted Secrets", %multiuserquests);
+	BNet::Utils::preprint ($count, '8699', "Band of Vaulted Secrets", %multiuserquests);
+	BNet::Utils::groupheader ("Paladin");
+	BNet::Utils::preprint ($count, '8695', "Cape of Eternal Justice", %multiuserquests);
+	BNet::Utils::preprint ($count, '8711', "Blade of Eternal Justice", %multiuserquests);
+	BNet::Utils::preprint ($count, '8703', "Ring of Eternal Justice", %multiuserquests);
+	BNet::Utils::groupheader ("Priest");
+	BNet::Utils::preprint ($count, '8689', "Shroud of Infinite Wisdom", %multiuserquests);
+	BNet::Utils::preprint ($count, '8705', "Gavel of Infinite Wisdom", %multiuserquests);
+	BNet::Utils::preprint ($count, '8697', "Ring of Infinite Wisdom", %multiuserquests);
+	BNet::Utils::groupheader ("Rogue");
+	BNet::Utils::preprint ($count, '8693', "Cloak of Veiled Shadows", %multiuserquests);
+	BNet::Utils::preprint ($count, '8709', "Dagger of Veiled Shadows", %multiuserquests);
+	BNet::Utils::preprint ($count, '8701', "Band of Veiled Shadows", %multiuserquests);
+	BNet::Utils::groupheader ("Shaman");
+	BNet::Utils::preprint ($count, '8690', "Cloak of the Gathering Storm", %multiuserquests);
+	BNet::Utils::preprint ($count, '8706', "Hammer of the Gathering Storm", %multiuserquests);
+	BNet::Utils::preprint ($count, '8698', "Ring of the Gathering Storm", %multiuserquests);
+	BNet::Utils::groupheader ("Warlock");
+	BNet::Utils::preprint ($count, '8694', "Shroud of Unspoken Names", %multiuserquests);
+	BNet::Utils::preprint ($count, '8710', "Kris of Unspoken Names", %multiuserquests);
+	BNet::Utils::preprint ($count, '8702', "Ring of Unspoken Names", %multiuserquests);
+	BNet::Utils::groupheader ("Warrior");
+	BNet::Utils::preprint ($count, '8557', "Drape of Unyielding Strength", %multiuserquests);
+	BNet::Utils::preprint ($count, '8558', "Sickle of Unyielding Strength", %multiuserquests);
+	BNet::Utils::preprint ($count, '8556', "Signet of Unyielding Strength", %multiuserquests);
+
+}
+
+
+sub raid_100_brf ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Blackrock Foundry");
+	BNet::Utils::preprint ($count, '37029', "Sigil of the Black Hand (Normal)", %multiuserquests);
+	BNet::Utils::preprint ($count, '37030', "Sigil of the Black Hand (Heroic)", %multiuserquests);
+	BNet::Utils::preprint ($count, '37031', "Sigil of the Black Hand (Mythic)", %multiuserquests);
+}
+
+sub raid_100_hfc ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Hellfire Citadel");
+	BNet::Utils::preprint ($count, '39499', "Well of Souls (Normal)", %multiuserquests);
+	BNet::Utils::preprint ($count, '39500', "Well of Souls (Heroic)", %multiuserquests);
+	BNet::Utils::preprint ($count, '39501', "Well of Souls (Mythic)", %multiuserquests);
+	BNet::Utils::preprint ($count, '39502', "The Fel Spire (Normal)", %multiuserquests);
+	BNet::Utils::preprint ($count, '39504', "The Fel Spire (Heroic)", %multiuserquests);
+	BNet::Utils::preprint ($count, '39505', "The Fel Spire (Mythic)", %multiuserquests);
+}
+
+sub raid_110_en ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Emerald Nightmare");
+	BNet::Utils::preprint ($count, '44283', "The Emerald Nightmare: Piercing the Veil (Normal)", %multiuserquests);
+	BNet::Utils::preprint ($count, '44284', "The Emerald Nightmare: Piercing the Veil (Heroic)", %multiuserquests);
+	BNet::Utils::preprint ($count, '44285', "The Emerald Nightmare: Piercing the Veil (Mythic)", %multiuserquests);
+}
+
+sub raid_110_nh ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Nighthold");
+	BNet::Utils::preprint ($count, '45381', "Talisman of the Shal'dorei (Normal)", %multiuserquests);
+	BNet::Utils::preprint ($count, '45382', "Talisman of the Shal'dorei (Heroic)", %multiuserquests);
+	BNet::Utils::preprint ($count, '45383', "Talisman of the Shal'dorei (Mythic)", %multiuserquests);
+}
+
+sub raid_100_tos ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Tomb of Sargeras");
+	BNet::Utils::preprint ($count, '47725', "Aegwynn's Path (Normal)", %multiuserquests);
+	BNet::Utils::preprint ($count, '47726', "Aegwynn's Path (Heroic)", %multiuserquests);
+	BNet::Utils::preprint ($count, '47727', "Aegwynn's Path (Mythic)", %multiuserquests);
+}
+
+
+
 sub class_quests ($%) {
 	my ($count, %multiuserquests) = @_;
 

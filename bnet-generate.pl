@@ -788,8 +788,8 @@ sub __main__() {
 #	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
 #	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
 #	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
 #	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
 	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
 #
@@ -801,7 +801,8 @@ sub __main__() {
 #	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 #	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 #	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
-#	BNet::Quests_Misc::dungeons ($count, %multiusercriteria);
+	BNet::Quests_Misc::dungeons ($count, %multiusercriteria);
+	BNet::Quests_Misc::raid_60_aq10 ($count, %multiusercriteria);
 
 #Class Specific
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
