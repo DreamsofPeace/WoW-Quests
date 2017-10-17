@@ -824,8 +824,14 @@ sub __main__() {
 #	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 	BNet::Quests_Misc::dungeons ($count, %multiusercriteria);
 	BNet::Quests_Misc::raid_60_aq10 ($count, %multiusercriteria);
+	BNet::Quests_Misc::raid_100_brf ($count, %multiusercriteria);
+	BNet::Quests_Misc::raid_100_hfc ($count, %multiusercriteria);
+	BNet::Quests_Misc::raid_110_en ($count, %multiusercriteria);
+	BNet::Quests_Misc::raid_110_nh ($count, %multiusercriteria);
+	BNet::Quests_Misc::raid_110_tos ($count, %multiusercriteria);
 
 #Class Specific
+	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
 
 #Legendaries

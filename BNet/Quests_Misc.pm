@@ -543,7 +543,7 @@ sub raid_110_nh ($%) {
 	BNet::Utils::preprint ($count, '45383', "Talisman of the Shal'dorei (Mythic)", %multiuserquests);
 }
 
-sub raid_100_tos ($%) {
+sub raid_110_tos ($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Tomb of Sargeras");
@@ -557,49 +557,112 @@ sub raid_100_tos ($%) {
 sub class_quests ($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Various Class Quests");
+	BNet::Utils::groupheader ("Class Quests");
+	BNet::Utils::groupheader ("Druid: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_druid.jpg\">");
+	BNet::Utils::preprint ($count, '27273', "An Invitation from Moonglade <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27283', "A Journey to Moonglade <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27356', "The Circle's Future <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27404', "The Circle's Future <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("Hunter: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_hunter.jpg\">");
+	BNet::Utils::preprint ($count, '27266', "Wulf Calls <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27278', "Grimshot's Call <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27344', "A Well-Earned Reward <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27395', "A Marksman's Weapon <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("Mage: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_mage.jpg\">");
+	BNet::Utils::preprint ($count, '27271', "Journey to the Wizard's Sanctum <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27277', "An Audience with Ureda <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27354', "Mastering the Arcane <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27400', "Mastering the Arcane <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("Paladin: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_paladin.jpg\">");
+	BNet::Utils::preprint ($count, '27265', "Lord Grayson Shadowbreaker <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_dwarf_female.jpg\"> <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_draenei_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27298', "Seek Out Master Pyreanor <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> <img src=\"http://wow.zamimg.com/images/wow/icons/small/race_bloodelf_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27304', "Follow the Sun", %multiuserquests);
+	BNet::Utils::preprint ($count, '27343', "The Hand of the Light", %multiuserquests);
+	BNet::Utils::preprint ($count, '27403', "A True Sunwalker", %multiuserquests);
+	BNet::Utils::preprint ($count, '27434', "The Adept's Path", %multiuserquests);
+	BNet::Utils::groupheader ("Priest: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_priest.jpg\">");
+	BNet::Utils::preprint ($count, '27268', "Make Haste to the Cathedral <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27269', "The Temple of the Moon", %multiuserquests);
+	BNet::Utils::preprint ($count, '27274', "The Chief Surgeon", %multiuserquests);
+	BNet::Utils::preprint ($count, '27331', "The Seer's Call <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27332', "Seek the Shadow-Walker", %multiuserquests);
+	BNet::Utils::preprint ($count, '27334', "Dark Cleric Cecille", %multiuserquests);
+	BNet::Utils::preprint ($count, '27335', "Journey to Orgrimmar", %multiuserquests);
+	BNet::Utils::preprint ($count, '27361', "Favored of the Light <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27362', "Favored of Elune <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27363', "A Budding Young Surgeon <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27435', "A Seer's Staff <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27436', "The Shadow-Walker's Task", %multiuserquests);
+	BNet::Utils::preprint ($count, '27437', "The Dark Cleric's Bidding", %multiuserquests);
+	BNet::Utils::preprint ($count, '27439', "Staff of the Light", %multiuserquests);
+	BNet::Utils::preprint ($count, '27441', "A Seer's Staff", %multiuserquests);
+	BNet::Utils::preprint ($count, '28164', "Seek Brother Silverhallow <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("Rogue: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_rogue.jpg\">");
+	BNet::Utils::preprint ($count, '27267', "Make Contact with SI:7 <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27279', "The Shattered Hand <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27351', "A Royal Reward <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27396', "Blade of the Shattered Hand <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("Shaman: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\">");
+	BNet::Utils::preprint ($count, '27270', "An Audience with the Farseer <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27280', "The Earthbreaker Calls <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27353', "Blessings of the Elements <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27397', "Terga's Task <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("Warlock: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_warlock.jpg\">");
+	BNet::Utils::preprint ($count, '27272', "Demisette Sends Word <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27282', "Kranosh's Behest <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27355', "A Boon for the Powerful <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27402', "Token of Power <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("Warrior: <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_warrior.jpg\">");
+	BNet::Utils::preprint ($count, '27225', "A Summons from Ander Germaine <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27281', "Grezz Ragefist <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27337', "A Fitting Weapon <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27365', "A Fitting Weapon <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+
+
+
 =pod
-27225	A Summons from Ander Germaine	class=1	Warrior	icon-alliance
-27265	Lord Grayson Shadowbreaker	class=2	Paladin	icon-alliance
-27266	Wulf Calls	class=3	Hunter	icon-alliance
-27267	Make Contact with SI:7	class=4	Rogue	icon-alliance
-27268	Make Haste to the Cathedral	class=5	Priest	icon-alliance
+27225	A Summons from Ander Germaine	class=1	Warrior <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
+27265	Lord Grayson Shadowbreaker	class=2	Paladin <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
+27266	Wulf Calls	class=3	Hunter <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
+27267	Make Contact with SI:7	class=4	Rogue <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
+27268	Make Haste to the Cathedral	class=5	Priest <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
 27269	The Temple of the Moon	class=5	Priest
 27270	An Audience with the Farseer	class=7	Shaman
-27271	Journey to the Wizard's Sanctum	class=8	Mage	icon-alliance
-27272	Demisette Sends Word	class=9	Warlock	icon-alliance
+27271	Journey to the Wizard's Sanctum	class=8	Mage <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
+27272	Demisette Sends Word	class=9	Warlock <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
 27273	An Invitation from Moonglade	class=11	Druid
 27274	The Chief Surgeon	class=5	Priest
-27277	An Audience with Ureda	class=8	Mage	icon-horde
-27278	Grimshot's Call	class=3	Hunter	icon-horde
-27279	The Shattered Hand	class=4	Rogue	icon-horde
-27280	The Earthbreaker Calls	class=7	Shaman	icon-horde
-27281	Grezz Ragefist	class=1	Warrior	icon-horde
-27282	Kranosh's Behest	class=9	Warlock	icon-horde
+27277	An Audience with Ureda	class=8	Mage <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27278	Grimshot's Call	class=3	Hunter <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27279	The Shattered Hand	class=4	Rogue <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27280	The Earthbreaker Calls	class=7	Shaman <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27281	Grezz Ragefist	class=1	Warrior <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27282	Kranosh's Behest	class=9	Warlock <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
 27283	A Journey to Moonglade	class=11	Druid
 27298	Seek Out Master Pyreanor	class=2	Paladin
 27304	Follow the Sun	class=2	Paladin
-27331	The Seer's Call	class=5	Priest	icon-horde
+27331	The Seer's Call	class=5	Priest <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
 27332	Seek the Shadow-Walker	class=5	Priest
 27334	Dark Cleric Cecille	class=5	Priest
 27335	Journey to Orgrimmar	class=5	Priest
-27337	A Fitting Weapon	class=1	Warrior	icon-alliance
+27337	A Fitting Weapon	class=1	Warrior <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
 27343	The Hand of the Light	class=2	Paladin
-27344	A Well-Earned Reward	class=3	Hunter	icon-alliance
-27351	A Royal Reward	class=4	Rogue	icon-alliance
+27344	A Well-Earned Reward	class=3	Hunter <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
+27351	A Royal Reward	class=4	Rogue <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
 27353	Blessings of the Elements	class=7	Shaman
-27354	Mastering the Arcane	class=8	Mage	icon-alliance
-27355	A Boon for the Powerful	class=9	Warlock	icon-alliance
+27354	Mastering the Arcane	class=8	Mage <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
+27355	A Boon for the Powerful	class=9	Warlock <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
 27356	The Circle's Future	class=11	Druid
-27361	Favored of the Light	class=5	Priest	icon-alliance
+27361	Favored of the Light	class=5	Priest <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">
 27362	Favored of Elune	class=5	Priest
 27363	A Budding Young Surgeon	class=5	Priest
-27365	A Fitting Weapon	class=1	Warrior	icon-horde
-27395	A Marksman's Weapon	class=3	Hunter	icon-horde
-27396	Blade of the Shattered Hand	class=4	Rogue	icon-horde
-27397	Terga's Task	class=7	Shaman	icon-horde
-27400	Mastering the Arcane	class=8	Mage	icon-horde
-27402	Token of Power	class=9	Warlock	icon-horde
+27365	A Fitting Weapon	class=1	Warrior <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27395	A Marksman's Weapon	class=3	Hunter <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27396	Blade of the Shattered Hand	class=4	Rogue <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27397	Terga's Task	class=7	Shaman <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27400	Mastering the Arcane	class=8	Mage <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
+27402	Token of Power	class=9	Warlock <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
 27403	A True Sunwalker	class=2	Paladin
 27404	The Circle's Future	class=11	Druid
 27434	The Adept's Path	class=2	Paladin
@@ -608,7 +671,7 @@ sub class_quests ($%) {
 27437	The Dark Cleric's Bidding	class=5	Priest
 27439	Staff of the Light	class=5	Priest
 27441	A Seer's Staff	class=5	Priest
-28164	Seek Brother Silverhallow	class=5	Priest	icon-horde
+28164	Seek Brother Silverhallow	class=5	Priest <img src=\"http://wow.zamimg.com/images/icons/horde.png\">
 =cut
 }
 
