@@ -1436,4 +1436,13 @@ sub p70_shoot_first_loot_later ($%) {
 
 }
 
+sub raid_30_os ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Raid: Wrath: Obsidian Sanctum");
+	BNet::Utils::preprintachievement ($count, '5138', '1876', "Besting the Black Dragonflight (10 player)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6398', '625', "Besting the Black Dragonflight (10 player)", %multiusercriteria);
+
+}
+
 1;

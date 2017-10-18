@@ -822,17 +822,20 @@ sub __main__() {
 #	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 #	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 #	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
-	BNet::Quests_Misc::dungeons ($count, %multiusercriteria);
-	BNet::Quests_Misc::raid_60_aq10 ($count, %multiusercriteria);
-	BNet::Quests_Misc::raid_100_brf ($count, %multiusercriteria);
-	BNet::Quests_Misc::raid_100_hfc ($count, %multiusercriteria);
-	BNet::Quests_Misc::raid_110_en ($count, %multiusercriteria);
-	BNet::Quests_Misc::raid_110_nh ($count, %multiusercriteria);
-	BNet::Quests_Misc::raid_110_tos ($count, %multiusercriteria);
+	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
+	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
+	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
+	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
+	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
+	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
+	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
 
 #Class Specific
 	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
+
+#Raids
+	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
 
 #Legendaries
 #	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
