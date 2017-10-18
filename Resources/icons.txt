@@ -9,8 +9,8 @@
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/class_rogue.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/class_warlock.jpg\">
- <img src=\"https://wow.zamimg.com/images/wow/icons/small/alliance.png\">
- <img src=\"https://wow.zamimg.com/images/wow/icons/small/horde.png\">
+ <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">
+ <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_bloodelf_male.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_bloodelf_female.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_dwarf_male.jpg\">
@@ -33,17 +33,7 @@
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_tauren_female.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_troll_male.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_troll_female.jpg\">
- <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_undead_male.jpg\">
- <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_undead_female.jpg\">
+ <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_scourge_male.jpg\">
+ <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_worgen_male.jpg\">
  <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_worgen_female.jpg\">
-
-
-
-
-
-
-
-
-
-

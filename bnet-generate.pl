@@ -837,6 +837,10 @@ sub __main__() {
 #Raids
 	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
 
+#Dungeon/Raids
+	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
+
+
 #Legendaries
 #	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
 #	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
