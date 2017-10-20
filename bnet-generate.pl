@@ -822,23 +822,24 @@ sub __main__() {
 #	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 #	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 #	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
-	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
-	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
-	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
-	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
-	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
-	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
-	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
+#	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
 
 #Class Specific
 	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
 #	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
 
 #Raids
-	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
+#	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
 
 #Dungeon/Raids
-	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
+#	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
+#	BNet::Achievements::glory_of ($count, %multiusercriteria);
 
 
 #Legendaries
@@ -863,12 +864,12 @@ sub __main__() {
 #	BNet::Achievements::p60_ancient_no_more ($count, %multiusercriteria);
 #	BNet::Achievements::p60_gorgrond_monster_hunter ($count, %multiusercriteria);
 #	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
-	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
-	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
-	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
-	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
-	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
-	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
+#	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
+#	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
 	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
 	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
 #	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
