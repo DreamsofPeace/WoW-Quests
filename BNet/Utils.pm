@@ -196,6 +196,11 @@ sub percharachievementscriteriaquantity ($) {
 	my @raids = @{ $decoded->{'achievements'}{'criteriaQuantity'} };
 	return @raids;
 }
+sub percharrecipes ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'secondary'}[2]{'spells'} };
+	return @raids;
+}
 
 sub percharquests ($) {
 	my ($decoded) = @_;

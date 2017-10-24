@@ -84,7 +84,7 @@ sub __main__() {
 
 	my $count = 0;
 	
-	my $fetchtype = 'quests,items';
+	my $fetchtype = 'quests,items,recipes';
 	my $fetchtypeachiev = 'achievements';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
@@ -498,6 +498,7 @@ sub __main__() {
 #		print "\n";
 	if (0 < $count) {
 		my @UI00 = BNet::Utils::percharquests ($userinfo00);
+		my @UI00REC = BNet::Utils::percharrecipes ($userinfo01);
 		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00achiev);
 		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00achiev);
 		foreach my $uq (@UI00) {
@@ -508,9 +509,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI00A);
 			$multiusercriteria{0}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI00REC) {
+			my $lookupres= findinarray($uq, @UI00REC);
+			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (1 < $count) {
 		my @UI01 = BNet::Utils::percharquests ($userinfo01);
+		my @UI01REC = BNet::Utils::percharrecipes ($userinfo01);
 		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01achiev);
 		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01achiev);
 		foreach my $uq (@UI01) {
@@ -520,6 +526,10 @@ sub __main__() {
 		foreach my $uq (@UI01A) {
 			my $lookupres= findinarray($uq, @UI01A);
 			$multiusercriteria{1}{$uq} = $lookupres;
+		}
+		foreach my $uq (@UI01REC) {
+			my $lookupres= findinarray($uq, @UI01REC);
+			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
 		}
 	}
 	if (2 < $count) {
@@ -806,20 +816,20 @@ sub __main__() {
 
 ##Legion
 #	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
 	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
 	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
 #	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
 	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
 #
 ##Artifact Base Hidden Appearances
-#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
 ####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
 	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
 	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 #	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 #	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 #	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
@@ -836,7 +846,8 @@ sub __main__() {
 
 #Raids
 #	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
-
+	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
+	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
 #Dungeon/Raids
 #	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
 #	BNet::Achievements::glory_of ($count, %multiusercriteria);
