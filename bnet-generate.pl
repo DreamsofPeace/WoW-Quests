@@ -84,7 +84,7 @@ sub __main__() {
 
 	my $count = 0;
 	
-	my $fetchtype = 'quests,items,recipes';
+	my $fetchtype = 'quests,items,professions';
 	my $fetchtypeachiev = 'achievements';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
@@ -498,7 +498,7 @@ sub __main__() {
 #		print "\n";
 	if (0 < $count) {
 		my @UI00 = BNet::Utils::percharquests ($userinfo00);
-		my @UI00REC = BNet::Utils::percharrecipes ($userinfo01);
+#		my @UI00REC = BNet::Utils::percharrecipes ($userinfo01);
 		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00achiev);
 		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00achiev);
 		foreach my $uq (@UI00) {
@@ -509,14 +509,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI00A);
 			$multiusercriteria{0}{$uq} = $lookupres;
 		}
-		foreach my $uq (@UI00REC) {
-			my $lookupres= findinarray($uq, @UI00REC);
-			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
-		}
+#		foreach my $uq (@UI00REC) {
+#			my $lookupres= findinarray($uq, @UI00REC);
+#			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+#		}
 	}
 	if (1 < $count) {
 		my @UI01 = BNet::Utils::percharquests ($userinfo01);
-		my @UI01REC = BNet::Utils::percharrecipes ($userinfo01);
+#		my @UI01REC = BNet::Utils::percharrecipes ($userinfo01);
 		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01achiev);
 		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01achiev);
 		foreach my $uq (@UI01) {
@@ -527,10 +527,10 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI01A);
 			$multiusercriteria{1}{$uq} = $lookupres;
 		}
-		foreach my $uq (@UI01REC) {
-			my $lookupres= findinarray($uq, @UI01REC);
-			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
-		}
+#		foreach my $uq (@UI01REC) {
+#			my $lookupres= findinarray($uq, @UI01REC);
+#			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+#		}
 	}
 	if (2 < $count) {
 		my @UI02 = BNet::Utils::percharquests ($userinfo02);
