@@ -930,6 +930,7 @@ sub empoweredartifacts ($%) {
 	BNet::Utils::preprint ($count, '46177', "A Portal Away", %multiuserquests);
 	BNet::Utils::preprint ($count, '45865', "A Gift From the Six", %multiuserquests);
 	BNet::Utils::preprint ($count, '44925', "Closing the Eye", %multiuserquests);
+	BNet::Utils::preprint ($count, '45570', "In Safer Hands", %multiuserquests);
 	BNet::Utils::preprint ($count, '45908', "Xylem's Gift", %multiuserquests);
 	BNet::Utils::groupheader ("DPS: Fate of the Tideskorn<div>Arcane Mage, Assassination Rogue, Retribution Paladin, Enhancement Shaman, Demonology Warlock</div>");
 	BNet::Utils::preprint ($count, '45482', "Arcane: Fate of the Tideskorn", %multiuserquests);
@@ -944,7 +945,8 @@ sub empoweredartifacts ($%) {
 	BNet::Utils::preprint ($count, '45525', "Unanswered Questions", %multiuserquests);
 	BNet::Utils::preprint ($count, '46340', "The Gates Are Closed", %multiuserquests);
 	BNet::Utils::preprint ($count, '45862', "A Gift From the Six", %multiuserquests);
-	BNet::Utils::preprint ($count, '45627', "The God-Queen's Fury", %multiuserquests);
+	BNet::Utils::preprint ($count, '45526', "The God-Queen's Fury", %multiuserquests);
+	BNet::Utils::preprint ($count, '45527', "Eyir's Forgiveness", %multiuserquests);
 	BNet::Utils::preprint ($count, '45904', "The God-Queen's Gift", %multiuserquests);
 	BNet::Utils::groupheader ("DPS: Folly of Levia Laurence<div>Feral Druid, Outlaw Rogue, Unholy Death Knight, Fury Warrior, Fire Mage, Elemental Shaman</div>");
 	BNet::Utils::preprint ($count, '45123', "Elemental: The Folly of Levia Laurence", %multiuserquests);
