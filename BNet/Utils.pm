@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use JSON;
 use LWP::Simple;
+use Data::Dumper;
 
 sub downloadinfo($$$$) {
 	my ($character, $server, $field, $apikey) = @_;
@@ -196,10 +197,16 @@ sub percharachievementscriteriaquantity ($) {
 	my @raids = @{ $decoded->{'achievements'}{'criteriaQuantity'} };
 	return @raids;
 }
-sub percharrecipes ($) {
+sub percharrecipescooking ($) {
 	my ($decoded) = @_;
-	my @raids = @{ $decoded->{'professions'}{'secondary'}[2]{'spells'} };
-	return @raids;
+	my @raids = @{ $decoded->{'professions'}{'secondary'} };
+#	print join (", ", @raids);
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 185) {
+			print join (", ", $f->{'recipes'});
+#			my @e =  $f->{'recipes'};
+		}
+	}
 }
 
 sub percharquests ($) {
@@ -207,14 +214,6 @@ sub percharquests ($) {
 	my @raids = @{ $decoded->{'quests'} };
 	return @raids;
 }
-#$reputation->{'professions'}{'primary'}{'recipes'} };
-
-
-#sub percharquests ($) {
-#	my ($decoded) = @_;
-#	my @raids = @{ $decoded->{'quests'} };
-#	return @raids;
-#}
 
 sub reputationtojson ($) {
 	my ($reputation) = @_;

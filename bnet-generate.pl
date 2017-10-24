@@ -4,6 +4,7 @@ use JSON;
 use LWP::Simple;
 use Getopt::Long;
 use List::Util 1.33 'any';
+use Data::Dumper;
 
 BEGIN {
 	require 'BNet/Utils.pm';
@@ -498,7 +499,7 @@ sub __main__() {
 #		print "\n";
 	if (0 < $count) {
 		my @UI00 = BNet::Utils::percharquests ($userinfo00);
-#		my @UI00REC = BNet::Utils::percharrecipes ($userinfo01);
+		my @UI00REC = BNet::Utils::percharrecipescooking ($userinfo00);
 		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00achiev);
 		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00achiev);
 		foreach my $uq (@UI00) {
@@ -509,14 +510,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI00A);
 			$multiusercriteria{0}{$uq} = $lookupres;
 		}
-#		foreach my $uq (@UI00REC) {
-#			my $lookupres= findinarray($uq, @UI00REC);
-#			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
-#		}
+		foreach my $uq (@UI00REC) {
+			my $lookupres= findinarray($uq, @UI00REC);
+			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (1 < $count) {
 		my @UI01 = BNet::Utils::percharquests ($userinfo01);
-#		my @UI01REC = BNet::Utils::percharrecipes ($userinfo01);
+#		my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo01);
 		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01achiev);
 		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01achiev);
 		foreach my $uq (@UI01) {
@@ -814,86 +815,86 @@ sub __main__() {
 ##	BNet::Quests_Warlords::z_98_100_nagrand ($count, %multiuserquests);
 ##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
 
-##Legion
-#	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
-#
+###Legion
+##	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
+##	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
+##
 ##Artifact Base Hidden Appearances
-####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
-	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
-#	BNet::Misc::class_hall_set ($count, %multiusercriteria);
-#	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
-#	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
-
-#Class Specific
-	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
-#	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
-
-#Raids
-#	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
-	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
-	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
-#Dungeon/Raids
-#	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
-#	BNet::Achievements::glory_of ($count, %multiusercriteria);
-
-
-#Legendaries
-#	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_shadowmourne ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
-
-#Various Achievements
-#	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
-#	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
-#	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
-#	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
-#	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
-#	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
-#	BNet::Achievements::p54_bigger_bag ($count, %multiusercriteria);
-#	BNet::Achievements::p60_heralds_of_the_legion ($count, %multiusercriteria);
-#	BNet::Achievements::p60_fight_the_power ($count, %multiusercriteria);
-#	BNet::Achievements::p60_ancient_no_more ($count, %multiusercriteria);
-#	BNet::Achievements::p60_gorgrond_monster_hunter ($count, %multiusercriteria);
-#	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
-#	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
-	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
-	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
-#	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
-#	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
-
-#	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
-#	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
-	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
+#####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
+#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+##	BNet::Misc::class_hall_set ($count, %multiusercriteria);
+##	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
+##	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
+#
+##Class Specific
+#	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
+##	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
+#
+##Raids
+##	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
+#	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
+#	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
+##Dungeon/Raids
+##	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
+##	BNet::Achievements::glory_of ($count, %multiusercriteria);
+#
+#
+##Legendaries
+##	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_shadowmourne ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
+#
+##Various Achievements
+##	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
+##	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
+##	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
+##	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
+##	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
+##	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
+##	BNet::Achievements::p54_bigger_bag ($count, %multiusercriteria);
+##	BNet::Achievements::p60_heralds_of_the_legion ($count, %multiusercriteria);
+##	BNet::Achievements::p60_fight_the_power ($count, %multiusercriteria);
+##	BNet::Achievements::p60_ancient_no_more ($count, %multiusercriteria);
+##	BNet::Achievements::p60_gorgrond_monster_hunter ($count, %multiusercriteria);
+##	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
+##	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
+#	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
+#	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
+##	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
+##	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
+#
+##	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
+##	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
+#	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
 
 }
 
