@@ -186,6 +186,8 @@ sub printcharacter($$$) {
 	print "</div>\n";
 	
 }
+
+
 sub percharachievementscriteria ($) {
 	my ($decoded) = @_;
 	my @raids = @{ $decoded->{'achievements'}{'criteria'} };
