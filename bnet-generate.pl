@@ -66,27 +66,11 @@ sub __main__() {
 	my $userinfo13;
 	my $userinfo14;
 	my $userinfo15;
-	my $userinfo00achiev;
-	my $userinfo01achiev;
-	my $userinfo02achiev;
-	my $userinfo03achiev;
-	my $userinfo04achiev;
-	my $userinfo05achiev;
-	my $userinfo06achiev;
-	my $userinfo07achiev;
-	my $userinfo08achiev;
-	my $userinfo09achiev;
-	my $userinfo10achiev;
-	my $userinfo11achiev;
-	my $userinfo12achiev;
-	my $userinfo13achiev;
-	my $userinfo14achiev;
-	my $userinfo15achiev;
+
 
 	my $count = 0;
 	
-	my $fetchtype = 'quests,items,professions';
-	my $fetchtypeachiev = 'achievements';
+	my $fetchtype = 'quests,items,professions,achievements';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
 	BNet::Utils::tableprint("beginrow");
@@ -107,7 +91,6 @@ sub __main__() {
 		if ($count == 0) {
 			if( defined($columns[1]) ){
 				$userinfo00 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo00achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo00);
 				my $ail = BNet::Utils::retrieveail($userinfo00);
@@ -131,7 +114,6 @@ sub __main__() {
 		} elsif ($count == 1) {
 			if( defined($columns[1]) ){
 				$userinfo01 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo01achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo01);
 				my $ail = BNet::Utils::retrieveail($userinfo01);
@@ -155,7 +137,6 @@ sub __main__() {
 		} elsif ($count == 2) {
 			if( defined($columns[1]) ){
 				$userinfo02 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo02achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo02);
 				my $ail = BNet::Utils::retrieveail($userinfo02);
@@ -179,7 +160,6 @@ sub __main__() {
 		} elsif ($count == 3) {
 			if( defined($columns[1]) ){
 				$userinfo03 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo03achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo03);
 				my $ail = BNet::Utils::retrieveail($userinfo03);
@@ -203,7 +183,6 @@ sub __main__() {
 		} elsif ($count == 4) {
 			if( defined($columns[1]) ){
 				$userinfo04 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo04achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo04);
 				my $ail = BNet::Utils::retrieveail($userinfo04);
@@ -227,7 +206,6 @@ sub __main__() {
 		} elsif ($count == 5) {
 			if( defined($columns[1]) ){
 				$userinfo05 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo05achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo05);
 				my $ail = BNet::Utils::retrieveail($userinfo05);
@@ -251,7 +229,6 @@ sub __main__() {
 		} elsif ($count == 6) {
 			if( defined($columns[1]) ){
 				$userinfo06 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo06achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo06);
 				my $ail = BNet::Utils::retrieveail($userinfo06);
@@ -275,7 +252,6 @@ sub __main__() {
 		} elsif ($count == 7) {
 			if( defined($columns[1]) ){
 				$userinfo07 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo07achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo07);
 				my $ail = BNet::Utils::retrieveail($userinfo07);
@@ -299,7 +275,6 @@ sub __main__() {
 		} elsif ($count == 8) {
 			if( defined($columns[1]) ){
 				$userinfo08 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo08achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo08);
 				my $ail = BNet::Utils::retrieveail($userinfo08);
@@ -323,7 +298,6 @@ sub __main__() {
 		} elsif ($count == 9) {
 			if( defined($columns[1]) ){
 				$userinfo09 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo09achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo09);
 				my $ail = BNet::Utils::retrieveail($userinfo09);
@@ -347,7 +321,6 @@ sub __main__() {
 		} elsif ($count == 10) {
 			if( defined($columns[1]) ){
 				$userinfo10 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo10achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo10);
 				my $ail = BNet::Utils::retrieveail($userinfo10);
@@ -371,7 +344,6 @@ sub __main__() {
 		} elsif ($count == 11) {
 			if( defined($columns[1]) ){
 				$userinfo11 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo11achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo11);
 				my $ail = BNet::Utils::retrieveail($userinfo11);
@@ -395,7 +367,6 @@ sub __main__() {
 		} elsif ($count == 12) {
 			if( defined($columns[1]) ){
 				$userinfo12 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo12achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo12);
 				my $ail = BNet::Utils::retrieveail($userinfo12);
@@ -419,7 +390,6 @@ sub __main__() {
 		} elsif ($count == 13) {
 			if( defined($columns[1]) ){
 				$userinfo13 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo13achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo13);
 				my $ail = BNet::Utils::retrieveail($userinfo13);
@@ -443,7 +413,6 @@ sub __main__() {
 		} elsif ($count == 14) {
 			if( defined($columns[1]) ){
 				$userinfo14 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo14achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo14);
 				my $ail = BNet::Utils::retrieveail($userinfo14);
@@ -467,7 +436,6 @@ sub __main__() {
 		} elsif ($count == 15) {
 			if( defined($columns[1]) ){
 				$userinfo15 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
-				$userinfo15achiev =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeachiev, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo15);
 				my $ail = BNet::Utils::retrieveail($userinfo15);
@@ -500,8 +468,8 @@ sub __main__() {
 	if (0 < $count) {
 		my @UI00 = BNet::Utils::percharquests ($userinfo00);
 		my @UI00REC = BNet::Utils::percharrecipescooking ($userinfo00);
-		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00achiev);
-		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00achiev);
+		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00);
+		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00);
 		foreach my $uq (@UI00) {
 			my $lookupres= findinarray($uq, @UI00);
 			$multiuserquests{0}{$uq} = $lookupres;
@@ -518,8 +486,8 @@ sub __main__() {
 	if (1 < $count) {
 		my @UI01 = BNet::Utils::percharquests ($userinfo01);
 #		my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo01);
-		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01achiev);
-		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01achiev);
+		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01);
+		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01);
 		foreach my $uq (@UI01) {
 			my $lookupres= findinarray($uq, @UI01);
 			$multiuserquests{1}{$uq} = $lookupres;
@@ -535,8 +503,8 @@ sub __main__() {
 	}
 	if (2 < $count) {
 		my @UI02 = BNet::Utils::percharquests ($userinfo02);
-		my @UI02A = BNet::Utils::percharachievementscriteria ($userinfo02achiev);
-		my @UI02B = BNet::Utils::percharachievementscriteriaquantity ($userinfo02achiev);
+		my @UI02A = BNet::Utils::percharachievementscriteria ($userinfo02);
+		my @UI02B = BNet::Utils::percharachievementscriteriaquantity ($userinfo02);
 		foreach my $uq (@UI02) {
 			my $lookupres= findinarray($uq, @UI02);
 			$multiuserquests{2}{$uq} = $lookupres;
@@ -548,8 +516,8 @@ sub __main__() {
 	}
 	if (3 < $count) {
 		my @UI03 = BNet::Utils::percharquests ($userinfo03);
-		my @UI03A = BNet::Utils::percharachievementscriteria ($userinfo03achiev);
-		my @UI03B = BNet::Utils::percharachievementscriteriaquantity ($userinfo03achiev);
+		my @UI03A = BNet::Utils::percharachievementscriteria ($userinfo03);
+		my @UI03B = BNet::Utils::percharachievementscriteriaquantity ($userinfo03);
 		foreach my $uq (@UI03) {
 			my $lookupres= findinarray($uq, @UI03);
 			$multiuserquests{3}{$uq} = $lookupres;
@@ -561,8 +529,8 @@ sub __main__() {
 	}
 	if (4 < $count) {
 		my @UI04 = BNet::Utils::percharquests ($userinfo04);
-		my @UI04A = BNet::Utils::percharachievementscriteria ($userinfo04achiev);
-		my @UI04B = BNet::Utils::percharachievementscriteriaquantity ($userinfo04achiev);
+		my @UI04A = BNet::Utils::percharachievementscriteria ($userinfo04);
+		my @UI04B = BNet::Utils::percharachievementscriteriaquantity ($userinfo04);
 		foreach my $uq (@UI04) {
 			my $lookupres= findinarray($uq, @UI04);
 			$multiuserquests{4}{$uq} = $lookupres;
@@ -574,8 +542,8 @@ sub __main__() {
 	}
 	if (5 < $count) {
 		my @UI05 = BNet::Utils::percharquests ($userinfo05);
-		my @UI05A = BNet::Utils::percharachievementscriteria ($userinfo05achiev);
-		my @UI05B = BNet::Utils::percharachievementscriteriaquantity ($userinfo05achiev);
+		my @UI05A = BNet::Utils::percharachievementscriteria ($userinfo05);
+		my @UI05B = BNet::Utils::percharachievementscriteriaquantity ($userinfo05);
 		foreach my $uq (@UI05) {
 			my $lookupres= findinarray($uq, @UI05);
 			$multiuserquests{5}{$uq} = $lookupres;
@@ -587,8 +555,8 @@ sub __main__() {
 	}
 	if (6 < $count) {
 		my @UI06 = BNet::Utils::percharquests ($userinfo06);
-		my @UI06A = BNet::Utils::percharachievementscriteria ($userinfo06achiev);
-		my @UI06B = BNet::Utils::percharachievementscriteriaquantity ($userinfo06achiev);
+		my @UI06A = BNet::Utils::percharachievementscriteria ($userinfo06);
+		my @UI06B = BNet::Utils::percharachievementscriteriaquantity ($userinfo06);
 		foreach my $uq (@UI06) {
 			my $lookupres= findinarray($uq, @UI06);
 			$multiuserquests{6}{$uq} = $lookupres;
@@ -600,8 +568,8 @@ sub __main__() {
 	}
 	if (7 < $count) {
 		my @UI07 = BNet::Utils::percharquests ($userinfo07);
-		my @UI07A = BNet::Utils::percharachievementscriteria ($userinfo07achiev);
-		my @UI07B = BNet::Utils::percharachievementscriteriaquantity ($userinfo07achiev);
+		my @UI07A = BNet::Utils::percharachievementscriteria ($userinfo07);
+		my @UI07B = BNet::Utils::percharachievementscriteriaquantity ($userinfo07);
 		foreach my $uq (@UI07) {
 			my $lookupres= findinarray($uq, @UI07);
 			$multiuserquests{7}{$uq} = $lookupres;
@@ -613,8 +581,8 @@ sub __main__() {
 	}
 	if (8 < $count) {
 		my @UI08 = BNet::Utils::percharquests ($userinfo08);
-		my @UI08A = BNet::Utils::percharachievementscriteria ($userinfo08achiev);
-		my @UI08B = BNet::Utils::percharachievementscriteriaquantity ($userinfo08achiev);
+		my @UI08A = BNet::Utils::percharachievementscriteria ($userinfo08);
+		my @UI08B = BNet::Utils::percharachievementscriteriaquantity ($userinfo08);
 		foreach my $uq (@UI08) {
 			my $lookupres= findinarray($uq, @UI08);
 			$multiuserquests{8}{$uq} = $lookupres;
@@ -626,8 +594,8 @@ sub __main__() {
 	}
 	if (9 < $count) {
 		my @UI09 = BNet::Utils::percharquests ($userinfo09);
-		my @UI09A = BNet::Utils::percharachievementscriteria ($userinfo09achiev);
-		my @UI09B = BNet::Utils::percharachievementscriteriaquantity ($userinfo09achiev);
+		my @UI09A = BNet::Utils::percharachievementscriteria ($userinfo09);
+		my @UI09B = BNet::Utils::percharachievementscriteriaquantity ($userinfo09);
 		foreach my $uq (@UI09) {
 			my $lookupres= findinarray($uq, @UI09);
 			$multiuserquests{9}{$uq} = $lookupres;
@@ -639,8 +607,8 @@ sub __main__() {
 	}
 	if (10 < $count) {
 		my @UI10 = BNet::Utils::percharquests ($userinfo10);
-		my @UI10A = BNet::Utils::percharachievementscriteria ($userinfo10achiev);
-		my @UI10B = BNet::Utils::percharachievementscriteriaquantity ($userinfo10achiev);
+		my @UI10A = BNet::Utils::percharachievementscriteria ($userinfo10);
+		my @UI10B = BNet::Utils::percharachievementscriteriaquantity ($userinfo10);
 		foreach my $uq (@UI10) {
 			my $lookupres= findinarray($uq, @UI10);
 			$multiuserquests{10}{$uq} = $lookupres;
@@ -652,8 +620,8 @@ sub __main__() {
 	}
 	if (11 < $count) {
 		my @UI11 = BNet::Utils::percharquests ($userinfo11);
-		my @UI11A = BNet::Utils::percharachievementscriteria ($userinfo11achiev);
-		my @UI11B = BNet::Utils::percharachievementscriteriaquantity ($userinfo11achiev);
+		my @UI11A = BNet::Utils::percharachievementscriteria ($userinfo11);
+		my @UI11B = BNet::Utils::percharachievementscriteriaquantity ($userinfo11);
 		foreach my $uq (@UI11) {
 			my $lookupres= findinarray($uq, @UI11);
 			$multiuserquests{11}{$uq} = $lookupres;
@@ -665,8 +633,8 @@ sub __main__() {
 	}
 	if (12 < $count) {
 		my @UI12 = BNet::Utils::percharquests ($userinfo12);
-		my @UI12A = BNet::Utils::percharachievementscriteria ($userinfo12achiev);
-		my @UI12B = BNet::Utils::percharachievementscriteriaquantity ($userinfo12achiev);
+		my @UI12A = BNet::Utils::percharachievementscriteria ($userinfo12);
+		my @UI12B = BNet::Utils::percharachievementscriteriaquantity ($userinfo12);
 		foreach my $uq (@UI12) {
 			my $lookupres= findinarray($uq, @UI12);
 			$multiuserquests{12}{$uq} = $lookupres;
@@ -678,8 +646,8 @@ sub __main__() {
 	}
 	if (13 < $count) {
 		my @UI13 = BNet::Utils::percharquests ($userinfo13);
-		my @UI13A = BNet::Utils::percharachievementscriteria ($userinfo13achiev);
-		my @UI13B = BNet::Utils::percharachievementscriteriaquantity ($userinfo13achiev);
+		my @UI13A = BNet::Utils::percharachievementscriteria ($userinfo13);
+		my @UI13B = BNet::Utils::percharachievementscriteriaquantity ($userinfo13);
 		foreach my $uq (@UI13) {
 			my $lookupres= findinarray($uq, @UI13);
 			$multiuserquests{13}{$uq} = $lookupres;
@@ -691,8 +659,8 @@ sub __main__() {
 	}
 	if (14 < $count) {
 		my @UI14 = BNet::Utils::percharquests ($userinfo14);
-		my @UI14A = BNet::Utils::percharachievementscriteria ($userinfo14achiev);
-		my @UI14B = BNet::Utils::percharachievementscriteriaquantity ($userinfo14achiev);
+		my @UI14A = BNet::Utils::percharachievementscriteria ($userinfo14);
+		my @UI14B = BNet::Utils::percharachievementscriteriaquantity ($userinfo14);
 		foreach my $uq (@UI14) {
 			my $lookupres= findinarray($uq, @UI14);
 			$multiuserquests{14}{$uq} = $lookupres;
@@ -704,8 +672,8 @@ sub __main__() {
 	}
 	if (15 < $count) {
 		my @UI15 = BNet::Utils::percharquests ($userinfo15);
-		my @UI15A = BNet::Utils::percharachievementscriteria ($userinfo15achiev);
-		my @UI15B = BNet::Utils::percharachievementscriteriaquantity ($userinfo15achiev);
+		my @UI15A = BNet::Utils::percharachievementscriteria ($userinfo15);
+		my @UI15B = BNet::Utils::percharachievementscriteriaquantity ($userinfo15);
 		foreach my $uq (@UI15) {
 			my $lookupres= findinarray($uq, @UI15);
 			$multiuserquests{15}{$uq} = $lookupres;

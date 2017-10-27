@@ -205,7 +205,7 @@ sub percharrecipescooking ($) {
 #	print join (", ", @raids);
 	foreach my $f ( @raids ) {
 		if ($f->{"id"} == 185) {
-			print join (", ", $f->{'recipes'});
+#			print join (", ", $f->{'recipes'});
 #			my @e =  $f->{'recipes'};
 		}
 	}
