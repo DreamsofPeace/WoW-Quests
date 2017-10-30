@@ -20,6 +20,7 @@ BEGIN {
 	require 'BNet/Quests_Misc.pm';
 	require 'BNet/Misc.pm';
 	require 'BNet/Achievements.pm';
+	require 'BNet/Professions.pm';
 }
 
 
@@ -467,7 +468,9 @@ sub __main__() {
 #		print "\n";
 	if (0 < $count) {
 		my @UI00 = BNet::Utils::percharquests ($userinfo00);
-		my @UI00REC = BNet::Utils::percharrecipescooking ($userinfo00);
+		($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipescooking ($userinfo00);
+	#	$multiuserquests{0}{profinfo}{cooking}{rank}, $multiuserquests{0}{profinfo}{cooking}{skill}, my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo00);
+	#	my @UI00REC = BNet::Utils::percharrecipescooking ($userinfo00);
 		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00);
 		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00);
 		foreach my $uq (@UI00) {
@@ -480,11 +483,13 @@ sub __main__() {
 		}
 		foreach my $uq (@UI00REC) {
 			my $lookupres= findinarray($uq, @UI00REC);
-			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+			$multiusercriteria{0}{cooking}{$uq} = $lookupres;
 		}
 	}
 	if (1 < $count) {
 		my @UI01 = BNet::Utils::percharquests ($userinfo01);
+		($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01REC) = BNet::Utils::percharrecipescooking ($userinfo01);
+#		$multiuserquests{1}{profinfo}{cooking}{rank}, $multiuserquests{1}{profinfo}{cooking}{skill}, my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo01);
 #		my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo01);
 		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01);
 		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01);
@@ -496,13 +501,15 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI01A);
 			$multiusercriteria{1}{$uq} = $lookupres;
 		}
-#		foreach my $uq (@UI01REC) {
-#			my $lookupres= findinarray($uq, @UI01REC);
-#			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
-#		}
+		foreach my $uq (@UI01REC) {
+			my $lookupres= findinarray($uq, @UI01REC);
+			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (2 < $count) {
 		my @UI02 = BNet::Utils::percharquests ($userinfo02);
+		($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02REC) = BNet::Utils::percharrecipescooking ($userinfo02);
+
 		my @UI02A = BNet::Utils::percharachievementscriteria ($userinfo02);
 		my @UI02B = BNet::Utils::percharachievementscriteriaquantity ($userinfo02);
 		foreach my $uq (@UI02) {
@@ -513,9 +520,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI02A);
 			$multiusercriteria{2}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI02REC) {
+			my $lookupres= findinarray($uq, @UI02REC);
+			$multiusercriteria{2}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (3 < $count) {
 		my @UI03 = BNet::Utils::percharquests ($userinfo03);
+		($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03REC) = BNet::Utils::percharrecipescooking ($userinfo03);
 		my @UI03A = BNet::Utils::percharachievementscriteria ($userinfo03);
 		my @UI03B = BNet::Utils::percharachievementscriteriaquantity ($userinfo03);
 		foreach my $uq (@UI03) {
@@ -526,9 +538,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI03A);
 			$multiusercriteria{3}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI03REC) {
+			my $lookupres= findinarray($uq, @UI03REC);
+			$multiusercriteria{3}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (4 < $count) {
 		my @UI04 = BNet::Utils::percharquests ($userinfo04);
+		($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04REC) = BNet::Utils::percharrecipescooking ($userinfo04);
 		my @UI04A = BNet::Utils::percharachievementscriteria ($userinfo04);
 		my @UI04B = BNet::Utils::percharachievementscriteriaquantity ($userinfo04);
 		foreach my $uq (@UI04) {
@@ -539,9 +556,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI04A);
 			$multiusercriteria{4}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI04REC) {
+			my $lookupres= findinarray($uq, @UI04REC);
+			$multiusercriteria{4}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (5 < $count) {
 		my @UI05 = BNet::Utils::percharquests ($userinfo05);
+		($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05REC) = BNet::Utils::percharrecipescooking ($userinfo05);
 		my @UI05A = BNet::Utils::percharachievementscriteria ($userinfo05);
 		my @UI05B = BNet::Utils::percharachievementscriteriaquantity ($userinfo05);
 		foreach my $uq (@UI05) {
@@ -552,9 +574,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI05A);
 			$multiusercriteria{5}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI05REC) {
+			my $lookupres= findinarray($uq, @UI05REC);
+			$multiusercriteria{5}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (6 < $count) {
 		my @UI06 = BNet::Utils::percharquests ($userinfo06);
+		($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06REC) = BNet::Utils::percharrecipescooking ($userinfo06);
 		my @UI06A = BNet::Utils::percharachievementscriteria ($userinfo06);
 		my @UI06B = BNet::Utils::percharachievementscriteriaquantity ($userinfo06);
 		foreach my $uq (@UI06) {
@@ -565,9 +592,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI06A);
 			$multiusercriteria{6}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI06REC) {
+			my $lookupres= findinarray($uq, @UI06REC);
+			$multiusercriteria{6}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (7 < $count) {
 		my @UI07 = BNet::Utils::percharquests ($userinfo07);
+		($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07REC) = BNet::Utils::percharrecipescooking ($userinfo07);
 		my @UI07A = BNet::Utils::percharachievementscriteria ($userinfo07);
 		my @UI07B = BNet::Utils::percharachievementscriteriaquantity ($userinfo07);
 		foreach my $uq (@UI07) {
@@ -578,9 +610,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI07A);
 			$multiusercriteria{7}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI07REC) {
+			my $lookupres= findinarray($uq, @UI07REC);
+			$multiusercriteria{7}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (8 < $count) {
 		my @UI08 = BNet::Utils::percharquests ($userinfo08);
+		($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08REC) = BNet::Utils::percharrecipescooking ($userinfo08);
 		my @UI08A = BNet::Utils::percharachievementscriteria ($userinfo08);
 		my @UI08B = BNet::Utils::percharachievementscriteriaquantity ($userinfo08);
 		foreach my $uq (@UI08) {
@@ -591,9 +628,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI08A);
 			$multiusercriteria{8}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI08REC) {
+			my $lookupres= findinarray($uq, @UI08REC);
+			$multiusercriteria{8}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (9 < $count) {
 		my @UI09 = BNet::Utils::percharquests ($userinfo09);
+		($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09REC) = BNet::Utils::percharrecipescooking ($userinfo09);
 		my @UI09A = BNet::Utils::percharachievementscriteria ($userinfo09);
 		my @UI09B = BNet::Utils::percharachievementscriteriaquantity ($userinfo09);
 		foreach my $uq (@UI09) {
@@ -604,9 +646,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI09A);
 			$multiusercriteria{9}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI09REC) {
+			my $lookupres= findinarray($uq, @UI09REC);
+			$multiusercriteria{9}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (10 < $count) {
 		my @UI10 = BNet::Utils::percharquests ($userinfo10);
+		($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10REC) = BNet::Utils::percharrecipescooking ($userinfo10);
 		my @UI10A = BNet::Utils::percharachievementscriteria ($userinfo10);
 		my @UI10B = BNet::Utils::percharachievementscriteriaquantity ($userinfo10);
 		foreach my $uq (@UI10) {
@@ -617,9 +664,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI10A);
 			$multiusercriteria{10}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI10REC) {
+			my $lookupres= findinarray($uq, @UI10REC);
+			$multiusercriteria{10}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (11 < $count) {
 		my @UI11 = BNet::Utils::percharquests ($userinfo11);
+		($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11REC) = BNet::Utils::percharrecipescooking ($userinfo11);
 		my @UI11A = BNet::Utils::percharachievementscriteria ($userinfo11);
 		my @UI11B = BNet::Utils::percharachievementscriteriaquantity ($userinfo11);
 		foreach my $uq (@UI11) {
@@ -630,9 +682,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI11A);
 			$multiusercriteria{11}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI11REC) {
+			my $lookupres= findinarray($uq, @UI11REC);
+			$multiusercriteria{11}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (12 < $count) {
 		my @UI12 = BNet::Utils::percharquests ($userinfo12);
+		($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12REC) = BNet::Utils::percharrecipescooking ($userinfo12);
 		my @UI12A = BNet::Utils::percharachievementscriteria ($userinfo12);
 		my @UI12B = BNet::Utils::percharachievementscriteriaquantity ($userinfo12);
 		foreach my $uq (@UI12) {
@@ -643,9 +700,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI12A);
 			$multiusercriteria{12}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI12REC) {
+			my $lookupres= findinarray($uq, @UI12REC);
+			$multiusercriteria{12}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (13 < $count) {
 		my @UI13 = BNet::Utils::percharquests ($userinfo13);
+		($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13REC) = BNet::Utils::percharrecipescooking ($userinfo13);
 		my @UI13A = BNet::Utils::percharachievementscriteria ($userinfo13);
 		my @UI13B = BNet::Utils::percharachievementscriteriaquantity ($userinfo13);
 		foreach my $uq (@UI13) {
@@ -656,9 +718,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI13A);
 			$multiusercriteria{13}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI13REC) {
+			my $lookupres= findinarray($uq, @UI13REC);
+			$multiusercriteria{13}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (14 < $count) {
 		my @UI14 = BNet::Utils::percharquests ($userinfo14);
+		($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14REC) = BNet::Utils::percharrecipescooking ($userinfo14);
 		my @UI14A = BNet::Utils::percharachievementscriteria ($userinfo14);
 		my @UI14B = BNet::Utils::percharachievementscriteriaquantity ($userinfo14);
 		foreach my $uq (@UI14) {
@@ -669,9 +736,14 @@ sub __main__() {
 			my $lookupres= findinarray($uq, @UI14A);
 			$multiusercriteria{14}{$uq} = $lookupres;
 		}
+		foreach my $uq (@UI14REC) {
+			my $lookupres= findinarray($uq, @UI14REC);
+			$multiusercriteria{14}{cooking}{$uq} = $lookupres;
+		}
 	}
 	if (15 < $count) {
 		my @UI15 = BNet::Utils::percharquests ($userinfo15);
+		($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15REC) = BNet::Utils::percharrecipescooking ($userinfo15);
 		my @UI15A = BNet::Utils::percharachievementscriteria ($userinfo15);
 		my @UI15B = BNet::Utils::percharachievementscriteriaquantity ($userinfo15);
 		foreach my $uq (@UI15) {
@@ -681,6 +753,10 @@ sub __main__() {
 		foreach my $uq (@UI15A) {
 			my $lookupres= findinarray($uq, @UI15A);
 			$multiusercriteria{15}{$uq} = $lookupres;
+		}
+		foreach my $uq (@UI15REC) {
+			my $lookupres= findinarray($uq, @UI15REC);
+			$multiusercriteria{15}{cooking}{$uq} = $lookupres;
 		}
 	}
 
@@ -783,86 +859,87 @@ sub __main__() {
 ##	BNet::Quests_Warlords::z_98_100_nagrand ($count, %multiuserquests);
 ##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
 
-##Legion
-#	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
-	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
-	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
+###Legion
+##	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
+##	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
+##
+##Artifact Base Hidden Appearances
+#####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
+#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+##	BNet::Misc::class_hall_set ($count, %multiusercriteria);
+##	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
+##	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
+##	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
 #
-#Artifact Base Hidden Appearances
-####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
-	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
-#	BNet::Misc::class_hall_set ($count, %multiusercriteria);
-#	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
-#	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
-#	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
-
-#Class Specific
-	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
-#	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
-
-#Raids
-#	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
-	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
-	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
-#Dungeon/Raids
-#	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
-#	BNet::Achievements::glory_of ($count, %multiusercriteria);
-
-
-#Legendaries
-#	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_shadowmourne ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
-#	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
-
-#Various Achievements
-#	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
-#	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
-#	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
-#	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
-#	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
-#	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
-#	BNet::Achievements::p54_bigger_bag ($count, %multiusercriteria);
-#	BNet::Achievements::p60_heralds_of_the_legion ($count, %multiusercriteria);
-#	BNet::Achievements::p60_fight_the_power ($count, %multiusercriteria);
-#	BNet::Achievements::p60_ancient_no_more ($count, %multiusercriteria);
-#	BNet::Achievements::p60_gorgrond_monster_hunter ($count, %multiusercriteria);
-#	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
-#	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
-#	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
-	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
-	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
-#	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
-#	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
-
-#	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
-#	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
-#	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
-	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
+##Class Specific
+#	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
+##	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
+#
+##Raids
+##	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
+#	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
+#	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
+##Dungeon/Raids
+##	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
+##	BNet::Achievements::glory_of ($count, %multiusercriteria);
+#
+#
+##Legendaries
+##	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_shadowmourne ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
+##	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
+#
+##Various Achievements
+##	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
+##	BNet::Achievements::p30_frostbitten ($count, %multiusercriteria);
+##	BNet::Achievements::p30_higher_learning ($count, %multiusercriteria);
+##	BNet::Achievements::p50_glorious ($count, %multiusercriteria);
+##	BNet::Achievements::p52_champions_of_lei_shen ($count, %multiusercriteria);
+##	BNet::Achievements::p54_timeless_champion ($count, %multiusercriteria);
+##	BNet::Achievements::p54_bigger_bag ($count, %multiusercriteria);
+##	BNet::Achievements::p60_heralds_of_the_legion ($count, %multiusercriteria);
+##	BNet::Achievements::p60_fight_the_power ($count, %multiusercriteria);
+##	BNet::Achievements::p60_ancient_no_more ($count, %multiusercriteria);
+##	BNet::Achievements::p60_gorgrond_monster_hunter ($count, %multiusercriteria);
+##	BNet::Achievements::p62_jungle_stalker ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_azsuna ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_valsharah ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_highmountain ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
+##	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
+##	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
+#	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
+#	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
+##	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
+##	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
+#
+##	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
+##	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
+##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
+#	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
+	BNet::Professions::cooking ($count, %multiusercriteria);
 
 }
 

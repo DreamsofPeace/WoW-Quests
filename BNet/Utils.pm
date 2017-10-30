@@ -202,13 +202,20 @@ sub percharachievementscriteriaquantity ($) {
 sub percharrecipescooking ($) {
 	my ($decoded) = @_;
 	my @raids = @{ $decoded->{'professions'}{'secondary'} };
-#	print join (", ", @raids);
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
 	foreach my $f ( @raids ) {
 		if ($f->{"id"} == 185) {
-#			print join (", ", $f->{'recipes'});
-#			my @e =  $f->{'recipes'};
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
 		}
 	}
+#	return  $cookrank, $cookmax, @cookrecipes;
+	return  $cookrank, @cookrecipes;
 }
 
 sub percharquests ($) {
@@ -253,6 +260,55 @@ sub preprint ($$$%) {
 	$qc{thirteen} = $multiuserquests{13}{$qid};
 	$qc{fourteen} = $multiuserquests{14}{$qid};
 	$qc{fifteen} = $multiuserquests{15}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+	
+}
+
+sub preprintprofcooking ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "\t\t\t<a href=\"http://www.wowhead.com/spell=" . $qid . "\"  rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{cooking}{$qid};
+	$qc{one} = $multiuserquests{1}{cooking}{$qid};
+	$qc{two} = $multiuserquests{2}{cooking}{$qid};
+	$qc{three} = $multiuserquests{3}{cooking}{$qid};
+	$qc{four} = $multiuserquests{4}{cooking}{$qid};
+	$qc{five} = $multiuserquests{5}{cooking}{$qid};
+	$qc{six} = $multiuserquests{6}{cooking}{$qid};
+	$qc{seven} = $multiuserquests{7}{cooking}{$qid};
+	$qc{eight} = $multiuserquests{8}{cooking}{$qid};
+	$qc{nine} = $multiuserquests{9}{cooking}{$qid};
+	$qc{ten} = $multiuserquests{10}{cooking}{$qid};
+	$qc{eleven} = $multiuserquests{11}{cooking}{$qid};
+	$qc{twelve} = $multiuserquests{12}{cooking}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{cooking}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{cooking}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{cooking}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+	
+}
+
+
+sub preprintprofcookinglegion ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "\t\t\t<a href=\"http://www.wowhead.com/spell=" . $qid . "\"  rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{cooking}{$qid};
+	$qc{one} = $multiuserquests{1}{cooking}{$qid};
+	$qc{two} = $multiuserquests{2}{cooking}{$qid};
+	$qc{three} = $multiuserquests{3}{cooking}{$qid};
+	$qc{four} = $multiuserquests{4}{cooking}{$qid};
+	$qc{five} = $multiuserquests{5}{cooking}{$qid};
+	$qc{six} = $multiuserquests{6}{cooking}{$qid};
+	$qc{seven} = $multiuserquests{7}{cooking}{$qid};
+	$qc{eight} = $multiuserquests{8}{cooking}{$qid};
+	$qc{nine} = $multiuserquests{9}{cooking}{$qid};
+	$qc{ten} = $multiuserquests{10}{cooking}{$qid};
+	$qc{eleven} = $multiuserquests{11}{cooking}{$qid};
+	$qc{twelve} = $multiuserquests{12}{cooking}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{cooking}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{cooking}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{cooking}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
 	
 }
