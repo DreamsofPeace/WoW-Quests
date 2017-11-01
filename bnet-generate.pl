@@ -21,6 +21,7 @@ BEGIN {
 	require 'BNet/Misc.pm';
 	require 'BNet/Achievements.pm';
 	require 'BNet/Professions.pm';
+	require 'BNet/Reputation.pm';
 }
 
 
