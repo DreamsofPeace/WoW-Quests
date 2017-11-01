@@ -732,6 +732,19 @@ sub htmlheadprint () {
 	print "\t\t\tcolor:	#000000;\n";
 	print "\t\t\tbackground-color:	#DC143C;\n";
 	print "\t\t}\n";
+	print "\t\t.r1{\n";
+	print "\t\t	color:#ff8040\n";
+	print "\t\t}\n";
+	print "\t\t.r2{\n";
+	print "\t\t	color:#ffff00\n";
+	print "\t\t}\n";
+	print "\t\t.r3{\n";
+	print "\t\t	color:#40bf40\n";
+	print "\t\t}\n";
+	print "\t\t.r4{\n";
+	print "\t\t	color:#808080\n";
+	print "\t\t}\n";
+
 	print "\t\tdiv {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tvertical-align:\tmiddle;\n";
