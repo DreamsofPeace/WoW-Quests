@@ -259,7 +259,6 @@ sub preprintrep ($$$%) {
 	my ($count, $fid, $ql, %multiuserquests) = @_;
 	my %qc;
 	my $wowheadurl = "\t\t\t<a href=\"http://www.wowhead.com/faction=" . $fid . "\"  rel=\"faction=" . $fid . "\">" . $ql ."</a>";
-#	print $wowheadurl;
 	$qc{zero}{standing} = $multiuserquests{0}{$fid}{standing};
 	$qc{zero}{value} = $multiuserquests{0}{$fid}{value};
 	$qc{zero}{max} = $multiuserquests{0}{$fid}{max};
@@ -514,7 +513,7 @@ sub valueprintrep ($ % ) {
 
 	if (0 < $da) {
 		if (exists($d1 {zero})) {
-			if (defined $d1 {zero}) {
+			if (defined $d1 {zero}{standing}) {
 				BNet::Utils::tableprint("begintdcomplete");
 				print "\t\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
