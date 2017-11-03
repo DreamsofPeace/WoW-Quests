@@ -230,15 +230,6 @@ sub reputationtojson ($) {
 	return @raids;
 }
 
-sub reputationtohash ($%) {
-	my (@raids, %rephash) = @_;
-
-	foreach my $f ( @raids ) {
-	
-	}
-
-}
-
 sub preprint ($$$%) {
 	my ($count, $qid, $ql, %multiuserquests) = @_;
 	my %qc;
@@ -260,6 +251,62 @@ sub preprint ($$$%) {
 	$qc{thirteen} = $multiuserquests{13}{$qid};
 	$qc{fourteen} = $multiuserquests{14}{$qid};
 	$qc{fifteen} = $multiuserquests{15}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+	
+}
+
+sub preprintrep ($$$%) {
+	my ($count, $fid, $ql, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "\t\t\t<a href=\"http://www.wowhead.com/faction=" . $fid . "\"  rel=\"faction=" . $fid . "\">" . $ql ."</a>";
+	$qc{zero}{standing} = $multiuserquests{0}{$fid}{standing};
+	$qc{zero}{value} = $multiuserquests{0}{$fid}{value};
+	$qc{zero}{max} = $multiuserquests{0}{$fid}{max};
+	$qc{one}{standing} = $multiuserquests{1}{$fid}{standing};
+	$qc{one}{value} = $multiuserquests{1}{$fid}{value};
+	$qc{one}{max} = $multiuserquests{1}{$fid}{max};
+	$qc{two}{standing} = $multiuserquests{2}{$fid}{standing};
+	$qc{two}{value} = $multiuserquests{2}{$fid}{value};
+	$qc{two}{max} = $multiuserquests{2}{$fid}{max};
+	$qc{three}{standing} = $multiuserquests{3}{$fid}{standing};
+	$qc{three}{value} = $multiuserquests{3}{$fid}{value};
+	$qc{three}{max} = $multiuserquests{3}{$fid}{max};
+	$qc{four}{standing} = $multiuserquests{4}{$fid}{standing};
+	$qc{four}{value} = $multiuserquests{4}{$fid}{value};
+	$qc{four}{max} = $multiuserquests{4}{$fid}{max};
+	$qc{five}{standing} = $multiuserquests{5}{$fid}{standing};
+	$qc{five}{value} = $multiuserquests{5}{$fid}{value};
+	$qc{five}{max} = $multiuserquests{5}{$fid}{max};
+	$qc{six}{standing} = $multiuserquests{6}{$fid}{standing};
+	$qc{six}{value} = $multiuserquests{6}{$fid}{value};
+	$qc{six}{max} = $multiuserquests{6}{$fid}{max};
+	$qc{seven}{standing} = $multiuserquests{7}{$fid}{standing};
+	$qc{seven}{value} = $multiuserquests{7}{$fid}{value};
+	$qc{seven}{max} = $multiuserquests{7}{$fid}{max};
+	$qc{eight}{standing} = $multiuserquests{8}{$fid}{standing};
+	$qc{eight}{value} = $multiuserquests{8}{$fid}{value};
+	$qc{eight}{max} = $multiuserquests{8}{$fid}{max};
+	$qc{nine}{standing} = $multiuserquests{9}{$fid}{standing};
+	$qc{nine}{value} = $multiuserquests{9}{$fid}{value};
+	$qc{nine}{max} = $multiuserquests{9}{$fid}{max};
+	$qc{ten}{standing} = $multiuserquests{10}{$fid}{standing};
+	$qc{ten}{value} = $multiuserquests{10}{$fid}{value};
+	$qc{ten}{max} = $multiuserquests{10}{$fid}{max};
+	$qc{eleven}{standing} = $multiuserquests{11}{$fid}{standing};
+	$qc{eleven}{value} = $multiuserquests{11}{$fid}{value};
+	$qc{eleven}{max} = $multiuserquests{11}{$fid}{max};
+	$qc{zero}{standing} = $multiuserquests{12}{$fid}{standing};
+	$qc{zero}{value} = $multiuserquests{12}{$fid}{value};
+	$qc{zero}{max} = $multiuserquests{12}{$fid}{max};
+	$qc{thirteen}{standing} = $multiuserquests{13}{$fid}{standing};
+	$qc{thirteen}{value} = $multiuserquests{13}{$fid}{value};
+	$qc{thirteen}{max} = $multiuserquests{13}{$fid}{max};
+	$qc{fourteen}{standing} = $multiuserquests{14}{$fid}{standing};
+	$qc{fourteen}{value} = $multiuserquests{14}{$fid}{value};
+	$qc{fourteen}{max} = $multiuserquests{14}{$fid}{max};
+	$qc{fifteen}{standing} = $multiuserquests{15}{$fid}{standing};
+	$qc{fifteen}{value} = $multiuserquests{15}{$fid}{value};
+	$qc{fifteen}{max} = $multiuserquests{15}{$fid}{max};
 	valueprint ($count, $wowheadurl, %qc);
 	
 }
@@ -444,6 +491,221 @@ sub preprintachievementvia4q ($$$$$$$$%) {
 #	$qc{fifteen}  = $multiuserquests{15}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
 	
+}
+
+=pod
+ff0000	hostile
+f26000	unfriendly
+e4e400	neutral
+33ff33	friendly
+5fe65d	honoured
+53e9bc	revered
+2ee6e6	exalted
+=cut
+
+sub valueprintrep ($ % ) {
+	my($da, $d0, %d1) = @_;
+	BNet::Utils::tableprint("beginrow");
+	BNet::Utils::tableprint("beginth");
+	print $d0;
+	BNet::Utils::tableprint("endth");
+
+
+	if (0 < $da) {
+		if (exists($d1 {zero})) {
+			if (defined $d1 {zero}{standing}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (1 < $da) {
+		if (exists($d1 {one})) {
+			if (defined $d1 {one}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (2 < $da) {
+		if (exists($d1 {two})) {
+			if (defined $d1 {two}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (3 < $da) {
+		if (exists($d1 {three})) {
+			if (defined $d1 {three}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (4 < $da) {
+		if (exists($d1 {four})) {
+			if (defined $d1 {four}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (5 < $da) {
+		if (exists($d1 {five})) {
+			if (defined $d1 {five}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (6 < $da) {
+		if (exists($d1 {six})) {
+			if (defined $d1 {six}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (7 < $da) {
+		if (exists($d1 {seven})) {
+			if (defined $d1 {seven}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (8 < $da) {
+		if (exists($d1 {eight})) {
+			if (defined $d1 {eight}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (9 < $da) {
+		if (exists($d1 {nine})) {
+			if (defined $d1 {nine}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (10 < $da) {
+		if (exists($d1 {ten})) {
+			if (defined $d1 {ten}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (11 < $da) {
+		if (exists($d1 {eleven})) {
+			if (defined $d1 {eleven}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (12 < $da) {
+		if (exists($d1 {twelve})) {
+			if (defined $d1 {twelve}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (13 < $da) {
+		if (exists($d1 {thirteen})) {
+			if (defined $d1 {thirteen}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (14 < $da) {
+		if (exists($d1 {fourteen})) {
+			if (defined $d1 {fourteen}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+#	print $da;
+	if (15 < $da) {
+		if (exists($d1 {fifteen})) {
+			if (defined $d1 {fifteen}) {
+				BNet::Utils::tableprint("begintdcomplete");
+				print "\t\t\t\t&#10004\n";
+				BNet::Utils::tableprint("endtd");
+			} else {
+				BNet::Utils::tableprint("begintdincomplete");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	BNet::Utils::tableprint("endrow");
+
 }
 
 sub valueprint($ % ) {
@@ -732,6 +994,26 @@ sub htmlheadprint () {
 	print "\t\t\tcolor:	#000000;\n";
 	print "\t\t\tbackground-color:	#DC143C;\n";
 	print "\t\t}\n";
+	print "\t\t.r1{\n";
+	print "\t\t	color:#ff8040\n";
+	print "\t\t}\n";
+	print "\t\t.r2{\n";
+	print "\t\t	color:#ffff00\n";
+	print "\t\t}\n";
+	print "\t\t.r3{\n";
+	print "\t\t	color:#40bf40\n";
+	print "\t\t}\n";
+	print "\t\t.r4{\n";
+	print "\t\t	color:#808080\n";
+	print "\t\t}\n";
+ff0000	hostile
+f26000	unfriendly
+e4e400	neutral
+33ff33	friendly
+5fe65d	honoured
+53e9bc	revered
+2ee6e6	exalted
+
 	print "\t\tdiv {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tvertical-align:\tmiddle;\n";

@@ -21,6 +21,7 @@ BEGIN {
 	require 'BNet/Misc.pm';
 	require 'BNet/Achievements.pm';
 	require 'BNet/Professions.pm';
+	require 'BNet/Reputation.pm';
 }
 
 
@@ -36,13 +37,16 @@ sub findinarray($@) {
 	}
 }
 
+
 sub __main__() {
 	my $file;
 	my %keys;
 	my $apikey;
+	my $module;
 	GetOptions (
 		'f=s' => \$file,
 		'a=s' => \$apikey,
+		'm=s' => \$module,
 	);
 
 	open(my $yourhandle, '<:encoding(UCS-2le)', $file) # always use a variable here containing filename
