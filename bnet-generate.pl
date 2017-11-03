@@ -871,10 +871,10 @@ sub __main__() {
 ##
 ##Artifact Base Hidden Appearances
 #####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
-#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 ##	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 ##	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 ##	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
@@ -938,8 +938,8 @@ sub __main__() {
 ##	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
-#	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
-	BNet::Professions::cooking ($count, %multiusercriteria);
+	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
+#	BNet::Professions::cooking ($count, %multiusercriteria);
 
 }
 
