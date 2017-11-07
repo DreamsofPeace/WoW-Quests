@@ -21,7 +21,6 @@ BEGIN {
 	require 'BNet/Misc.pm';
 	require 'BNet/Achievements.pm';
 	require 'BNet/Professions.pm';
-	require 'BNet/Reputation.pm';
 }
 
 
@@ -75,7 +74,7 @@ sub __main__() {
 
 	my $count = 0;
 	
-	my $fetchtype = 'quests,items,professions,achievements';
+	my $fetchtype = 'quests,items,professions,achievements,reputation';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
 	BNet::Utils::tableprint("beginrow");
@@ -103,16 +102,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo00->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo00->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -126,16 +126,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo01->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo01->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -149,16 +150,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo02->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo02->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -172,16 +174,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo03->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo03->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -195,16 +198,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo04->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo04->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -218,16 +222,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo05->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo05->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -241,16 +246,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo06->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo06->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -264,16 +270,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo07->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo07->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -287,16 +294,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo08->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo08->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -310,16 +318,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo09->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo09->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -333,16 +342,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo10->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo10->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -356,16 +366,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo11->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo11->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -379,16 +390,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo12->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo12->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -402,16 +414,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo13->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo13->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -425,16 +438,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo14->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo14->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -448,16 +462,17 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
+					chomp ($columns[2]);
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo15->{'level'};
-					print "</div>";
+					print "</div>\n";
 				} else {
 					print "\n\t\t\t\t<div></div>\n";
 					print "\n\t\t\t\t<div>";
 					print $userinfo15->{'level'};
-					print "</div>";
+					print "</div>\n";
 				}
 				BNet::Utils::tableprint("endtd");
 			}
@@ -875,10 +890,10 @@ sub __main__() {
 ##
 ##Artifact Base Hidden Appearances
 #####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
-	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 ##	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 ##	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 ##	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
@@ -942,9 +957,69 @@ sub __main__() {
 ##	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
-	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
+#	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
 #	BNet::Professions::cooking ($count, %multiusercriteria);
 
+	if ($module eq "reputation") {
+		
+		BEGIN {
+			require 'BNet/Utils.pm';
+			require 'BNet/Reputation.pm';
+		}
+		
+		my %rep;
+		
+		if (0 < $count) {
+			$rep{'fake'}{0} = { BNet::Utils::reputationtohash ($userinfo00) };
+		}
+		if (1 < $count) {
+			$rep{'fake'}{1} = { BNet::Utils::reputationtohash ($userinfo01) };
+		}
+		if (2 < $count) {
+			$rep{'fake'}{2} = { BNet::Utils::reputationtohash ($userinfo02) };
+		}
+		if (3 < $count) {
+			$rep{'fake'}{3} = { BNet::Utils::reputationtohash ($userinfo03) };
+		}
+		if (4 < $count) {
+			$rep{'fake'}{4} = { BNet::Utils::reputationtohash ($userinfo04) };
+		}
+		if (5 < $count) {
+			$rep{'fake'}{5} = { BNet::Utils::reputationtohash ($userinfo05) };
+		}
+		if (6 < $count) {
+			$rep{'fake'}{6} = { BNet::Utils::reputationtohash ($userinfo06) };
+		}
+		if (7 < $count) {
+			$rep{'fake'}{7} = { BNet::Utils::reputationtohash ($userinfo07) };
+		}
+		if (8 < $count) {
+			$rep{'fake'}{8} = { BNet::Utils::reputationtohash ($userinfo08) };
+		}
+		if (9 < $count) {
+			$rep{'fake'}{9} = { BNet::Utils::reputationtohash ($userinfo09) };
+		}
+		if (10 < $count) {
+			$rep{'fake'}{10} = { BNet::Utils::reputationtohash ($userinfo10) };
+		}
+		if (11 < $count) {
+			$rep{'fake'}{11} = { BNet::Utils::reputationtohash ($userinfo11) };
+		}
+		if (12 < $count) {
+			$rep{'fake'}{12} = { BNet::Utils::reputationtohash ($userinfo12) };
+		}
+		if (13 < $count) {
+			$rep{'fake'}{13} = { BNet::Utils::reputationtohash ($userinfo13) };
+		}
+		if (14 < $count) {
+			$rep{'fake'}{14} = { BNet::Utils::reputationtohash ($userinfo14) };
+		}
+		if (15 < $count) {
+			$rep{'fake'}{15} = { BNet::Utils::reputationtohash ($userinfo15) };
+		}
+#		print Dumper (%rep);
+		BNet::Reputations::reputation ($count, %rep);
+	}
 }
 
 __main__();
