@@ -7,7 +7,14 @@ Quest Completion Order from http://wow.gamepedia.com and user comments from http
 
 #How to Use
 
-bnet-generate.pl -f file-name -a api-key
+bnet-generate.pl -f file-name -a api-key -m module (only partially implemented)
+
+Supported Modules:
+	Reputation (Broken, but being worked on.)
+	Professions (NYI)
+	Achievements (NYI)
+	Quests (NYI)
+	Legendaries (NYI)
 
 api-key is from https://dev.battle.net
 
