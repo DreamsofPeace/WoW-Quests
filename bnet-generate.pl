@@ -780,7 +780,7 @@ sub __main__() {
 	}
 
 #Starting
-#	BNet::Quests_EK::sz_1_10_belf_eversong ($count, %multiuserquests);
+	BNet::Quests_EK::sz_1_10_belf_eversong ($count, %multiuserquests);
 ##	sz_1_10_goblin_kezan_and_lost_isles ($count, %multiuserquests);
 ##	sz_1_10_troll_orc_durotar ($count, %multiuserquests);
 ##	sz_1_10_tauren_mulgore ($count, %multiuserquests);
@@ -795,7 +795,7 @@ sub __main__() {
 #
 #
 ##Eastern Kingdoms
-#	BNet::Quests_EK::z_10_20_ghostlands ($count, %multiuserquests);
+	BNet::Quests_EK::z_10_20_ghostlands ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_10_20_Loch_Modan ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_10_20_Silverpine_Forest ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_10_20_Westfall_Redridge_Mountains ($count, %multiuserquests);
@@ -890,10 +890,10 @@ sub __main__() {
 ##
 ##Artifact Base Hidden Appearances
 #####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
-#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
 ##	BNet::Misc::class_hall_set ($count, %multiusercriteria);
 ##	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
 ##	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
@@ -910,8 +910,8 @@ sub __main__() {
 #
 ##Raids
 ##	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
-#	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
-#	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
+	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
+	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
 ##Dungeon/Raids
 ##	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
 ##	BNet::Achievements::glory_of ($count, %multiusercriteria);
@@ -945,8 +945,8 @@ sub __main__() {
 ##	BNet::Achievements::p70_adventurer_of_stormheim ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_adventurer_of_suramar ($count, %multiusercriteria);
 ##	BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
-#	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
-#	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
+	BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
+	BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
 #
@@ -957,7 +957,7 @@ sub __main__() {
 ##	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
-#	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
+	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
 #	BNet::Professions::cooking ($count, %multiusercriteria);
 
 	if ($module eq "reputation") {
