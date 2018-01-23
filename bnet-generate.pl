@@ -794,18 +794,19 @@ sub __main__() {
 ##	sz_55_58_death_knight_plaguelands_scarlet_eEnclave ($count, %multiuserquests);
 #
 #
-##Eastern Kingdoms
-	BNet::Quests_EK::z_10_20_ghostlands ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_10_20_Loch_Modan ($count, %multiuserquests);
-##	BNet::Quests_EK::z_10_20_Silverpine_Forest ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_10_20_Westfall_Redridge_Mountains ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_20_25_Duskwood ($count, %multiuserquests);
-##	BNet::Quests_EK::z_20_25_Hillsbrad_Foothills ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_20_25_Wetlands ($count, %multiuserquests);
-##	BNet::Quests_EK::z_25_30_Arathi_Highlands ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_25_30_Northern_Stranglethorn ($count, %multiuserquests);
-#	BNet::Quests_EK::z_30_35_Hinterlands ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_30_35_Cape_of_Stranglethorn ($count, %multiuserquests);
+#
+##Eastern Kingdoms
+	BNet::Quests_EK::z_10_20_ghostlands ($count, %multiuserquests);
+	BNet::Quests_EK::z_10_20_Silverpine_Forest ($count, %multiuserquests);
+	BNet::Quests_EK::z_20_25_Hillsbrad_Foothills ($count, %multiuserquests);
+	BNet::Quests_EK::z_25_30_Arathi_Highlands ($count, %multiuserquests);
+	BNet::Quests_EK::z_30_35_Hinterlands ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_35_40_Western_Plaguelands ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_40_45_Eastern_Plaguelands ($count, %multiuserquests);
 ##	BNet::Quests_EK::z_45_50_Badlands_Searing_Gorge ($count, %multiuserquests);
