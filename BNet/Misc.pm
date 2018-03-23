@@ -41,7 +41,7 @@ sub artifact_non_hidden ($%) {
 	BNet::Utils::preprintachievement ($count, '32150', '11173', "Crest of Heroism", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32155', '11173', "Crest of Devastation", %multiusercriteria);
 
-	BNet::Utils::groupheader ("Fighting with Style: Fighting with Style: Hidden");
+	BNet::Utils::groupheader ("Fighting with Style: Hidden");
 	BNet::Utils::preprintachievement ($count, '34535', '10750', "Hidden Appearance", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '34532', '10750', "30 Dungeons", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '34533', '10750', "200 World Quests", %multiusercriteria);
