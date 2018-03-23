@@ -1047,8 +1047,10 @@ sub __main__() {
 		##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
 		##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
 			BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
-		#	BNet::Professions::cooking ($count, %multiusercriteria);
 
+	}
+	if ($module eq "cooking") {
+			BNet::Professions::cooking ($count, %multiusercriteria);
 	}
 	if ($module eq "reputation") {
 		
