@@ -90,6 +90,8 @@ sub __main__() {
 		my @columns = split (/\t/, $f);
 		if( defined($columns[2]) ){
 			chomp ($columns[2]);
+		} else {
+			chomp ($columns[1]);
 		}
 		$columns[0] =~ s/^\x{FEFF}//;
 		if ($count == 0) {
@@ -878,45 +880,45 @@ sub __main__() {
 ##	BNet::Quests_Warlords::z_98_100_nagrand ($count, %multiuserquests);
 ##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
 
-###Legion
-##	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
-##	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
-#	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
-##
-##Artifact Base Hidden Appearances
-#####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
-#	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
-#	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
-#	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
-#	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
-##	BNet::Misc::class_hall_set ($count, %multiusercriteria);
-##	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
-##	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
-##	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
-##	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
-##	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
-##	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
-##	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
-##	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
+##Legion
+#	BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_azsuna ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_valsharah ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_highmountain ($count, %multiuserquests);
+	BNet::Quests_Legion::z_100_stormheim ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
+#	BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
+	BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
 #
-##Class Specific
-#	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
-##	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
-#
-##Raids
-##	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
-#	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
-#	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
-##Dungeon/Raids
-##	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
-##	BNet::Achievements::glory_of ($count, %multiusercriteria);
-#
-#
+#Artifact Base Hidden Appearances
+####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
+	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
+	BNet::Misc::artifact_hidden_base ($count, %multiusercriteria);
+	BNet::Quests_Legion::artifact_improvingonhistory ($count, %multiuserquests);
+	BNet::Quests_Legion::empoweredartifacts ($count, %multiuserquests);
+#	BNet::Misc::class_hall_set ($count, %multiusercriteria);
+	BNet::Misc::pvp_prestige ($count, %multiusercriteria);
+#	BNet::Quests_Misc::dungeons ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_60_aq10 ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_100_brf ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_100_hfc ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
+#	BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
+
+#Class Specific
+	BNet::Quests_Misc::class_quests ($count, %multiuserquests);
+#	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
+
+#Raids
+#	BNet::Achievements::raid_30_os ($count, %multiusercriteria);
+	BNet::Achievements::dungeon_7_legion  ($count, %multiusercriteria);
+	BNet::Achievements::raid_7_legion  ($count, %multiusercriteria);
+#Dungeon/Raids
+#	BNet::Achievements::raid_dungeon_bosses ($count, %multiusercriteria);
+#	BNet::Achievements::glory_of ($count, %multiusercriteria);
+
+
 ##Legendaries
 ##	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
 ##	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
@@ -958,7 +960,7 @@ sub __main__() {
 ##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
 ##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
 #	BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
-#	BNet::Professions::cooking ($count, %multiusercriteria);
+	BNet::Professions::cooking ($count, %multiusercriteria);
 
 	if ($module eq "reputation") {
 		
@@ -970,7 +972,7 @@ sub __main__() {
 		my %rep;
 		
 		if (0 < $count) {
-			$rep{'fake'}{0} = { BNet::Utils::reputationtohash ($userinfo00) };
+			$rep{'fake'}{zero} = { BNet::Utils::reputationtohash ($userinfo00) };
 		}
 		if (1 < $count) {
 			$rep{'fake'}{1} = { BNet::Utils::reputationtohash ($userinfo01) };

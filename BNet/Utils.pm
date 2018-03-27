@@ -323,14 +323,14 @@ sub preprintrep ($$$%) {
 	my ($count, $fid, $ql, %rep) = @_;
 	my %qc;
 	my $wowheadurl = "<a href=\"http://www.wowhead.com/faction=" . $fid . "\" rel=\"faction=" . $fid . "\">" . $ql . "</a>";
-	print Dumper (%rep);
+#	print Dumper (%rep);
 #	valueprintrep ($count, $wowheadurl, $fid, %qc);
-#	print $rep{0}{$fid}{'standing'};
+	print $rep{zero}->{$fid}->{'standing'};
 #	print Dumper ($rep{0});
-#	print "\n";
+	print "\n";
 #	print Dumper ($rep{1});
 #	print $rep{0}{$fid}{'standing'};
-	print "\n";
+#	print "\n";
 	#if (0 < $count) {
 	#	$qc{zero} =  join(':', $rep{0}{$fid}->{'standing'},$rep{0}{$fid}->{'value'},$rep{0}{$fid}->{'max'});
 	#}
