@@ -342,10 +342,10 @@ sub cooking ($%) {
 	BNet::Utils::preprintprofcooking($count, '161001', "Saberfish Broth", "inv_misc_food_draenor_saberfishbroth", %multiusercriteria);
 	BNet::Utils::groupheader ("Food of the Broken Isles");
 	BNet::Utils::groupheader ("Snacks");
-#	BNet::Utils::preprintprofcookinglegion($count, '201513', '201540', '201560', "Bear Tartare", %multiusercriteria);
-	BNet::Utils::preprintprofcooking($count, '201513', "Bear Tartare (Rank 1)", "inv_misc_food_legion_beartartare", %multiusercriteria);
-	BNet::Utils::preprintprofcooking($count, '201540', "Bear Tartare (Rank 2)", "inv_misc_food_legion_beartartare", %multiusercriteria);
-	BNet::Utils::preprintprofcooking($count, '201560', "Bear Tartare (Rank 3)", "inv_misc_food_legion_beartartare", %multiusercriteria);
+	BNet::Utils::preprintprofcookinglegion($count, '201513', '201540', '201560', "Bear Tartare", %multiusercriteria);
+#	BNet::Utils::preprintprofcooking($count, '201513', "Bear Tartare (Rank 1)", "inv_misc_food_legion_beartartare", %multiusercriteria);
+#	BNet::Utils::preprintprofcooking($count, '201540', "Bear Tartare (Rank 2)", "inv_misc_food_legion_beartartare", %multiusercriteria);
+#	BNet::Utils::preprintprofcooking($count, '201560', "Bear Tartare (Rank 3)", "inv_misc_food_legion_beartartare", %multiusercriteria);
 	BNet::Utils::preprintprofcooking($count, '201683', "Crispy Bacon (Rank 1)", "inv_misc_food_legion_baconcrispy", %multiusercriteria);
 	BNet::Utils::preprintprofcooking($count, '201684', "Crispy Bacon (Rank 2)", "inv_misc_food_legion_baconcrispy", %multiusercriteria);
 	BNet::Utils::preprintprofcooking($count, '201685', "Crispy Bacon (Rank 3)", "inv_misc_food_legion_baconcrispy", %multiusercriteria);
