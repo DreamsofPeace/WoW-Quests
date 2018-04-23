@@ -952,16 +952,23 @@ sub __main__() {
 		#	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
 		#	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
 		#
-		##	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
-		##	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
+			BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
+			BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
 			BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
-		#	BNet::Professions::cooking ($count, %multiusercriteria);
 
+	}
+	if ($module eq "cooking") {
+		
+		BEGIN {
+			require 'BNet/Utils.pm';
+			require 'BNet/Professions.pm';
+		}
+			BNet::Professions::cooking ($count, %multiusercriteria);
 	}
 	if ($module eq "reputation") {
 		
