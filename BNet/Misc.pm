@@ -168,6 +168,10 @@ sub pvp_prestige ($%) {
 	BNet::Utils::preprintachievement ($count, '36192', '11694', "Hell, It's About Nineteen (Prestige 19)", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37966', '12108', "Double Decade of Dominance (Prestige 20)", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37967', '12109', "Twenty-One Arms Salute (Prestige 21)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38115', '12180', "Catching Twenty-Two (Prestige 22)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38116', '12181', "Protocol 2.3 (Prestige 23)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38178', '12182', "Demonic Double Dozen (Prestige 24)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38117', '12183', "Prestige Quartermaster (Prestige 25)", %multiusercriteria);
 
 }
 1;
