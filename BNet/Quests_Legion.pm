@@ -976,7 +976,7 @@ sub empoweredartifacts ($%) {
 	BNet::Utils::preprint ($count, '45841', "A Triumphant Report", %multiuserquests);
 	BNet::Utils::preprint ($count, '45842', "A Gift From the Six", %multiuserquests);
 	BNet::Utils::preprint ($count, '45627', "Feltotem's Fall", %multiuserquests);
-	BNet::Utils::preprint ($count, '45910', "Navarrogg's Gift", %multiuserquests);
+	BNet::Utils::preprint ($count, '45909', "Navarrogg's Gift", %multiuserquests);
 	BNet::Utils::groupheader ("DPS: Twisted Twin<div>Shadow Priest, Affliction Warlock, Marksmanship Hunter, Balance Druid, Frost Mage</div>");
 	BNet::Utils::preprint ($count, '47041', "Affliction: The Twisted Twin", %multiuserquests);
 	BNet::Utils::preprint ($count, '47037', "Balance: The Twisted Twin", %multiuserquests);
@@ -1006,7 +1006,7 @@ sub empoweredartifacts ($%) {
 	BNet::Utils::preprint ($count, '46200', "The Matter Resolved... For Now...", %multiuserquests);
 	BNet::Utils::preprint ($count, '45864', "A Gift From the Six", %multiuserquests);
 	BNet::Utils::preprint ($count, '46035', "End of the Risen Threat", %multiuserquests);
-	BNet::Utils::preprint ($count, '45096', "Jarod's Gift", %multiuserquests);
+	BNet::Utils::preprint ($count, '45906', "Jarod's Gift", %multiuserquests);
 	BNet::Utils::groupheader ("Tank: Aid of the Illidari<div>Blood Death Knight, Vengeance Demon Hunter, Guardian Druid, Brewmaster Monk, Protection Paladin, Protection Warrior</div>");
 	BNet::Utils::preprint ($count, '47025', "Blood: Aid of the Illidari", %multiuserquests);
 	BNet::Utils::preprint ($count, '47024', "Brewmaster: Aid of the Illidari", %multiuserquests);
