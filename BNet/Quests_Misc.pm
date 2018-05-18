@@ -8,10 +8,10 @@ sub dungeons ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("Ragefire Chasm");
 	BNet::Utils::preprint ($count, '30969', "A New Enemy <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '30983', "The Dark <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\"> <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '30983', "The Dark <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '30984', "No Orc Left Behind <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '30995', "No Man Left Behind <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '30996', "The Dark <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\"> <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '30996', "The Dark <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> <img src=\"http://wow.zamimg.com/images/wow/icons/small/class_shaman.jpg\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '30998', "A New Enemy <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '31034', "Enemies Below <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '31036', "Enemies Below <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
