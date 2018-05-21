@@ -647,11 +647,11 @@ sub z_40_60_Eastern_Plaguelands ($%) {
 	BNet::Utils::preprint ($count, '27527', "Journey's End", %multiuserquests);
 }
 
-sub z_45_Badlands_Searing_Gorge ($%) {
+sub z_45_60_Badlands_Searing_Gorge ($%) {
 	my ($count, %multiuserquests) = @_;
 }
 
-sub z_50_Burning_Steppes_Swamp_of_Sorrows ($%) {
+sub z_50_60_Burning_Steppes_Swamp_of_Sorrows ($%) {
 	my ($count, %multiuserquests) = @_;
 }
 

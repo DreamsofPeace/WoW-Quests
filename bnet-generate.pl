@@ -810,8 +810,8 @@ sub __main__() {
 			BNet::Quests_EK::z_30_60_Hinterlands ($count, %multiuserquests);
 			BNet::Quests_EK::z_35_60_Western_Plaguelands ($count, %multiuserquests);
 			BNet::Quests_EK::z_40_60_Eastern_Plaguelands ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_45_Badlands_Searing_Gorge ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_50_Burning_Steppes_Swamp_of_Sorrows ($count, %multiuserquests);
+			BNet::Quests_EK::z_45_60_Badlands_Searing_Gorge ($count, %multiuserquests);
+			BNet::Quests_EK::z_50_60_Burning_Steppes_Swamp_of_Sorrows ($count, %multiuserquests);
 		#
 		##Kalimdor
 		#	BNet::Quests_KD::z_10_Azshara ($count, %multiuserquests);
