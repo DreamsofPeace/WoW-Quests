@@ -781,7 +781,7 @@ sub __main__() {
 
 	if ($module eq "quests") {
 		#Starting
-			BNet::Quests_EK::sz_1_belf_eversong ($count, %multiuserquests);
+			BNet::Quests_EK::sz_01_20_Belf_Eversong ($count, %multiuserquests);
 		##	sz_1_goblin_kezan_and_lost_isles ($count, %multiuserquests);
 		##	sz_1_troll_orc_durotar ($count, %multiuserquests);
 		##	sz_1_tauren_mulgore ($count, %multiuserquests);
@@ -803,13 +803,13 @@ sub __main__() {
 		##	BNet::Quests_EK::z_30_Cape_of_Stranglethorn ($count, %multiuserquests);
 		#
 		##Eastern Kingdoms
-			BNet::Quests_EK::z_10_ghostlands ($count, %multiuserquests);
-			BNet::Quests_EK::z_10_Silverpine_Forest ($count, %multiuserquests);
-			BNet::Quests_EK::z_20_Hillsbrad_Foothills ($count, %multiuserquests);
-			BNet::Quests_EK::z_25_Arathi_Highlands ($count, %multiuserquests);
-			BNet::Quests_EK::z_30_Hinterlands ($count, %multiuserquests);
-			BNet::Quests_EK::z_35_Western_Plaguelands ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_40_Eastern_Plaguelands ($count, %multiuserquests);
+			BNet::Quests_EK::z_10_60_Ghostlands ($count, %multiuserquests);
+			BNet::Quests_EK::z_10_60_Silverpine_Forest ($count, %multiuserquests);
+			BNet::Quests_EK::z_20_60_Hillsbrad_Foothills ($count, %multiuserquests);
+			BNet::Quests_EK::z_25_60_Arathi_Highlands ($count, %multiuserquests);
+			BNet::Quests_EK::z_30_60_Hinterlands ($count, %multiuserquests);
+			BNet::Quests_EK::z_35_60_Western_Plaguelands ($count, %multiuserquests);
+			BNet::Quests_EK::z_40_60_Eastern_Plaguelands ($count, %multiuserquests);
 		##	BNet::Quests_EK::z_45_Badlands_Searing_Gorge ($count, %multiuserquests);
 		##	BNet::Quests_EK::z_50_Burning_Steppes_Swamp_of_Sorrows ($count, %multiuserquests);
 		#

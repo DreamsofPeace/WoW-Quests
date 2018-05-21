@@ -6,7 +6,7 @@ use warnings;
 
 
 
-sub sz_1_belf_eversong ($%) {
+sub sz_01_20_Belf_Eversong ($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Eversong Woods/Blood Elf");
@@ -92,7 +92,7 @@ sub sz_1_belf_eversong ($%) {
 }
 
 
-sub z_10_ghostlands ($%) {
+sub z_10_60_Ghostlands ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("Ghostlands: To the Ghostlands");
 	BNet::Utils::preprint ($count, '28560', "Warchief's Command: Ghostlands!", %multiuserquests);
@@ -169,7 +169,7 @@ sub z_10_ghostlands ($%) {
 
 }
 
-sub z_10_Silverpine_Forest ($%) {
+sub z_10_60_Silverpine_Forest ($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Silverpine Forest");
@@ -241,7 +241,7 @@ sub z_10_Silverpine_Forest ($%) {
 
 }
 
-sub z_20_Hillsbrad_Foothills ($%) {
+sub z_20_60_Hillsbrad_Foothills ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("Hillsbrasd Foothills");
 	BNet::Utils::preprint ($count, '27746', "Empire of Dirt", %multiuserquests);
@@ -318,7 +318,7 @@ sub z_20_Hillsbrad_Foothills ($%) {
 
 }
 
-sub z_25_Arathi_Highlands ($%) {
+sub z_25_60_Arathi_Highlands ($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("25: Arathi Highlands: <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
@@ -390,7 +390,7 @@ sub z_25_Arathi_Highlands ($%) {
 	BNet::Utils::preprint ($count, '26912', "The Princess Unleashed", %multiuserquests);
 }
 
-sub z_30_Hinterlands ($%) {
+sub z_30_60_Hinterlands ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("30: Arathi Highlands");
 	BNet::Utils::preprint ($count, '485', "Find OOX-09/HL!", %multiuserquests);
@@ -463,7 +463,7 @@ sub z_30_Hinterlands ($%) {
 	BNet::Utils::preprint ($count, '26368', "Venomous Secrets <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 }
 
-sub z_35_Western_Plaguelands ($%) {
+sub z_35_60_Western_Plaguelands ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("35: Western Plaguelands");
 	BNet::Utils::preprint ($count, '26920', "The Battle for Andorhal <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
@@ -552,9 +552,99 @@ sub z_35_Western_Plaguelands ($%) {
 	BNet::Utils::preprint ($count, '28750', "The Battle for Andorhal <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 }
 
-sub z_40_Eastern_Plaguelands ($%) {
+sub z_40_60_Eastern_Plaguelands ($%) {
 	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("40: Eastern Plaguelands");
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands");
+	BNet::Utils::preprint ($count, '28577', "Warchief's Command: Eastern Plaguelands! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28578', "Hero's Call: Eastern Plaguelands! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27683', "Into the Woods", %multiuserquests);
+	BNet::Utils::preprint ($count, '27684', "Visitors", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Gidwin and Tarenar");
+	BNet::Utils::preprint ($count, '27367', "Gidwin Goldbraids", %multiuserquests);
+	BNet::Utils::preprint ($count, '27368', "Just Encased", %multiuserquests);
+	BNet::Utils::preprint ($count, '27369', "Greasing the Wheel", %multiuserquests);
+	BNet::Utils::preprint ($count, '27370', "Tarenar Sunstrike", %multiuserquests);
+	BNet::Utils::preprint ($count, '27371', "What I Do Best", %multiuserquests);
+	BNet::Utils::preprint ($count, '27372', "A Gift For Fiona", %multiuserquests);
+	BNet::Utils::preprint ($count, '27373', "Onward, to Light's Hope Chapel", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Crown Guard Tower");
+	BNet::Utils::preprint ($count, '27381', "Traveling Companions", %multiuserquests);
+	BNet::Utils::preprint ($count, '27382', "Rough Roads", %multiuserquests);
+	BNet::Utils::preprint ($count, '27544', "Cenarion Tenacity", %multiuserquests);
+	BNet::Utils::preprint ($count, '27420', "Postponing the Inevitable", %multiuserquests);
+	BNet::Utils::preprint ($count, '27421', "Amidst Death, Life", %multiuserquests);
+	BNet::Utils::preprint ($count, '27432', "Zaeldarr the Outcast", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Light's Shield Tower");
+	BNet::Utils::preprint ($count, '27449', "Honor and Strength", %multiuserquests);
+	BNet::Utils::preprint ($count, '27450', "Frederick's Fish Fancy", %multiuserquests);
+	BNet::Utils::preprint ($count, '27451', "To Kill With Purpose", %multiuserquests);
+	BNet::Utils::preprint ($count, '27452', "Dark Garb", %multiuserquests);
+	BNet::Utils::preprint ($count, '27453', "Catalysm", %multiuserquests);
+	BNet::Utils::preprint ($count, '27454', "Just a Drop in the Bucket", %multiuserquests);
+	BNet::Utils::preprint ($count, '27477', "The Corpulent One", %multiuserquests);
+	BNet::Utils::preprint ($count, '27481', "Out of the Ziggurat", %multiuserquests);
+	BNet::Utils::preprint ($count, '27482', "Into the Flames", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Light's Hope Chapel");
+	BNet::Utils::preprint ($count, '27448', "The Trek Continues", %multiuserquests);
+	BNet::Utils::preprint ($count, '27455', "Boys Will Be Boys", %multiuserquests);
+	BNet::Utils::preprint ($count, '27463', "A Boyhood Dream", %multiuserquests);
+	BNet::Utils::preprint ($count, '27464', "Argent Call: The Trial of the Crypt", %multiuserquests);
+	BNet::Utils::preprint ($count, '27465', "Argent Call: The Noxious Glade", %multiuserquests);
+	BNet::Utils::preprint ($count, '27456', "Gathering Some Grub(s)", %multiuserquests);
+	BNet::Utils::preprint ($count, '27457', "An Opportune Alliance", %multiuserquests);
+	BNet::Utils::preprint ($count, '27458', "Smokey and the Bandage", %multiuserquests);
+	BNet::Utils::preprint ($count, '27467', "Buried Blades", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: The Redpaths of Darrowshire");
+	BNet::Utils::preprint ($count, '27383', "Little Pamela", %multiuserquests);
+	BNet::Utils::preprint ($count, '27384', "Pamela's Doll", %multiuserquests);
+	BNet::Utils::preprint ($count, '27392', "I'm Not Supposed to Tell You This", %multiuserquests);
+	BNet::Utils::preprint ($count, '27385', "Uncle Carlin", %multiuserquests);
+	BNet::Utils::preprint ($count, '27386', "A Strange Historian", %multiuserquests);
+	BNet::Utils::preprint ($count, '27387', "Villains of Darrowshire", %multiuserquests);
+	BNet::Utils::preprint ($count, '27388', "Heroes of Darrowshire", %multiuserquests);
+	BNet::Utils::preprint ($count, '27389', "Marauders of Darrowshire", %multiuserquests);
+	BNet::Utils::preprint ($count, '27390', "The Battle of Darrowshire", %multiuserquests);
+	BNet::Utils::preprint ($count, '27391', "Hidden Treasures", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Tyr's Hand");
+	BNet::Utils::preprint ($count, '27459', "The Brotherhood of Light", %multiuserquests);
+	BNet::Utils::preprint ($count, '27460', "Soft Landing", %multiuserquests);
+	BNet::Utils::preprint ($count, '27461', "To Take the Abbey", %multiuserquests);
+	BNet::Utils::preprint ($count, '27462', "To Take the Barracks", %multiuserquests);
+	BNet::Utils::preprint ($count, '27612', "Victory From Within", %multiuserquests);
+	BNet::Utils::preprint ($count, '27613', "The Assassin", %multiuserquests);
+	BNet::Utils::preprint ($count, '27614', "Scarlet Salvage", %multiuserquests);
+	BNet::Utils::preprint ($count, '27615', "The Wrathcaster", %multiuserquests);
+	BNet::Utils::preprint ($count, '27616', "The Huntsman", %multiuserquests);
+	BNet::Utils::preprint ($count, '27617', "Befouled No More", %multiuserquests);
+	BNet::Utils::preprint ($count, '27618', "Argent Upheaval", %multiuserquests);
+	BNet::Utils::preprint ($count, '27619', "The Commander", %multiuserquests);
+	BNet::Utils::preprint ($count, '27620', "Like Rats", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Eastwall Tower");
+	BNet::Utils::preprint ($count, '27466', "Argent Call: Northdale", %multiuserquests);
+	BNet::Utils::preprint ($count, '27479', "Righteous Indignation", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Northpass Tower");
+	BNet::Utils::preprint ($count, '27488', "Impatience", %multiuserquests);
+	BNet::Utils::preprint ($count, '27489', "Nobody to Blame but Myself", %multiuserquests);
+	BNet::Utils::preprint ($count, '27521', "Wretched Hive of Scum and Villainy", %multiuserquests);
+	BNet::Utils::preprint ($count, '27522', "Beat it Out of Them", %multiuserquests);
+	BNet::Utils::preprint ($count, '27523', "Duskwing, Oh How I Hate Thee...", %multiuserquests);
+	BNet::Utils::preprint ($count, '27524', "Blind Fury", %multiuserquests);
+	BNet::Utils::preprint ($count, '27528', "Scourged Mass", %multiuserquests);
+	BNet::Utils::preprint ($count, '27525', "Guardians of Stratholme", %multiuserquests);
+	BNet::Utils::preprint ($count, '27532', "The Plaguewood Tower", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Outside Stratholme");
+	BNet::Utils::preprint ($count, '27529', "Defenders of Darrowshire", %multiuserquests);
+	BNet::Utils::preprint ($count, '27539', "Add 'em to the Pile", %multiuserquests);
+	BNet::Utils::preprint ($count, '27530', "The Corpsebeasts", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Plaguewood Tower");
+	BNet::Utils::preprint ($count, '27531', "Counter-Plague Research", %multiuserquests);
+	BNet::Utils::preprint ($count, '27535', "Just a Little Touched", %multiuserquests);
+	BNet::Utils::preprint ($count, '27533', "A Fate Worse Than Butchery", %multiuserquests);
+	BNet::Utils::preprint ($count, '27534', "Augustus' Receipt Book", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Eastern Plaguelands: Journey's End");
+	BNet::Utils::preprint ($count, '27551', "The Baroness' Missive", %multiuserquests);
+	BNet::Utils::preprint ($count, '27526', "Gidwin's Fate Revealed", %multiuserquests);
+	BNet::Utils::preprint ($count, '27527', "Journey's End", %multiuserquests);
 }
 
 sub z_45_Badlands_Searing_Gorge ($%) {
