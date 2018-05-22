@@ -780,7 +780,7 @@ sub __main__() {
 	}
 
 	if ($module eq "quests") {
-		#Starting
+		#Starting Zones
 			BNet::Quests_EK::sz_01_20_Dun_Morogh ($count, %multiuserquests);
 			BNet::Quests_EK::sz_01_20_Elwynn_Forest ($count, %multiuserquests);
 			BNet::Quests_EK::sz_01_20_Eversong_Woods ($count, %multiuserquests);
@@ -789,12 +789,14 @@ sub __main__() {
 			BNet::Quests_KD::sz_01_20_Durotar ($count, %multiuserquests);
 			BNet::Quests_KD::sz_01_20_Mulgore ($count, %multiuserquests);
 			BNet::Quests_KD::sz_01_20_Teldrassil ($count, %multiuserquests);
-		##	sz_1_goblin_kezan_and_lost_isles ($count, %multiuserquests);
-		##	sz_1_worgen_gilneas ($count, %multiuserquests);
-		##	sz_1_gnome_dwarf_dun morogh ($count, %multiuserquests);
-		##	sz_1_pandaren_wandering_isle ($count, %multiuserquests);
-		##	sz_55_death_knight_plaguelands_scarlet_Enclave ($count, %multiuserquests);
-		#
+			BNet::Quests_Wrath::sz_55_58_Scarlet_Enclave ($count, %multiuserquests);
+			BNet::Quests_Cata::sz_01_20_Gilneas ($count, %multiuserquests);
+			BNet::Quests_Cata::sz_01_20_Gilneas ($count, %multiuserquests);
+			BNet::Quests_Cata::sz_10_60_Ruins_of_Gilneas ($count, %multiuserquests);
+			BNet::Quests_Cata::sz_01_05_Kezan ($count, %multiuserquests);
+			BNet::Quests_Cata::sz_01_10_Lost_Isles ($count, %multiuserquests);
+			BNet::Quests_Mists::sz_01_10_Wandering Isle ($count, %multiuserquests);
+
 		##Eastern Kingdoms
 			BNet::Quests_EK::z_10_60_Ghostlands ($count, %multiuserquests);
 			BNet::Quests_EK::z_10_60_Loch_Modan ($count, %multiuserquests);
@@ -854,35 +856,37 @@ sub __main__() {
 			BNet::Quests_Wrath::z_66_80_Sholazar_Basin ($count, %multiuserquests);
 			BNet::Quests_Wrath::z_67_80_Storm_Peaks ($count, %multiuserquests);
 			BNet::Quests_Wrath::z_67_80_Icecrown ($count, %multiuserquests);
-		#
+
 		##Cataclysm
-		##	BNet::Quests_Cata::z_80_90_Vashjir_Kelpthar_Forest ($count, %multiuserquests);
-		##	BNet::Quests_Cata::z_80_90_Vashjir_Shimmering_Expanse ($count, %multiuserquests);
-		##	BNet::Quests_Cata::z_80_90_Vashjir_Abyssal_Depths ($count, %multiuserquests);
-		#	BNet::Quests_Cata::z_80_90_Mount_Hyjal ($count, %multiuserquests);
-		#	BNet::Quests_Cata::z_82_90_Deepholm ($count, %multiuserquests);
-		#	BNet::Quests_Cata::z_83_90_Uldum ($count, %multiuserquests);
-		#	BNet::Quests_Cata::z_84_90_Twilight_Highlands ($count, %multiuserquests);
-		#
+			BNet::Quests_Cata::z_80_90_Mount_Hyjal ($count, %multiuserquests);
+			BNet::Quests_Cata::z_80_90_Vashjir ($count, %multiuserquests);
+			BNet::Quests_Cata::z_82_90_Deepholm ($count, %multiuserquests);
+			BNet::Quests_Cata::z_83_90_Uldum ($count, %multiuserquests);
+			BNet::Quests_Cata::z_84_90_Twilight_Highlands ($count, %multiuserquests);
+			BNet::Quests_Cata::z_85_Molten_Front ($count, %multiuserquests);
+
 		##Pandaria
-		##	BNet::Quests_Mists::z_85_90_Jade_Forest ($count, %multiuserquests);
-		##	BNet::Quests_Mists::z_86_90_Valley_of_the_Four_Winds ($count, %multiuserquests);
-		##	BNet::Quests_Mists::z_86_90_Krasarang_Wilds ($count, %multiuserquests);
-		##	BNet::Quests_Mists::z_87_90_Kun_Lai_Summit ($count, %multiuserquests);
-		##	BNet::Quests_Mists::z_88_90_Townlong_Steppes ($count, %multiuserquests);
-		##	BNet::Quests_Mists::z_89_90_Dread_Wastes ($count, %multiuserquests);
-		##	BNet::Quests_Mists::z_90_90_Isle_of_Thunder ($count, %multiuserquests);
-		#
+			BNet::Quests_Mists::z_80_90_Jade_Forest ($count, %multiuserquests);
+			BNet::Quests_Mists::z_81_90_Valley_of_the_Four_Winds ($count, %multiuserquests);
+			BNet::Quests_Mists::z_81_90_Krasarang_Wilds ($count, %multiuserquests);
+			BNet::Quests_Mists::z_82_90_Kun-Lai_Summit ($count, %multiuserquests);
+			BNet::Quests_Mists::z_83_90_Townlong_Steppes ($count, %multiuserquests);
+			BNet::Quests_Mists::z_84_90_Dread_Wastes ($count, %multiuserquests);
+			BNet::Quests_Mists::z_85_90_Vale_of_Eternal_Blossoms ($count, %multiuserquests);
+			BNet::Quests_Mists::z_85_90_Isle_of_Thunder ($count, %multiuserquests);
+			BNet::Quests_Mists::z_85_90_Isle_of_Giants ($count, %multiuserquests);
+			BNet::Quests_Mists::z_85_90_Timeless_Isle ($count, %multiuserquests);
+
 		##Draenor
-		BNet::Quests_Warlords::z_90_Blasted_Lands_Intro ($count, %multiuserquests);
-		BNet::Quests_Warlords::z_90_Assault_The_Dark_Portal ($count, %multiuserquests);
-		##	BNet::Quests_Warlords::z_90_frostfire_ridge ($count, %multiuserquests);
-		##	BNet::Quests_Warlords::z_90_shadowmoon_valley ($count, %multiuserquests);
-		##	BNet::Quests_Warlords::z_92_gorgrond ($count, %multiuserquests);
-		##	BNet::Quests_Warlords::z_94_talador ($count, %multiuserquests);
-		##	BNet::Quests_Warlords::z_96_spires_of_arak ($count, %multiuserquests);
-		##	BNet::Quests_Warlords::z_98_nagrand ($count, %multiuserquests);
-		##	BNet::Quests_Warlords::z_100_tanaan_jungle ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_90_Blasted_Lands_Intro ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_90_Assault_The_Dark_Portal ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_90_100_Frostfire_Ridge ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_90_100_Shadowmoon_Valley ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_92_100_Gorgrond ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_94_100_Talador ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_96_100_Spires_of_Arak ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_98_100_Nagrand ($count, %multiuserquests);
+			BNet::Quests_Warlords::z_100_Tanaan_Jungle ($count, %multiuserquests);
 
 		###Legion
 			BNet::Quests_Legion::z_98_legion_intro ($count, %multiuserquests);

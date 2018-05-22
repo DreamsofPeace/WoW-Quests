@@ -3,7 +3,10 @@ package BNet::Quests_Wrath;
 use strict;
 use warnings;
 
+sub sz_55_58_Scarlet_Enclave ($%) {
+	my ($count, %multiuserquests) = @_;
 
+}
 sub z_58_80_Borean_Tundra ($%) {
 	my ($count, %multiuserquests) = @_;
 
