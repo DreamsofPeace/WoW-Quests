@@ -1077,6 +1077,7 @@ sub htmlheadprint () {
 	print "\t\ttable th, table td {\n";
 	print "\t\t\tborder: solid 1px;\n";
 	print "\t\t\tfont-size:	14px;\n";
+	print "\t\t\ttext-align: left;\n";
 	print "\t\t}\n";
 	print "\t\ttable td.Death-Knight {\n";
 	print "\t\t\ttext-align:\tcenter;\n";

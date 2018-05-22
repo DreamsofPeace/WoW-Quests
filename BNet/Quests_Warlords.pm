@@ -40,7 +40,6 @@ sub z_90_Blasted_Lands_Intro ($%) {
 	BNet::Utils::preprint ($count, '36940', "Warning Orgrimmar <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '36941', "Report to the King <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 
-
 }
 
 sub z_90_Assault_The_Dark_Portal ($%) {
@@ -84,37 +83,37 @@ sub z_90_Assault_The_Dark_Portal ($%) {
 	BNet::Utils::preprint ($count, '34446', "The Home Stretch <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 }
 
-sub z_90_92_frostfire_ridge ($%) {
+sub z_90_100_Frostfire_Ridge ($%) {
 	my ($count, %multiuserquests) = @_;
 
 }
 
-sub z_90_92_shadowmoon_valley ($%) {
+sub z_90_100_Shadowmoon_Valley ($%) {
 	my ($count, %multiuserquests) = @_;
 
 }
 
-sub z_92_94_gorgrond ($%) {
+sub z_92_100_Gorgrond ($%) {
 	my ($count, %multiuserquests) = @_;
 
 }
 
-sub z_94_96_talador ($%) {
+sub z_94_100_Talador ($%) {
 	my ($count, %multiuserquests) = @_;
 
 }
 
-sub z_96_98_spires_of_arak ($%) {
+sub z_96_100_Spires_of_Arak ($%) {
 	my ($count, %multiuserquests) = @_;
 
 }
 
-sub z_98_100_nagrand ($%) {
+sub z_98_100_Nagrand ($%) {
 	my ($count, %multiuserquests) = @_;
 
 }
 
-sub z_100_tanaan_jungle ($%) {
+sub z_100_Tanaan_Jungle ($%) {
 	my ($count, %multiuserquests) = @_;
 
 }
