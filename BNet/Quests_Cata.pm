@@ -24,6 +24,10 @@ sub sz_01_05_Kezan ($%) {
 	
 }
 
+sub sz_01_10_Lost_Isles ($%) {
+	my ($count, %multiuserquests) = @_;
+	
+}
 sub z_80_90_Mount_Hyjal ($%) {
 	my ($count, %multiuserquests) = @_;
 

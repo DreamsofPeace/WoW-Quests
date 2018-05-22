@@ -8,16 +8,6 @@ use Data::Dumper;
 
 BEGIN {
 	require 'BNet/Utils.pm';
-	require 'BNet/Quests_KD.pm';
-	require 'BNet/Quests_EK.pm';
-	require 'BNet/Quests_BC.pm';
-	require 'BNet/Quests_Wrath.pm';
-	require 'BNet/Quests_Cata.pm';
-	require 'BNet/Quests_Mists.pm';
-	require 'BNet/Quests_Warlords.pm';
-	require 'BNet/Quests_Legendaries.pm';
-	require 'BNet/Quests_Legion.pm';
-	require 'BNet/Quests_Misc.pm';
 	require 'BNet/Misc.pm';
 	require 'BNet/Achievements.pm';
 	require 'BNet/Professions.pm';
@@ -780,6 +770,23 @@ sub __main__() {
 	}
 
 	if ($module eq "quests") {
+
+
+		BEGIN {
+			require 'BNet/Quests_KD.pm';
+			require 'BNet/Quests_EK.pm';
+			require 'BNet/Quests_BC.pm';
+			require 'BNet/Quests_Wrath.pm';
+			require 'BNet/Quests_Cata.pm';
+			require 'BNet/Quests_Mists.pm';
+			require 'BNet/Quests_Warlords.pm';
+			require 'BNet/Quests_Legendaries.pm';
+			require 'BNet/Quests_Legion.pm';
+			require 'BNet/Quests_Misc.pm';
+			require 'BNet/Quests_BFA.pm';
+		}
+
+
 		#Starting Zones
 			BNet::Quests_EK::sz_01_20_Dun_Morogh ($count, %multiuserquests);
 			BNet::Quests_EK::sz_01_20_Elwynn_Forest ($count, %multiuserquests);
@@ -795,7 +802,7 @@ sub __main__() {
 			BNet::Quests_Cata::sz_10_60_Ruins_of_Gilneas ($count, %multiuserquests);
 			BNet::Quests_Cata::sz_01_05_Kezan ($count, %multiuserquests);
 			BNet::Quests_Cata::sz_01_10_Lost_Isles ($count, %multiuserquests);
-			BNet::Quests_Mists::sz_01_10_Wandering Isle ($count, %multiuserquests);
+			BNet::Quests_Mists::sz_01_10_Wandering_Isle ($count, %multiuserquests);
 
 		##Eastern Kingdoms
 			BNet::Quests_EK::z_10_60_Ghostlands ($count, %multiuserquests);

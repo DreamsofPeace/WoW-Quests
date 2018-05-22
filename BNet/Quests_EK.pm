@@ -15,6 +15,11 @@ sub sz_01_20_Elwynn_Forest ($%) {
 
 }
 
+sub sz_01_20_Tirisfal_Glades ($%) {
+	my ($count, %multiuserquests) = @_;
+
+}
+
 sub sz_01_20_Eversong_Woods ($%) {
 	my ($count, %multiuserquests) = @_;
 
@@ -774,6 +779,10 @@ sub z_40_60_Badlands ($%) {
 	BNet::Utils::preprint ($count, '27879', "Survival of the Fattest", %multiuserquests);
 	BNet::Utils::preprint ($count, '27880', "Half-Ton Holdouts", %multiuserquests);
 
+}
+
+sub z_40_60_Burning_Steppes ($%) {
+	my ($count, %multiuserquests) = @_;
 
 }
 
