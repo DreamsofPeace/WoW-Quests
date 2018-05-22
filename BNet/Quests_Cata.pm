@@ -42,24 +42,7 @@ sub z_80_82_mount_hyjal ($%) {
 	BNet::Utils::preprint ($count, '25297', "From the Mouth of Madness", %multiuserquests);
 	BNet::Utils::preprint ($count, '25298', "Free Your Mind, the Rest Follows", %multiuserquests);
 
-#	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-#	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-#	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-#	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-#	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-#	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-
-
-	BNet::Utils::groupheader ("80: Mount Hyjal: Intro");
-
-	BNet::Utils::groupheader ("80: Mount Hyjal: Intro");
-
-	BNet::Utils::groupheader ("80: Mount Hyjal: Intro");
-
-	BNet::Utils::groupheader ("80: Mount Hyjal: Intro");
-
-
-
+	BNet::Utils::groupheader ("80: Mount Hyjal: (Unsorted)");
 
 
 	BNet::Utils::preprint ($count, '25223', "Trial By Fire", %multiuserquests);

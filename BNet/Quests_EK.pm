@@ -5,8 +5,17 @@ use warnings;
 
 
 
+sub sz_01_20_Dun_Morogh ($%) {
+	my ($count, %multiuserquests) = @_;
 
-sub sz_01_20_Belf_Eversong ($%) {
+}
+
+sub sz_01_20_Elwynn_Forest ($%) {
+	my ($count, %multiuserquests) = @_;
+
+}
+
+sub sz_01_20_Eversong_Woods ($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Eversong Woods/Blood Elf");
@@ -91,7 +100,6 @@ sub sz_01_20_Belf_Eversong ($%) {
 	BNet::Utils::preprint ($count, '8890', "Word from the Spire", %multiuserquests);
 }
 
-
 sub z_10_60_Ghostlands ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("Ghostlands: To the Ghostlands");
@@ -169,6 +177,11 @@ sub z_10_60_Ghostlands ($%) {
 
 }
 
+sub z_10_60_Loch_Modan ($%) {
+	my ($count, %multiuserquests) = @_;
+
+}
+
 sub z_10_60_Silverpine_Forest ($%) {
 	my ($count, %multiuserquests) = @_;
 
@@ -241,7 +254,17 @@ sub z_10_60_Silverpine_Forest ($%) {
 
 }
 
-sub z_20_60_Hillsbrad_Foothills ($%) {
+sub z_10_60_Westfall ($%) {
+	my ($count, %multiuserquests) = @_;
+
+}
+
+sub z_15_60_Redridge_Mountains ($%) {
+	my ($count, %multiuserquests) = @_;
+
+}
+
+sub z_15_60_Hillsbrad_Foothills ($%) {
 	my ($count, %multiuserquests) = @_;
 	BNet::Utils::groupheader ("Hillsbrasd Foothills");
 	BNet::Utils::preprint ($count, '27746', "Empire of Dirt", %multiuserquests);
@@ -318,6 +341,18 @@ sub z_20_60_Hillsbrad_Foothills ($%) {
 
 }
 
+sub z_20_60_Duskwood ($%) {
+	my ($count, %multiuserquests) = @_;
+
+
+}
+
+sub z_20_60_Wetlands ($%) {
+	my ($count, %multiuserquests) = @_;
+
+
+}
+
 sub z_25_60_Arathi_Highlands ($%) {
 	my ($count, %multiuserquests) = @_;
 
@@ -388,6 +423,16 @@ sub z_25_60_Arathi_Highlands ($%) {
 	BNet::Utils::preprint ($count, '26042', "Breaking the Keystone", %multiuserquests);
 	BNet::Utils::preprint ($count, '26911', "Myzrael's Tale", %multiuserquests);
 	BNet::Utils::preprint ($count, '26912', "The Princess Unleashed", %multiuserquests);
+}
+
+sub z_25_60_Northern_Stranglethorn ($%) {
+	my ($count, %multiuserquests) = @_;
+
+}
+
+sub z_30_60_Cape_of_Stranglethorn ($%) {
+	my ($count, %multiuserquests) = @_;
+
 }
 
 sub z_30_60_Hinterlands ($%) {
@@ -645,14 +690,222 @@ sub z_40_60_Eastern_Plaguelands ($%) {
 	BNet::Utils::preprint ($count, '27551', "The Baroness' Missive", %multiuserquests);
 	BNet::Utils::preprint ($count, '27526', "Gidwin's Fate Revealed", %multiuserquests);
 	BNet::Utils::preprint ($count, '27527', "Journey's End", %multiuserquests);
+
 }
 
-sub z_45_60_Badlands_Searing_Gorge ($%) {
+sub z_40_60_Badlands ($%) {
 	my ($count, %multiuserquests) = @_;
 }
 
-sub z_50_60_Burning_Steppes_Swamp_of_Sorrows ($%) {
+sub z_40_60_Searing_Gorge ($%) {
 	my ($count, %multiuserquests) = @_;
+}
+
+sub z_40_60_Burning_Steppes ($%) {
+	my ($count, %multiuserquests) = @_;
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Preparation { <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> Alliance }");
+	BNet::Utils::preprint ($count, '28514', "Mouton Flamestar <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28666', "Hero's Call: Burning Steppes! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28174', "Burning Vengeance <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28416', "Burning Vengeance <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28172', "Done Nothing Wrong <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28177', "Stocking Up <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28178', "A Future Project <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28179', "Mud Hunter <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28180', "The Sand, the Cider, and the Orb <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28181', "Warlocks Have the Neatest Stuff <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28182', "Shadow Boxing <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28183', "Return to Keeshan <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28184', "Chiselgrip, the Heart of the Steppes <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Preparation { <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> Horde }");
+	BNet::Utils::preprint ($count, '28667', "Warchief's Command: Burning Steppes! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28515', "Mouton Flamestar <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28418', "Burning Vengeance <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28417', "Done Nothing Wrong <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28419', "Stocking Up <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28420', "A Future Project <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28421', "Mud Hunter <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28422', "The Sand, the Cider, and the Orb <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28423', "Warlocks Have the Neatest Stuff <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28424', "Shadow Boxing <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28425', "Return to Ariok <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28426', "Chiselgrip, the Heart of the Steppes <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Infiltration { <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> Alliance }");
+	BNet::Utils::preprint ($count, '28254', "A Needle in a Hellhole <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28225', "Prove Yer Allegiance", %multiuserquests);
+	BNet::Utils::preprint ($count, '28226', "Scrapped Golems", %multiuserquests);
+	BNet::Utils::preprint ($count, '28227', "Golem Training", %multiuserquests);
+	BNet::Utils::preprint ($count, '28202', "A Perfect Costume <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/tiny/race_dwarf_female.gif\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28203', "A Perfect Costume <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_draenei_female.jpg\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_worgen_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28204', "A Perfect Costume <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_gnome_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28205', "A Perfect Costume <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_nightelf_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28239', "Into the Black Tooth Hovel <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28245', "Grunt Work <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28246', "Strategic Cuts <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28252', "The Kodocaller's Horn <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28253', "Taking the Horn For Ourselves <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28265', "General Thorg'izog <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28266', "Trial by Magma <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28278', "I Am the Law and I Am the Lash <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28279', "Abuse of Power <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28286', "Enough Damage For One Day <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Infiltration { <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> Horde }");
+	BNet::Utils::preprint ($count, '28427', "A Needle in a Hellhole <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28225', "Prove Yer Allegiance", %multiuserquests);
+	BNet::Utils::preprint ($count, '28226', "Scrapped Golems", %multiuserquests);
+	BNet::Utils::preprint ($count, '28227', "Golem Training", %multiuserquests);
+	BNet::Utils::preprint ($count, '28428', "A Perfect Costume <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_orc_female.jpg\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28429', "A Perfect Costume <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_tauren_female.jpg\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_pandaren_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28430', "A Perfect Costume <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_goblin_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28204', "A Perfect Costume <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_goblin_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28431', "A Perfect Costume <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_troll_female.jpg\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_bloodelf_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28432', "Into the Black Tooth Hovel <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28433', "Grunt Work <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28434', "Strategic Cuts <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28435', "The Kodocaller's Horn <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28436', "Taking the Horn For Ourselves <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28437', "General Thorg'izog <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28438', "Trial by Magma <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28439', "I Am the Law and I Am the Lash <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28440', "Abuse of Power <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28441', "Enough Damage For One Day <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Anticipation { <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> Alliance }");
+	BNet::Utils::preprint ($count, '28310', "Morgan's Vigil <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28415', "SEVEN! YUP! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28311', "Blackened Ashes <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28312', "Latent Demons of the Land <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28313', "A Heap of Delicious Worg <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28314', "Blood Tour <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28315', "Draconic Vanguard <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28316', "A Deal With a Dragon <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28326', "Placing the Pawns <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Anticipation { <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> Horde }");
+	BNet::Utils::preprint ($count, '28442', "Flame Crest <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28491', "Not Fireflies, Flameflies <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28443', "Blackened Ashes <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28444', "Latent Demons of the Land <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28445', "A Heap of Delicious Worg <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28446', "Blood Tour <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28447', "Draconic Vanguard <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28448', "A Deal With a Dragon <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28449', "Placing the Pawns <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Annihilation { <img src=\"http://wow.zamimg.com/images/icons/alliance.png\"> Alliance }");
+	BNet::Utils::preprint ($count, '28317', "A Delivery for Thorg'izog <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28318', "A Delivery for Neeralak <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28319', "A Delivery for Xi'lun <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28327', "Locked and Loaded <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28320', "Assault on Dreadmaul Rock <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28321', "Glory Amidst Chaos <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28322', "The Spoils of War <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("50-60 Burning Steppes: Annihilation { <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> Horde }");
+	BNet::Utils::preprint ($count, '28450', "A Delivery for Thorg'izog <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28451', "A Delivery for Neeralak <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28452', "A Delivery for Xi'lun <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28453', "Locked and Loaded <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28454', "Assault on Dreadmaul Rock <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28455', "Glory Amidst Chaos <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28456', "The Spoils of War <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+}
+
+sub z_40_60_Swamp_of_Sorrows ($%) {
+	my ($count, %multiuserquests) = @_;
+}
+
+
+sub z_40_60_Blasted_Lands ($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("55-60: Blasted Lands: Unsorted");
+
+	BNet::Utils::preprint ($count, '28867', "Nethergarde Needs You! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28865', "Call of the Warmatron <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25708', "Our Fallen Friends <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25709', "Curtail the Darktail <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25710', "Minor Distractions <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25711', "Eliminate the Okril'lon <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25712', "Nethergarde Reigns <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25713', "Remove Their Arms <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25714', "Watcher Mahar Ba <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25715', "A Closer Look <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25716', "Cultists at our Doorstep <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26157', "Kasim Sharim <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26158', "Attune the Bloodstone <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26159', "The First Step <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26160', "Blood Ritual <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26167', "The Amulet of Allistarj <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26168', "The Amulet of Sevine <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26169', "The Amulet of Grol <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26172', "A Bloodmage's Gotta Eat Too <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27919', "Onward to the Blasted Lands <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28673', "Hero's Call: Blasted Lands! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28857', "Blasted Lands: The Other Side of the World <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25674', "Futile Pride <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25675', "Ogre Combat <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25676', "Heartstrike <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25677', "It's All Mine <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25678', "Pick Your Fate <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25679', "Into the Mountain <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25680', "That's Not Us <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25681', "Some People Just Need Killing <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25682', "Mission Complete <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25683', "The Dreadmaul Furnace <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25684', "Attune the Bloodstone <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25685', "The First Step <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25686', "Blood Ritual <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25687', "Not Just Any Body <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25688', "The Altar of Storms <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25690', "A Bloodmage's Gotta Eat Too <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28553', "Okrilla and the Blasted Lands <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28671', "Warchief's Command: Blasted Lands! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28858', "Blasted Lands: The Other Side of the World <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25771', "One Draenei's Junk...", %multiuserquests);
+	BNet::Utils::preprint ($count, '25772', "Kum'isha's Endeavors", %multiuserquests);
+	BNet::Utils::preprint ($count, '26161', "Not Just Any Body <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26162', "The Altar of Storms <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26163', "Time is Short <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26164', "The Charred Granite of the Dark Portal <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26165', "The Vile Blood of Demons <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26166', "Enhancing the Stone <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26170', "The Final Ritual <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26173', "Protecting Our Rear <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26174', "Watching Our Back <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25689', "Time is Short <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25691', "The Charred Granite of the Dark Portal <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25692', "The Vile Blood of Demons <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25693', "Enhancing the Stone <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25694', "Protecting Our Rear <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25695', "Watching Our Back <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25697', "The Amulet of Allistarj <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25698', "The Amulet of Sevine <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25699', "The Amulet of Grol <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25700', "Loramus Thalipedes Awaits <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26171', "You Are Rakh'likh, Demon <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25701', "You Are Rakh'likh, Demon <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25703', "Atrocities", %multiuserquests);
+	BNet::Utils::preprint ($count, '25705', "False Idols", %multiuserquests);
+	BNet::Utils::preprint ($count, '26175', "Surwich <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25696', "The Sunveil Excursion <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25702', "Home... Gone... Naga...", %multiuserquests);
+	BNet::Utils::preprint ($count, '25706', "Neptool's Revenge", %multiuserquests);
+	BNet::Utils::preprint ($count, '26184', "Wormthorn's Dream <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26185', "Advice from the Cenarion Circle <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26186', "Demoniac Vessel <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25717', "The Demons and the Druid <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25718', "How Best to Proceed <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25719', "Demoniac Vessel <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26187', "The Downfall of Marl Wormthorn <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25720', "The Downfall of Marl Wormthorn <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28705', "Warchief's Command: Outland! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25707', "The Future of the Rockpool", %multiuserquests);
+
 }
 
 1;

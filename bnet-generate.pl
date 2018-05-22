@@ -781,57 +781,60 @@ sub __main__() {
 
 	if ($module eq "quests") {
 		#Starting
-			BNet::Quests_EK::sz_01_20_Belf_Eversong ($count, %multiuserquests);
+			BNet::Quests_EK::sz_01_20_Dun_Morogh ($count, %multiuserquests);
+			BNet::Quests_EK::sz_01_20_Elwynn_Forest ($count, %multiuserquests);
+			BNet::Quests_EK::sz_01_20_Eversong_Woods ($count, %multiuserquests);
+			BNet::Quests_EK::sz_01_20_Tirisfal_Glades ($count, %multiuserquests);
+			BNet::Quests_KD::sz_01_20_Azuremyst_Isle ($count, %multiuserquests);
+			BNet::Quests_KD::sz_01_20_Durotar ($count, %multiuserquests);
+			BNet::Quests_KD::sz_01_20_Mulgore ($count, %multiuserquests);
+			BNet::Quests_KD::sz_01_20_Teldrassil ($count, %multiuserquests);
 		##	sz_1_goblin_kezan_and_lost_isles ($count, %multiuserquests);
-		##	sz_1_troll_orc_durotar ($count, %multiuserquests);
-		##	sz_1_tauren_mulgore ($count, %multiuserquests);
-		##	sz_1_draenei_azuremyst_isle ($count, %multiuserquests);
-		##	sz_1_nelf_teldrassil ($count, %multiuserquests);
 		##	sz_1_worgen_gilneas ($count, %multiuserquests);
-		##	sz_1_human_elwynn_forest ($count, %multiuserquests);
 		##	sz_1_gnome_dwarf_dun morogh ($count, %multiuserquests);
-		##	sz_1_undead_tirisfal_glades ($count, %multiuserquests);
 		##	sz_1_pandaren_wandering_isle ($count, %multiuserquests);
 		##	sz_55_death_knight_plaguelands_scarlet_Enclave ($count, %multiuserquests);
 		#
-		#
-		##	BNet::Quests_EK::z_10_Loch_Modan ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_10_Westfall_Redridge_Mountains ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_20_Duskwood ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_20_Wetlands ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_25_Northern_Stranglethorn ($count, %multiuserquests);
-		##	BNet::Quests_EK::z_30_Cape_of_Stranglethorn ($count, %multiuserquests);
-		#
 		##Eastern Kingdoms
 			BNet::Quests_EK::z_10_60_Ghostlands ($count, %multiuserquests);
+			BNet::Quests_EK::z_10_60_Loch_Modan ($count, %multiuserquests);
 			BNet::Quests_EK::z_10_60_Silverpine_Forest ($count, %multiuserquests);
-			BNet::Quests_EK::z_20_60_Hillsbrad_Foothills ($count, %multiuserquests);
+			BNet::Quests_EK::z_10_60_Westfall ($count, %multiuserquests);
+			BNet::Quests_EK::z_15_60_Redridge_Mountains ($count, %multiuserquests);
+			BNet::Quests_EK::z_15_60_Hillsbrad_Foothills ($count, %multiuserquests);
+			BNet::Quests_EK::z_20_60_Duskwood ($count, %multiuserquests);
+			BNet::Quests_EK::z_20_60_Wetlands ($count, %multiuserquests);
 			BNet::Quests_EK::z_25_60_Arathi_Highlands ($count, %multiuserquests);
+			BNet::Quests_EK::z_25_60_Northern_Stranglethorn ($count, %multiuserquests);
+			BNet::Quests_EK::z_30_60_Cape_of_Stranglethorn ($count, %multiuserquests);
 			BNet::Quests_EK::z_30_60_Hinterlands ($count, %multiuserquests);
 			BNet::Quests_EK::z_35_60_Western_Plaguelands ($count, %multiuserquests);
 			BNet::Quests_EK::z_40_60_Eastern_Plaguelands ($count, %multiuserquests);
-			BNet::Quests_EK::z_45_60_Badlands_Searing_Gorge ($count, %multiuserquests);
-			BNet::Quests_EK::z_50_60_Burning_Steppes_Swamp_of_Sorrows ($count, %multiuserquests);
-		#
+			BNet::Quests_EK::z_40_60_Badlands ($count, %multiuserquests);
+			BNet::Quests_EK::z_40_60_Searing_Gorge ($count, %multiuserquests);
+			BNet::Quests_EK::z_40_60_Burning_Steppes ($count, %multiuserquests);
+			BNet::Quests_EK::z_40_60_Swamp_of_Sorrows ($count, %multiuserquests);
+			BNet::Quests_EK::z_40_60_Blasted_Lands ($count, %multiuserquests);
+
 		##Kalimdor
-		#	BNet::Quests_KD::z_10_Azshara ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_10_Bloodmyst_Isle ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_10_Darkshore ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_10_Northern_Barrens ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_20_Ashenvale ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_25_Stonetalon_Mountains ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_30_Desolace ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_30_Southern_Barrens ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_35_Dustwallow_Marsh ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_35_Feralas ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_40_Thousand_Needles ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_45_Tanaris ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_45_Felwood ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_50_UnGoro_Crater ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_50_Winterspring ($count, %multiuserquests);
-		##	BNet::Quests_KD::z_55_Blasted_Lands ($count, %multiuserquests);
-		#	BNet::Quests_KD::z_55_Silithus ($count, %multiuserquests);
-		#
+			BNet::Quests_KD::z_10_60_Azshara ($count, %multiuserquests);
+			BNet::Quests_KD::z_10_60_Darkshore ($count, %multiuserquests);
+			BNet::Quests_KD::z_10_60_Northern_Barrens ($count, %multiuserquests);
+			BNet::Quests_KD::z_10_60_Bloodmyst_Isle ($count, %multiuserquests);
+			BNet::Quests_KD::z_15_60_Ashenvale ($count, %multiuserquests);
+			BNet::Quests_KD::z_20_60_Stonetalon_Mountains ($count, %multiuserquests);
+			BNet::Quests_KD::z_30_60_Desolace ($count, %multiuserquests);
+			BNet::Quests_KD::z_25_60_Southern_Barrens ($count, %multiuserquests);
+			BNet::Quests_KD::z_35_60_Dustwallow_Marsh ($count, %multiuserquests);
+			BNet::Quests_KD::z_35_60_Feralas ($count, %multiuserquests);
+			BNet::Quests_KD::z_40_60_Thousand_Needles ($count, %multiuserquests);
+			BNet::Quests_KD::z_40_60_Felwood ($count, %multiuserquests);
+			BNet::Quests_KD::z_40_60_Tanaris ($count, %multiuserquests);
+			BNet::Quests_KD::z_40_60_UnGoro_Crater ($count, %multiuserquests);
+			BNet::Quests_KD::z_40_60_Winterspring ($count, %multiuserquests);
+			BNet::Quests_KD::z_40_60_Silithus ($count, %multiuserquests);
+			BNet::Quests_KD::z_55_56_Deadwind_Pass ($count, %multiuserquests);
+
 		##Outland
 			BNet::Quests_BC::z_58_80_Hellfire_Peninsula ($count, %multiuserquests);
 			BNet::Quests_BC::z_60_80_Zangarmarsh ($count, %multiuserquests);
@@ -890,7 +893,15 @@ sub __main__() {
 			BNet::Quests_Legion::z_110_suramar ($count, %multiuserquests);
 			BNet::Quests_Legion::z_110_legion_fall ($count, %multiuserquests);
 			BNet::Quests_Legion::z_110_Argus ($count, %multiuserquests);
-		##
+
+		#BFA
+			BNet::Quests_BFA::z_110_120_Alliance_Drustvar ($count, %multiuserquests);
+			BNet::Quests_BFA::z_110_120_Alliance_Stormsong_Valley ($count, %multiuserquests);
+			BNet::Quests_BFA::z_110_120_Alliance_Tiragarde_Sound ($count, %multiuserquests);
+			BNet::Quests_BFA::z_110_120_Horde_Nazmir ($count, %multiuserquests);
+			BNet::Quests_BFA::z_110_120_Horde_Voldun ($count, %multiuserquests);
+			BNet::Quests_BFA::z_110_120_Horde_Zuldazar ($count, %multiuserquests);
+
 		##Artifact Base Hidden Appearances
 		#####	BNet::Misc::artifact_non_hidden ($count, %multiusercriteria, %multiuserquests);
 			BNet::Misc::artifact_non_hidden ($count, %multiusercriteria);
