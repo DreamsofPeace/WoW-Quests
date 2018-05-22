@@ -24,7 +24,7 @@ sub z_58_80_Hellfire_Peninsula ($%) {
 	BNet::Utils::preprint ($count, '10086', "I Work... For the Horde!", %multiuserquests);
 	BNet::Utils::preprint ($count, '10087', "Burn It Up... For the Horde!", %multiuserquests);
 	BNet::Utils::groupheader ("58: Hellfire Peninsula: Thrallmar PvP <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
-	BNet::Utils::preprint ($count, '10349', "Hellfire Fortifications", %multiuserquests);
+	BNet::Utils::preprint ($count, '10110', "Hellfire Fortifications", %multiuserquests);
 	BNet::Utils::groupheader ("58: Hellfire Peninsula: Mag'har <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '9400', "The Assassin", %multiuserquests);
 	BNet::Utils::preprint ($count, '9401', "A Strange Weapon", %multiuserquests);
