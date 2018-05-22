@@ -921,6 +921,7 @@ sub __main__() {
 			BNet::Quests_Misc::raid_110_en ($count, %multiuserquests);
 			BNet::Quests_Misc::raid_110_nh ($count, %multiuserquests);
 			BNet::Quests_Misc::raid_110_tos ($count, %multiuserquests);
+			BNet::Achievements::p32_argent_tournament ($count, %multiuserquests);
 
 		#Class Specific
 			BNet::Quests_Misc::class_quests ($count, %multiuserquests);
