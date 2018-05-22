@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-sub sz_01_20_Gilneas ($%) {
+sub sz_01_05_Gilneas_City ($%) {
 	my ($count, %multiuserquests) = @_;
 	
 }

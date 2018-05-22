@@ -3,7 +3,7 @@ package BNet::Quests_Mists;
 use strict;
 use warnings;
 
-sub sz_01_10_Wandering Isle ($%) {
+sub sz_01_10_Wandering_Isle ($%) {
 	my ($count, %multiuserquests) = @_;
 
 
@@ -27,7 +27,7 @@ sub z_81_90_Krasarang_Wilds ($%) {
 
 }
 
-sub z_82_90_Kun-Lai_Summit ($%) {
+sub z_82_90_KunLai_Summit ($%) {
 	my ($count, %multiuserquests) = @_;
 
 

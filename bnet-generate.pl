@@ -869,7 +869,7 @@ sub __main__() {
 			BNet::Quests_Mists::z_80_90_Jade_Forest ($count, %multiuserquests);
 			BNet::Quests_Mists::z_81_90_Valley_of_the_Four_Winds ($count, %multiuserquests);
 			BNet::Quests_Mists::z_81_90_Krasarang_Wilds ($count, %multiuserquests);
-			BNet::Quests_Mists::z_82_90_Kun-Lai_Summit ($count, %multiuserquests);
+			BNet::Quests_Mists::z_82_90_KunLai_Summit ($count, %multiuserquests);
 			BNet::Quests_Mists::z_83_90_Townlong_Steppes ($count, %multiuserquests);
 			BNet::Quests_Mists::z_84_90_Dread_Wastes ($count, %multiuserquests);
 			BNet::Quests_Mists::z_85_90_Vale_of_Eternal_Blossoms ($count, %multiuserquests);
