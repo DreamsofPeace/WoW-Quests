@@ -1070,91 +1070,119 @@ sub htmlheadprint () {
 	print "\t<head>\n";
 	print "\t\t<title>Character Quests</title>\n";
 	print "\t\t<style>\n";
+
 	print "\t\ttable {\n";
 	print "\t\t\tborder-collapse: collapse;\n";
 	print "\t\t\tborder: solid 1px;\n";
 	print "\t\t}\n";
-	print "\t\ttable th, table td {\n";
+
+	print "\t\ttable th {\n";
+	print "\t\t\tborder: solid 1px;\n";
+	print "\t\t\tfont-size:	14px;\n";
+	print "\t\t}\n";
+
+	print "\t\ttable td {\n";
 	print "\t\t\tborder: solid 1px;\n";
 	print "\t\t\tfont-size:	14px;\n";
 	print "\t\t\ttext-align: left;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Death-Knight {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#C41F3B;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Demon-Hunter {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#A330C9;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Druid {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#FF7D0A;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Hunter {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#ABD473;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Mage {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#69CCF0;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Monk {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#00FF96;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Paladin {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#F58CBA;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Priest {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#FFFFFF;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Rogue {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#FFF569;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Shaman {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#0070DE;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Warlock {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#9482C9;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Warrior {\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tbackground-color:	#C79C6E;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable tr.Complete {\n";
 	print "\t\t\tbackground-color:	#1EFF00;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable tr.Incomplete {\n";
 	print "\t\t\tbackground-color:	#0070DD;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Complete {\n";
 	print "\t\t\tbackground-color:	#1EFF00;\n";
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tvertical-align:\tmiddle;\n";
 	print "\t\t\tfont-size:	14px;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable td.Incomplete {\n";
 	print "\t\t\tbackground-color:	#0070DD;\n";
 	print "\t\t}\n";
+
 	print "\t\ttable tr.Incomplete2 {\n";
 	print "\t\t\tcolor:	#000000;\n";
 	print "\t\t\tbackground-color:	#DC143C;\n";
 	print "\t\t}\n";
+
 	print "\t\t.r1{\n";
 	print "\t\t	color:\t#ff8040;\n";
 	print "\t\t}\n";
+
 	print "\t\t.r2{\n";
 	print "\t\t	color:\t#ffff00;\n";
 	print "\t\t}\n";
+
 	print "\t\t.r3{\n";
 	print "\t\t	color:\t#40bf40;\n";
 	print "\t\t}\n";
+
 	print "\t\t.r4{\n";
 	print "\t\t	color:\t#808080;\n";
 	print "\t\t}\n";
@@ -1196,6 +1224,7 @@ sub htmlheadprint () {
 	print "\t\t\tvertical-align:\tmiddle;\n";
 	print "\t\t}\n";
 	print "\t\t</style>\n";
+
 	print "\t\t<script type=\"text/javascript\" src=\"//wow.zamimg.com/widgets/power.js\"></script>\n";
 	print "\t\t<script>var wowhead_tooltips = { \"colorlinks\": true, \"iconizelinks\": true, \"renamelinks\": false }</script>\n";
 	print "\t\t</head>\n";

@@ -490,6 +490,8 @@ sub z_64_80_Nagrand ($%) {
 sub z_65_80_Blades_Edge_Mountains ($%) {
 	my ($count, %multiuserquests) = @_;
 
+
+	BNet::Utils::groupheader ("65-80: Blades Edge Mountain");
 	BNet::Utils::preprint ($count, '10984', "Speak with the Ogre", %multiuserquests);
 	BNet::Utils::preprint ($count, '10983', "Mog'dorg the Wizened", %multiuserquests);
 	BNet::Utils::preprint ($count, '10989', "Mog'dorg the Wizened", %multiuserquests);
