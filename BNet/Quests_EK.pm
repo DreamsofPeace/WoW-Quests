@@ -58,10 +58,10 @@ sub sz_01_20_Tirisfal_Glades ($%) {
 	BNet::Utils::preprint ($count, '25046', "A Daughter's Embrace", %multiuserquests);
 	BNet::Utils::preprint ($count, '25056', "Grisly Grizzlies", %multiuserquests);
 	BNet::Utils::preprint ($count, '25090', "A Putrid Task", %multiuserquests);
-	BNet::Utils::preprint ($count, '6321', "Supplying Brill <img src="https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg">", %multiuserquests);
-	BNet::Utils::preprint ($count, '6322', "Michael Garrett <img src="https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg">", %multiuserquests);
-	BNet::Utils::preprint ($count, '6323', "Ride to the Undercity <img src="https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg">", %multiuserquests);
-	BNet::Utils::preprint ($count, '6324', "Return to Morris <img src="https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg">", %multiuserquests);
+	BNet::Utils::preprint ($count, '6321', "Supplying Brill <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '6322', "Michael Garrett <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '6323', "Ride to the Undercity <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '6324', "Return to Morris <img src=\"https://wow.zamimg.com/images/wow/icons/small/race_scourge_female.jpg\">", %multiuserquests);
 
 
 }
