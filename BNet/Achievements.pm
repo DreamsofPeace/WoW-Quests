@@ -1,13 +1,9 @@
 package BNet::Achievements;
-
 use strict;
 use warnings;
 
-
-
 sub p20_bloody_rare ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Bloody Rare: Hellfire Peninsula");
 	BNet::Utils::preprintachievement ($count, '4512', '1312', "Fulgorge", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '4517', '1312', "Mekthorg the Wild", %multiusercriteria);
@@ -35,12 +31,10 @@ sub p20_bloody_rare ($%) {
 	BNet::Utils::preprintachievement ($count, '4504', '1312', "Ambassador Jerrikar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '4508', '1312', "Collidus the Warp-Watcher", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '4515', '1312', "Kraator", %multiusercriteria);
-
 }
 
 sub p30_frostbitten ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Frostbitten: Borean Tundra");
 	BNet::Utils::preprintachievement ($count, '8104', '2257', "Fumblub Gearwind", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '8105', '2257', "Icehorn", %multiusercriteria);
@@ -72,14 +66,11 @@ sub p30_frostbitten ($%) {
 	BNet::Utils::preprintachievement ($count, '8101', '2257', "High Thane Jorfus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '8102', '2257', "Hildana Deathstealer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '8122', '2257', "Putridus the Ancient", %multiusercriteria);
-
 }
 
 sub p30_higher_learning ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Higher Learning");
-
 	BNet::Utils::preprintachievement ($count, '7236', '1956', "The Schools of Arcane Magic - Introduction", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '7237', '1956', "The Schools of Arcane Magic - Abjuration", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '7238', '1956', "The Schools of Arcane Magic - Conjuration", %multiusercriteria);
@@ -88,12 +79,10 @@ sub p30_higher_learning ($%) {
 	BNet::Utils::preprintachievement ($count, '7241', '1956', "The Schools of Arcane Magic - Illusion", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '7242', '1956', "The Schools of Arcane Magic - Necromancy", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '7243', '1956', "The Schools of Arcane Magic - Transmutation", %multiusercriteria);
-
 }
 
 sub p50_glorious ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Glorious!");
 	BNet::Utils::preprintachievement ($count, '21048', '7439', "Mister Ferocious", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '21049', '7439', "Bonobos", %multiusercriteria);
@@ -155,7 +144,6 @@ sub p50_glorious ($%) {
 
 sub p52_champions_of_lei_shen ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Champions of Lei Shen");
 	BNet::Utils::preprintachievement ($count, '22820', '8103', "Haywire Sunreaver Construct", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '22821', '8103', "Mumta", %multiusercriteria);
@@ -171,7 +159,6 @@ sub p52_champions_of_lei_shen ($%) {
 
 sub p54_timeless_champion ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Timeless Champion");
 	BNet::Utils::preprintachievement ($count, '23967', '8714', "Emerald Gander", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '23968', '8714', "Ironfur Steelhorn", %multiusercriteria);
@@ -204,12 +191,10 @@ sub p54_timeless_champion ($%) {
 	BNet::Utils::preprintachievement ($count, '23990', '8714', "Evermaw", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '23987', '8714', "Dread Ship Vazuvius", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '0', '8714', "Archiereus of Flame (Untrackable)", %multiusercriteria);
-
 }
 
 sub p54_bigger_bag ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Going To Need A Bigger Bag (Account Wide");
 	BNet::Utils::preprintachievement ($count, '24024', '8728', "Cursed Swabby Helmet", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '24080', '8728', "Warped Warning Sign", %multiusercriteria);
@@ -267,12 +252,10 @@ sub p54_bigger_bag ($%) {
 	BNet::Utils::preprintachievement ($count, '24027', '8728', "Ruby Droplet", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '24026', '8728', "Azure Crane Chick", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '24025', '8728', "Ashleaf Spriteling", %multiusercriteria);
-
 }
 
 sub p60_heralds_of_the_legion ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Heralds of the Legion");
 	BNet::Utils::preprintachievement ($count, '26476', '9638', "Orumo the Observer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26477', '9638', "Lord Korinak", %multiusercriteria);
@@ -281,12 +264,10 @@ sub p60_heralds_of_the_legion ($%) {
 	BNet::Utils::preprintachievement ($count, '26480', '9638', "Kurlosh Doomfang", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26481', '9638', "Matron of Sin", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26582', '9638', "Vigilant Paarthos", %multiusercriteria);
-
 }
 
 sub p60_fight_the_power ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Fight the Power");
 	BNet::Utils::preprintachievement ($count, '26542', '9655', "Maniacal Madgard", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26543', '9655', "Defector Dazgo", %multiusercriteria);
@@ -295,12 +276,10 @@ sub p60_fight_the_power ($%) {
 	BNet::Utils::preprintachievement ($count, '26548', '9655', "Horgg", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26550', '9655', "Blademaster Ro'gor", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26551', '9655', "Morgo Kain", %multiusercriteria);
-
 }
 
 sub p60_ancient_no_more ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Ancient No More");
 	BNet::Utils::preprintachievement ($count, '26593', '9678', "Swift Onyx Flayer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26594', '9678', "Mogamago", %multiusercriteria);
@@ -311,12 +290,10 @@ sub p60_ancient_no_more ($%) {
 	BNet::Utils::preprintachievement ($count, '26599', '9678', "Firestarter Grash", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26600', '9678', "Grove Warden Yal", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '26606', '9678', "Hunter Bal'ra", %multiusercriteria);
-
 }
 
 sub p60_gorgrond_monster_hunter ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Gorgrond Monster Hunter");
 	BNet::Utils::preprintachievement ($count, '25568', '9400', "Biolante", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '25569', '9400', "Roardan the Sky Terror", %multiusercriteria);
@@ -326,13 +303,10 @@ sub p60_gorgrond_monster_hunter ($%) {
 	BNet::Utils::preprintachievement ($count, '25573', '9400', "Erosian the Violent", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '25574', '9400', "Charl Doomwing", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '25575', '9400', "Fungal Praetorian", %multiusercriteria);
-
 }
-
 
 sub p62_jungle_stalker ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Jungle Stalker");
 	BNet::Utils::preprintachievement ($count, '28329', '10070', "Podlord Wakkawam", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '28330', '10070', "Bramblefell", %multiusercriteria);
@@ -395,12 +369,10 @@ sub p62_jungle_stalker ($%) {
 	BNet::Utils::preprintachievement ($count, '28730', '10070', "Captain Grok'mar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '28731', '10070', "Commander Org'mok", %multiusercriteria);
 
-
 }
 
 sub p70_adventurer_of_azsuna ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Adventurer of Azsuna");
 	BNet::Utils::preprintachievement ($count, '33248', '11261', "Valiyaka the Stormbringer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33249', '11261', "Horn of the Siren", %multiusercriteria);
@@ -429,12 +401,10 @@ sub p70_adventurer_of_azsuna ($%) {
 	BNet::Utils::preprintachievement ($count, '33374', '11261', "Inquisitor Tivos", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33377', '11261', "Ravyn-Drath", %multiusercriteria);
 
-
 }
 
 sub p70_adventurer_of_valsharah ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Adventurer of Val'sharah");
 	BNet::Utils::preprintachievement ($count, '33273', '11262', "Gorebeak", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33274', '11262', "Seersei", %multiusercriteria);
@@ -456,14 +426,11 @@ sub p70_adventurer_of_valsharah ($%) {
 	BNet::Utils::preprintachievement ($count, '33291', '11262', "Bahagar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '34537', '11262', "Unguarded Thistleleaf Treasure", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32406', '11262', "Marius & Tehd versus a Satyr", %multiusercriteria);
-
 }
 
 sub p70_adventurer_of_highmountain ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Adventurer of Highmountain");
-
 	BNet::Utils::preprintachievement ($count, '33338', '11264', "Sekhan", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33330', '11264', "The Beastly Boxer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33331', '11264', "Crab Rider Grmlrml", %multiusercriteria);
@@ -486,12 +453,10 @@ sub p70_adventurer_of_highmountain ($%) {
 	BNet::Utils::preprintachievement ($count, '33322', '11264', "Shara Felbreath", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33333', '11264', "Captured Survivor", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33335', '11264', "Slumbering Bear", %multiusercriteria);
-
 }
 
 sub p70_adventurer_of_stormheim ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Adventurer of Stormheim");
 	BNet::Utils::preprintachievement ($count, '33293', '11263', "Glimar Ironfist", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33294', '11263', "Stormwing Matriarch", %multiusercriteria);
@@ -517,12 +482,10 @@ sub p70_adventurer_of_stormheim ($%) {
 	BNet::Utils::preprintachievement ($count, '33315', '11263', "Hannval the Butcher", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33316', '11263', "Roteye", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32404', '11263', "Marius & Tehd versus an Inquisitor", %multiusercriteria);
-
 }
 
 sub p70_adventurer_of_suramar ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Adventurer of Suramar");
 	BNet::Utils::preprintachievement ($count, '33341', '11265', "Garvrulg", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33342', '11265', "Elfbane", %multiusercriteria);
@@ -556,12 +519,10 @@ sub p70_adventurer_of_suramar ($%) {
 	BNet::Utils::preprintachievement ($count, '33370', '11265', "Maia the White", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33371', '11265', "Mar'tura", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33376', '11265', "Lieutenant Strathmar", %multiusercriteria);
-
 }
 
 sub p73_adventurer_of_argus ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Adventurer of Argus");
 	BNet::Utils::preprintachievement ($count, '37665', '12077', "Mother Rosula", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37605', '12077', "Worldsplitter Skuul", %multiusercriteria);
@@ -624,12 +585,10 @@ sub p73_adventurer_of_argus ($%) {
 	BNet::Utils::preprintachievement ($count, '37609', '12077', "All-Seer Xanarian", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37608', '12077', "Inquisitor Vethroz", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37607', '12077', "Varga", %multiusercriteria);
-
 }
 
 sub p73_invasion_lesser ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Argus: Lesser Invasions");
 	BNet::Utils::preprintachievement ($count, '37456', '12028', "Mazgoroth", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37457', '12028', "Gorgoloth", %multiusercriteria);
@@ -644,12 +603,10 @@ sub p73_invasion_lesser ($%) {
 	BNet::Utils::preprintachievement ($count, '37466', '12028', "Vel'thrak the Punisher", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37467', '12028', "Flamebringer Az'rothel", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37468', '12028', "Baldrazar", %multiusercriteria);
-
 }
 
 sub p73_invasion_greater ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Argus: Greater Invasions");
 	BNet::Utils::preprintachievement ($count, '37450', '12026', "Occularus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37451', '12026', "Sotanathor", %multiusercriteria);
@@ -657,12 +614,10 @@ sub p73_invasion_greater ($%) {
 	BNet::Utils::preprintachievement ($count, '37453', '12026', "Inquisitor Meto", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37454', '12026', "Mistress Alluradel", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37455', '12026', "Pit Lord Vilemus", %multiusercriteria);
-
 }
 
 sub p70_archy_a_keen_eye ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("A Keen Eye");
 	BNet::Utils::preprintachievement ($count, '29966', '10603', "Crystalline Eye of Undravius", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29967', '10603', "Starlight Beacon", %multiusercriteria);
@@ -678,12 +633,10 @@ sub p70_archy_a_keen_eye ($%) {
 	BNet::Utils::preprintachievement ($count, '29977', '10603', "Purple Hills of Mac'Aree", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29978', '10603', "Spirit of Eche'ro", %multiusercriteria);
 
-
 }
 
 sub p70_archy_legion_curator ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Legion Curator");
 	BNet::Utils::preprintachievement ($count, '29979', '10604', "Pristine Imp's Cup", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29980', '10604', "Pristine Flayed-Skin Chronicle", %multiusercriteria);
@@ -700,13 +653,10 @@ sub p70_archy_legion_curator ($%) {
 	BNet::Utils::preprintachievement ($count, '29991', '10604', "Pristine Hand-Smoothed Pyrestone", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29992', '10604', "Pristine Drogbar Gem-Roller", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29993', '10604', "Pristine Stonewood Bow", %multiusercriteria);
-
 }
-
 
 sub p60_grand_treasure_hunter ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Grand Treasure Hunter");
 	BNet::Utils::preprintachievement ($count, '24461', '9728', "Treasure 001", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '23564', '9728', "Treasure 002", %multiusercriteria);
@@ -1018,12 +968,10 @@ sub p60_grand_treasure_hunter ($%) {
 	BNet::Utils::preprintachievement ($count, '29004', '9728', "Treasure 308", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29005', '9728', "Treasure 309", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '29006', '9728', "Treasure 310", %multiusercriteria);
-
 }
 
 sub p62_jungle_treasure_hunter ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Jungle Treasure Master");
 	BNet::Utils::preprintachievement ($count, '28675', '10262', "Treasure 001", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '28676', '10262', "Treasure 002", %multiusercriteria);
@@ -1077,12 +1025,10 @@ sub p62_jungle_treasure_hunter ($%) {
 	BNet::Utils::preprintachievement ($count, '28897', '10262', "Treasure 050", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '28898', '10262', "Treasure 051", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '28999', '10262', "Treasure 052", %multiusercriteria);
-
 }
 
 sub p70_treasures_of_azsuna ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Treasures of Azsuna");
 	BNet::Utils::preprintachievement ($count, '33199', '11256', "Treasure 001", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33200', '11256', "Treasure 002", %multiusercriteria);
@@ -1133,12 +1079,10 @@ sub p70_treasures_of_azsuna ($%) {
 	BNet::Utils::preprintachievement ($count, '33245', '11256', "Treasure 047", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33246', '11256', "Treasure 048", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33247', '11256', "Treasure 049", %multiusercriteria);
-
 }
 
 sub p70_treasures_of_valsharah ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Treasures of Val'sharah");
 	BNet::Utils::preprintachievement ($count, '33254', '11258', "Treasure 001", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33378', '11258', "Treasure 002", %multiusercriteria);
@@ -1208,12 +1152,10 @@ sub p70_treasures_of_valsharah ($%) {
 	BNet::Utils::preprintachievement ($count, '33441', '11258', "Treasure 066", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33442', '11258', "Treasure 067", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33443', '11258', "Treasure 068", %multiusercriteria);
-
 }
 
 sub p70_treasures_of_highmountain ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Treasures of Highmountain");
 	BNet::Utils::preprintachievement ($count, '33252', '11257', "Treasure 001", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33253', '11257', "Treasure 002", %multiusercriteria);
@@ -1259,12 +1201,10 @@ sub p70_treasures_of_highmountain ($%) {
 	BNet::Utils::preprintachievement ($count, '33553', '11257', "Treasure 042", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33554', '11257', "Treasure 043", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33555', '11257', "Treasure 044", %multiusercriteria);
-
 }
 
 sub p70_treasures_of_stormheim ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Treasures of Stormheim");
 	BNet::Utils::preprintachievement ($count, '33255', '11259', "Treasure 001", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33443', '11259', "Treasure 002", %multiusercriteria);
@@ -1338,12 +1278,10 @@ sub p70_treasures_of_stormheim ($%) {
 	BNet::Utils::preprintachievement ($count, '33511', '11259', "Treasure 070", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33512', '11259', "Treasure 071", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33513', '11259', "Treasure 072", %multiusercriteria);
-
 }
 
 sub p70_treasures_of_suramar ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Treasures of Suramar");
 	BNet::Utils::preprintachievement ($count, '33256', '11260', "Treasure 001", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33556', '11260', "Treasure 002", %multiusercriteria);
@@ -1403,12 +1341,10 @@ sub p70_treasures_of_suramar ($%) {
 	BNet::Utils::preprintachievement ($count, '33610', '11260', "Treasure 056", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33611', '11260', "Treasure 057", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '33612', '11260', "Treasure 058", %multiusercriteria);
-
 }
 
 sub p70_shoot_first_loot_later ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Shoot First, Loot Later");
 	BNet::Utils::preprintachievement ($count, '37592', '12074', "Krokul Emergency Cache", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37593', '12074', "Legion Tower Chest", %multiusercriteria);
@@ -1433,21 +1369,17 @@ sub p70_shoot_first_loot_later ($%) {
 	BNet::Utils::preprintachievement ($count, '37959', '12074', "Precious Augari Keepsakes", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '37960', '12074', "Missing Augari Chest", %multiusercriteria);
 
-
 }
 
 sub raid_30_os ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Raid: Wrath: Obsidian Sanctum");
 	BNet::Utils::preprintachievement ($count, '5138', '1876', "Besting the Black Dragonflight (10 player)", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '6398', '625', "Besting the Black Dragonflight (25 player)", %multiusercriteria);
-
 }
 
 sub raid_dungeon_bosses ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Dungeons: Vanilla");
 	BNet::Utils::groupheader ("Ragefire Chasm");
 	BNet::Utils::preprintachievement ($count, '19213', '629', "Lava Guard Gordoth", %multiusercriteria);
@@ -1585,7 +1517,6 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '3260', '697', "Illidan Stormrage", %multiusercriteria);
 	BNet::Utils::groupheader ("Sunwell Plateau");
 	BNet::Utils::preprintachievement ($count, '3261', '698', "Kil'jaeden", %multiusercriteria);
-
 	BNet::Utils::groupheader ("Dungeons: Wrath of the Lich King");
 	BNet::Utils::groupheader ("Utgarde Keep");
 	BNet::Utils::preprintachievement ($count, '5377', '477', "Prince Keleseth", %multiusercriteria);
@@ -1759,8 +1690,6 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '13177', '4521', "Falric", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '13179', '4521', "Marwyn", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '13181', '4521', "Survive the encounter with the Lich King", %multiusercriteria);
-
-
 
 	BNet::Utils::groupheader ("Raids: Wrath of the Lich King");
 	BNet::Utils::groupheader ("The Arachnid Quarter (10 player)");
@@ -1948,7 +1877,6 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::groupheader ("Heroic: The Twilight Destroyer (25 player)");
 	BNet::Utils::preprintachievement ($count, '13467', '4816', "Halion", %multiusercriteria);
 
-
 	BNet::Utils::groupheader ("Dungeons: Cataclysm");
 	BNet::Utils::groupheader ("Blackrock Caverns");
 	BNet::Utils::preprintachievement ($count, '13521', '4833', "Ascendant Lord Obsidius", %multiusercriteria);
@@ -1992,7 +1920,6 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '18543', '6118', "Mannoroth", %multiusercriteria);
 	BNet::Utils::groupheader ("Heroic: Hour of Twilight");
 	BNet::Utils::preprintachievement ($count, '18544', '6119', "Archbishop Benedictus", %multiusercriteria);
-
 	BNet::Utils::groupheader ("Raids: Cataclysm");
 	BNet::Utils::groupheader ("Blackwing Descent");
 	BNet::Utils::preprintachievement ($count, '13537', '4842', "Magmaw", %multiusercriteria);
@@ -2114,8 +2041,6 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '18561', '6116', "Madness of Deathwing (10H)", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '18562', '6116', "Madness of Deathwing (25H)", %multiusercriteria);
 
-
-
 	BNet::Utils::groupheader ("Dungeons: Mists of Pandaria");
 	BNet::Utils::groupheader ("Temple of the Jade Serpent");
 	BNet::Utils::preprintachievement ($count, '19234', '6757', "Sha of Doubt", %multiusercriteria);
@@ -2147,7 +2072,6 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '19671', '6761', "High Inquisitor Whitemane", %multiusercriteria);
 	BNet::Utils::groupheader ("Heroic: Scholomance");
 	BNet::Utils::preprintachievement ($count, '19673', '6762', "Darkmaster Gandling", %multiusercriteria);
-
 
 	BNet::Utils::groupheader ("Raids: Mists of Pandaria");
 	BNet::Utils::groupheader ("Settle Down, Bro");
@@ -2339,7 +2263,6 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::groupheader ("Mythic: Garrosh Hellscream");
 	BNet::Utils::preprintachievement ($count, '23680', '8482', "Garrosh Hellscream", %multiusercriteria);
 
-
 	BNet::Utils::groupheader ("Dungeons: Warlords of Draenor");
 	BNet::Utils::groupheader ("Bloodmaul Slag Mines");
 	BNet::Utils::preprintachievement ($count, '24989', '9037', "Gug'rokk", %multiusercriteria);
@@ -2500,15 +2423,10 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::groupheader ("Mythic: Archimonde");
 	BNet::Utils::preprintachievement ($count, '28106', '10043', "Archimonde", %multiusercriteria);
 
-
-
 }
-
-
 
 sub glory_of ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Glory of the Hero");
 	BNet::Utils::preprintachievement ($count, '7496', '2136', "On The Rocks", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '7580', '2136', "Split Personality", %multiusercriteria);
@@ -3016,15 +2934,10 @@ sub glory_of ($%) {
 	BNet::Utils::preprintachievement ($count, '38076', '11987', "The World Revolves Around Me", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '38077', '11987', "Remember the Titans", %multiusercriteria);
 
-
-
 }
-
 
 sub dungeon_7_legion ($%) {
 	my ($count, %multiusercriteria) = @_;
-
-
 
 
 	BNet::Utils::groupheader ("Dungeons: Legion");
@@ -3093,13 +3006,10 @@ sub dungeon_7_legion ($%) {
 	BNet::Utils::preprintachievement ($count, '32355', '11181', "The Arcway", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '32354', '11181', "Court of Stars", %multiusercriteria);
 
-
 }
-
 
 sub raid_7_legion ($%) {
 	my ($count, %multiusercriteria) = @_;
-
 	BNet::Utils::groupheader ("Raids: Legion");
 	BNet::Utils::groupheader ("Unleashed Monstrosities");
 	BNet::Utils::preprintachievement ($count, '32097', '11160', "Na'zak the Fiend", %multiusercriteria);
@@ -3229,11 +3139,8 @@ sub raid_7_legion ($%) {
 	BNet::Utils::preprintachievement ($count, '37226', '12002', "Argus the Unmaker", %multiusercriteria);
 }
 
-
 sub p32_argent_tournament ($%) {
 	my ($count, %multiusercriteria) = @_;
-
-
 
 	BNet::Utils::groupheader ("Argent Aspiration");
 	BNet::Utils::preprintachievement ($count, '9698', '2756', "", %multiusercriteria);
@@ -3377,7 +3284,162 @@ sub p32_argent_tournament ($%) {
 	BNet::Utils::preprintachievement ($count, '12906', '4596', "", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12907', '4596', "", %multiusercriteria);
 
+}
+
+sub feats_of_strength ($%) {
+	my ($count, %multiusercriteria) = @_;
+	feats_of_strength_realm_first_class ($count, %multiusercriteria);
+	feats_of_strength_realm_first_professions ($count, %multiusercriteria);
+	feats_of_strength_realm_first_raids ($count, %multiusercriteria);
+	feats_of_strength_realm_first_reputation ($count, %multiusercriteria);
+	feats_of_strength_realm_first_dungeon ($count, %multiusercriteria);
+}
+
+sub feats_of_strength_realm_first_class ($%) {
+	my ($count, %multiusercriteria) = @_;
+	BNet::Utils::groupheader ("Feat of Stregth: Realm First");
+	BNet::Utils::preprintachievement ($count, '5212', '457', "Realm First! Level 80", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5212', '4999', "Realm First! Level 85", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5212', '6524', "Realm First! Level 90", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5213', '467', "Realm First! Level 80 Shaman", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5213', '4998', "Realm First! Level 85 Shaman", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5213', '6523', "Realm First! Level 90 Shaman", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5214', '466', "Realm First! Level 80 Druid", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5214', '5000', "Realm First! Level 85 Druid", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5214', '6743', "Realm First! Level 90 Druid", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5215', '465', "Realm First! Level 80 Paladin", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5215', '5001', "Realm First! Level 85 Paladin", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5215', '6744', "Realm First! Level 90 Paladin", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5216', '464', "Realm First! Level 80 Priest", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5216', '5002', "Realm First! Level 85 Priest", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5216', '6745', "Realm First! Level 90 Priest", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5217', '463', "Realm First! Level 80 Warlock", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5217', '5003', "Realm First! Level 85 Warlock", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5217', '6746', "Realm First! Level 90 Warlock", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5218', '462', "Realm First! Level 80 Hunter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5218', '5004', "Realm First! Level 85 Hunter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5218', '6747', "Realm First! Level 90 Hunter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5219', '461', "Realm First! Level 80 Death Knight", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5219', '5005', "Realm First! Level 85 Death Knight", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5219', '6748', "Realm First! Level 90 Death Knight", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5018', '460', "Realm First! Level 80 Mage", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5018', '5006', "Realm First! Level 85 Mage", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5018', '6749', "Realm First! Level 90 Mage", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5220', '459', "Realm First! Level 80 Warrior", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5220', '5007', "Realm First! Level 85 Warrior", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5220', '6750', "Realm First! Level 90 Warrior", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5221', '458', "Realm First! Level 80 Rogue", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5008', '5221', "Realm First! Level 85 Rogue", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5221', '6751', "Realm First! Level 90 Rogue", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '19661', '6752', "Realm First! Level 90 Monk", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5229', '1404', "Realm First! Level 80 Gnome", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5230', '1405', "Realm First! Level 80 Blood Elf", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5231', '1406', "Realm First! Level 80 Draenei", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5232', '1407', "Realm First! Level 80 Dwarf", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5233', '1408', "Realm First! Level 80 Human", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5234', '1409', "Realm First! Level 80 Night Elf", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5235', '1410', "Realm First! Level 80 Orc", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5236', '1411', "Realm First! Level 80 Tauren", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5237', '1412', "Realm First! Level 80 Troll", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5238', '1413', "Realm First! Level 80 Forsaken", %multiusercriteria);
 
 }
 
+sub feats_of_strength_realm_first_professions ($%) {
+	my ($count, %multiusercriteria) = @_;
+	BNet::Utils::groupheader ("Feat of Stregth: Professions");
+	BNet::Utils::preprintachievement ($count, '5565', '1415', "Realm First! Grand Master Alchemist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5565', '5381', "Realm First! Illustrious Alchemist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5565', '6859', "Realm First! Zen Master Alchemist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5566', '1414', "Realm First! Grand Master Blacksmith", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5566', '5382', "Realm First! Illustrious Blacksmith", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5566', '6860', "Realm First! Zen Master Blacksmith", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5567', '1417', "Realm First! Grand Master Enchanter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5567', '5384', "Realm First! Illustrious Enchanter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5567', '6862', "Realm First! Zen Master Enchanter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5722', '1418', "Realm First! Grand Master Engineer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5722', '5385', "Realm First! Illustrious Engineer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5722', '6863', "Realm First! Zen Master Engineer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5569', '1421', "Realm First! Grand Master Herbalist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5569', '5388', "Realm First! Illustrious Herbalist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5569', '6866', "Realm First! Zen Master Herbalist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5716', '1422', "Realm First! Grand Master Scribe", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5716', '5389', "Realm First! Illustrious Scribe", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5716', '6867', "Realm First! Zen Master Scribe", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5571', '1423', "Realm First! Grand Master Jewelcrafter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5571', '5390', "Realm First! Illustrious Jewelcrafter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5571', '6868', "Realm First! Zen Master Jewelcrafter", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5718', '1424', "Realm First! Grand Master Leatherworker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5718', '5391', "Realm First! Illustrious Leatherworker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5575', '1427', "Realm First! Grand Master Tailor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5575', '5394', "Realm First! Illustrious Tailor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5575', '6872', "Realm First! Zen Master Tailor", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5718', '6869', "Realm First! Zen Master Leatherworker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5573', '1425', "Realm First! Grand Master Miner", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5573', '5392', "Realm First! Illustrious Miner", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5573', '6870', "Realm First! Zen Master Miner", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5720', '1426', "Realm First! Grand Master Skinner", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5720', '5393', "Realm First! Illustrious Skinner", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5720', '6871', "Realm First! Zen Master Skinner", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5696', '1420', "Realm First! Grand Master Angler", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5696', '5387', "Realm First! Illustrious Angler", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5696', '6865', "Realm First! Zen Master Angler", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5701', '1416', "Realm First! Grand Master Cook", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5701', '5383', "Realm First! Illustrious Cook", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5701', '6861', "Realm First! Zen Master Cook", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5592', '1419', "Realm First! Grand Master Medic", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5592', '5386', "Realm First! Illustrious Medic", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5592', '6864', "Realm First! Zen Master Medic", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '13812', '5395', "Realm First! Grand Master Archaeologist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '13812', '5396', "Realm First! Illustrious Archaeologist", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '13812', '6873', "Realm First! Zen Master Archaeologist", %multiusercriteria);
+
+}
+
+sub feats_of_strength_realm_first_reputation ($%) {
+	my ($count, %multiusercriteria) = @_;
+	BNet::Utils::groupheader ("Feat of Stregth: Reputation (NYI)");
+#	BNet::Utils::preprintachievement ($count, '1463', '2024', "Realm First! Northrend Vanguard", %multiusercriteria);
+#2419	The Wyrmrest Accord
+#2420	The Kirin Tor
+#2421	Knights of the Ebon Blade
+#	BNet::Utils::preprintachievement ($count, '6829', '19737', "Realm First! Pandaren Ambassador", %multiusercriteria);
+#19738	Pandaren Ambassador (A)
+
+}
+
+sub feats_of_strength_realm_first_raids ($%) {
+	my ($count, %multiusercriteria) = @_;
+	BNet::Utils::groupheader ("Feat of Stregth: Raids");
+	BNet::Utils::preprintachievement ($count, '5140', '1400', "Realm First! Magic Seeker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6398', '456', "Realm First! Obsidian Slayer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5136', '1402', "Realm First! Conqueror of Naxxramas", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '10279', '3117', "Realm First! Death\'s Demise", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '10566', '3259', "Realm First! Celestial Defender", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '12350', '4078', "Realm First! Grand Crusader", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '13138', '4576', "Realm First! Fall of the Lich King", %multiusercriteria);
+
+}
+
+sub feats_of_strength_realm_first_dungeon ($%) {
+	my ($count, %multiusercriteria) = @_;
+	BNet::Utils::groupheader ("Feat of Stregth: Dungeons");
+	BNet::Utils::preprintachievement ($count, '22236', '6433', "Realm First! Challenge Conqueror: Gold", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34927', '11224', "Realm First! Keystone Master", %multiusercriteria);
+
+}
+
+sub feats_of_strength_realm_quests ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+            "id": 9016,
+            "title": "Breaker of the Black Harvest",
+            "points": 0,
+            "description": "Defeated Kanrethad Ebonlocke and gained command over fel energy before the expedition to Draenor set out.",
+            "reward": "Title Reward: Of the Black Harvest",
+            "rewardItems": [],
+            "icon": "spell_fire_felimmolation",
+            "criteria": [{
+                "id": 24745,
+}
 1;
