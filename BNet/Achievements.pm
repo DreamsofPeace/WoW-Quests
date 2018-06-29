@@ -1632,7 +1632,7 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '6807', '500', "Salramm the Fleshcrafter", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '6806', '500', "Chrono-Lord Epoch", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '6434', '500', "Mal'Ganis", %multiusercriteria);
-	BNet::Utils::groupheader ("Trial of the Champion <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Trial of the Champion <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '11420', '3778', "Marshal Jacob Alerius", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12298', '3778', "Lana Stouthammer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12299', '3778', "Colosos", %multiusercriteria);
@@ -1641,7 +1641,7 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '13312', '3778', "Argent Confessor Paletress", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '13313', '3778', "Eadric the Pure", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '13314', '3778', "The Black Knight", %multiusercriteria);
-	BNet::Utils::groupheader ("Heroic: Trial of the Champion <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Heroic: Trial of the Champion <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '12539', '4297', "Marshal Jacob Alerius", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12545', '4297', "Lana Stouthammer", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12320', '4297', "Colosos", %multiusercriteria);
@@ -1650,7 +1650,7 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '12549', '4297', "Argent Confessor Paletress", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12551', '4297', "Eadric the Pure", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12553', '4297', "The Black Knight", %multiusercriteria);
-	BNet::Utils::groupheader ("Trial of the Champion <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Trial of the Champion <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '11420', '4296', "Mokra the Skullcrusher", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12298', '4296', "Deathstalker Visceri", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12299', '4296', "Runok Wildmane", %multiusercriteria);
@@ -1659,7 +1659,7 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '13312', '4296', "Argent Confessor Paletress", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '13313', '4296', "Eadric the Pure", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '13314', '4296', "The Black Knight", %multiusercriteria);
-	BNet::Utils::groupheader ("Heroic: Trial of the Champion <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Heroic: Trial of the Champion <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '12539', '4298', "Mokra the Skullcrusher", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12545', '4298', "Deathstalker Visceri", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '12320', '4298', "Runok Wildmane", %multiusercriteria);
@@ -2231,9 +2231,9 @@ sub raid_dungeon_bosses ($%) {
 	BNet::Utils::preprintachievement ($count, '23906', '8462', "Paragons of the Klaxxi", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '23664', '8462', "Garrosh Hellscream", %multiusercriteria);
 	BNet::Utils::groupheader ("Conqueror of Orgrimmar");
-	BNet::Utils::preprintachievement ($count, '23879', '8679', "Garrosh Hellscream <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23879', '8679', "Garrosh Hellscream <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiusercriteria);
 	BNet::Utils::groupheader ("Liberator of Orgrimmar");
-	BNet::Utils::preprintachievement ($count, '23880', '8680', "Garrosh Hellscream <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '23880', '8680', "Garrosh Hellscream <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiusercriteria);
 	BNet::Utils::groupheader ("Mythic: Immerseus");
 	BNet::Utils::preprintachievement ($count, '23667', '8463', "Immerseus", %multiusercriteria);
 	BNet::Utils::groupheader ("Mythic: Fallen Protectors");
@@ -3167,7 +3167,7 @@ sub p32_argent_tournament ($%) {
 	BNet::Utils::preprintachievement ($count, '9738', '2758', "", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9739', '2758', "", %multiusercriteria);
 	BNet::Utils::groupheader ("Tilted!");
-	BNet::Utils::preprintachievement ($count, '9798', '2772', "", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '9798', '2772', "Win a Duel", %multiusercriteria);
 	BNet::Utils::groupheader ("Lance a Lot");
 	BNet::Utils::preprintachievement ($count, '9918', '2836', "Darnassus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '10224', '2836', "The Exodar", %multiusercriteria);
@@ -3180,101 +3180,101 @@ sub p32_argent_tournament ($%) {
 	BNet::Utils::preprintachievement ($count, '9921', '2836', "Thunder Bluff", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9922', '2836', "The Undercity", %multiusercriteria);
 	BNet::Utils::groupheader ("It's Just a Flesh Wound");
-	BNet::Utils::preprintachievement ($count, '10222', '2773', "", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '10222', '2773', "Unmask the Black Knight", %multiusercriteria);
 	BNet::Utils::groupheader ("Pony Up!");
-	BNet::Utils::preprintachievement ($count, '11358', '3736', "", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Darnassus <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::preprintachievement ($count, '11358', '3736', "Buy and Use an Argent Pony", %multiusercriteria);
+	BNet::Utils::groupheader ("Champion of Darnassus <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '11320', '2777', "Champion of Darnassus", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Darnassus <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Darnassus <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '5328', '2760', "Exalted with Darnassus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11320', '2760', "Champion of Darnassus", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of the Exodar <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of the Exodar <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '11321', '2778', "Champion of the Exodar", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of the Exodar <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of the Exodar <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '5332', '2761', "Exalted with Exodar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11321', '2761', "Champion of the Exodar", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Gnomeregan <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of Gnomeregan <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '11322', '2779', "Champion of Gnomeregan", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Gnomeregan <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Gnomeregan <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '5329', '2762', "Exalted with Gnomeregan Exiles", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11322', '2762', "Champion of Gnomeregan", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Ironforge <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of Ironforge <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '11323', '2780', "Champion of Ironforge", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Ironforge <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Ironforge <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '5330', '2763', "Exalted with Ironforge", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11323', '2763', "Champion of Ironforge", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Stormwind <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of Stormwind <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '11324', '2781', "Champion of Stormwind", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Stormwind <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Stormwind <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '5331', '2764', "Exalted with Stormwind", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11324', '2764', "Champion of Stormwind", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of the Alliance <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of the Alliance <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '9778', '2782', "Champion of Darnassus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9779', '2782', "Champion of the Exodar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9780', '2782', "Champion of Gnomeregan", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9781', '2782', "Champion of Stormwind", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9782', '2782', "Champion of Ironforge", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of the Alliance <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of the Alliance <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '9668', '2770', "Champion of Darnassus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9669', '2770', "Champion of the Exodar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9670', '2770', "Champion of Gnomeregan", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9671', '2770', "Champion of Stormwind", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9672', '2770', "Champion of Ironforge", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Argent Champion of the Alliance <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Argent Champion of the Alliance <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '2024', '2817', "The Argent Crusade", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9668', '2817', "Champion of Darnassus", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9669', '2817', "Champion of the Exodar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9670', '2817', "Champion of Gnomeregan", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9671', '2817', "Champion of Stormwind", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9672', '2817', "Champion of Ironforge", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Orgrimmar <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of Orgrimmar <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '9783', '2783', "Champion of Orgrimmar", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Orgrimmar <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Orgrimmar <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '5314', '2765', "Exalted with Orgrimmar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9783', '2765', "Champion of Orgrimmar", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Sen'jin <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of Sen'jin <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '11326', '2784', "Champion of Sen'jin", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Sen'jin <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Sen'jin <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '5313', '2766', "Exalted with Darkspear Trolls", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11326', '2766', "Champion of Sen'jin", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Silvermoon City <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of Silvermoon City <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '9785', '2785', "Champion of Silvermoon City", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Silvermoon City <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Silvermoon City <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '5317', '2767', "Exalted with Silvermoon City", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9785', '2767', "Champion of Silvermoon City", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of Thunder Bluff <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of Thunder Bluff <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '11328', '2786', "Champion of Thunder Bluff", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of Thunder Bluff <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of Thunder Bluff <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '5315', '2768', "Exalted with Thunder Bluff", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11328', '2768', "Champion of Thunder Bluff", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of the Undercity <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of the Undercity <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '11329', '2787', "Champion of the Undercity", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of the Undercity <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of the Undercity <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '5316', '2769', "Exalted with Undercity", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11329', '2769', "Champion of the Undercity", %multiusercriteria);
-	BNet::Utils::groupheader ("Champion of the Horde <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Champion of the Horde <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '9788', '2788', "Champion of Orgrimmar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9789', '2788', "Champion of Sen'jin", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9790', '2788', "Champion of Silvermoon City", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9791', '2788', "Champion of the Undercity", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9792', '2788', "Champion of Thunder Bluff", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Champion of the Horde <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Champion of the Horde <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '9673', '2771', "Champion of Orgrimmar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9674', '2771', "Champion of Sen'jin", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9675', '2771', "Champion of Silvermoon City", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9676', '2771', "Champion of the Undercity", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9677', '2771', "Champion of Thunder Bluff", %multiusercriteria);
-	BNet::Utils::groupheader ("Exalted Argent Champion of the Horde <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("Exalted Argent Champion of the Horde <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '2024', '2816', "The Argent Crusade", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9673', '2816', "Champion of Orgrimmar", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9674', '2816', "Champion of Sen'jin", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9675', '2816', "Champion of Silvermoon City", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9676', '2816', "Champion of the Undercity", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '9677', '2816', "Champion of Thunder Bluff", %multiusercriteria);
-	BNet::Utils::groupheader ("A Silver Confidant <img src=\"https://hydra-media.cursecdn.com/wow.gamepedia.com/7/7e/Alliance_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("A Silver Confidant <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprintachievement ($count, '4749', '3676', "Exalted with The Silver Covenant", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '11330', '3676', "Argent Tournament Rank: Champion", %multiusercriteria);
-	BNet::Utils::groupheader ("The Sunreavers <img src=\"https://img1.wikia.nocookie.net/__cb20110508213208/wowwiki/images/9/92/Horde_64.png\" height=\"20\" width=\"20\">");
+	BNet::Utils::groupheader ("The Sunreavers <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprintachievement ($count, '5327', '3677', "Exalted with The Sunreavers", %multiusercriteria);
 	BNet::Utils::groupheader ("The Sword in the Skull");
 	BNet::Utils::preprintachievement ($count, '12902', '4596', "", %multiusercriteria);
@@ -3288,16 +3288,21 @@ sub p32_argent_tournament ($%) {
 
 sub feats_of_strength ($%) {
 	my ($count, %multiusercriteria) = @_;
-	feats_of_strength_realm_first_class ($count, %multiusercriteria);
-	feats_of_strength_realm_first_professions ($count, %multiusercriteria);
-	feats_of_strength_realm_first_raids ($count, %multiusercriteria);
-	feats_of_strength_realm_first_reputation ($count, %multiusercriteria);
-	feats_of_strength_realm_first_dungeon ($count, %multiusercriteria);
+#	feats_of_strength_realm_first_class ($count, %multiusercriteria);
+#	feats_of_strength_realm_first_professions ($count, %multiusercriteria);
+#	feats_of_strength_realm_first_raids ($count, %multiusercriteria);
+#	feats_of_strength_realm_first_reputation ($count, %multiusercriteria);
+#	feats_of_strength_realm_first_dungeon ($count, %multiusercriteria);
+	feats_of_strength_quests ($count, %multiusercriteria);
+	feats_of_strength_collection_blizzcon ($count, %multiusercriteria);
+	feats_of_strength_collection_wowce ($count, %multiusercriteria);
+	feats_of_strength_collection_otherce ($count, %multiusercriteria);
+	feats_of_strength_collection_promotions ($count, %multiusercriteria);
 }
 
 sub feats_of_strength_realm_first_class ($%) {
 	my ($count, %multiusercriteria) = @_;
-	BNet::Utils::groupheader ("Feat of Stregth: Realm First");
+	BNet::Utils::groupheader ("Feats of Stregth: Realm First");
 	BNet::Utils::preprintachievement ($count, '5212', '457', "Realm First! Level 80", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5212', '4999', "Realm First! Level 85", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5212', '6524', "Realm First! Level 90", %multiusercriteria);
@@ -3329,9 +3334,9 @@ sub feats_of_strength_realm_first_class ($%) {
 	BNet::Utils::preprintachievement ($count, '5220', '5007', "Realm First! Level 85 Warrior", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5220', '6750', "Realm First! Level 90 Warrior", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5221', '458', "Realm First! Level 80 Rogue", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '5008', '5221', "Realm First! Level 85 Rogue", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '5221', '5008', "Realm First! Level 85 Rogue", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5221', '6751', "Realm First! Level 90 Rogue", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '19661', '6752', "Realm First! Level 90 Monk", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6752', '19661', "Realm First! Level 90 Monk", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5229', '1404', "Realm First! Level 80 Gnome", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5230', '1405', "Realm First! Level 80 Blood Elf", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5231', '1406', "Realm First! Level 80 Draenei", %multiusercriteria);
@@ -3347,7 +3352,7 @@ sub feats_of_strength_realm_first_class ($%) {
 
 sub feats_of_strength_realm_first_professions ($%) {
 	my ($count, %multiusercriteria) = @_;
-	BNet::Utils::groupheader ("Feat of Stregth: Professions");
+	BNet::Utils::groupheader ("Feats of Stregth: Professions");
 	BNet::Utils::preprintachievement ($count, '5565', '1415', "Realm First! Grand Master Alchemist", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5565', '5381', "Realm First! Illustrious Alchemist", %multiusercriteria);
 	BNet::Utils::preprintachievement ($count, '5565', '6859', "Realm First! Zen Master Alchemist", %multiusercriteria);
@@ -3398,7 +3403,7 @@ sub feats_of_strength_realm_first_professions ($%) {
 
 sub feats_of_strength_realm_first_reputation ($%) {
 	my ($count, %multiusercriteria) = @_;
-	BNet::Utils::groupheader ("Feat of Stregth: Reputation (NYI)");
+	BNet::Utils::groupheader ("Feats of Stregth: Reputation (NYI)");
 #	BNet::Utils::preprintachievement ($count, '1463', '2024', "Realm First! Northrend Vanguard", %multiusercriteria);
 #2419	The Wyrmrest Accord
 #2420	The Kirin Tor
@@ -3410,36 +3415,170 @@ sub feats_of_strength_realm_first_reputation ($%) {
 
 sub feats_of_strength_realm_first_raids ($%) {
 	my ($count, %multiusercriteria) = @_;
-	BNet::Utils::groupheader ("Feat of Stregth: Raids");
-	BNet::Utils::preprintachievement ($count, '5140', '1400', "Realm First! Magic Seeker", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '6398', '456', "Realm First! Obsidian Slayer", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '5136', '1402', "Realm First! Conqueror of Naxxramas", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '10279', '3117', "Realm First! Death\'s Demise", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '10566', '3259', "Realm First! Celestial Defender", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '12350', '4078', "Realm First! Grand Crusader", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '13138', '4576', "Realm First! Fall of the Lich King", %multiusercriteria);
+	BNet::Utils::groupheader ("Feats of Stregth: Raids");
+	BNet::Utils::preprintachievement ($count, '456', '6398', "Realm First! Obsidian Slayer", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '1400', '5140', "Realm First! Magic Seeker", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '1402', '5136', "Realm First! Conqueror of Naxxramas", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '3117', '10279', "Realm First! Death\'s Demise", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '3259', '10566', "Realm First! Celestial Defender", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '4078', '12350', "Realm First! Grand Crusader", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '4576', '13138', "Realm First! Fall of the Lich King", %multiusercriteria);
 
 }
 
 sub feats_of_strength_realm_first_dungeon ($%) {
 	my ($count, %multiusercriteria) = @_;
-	BNet::Utils::groupheader ("Feat of Stregth: Dungeons");
-	BNet::Utils::preprintachievement ($count, '22236', '6433', "Realm First! Challenge Conqueror: Gold", %multiusercriteria);
-	BNet::Utils::preprintachievement ($count, '34927', '11224', "Realm First! Keystone Master", %multiusercriteria);
+	BNet::Utils::groupheader ("Feats of Stregth: Dungeons");
+	BNet::Utils::preprintachievement ($count, '6433', '22236', "Realm First! Challenge Conqueror: Gold", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '11224', '34927', "Realm First! Keystone Master", %multiusercriteria);
 
 }
 
-sub feats_of_strength_realm_quests ($%) {
+sub feats_of_strength_quests ($%) {
 	my ($count, %multiusercriteria) = @_;
 
-            "id": 9016,
-            "title": "Breaker of the Black Harvest",
-            "points": 0,
-            "description": "Defeated Kanrethad Ebonlocke and gained command over fel energy before the expedition to Draenor set out.",
-            "reward": "Title Reward: Of the Black Harvest",
-            "rewardItems": [],
-            "icon": "spell_fire_felimmolation",
-            "criteria": [{
-                "id": 24745,
+	BNet::Utils::groupheader ("Feats of Stregth: Quests");
+	BNet::Utils::preprintachievement ($count, '24745', '9016', "Breaker of the Black Harvest", %multiusercriteria);
+
 }
+
+sub feats_of_strength_collection_blizzcon ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Feats of Stregth: Blizzcon");
+	BNet::Utils::preprintachievement ($count, '349', '411', "Murky (2005 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6157', '411', "Murky (2005 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34645', '411', "Murky (2005 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '350', '412', "Murloc Costume (2007 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '9082', '412', "Murloc Costume (2007 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '2430', '414', "Tyrael's Hilt (2008 World Wide Invitational)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6158', '414', "Tyrael's Hilt (2008 World Wide Invitational)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6974', '415', "Big Blizzard Bear (2008 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6975', '415', "Big Blizzard Bear (2008 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '11038', '3536', "The Marine Marine (2009 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '11039', '3536', "The Marine Marine (2009 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34646', '3536', "The Marine Marine (2009 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '15367', '5378', "Deathy (2010 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '15368', '5378', "Deathy (2010 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34644', '5378', "Deathy (2010 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '18670', '6185', "Murkablo (2011 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '18671', '6185', "Murkablo (2011 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34643', '6185', "Murkablo (2011 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24154', '8793', "Murkalot (2013 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24155', '8793', "Murkalot (2013 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34642', '8793', "Murkalot (2013 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '27485', '9763', "Grommloc (2014 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '27486', '9763', "Grommloc (2014 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '27993', '9763', "Grommloc (2014 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28790', '10322', "Murkidan (2015 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28789', '10322', "Murkidan (2015 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28791', '10322', "Murkidan (2015 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '33156', '11294', "Murloc Battlemasters (2016 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '33158', '11294', "Murloc Battlemasters (2016 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '33160', '11294', "Murloc Battlemasters (2016 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '33157', '11294', "Murloc Battlemasters (2016 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '33159', '11294', "Murloc Battlemasters (2016 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '33161', '11294', "Murloc Battlemasters (2016 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37051', '11931', "Rides of War (2017 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37052', '11931', "Rides of War (2017 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37053', '11931', "Rides of War (2017 BlizzCon)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '37054', '11931', "Rides of War (2017 BlizzCon)", %multiusercriteria);
+
+}
+
+sub feats_of_strength_collection_wowce ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Feats of Stregth: World of Warcraft Collector's Editions");
+
+	BNet::Utils::preprintachievement ($count, '569', '662', "Collector\'s Edition: Mini-Diablo (World of Warcraft Collector\'s Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6152', '662', "Collector\'s Edition: Mini-Diablo (World of Warcraft Collector\'s Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34630', '662', "Collector\'s Edition: Mini-Diablo (World of Warcraft Collector\'s Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '570', '663', "Collector's Edition: Panda (World of Warcraft Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6153', '663', "Collector's Edition: Panda (World of Warcraft Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34631', '663', "Collector's Edition: Panda (World of Warcraft Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '571', '664', "Collector's Edition: Zergling (World of Warcraft Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6154', '664', "Collector's Edition: Zergling (World of Warcraft Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34632', '664', "Collector's Edition: Zergling (World of Warcraft Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '572', '665', "Collector's Edition: Netherwhelp (The Burning Crusade's Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6155', '665', "Collector's Edition: Netherwhelp (The Burning Crusade's Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34633', '665', "Collector's Edition: Netherwhelp (The Burning Crusade's Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '592', '683', "Collector's Edition: Frost Wyrm Whelp (Wrath of the Lich King's Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '6156', '683', "Collector's Edition: Frost Wyrm Whelp (Wrath of the Lich King's Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34634', '683', "Collector's Edition: Frost Wyrm Whelp (Wrath of the Lich King's Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '15365', '5377', "Collector's Edition: Lil' Deathwing (Cataclysm Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '15366', '5377', "Collector's Edition: Lil' Deathwing (Cataclysm Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34636', '5377', "Collector's Edition: Lil' Deathwing (Cataclysm Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '19778', '6849', "Collector's Edition: Imperial Quilen ( Mists of Pandaria Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '19777', '6849', "Collector's Edition: Imperial Quilen ( Mists of Pandaria Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '19779', '6848', "Collector's Edition: Lucky Quilen Cub (Mists of Pandaria Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '19780', '6848', "Collector's Edition: Lucky Quilen Cub (Mists of Pandaria Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34637', '6848', "Collector's Edition: Lucky Quilen Cub (Mists of Pandaria Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24598', '8916', "Collector's Edition: Dread Raven (Warlords of Draenor Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24599', '8916', "Collector's Edition: Dread Raven (Warlords of Draenor Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24600', '8917', "Collector's Edition: Dread Hatchling (Warlords of Draenor Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24601', '8917', "Collector's Edition: Dread Hatchling (Warlords of Draenor Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24600', '8917', "Collector's Edition: Dread Hatchling (Warlords of Draenor Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28785', '10320', "Collector's Edition: Illidari Felstalker (Legion Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28786', '10320', "Collector's Edition: Illidari Felstalker (Legion Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28787', '10321', "Collector's Edition: Nibbles (Owner of the Legion Collector's Edition )", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28788', '10321', "Collector's Edition: Nibbles (Owner of the Legion Collector's Edition )", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38150', '12229', "Collector's Edition: Seabraid Stallion (Battle for Azeroth Collector's Edition <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38151', '12229', "Collector's Edition: Seabraid Stallion (Battle for Azeroth Collector's Edition <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38152', '12230', "Collector's Edition: Gilded Ravasaur (Battle for Azeroth Collector's Edition<img src=\"http://wow.zamimg.com/images/icons/horde.png\">)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38153', '12230', "Collector's Edition: Gilded Ravasaur (Battle for Azeroth Collector's Edition<img src=\"http://wow.zamimg.com/images/icons/horde.png\">)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38154', '12232', "Collector's Edition: Tottle (Battle for Azeroth Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '38155', '12232', "Collector's Edition: Tottle (Battle for Azeroth Collector's Edition)", %multiusercriteria);
+}
+
+sub feats_of_strength_collection_otherce ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Feats of Stregth: Other Games Collector's Editions");
+	BNet::Utils::preprintachievement ($count, '13469', '4824', "Collector's Edition: Mini Thor (StarCraft II: Wings of Liberty Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '13470', '4824', "Collector's Edition: Mini Thor (StarCraft II: Wings of Liberty Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34635', '4824', "Collector's Edition: Mini Thor (StarCraft II: Wings of Liberty Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22193', '7842', "Collector's Edition: Baneling (StarCraft II: Heart of the Swarm Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34639', '7842', "Collector's Edition: Baneling (StarCraft II: Heart of the Swarm Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '28774', '10309', "Collector's Edition: Zeradar (StarCraft II: Legacy of the Void Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34641', '10309', "Collector's Edition: Zeradar (StarCraft II: Legacy of the Void Collector's Edition)", %multiusercriteria);
+
+	BNet::Utils::preprintachievement ($count, '20836', '7412', "Collector's Edition: Fetish Shaman (Diablo III Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '22467', '7412', "Collector's Edition: Fetish Shaman (Diablo III Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34638', '7412', "Collector's Edition: Fetish Shaman (Diablo III Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24158', '8795', "Collector's Edition: Treasure Goblin (Diablo III: Reaper of Souls Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '24159', '8795', "Collector's Edition: Treasure Goblin (Diablo III: Reaper of Souls Collector's Edition)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '34640', '8795', "Collector's Edition: Treasure Goblin (Diablo III: Reaper of Souls Collector's Edition)", %multiusercriteria);
+
+	BNet::Utils::preprintachievement ($count, '31852', '11064', "Collector's Edition: Baby Winston (Overwatch Origins Edition and Collector's Edition)", %multiusercriteria);
+
+}
+
+sub feats_of_strength_collection_promotions ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Feats of Stregth: Cross Promtional: Azeroth Choppers");
+	BNet::Utils::preprintachievement ($count, '25887', '9496', "Warlord's Deathwheel (Azeroth Choppers)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '27433', '9496', "Warlord's Deathwheel (Azeroth Choppers)", %multiusercriteria);
+	BNet::Utils::groupheader ("Feats of Stregth: Cross Promtional: Hearthstone");
+	BNet::Utils::preprintachievement ($count, '23395', '8345', "Hearthstoned (Hearthsteed Mount)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '30402', '10657', "Fledgling Hero of Warcraft", %multiusercriteria);
+	BNet::Utils::groupheader ("Feats of Stregth: Cross Promtional: Heroes of the Storm");
+	BNet::Utils::preprintachievement ($count, '27884', '9926', "Hero of the Storm (Graves pet)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '36506', '11425', "Herald of Flames (Primal Flamesaber)", %multiusercriteria);
+	BNet::Utils::groupheader ("Feats of Stregth: Cross Promtional: Warcraft Movie");
+	BNet::Utils::preprintachievement ($count, '32886', '11210', "Fight for the Alliance (Warcraft Movie)", %multiusercriteria);
+	BNet::Utils::preprintachievement ($count, '32887', '11211', "Fight for the Horde (Warcraft Movie)", %multiusercriteria);
+	BNet::Utils::groupheader ("Feats of Stregth: Cross Promtional: E-sports");
+	BNet::Utils::preprintachievement ($count, '34981', '10537', "Patron of War", %multiusercriteria);
+
+}
+
+sub feats_of_strength_collection ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+#	BNet::Utils::groupheader ("Feats of Stregth: Quests");
+
+}
+
 1;
