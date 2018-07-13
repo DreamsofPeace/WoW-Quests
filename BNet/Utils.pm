@@ -232,6 +232,42 @@ sub percharrecipescooking ($) {
 	return $cookrank, @cookrecipes;
 }
 
+sub percharrecipestailoring ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 197) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesenchanting ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 333) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
 sub percharquests ($) {
 	my ($decoded) = @_;
 	my @raids = @{ $decoded->{'quests'} };
@@ -453,6 +489,54 @@ sub preprintprofcooking ($$$$%) {
 	$qc{thirteen} = $multiuserquests{13}{cooking}{$qid};
 	$qc{fourteen} = $multiuserquests{14}{cooking}{$qid};
 	$qc{fifteen} = $multiuserquests{15}{cooking}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+	
+}
+
+sub preprintprofenchanting ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{enchanting}{$qid};
+	$qc{one} = $multiuserquests{1}{enchanting}{$qid};
+	$qc{two} = $multiuserquests{2}{enchanting}{$qid};
+	$qc{three} = $multiuserquests{3}{enchanting}{$qid};
+	$qc{four} = $multiuserquests{4}{enchanting}{$qid};
+	$qc{five} = $multiuserquests{5}{enchanting}{$qid};
+	$qc{six} = $multiuserquests{6}{enchanting}{$qid};
+	$qc{seven} = $multiuserquests{7}{enchanting}{$qid};
+	$qc{eight} = $multiuserquests{8}{enchanting}{$qid};
+	$qc{nine} = $multiuserquests{9}{enchanting}{$qid};
+	$qc{ten} = $multiuserquests{10}{enchanting}{$qid};
+	$qc{eleven} = $multiuserquests{11}{enchanting}{$qid};
+	$qc{twelve} = $multiuserquests{12}{enchanting}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{enchanting}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{enchanting}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{enchanting}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+	
+}
+
+sub preprintproftailoring ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{tailoring}{$qid};
+	$qc{one} = $multiuserquests{1}{tailoring}{$qid};
+	$qc{two} = $multiuserquests{2}{tailoring}{$qid};
+	$qc{three} = $multiuserquests{3}{tailoring}{$qid};
+	$qc{four} = $multiuserquests{4}{tailoring}{$qid};
+	$qc{five} = $multiuserquests{5}{tailoring}{$qid};
+	$qc{six} = $multiuserquests{6}{tailoring}{$qid};
+	$qc{seven} = $multiuserquests{7}{tailoring}{$qid};
+	$qc{eight} = $multiuserquests{8}{tailoring}{$qid};
+	$qc{nine} = $multiuserquests{9}{tailoring}{$qid};
+	$qc{ten} = $multiuserquests{10}{tailoring}{$qid};
+	$qc{eleven} = $multiuserquests{11}{tailoring}{$qid};
+	$qc{twelve} = $multiuserquests{12}{tailoring}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{tailoring}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{tailoring}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{tailoring}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
 	
 }
