@@ -490,21 +490,19 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-
-
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipescooking ($userinfo00);
-			foreach my $uq (@UI00REC) {
-				my $lookupres= findinarray($uq, @UI00REC);
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECA) = BNet::Utils::percharrecipescooking ($userinfo00);
+			foreach my $uq (@UI00RECA) {
+				my $lookupres= findinarray($uq, @UI00RECA);
 				$multiusercriteria{0}{cooking}{$uq} = $lookupres;
 			}
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipesenchanting ($userinfo00);
-			foreach my $uq (@UI00REC) {
-				my $lookupres= findinarray($uq, @UI00REC);
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECB) = BNet::Utils::percharrecipesenchanting ($userinfo00);
+			foreach my $uq (@UI00RECB) {
+				my $lookupres= findinarray($uq, @UI00RECB);
 				$multiusercriteria{0}{enchanting}{$uq} = $lookupres;
 			}
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipestailoring ($userinfo00);
-			foreach my $uq (@UI00REC) {
-				my $lookupres= findinarray($uq, @UI00REC);
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECC) = BNet::Utils::percharrecipestailoring ($userinfo00);
+			foreach my $uq (@UI00RECC) {
+				my $lookupres= findinarray($uq, @UI00RECC);
 				$multiusercriteria{0}{tailoring}{$uq} = $lookupres;
 			}
 		}
@@ -524,10 +522,20 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01REC) = BNet::Utils::percharrecipescooking ($userinfo01);
-			foreach my $uq (@UI01REC) {
-				my $lookupres= findinarray($uq, @UI01REC);
-				$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI01RECA) = BNet::Utils::percharrecipescooking ($userinfo01);
+			foreach my $uq (@UI01RECA) {
+				my $lookupres= findinarray($uq, @UI01RECA);
+				$multiusercriteria{0}{cooking}{$uq} = $lookupres;
+			}
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI01RECB) = BNet::Utils::percharrecipesenchanting ($userinfo01);
+			foreach my $uq (@UI01RECB) {
+				my $lookupres= findinarray($uq, @UI01RECB);
+				$multiusercriteria{0}{enchanting}{$uq} = $lookupres;
+			}
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI01RECC) = BNet::Utils::percharrecipestailoring ($userinfo01);
+			foreach my $uq (@UI01RECC) {
+				my $lookupres= findinarray($uq, @UI01RECC);
+				$multiusercriteria{0}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -1057,11 +1065,10 @@ sub __main__() {
 			BNet::Achievements::feats_of_strength ($count, %multiusercriteria);
 
 	}
-	if ($module eq "cooking") {
+	if ($module eq "professions") {
 		
 		BEGIN {
 			require 'BNet/Utils.pm';
-			require 'BNet/Reputation.pm';
 		}
 		BNet::Professions::cooking ($count, %multiusercriteria);
 		BNet::Professions::enchanting ($count, %multiusercriteria);
