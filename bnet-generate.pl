@@ -476,301 +476,371 @@ sub __main__() {
 #		print $count;
 #		print "\n";
 	if (0 < $count) {
-		my @UI00 = BNet::Utils::percharquests ($userinfo00);
-		($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipescooking ($userinfo00);
-	#	$multiuserquests{0}{profinfo}{cooking}{rank}, $multiuserquests{0}{profinfo}{cooking}{skill}, my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo00);
-	#	my @UI00REC = BNet::Utils::percharrecipescooking ($userinfo00);
-		my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00);
-		my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00);
-		foreach my $uq (@UI00) {
-			my $lookupres= findinarray($uq, @UI00);
-			$multiuserquests{0}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI00 = BNet::Utils::percharquests ($userinfo00);
+			my @UI00A = BNet::Utils::percharachievementscriteria ($userinfo00);
+			my @UI00B = BNet::Utils::percharachievementscriteriaquantity ($userinfo00);
+			foreach my $uq (@UI00) {
+				my $lookupres= findinarray($uq, @UI00);
+				$multiuserquests{0}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI00A) {
+				my $lookupres= findinarray($uq, @UI00A);
+				$multiusercriteria{0}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI00A) {
-			my $lookupres= findinarray($uq, @UI00A);
-			$multiusercriteria{0}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI00REC) {
-			my $lookupres= findinarray($uq, @UI00REC);
-			$multiusercriteria{0}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipescooking ($userinfo00);
+			foreach my $uq (@UI00REC) {
+				my $lookupres= findinarray($uq, @UI00REC);
+				$multiusercriteria{0}{cooking}{$uq} = $lookupres;
+			}
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipesenchanting ($userinfo00);
+			foreach my $uq (@UI00REC) {
+				my $lookupres= findinarray($uq, @UI00REC);
+				$multiusercriteria{0}{enchanting}{$uq} = $lookupres;
+			}
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00REC) = BNet::Utils::percharrecipestailoring ($userinfo00);
+			foreach my $uq (@UI00REC) {
+				my $lookupres= findinarray($uq, @UI00REC);
+				$multiusercriteria{0}{tailoring}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (1 < $count) {
-		my @UI01 = BNet::Utils::percharquests ($userinfo01);
-		($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01REC) = BNet::Utils::percharrecipescooking ($userinfo01);
-#		$multiuserquests{1}{profinfo}{cooking}{rank}, $multiuserquests{1}{profinfo}{cooking}{skill}, my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo01);
-#		my @UI01REC = BNet::Utils::percharrecipescooking ($userinfo01);
-		my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01);
-		my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01);
-		foreach my $uq (@UI01) {
-			my $lookupres= findinarray($uq, @UI01);
-			$multiuserquests{1}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI01 = BNet::Utils::percharquests ($userinfo01);
+			my @UI01A = BNet::Utils::percharachievementscriteria ($userinfo01);
+			my @UI01B = BNet::Utils::percharachievementscriteriaquantity ($userinfo01);
+			foreach my $uq (@UI01) {
+				my $lookupres= findinarray($uq, @UI01);
+				$multiuserquests{1}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI01A) {
+				my $lookupres= findinarray($uq, @UI01A);
+				$multiusercriteria{1}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI01A) {
-			my $lookupres= findinarray($uq, @UI01A);
-			$multiusercriteria{1}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI01REC) {
-			my $lookupres= findinarray($uq, @UI01REC);
-			$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01REC) = BNet::Utils::percharrecipescooking ($userinfo01);
+			foreach my $uq (@UI01REC) {
+				my $lookupres= findinarray($uq, @UI01REC);
+				$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (2 < $count) {
-		my @UI02 = BNet::Utils::percharquests ($userinfo02);
-		($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02REC) = BNet::Utils::percharrecipescooking ($userinfo02);
-
-		my @UI02A = BNet::Utils::percharachievementscriteria ($userinfo02);
-		my @UI02B = BNet::Utils::percharachievementscriteriaquantity ($userinfo02);
-		foreach my $uq (@UI02) {
-			my $lookupres= findinarray($uq, @UI02);
-			$multiuserquests{2}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI02 = BNet::Utils::percharquests ($userinfo02);
+			my @UI02A = BNet::Utils::percharachievementscriteria ($userinfo02);
+			my @UI02B = BNet::Utils::percharachievementscriteriaquantity ($userinfo02);
+			foreach my $uq (@UI02) {
+				my $lookupres= findinarray($uq, @UI02);
+				$multiuserquests{2}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI02A) {
+				my $lookupres= findinarray($uq, @UI02A);
+				$multiusercriteria{2}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI02A) {
-			my $lookupres= findinarray($uq, @UI02A);
-			$multiusercriteria{2}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI02REC) {
-			my $lookupres= findinarray($uq, @UI02REC);
-			$multiusercriteria{2}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02REC) = BNet::Utils::percharrecipescooking ($userinfo02);
+			foreach my $uq (@UI02REC) {
+				my $lookupres= findinarray($uq, @UI02REC);
+				$multiusercriteria{2}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (3 < $count) {
-		my @UI03 = BNet::Utils::percharquests ($userinfo03);
-		($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03REC) = BNet::Utils::percharrecipescooking ($userinfo03);
-		my @UI03A = BNet::Utils::percharachievementscriteria ($userinfo03);
-		my @UI03B = BNet::Utils::percharachievementscriteriaquantity ($userinfo03);
-		foreach my $uq (@UI03) {
-			my $lookupres= findinarray($uq, @UI03);
-			$multiuserquests{3}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI03 = BNet::Utils::percharquests ($userinfo03);
+			my @UI03A = BNet::Utils::percharachievementscriteria ($userinfo03);
+			my @UI03B = BNet::Utils::percharachievementscriteriaquantity ($userinfo03);
+			foreach my $uq (@UI03) {
+				my $lookupres= findinarray($uq, @UI03);
+				$multiuserquests{3}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI03A) {
+				my $lookupres= findinarray($uq, @UI03A);
+				$multiusercriteria{3}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI03A) {
-			my $lookupres= findinarray($uq, @UI03A);
-			$multiusercriteria{3}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI03REC) {
-			my $lookupres= findinarray($uq, @UI03REC);
-			$multiusercriteria{3}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03REC) = BNet::Utils::percharrecipescooking ($userinfo03);
+			foreach my $uq (@UI03REC) {
+				my $lookupres= findinarray($uq, @UI03REC);
+				$multiusercriteria{3}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (4 < $count) {
-		my @UI04 = BNet::Utils::percharquests ($userinfo04);
-		($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04REC) = BNet::Utils::percharrecipescooking ($userinfo04);
-		my @UI04A = BNet::Utils::percharachievementscriteria ($userinfo04);
-		my @UI04B = BNet::Utils::percharachievementscriteriaquantity ($userinfo04);
-		foreach my $uq (@UI04) {
-			my $lookupres= findinarray($uq, @UI04);
-			$multiuserquests{4}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI04 = BNet::Utils::percharquests ($userinfo04);
+			my @UI04A = BNet::Utils::percharachievementscriteria ($userinfo04);
+			my @UI04B = BNet::Utils::percharachievementscriteriaquantity ($userinfo04);
+			foreach my $uq (@UI04) {
+				my $lookupres= findinarray($uq, @UI04);
+				$multiuserquests{4}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI04A) {
+				my $lookupres= findinarray($uq, @UI04A);
+				$multiusercriteria{4}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI04A) {
-			my $lookupres= findinarray($uq, @UI04A);
-			$multiusercriteria{4}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI04REC) {
-			my $lookupres= findinarray($uq, @UI04REC);
-			$multiusercriteria{4}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04REC) = BNet::Utils::percharrecipescooking ($userinfo04);
+			foreach my $uq (@UI04REC) {
+				my $lookupres= findinarray($uq, @UI04REC);
+				$multiusercriteria{4}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (5 < $count) {
-		my @UI05 = BNet::Utils::percharquests ($userinfo05);
-		($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05REC) = BNet::Utils::percharrecipescooking ($userinfo05);
-		my @UI05A = BNet::Utils::percharachievementscriteria ($userinfo05);
-		my @UI05B = BNet::Utils::percharachievementscriteriaquantity ($userinfo05);
-		foreach my $uq (@UI05) {
-			my $lookupres= findinarray($uq, @UI05);
-			$multiuserquests{5}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI05 = BNet::Utils::percharquests ($userinfo05);
+			my @UI05A = BNet::Utils::percharachievementscriteria ($userinfo05);
+			my @UI05B = BNet::Utils::percharachievementscriteriaquantity ($userinfo05);
+			foreach my $uq (@UI05) {
+				my $lookupres= findinarray($uq, @UI05);
+				$multiuserquests{5}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI05A) {
+				my $lookupres= findinarray($uq, @UI05A);
+				$multiusercriteria{5}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI05A) {
-			my $lookupres= findinarray($uq, @UI05A);
-			$multiusercriteria{5}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI05REC) {
-			my $lookupres= findinarray($uq, @UI05REC);
-			$multiusercriteria{5}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05REC) = BNet::Utils::percharrecipescooking ($userinfo05);
+			foreach my $uq (@UI05REC) {
+				my $lookupres= findinarray($uq, @UI05REC);
+				$multiusercriteria{5}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (6 < $count) {
-		my @UI06 = BNet::Utils::percharquests ($userinfo06);
-		($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06REC) = BNet::Utils::percharrecipescooking ($userinfo06);
-		my @UI06A = BNet::Utils::percharachievementscriteria ($userinfo06);
-		my @UI06B = BNet::Utils::percharachievementscriteriaquantity ($userinfo06);
-		foreach my $uq (@UI06) {
-			my $lookupres= findinarray($uq, @UI06);
-			$multiuserquests{6}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI06 = BNet::Utils::percharquests ($userinfo06);
+			my @UI06A = BNet::Utils::percharachievementscriteria ($userinfo06);
+			my @UI06B = BNet::Utils::percharachievementscriteriaquantity ($userinfo06);
+			foreach my $uq (@UI06) {
+				my $lookupres= findinarray($uq, @UI06);
+				$multiuserquests{6}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI06A) {
+				my $lookupres= findinarray($uq, @UI06A);
+				$multiusercriteria{6}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI06A) {
-			my $lookupres= findinarray($uq, @UI06A);
-			$multiusercriteria{6}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI06REC) {
-			my $lookupres= findinarray($uq, @UI06REC);
-			$multiusercriteria{6}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06REC) = BNet::Utils::percharrecipescooking ($userinfo06);
+			foreach my $uq (@UI06REC) {
+				my $lookupres= findinarray($uq, @UI06REC);
+				$multiusercriteria{6}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (7 < $count) {
-		my @UI07 = BNet::Utils::percharquests ($userinfo07);
-		($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07REC) = BNet::Utils::percharrecipescooking ($userinfo07);
-		my @UI07A = BNet::Utils::percharachievementscriteria ($userinfo07);
-		my @UI07B = BNet::Utils::percharachievementscriteriaquantity ($userinfo07);
-		foreach my $uq (@UI07) {
-			my $lookupres= findinarray($uq, @UI07);
-			$multiuserquests{7}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI07 = BNet::Utils::percharquests ($userinfo07);
+			my @UI07A = BNet::Utils::percharachievementscriteria ($userinfo07);
+			my @UI07B = BNet::Utils::percharachievementscriteriaquantity ($userinfo07);
+			foreach my $uq (@UI07) {
+				my $lookupres= findinarray($uq, @UI07);
+				$multiuserquests{7}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI07A) {
+				my $lookupres= findinarray($uq, @UI07A);
+				$multiusercriteria{7}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI07A) {
-			my $lookupres= findinarray($uq, @UI07A);
-			$multiusercriteria{7}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI07REC) {
-			my $lookupres= findinarray($uq, @UI07REC);
-			$multiusercriteria{7}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07REC) = BNet::Utils::percharrecipescooking ($userinfo07);
+			foreach my $uq (@UI07REC) {
+				my $lookupres= findinarray($uq, @UI07REC);
+				$multiusercriteria{7}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (8 < $count) {
-		my @UI08 = BNet::Utils::percharquests ($userinfo08);
-		($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08REC) = BNet::Utils::percharrecipescooking ($userinfo08);
-		my @UI08A = BNet::Utils::percharachievementscriteria ($userinfo08);
-		my @UI08B = BNet::Utils::percharachievementscriteriaquantity ($userinfo08);
-		foreach my $uq (@UI08) {
-			my $lookupres= findinarray($uq, @UI08);
-			$multiuserquests{8}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI08 = BNet::Utils::percharquests ($userinfo08);
+			my @UI08A = BNet::Utils::percharachievementscriteria ($userinfo08);
+			my @UI08B = BNet::Utils::percharachievementscriteriaquantity ($userinfo08);
+			foreach my $uq (@UI08) {
+				my $lookupres= findinarray($uq, @UI08);
+				$multiuserquests{8}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI08A) {
+				my $lookupres= findinarray($uq, @UI08A);
+				$multiusercriteria{8}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI08A) {
-			my $lookupres= findinarray($uq, @UI08A);
-			$multiusercriteria{8}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI08REC) {
-			my $lookupres= findinarray($uq, @UI08REC);
-			$multiusercriteria{8}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08REC) = BNet::Utils::percharrecipescooking ($userinfo08);
+			foreach my $uq (@UI08REC) {
+				my $lookupres= findinarray($uq, @UI08REC);
+				$multiusercriteria{8}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (9 < $count) {
-		my @UI09 = BNet::Utils::percharquests ($userinfo09);
-		($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09REC) = BNet::Utils::percharrecipescooking ($userinfo09);
-		my @UI09A = BNet::Utils::percharachievementscriteria ($userinfo09);
-		my @UI09B = BNet::Utils::percharachievementscriteriaquantity ($userinfo09);
-		foreach my $uq (@UI09) {
-			my $lookupres= findinarray($uq, @UI09);
-			$multiuserquests{9}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI09 = BNet::Utils::percharquests ($userinfo09);
+			my @UI09A = BNet::Utils::percharachievementscriteria ($userinfo09);
+			my @UI09B = BNet::Utils::percharachievementscriteriaquantity ($userinfo09);
+			foreach my $uq (@UI09) {
+				my $lookupres= findinarray($uq, @UI09);
+				$multiuserquests{9}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI09A) {
+				my $lookupres= findinarray($uq, @UI09A);
+				$multiusercriteria{9}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI09A) {
-			my $lookupres= findinarray($uq, @UI09A);
-			$multiusercriteria{9}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI09REC) {
-			my $lookupres= findinarray($uq, @UI09REC);
-			$multiusercriteria{9}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09REC) = BNet::Utils::percharrecipescooking ($userinfo09);
+			foreach my $uq (@UI09REC) {
+				my $lookupres= findinarray($uq, @UI09REC);
+				$multiusercriteria{9}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (10 < $count) {
-		my @UI10 = BNet::Utils::percharquests ($userinfo10);
-		($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10REC) = BNet::Utils::percharrecipescooking ($userinfo10);
-		my @UI10A = BNet::Utils::percharachievementscriteria ($userinfo10);
-		my @UI10B = BNet::Utils::percharachievementscriteriaquantity ($userinfo10);
-		foreach my $uq (@UI10) {
-			my $lookupres= findinarray($uq, @UI10);
-			$multiuserquests{10}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI10 = BNet::Utils::percharquests ($userinfo10);
+			my @UI10A = BNet::Utils::percharachievementscriteria ($userinfo10);
+			my @UI10B = BNet::Utils::percharachievementscriteriaquantity ($userinfo10);
+			foreach my $uq (@UI10) {
+				my $lookupres= findinarray($uq, @UI10);
+				$multiuserquests{10}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI10A) {
+				my $lookupres= findinarray($uq, @UI10A);
+				$multiusercriteria{10}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI10A) {
-			my $lookupres= findinarray($uq, @UI10A);
-			$multiusercriteria{10}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI10REC) {
-			my $lookupres= findinarray($uq, @UI10REC);
-			$multiusercriteria{10}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10REC) = BNet::Utils::percharrecipescooking ($userinfo10);
+			foreach my $uq (@UI10REC) {
+				my $lookupres= findinarray($uq, @UI10REC);
+				$multiusercriteria{10}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (11 < $count) {
-		my @UI11 = BNet::Utils::percharquests ($userinfo11);
-		($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11REC) = BNet::Utils::percharrecipescooking ($userinfo11);
-		my @UI11A = BNet::Utils::percharachievementscriteria ($userinfo11);
-		my @UI11B = BNet::Utils::percharachievementscriteriaquantity ($userinfo11);
-		foreach my $uq (@UI11) {
-			my $lookupres= findinarray($uq, @UI11);
-			$multiuserquests{11}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI11 = BNet::Utils::percharquests ($userinfo11);
+			my @UI11A = BNet::Utils::percharachievementscriteria ($userinfo11);
+			my @UI11B = BNet::Utils::percharachievementscriteriaquantity ($userinfo11);
+			foreach my $uq (@UI11) {
+				my $lookupres= findinarray($uq, @UI11);
+				$multiuserquests{11}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI11A) {
+				my $lookupres= findinarray($uq, @UI11A);
+				$multiusercriteria{11}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI11A) {
-			my $lookupres= findinarray($uq, @UI11A);
-			$multiusercriteria{11}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI11REC) {
-			my $lookupres= findinarray($uq, @UI11REC);
-			$multiusercriteria{11}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11REC) = BNet::Utils::percharrecipescooking ($userinfo11);
+			foreach my $uq (@UI11REC) {
+				my $lookupres= findinarray($uq, @UI11REC);
+				$multiusercriteria{11}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (12 < $count) {
-		my @UI12 = BNet::Utils::percharquests ($userinfo12);
-		($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12REC) = BNet::Utils::percharrecipescooking ($userinfo12);
-		my @UI12A = BNet::Utils::percharachievementscriteria ($userinfo12);
-		my @UI12B = BNet::Utils::percharachievementscriteriaquantity ($userinfo12);
-		foreach my $uq (@UI12) {
-			my $lookupres= findinarray($uq, @UI12);
-			$multiuserquests{12}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI12 = BNet::Utils::percharquests ($userinfo12);
+			my @UI12A = BNet::Utils::percharachievementscriteria ($userinfo12);
+			my @UI12B = BNet::Utils::percharachievementscriteriaquantity ($userinfo12);
+			foreach my $uq (@UI12) {
+				my $lookupres= findinarray($uq, @UI12);
+				$multiuserquests{12}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI12A) {
+				my $lookupres= findinarray($uq, @UI12A);
+				$multiusercriteria{12}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI12A) {
-			my $lookupres= findinarray($uq, @UI12A);
-			$multiusercriteria{12}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI12REC) {
-			my $lookupres= findinarray($uq, @UI12REC);
-			$multiusercriteria{12}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12REC) = BNet::Utils::percharrecipescooking ($userinfo12);
+			foreach my $uq (@UI12REC) {
+				my $lookupres= findinarray($uq, @UI12REC);
+				$multiusercriteria{12}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (13 < $count) {
-		my @UI13 = BNet::Utils::percharquests ($userinfo13);
-		($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13REC) = BNet::Utils::percharrecipescooking ($userinfo13);
-		my @UI13A = BNet::Utils::percharachievementscriteria ($userinfo13);
-		my @UI13B = BNet::Utils::percharachievementscriteriaquantity ($userinfo13);
-		foreach my $uq (@UI13) {
-			my $lookupres= findinarray($uq, @UI13);
-			$multiuserquests{13}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI13 = BNet::Utils::percharquests ($userinfo13);
+			my @UI13A = BNet::Utils::percharachievementscriteria ($userinfo13);
+			my @UI13B = BNet::Utils::percharachievementscriteriaquantity ($userinfo13);
+			foreach my $uq (@UI13) {
+				my $lookupres= findinarray($uq, @UI13);
+				$multiuserquests{13}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI13A) {
+				my $lookupres= findinarray($uq, @UI13A);
+				$multiusercriteria{13}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI13A) {
-			my $lookupres= findinarray($uq, @UI13A);
-			$multiusercriteria{13}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI13REC) {
-			my $lookupres= findinarray($uq, @UI13REC);
-			$multiusercriteria{13}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13REC) = BNet::Utils::percharrecipescooking ($userinfo13);
+			foreach my $uq (@UI13REC) {
+				my $lookupres= findinarray($uq, @UI13REC);
+				$multiusercriteria{13}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (14 < $count) {
-		my @UI14 = BNet::Utils::percharquests ($userinfo14);
-		($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14REC) = BNet::Utils::percharrecipescooking ($userinfo14);
-		my @UI14A = BNet::Utils::percharachievementscriteria ($userinfo14);
-		my @UI14B = BNet::Utils::percharachievementscriteriaquantity ($userinfo14);
-		foreach my $uq (@UI14) {
-			my $lookupres= findinarray($uq, @UI14);
-			$multiuserquests{14}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI14 = BNet::Utils::percharquests ($userinfo14);
+			my @UI14A = BNet::Utils::percharachievementscriteria ($userinfo14);
+			my @UI14B = BNet::Utils::percharachievementscriteriaquantity ($userinfo14);
+			foreach my $uq (@UI14) {
+				my $lookupres= findinarray($uq, @UI14);
+				$multiuserquests{14}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI14A) {
+				my $lookupres= findinarray($uq, @UI14A);
+				$multiusercriteria{14}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI14A) {
-			my $lookupres= findinarray($uq, @UI14A);
-			$multiusercriteria{14}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI14REC) {
-			my $lookupres= findinarray($uq, @UI14REC);
-			$multiusercriteria{14}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14REC) = BNet::Utils::percharrecipescooking ($userinfo14);
+			foreach my $uq (@UI14REC) {
+				my $lookupres= findinarray($uq, @UI14REC);
+				$multiusercriteria{14}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 	if (15 < $count) {
-		my @UI15 = BNet::Utils::percharquests ($userinfo15);
-		($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15REC) = BNet::Utils::percharrecipescooking ($userinfo15);
-		my @UI15A = BNet::Utils::percharachievementscriteria ($userinfo15);
-		my @UI15B = BNet::Utils::percharachievementscriteriaquantity ($userinfo15);
-		foreach my $uq (@UI15) {
-			my $lookupres= findinarray($uq, @UI15);
-			$multiuserquests{15}{$uq} = $lookupres;
+		if ($module eq "quests") {
+			my @UI15 = BNet::Utils::percharquests ($userinfo15);
+			my @UI15A = BNet::Utils::percharachievementscriteria ($userinfo15);
+			my @UI15B = BNet::Utils::percharachievementscriteriaquantity ($userinfo15);
+			foreach my $uq (@UI15) {
+				my $lookupres= findinarray($uq, @UI15);
+				$multiuserquests{15}{$uq} = $lookupres;
+			}
+			foreach my $uq (@UI15A) {
+				my $lookupres= findinarray($uq, @UI15A);
+				$multiusercriteria{15}{$uq} = $lookupres;
+			}
 		}
-		foreach my $uq (@UI15A) {
-			my $lookupres= findinarray($uq, @UI15A);
-			$multiusercriteria{15}{$uq} = $lookupres;
-		}
-		foreach my $uq (@UI15REC) {
-			my $lookupres= findinarray($uq, @UI15REC);
-			$multiusercriteria{15}{cooking}{$uq} = $lookupres;
+		if ($module eq "professions") {
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15REC) = BNet::Utils::percharrecipescooking ($userinfo15);
+			foreach my $uq (@UI15REC) {
+				my $lookupres= findinarray($uq, @UI15REC);
+				$multiusercriteria{15}{cooking}{$uq} = $lookupres;
+			}
 		}
 	}
 
 	if ($module eq "quests") {
-
 
 		BEGIN {
 			require 'BNet/Quests_KD.pm';
@@ -994,6 +1064,8 @@ sub __main__() {
 			require 'BNet/Reputation.pm';
 		}
 		BNet::Professions::cooking ($count, %multiusercriteria);
+		BNet::Professions::enchanting ($count, %multiusercriteria);
+		BNet::Professions::tailoring ($count, %multiusercriteria);
 		
 	}
 	if ($module eq "reputation") {
