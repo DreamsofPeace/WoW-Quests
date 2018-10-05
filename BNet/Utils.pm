@@ -213,14 +213,15 @@ sub percharachievementscriteriaquantity ($) {
 	my @raids = @{ $decoded->{'achievements'}{'criteriaQuantity'} };
 	return @raids;
 }
-sub percharrecipescooking ($) {
+
+sub percharrecipesalchemy ($) {
 	my ($decoded) = @_;
-	my @raids = @{ $decoded->{'professions'}{'secondary'} };
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
 	my $cookrank;
 	my $cookmax;
 	my @cookrecipes;
 	foreach my $f ( @raids ) {
-		if ($f->{"id"} == 185) {
+		if ($f->{"id"} == 171) {
 			$cookrank = $f->{'rank'};
 			$cookmax = $f->{'max'};
 			foreach my $e (@{$f->{'recipes'}}) {
@@ -228,7 +229,169 @@ sub percharrecipescooking ($) {
 			}
 		}
 	}
-#	return $cookrank, $cookmax, @cookrecipes;
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesblacksmithing ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 164) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesenchanting ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 333) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesengineering ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 202) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+
+sub percharrecipesherbalism ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 182) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesinscription ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 773) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesjewelcrafting ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 755) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesmining ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 186) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesleatherworking ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 165) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesskinning ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 393) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
 	return $cookrank, @cookrecipes;
 }
 
@@ -250,14 +413,51 @@ sub percharrecipestailoring ($) {
 	return $cookrank, @cookrecipes;
 }
 
-sub percharrecipesenchanting ($) {
+sub percharrecipescooking ($) {
 	my ($decoded) = @_;
-	my @raids = @{ $decoded->{'professions'}{'primary'} };
+	my @raids = @{ $decoded->{'professions'}{'secondary'} };
 	my $cookrank;
 	my $cookmax;
 	my @cookrecipes;
 	foreach my $f ( @raids ) {
-		if ($f->{"id"} == 333) {
+		if ($f->{"id"} == 185) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+#	return $cookrank, $cookmax, @cookrecipes;
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesarchaeology ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'secondary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 794) {
+			$cookrank = $f->{'rank'};
+			$cookmax = $f->{'max'};
+			foreach my $e (@{$f->{'recipes'}}) {
+				push @cookrecipes, $e;
+			}
+		}
+	}
+	return $cookrank, @cookrecipes;
+}
+
+sub percharrecipesfishing ($) {
+	my ($decoded) = @_;
+	my @raids = @{ $decoded->{'professions'}{'secondary'} };
+	my $cookrank;
+	my $cookmax;
+	my @cookrecipes;
+	foreach my $f ( @raids ) {
+		if ($f->{"id"} == 356) {
 			$cookrank = $f->{'rank'};
 			$cookmax = $f->{'max'};
 			foreach my $e (@{$f->{'recipes'}}) {
@@ -468,29 +668,50 @@ sub preprintrep ($$$%) {
 #	$qc{fifteen}{max} = $rep{15}{$fid}{max};
 	
 }
-
-sub preprintprofcooking ($$$$%) {
+sub preprintprofalchemy ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
 	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
-	$qc{zero} = $multiuserquests{0}{cooking}{$qid};
-	$qc{one} = $multiuserquests{1}{cooking}{$qid};
-	$qc{two} = $multiuserquests{2}{cooking}{$qid};
-	$qc{three} = $multiuserquests{3}{cooking}{$qid};
-	$qc{four} = $multiuserquests{4}{cooking}{$qid};
-	$qc{five} = $multiuserquests{5}{cooking}{$qid};
-	$qc{six} = $multiuserquests{6}{cooking}{$qid};
-	$qc{seven} = $multiuserquests{7}{cooking}{$qid};
-	$qc{eight} = $multiuserquests{8}{cooking}{$qid};
-	$qc{nine} = $multiuserquests{9}{cooking}{$qid};
-	$qc{ten} = $multiuserquests{10}{cooking}{$qid};
-	$qc{eleven} = $multiuserquests{11}{cooking}{$qid};
-	$qc{twelve} = $multiuserquests{12}{cooking}{$qid};
-	$qc{thirteen} = $multiuserquests{13}{cooking}{$qid};
-	$qc{fourteen} = $multiuserquests{14}{cooking}{$qid};
-	$qc{fifteen} = $multiuserquests{15}{cooking}{$qid};
+	$qc{zero} = $multiuserquests{0}{alchemy}{$qid};
+	$qc{one} = $multiuserquests{1}{alchemy}{$qid};
+	$qc{two} = $multiuserquests{2}{alchemy}{$qid};
+	$qc{three} = $multiuserquests{3}{alchemy}{$qid};
+	$qc{four} = $multiuserquests{4}{alchemy}{$qid};
+	$qc{five} = $multiuserquests{5}{alchemy}{$qid};
+	$qc{six} = $multiuserquests{6}{alchemy}{$qid};
+	$qc{seven} = $multiuserquests{7}{alchemy}{$qid};
+	$qc{eight} = $multiuserquests{8}{alchemy}{$qid};
+	$qc{nine} = $multiuserquests{9}{alchemy}{$qid};
+	$qc{ten} = $multiuserquests{10}{alchemy}{$qid};
+	$qc{eleven} = $multiuserquests{11}{alchemy}{$qid};
+	$qc{twelve} = $multiuserquests{12}{alchemy}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{alchemy}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{alchemy}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{alchemy}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
-	
+}
+
+sub preprintprofblacksmithing ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{blacksmithing}{$qid};
+	$qc{one} = $multiuserquests{1}{blacksmithing}{$qid};
+	$qc{two} = $multiuserquests{2}{blacksmithing}{$qid};
+	$qc{three} = $multiuserquests{3}{blacksmithing}{$qid};
+	$qc{four} = $multiuserquests{4}{blacksmithing}{$qid};
+	$qc{five} = $multiuserquests{5}{blacksmithing}{$qid};
+	$qc{six} = $multiuserquests{6}{blacksmithing}{$qid};
+	$qc{seven} = $multiuserquests{7}{blacksmithing}{$qid};
+	$qc{eight} = $multiuserquests{8}{blacksmithing}{$qid};
+	$qc{nine} = $multiuserquests{9}{blacksmithing}{$qid};
+	$qc{ten} = $multiuserquests{10}{blacksmithing}{$qid};
+	$qc{eleven} = $multiuserquests{11}{blacksmithing}{$qid};
+	$qc{twelve} = $multiuserquests{12}{blacksmithing}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{blacksmithing}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{blacksmithing}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{blacksmithing}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
 }
 
 sub preprintprofenchanting ($$$$%) {
@@ -514,7 +735,98 @@ sub preprintprofenchanting ($$$$%) {
 	$qc{fourteen} = $multiuserquests{14}{enchanting}{$qid};
 	$qc{fifteen} = $multiuserquests{15}{enchanting}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
-	
+}
+
+sub preprintprofengineering ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{engineering}{$qid};
+	$qc{one} = $multiuserquests{1}{engineering}{$qid};
+	$qc{two} = $multiuserquests{2}{engineering}{$qid};
+	$qc{three} = $multiuserquests{3}{engineering}{$qid};
+	$qc{four} = $multiuserquests{4}{engineering}{$qid};
+	$qc{five} = $multiuserquests{5}{engineering}{$qid};
+	$qc{six} = $multiuserquests{6}{engineering}{$qid};
+	$qc{seven} = $multiuserquests{7}{engineering}{$qid};
+	$qc{eight} = $multiuserquests{8}{engineering}{$qid};
+	$qc{nine} = $multiuserquests{9}{engineering}{$qid};
+	$qc{ten} = $multiuserquests{10}{engineering}{$qid};
+	$qc{eleven} = $multiuserquests{11}{engineering}{$qid};
+	$qc{twelve} = $multiuserquests{12}{engineering}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{engineering}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{engineering}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{engineering}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+}
+
+sub preprintprofinscription ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{inscription}{$qid};
+	$qc{one} = $multiuserquests{1}{inscription}{$qid};
+	$qc{two} = $multiuserquests{2}{inscription}{$qid};
+	$qc{three} = $multiuserquests{3}{inscription}{$qid};
+	$qc{four} = $multiuserquests{4}{inscription}{$qid};
+	$qc{five} = $multiuserquests{5}{inscription}{$qid};
+	$qc{six} = $multiuserquests{6}{inscription}{$qid};
+	$qc{seven} = $multiuserquests{7}{inscription}{$qid};
+	$qc{eight} = $multiuserquests{8}{inscription}{$qid};
+	$qc{nine} = $multiuserquests{9}{inscription}{$qid};
+	$qc{ten} = $multiuserquests{10}{inscription}{$qid};
+	$qc{eleven} = $multiuserquests{11}{inscription}{$qid};
+	$qc{twelve} = $multiuserquests{12}{inscription}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{inscription}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{inscription}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{inscription}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+}
+
+sub preprintprofjewelcrafting ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{jewelcrafting}{$qid};
+	$qc{one} = $multiuserquests{1}{jewelcrafting}{$qid};
+	$qc{two} = $multiuserquests{2}{jewelcrafting}{$qid};
+	$qc{three} = $multiuserquests{3}{jewelcrafting}{$qid};
+	$qc{four} = $multiuserquests{4}{jewelcrafting}{$qid};
+	$qc{five} = $multiuserquests{5}{jewelcrafting}{$qid};
+	$qc{six} = $multiuserquests{6}{jewelcrafting}{$qid};
+	$qc{seven} = $multiuserquests{7}{jewelcrafting}{$qid};
+	$qc{eight} = $multiuserquests{8}{jewelcrafting}{$qid};
+	$qc{nine} = $multiuserquests{9}{jewelcrafting}{$qid};
+	$qc{ten} = $multiuserquests{10}{jewelcrafting}{$qid};
+	$qc{eleven} = $multiuserquests{11}{jewelcrafting}{$qid};
+	$qc{twelve} = $multiuserquests{12}{jewelcrafting}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{jewelcrafting}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{jewelcrafting}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{jewelcrafting}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+}
+
+sub preprintprofleatherworking ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{leatherworking}{$qid};
+	$qc{one} = $multiuserquests{1}{leatherworking}{$qid};
+	$qc{two} = $multiuserquests{2}{leatherworking}{$qid};
+	$qc{three} = $multiuserquests{3}{leatherworking}{$qid};
+	$qc{four} = $multiuserquests{4}{leatherworking}{$qid};
+	$qc{five} = $multiuserquests{5}{leatherworking}{$qid};
+	$qc{six} = $multiuserquests{6}{leatherworking}{$qid};
+	$qc{seven} = $multiuserquests{7}{leatherworking}{$qid};
+	$qc{eight} = $multiuserquests{8}{leatherworking}{$qid};
+	$qc{nine} = $multiuserquests{9}{leatherworking}{$qid};
+	$qc{ten} = $multiuserquests{10}{leatherworking}{$qid};
+	$qc{eleven} = $multiuserquests{11}{leatherworking}{$qid};
+	$qc{twelve} = $multiuserquests{12}{leatherworking}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{leatherworking}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{leatherworking}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{leatherworking}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
 }
 
 sub preprintproftailoring ($$$$%) {
@@ -538,11 +850,78 @@ sub preprintproftailoring ($$$$%) {
 	$qc{fourteen} = $multiuserquests{14}{tailoring}{$qid};
 	$qc{fifteen} = $multiuserquests{15}{tailoring}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
-	
 }
 
+sub preprintprofherbalism ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{herbalism}{$qid};
+	$qc{one} = $multiuserquests{1}{herbalism}{$qid};
+	$qc{two} = $multiuserquests{2}{herbalism}{$qid};
+	$qc{three} = $multiuserquests{3}{herbalism}{$qid};
+	$qc{four} = $multiuserquests{4}{herbalism}{$qid};
+	$qc{five} = $multiuserquests{5}{herbalism}{$qid};
+	$qc{six} = $multiuserquests{6}{herbalism}{$qid};
+	$qc{seven} = $multiuserquests{7}{herbalism}{$qid};
+	$qc{eight} = $multiuserquests{8}{herbalism}{$qid};
+	$qc{nine} = $multiuserquests{9}{herbalism}{$qid};
+	$qc{ten} = $multiuserquests{10}{herbalism}{$qid};
+	$qc{eleven} = $multiuserquests{11}{herbalism}{$qid};
+	$qc{twelve} = $multiuserquests{12}{herbalism}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{herbalism}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{herbalism}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{herbalism}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+}
 
-sub preprintprofcookinglegion ($$$$%) {
+sub preprintprofmining ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{mining}{$qid};
+	$qc{one} = $multiuserquests{1}{mining}{$qid};
+	$qc{two} = $multiuserquests{2}{mining}{$qid};
+	$qc{three} = $multiuserquests{3}{mining}{$qid};
+	$qc{four} = $multiuserquests{4}{mining}{$qid};
+	$qc{five} = $multiuserquests{5}{mining}{$qid};
+	$qc{six} = $multiuserquests{6}{mining}{$qid};
+	$qc{seven} = $multiuserquests{7}{mining}{$qid};
+	$qc{eight} = $multiuserquests{8}{mining}{$qid};
+	$qc{nine} = $multiuserquests{9}{mining}{$qid};
+	$qc{ten} = $multiuserquests{10}{mining}{$qid};
+	$qc{eleven} = $multiuserquests{11}{mining}{$qid};
+	$qc{twelve} = $multiuserquests{12}{mining}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{mining}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{mining}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{mining}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+}
+
+sub preprintprofskinning ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{skinning}{$qid};
+	$qc{one} = $multiuserquests{1}{skinning}{$qid};
+	$qc{two} = $multiuserquests{2}{skinning}{$qid};
+	$qc{three} = $multiuserquests{3}{skinning}{$qid};
+	$qc{four} = $multiuserquests{4}{skinning}{$qid};
+	$qc{five} = $multiuserquests{5}{skinning}{$qid};
+	$qc{six} = $multiuserquests{6}{skinning}{$qid};
+	$qc{seven} = $multiuserquests{7}{skinning}{$qid};
+	$qc{eight} = $multiuserquests{8}{skinning}{$qid};
+	$qc{nine} = $multiuserquests{9}{skinning}{$qid};
+	$qc{ten} = $multiuserquests{10}{skinning}{$qid};
+	$qc{eleven} = $multiuserquests{11}{skinning}{$qid};
+	$qc{twelve} = $multiuserquests{12}{skinning}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{skinning}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{skinning}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{skinning}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+}
+
+sub preprintprofcooking ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
 	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
@@ -563,7 +942,52 @@ sub preprintprofcookinglegion ($$$$%) {
 	$qc{fourteen} = $multiuserquests{14}{cooking}{$qid};
 	$qc{fifteen} = $multiuserquests{15}{cooking}{$qid};
 	valueprint ($count, $wowheadurl, %qc);
-	
+}
+
+sub preprintproffishing ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{fishing}{$qid};
+	$qc{one} = $multiuserquests{1}{fishing}{$qid};
+	$qc{two} = $multiuserquests{2}{fishing}{$qid};
+	$qc{three} = $multiuserquests{3}{fishing}{$qid};
+	$qc{four} = $multiuserquests{4}{fishing}{$qid};
+	$qc{five} = $multiuserquests{5}{fishing}{$qid};
+	$qc{six} = $multiuserquests{6}{fishing}{$qid};
+	$qc{seven} = $multiuserquests{7}{fishing}{$qid};
+	$qc{eight} = $multiuserquests{8}{fishing}{$qid};
+	$qc{nine} = $multiuserquests{9}{fishing}{$qid};
+	$qc{ten} = $multiuserquests{10}{fishing}{$qid};
+	$qc{eleven} = $multiuserquests{11}{fishing}{$qid};
+	$qc{twelve} = $multiuserquests{12}{fishing}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{fishing}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{fishing}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{fishing}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
+}
+
+sub preprintprofarchaeology ($$$$%) {
+	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	$qc{zero} = $multiuserquests{0}{archaeology}{$qid};
+	$qc{one} = $multiuserquests{1}{archaeology}{$qid};
+	$qc{two} = $multiuserquests{2}{archaeology}{$qid};
+	$qc{three} = $multiuserquests{3}{archaeology}{$qid};
+	$qc{four} = $multiuserquests{4}{archaeology}{$qid};
+	$qc{five} = $multiuserquests{5}{archaeology}{$qid};
+	$qc{six} = $multiuserquests{6}{archaeology}{$qid};
+	$qc{seven} = $multiuserquests{7}{archaeology}{$qid};
+	$qc{eight} = $multiuserquests{8}{archaeology}{$qid};
+	$qc{nine} = $multiuserquests{9}{archaeology}{$qid};
+	$qc{ten} = $multiuserquests{10}{archaeology}{$qid};
+	$qc{eleven} = $multiuserquests{11}{archaeology}{$qid};
+	$qc{twelve} = $multiuserquests{12}{archaeology}{$qid};
+	$qc{thirteen} = $multiuserquests{13}{archaeology}{$qid};
+	$qc{fourteen} = $multiuserquests{14}{archaeology}{$qid};
+	$qc{fifteen} = $multiuserquests{15}{archaeology}{$qid};
+	valueprint ($count, $wowheadurl, %qc);
 }
 
 sub preprintachievement ($$$$%) {

@@ -4,8 +4,395 @@ use strict;
 use warnings;
 
 
+sub alchemy ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
+sub blacksmithing ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
 
 sub enchanting ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
+
+sub engineering ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
+
+sub inscription ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Inscription: Vanilla");
+	BNet::Utils::groupheader ("Inscription: Burning Crusade");
+	BNet::Utils::groupheader ("Inscription: Wrath of the Lich King");
+	BNet::Utils::preprintprofinscription($count, '50603', "Scroll of Intellect VII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '50604', "Scroll of Intellect VIII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '50610', "Scroll of Versatility VII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '50611', "Scroll of Versatility VIII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '50619', "Scroll of Stamina VII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '50620', "Scroll of Stamina VIII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '56948', "Glyph of the Orca", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '57715', "Ink of the Sea", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '57716', "Snowfall Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '58482', "Scroll of Agility VII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '58483', "Scroll of Agility VIII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '58490', "Scroll of Strength VII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '58491', "Scroll of Strength VIII", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '59497', "Iron-bound Tome", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '59498', "Faces of Doom", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '59504', "Darkmoon Card of the North", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '60337', "Scroll of Recall III", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '61117', "Master's Inscription of the Axe", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '61118', "Master's Inscription of the Crag", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '61119', "Master's Inscription of the Pinnacle", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '61120', "Master's Inscription of the Storm", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '64051', "Rituals of the Moon", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '64053', "Twilight Tome", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '69385', "Runescroll of Fortitude", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '112464', "Glyph of Honor", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '112469', "Glyph of Fighting Pose", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '148275', "Glyph of Angels", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '165465', "Research: Ink of the Sea", "", %multiusercriteria);
+
+	BNet::Utils::groupheader ("Inscription: Cataclysm");
+	BNet::Utils::preprintprofinscription($count, '56986', "Glyph of Crittermorph", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '58287', "Glyph of the Ursol Chameleon", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '64260', "Glyph of Disguise", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '68166', "Glyph of Thunder Strike", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '85785', "Runescroll of Fortitude II", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86004', "Blackfallow Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86005', "Inferno Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86375', "Swiftsteel Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86401', "Lionsmane Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86402', "Inscription of the Earth Prince", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86403', "Felfire Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86609', "Mysterious Fortune Card", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86615', "Darkmoon Card of Destruction", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86616', "Book of Blood", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86640', "Lord Rottington's Pressed Wisp Book", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86641', "Dungeoneering Guide", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86642', "Divine Companion", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86643', "Battle Tome", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86644', "Origami Slime", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86645', "Origami Rock", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86646', "Origami Beetle", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86648', "Key to the Planes", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86649', "Runed Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86652', "Rosethorn Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86653', "Silver Inlaid Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '86654', "Forged Documents", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '89244', "Forged Documents", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '89368', "Scroll of Intellect IX", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '89369', "Scroll of Strength IX", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '89370', "Scroll of Agility IX", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '89371', "Scroll of Versatility IX", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '89372', "Scroll of Stamina IX", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '89373', "Scroll of Protection IX", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '112430', "Glyph of Burning Anger", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '112462', "Glyph of Crackling Tiger Lightning", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '124466', "Glyph of the Heavens", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126800', "Glyph of Shadowy Friends", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '165466', "Research: Blackfallow Ink", "", %multiusercriteria);
+
+	BNet::Utils::groupheader ("Inscription: Mists of Pandaria");
+	BNet::Utils::preprintprofinscription($count, '58301', "Glyph of Lesser Proportion", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '64261', "Glyph of Deluge", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111645', "Ink of Dreams", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111646', "Starlight Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111830', "Darkmoon Card of Mists", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111908', "Inscribed Fan", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111909', "Inscribed Jade Fan", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111910', "Inscribed Red Fan", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111917', "Rain Poppy Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111918', "Inscribed Crane Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111919', "Inscribed Serpent Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111920', "Ghost Iron Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '111921', "Inscribed Tiger Staff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '112045', "Runescroll of Fortitude III", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '112996', "Scroll of Wisdom", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126696', "Glyph of the Val'kyr", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126988', "Origami Crane", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126989', "Origami Frog", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126994', "Greater Ox Horn Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126995', "Greater Crane Wing Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126996', "Greater Tiger Claw Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '126997', "Greater Tiger Fang Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127007', "Yu'lon Kite", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127009', "Chi-ji Kite", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127016', "Tiger Fang Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127017', "Tiger Claw Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127018', "Crane Wing Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127019', "Ox Horn Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127020', "Secret Tiger Fang Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127021', "Secret Tiger Claw Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127023', "Secret Crane Wing Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127024', "Secret Ox Horn Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127378', "Commissioned Painting", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127391', "Engraved Jade Disk", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '127481', "Inscribed Monument", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '128922', "Portrait of Madam Goya", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '146638', "Crafted Malevolent Gladiator's Medallion of Tenacity", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '148274', "Glyph of Pillar of Light", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '165467', "Research: Ink of Dreams", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '182158', "Glyph of the Sun", "", %multiusercriteria);
+
+	BNet::Utils::groupheader ("Inscription: Warlords of Draenor");
+	BNet::Utils::preprintprofinscription($count, '163294', "Darkmoon Card of Draenor", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '165804', "Warmaster's Firestick", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '166356', "Crystalfire Spellstaff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '166359', "Etched-Blade Warstaff", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '166363', "Shadowtome", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '166366', "Weapon Crystal", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '166432', "Volatile Crystal", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '166669', "Card of Omens", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '167950', "Research: Warbinder's Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '169081', "War Paints", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '175389', "Ocean Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '175390', "Laughing Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '175392', "Savage Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '176513', "Draenor Merchant Order", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '177045', "Secrets of Draenor Inscription", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '178248', "Ensorcelled Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '178497', "Warbinder's Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '178550', "Draenic Mortar", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '182125', "The Spirit of War", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '187494', "Mighty Weapon Crystal", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '187495', "Mighty Ensorcelled Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '187518', "Savage Weapon Crystal", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '187519', "Savage Ensorcelled Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '190381', "Mass Mill Frostweed", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '190382', "Mass Mill Fireweed", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '190383', "Mass Mill Gorgrond Flytrap", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '190384', "Mass Mill Starflower", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '190385', "Mass Mill Nagrand Arrowbloom", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '190386', "Mass Mill Talador Orchid", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '227561', "Tome of the Clear Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '227562', "Codex of the Clear Mind", "", %multiusercriteria);
+
+	BNet::Utils::groupheader ("Inscription: Legion");
+	BNet::Utils::preprintprofinscription($count, '191659', "Darkmoon Card of the Legion", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192802', "Scroll of Forgotten Knowledge", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192804', "Steamy Romance Novel Kit", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192808', "Vantus Rune: Ursoc", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192809', "Vantus Rune: Nythendra", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192810', "Vantus Rune: Il'gynoth, The Heart of Corruption", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192811', "Vantus Rune: Dragons of Nightmare", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192812', "Vantus Rune: Xavius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192813', "Vantus Rune: Elerethe Renferal", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192814', "Vantus Rune: Cenarius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192815', "Vantus Rune: Skorpyron", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192816', "Vantus Rune: Chronomatic Anomaly", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192817', "Vantus Rune: Trilliax", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192818', "Vantus Rune: Spellblade Aluriel", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192819', "Vantus Rune: Tichondrius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192820', "Vantus Rune: High Botanist Tel'arn", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192821', "Vantus Rune: Krosus", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192822', "Vantus Rune: Star Augur Etraeus", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192823', "Vantus Rune: Grand Magistrix Elisande", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192824', "Vantus Rune: Gul'dan", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192838', "Glyph of Ghostly Fade", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192839', "Glyph of Fel Imp", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192840', "Glyph of Sparkles", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192841', "Glyph of Blackout", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192842', "Glyph of the Sentinel", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192843', "Glyph of Crackling Crane Lightning", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192844', "Glyph of the Spectral Raptor", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192845', "Glyph of Stellar Flare", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192846', "Glyph of the Queen", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192849', "Glyph of Fel Touched Souls", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192850', "Glyph of Crackling Flames", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192851', "Glyph of Fallow Wings", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192852', "Glyph of Tattered Wings", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192854', "Prophecy Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192855', "Prophecy Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192856', "Prophecy Tarot", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192859', "Darkmoon Card of the Legion", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192860', "Vantus Rune: Ursoc", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192861', "Vantus Rune: Nythendra", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192862', "Vantus Rune: Il'gynoth, The Heart of Corruption", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192863', "Vantus Rune: Dragons of Nightmare", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192864', "Vantus Rune: Xavius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192865', "Vantus Rune: Elerethe Renferal", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192866', "Vantus Rune: Cenarius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192867', "Vantus Rune: Skorpyron", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192868', "Vantus Rune: Chronomatic Anomaly", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192869', "Vantus Rune: Trilliax", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192870', "Vantus Rune: Spellblade Aluriel", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192871', "Vantus Rune: Tichondrius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192872', "Vantus Rune: High Botanist Tel'arn", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192873', "Vantus Rune: Krosus", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192874', "Vantus Rune: Star Augur Etraeus", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192875', "Vantus Rune: Grand Magistrix Elisande", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192876', "Vantus Rune: Gul'dan", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192890', "Darkmoon Card of the Legion", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192891', "Vantus Rune: Ursoc", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192892', "Vantus Rune: Nythendra", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192893', "Vantus Rune: Il'gynoth, The Heart of Corruption", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192894', "Vantus Rune: Dragons of Nightmare", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192895', "Vantus Rune: Xavius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192896', "Vantus Rune: Elerethe Renferal", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192897', "Vantus Rune: Cenarius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192898', "Vantus Rune: Skorpyron", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192899', "Vantus Rune: Chronomatic Anomaly", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192900', "Vantus Rune: Trilliax", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192901', "Vantus Rune: Spellblade Aluriel", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192902', "Vantus Rune: Tichondrius", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192903', "Vantus Rune: High Botanist Tel'arn", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192904', "Vantus Rune: Krosus", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192905', "Vantus Rune: Star Augur Etraeus", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192906', "Vantus Rune: Grand Magistrix Elisande", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '192907', "Vantus Rune: Gul'dan", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209510', "Aqual Mark", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209511', "Straszan Mark", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209658', "Mass Mill Aethril", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209659', "Mass Mill Dreamleaf", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209660', "Mass Mill Foxflower", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209661', "Mass Mill Fjarnskaggl", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209662', "Mass Mill Starlight Rose", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '209664', "Mass Mill Felwort", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '210116', "Mass Mill Yseralline Seeds", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '210653', "Songs of Battle", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '210654', "Songs of Peace", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '210656', "Songs of the Legion", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '222408', "Unwritten Legend", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '223940', "Songs of the Horde", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '223941', "Songs of the Alliance", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225522', "Glyph of Cracked Ice", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225524', "Glyph of the Chilled Shell", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225525', "Glyph of the Crimson Shell", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225527', "Glyph of Fel Wings", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225528', "Glyph of Fel-Enemies", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225529', "Glyph of Mana Touched Souls", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225530', "Glyph of Shadow-Enemies", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225531', "Glyph of the Doe", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225532', "Glyph of the Feral Chameleon", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225533', "Glyph of the Forest Path", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225534', "Glyph of Autumnal Bloom", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225535', "Glyph of Arachnophobia", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225536', "Glyph of Nesingwary's Nemeses", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225538', "Glyph of the Dire Stable", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225539', "Glyph of the Goblin Anti-Grav Flare", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225540', "Glyph of the Headhunter", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225541', "Glyph of the Hook", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225543', "Glyph of the Trident", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225545', "Glyph of Polymorphic Proportions", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225546', "Glyph of Smolder", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225547', "Glyph of Yu'lon's Grace", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225548', "Glyph of Burnout", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225549', "Glyph of Flash Bang", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225550', "Glyph of Critterhex", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225551', "Glyph of Flickering", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225552', "Glyph of Pebbles", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225554', "Glyph of the Inquisitor's Eye", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225555', "Glyph of the Observer", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225556', "Glyph of the Shivarra", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225558', "Glyph of the Voidlord", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225559', "Glyph of Wrathguard", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '225560', "Glyph of the Blazing Savior", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '226248', "Codex of the Tranquil Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '227043', "Tome of the Tranquil Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '227239', "Codex of the Tranquil Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '227240', "Codex of the Tranquil Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '228381', "Glyph of Falling Thunder", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229177', "Vantus Rune: Odyn", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229178', "Vantus Rune: Guarm", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229179', "Vantus Rune: Helya", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229180', "Vantus Rune: Odyn", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229181', "Vantus Rune: Guarm", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229182', "Vantus Rune: Helya", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229183', "Vantus Rune: Odyn", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229184', "Vantus Rune: Guarm", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '229185', "Vantus Rune: Helya", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '232274', "Glyph of Crackling Ox Lightning", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '232275', "Glyph of the Trusted Steed", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '233278', "Glyph of Twilight Bloom", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '238577', "Vantus Rune: Tomb of Sargeras", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '238578', "Vantus Rune: Tomb of Sargeras", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '238579', "Vantus Rune: Tomb of Sargeras", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '240272', "Glyph of the Shadow Succubus", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '246982', "Glyph of Ember Shards", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '246984', "Glyph of Floating Shards", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '246999', "Glyph of Fel-Touched Shards", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '247614', "Vantus Rune: Antorus, the Burning Throne", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '247615', "Vantus Rune: Antorus, the Burning Throne", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '247616', "Vantus Rune: Antorus, the Burning Throne", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '247861', "Mass Mill Astral Glory", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '254227', "Glyph of the Lightspawn", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '254231', "Glyph of the Voidling", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '254238', "Glyph of Dark Absolution", "", %multiusercriteria);
+
+	BNet::Utils::groupheader ("Inscription: Battle for Azeroth");
+	BNet::Utils::preprintprofinscription($count, '256217', "Mass Mill Riverbud", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256218', "Mass Mill Star Moss", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256219', "Mass Mill Akunda's Bite", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256220', "Mass Mill Winter's Kiss", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256221', "Mass Mill Siren's Pollen", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256223', "Mass Mill Sea Stalk", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256232', "Codex of the Quiet Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256233', "Codex of the Quiet Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256234', "Codex of the Quiet Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256235', "Tome of the Quiet Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256236', "Tome of the Quiet Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256237', "Tome of the Quiet Mind", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256245', "Darkmoon Card of War", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256246', "Darkmoon Card of War", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256247', "Inscribed Vessel of Mysticism", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256248', "Inscribed Vessel of Mysticism", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256249', "Inscribed Vessel of Mysticism", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256275', "Contract: Proudmoore Admiralty", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256276', "Contract: Proudmoore Admiralty", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256277', "Contract: Proudmoore Admiralty", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256278', "Contract: Order of Embers", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256279', "Contract: Order of Embers", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256280', "Contract: Order of Embers", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256281', "Contract: Storm's Wake", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256282', "Contract: Storm's Wake", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256283', "Contract: Storm's Wake", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256284', "Contract: Zandalari Empire", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256285', "Contract: Zandalari Empire", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256286', "Contract: Zandalari Empire", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256287', "Contract: Talanji's Expedition", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256288', "Contract: Talanji's Expedition", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256289', "Contract: Talanji's Expedition", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256290', "Contract: Voldunai", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256291', "Contract: Voldunai", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256293', "Contract: Voldunai", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256294', "Contract: Tortollan Seekers", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256295', "Contract: Tortollan Seekers", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256296', "Contract: Tortollan Seekers", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256297', "Contract: Champions of Azeroth", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256298', "Contract: Champions of Azeroth", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256299', "Contract: Champions of Azeroth", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256303', "Vantus Rune: Uldir", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256304', "Vantus Rune: Uldir", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256305', "Vantus Rune: Uldir", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '256308', "Mass Mill Anchor Weed", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '264766', "War-Scroll of Intellect", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '264767', "War-Scroll of Battle Shout", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '264769', "War-Scroll of Fortitude", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '264776', "Ultramarine Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '264777', "Crimson Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '264778', "Viridescent Ink", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '269065', "Scroll of Unlocking", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '269740', "Honorable Combatant's Etched Vessel", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '269741', "Honorable Combatant's Etched Vessel", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '269742', "Honorable Combatant's Etched Vessel", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '276059', "Glyph of the Dolphin", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '276088', "Glyph of the Tideskipper", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '276121', "Glyph of the Humble Flyer", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '278422', "Crimson Ink Well", "", %multiusercriteria);
+	BNet::Utils::preprintprofinscription($count, '278527', "Darkmoon Card of War", "", %multiusercriteria);
+
+}
+sub jewelcrafting ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
+sub leatherworking ($%) {
 	my ($count, %multiusercriteria) = @_;
 
 }
@@ -413,18 +800,20 @@ sub tailoring ($%) {
 	BNet::Utils::preprintproftailoring($count, '63924', "Emerald Bag", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '64729', "Frostguard Drape", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '64730', "Cloak of Crimson Snow", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67064', "Royal Moonshroud Robe", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67065', "Royal Moonshroud Bracers", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67066', "Merlin's Robe", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67079', "Bejeweled Wizard's Bracers", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67144', "Royal Moonshroud Robe", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67145', "Bejeweled Wizard's Bracers", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67146', "Merlin's Robe", "", %multiusercriteria);
-	BNet::Utils::preprintproftailoring($count, '67147', "Royal Moonshroud Bracers", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '70550', "Leggings of Woven Death", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '70551', "Deathfrost Boots", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '70552', "Lightweave Leggings", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '70553', "Sandals of Consecration", "", %multiusercriteria);
+	BNet::Utils::groupheader ("Tailoring: Wrath of the Lich King");
+	BNet::Utils::preprintproftailoring($count, '67079', "Bejeweled Wizard's Bracers", "", %multiusercriteria);
+	BNet::Utils::preprintproftailoring($count, '67066', "Merlin's Robe", "", %multiusercriteria);
+	BNet::Utils::preprintproftailoring($count, '67064', "Royal Moonshroud Robe", "", %multiusercriteria);
+	BNet::Utils::preprintproftailoring($count, '67065', "Royal Moonshroud Bracers", "", %multiusercriteria);
+	BNet::Utils::groupheader ("Tailoring: Wrath of the Lich King");
+	BNet::Utils::preprintproftailoring($count, '67145', "Bejeweled Wizard's Bracers", "", %multiusercriteria);
+	BNet::Utils::preprintproftailoring($count, '67146', "Merlin's Robe", "", %multiusercriteria);
+	BNet::Utils::preprintproftailoring($count, '67147', "Royal Moonshroud Bracers", "", %multiusercriteria);
+	BNet::Utils::preprintproftailoring($count, '67144', "Royal Moonshroud Robe", "", %multiusercriteria);
 
 	BNet::Utils::groupheader ("Tailoring: Cataclysm");
 	BNet::Utils::preprintproftailoring($count, '74964', "Bolt of Embersilk Cloth", "", %multiusercriteria);
@@ -719,6 +1108,19 @@ sub tailoring ($%) {
 	BNet::Utils::preprintproftailoring($count, '247807', "Lightweave Breeches (Rank 1)", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '247808', "Lightweave Breeches (Rank 2)", "", %multiusercriteria);
 	BNet::Utils::preprintproftailoring($count, '247809', "Lightweave Breeches (Rank 3)", "", %multiusercriteria);
+
+}
+
+sub herbalism ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
+sub mining ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
+sub skinning ($%) {
+	my ($count, %multiusercriteria) = @_;
 
 }
 
@@ -1128,6 +1530,15 @@ sub cooking ($%) {
 	BNet::Utils::preprintprofcooking($count, '201543', "Lavish Suramar Feast (Rank 2)", "inv_misc_food_legion_lavishsuramarfiest", %multiusercriteria);
 	BNet::Utils::preprintprofcooking($count, '201563', "Lavish Suramar Feast (Rank 3)", "inv_misc_food_legion_lavishsuramarfiest", %multiusercriteria);
 	BNet::Utils::preprintprofcooking($count, '251258', "Feast of the Fishes", "inv_misc_basket_04", %multiusercriteria);
+
+}
+
+sub fishing ($%) {
+	my ($count, %multiusercriteria) = @_;
+
+}
+sub archaeology ($%) {
+	my ($count, %multiusercriteria) = @_;
 
 }
 

@@ -490,19 +490,87 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECA) = BNet::Utils::percharrecipescooking ($userinfo00);
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECA) = BNet::Utils::percharrecipesalchemy ($userinfo00);
 			foreach my $uq (@UI00RECA) {
 				my $lookupres= findinarray($uq, @UI00RECA);
-				$multiusercriteria{0}{cooking}{$uq} = $lookupres;
+				$multiusercriteria{0}{alchemy}{$uq} = $lookupres;
 			}
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECB) = BNet::Utils::percharrecipesenchanting ($userinfo00);
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo00);
 			foreach my $uq (@UI00RECB) {
 				my $lookupres= findinarray($uq, @UI00RECB);
-				$multiusercriteria{0}{enchanting}{$uq} = $lookupres;
+				$multiusercriteria{0}{archaeology}{$uq} = $lookupres;
 			}
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECC) = BNet::Utils::percharrecipestailoring ($userinfo00);
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo00);
 			foreach my $uq (@UI00RECC) {
 				my $lookupres= findinarray($uq, @UI00RECC);
+				$multiusercriteria{0}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECD) = BNet::Utils::percharrecipescooking ($userinfo00);
+			foreach my $uq (@UI00RECD) {
+				my $lookupres= findinarray($uq, @UI00RECD);
+				$multiusercriteria{0}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECE) = BNet::Utils::percharrecipesenchanting ($userinfo00);
+			foreach my $uq (@UI00RECE) {
+				my $lookupres= findinarray($uq, @UI00RECE);
+				$multiusercriteria{0}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECF) = BNet::Utils::percharrecipesengineering ($userinfo00);
+			foreach my $uq (@UI00RECF) {
+				my $lookupres= findinarray($uq, @UI00RECF);
+				$multiusercriteria{0}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECG) = BNet::Utils::percharrecipesfishing ($userinfo00);
+			foreach my $uq (@UI00RECG) {
+				my $lookupres= findinarray($uq, @UI00RECG);
+				$multiusercriteria{0}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECH) = BNet::Utils::percharrecipesherbalism ($userinfo00);
+			foreach my $uq (@UI00RECH) {
+				my $lookupres= findinarray($uq, @UI00RECH);
+				$multiusercriteria{0}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECI) = BNet::Utils::percharrecipesinscription ($userinfo00);
+			foreach my $uq (@UI00RECI) {
+				my $lookupres= findinarray($uq, @UI00RECI);
+				$multiusercriteria{0}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo00);
+			foreach my $uq (@UI00RECJ) {
+				my $lookupres= findinarray($uq, @UI00RECJ);
+				$multiusercriteria{0}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo00);
+			foreach my $uq (@UI00RECK) {
+				my $lookupres= findinarray($uq, @UI00RECK);
+				$multiusercriteria{0}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECL) = BNet::Utils::percharrecipesmining ($userinfo00);
+			foreach my $uq (@UI00RECL) {
+				my $lookupres= findinarray($uq, @UI00RECL);
+				$multiusercriteria{0}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECM) = BNet::Utils::percharrecipesskinning ($userinfo00);
+			foreach my $uq (@UI00RECM) {
+				my $lookupres= findinarray($uq, @UI00RECM);
+				$multiusercriteria{0}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI00RECN) = BNet::Utils::percharrecipestailoring ($userinfo00);
+			foreach my $uq (@UI00RECN) {
+				my $lookupres= findinarray($uq, @UI00RECN);
 				$multiusercriteria{0}{tailoring}{$uq} = $lookupres;
 			}
 		}
@@ -522,20 +590,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI01RECA) = BNet::Utils::percharrecipescooking ($userinfo01);
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECA) = BNet::Utils::percharrecipesalchemy ($userinfo01);
 			foreach my $uq (@UI01RECA) {
 				my $lookupres= findinarray($uq, @UI01RECA);
-				$multiusercriteria{0}{cooking}{$uq} = $lookupres;
+				$multiusercriteria{1}{alchemy}{$uq} = $lookupres;
 			}
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI01RECB) = BNet::Utils::percharrecipesenchanting ($userinfo01);
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo01);
 			foreach my $uq (@UI01RECB) {
 				my $lookupres= findinarray($uq, @UI01RECB);
-				$multiusercriteria{0}{enchanting}{$uq} = $lookupres;
+				$multiusercriteria{1}{archaeology}{$uq} = $lookupres;
 			}
-			($multiuserquests{0}{profinfo}{cooking}{rank}, my @UI01RECC) = BNet::Utils::percharrecipestailoring ($userinfo01);
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo01);
 			foreach my $uq (@UI01RECC) {
 				my $lookupres= findinarray($uq, @UI01RECC);
-				$multiusercriteria{0}{tailoring}{$uq} = $lookupres;
+				$multiusercriteria{1}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECD) = BNet::Utils::percharrecipescooking ($userinfo01);
+			foreach my $uq (@UI01RECD) {
+				my $lookupres= findinarray($uq, @UI01RECD);
+				$multiusercriteria{1}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECE) = BNet::Utils::percharrecipesenchanting ($userinfo01);
+			foreach my $uq (@UI01RECE) {
+				my $lookupres= findinarray($uq, @UI01RECE);
+				$multiusercriteria{1}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECF) = BNet::Utils::percharrecipesengineering ($userinfo01);
+			foreach my $uq (@UI01RECF) {
+				my $lookupres= findinarray($uq, @UI01RECF);
+				$multiusercriteria{1}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECG) = BNet::Utils::percharrecipesfishing ($userinfo01);
+			foreach my $uq (@UI01RECG) {
+				my $lookupres= findinarray($uq, @UI01RECG);
+				$multiusercriteria{1}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECH) = BNet::Utils::percharrecipesherbalism ($userinfo01);
+			foreach my $uq (@UI01RECH) {
+				my $lookupres= findinarray($uq, @UI01RECH);
+				$multiusercriteria{1}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECI) = BNet::Utils::percharrecipesinscription ($userinfo01);
+			foreach my $uq (@UI01RECI) {
+				my $lookupres= findinarray($uq, @UI01RECI);
+				$multiusercriteria{1}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo01);
+			foreach my $uq (@UI01RECJ) {
+				my $lookupres= findinarray($uq, @UI01RECJ);
+				$multiusercriteria{1}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo01);
+			foreach my $uq (@UI01RECK) {
+				my $lookupres= findinarray($uq, @UI01RECK);
+				$multiusercriteria{1}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECL) = BNet::Utils::percharrecipesmining ($userinfo01);
+			foreach my $uq (@UI01RECL) {
+				my $lookupres= findinarray($uq, @UI01RECL);
+				$multiusercriteria{1}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECM) = BNet::Utils::percharrecipesskinning ($userinfo01);
+			foreach my $uq (@UI01RECM) {
+				my $lookupres= findinarray($uq, @UI01RECM);
+				$multiusercriteria{1}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{1}{profinfo}{cooking}{rank}, my @UI01RECN) = BNet::Utils::percharrecipestailoring ($userinfo01);
+			foreach my $uq (@UI01RECN) {
+				my $lookupres= findinarray($uq, @UI01RECN);
+				$multiusercriteria{1}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -554,10 +690,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02REC) = BNet::Utils::percharrecipescooking ($userinfo02);
-			foreach my $uq (@UI02REC) {
-				my $lookupres= findinarray($uq, @UI02REC);
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECA) = BNet::Utils::percharrecipesalchemy ($userinfo02);
+			foreach my $uq (@UI02RECA) {
+				my $lookupres= findinarray($uq, @UI02RECA);
+				$multiusercriteria{2}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo02);
+			foreach my $uq (@UI02RECB) {
+				my $lookupres= findinarray($uq, @UI02RECB);
+				$multiusercriteria{2}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo02);
+			foreach my $uq (@UI02RECC) {
+				my $lookupres= findinarray($uq, @UI02RECC);
+				$multiusercriteria{2}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECD) = BNet::Utils::percharrecipescooking ($userinfo02);
+			foreach my $uq (@UI02RECD) {
+				my $lookupres= findinarray($uq, @UI02RECD);
 				$multiusercriteria{2}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECE) = BNet::Utils::percharrecipesenchanting ($userinfo02);
+			foreach my $uq (@UI02RECE) {
+				my $lookupres= findinarray($uq, @UI02RECE);
+				$multiusercriteria{2}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECF) = BNet::Utils::percharrecipesengineering ($userinfo02);
+			foreach my $uq (@UI02RECF) {
+				my $lookupres= findinarray($uq, @UI02RECF);
+				$multiusercriteria{2}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECG) = BNet::Utils::percharrecipesfishing ($userinfo02);
+			foreach my $uq (@UI02RECG) {
+				my $lookupres= findinarray($uq, @UI02RECG);
+				$multiusercriteria{2}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECH) = BNet::Utils::percharrecipesherbalism ($userinfo02);
+			foreach my $uq (@UI02RECH) {
+				my $lookupres= findinarray($uq, @UI02RECH);
+				$multiusercriteria{2}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECI) = BNet::Utils::percharrecipesinscription ($userinfo02);
+			foreach my $uq (@UI02RECI) {
+				my $lookupres= findinarray($uq, @UI02RECI);
+				$multiusercriteria{2}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo02);
+			foreach my $uq (@UI02RECJ) {
+				my $lookupres= findinarray($uq, @UI02RECJ);
+				$multiusercriteria{2}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo02);
+			foreach my $uq (@UI02RECK) {
+				my $lookupres= findinarray($uq, @UI02RECK);
+				$multiusercriteria{2}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECL) = BNet::Utils::percharrecipesmining ($userinfo02);
+			foreach my $uq (@UI02RECL) {
+				my $lookupres= findinarray($uq, @UI02RECL);
+				$multiusercriteria{2}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECM) = BNet::Utils::percharrecipesskinning ($userinfo02);
+			foreach my $uq (@UI02RECM) {
+				my $lookupres= findinarray($uq, @UI02RECM);
+				$multiusercriteria{2}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{2}{profinfo}{cooking}{rank}, my @UI02RECN) = BNet::Utils::percharrecipestailoring ($userinfo02);
+			foreach my $uq (@UI02RECN) {
+				my $lookupres= findinarray($uq, @UI02RECN);
+				$multiusercriteria{2}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -576,10 +790,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03REC) = BNet::Utils::percharrecipescooking ($userinfo03);
-			foreach my $uq (@UI03REC) {
-				my $lookupres= findinarray($uq, @UI03REC);
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECA) = BNet::Utils::percharrecipesalchemy ($userinfo03);
+			foreach my $uq (@UI03RECA) {
+				my $lookupres= findinarray($uq, @UI03RECA);
+				$multiusercriteria{3}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo03);
+			foreach my $uq (@UI03RECB) {
+				my $lookupres= findinarray($uq, @UI03RECB);
+				$multiusercriteria{3}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo03);
+			foreach my $uq (@UI03RECC) {
+				my $lookupres= findinarray($uq, @UI03RECC);
+				$multiusercriteria{3}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECD) = BNet::Utils::percharrecipescooking ($userinfo03);
+			foreach my $uq (@UI03RECD) {
+				my $lookupres= findinarray($uq, @UI03RECD);
 				$multiusercriteria{3}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECE) = BNet::Utils::percharrecipesenchanting ($userinfo03);
+			foreach my $uq (@UI03RECE) {
+				my $lookupres= findinarray($uq, @UI03RECE);
+				$multiusercriteria{3}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECF) = BNet::Utils::percharrecipesengineering ($userinfo03);
+			foreach my $uq (@UI03RECF) {
+				my $lookupres= findinarray($uq, @UI03RECF);
+				$multiusercriteria{3}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECG) = BNet::Utils::percharrecipesfishing ($userinfo03);
+			foreach my $uq (@UI03RECG) {
+				my $lookupres= findinarray($uq, @UI03RECG);
+				$multiusercriteria{3}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECH) = BNet::Utils::percharrecipesherbalism ($userinfo03);
+			foreach my $uq (@UI03RECH) {
+				my $lookupres= findinarray($uq, @UI03RECH);
+				$multiusercriteria{3}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECI) = BNet::Utils::percharrecipesinscription ($userinfo03);
+			foreach my $uq (@UI03RECI) {
+				my $lookupres= findinarray($uq, @UI03RECI);
+				$multiusercriteria{3}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo03);
+			foreach my $uq (@UI03RECJ) {
+				my $lookupres= findinarray($uq, @UI03RECJ);
+				$multiusercriteria{3}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo03);
+			foreach my $uq (@UI03RECK) {
+				my $lookupres= findinarray($uq, @UI03RECK);
+				$multiusercriteria{3}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECL) = BNet::Utils::percharrecipesmining ($userinfo03);
+			foreach my $uq (@UI03RECL) {
+				my $lookupres= findinarray($uq, @UI03RECL);
+				$multiusercriteria{3}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECM) = BNet::Utils::percharrecipesskinning ($userinfo03);
+			foreach my $uq (@UI03RECM) {
+				my $lookupres= findinarray($uq, @UI03RECM);
+				$multiusercriteria{3}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{3}{profinfo}{cooking}{rank}, my @UI03RECN) = BNet::Utils::percharrecipestailoring ($userinfo03);
+			foreach my $uq (@UI03RECN) {
+				my $lookupres= findinarray($uq, @UI03RECN);
+				$multiusercriteria{3}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -598,10 +890,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04REC) = BNet::Utils::percharrecipescooking ($userinfo04);
-			foreach my $uq (@UI04REC) {
-				my $lookupres= findinarray($uq, @UI04REC);
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECA) = BNet::Utils::percharrecipesalchemy ($userinfo04);
+			foreach my $uq (@UI04RECA) {
+				my $lookupres= findinarray($uq, @UI04RECA);
+				$multiusercriteria{4}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo04);
+			foreach my $uq (@UI04RECB) {
+				my $lookupres= findinarray($uq, @UI04RECB);
+				$multiusercriteria{4}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo04);
+			foreach my $uq (@UI04RECC) {
+				my $lookupres= findinarray($uq, @UI04RECC);
+				$multiusercriteria{4}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECD) = BNet::Utils::percharrecipescooking ($userinfo04);
+			foreach my $uq (@UI04RECD) {
+				my $lookupres= findinarray($uq, @UI04RECD);
 				$multiusercriteria{4}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECE) = BNet::Utils::percharrecipesenchanting ($userinfo04);
+			foreach my $uq (@UI04RECE) {
+				my $lookupres= findinarray($uq, @UI04RECE);
+				$multiusercriteria{4}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECF) = BNet::Utils::percharrecipesengineering ($userinfo04);
+			foreach my $uq (@UI04RECF) {
+				my $lookupres= findinarray($uq, @UI04RECF);
+				$multiusercriteria{4}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECG) = BNet::Utils::percharrecipesfishing ($userinfo04);
+			foreach my $uq (@UI04RECG) {
+				my $lookupres= findinarray($uq, @UI04RECG);
+				$multiusercriteria{4}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECH) = BNet::Utils::percharrecipesherbalism ($userinfo04);
+			foreach my $uq (@UI04RECH) {
+				my $lookupres= findinarray($uq, @UI04RECH);
+				$multiusercriteria{4}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECI) = BNet::Utils::percharrecipesinscription ($userinfo04);
+			foreach my $uq (@UI04RECI) {
+				my $lookupres= findinarray($uq, @UI04RECI);
+				$multiusercriteria{4}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo04);
+			foreach my $uq (@UI04RECJ) {
+				my $lookupres= findinarray($uq, @UI04RECJ);
+				$multiusercriteria{4}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo04);
+			foreach my $uq (@UI04RECK) {
+				my $lookupres= findinarray($uq, @UI04RECK);
+				$multiusercriteria{4}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECL) = BNet::Utils::percharrecipesmining ($userinfo04);
+			foreach my $uq (@UI04RECL) {
+				my $lookupres= findinarray($uq, @UI04RECL);
+				$multiusercriteria{4}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECM) = BNet::Utils::percharrecipesskinning ($userinfo04);
+			foreach my $uq (@UI04RECM) {
+				my $lookupres= findinarray($uq, @UI04RECM);
+				$multiusercriteria{4}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{4}{profinfo}{cooking}{rank}, my @UI04RECN) = BNet::Utils::percharrecipestailoring ($userinfo04);
+			foreach my $uq (@UI04RECN) {
+				my $lookupres= findinarray($uq, @UI04RECN);
+				$multiusercriteria{4}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -620,10 +990,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05REC) = BNet::Utils::percharrecipescooking ($userinfo05);
-			foreach my $uq (@UI05REC) {
-				my $lookupres= findinarray($uq, @UI05REC);
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECA) = BNet::Utils::percharrecipesalchemy ($userinfo05);
+			foreach my $uq (@UI05RECA) {
+				my $lookupres= findinarray($uq, @UI05RECA);
+				$multiusercriteria{5}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo05);
+			foreach my $uq (@UI05RECB) {
+				my $lookupres= findinarray($uq, @UI05RECB);
+				$multiusercriteria{5}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo05);
+			foreach my $uq (@UI05RECC) {
+				my $lookupres= findinarray($uq, @UI05RECC);
+				$multiusercriteria{5}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECD) = BNet::Utils::percharrecipescooking ($userinfo05);
+			foreach my $uq (@UI05RECD) {
+				my $lookupres= findinarray($uq, @UI05RECD);
 				$multiusercriteria{5}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECE) = BNet::Utils::percharrecipesenchanting ($userinfo05);
+			foreach my $uq (@UI05RECE) {
+				my $lookupres= findinarray($uq, @UI05RECE);
+				$multiusercriteria{5}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECF) = BNet::Utils::percharrecipesengineering ($userinfo05);
+			foreach my $uq (@UI05RECF) {
+				my $lookupres= findinarray($uq, @UI05RECF);
+				$multiusercriteria{5}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECG) = BNet::Utils::percharrecipesfishing ($userinfo05);
+			foreach my $uq (@UI05RECG) {
+				my $lookupres= findinarray($uq, @UI05RECG);
+				$multiusercriteria{5}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECH) = BNet::Utils::percharrecipesherbalism ($userinfo05);
+			foreach my $uq (@UI05RECH) {
+				my $lookupres= findinarray($uq, @UI05RECH);
+				$multiusercriteria{5}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECI) = BNet::Utils::percharrecipesinscription ($userinfo05);
+			foreach my $uq (@UI05RECI) {
+				my $lookupres= findinarray($uq, @UI05RECI);
+				$multiusercriteria{5}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo05);
+			foreach my $uq (@UI05RECJ) {
+				my $lookupres= findinarray($uq, @UI05RECJ);
+				$multiusercriteria{5}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo05);
+			foreach my $uq (@UI05RECK) {
+				my $lookupres= findinarray($uq, @UI05RECK);
+				$multiusercriteria{5}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECL) = BNet::Utils::percharrecipesmining ($userinfo05);
+			foreach my $uq (@UI05RECL) {
+				my $lookupres= findinarray($uq, @UI05RECL);
+				$multiusercriteria{5}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECM) = BNet::Utils::percharrecipesskinning ($userinfo05);
+			foreach my $uq (@UI05RECM) {
+				my $lookupres= findinarray($uq, @UI05RECM);
+				$multiusercriteria{5}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{5}{profinfo}{cooking}{rank}, my @UI05RECN) = BNet::Utils::percharrecipestailoring ($userinfo05);
+			foreach my $uq (@UI05RECN) {
+				my $lookupres= findinarray($uq, @UI05RECN);
+				$multiusercriteria{5}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -642,10 +1090,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06REC) = BNet::Utils::percharrecipescooking ($userinfo06);
-			foreach my $uq (@UI06REC) {
-				my $lookupres= findinarray($uq, @UI06REC);
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECA) = BNet::Utils::percharrecipesalchemy ($userinfo06);
+			foreach my $uq (@UI06RECA) {
+				my $lookupres= findinarray($uq, @UI06RECA);
+				$multiusercriteria{6}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo06);
+			foreach my $uq (@UI06RECB) {
+				my $lookupres= findinarray($uq, @UI06RECB);
+				$multiusercriteria{6}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo06);
+			foreach my $uq (@UI06RECC) {
+				my $lookupres= findinarray($uq, @UI06RECC);
+				$multiusercriteria{6}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECD) = BNet::Utils::percharrecipescooking ($userinfo06);
+			foreach my $uq (@UI06RECD) {
+				my $lookupres= findinarray($uq, @UI06RECD);
 				$multiusercriteria{6}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECE) = BNet::Utils::percharrecipesenchanting ($userinfo06);
+			foreach my $uq (@UI06RECE) {
+				my $lookupres= findinarray($uq, @UI06RECE);
+				$multiusercriteria{6}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECF) = BNet::Utils::percharrecipesengineering ($userinfo06);
+			foreach my $uq (@UI06RECF) {
+				my $lookupres= findinarray($uq, @UI06RECF);
+				$multiusercriteria{6}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECG) = BNet::Utils::percharrecipesfishing ($userinfo06);
+			foreach my $uq (@UI06RECG) {
+				my $lookupres= findinarray($uq, @UI06RECG);
+				$multiusercriteria{6}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECH) = BNet::Utils::percharrecipesherbalism ($userinfo06);
+			foreach my $uq (@UI06RECH) {
+				my $lookupres= findinarray($uq, @UI06RECH);
+				$multiusercriteria{6}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECI) = BNet::Utils::percharrecipesinscription ($userinfo06);
+			foreach my $uq (@UI06RECI) {
+				my $lookupres= findinarray($uq, @UI06RECI);
+				$multiusercriteria{6}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo06);
+			foreach my $uq (@UI06RECJ) {
+				my $lookupres= findinarray($uq, @UI06RECJ);
+				$multiusercriteria{6}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo06);
+			foreach my $uq (@UI06RECK) {
+				my $lookupres= findinarray($uq, @UI06RECK);
+				$multiusercriteria{6}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECL) = BNet::Utils::percharrecipesmining ($userinfo06);
+			foreach my $uq (@UI06RECL) {
+				my $lookupres= findinarray($uq, @UI06RECL);
+				$multiusercriteria{6}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECM) = BNet::Utils::percharrecipesskinning ($userinfo06);
+			foreach my $uq (@UI06RECM) {
+				my $lookupres= findinarray($uq, @UI06RECM);
+				$multiusercriteria{6}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{6}{profinfo}{cooking}{rank}, my @UI06RECN) = BNet::Utils::percharrecipestailoring ($userinfo06);
+			foreach my $uq (@UI06RECN) {
+				my $lookupres= findinarray($uq, @UI06RECN);
+				$multiusercriteria{6}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -664,10 +1190,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07REC) = BNet::Utils::percharrecipescooking ($userinfo07);
-			foreach my $uq (@UI07REC) {
-				my $lookupres= findinarray($uq, @UI07REC);
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECA) = BNet::Utils::percharrecipesalchemy ($userinfo07);
+			foreach my $uq (@UI07RECA) {
+				my $lookupres= findinarray($uq, @UI07RECA);
+				$multiusercriteria{7}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo07);
+			foreach my $uq (@UI07RECB) {
+				my $lookupres= findinarray($uq, @UI07RECB);
+				$multiusercriteria{7}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo07);
+			foreach my $uq (@UI07RECC) {
+				my $lookupres= findinarray($uq, @UI07RECC);
+				$multiusercriteria{7}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECD) = BNet::Utils::percharrecipescooking ($userinfo07);
+			foreach my $uq (@UI07RECD) {
+				my $lookupres= findinarray($uq, @UI07RECD);
 				$multiusercriteria{7}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECE) = BNet::Utils::percharrecipesenchanting ($userinfo07);
+			foreach my $uq (@UI07RECE) {
+				my $lookupres= findinarray($uq, @UI07RECE);
+				$multiusercriteria{7}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECF) = BNet::Utils::percharrecipesengineering ($userinfo07);
+			foreach my $uq (@UI07RECF) {
+				my $lookupres= findinarray($uq, @UI07RECF);
+				$multiusercriteria{7}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECG) = BNet::Utils::percharrecipesfishing ($userinfo07);
+			foreach my $uq (@UI07RECG) {
+				my $lookupres= findinarray($uq, @UI07RECG);
+				$multiusercriteria{7}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECH) = BNet::Utils::percharrecipesherbalism ($userinfo07);
+			foreach my $uq (@UI07RECH) {
+				my $lookupres= findinarray($uq, @UI07RECH);
+				$multiusercriteria{7}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECI) = BNet::Utils::percharrecipesinscription ($userinfo07);
+			foreach my $uq (@UI07RECI) {
+				my $lookupres= findinarray($uq, @UI07RECI);
+				$multiusercriteria{7}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo07);
+			foreach my $uq (@UI07RECJ) {
+				my $lookupres= findinarray($uq, @UI07RECJ);
+				$multiusercriteria{7}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo07);
+			foreach my $uq (@UI07RECK) {
+				my $lookupres= findinarray($uq, @UI07RECK);
+				$multiusercriteria{7}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECL) = BNet::Utils::percharrecipesmining ($userinfo07);
+			foreach my $uq (@UI07RECL) {
+				my $lookupres= findinarray($uq, @UI07RECL);
+				$multiusercriteria{7}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECM) = BNet::Utils::percharrecipesskinning ($userinfo07);
+			foreach my $uq (@UI07RECM) {
+				my $lookupres= findinarray($uq, @UI07RECM);
+				$multiusercriteria{7}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{7}{profinfo}{cooking}{rank}, my @UI07RECN) = BNet::Utils::percharrecipestailoring ($userinfo07);
+			foreach my $uq (@UI07RECN) {
+				my $lookupres= findinarray($uq, @UI07RECN);
+				$multiusercriteria{7}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -686,10 +1290,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08REC) = BNet::Utils::percharrecipescooking ($userinfo08);
-			foreach my $uq (@UI08REC) {
-				my $lookupres= findinarray($uq, @UI08REC);
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECA) = BNet::Utils::percharrecipesalchemy ($userinfo08);
+			foreach my $uq (@UI08RECA) {
+				my $lookupres= findinarray($uq, @UI08RECA);
+				$multiusercriteria{8}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo08);
+			foreach my $uq (@UI08RECB) {
+				my $lookupres= findinarray($uq, @UI08RECB);
+				$multiusercriteria{8}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo08);
+			foreach my $uq (@UI08RECC) {
+				my $lookupres= findinarray($uq, @UI08RECC);
+				$multiusercriteria{8}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECD) = BNet::Utils::percharrecipescooking ($userinfo08);
+			foreach my $uq (@UI08RECD) {
+				my $lookupres= findinarray($uq, @UI08RECD);
 				$multiusercriteria{8}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECE) = BNet::Utils::percharrecipesenchanting ($userinfo08);
+			foreach my $uq (@UI08RECE) {
+				my $lookupres= findinarray($uq, @UI08RECE);
+				$multiusercriteria{8}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECF) = BNet::Utils::percharrecipesengineering ($userinfo08);
+			foreach my $uq (@UI08RECF) {
+				my $lookupres= findinarray($uq, @UI08RECF);
+				$multiusercriteria{8}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECG) = BNet::Utils::percharrecipesfishing ($userinfo08);
+			foreach my $uq (@UI08RECG) {
+				my $lookupres= findinarray($uq, @UI08RECG);
+				$multiusercriteria{8}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECH) = BNet::Utils::percharrecipesherbalism ($userinfo08);
+			foreach my $uq (@UI08RECH) {
+				my $lookupres= findinarray($uq, @UI08RECH);
+				$multiusercriteria{8}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECI) = BNet::Utils::percharrecipesinscription ($userinfo08);
+			foreach my $uq (@UI08RECI) {
+				my $lookupres= findinarray($uq, @UI08RECI);
+				$multiusercriteria{8}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo08);
+			foreach my $uq (@UI08RECJ) {
+				my $lookupres= findinarray($uq, @UI08RECJ);
+				$multiusercriteria{8}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo08);
+			foreach my $uq (@UI08RECK) {
+				my $lookupres= findinarray($uq, @UI08RECK);
+				$multiusercriteria{8}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECL) = BNet::Utils::percharrecipesmining ($userinfo08);
+			foreach my $uq (@UI08RECL) {
+				my $lookupres= findinarray($uq, @UI08RECL);
+				$multiusercriteria{8}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECM) = BNet::Utils::percharrecipesskinning ($userinfo08);
+			foreach my $uq (@UI08RECM) {
+				my $lookupres= findinarray($uq, @UI08RECM);
+				$multiusercriteria{8}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{8}{profinfo}{cooking}{rank}, my @UI08RECN) = BNet::Utils::percharrecipestailoring ($userinfo08);
+			foreach my $uq (@UI08RECN) {
+				my $lookupres= findinarray($uq, @UI08RECN);
+				$multiusercriteria{8}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -708,10 +1390,94 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09REC) = BNet::Utils::percharrecipescooking ($userinfo09);
-			foreach my $uq (@UI09REC) {
-				my $lookupres= findinarray($uq, @UI09REC);
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECA) = BNet::Utils::percharrecipesalchemy ($userinfo09);
+			foreach my $uq (@UI09RECA) {
+				my $lookupres= findinarray($uq, @UI09RECA);
+				$multiusercriteria{9}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo09);
+			foreach my $uq (@UI09RECB) {
+				my $lookupres= findinarray($uq, @UI09RECB);
+				$multiusercriteria{9}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo09);
+			foreach my $uq (@UI09RECC) {
+				my $lookupres= findinarray($uq, @UI09RECC);
+				$multiusercriteria{9}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECD) = BNet::Utils::percharrecipescooking ($userinfo09);
+			foreach my $uq (@UI09RECD) {
+				my $lookupres= findinarray($uq, @UI09RECD);
 				$multiusercriteria{9}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECE) = BNet::Utils::percharrecipesenchanting ($userinfo09);
+			foreach my $uq (@UI09RECE) {
+				my $lookupres= findinarray($uq, @UI09RECE);
+				$multiusercriteria{9}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECF) = BNet::Utils::percharrecipesengineering ($userinfo09);
+			foreach my $uq (@UI09RECF) {
+				my $lookupres= findinarray($uq, @UI09RECF);
+				$multiusercriteria{9}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECG) = BNet::Utils::percharrecipesfishing ($userinfo09);
+			foreach my $uq (@UI09RECG) {
+				my $lookupres= findinarray($uq, @UI09RECG);
+				$multiusercriteria{9}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECH) = BNet::Utils::percharrecipesherbalism ($userinfo09);
+			foreach my $uq (@UI09RECH) {
+				my $lookupres= findinarray($uq, @UI09RECH);
+				$multiusercriteria{9}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECI) = BNet::Utils::percharrecipesinscription ($userinfo09);
+			foreach my $uq (@UI09RECI) {
+				my $lookupres= findinarray($uq, @UI09RECI);
+				$multiusercriteria{9}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo09);
+			foreach my $uq (@UI09RECJ) {
+				my $lookupres= findinarray($uq, @UI09RECJ);
+				$multiusercriteria{9}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo09);
+			foreach my $uq (@UI09RECK) {
+				my $lookupres= findinarray($uq, @UI09RECK);
+				$multiusercriteria{9}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECL) = BNet::Utils::percharrecipesmining ($userinfo09);
+			foreach my $uq (@UI09RECL) {
+				my $lookupres= findinarray($uq, @UI09RECL);
+				$multiusercriteria{9}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECM) = BNet::Utils::percharrecipesskinning ($userinfo09);
+			foreach my $uq (@UI09RECM) {
+				my $lookupres= findinarray($uq, @UI09RECM);
+				$multiusercriteria{9}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{9}{profinfo}{cooking}{rank}, my @UI09RECN) = BNet::Utils::percharrecipestailoring ($userinfo09);
+			foreach my $uq (@UI09RECN) {
+				my $lookupres= findinarray($uq, @UI09RECN);
+				$multiusercriteria{9}{tailoring}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECA) = BNet::Utils::percharrecipesalchemy ($userinfo10);
+			foreach my $uq (@UI10RECA) {
+				my $lookupres= findinarray($uq, @UI10RECA);
+				$multiusercriteria{10}{alchemy}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -730,10 +1496,82 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10REC) = BNet::Utils::percharrecipescooking ($userinfo10);
-			foreach my $uq (@UI10REC) {
-				my $lookupres= findinarray($uq, @UI10REC);
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo10);
+			foreach my $uq (@UI10RECB) {
+				my $lookupres= findinarray($uq, @UI10RECB);
+				$multiusercriteria{10}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo10);
+			foreach my $uq (@UI10RECC) {
+				my $lookupres= findinarray($uq, @UI10RECC);
+				$multiusercriteria{10}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECD) = BNet::Utils::percharrecipescooking ($userinfo10);
+			foreach my $uq (@UI10RECD) {
+				my $lookupres= findinarray($uq, @UI10RECD);
 				$multiusercriteria{10}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECE) = BNet::Utils::percharrecipesenchanting ($userinfo10);
+			foreach my $uq (@UI10RECE) {
+				my $lookupres= findinarray($uq, @UI10RECE);
+				$multiusercriteria{10}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECF) = BNet::Utils::percharrecipesengineering ($userinfo10);
+			foreach my $uq (@UI10RECF) {
+				my $lookupres= findinarray($uq, @UI10RECF);
+				$multiusercriteria{10}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECG) = BNet::Utils::percharrecipesfishing ($userinfo10);
+			foreach my $uq (@UI10RECG) {
+				my $lookupres= findinarray($uq, @UI10RECG);
+				$multiusercriteria{10}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECH) = BNet::Utils::percharrecipesherbalism ($userinfo10);
+			foreach my $uq (@UI10RECH) {
+				my $lookupres= findinarray($uq, @UI10RECH);
+				$multiusercriteria{10}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECI) = BNet::Utils::percharrecipesinscription ($userinfo10);
+			foreach my $uq (@UI10RECI) {
+				my $lookupres= findinarray($uq, @UI10RECI);
+				$multiusercriteria{10}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo10);
+			foreach my $uq (@UI10RECJ) {
+				my $lookupres= findinarray($uq, @UI10RECJ);
+				$multiusercriteria{10}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo10);
+			foreach my $uq (@UI10RECK) {
+				my $lookupres= findinarray($uq, @UI10RECK);
+				$multiusercriteria{10}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECL) = BNet::Utils::percharrecipesmining ($userinfo10);
+			foreach my $uq (@UI10RECL) {
+				my $lookupres= findinarray($uq, @UI10RECL);
+				$multiusercriteria{10}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECM) = BNet::Utils::percharrecipesskinning ($userinfo10);
+			foreach my $uq (@UI10RECM) {
+				my $lookupres= findinarray($uq, @UI10RECM);
+				$multiusercriteria{10}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{10}{profinfo}{cooking}{rank}, my @UI10RECN) = BNet::Utils::percharrecipestailoring ($userinfo10);
+			foreach my $uq (@UI10RECN) {
+				my $lookupres= findinarray($uq, @UI10RECN);
+				$multiusercriteria{10}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -752,10 +1590,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11REC) = BNet::Utils::percharrecipescooking ($userinfo11);
-			foreach my $uq (@UI11REC) {
-				my $lookupres= findinarray($uq, @UI11REC);
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECA) = BNet::Utils::percharrecipesalchemy ($userinfo11);
+			foreach my $uq (@UI11RECA) {
+				my $lookupres= findinarray($uq, @UI11RECA);
+				$multiusercriteria{11}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo11);
+			foreach my $uq (@UI11RECB) {
+				my $lookupres= findinarray($uq, @UI11RECB);
+				$multiusercriteria{11}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo11);
+			foreach my $uq (@UI11RECC) {
+				my $lookupres= findinarray($uq, @UI11RECC);
+				$multiusercriteria{11}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECD) = BNet::Utils::percharrecipescooking ($userinfo11);
+			foreach my $uq (@UI11RECD) {
+				my $lookupres= findinarray($uq, @UI11RECD);
 				$multiusercriteria{11}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECE) = BNet::Utils::percharrecipesenchanting ($userinfo11);
+			foreach my $uq (@UI11RECE) {
+				my $lookupres= findinarray($uq, @UI11RECE);
+				$multiusercriteria{11}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECF) = BNet::Utils::percharrecipesengineering ($userinfo11);
+			foreach my $uq (@UI11RECF) {
+				my $lookupres= findinarray($uq, @UI11RECF);
+				$multiusercriteria{11}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECG) = BNet::Utils::percharrecipesfishing ($userinfo11);
+			foreach my $uq (@UI11RECG) {
+				my $lookupres= findinarray($uq, @UI11RECG);
+				$multiusercriteria{11}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECH) = BNet::Utils::percharrecipesherbalism ($userinfo11);
+			foreach my $uq (@UI11RECH) {
+				my $lookupres= findinarray($uq, @UI11RECH);
+				$multiusercriteria{11}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECI) = BNet::Utils::percharrecipesinscription ($userinfo11);
+			foreach my $uq (@UI11RECI) {
+				my $lookupres= findinarray($uq, @UI11RECI);
+				$multiusercriteria{11}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo11);
+			foreach my $uq (@UI11RECJ) {
+				my $lookupres= findinarray($uq, @UI11RECJ);
+				$multiusercriteria{11}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo11);
+			foreach my $uq (@UI11RECK) {
+				my $lookupres= findinarray($uq, @UI11RECK);
+				$multiusercriteria{11}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECL) = BNet::Utils::percharrecipesmining ($userinfo11);
+			foreach my $uq (@UI11RECL) {
+				my $lookupres= findinarray($uq, @UI11RECL);
+				$multiusercriteria{11}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECM) = BNet::Utils::percharrecipesskinning ($userinfo11);
+			foreach my $uq (@UI11RECM) {
+				my $lookupres= findinarray($uq, @UI11RECM);
+				$multiusercriteria{11}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{11}{profinfo}{cooking}{rank}, my @UI11RECN) = BNet::Utils::percharrecipestailoring ($userinfo11);
+			foreach my $uq (@UI11RECN) {
+				my $lookupres= findinarray($uq, @UI11RECN);
+				$multiusercriteria{11}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -774,10 +1690,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12REC) = BNet::Utils::percharrecipescooking ($userinfo12);
-			foreach my $uq (@UI12REC) {
-				my $lookupres= findinarray($uq, @UI12REC);
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECA) = BNet::Utils::percharrecipesalchemy ($userinfo12);
+			foreach my $uq (@UI12RECA) {
+				my $lookupres= findinarray($uq, @UI12RECA);
+				$multiusercriteria{12}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo12);
+			foreach my $uq (@UI12RECB) {
+				my $lookupres= findinarray($uq, @UI12RECB);
+				$multiusercriteria{12}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo12);
+			foreach my $uq (@UI12RECC) {
+				my $lookupres= findinarray($uq, @UI12RECC);
+				$multiusercriteria{12}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECD) = BNet::Utils::percharrecipescooking ($userinfo12);
+			foreach my $uq (@UI12RECD) {
+				my $lookupres= findinarray($uq, @UI12RECD);
 				$multiusercriteria{12}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECE) = BNet::Utils::percharrecipesenchanting ($userinfo12);
+			foreach my $uq (@UI12RECE) {
+				my $lookupres= findinarray($uq, @UI12RECE);
+				$multiusercriteria{12}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECF) = BNet::Utils::percharrecipesengineering ($userinfo12);
+			foreach my $uq (@UI12RECF) {
+				my $lookupres= findinarray($uq, @UI12RECF);
+				$multiusercriteria{12}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECG) = BNet::Utils::percharrecipesfishing ($userinfo12);
+			foreach my $uq (@UI12RECG) {
+				my $lookupres= findinarray($uq, @UI12RECG);
+				$multiusercriteria{12}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECH) = BNet::Utils::percharrecipesherbalism ($userinfo12);
+			foreach my $uq (@UI12RECH) {
+				my $lookupres= findinarray($uq, @UI12RECH);
+				$multiusercriteria{12}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECI) = BNet::Utils::percharrecipesinscription ($userinfo12);
+			foreach my $uq (@UI12RECI) {
+				my $lookupres= findinarray($uq, @UI12RECI);
+				$multiusercriteria{12}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo12);
+			foreach my $uq (@UI12RECJ) {
+				my $lookupres= findinarray($uq, @UI12RECJ);
+				$multiusercriteria{12}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo12);
+			foreach my $uq (@UI12RECK) {
+				my $lookupres= findinarray($uq, @UI12RECK);
+				$multiusercriteria{12}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECL) = BNet::Utils::percharrecipesmining ($userinfo12);
+			foreach my $uq (@UI12RECL) {
+				my $lookupres= findinarray($uq, @UI12RECL);
+				$multiusercriteria{12}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECM) = BNet::Utils::percharrecipesskinning ($userinfo12);
+			foreach my $uq (@UI12RECM) {
+				my $lookupres= findinarray($uq, @UI12RECM);
+				$multiusercriteria{12}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{12}{profinfo}{cooking}{rank}, my @UI12RECN) = BNet::Utils::percharrecipestailoring ($userinfo12);
+			foreach my $uq (@UI12RECN) {
+				my $lookupres= findinarray($uq, @UI12RECN);
+				$multiusercriteria{12}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -796,10 +1790,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13REC) = BNet::Utils::percharrecipescooking ($userinfo13);
-			foreach my $uq (@UI13REC) {
-				my $lookupres= findinarray($uq, @UI13REC);
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECA) = BNet::Utils::percharrecipesalchemy ($userinfo13);
+			foreach my $uq (@UI13RECA) {
+				my $lookupres= findinarray($uq, @UI13RECA);
+				$multiusercriteria{13}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo13);
+			foreach my $uq (@UI13RECB) {
+				my $lookupres= findinarray($uq, @UI13RECB);
+				$multiusercriteria{13}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo13);
+			foreach my $uq (@UI13RECC) {
+				my $lookupres= findinarray($uq, @UI13RECC);
+				$multiusercriteria{13}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECD) = BNet::Utils::percharrecipescooking ($userinfo13);
+			foreach my $uq (@UI13RECD) {
+				my $lookupres= findinarray($uq, @UI13RECD);
 				$multiusercriteria{13}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECE) = BNet::Utils::percharrecipesenchanting ($userinfo13);
+			foreach my $uq (@UI13RECE) {
+				my $lookupres= findinarray($uq, @UI13RECE);
+				$multiusercriteria{13}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECF) = BNet::Utils::percharrecipesengineering ($userinfo13);
+			foreach my $uq (@UI13RECF) {
+				my $lookupres= findinarray($uq, @UI13RECF);
+				$multiusercriteria{13}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECG) = BNet::Utils::percharrecipesfishing ($userinfo13);
+			foreach my $uq (@UI13RECG) {
+				my $lookupres= findinarray($uq, @UI13RECG);
+				$multiusercriteria{13}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECH) = BNet::Utils::percharrecipesherbalism ($userinfo13);
+			foreach my $uq (@UI13RECH) {
+				my $lookupres= findinarray($uq, @UI13RECH);
+				$multiusercriteria{13}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECI) = BNet::Utils::percharrecipesinscription ($userinfo13);
+			foreach my $uq (@UI13RECI) {
+				my $lookupres= findinarray($uq, @UI13RECI);
+				$multiusercriteria{13}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo13);
+			foreach my $uq (@UI13RECJ) {
+				my $lookupres= findinarray($uq, @UI13RECJ);
+				$multiusercriteria{13}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo13);
+			foreach my $uq (@UI13RECK) {
+				my $lookupres= findinarray($uq, @UI13RECK);
+				$multiusercriteria{13}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECL) = BNet::Utils::percharrecipesmining ($userinfo13);
+			foreach my $uq (@UI13RECL) {
+				my $lookupres= findinarray($uq, @UI13RECL);
+				$multiusercriteria{13}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECM) = BNet::Utils::percharrecipesskinning ($userinfo13);
+			foreach my $uq (@UI13RECM) {
+				my $lookupres= findinarray($uq, @UI13RECM);
+				$multiusercriteria{13}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{13}{profinfo}{cooking}{rank}, my @UI13RECN) = BNet::Utils::percharrecipestailoring ($userinfo13);
+			foreach my $uq (@UI13RECN) {
+				my $lookupres= findinarray($uq, @UI13RECN);
+				$multiusercriteria{13}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -818,10 +1890,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14REC) = BNet::Utils::percharrecipescooking ($userinfo14);
-			foreach my $uq (@UI14REC) {
-				my $lookupres= findinarray($uq, @UI14REC);
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECA) = BNet::Utils::percharrecipesalchemy ($userinfo14);
+			foreach my $uq (@UI14RECA) {
+				my $lookupres= findinarray($uq, @UI14RECA);
+				$multiusercriteria{14}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo14);
+			foreach my $uq (@UI14RECB) {
+				my $lookupres= findinarray($uq, @UI14RECB);
+				$multiusercriteria{14}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo14);
+			foreach my $uq (@UI14RECC) {
+				my $lookupres= findinarray($uq, @UI14RECC);
+				$multiusercriteria{14}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECD) = BNet::Utils::percharrecipescooking ($userinfo14);
+			foreach my $uq (@UI14RECD) {
+				my $lookupres= findinarray($uq, @UI14RECD);
 				$multiusercriteria{14}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECE) = BNet::Utils::percharrecipesenchanting ($userinfo14);
+			foreach my $uq (@UI14RECE) {
+				my $lookupres= findinarray($uq, @UI14RECE);
+				$multiusercriteria{14}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECF) = BNet::Utils::percharrecipesengineering ($userinfo14);
+			foreach my $uq (@UI14RECF) {
+				my $lookupres= findinarray($uq, @UI14RECF);
+				$multiusercriteria{14}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECG) = BNet::Utils::percharrecipesfishing ($userinfo14);
+			foreach my $uq (@UI14RECG) {
+				my $lookupres= findinarray($uq, @UI14RECG);
+				$multiusercriteria{14}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECH) = BNet::Utils::percharrecipesherbalism ($userinfo14);
+			foreach my $uq (@UI14RECH) {
+				my $lookupres= findinarray($uq, @UI14RECH);
+				$multiusercriteria{14}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECI) = BNet::Utils::percharrecipesinscription ($userinfo14);
+			foreach my $uq (@UI14RECI) {
+				my $lookupres= findinarray($uq, @UI14RECI);
+				$multiusercriteria{14}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo14);
+			foreach my $uq (@UI14RECJ) {
+				my $lookupres= findinarray($uq, @UI14RECJ);
+				$multiusercriteria{14}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo14);
+			foreach my $uq (@UI14RECK) {
+				my $lookupres= findinarray($uq, @UI14RECK);
+				$multiusercriteria{14}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECL) = BNet::Utils::percharrecipesmining ($userinfo14);
+			foreach my $uq (@UI14RECL) {
+				my $lookupres= findinarray($uq, @UI14RECL);
+				$multiusercriteria{14}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECM) = BNet::Utils::percharrecipesskinning ($userinfo14);
+			foreach my $uq (@UI14RECM) {
+				my $lookupres= findinarray($uq, @UI14RECM);
+				$multiusercriteria{14}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{14}{profinfo}{cooking}{rank}, my @UI14RECN) = BNet::Utils::percharrecipestailoring ($userinfo14);
+			foreach my $uq (@UI14RECN) {
+				my $lookupres= findinarray($uq, @UI14RECN);
+				$multiusercriteria{14}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -840,10 +1990,88 @@ sub __main__() {
 			}
 		}
 		if ($module eq "professions") {
-			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15REC) = BNet::Utils::percharrecipescooking ($userinfo15);
-			foreach my $uq (@UI15REC) {
-				my $lookupres= findinarray($uq, @UI15REC);
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECA) = BNet::Utils::percharrecipesalchemy ($userinfo15);
+			foreach my $uq (@UI15RECA) {
+				my $lookupres= findinarray($uq, @UI15RECA);
+				$multiusercriteria{15}{alchemy}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECB) = BNet::Utils::percharrecipesarchaeology ($userinfo15);
+			foreach my $uq (@UI15RECB) {
+				my $lookupres= findinarray($uq, @UI15RECB);
+				$multiusercriteria{15}{archaeology}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECC) = BNet::Utils::percharrecipesblacksmithing ($userinfo15);
+			foreach my $uq (@UI15RECC) {
+				my $lookupres= findinarray($uq, @UI15RECC);
+				$multiusercriteria{15}{blacksmithing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECD) = BNet::Utils::percharrecipescooking ($userinfo15);
+			foreach my $uq (@UI15RECD) {
+				my $lookupres= findinarray($uq, @UI15RECD);
 				$multiusercriteria{15}{cooking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECE) = BNet::Utils::percharrecipesenchanting ($userinfo15);
+			foreach my $uq (@UI15RECE) {
+				my $lookupres= findinarray($uq, @UI15RECE);
+				$multiusercriteria{15}{enchanting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECF) = BNet::Utils::percharrecipesengineering ($userinfo15);
+			foreach my $uq (@UI15RECF) {
+				my $lookupres= findinarray($uq, @UI15RECF);
+				$multiusercriteria{15}{engineering}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECG) = BNet::Utils::percharrecipesfishing ($userinfo15);
+			foreach my $uq (@UI15RECG) {
+				my $lookupres= findinarray($uq, @UI15RECG);
+				$multiusercriteria{15}{fishing}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECH) = BNet::Utils::percharrecipesherbalism ($userinfo15);
+			foreach my $uq (@UI15RECH) {
+				my $lookupres= findinarray($uq, @UI15RECH);
+				$multiusercriteria{15}{herbalism}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECI) = BNet::Utils::percharrecipesinscription ($userinfo15);
+			foreach my $uq (@UI15RECI) {
+				my $lookupres= findinarray($uq, @UI15RECI);
+				$multiusercriteria{15}{inscription}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECJ) = BNet::Utils::percharrecipesjewelcrafting ($userinfo15);
+			foreach my $uq (@UI15RECJ) {
+				my $lookupres= findinarray($uq, @UI15RECJ);
+				$multiusercriteria{15}{jewelcrafting}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECK) = BNet::Utils::percharrecipesleatherworking ($userinfo15);
+			foreach my $uq (@UI15RECK) {
+				my $lookupres= findinarray($uq, @UI15RECK);
+				$multiusercriteria{15}{leatherworking}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECL) = BNet::Utils::percharrecipesmining ($userinfo15);
+			foreach my $uq (@UI15RECL) {
+				my $lookupres= findinarray($uq, @UI15RECL);
+				$multiusercriteria{15}{mining}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECM) = BNet::Utils::percharrecipesskinning ($userinfo15);
+			foreach my $uq (@UI15RECM) {
+				my $lookupres= findinarray($uq, @UI15RECM);
+				$multiusercriteria{15}{skinning}{$uq} = $lookupres;
+			}
+
+			($multiuserquests{15}{profinfo}{cooking}{rank}, my @UI15RECN) = BNet::Utils::percharrecipestailoring ($userinfo15);
+			foreach my $uq (@UI15RECN) {
+				my $lookupres= findinarray($uq, @UI15RECN);
+				$multiusercriteria{15}{tailoring}{$uq} = $lookupres;
 			}
 		}
 	}
@@ -1070,9 +2298,23 @@ sub __main__() {
 		BEGIN {
 			require 'BNet/Utils.pm';
 		}
-		BNet::Professions::cooking ($count, %multiusercriteria);
+		BNet::Professions::alchemy ($count, %multiusercriteria);
+		BNet::Professions::blacksmithing ($count, %multiusercriteria);
 		BNet::Professions::enchanting ($count, %multiusercriteria);
+		BNet::Professions::engineering ($count, %multiusercriteria);
+		BNet::Professions::inscription ($count, %multiusercriteria);
+		BNet::Professions::jewelcrafting ($count, %multiusercriteria);
+		BNet::Professions::leatherworking ($count, %multiusercriteria);
 		BNet::Professions::tailoring ($count, %multiusercriteria);
+
+		BNet::Professions::herbalism ($count, %multiusercriteria);
+		BNet::Professions::mining ($count, %multiusercriteria);
+		BNet::Professions::skinning ($count, %multiusercriteria);
+
+		BNet::Professions::cooking ($count, %multiusercriteria);
+		BNet::Professions::archaeology ($count, %multiusercriteria);
+		BNet::Professions::fishing ($count, %multiusercriteria);
+		
 		
 	}
 	if ($module eq "reputation") {
