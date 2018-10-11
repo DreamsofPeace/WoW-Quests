@@ -7,20 +7,54 @@ use warnings;
 sub alchemy ($%) {
 	my ($count, %multiusercriteria) = @_;
 
+	BNet::Utils::groupheader ("Alchemy: Vanilla");
+	BNet::Utils::groupheader ("Alchemy: Burning Crusade");
+	BNet::Utils::groupheader ("Alchemy: Wrath of the Lich King");
+	BNet::Utils::groupheader ("Alchemy: Cataclysm");
+	BNet::Utils::groupheader ("Alchemy: Mists of Pandaria");
+	BNet::Utils::groupheader ("Alchemy: Warlords of Draenor");
+	BNet::Utils::groupheader ("Alchemy: Legion");
+	BNet::Utils::groupheader ("Alchemy: Battle for Azeroth");
+
 }
 sub blacksmithing ($%) {
 	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Blacksmithing: Vanilla");
+	BNet::Utils::groupheader ("Blacksmithing: Burning Crusade");
+	BNet::Utils::groupheader ("Blacksmithing: Wrath of the Lich King");
+	BNet::Utils::groupheader ("Blacksmithing: Cataclysm");
+	BNet::Utils::groupheader ("Blacksmithing: Mists of Pandaria");
+	BNet::Utils::groupheader ("Blacksmithing: Warlords of Draenor");
+	BNet::Utils::groupheader ("Blacksmithing: Legion");
+	BNet::Utils::groupheader ("Blacksmithing: Battle for Azeroth");
 
 }
 
 sub enchanting ($%) {
 	my ($count, %multiusercriteria) = @_;
 
+	BNet::Utils::groupheader ("Enchanting: Vanilla");
+	BNet::Utils::groupheader ("Enchanting: Burning Crusade");
+	BNet::Utils::groupheader ("Enchanting: Wrath of the Lich King");
+	BNet::Utils::groupheader ("Enchanting: Cataclysm");
+	BNet::Utils::groupheader ("Enchanting: Mists of Pandaria");
+	BNet::Utils::groupheader ("Enchanting: Warlords of Draenor");
+	BNet::Utils::groupheader ("Enchanting: Legion");
+	BNet::Utils::groupheader ("Enchanting: Battle for Azeroth");
 }
 
 sub engineering ($%) {
 	my ($count, %multiusercriteria) = @_;
 
+	BNet::Utils::groupheader ("Engineering: Vanilla");
+	BNet::Utils::groupheader ("Engineering: Burning Crusade");
+	BNet::Utils::groupheader ("Engineering: Wrath of the Lich King");
+	BNet::Utils::groupheader ("Engineering: Cataclysm");
+	BNet::Utils::groupheader ("Engineering: Mists of Pandaria");
+	BNet::Utils::groupheader ("Engineering: Warlords of Draenor");
+	BNet::Utils::groupheader ("Engineering: Legion");
+	BNet::Utils::groupheader ("Engineering: Battle for Azeroth");
 }
 
 sub inscription ($%) {
@@ -115,7 +149,7 @@ sub inscription ($%) {
 	BNet::Utils::preprintprofinscription($count, '59475', "Tome of the Dawn", "", %multiusercriteria);
 	BNet::Utils::preprintprofinscription($count, '92026', "Vanishing Powder", "", %multiusercriteria);
 
-s	BNet::Utils::groupheader ("Inscription: Burning Crusade");
+	BNet::Utils::groupheader ("Inscription: Burning Crusade");
 	BNet::Utils::preprintprofinscription($count, '57713', "Ethereal Ink", "", %multiusercriteria);
 	BNet::Utils::preprintprofinscription($count, '57714', "Darkflame Ink", "", %multiusercriteria);
 	BNet::Utils::preprintprofinscription($count, '165464', "Research: Ethereal Ink", "", %multiusercriteria);
@@ -491,9 +525,27 @@ s	BNet::Utils::groupheader ("Inscription: Burning Crusade");
 sub jewelcrafting ($%) {
 	my ($count, %multiusercriteria) = @_;
 
+	BNet::Utils::groupheader ("Jewelcrafting: Vanilla");
+	BNet::Utils::groupheader ("Jewelcrafting: Burning Crusade");
+	BNet::Utils::groupheader ("Jewelcrafting: Wrath of the Lich King");
+	BNet::Utils::groupheader ("Jewelcrafting: Cataclysm");
+	BNet::Utils::groupheader ("Jewelcrafting: Mists of Pandaria");
+	BNet::Utils::groupheader ("Jewelcrafting: Warlords of Draenor");
+	BNet::Utils::groupheader ("Jewelcrafting: Legion");
+	BNet::Utils::groupheader ("Jewelcrafting: Battle for Azeroth");
+
 }
 sub leatherworking ($%) {
 	my ($count, %multiusercriteria) = @_;
+
+	BNet::Utils::groupheader ("Leatherworking: Vanilla");
+	BNet::Utils::groupheader ("Leatherworking: Burning Crusade");
+	BNet::Utils::groupheader ("Leatherworking: Wrath of the Lich King");
+	BNet::Utils::groupheader ("Leatherworking: Cataclysm");
+	BNet::Utils::groupheader ("Leatherworking: Mists of Pandaria");
+	BNet::Utils::groupheader ("Leatherworking: Warlords of Draenor");
+	BNet::Utils::groupheader ("Leatherworking: Legion");
+	BNet::Utils::groupheader ("Leatherworking: Battle for Azeroth");
 
 }
 
@@ -1218,6 +1270,43 @@ sub herbalism ($%) {
 sub mining ($%) {
 	my ($count, %multiusercriteria) = @_;
 
+	BNet::Utils::groupheader ("Mining: Vanilla");
+	BNet::Utils::preprintprofmining($count, '2657', "Smelt Copper", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '2658', "Smelt Silver", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '2659', "Smelt Bronze", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '3304', "Smelt Tin", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '3307', "Smelt Iron", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '3308', "Smelt Gold", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '3569', "Smelt Steel", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '10097', "Smelt Mithril", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '10098', "Smelt Truesilver", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '14891', "Smelt Dark Iron", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '16153', "Smelt Thorium", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '22967', "Smelt Enchanted Elementium", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '70524', "Enchanted Thorium Bar", "", %multiusercriteria);
+	BNet::Utils::groupheader ("Mining: Burning Crusade");
+	BNet::Utils::preprintprofmining($count, '29356', "Smelt Fel Iron", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '29358', "Smelt Adamantite", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '29359', "Smelt Eternium", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '29360', "Smelt Felsteel", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '29361', "Smelt Khorium", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '29686', "Smelt Hardened Adamantite", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '35750', "Earth Shatter", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '35751', "Fire Sunder", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '46353', "Smelt Hardened Khorium", "", %multiusercriteria);
+	BNet::Utils::groupheader ("Mining: Wrath of the Lich King");
+	BNet::Utils::preprintprofmining($count, '49252', "Smelt Cobalt", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '49258', "Smelt Saronite", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '55208', "Smelt Titansteel", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '55211', "Smelt Titanium", "", %multiusercriteria);
+	BNet::Utils::groupheader ("Mining: Cataclysm");
+	BNet::Utils::preprintprofmining($count, '74529', "Smelt Pyrite", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '74530', "Smelt Elementium", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '74537', "Smelt Hardened Elementium", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '84038', "Smelt Obsidium", "", %multiusercriteria);
+	BNet::Utils::groupheader ("Mining: Mists of Pandaria");
+	BNet::Utils::preprintprofmining($count, '102165', "Smelt Ghost Iron", "", %multiusercriteria);
+	BNet::Utils::preprintprofmining($count, '102167', "Smelt Trillium", "", %multiusercriteria);
 }
 sub skinning ($%) {
 	my ($count, %multiusercriteria) = @_;
