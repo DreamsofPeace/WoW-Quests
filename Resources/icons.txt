@@ -42,6 +42,8 @@
 <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_tauren_male.jpg\">
 <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_troll_female.jpg\">
 <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_troll_male.jpg\">
+<img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_undead_female.jpg\">
+<img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_undead_male.jpg\">
 <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_voidelf_female.jpg\">
 <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_voidelf_male.jpg\">
 <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/race_worgen_female.jpg\">
