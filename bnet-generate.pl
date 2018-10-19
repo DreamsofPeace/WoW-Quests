@@ -43,28 +43,43 @@ sub __main__() {
 
 	my @entire_file=<$yourhandle>;
 	
-	
 	my $userinfo00;
+	my $userinfo00r;
 	my $userinfo01;
+	my $userinfo01r;
 	my $userinfo02;
+	my $userinfo02r;
 	my $userinfo03;
+	my $userinfo03r;
 	my $userinfo04;
+	my $userinfo04r;
 	my $userinfo05;
+	my $userinfo05r;
 	my $userinfo06;
+	my $userinfo06r;
 	my $userinfo07;
+	my $userinfo07r;
 	my $userinfo08;
+	my $userinfo08r;
 	my $userinfo09;
+	my $userinfo09r;
 	my $userinfo10;
+	my $userinfo10r;
 	my $userinfo11;
+	my $userinfo11r;
 	my $userinfo12;
+	my $userinfo12r;
 	my $userinfo13;
+	my $userinfo13r;
 	my $userinfo14;
+	my $userinfo14r;
 	my $userinfo15;
-
+	my $userinfo15r;
 
 	my $count = 0;
 	
 	my $fetchtype = 'quests,items,professions,achievements,reputation';
+	my $fetchtyperep = 'reputation';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
 	BNet::Utils::tableprint("beginrow");
@@ -85,6 +100,7 @@ sub __main__() {
 		if ($count == 0) {
 			if( defined($columns[1]) ){
 				$userinfo00 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo00r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo00);
 				my $ail = BNet::Utils::retrieveail($userinfo00);
@@ -109,6 +125,7 @@ sub __main__() {
 		} elsif ($count == 1) {
 			if( defined($columns[1]) ){
 				$userinfo01 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo01r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo01);
 				my $ail = BNet::Utils::retrieveail($userinfo01);
@@ -133,6 +150,7 @@ sub __main__() {
 		} elsif ($count == 2) {
 			if( defined($columns[1]) ){
 				$userinfo02 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo02r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo02);
 				my $ail = BNet::Utils::retrieveail($userinfo02);
@@ -157,6 +175,7 @@ sub __main__() {
 		} elsif ($count == 3) {
 			if( defined($columns[1]) ){
 				$userinfo03 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo03r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo03);
 				my $ail = BNet::Utils::retrieveail($userinfo03);
@@ -181,6 +200,7 @@ sub __main__() {
 		} elsif ($count == 4) {
 			if( defined($columns[1]) ){
 				$userinfo04 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo04r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo04);
 				my $ail = BNet::Utils::retrieveail($userinfo04);
@@ -205,6 +225,7 @@ sub __main__() {
 		} elsif ($count == 5) {
 			if( defined($columns[1]) ){
 				$userinfo05 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo05r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo05);
 				my $ail = BNet::Utils::retrieveail($userinfo05);
@@ -229,6 +250,7 @@ sub __main__() {
 		} elsif ($count == 6) {
 			if( defined($columns[1]) ){
 				$userinfo06 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo06r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo06);
 				my $ail = BNet::Utils::retrieveail($userinfo06);
@@ -253,6 +275,7 @@ sub __main__() {
 		} elsif ($count == 7) {
 			if( defined($columns[1]) ){
 				$userinfo07 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo07r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo07);
 				my $ail = BNet::Utils::retrieveail($userinfo07);
@@ -277,6 +300,7 @@ sub __main__() {
 		} elsif ($count == 8) {
 			if( defined($columns[1]) ){
 				$userinfo08 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo08r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo08);
 				my $ail = BNet::Utils::retrieveail($userinfo08);
@@ -301,6 +325,7 @@ sub __main__() {
 		} elsif ($count == 9) {
 			if( defined($columns[1]) ){
 				$userinfo09 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo09r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo09);
 				my $ail = BNet::Utils::retrieveail($userinfo09);
@@ -325,6 +350,7 @@ sub __main__() {
 		} elsif ($count == 10) {
 			if( defined($columns[1]) ){
 				$userinfo10 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo10r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo10);
 				my $ail = BNet::Utils::retrieveail($userinfo10);
@@ -349,6 +375,7 @@ sub __main__() {
 		} elsif ($count == 11) {
 			if( defined($columns[1]) ){
 				$userinfo11 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo11r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo11);
 				my $ail = BNet::Utils::retrieveail($userinfo11);
@@ -373,6 +400,7 @@ sub __main__() {
 		} elsif ($count == 12) {
 			if( defined($columns[1]) ){
 				$userinfo12 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo12r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo12);
 				my $ail = BNet::Utils::retrieveail($userinfo12);
@@ -397,6 +425,7 @@ sub __main__() {
 		} elsif ($count == 13) {
 			if( defined($columns[1]) ){
 				$userinfo13 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo13r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo13);
 				my $ail = BNet::Utils::retrieveail($userinfo13);
@@ -421,6 +450,7 @@ sub __main__() {
 		} elsif ($count == 14) {
 			if( defined($columns[1]) ){
 				$userinfo14 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo14r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo14);
 				my $ail = BNet::Utils::retrieveail($userinfo14);
@@ -445,6 +475,7 @@ sub __main__() {
 		} elsif ($count == 15) {
 			if( defined($columns[1]) ){
 				$userinfo15 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
+				$userinfo15r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo15);
 				my $ail = BNet::Utils::retrieveail($userinfo15);
@@ -2327,52 +2358,52 @@ sub __main__() {
 		my %rep;
 		
 		if (0 < $count) {
-			$rep{'fake'}{0} = { BNet::Utils::reputationtohash ($userinfo00) };
+			$rep{0} = { BNet::Utils::reputationtohash ($userinfo00r) };
 		}
 		if (1 < $count) {
-			$rep{'fake'}{1} = { BNet::Utils::reputationtohash ($userinfo01) };
+			$rep{1} = { BNet::Utils::reputationtohash ($userinfo01r) };
 		}
 		if (2 < $count) {
-			$rep{'fake'}{2} = { BNet::Utils::reputationtohash ($userinfo02) };
+			$rep{2} = { BNet::Utils::reputationtohash ($userinfo02r) };
 		}
 		if (3 < $count) {
-			$rep{'fake'}{3} = { BNet::Utils::reputationtohash ($userinfo03) };
+			$rep{3} = { BNet::Utils::reputationtohash ($userinfo03r) };
 		}
 		if (4 < $count) {
-			$rep{'fake'}{4} = { BNet::Utils::reputationtohash ($userinfo04) };
+			$rep{4} = { BNet::Utils::reputationtohash ($userinfo04r) };
 		}
 		if (5 < $count) {
-			$rep{'fake'}{5} = { BNet::Utils::reputationtohash ($userinfo05) };
+			$rep{5} = { BNet::Utils::reputationtohash ($userinfo05r) };
 		}
 		if (6 < $count) {
-			$rep{'fake'}{6} = { BNet::Utils::reputationtohash ($userinfo06) };
+			$rep{6} = { BNet::Utils::reputationtohash ($userinfo06r) };
 		}
 		if (7 < $count) {
-			$rep{'fake'}{7} = { BNet::Utils::reputationtohash ($userinfo07) };
+			$rep{7} = { BNet::Utils::reputationtohash ($userinfo07r) };
 		}
 		if (8 < $count) {
-			$rep{'fake'}{8} = { BNet::Utils::reputationtohash ($userinfo08) };
+			$rep{8} = { BNet::Utils::reputationtohash ($userinfo08r) };
 		}
 		if (9 < $count) {
-			$rep{'fake'}{9} = { BNet::Utils::reputationtohash ($userinfo09) };
+			$rep{9} = { BNet::Utils::reputationtohash ($userinfo09r) };
 		}
 		if (10 < $count) {
-			$rep{'fake'}{10} = { BNet::Utils::reputationtohash ($userinfo10) };
+			$rep{10} = { BNet::Utils::reputationtohash ($userinfo10r) };
 		}
 		if (11 < $count) {
-			$rep{'fake'}{11} = { BNet::Utils::reputationtohash ($userinfo11) };
+			$rep{11} = { BNet::Utils::reputationtohash ($userinfo11r) };
 		}
 		if (12 < $count) {
-			$rep{'fake'}{12} = { BNet::Utils::reputationtohash ($userinfo12) };
+			$rep{12} = { BNet::Utils::reputationtohash ($userinfo12r) };
 		}
 		if (13 < $count) {
-			$rep{'fake'}{13} = { BNet::Utils::reputationtohash ($userinfo13) };
+			$rep{13} = { BNet::Utils::reputationtohash ($userinfo13r) };
 		}
 		if (14 < $count) {
-			$rep{'fake'}{14} = { BNet::Utils::reputationtohash ($userinfo14) };
+			$rep{14} = { BNet::Utils::reputationtohash ($userinfo14r) };
 		}
 		if (15 < $count) {
-			$rep{'fake'}{15} = { BNet::Utils::reputationtohash ($userinfo15) };
+			$rep{15} = { BNet::Utils::reputationtohash ($userinfo15r) };
 		}
 #		print Dumper (%rep);
 		BNet::Reputations::reputation ($count, %rep);

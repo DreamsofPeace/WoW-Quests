@@ -10,6 +10,7 @@ sub reputation ($%) {
 #	reputation_mists ($count, %multirep);
 #	reputation_warlords ($count, %multirep);
 #	reputation_legion ($count, %multirep);
+#	reputation_bfa ($count, %multirep);
 }
 sub reputation_vanilla ($%) {
 	my ($count, %multirep) = @_;
@@ -21,6 +22,8 @@ sub reputation_vanilla ($%) {
 #	BNet::Utils::preprintrep($count, '576', "Timbermaw Hold", %multirep);
 #	BNet::Utils::preprintrep($count, '349', "Ravenholdt", %multirep);
 #	BNet::Utils::preprintrep($count, '70', "Syndicate", %multirep);
+#	BNet::Utils::preprintrep($count, '92', "Gelkis Clan Centaur", %multirep);
+#	BNet::Utils::preprintrep($count, '93', "Magram Clan Centaur", %multirep);
 #	BNet::Utils::groupheader ("Vanilla: Steamwheedle Cartel");
 #	BNet::Utils::preprintrep($count, '21', "Booty Bay", %multirep);
 #	BNet::Utils::preprintrep($count, '577', "Everlook", %multirep);
@@ -64,9 +67,9 @@ sub reputation_vanilla ($%) {
 #	BNet::Utils::groupheader ("Vanilla: Removed");
 #	BNet::Utils::preprintrep($count, '809', "Shen\'dralar", %multirep);
 #	BNet::Utils::preprintrep($count, '270', "Zandalar Tribe", %multirep);
-#	BNet::Utils::preprintrep($count, '92', "Gelkis Clan Centaur", %multirep);
-#	BNet::Utils::preprintrep($count, '93', "Magram Clan Centaur", %multirep);
+
 }
+
 sub reputation_burning_crusade ($%) {
 	my ($count, %multirep) = @_;
 
@@ -94,7 +97,9 @@ sub reputation_burning_crusade ($%) {
 	BNet::Utils::groupheader ("Burning Crusade: Horde");
 	BNet::Utils::preprintrep($count, '941', "The Mag'har", %multirep);
 	BNet::Utils::preprintrep($count, '947', "Thrallmar", %multirep);
+
 }
+
 sub reputation_wrath ($%) {
 	my ($count, %multirep) = @_;
 	BNet::Utils::groupheader ("Wrath of the Lich King");
@@ -119,7 +124,9 @@ sub reputation_wrath ($%) {
 	BNet::Utils::preprintrep($count, '1067', "The Hand of Vengeance", %multirep);
 	BNet::Utils::preprintrep($count, '1124', "The Sunreavers", %multirep);
 	BNet::Utils::preprintrep($count, '1085', "Warsong Offensive", %multirep);
+
 }
+
 sub reputation_cataclysm ($%) {
 	my ($count, %multirep) = @_;
 	BNet::Utils::groupheader ("Cataclysm");
@@ -134,7 +141,9 @@ sub reputation_cataclysm ($%) {
 	BNet::Utils::groupheader ("Cataclysm: Horde");
 	BNet::Utils::preprintrep($count, '1172', "Dragonmaw Clan", %multirep);
 	BNet::Utils::preprintrep($count, '1178', "Hellscream's Reach", %multirep);
+
 }
+
 sub reputation_mists ($%) {
 	my ($count, %multirep) = @_;
 	BNet::Utils::groupheader ("Mists of Pandaria");
@@ -173,7 +182,9 @@ sub reputation_mists ($%) {
 	BNet::Utils::preprintrep($count, '1228', "Forest Hozen", %multirep);
 	BNet::Utils::preprintrep($count, '1375', "Dominance Offensive", %multirep);
 	BNet::Utils::preprintrep($count, '1388', "Sunreaver Onslaught", %multirep);
+
 }
+
 sub reputation_warlords ($%) {
 	my ($count, %multirep) = @_;
 
@@ -207,6 +218,7 @@ sub reputation_warlords ($%) {
 	BNet::Utils::preprintrep($count, '1681', "Vol'jin's Spear", %multirep);
 
 }
+
 sub reputation_legion ($%) {
 	my ($count, %multirep) = @_;
 	BNet::Utils::groupheader ("Legion");
@@ -229,6 +241,25 @@ sub reputation_legion ($%) {
 	BNet::Utils::preprintrep($count, '2099', "Akule Riverhorn", %multirep);
 	BNet::Utils::preprintrep($count, '2100', "Corbyn", %multirep);
 	BNet::Utils::preprintrep($count, '2101', "Sha'leth", %multirep);
+
+}
+
+sub reputation_legion ($%) {
+	my ($count, %multirep) = @_;
+	BNet::Utils::groupheader ("Battle for Azeroth: Neutral Factions");
+	BNet::Utils::preprintrep($count, '2164', "Champions of Azeroth", %multirep);
+	BNet::Utils::preprintrep($count, '2163', "Tortollan Seekers", %multirep);
+	BNet::Utils::groupheader ("Battle for Azeroth: Alliance");
+	BNet::Utils::preprintrep($count, '2160', "Proudmoore Admiralty", %multirep);
+	BNet::Utils::preprintrep($count, '2161', "Order of Embers", %multirep);
+	BNet::Utils::preprintrep($count, '2162', "Storm's Wake", %multirep);
+	BNet::Utils::preprintrep($count, '2159', "7th Legion", %multirep);
+	BNet::Utils::groupheader ("Battle for Azeroth: Horde");
+	BNet::Utils::preprintrep($count, '2103', "Zandalari Empire", %multirep);
+	BNet::Utils::preprintrep($count, '2156', "Talanji's Expedition", %multirep);
+	BNet::Utils::preprintrep($count, '2157', "The Honorbound", %multirep);
+	BNet::Utils::preprintrep($count, '2158', "Voldunai", %multirep);
+
 }
 
 1;

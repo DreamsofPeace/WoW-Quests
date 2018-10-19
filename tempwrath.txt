@@ -578,7 +578,7 @@ z_61_80_Dragonblight	12065	The Focus on the Beach
 z_61_80_Dragonblight	12066	The Focus on the Beach	horde	
 z_61_80_Dragonblight	12067	A Letter for Home	alliance	
 z_61_80_Dragonblight	12069	Return of the High Chief	horde	
-z_61_80_Dragonblight	12071	Attack by Air! 	horde	
+z_61_80_Dragonblight	12071	Attack by Air!	horde	
 z_61_80_Dragonblight	12072	Blightbeasts be Damned!	horde	
 z_61_80_Dragonblight	12075	Slim Pickings
 z_61_80_Dragonblight	12076	Messy Business
@@ -959,6 +959,21 @@ z_63_80_Grizzly_Hills	13129	Head Games
 z_63_80_Grizzly_Hills	39203	Warchief's Command: Dragonblight	horde
 z_63_80_Grizzly_Hills	39206	Warchief's Command: Grizzly Hills	horde
 z_63_80_Grizzly_Hills	39207	Hero's Call: Grizzly Hills	alliance
+z_64_80_ZulDrak	header	64-80: Zul'Drak: 
+z_64_80_ZulDrak	header	64-80: Zul'Drak: 
+z_64_80_ZulDrak	header	64-80: Zul'Drak: 
+z_64_80_ZulDrak	header	64-80: Zul'Drak: 
+z_64_80_ZulDrak	header	64-80: Zul'Drak: 
+z_64_80_ZulDrak	header	64-80: Zul'Drak: The Amphitheater of Anguish
+z_64_80_ZulDrak	12932	The Amphitheater of Anguish: Yggdras!
+z_64_80_ZulDrak	12954	The Amphitheater of Anguish: Yggdras! (Ring of Blood)
+z_64_80_ZulDrak	12933	The Amphitheater of Anguish: Magnataur!
+z_64_80_ZulDrak	12934	The Amphitheater of Anguish: From Beyond!
+z_64_80_ZulDrak	12935	The Amphitheater of Anguish: Tuskarrmageddon!
+z_64_80_ZulDrak	12936	The Amphitheater of Anguish: Korrak the Bloodrager!
+z_64_80_ZulDrak	12948	The Champion of Anguish
+
+
 z_64_80_ZulDrak	header	64-80: Zul'Drak (Unsorted)
 z_64_80_ZulDrak	12629	You Can Run, But You Can't Hide
 z_64_80_ZulDrak	12630	Kickin' Nass and Takin' Manes
@@ -1056,61 +1071,67 @@ z_64_80_ZulDrak	12729	The Gods Have Spoken
 z_64_80_ZulDrak	13549	Tails Up
 z_64_80_ZulDrak	13556	Eggs for Dubra'Jin
 z_64_80_ZulDrak	12730	Convocation at Zol'Heb
-z_64_80_ZulDrak	12932	The Amphitheater of Anguish: Yggdras!
-z_64_80_ZulDrak	12933	The Amphitheater of Anguish: Magnataur!
-z_64_80_ZulDrak	12934	The Amphitheater of Anguish: From Beyond!
-z_64_80_ZulDrak	12935	The Amphitheater of Anguish: Tuskarrmageddon!
-z_64_80_ZulDrak	12936	The Amphitheater of Anguish: Korrak the Bloodrager!
-z_64_80_ZulDrak	12954	The Amphitheater of Anguish: Yggdras!
-z_64_80_ZulDrak	12948	The Champion of Anguish
-z_66_80_Sholazar_Basin	header	66-80: Sholazar Basin (Unsorted)
-z_66_80_Sholazar_Basin	12489	Welcome to Sholazar Basin
-z_66_80_Sholazar_Basin	12520	Rhino Mastery: The Test
+z_66_80_Sholazar_Basin	header	66-80: Sholazar Basin: Welcome to the Scholozar Basin
+z_66_80_Sholazar_Basin	49553	Hero's Call: Sholazar Basin!	alliance
+z_66_80_Sholazar_Basin	49535	Warchief's Command: Sholazar Basin!	horde
+z_66_80_Sholazar_Basin	39209	Sholazar Basin
+z_66_80_Sholazar_Basin	39212	Sholazar Basin
 z_66_80_Sholazar_Basin	12521	Where in the World is Hemet Nesingwary?
-z_66_80_Sholazar_Basin	12522	Need an Engine, Take an Engine
-z_66_80_Sholazar_Basin	12523	Have a Part, Give a Part
+z_66_80_Sholazar_Basin	12489	Welcome to Sholazar Basin
 z_66_80_Sholazar_Basin	12524	Venture Co. Misadventure
 z_66_80_Sholazar_Basin	12525	Wipe That Grin Off His Face
-z_66_80_Sholazar_Basin	12526	Rhino Mastery: The Chase
-z_66_80_Sholazar_Basin	12543	An Offering for Soo-rahm
-z_66_80_Sholazar_Basin	12544	The Bones of Nozronn
-z_66_80_Sholazar_Basin	12549	Dreadsaber Mastery: Becoming a Predator
-z_66_80_Sholazar_Basin	12550	Dreadsaber Mastery: Stalking the Prey
-z_66_80_Sholazar_Basin	12551	Crocolisk Mastery: The Trial
-z_66_80_Sholazar_Basin	12556	Rhino Mastery: The Kill
-z_66_80_Sholazar_Basin	12558	Dreadsaber Mastery: Ready to Pounce
-z_66_80_Sholazar_Basin	12560	Crocolisk Mastery: The Plan
-z_66_80_Sholazar_Basin	12569	Crocolisk Mastery: The Ambush
+z_66_80_Sholazar_Basin	12522	Need an Engine, Take an Engine
+z_66_80_Sholazar_Basin	12523	Have a Part, Give a Part
+z_66_80_Sholazar_Basin	12688	Engineering a Disaster
+z_66_80_Sholazar_Basin	12696	Aerial Surveillance
+z_66_80_Sholazar_Basin	12699	An Embarassing Incident
+z_66_80_Sholazar_Basin	12671	Reconnaissance Flight
 z_66_80_Sholazar_Basin	12589	Kick, What Kick?
 z_66_80_Sholazar_Basin	12592	The Great Hunter's Challenge
+z_66_80_Sholazar_Basin	12549	Dreadsaber Mastery: Becoming a Predator
+z_66_80_Sholazar_Basin	12520	Rhino Mastery: The Test
+z_66_80_Sholazar_Basin	12804	A Steak Fit for a Hunter
 z_66_80_Sholazar_Basin	12624	It Could Be Anywhere!
 z_66_80_Sholazar_Basin	12634	Some Make Lemonade, Some Make Liquor
 z_66_80_Sholazar_Basin	12644	Still At It
 z_66_80_Sholazar_Basin	12645	The Taste Test
+z_66_80_Sholazar_Basin	12551	Crocolisk Mastery: The Trial
+z_66_80_Sholazar_Basin	12560	Crocolisk Mastery: The Plan
+z_66_80_Sholazar_Basin	12550	Dreadsaber Mastery: Stalking the Prey
+z_66_80_Sholazar_Basin	12526	Rhino Mastery: The Chase
+z_66_80_Sholazar_Basin	12569	Crocolisk Mastery: The Ambush
+z_66_80_Sholazar_Basin	12558	Dreadsaber Mastery: Ready to Pounce
+z_66_80_Sholazar_Basin	12543	An Offering for Soo-rahm
+z_66_80_Sholazar_Basin	12544	The Bones of Nozronn
+z_66_80_Sholazar_Basin	12556	Rhino Mastery: The Kill
+z_66_80_Sholazar_Basin	12603	Sharpening Your Talons
+z_66_80_Sholazar_Basin	12605	Securing the Bait
+z_66_80_Sholazar_Basin	12595	In Search of Bigger Game
+z_66_80_Sholazar_Basin	12681	Reagent Agent
+z_66_80_Sholazar_Basin	12683	Burning to Help
+z_66_80_Sholazar_Basin	12658	My Pet Roc
+z_66_80_Sholazar_Basin	12607	A Mammoth Undertaking
+z_66_80_Sholazar_Basin	12614	Post-partum Aggression
+z_66_80_Sholazar_Basin	header	66-80: Sholazar Basin: Mercenary of Sholazar
+z_66_80_Sholazar_Basin	12651	Lakeside Landing
 z_66_80_Sholazar_Basin	12654	The Part-time Hunter
-z_66_80_Sholazar_Basin	12688	Engineering a Disaster
-z_66_80_Sholazar_Basin	12804	A Steak Fit for a Hunter
-z_66_80_Sholazar_Basin	39209	Sholazar Basin
-z_66_80_Sholazar_Basin	39212	Sholazar Basin
 z_66_80_Sholazar_Basin	12528	Playing Along
 z_66_80_Sholazar_Basin	12529	The Ape Hunter's Slave
 z_66_80_Sholazar_Basin	12530	Tormenting the Softknuckles
-z_66_80_Sholazar_Basin	12531	The Underground Menace
-z_66_80_Sholazar_Basin	12532	Flown the Coop!
 z_66_80_Sholazar_Basin	12533	The Wasp Hunter's Apprentice
 z_66_80_Sholazar_Basin	12534	The Sapphire Queen
+z_66_80_Sholazar_Basin	12532	Flown the Coop!
+z_66_80_Sholazar_Basin	12531	The Underground Menace
 z_66_80_Sholazar_Basin	12535	Mischief in the Making
 z_66_80_Sholazar_Basin	12536	A Rough Ride
 z_66_80_Sholazar_Basin	12537	Lightning Definitely Strikes Twice
 z_66_80_Sholazar_Basin	12538	The Mist Isn't Listening
 z_66_80_Sholazar_Basin	12539	Hoofing It
 z_66_80_Sholazar_Basin	12540	Just Following Orders
-z_66_80_Sholazar_Basin	12559	Powering the Waygate - The Makers' Perch
-z_66_80_Sholazar_Basin	12561	An Issue of Trust
 z_66_80_Sholazar_Basin	12570	Fortunate Misunderstandings
-z_66_80_Sholazar_Basin	12571	Make the Bad Snake Go Away
 z_66_80_Sholazar_Basin	12572	Gods like Shiny Things
 z_66_80_Sholazar_Basin	12573	Making Peace
+z_66_80_Sholazar_Basin	12571	Make the Bad Snake Go Away
 z_66_80_Sholazar_Basin	12574	Back So Soon?
 z_66_80_Sholazar_Basin	12575	The Lost Mistwhisper Treasure
 z_66_80_Sholazar_Basin	12576	Forced Hand
@@ -1119,146 +1140,173 @@ z_66_80_Sholazar_Basin	12578	The Angry Gorloc
 z_66_80_Sholazar_Basin	12579	Lifeblood of the Mosswalker Shrine
 z_66_80_Sholazar_Basin	12580	The Mosswalker Savior
 z_66_80_Sholazar_Basin	12581	A Hero's Burden
-z_66_80_Sholazar_Basin	12595	In Search of Bigger Game
-z_66_80_Sholazar_Basin	12603	Sharpening Your Talons
-z_66_80_Sholazar_Basin	12605	Securing the Bait
-z_66_80_Sholazar_Basin	12607	A Mammoth Undertaking
+z_66_80_Sholazar_Basin	12695	Return of the Friendly Dryskin
+z_66_80_Sholazar_Basin	12692	Return of the Lich Hunter
+z_66_80_Sholazar_Basin	header	66-80: Sholazar Basin: Force of Nature
+z_66_80_Sholazar_Basin	12803	Force of Nature
+z_66_80_Sholazar_Basin	12561	An Issue of Trust
 z_66_80_Sholazar_Basin	12611	Returned Sevenfold
+z_66_80_Sholazar_Basin	12805	Salvaging Life's Strength
 z_66_80_Sholazar_Basin	12612	The Fallen Pillar
-z_66_80_Sholazar_Basin	12613	Powering the Waygate - The Makers' Overlook
-z_66_80_Sholazar_Basin	12614	Post-partum Aggression
+z_66_80_Sholazar_Basin	12608	Cultist Incursion
 z_66_80_Sholazar_Basin	12617	Exterminate the Intruders
+z_66_80_Sholazar_Basin	12660	Weapons of Destruction
 z_66_80_Sholazar_Basin	12620	The Lifewarden's Wrath
 z_66_80_Sholazar_Basin	12621	Freya's Pact
-z_66_80_Sholazar_Basin	12658	My Pet Roc
-z_66_80_Sholazar_Basin	12660	Weapons of Destruction
-z_66_80_Sholazar_Basin	12681	Reagent Agent
-z_66_80_Sholazar_Basin	12683	Burning to Help
-z_66_80_Sholazar_Basin	12695	Return of the Friendly Dryskin
-z_66_80_Sholazar_Basin	12805	Salvaging Life's Strength
-z_66_80_Sholazar_Basin	12546	Reclamation
-z_66_80_Sholazar_Basin	12548	The Etymidian
-z_66_80_Sholazar_Basin	12608	Cultist Incursion
+z_66_80_Sholazar_Basin	12559	Powering the Waygate - The Makers' Perch
+z_66_80_Sholazar_Basin	12613	Powering the Waygate - The Makers' Overlook
 z_66_80_Sholazar_Basin	12691	A Timeworn Coffer
+z_66_80_Sholazar_Basin	12548	The Etymidian
+z_66_80_Sholazar_Basin	12547	The Activation Rune
 z_66_80_Sholazar_Basin	12797	Back Through the Waygate
-z_66_80_Sholazar_Basin	12803	Force of Nature
-z_67_80_Storm_Peaks	header	67-80: Storm Peaks (Unsorted)
-z_67_80_Storm_Peaks	13420	Everfrost
+z_66_80_Sholazar_Basin	12546	Reclamation
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: K3
+z_67_80_Storm_Peaks	12853	Luxurious Getaway!
 z_67_80_Storm_Peaks	12818	Clean Up
 z_67_80_Storm_Peaks	12819	Just Around the Corner
 z_67_80_Storm_Peaks	12820	A Delicate Touch
+z_67_80_Storm_Peaks	12826	Slightly Unstable
+z_67_80_Storm_Peaks	12836	Expression of Gratitude
+z_67_80_Storm_Peaks	12827	Reclaimed Rations
+z_67_80_Storm_Peaks	12828	Ample Inspiration
 z_67_80_Storm_Peaks	12821	Opening the Backdoor
 z_67_80_Storm_Peaks	12822	Know No Fear
 z_67_80_Storm_Peaks	12823	A Flawless Plan
 z_67_80_Storm_Peaks	12824	Demolitionist Extraordinaire
-z_67_80_Storm_Peaks	12826	Slightly Unstable
-z_67_80_Storm_Peaks	12827	Reclaimed Rations
-z_67_80_Storm_Peaks	12828	Ample Inspiration
+z_67_80_Storm_Peaks	12862	When All Else Fails	alliance
+z_67_80_Storm_Peaks	13060	When All Else Fails	horde
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Crystalweb Cavern
 z_67_80_Storm_Peaks	12829	Moving In
 z_67_80_Storm_Peaks	12830	Ore Repossession
 z_67_80_Storm_Peaks	12831	Only Partly Forgotten
 z_67_80_Storm_Peaks	12832	Bitter Departure
-z_67_80_Storm_Peaks	12836	Expression of Gratitude
-z_67_80_Storm_Peaks	12846	Leave No Goblin Behind
-z_67_80_Storm_Peaks	12853	Luxurious Getaway!
-z_67_80_Storm_Peaks	12870	Ancient Relics
-z_67_80_Storm_Peaks	12882	Ancient Relics
-z_67_80_Storm_Peaks	13060	When All Else Fails
-z_67_80_Storm_Peaks	12841	The Crone's Bargain
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Vrykul/Sons of Hodir
 z_67_80_Storm_Peaks	12843	They Took Our Men!
 z_67_80_Storm_Peaks	12844	Equipment Recovery
+z_67_80_Storm_Peaks	12846	Leave No Goblin Behind
+z_67_80_Storm_Peaks	12841	The Crone's Bargain
 z_67_80_Storm_Peaks	12905	Mildred the Cruel
 z_67_80_Storm_Peaks	12906	Discipline
 z_67_80_Storm_Peaks	12907	Examples to be Made
 z_67_80_Storm_Peaks	12908	A Certain Prisoner
 z_67_80_Storm_Peaks	12921	A Change of Scenery
-z_67_80_Storm_Peaks	13000	Emergency Measures
-z_67_80_Storm_Peaks	13061	Prepare for Glory
-z_67_80_Storm_Peaks	12851	Going Bearback
-z_67_80_Storm_Peaks	12854	On Brann's Trail
-z_67_80_Storm_Peaks	12856	Cold Hearted
-z_67_80_Storm_Peaks	12858	Pieces to the Puzzle
-z_67_80_Storm_Peaks	12860	Data Mining
-z_67_80_Storm_Peaks	12872	Norgannon's Shell
-z_67_80_Storm_Peaks	12885	The Exiles of Ulduar
-z_67_80_Storm_Peaks	12886	The Drakkensryd
-z_67_80_Storm_Peaks	12888	SCRAP-E
-z_67_80_Storm_Peaks	12889	The Prototype Console
-z_67_80_Storm_Peaks	12895	The Missing Bronzebeard
-z_67_80_Storm_Peaks	12900	Making a Harness
-z_67_80_Storm_Peaks	12909	The Nose Knows
-z_67_80_Storm_Peaks	12910	Sniffing Out the Perpetrator
-z_67_80_Storm_Peaks	12913	Speak Orcish, Man!
-z_67_80_Storm_Peaks	12915	Mending Fences
-z_67_80_Storm_Peaks	12917	Speaking with the Wind's Voice
-z_67_80_Storm_Peaks	12920	Catching up with Brann
-z_67_80_Storm_Peaks	12922	The Refiner's Fire
-z_67_80_Storm_Peaks	12924	Forging an Alliance
-z_67_80_Storm_Peaks	12925	Aberrations
-z_67_80_Storm_Peaks	12926	Pieces of the Puzzle
-z_67_80_Storm_Peaks	12927	Data Mining
-z_67_80_Storm_Peaks	12928	Norgannon's Shell
-z_67_80_Storm_Peaks	12929	The Earthen of Ulduar
-z_67_80_Storm_Peaks	12930	Rare Earth
-z_67_80_Storm_Peaks	12931	Fighting Back
-z_67_80_Storm_Peaks	12937	Relief for the Fallen
-z_67_80_Storm_Peaks	12942	Off With Their Black Wings
-z_67_80_Storm_Peaks	12953	Valkyrion Must Burn
-z_67_80_Storm_Peaks	12956	A Spark of Hope
-z_67_80_Storm_Peaks	12957	Slaves of the Stormforged
-z_67_80_Storm_Peaks	12964	The Dark Ore
-z_67_80_Storm_Peaks	12965	The Gifts of Loken
-z_67_80_Storm_Peaks	12966	You Can't Miss Him
-z_67_80_Storm_Peaks	12967	Battling the Elements
-z_67_80_Storm_Peaks	12968	Yulda's Folly
 z_67_80_Storm_Peaks	12969	Is That Your Goblin?
 z_67_80_Storm_Peaks	12970	The Hyldsmeet
 z_67_80_Storm_Peaks	12971	Taking on All Challengers
 z_67_80_Storm_Peaks	12972	You'll Need a Bear
+z_67_80_Storm_Peaks	12851	Going Bearback
+z_67_80_Storm_Peaks	12856	Cold Hearted
+z_67_80_Storm_Peaks	13063	Deemed Worthy
+z_67_80_Storm_Peaks	12900	Making a Harness
+z_67_80_Storm_Peaks	12983	The Last of Her Kind
+z_67_80_Storm_Peaks	12989	The Slithering Darkness
+z_67_80_Storm_Peaks	12996	The Warm-Up 
+z_67_80_Storm_Peaks	12997	Into the Pit
+z_67_80_Storm_Peaks	13061	Prepare for Glory
+z_67_80_Storm_Peaks	13062	Lok'lira's Parting Gift
+z_67_80_Storm_Peaks	12886	The Drakkensryd
+z_67_80_Storm_Peaks	13064	Sibling Rivalry
+z_67_80_Storm_Peaks	12915	Mending Fences
+z_67_80_Storm_Peaks	12922	The Refiner's Fire
+z_67_80_Storm_Peaks	12956	A Spark of Hope
+z_67_80_Storm_Peaks	12924	Forging an Alliance
+z_67_80_Storm_Peaks	12966	You Can't Miss Him
+z_67_80_Storm_Peaks	12967	Battling the Elements
+z_67_80_Storm_Peaks	13009	A New Beginning
+z_67_80_Storm_Peaks	13050	Veranus
+z_67_80_Storm_Peaks	13051	Territorial Trespass
+z_67_80_Storm_Peaks	13010	Krolmir, Hammer of Storms
+z_67_80_Storm_Peaks	13011	Jormuttar is Soo Fat...
 z_67_80_Storm_Peaks	12975	In Memoriam
 z_67_80_Storm_Peaks	12976	A Monument to the Fallen
+z_67_80_Storm_Peaks	13057	The Terrace of the Makers
+z_67_80_Storm_Peaks	13005	The Earthen Oath
+z_67_80_Storm_Peaks	13035	Loken's Lackeys
+z_67_80_Storm_Peaks	13047	The Reckoning
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Brunnhildar Village
+z_67_80_Storm_Peaks	12925	Aberrations
+z_67_80_Storm_Peaks	12942	Off With Their Black Wings
+z_67_80_Storm_Peaks	12953	Valkyrion Must Burn
+z_67_80_Storm_Peaks	12968	Yulda's Folly
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Dun Niffelem
+z_67_80_Storm_Peaks	12985	Forging a Head
+z_67_80_Storm_Peaks	12987	Mounting Hodir's Helm
+z_67_80_Storm_Peaks	13420	Everfrost
+z_67_80_Storm_Peaks	13001	Raising Hodir's Spear
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Frosthold
+z_67_80_Storm_Peaks	12870	Ancient Relics	alliance
+z_67_80_Storm_Peaks	12863	Offering Thanks	alliance
+z_67_80_Storm_Peaks	12864	Missing Scouts	alliance
+z_67_80_Storm_Peaks	12866	Stemming the Aggressors	alliance
+z_67_80_Storm_Peaks	12868	Sirana Iceshriek	alliance
+z_67_80_Storm_Peaks	12865	Loyal Companions	alliance
+z_67_80_Storm_Peaks	12867	Baby Stealers	alliance
+z_67_80_Storm_Peaks	12854	On Brann's Trail	alliance
+z_67_80_Storm_Peaks	12910	Sniffing Out the Perpetrator	alliance
+z_67_80_Storm_Peaks	12858	Pieces to the Puzzle	alliance
+z_67_80_Storm_Peaks	12860	Data Mining	alliance
+z_67_80_Storm_Peaks	13415	The Library Console	alliance
+z_67_80_Storm_Peaks	12872	Norgannon's Shell	alliance
+z_67_80_Storm_Peaks	12871	Aid from the Explorers' League	alliance
+z_67_80_Storm_Peaks	12873	The Frostborn King	alliance
+z_67_80_Storm_Peaks	12874	Fervor of the Frostborn	alliance
+z_67_80_Storm_Peaks	12875	An Experienced Guide	alliance
+z_67_80_Storm_Peaks	12876	Unwelcome Guests	alliance
+z_67_80_Storm_Peaks	12877	The Lonesome Watcher	alliance
+z_67_80_Storm_Peaks	12986	Fate of the Titans	alliance
+z_67_80_Storm_Peaks	12878	The Hidden Relic	alliance
+z_67_80_Storm_Peaks	12879	Fury of the Frostborn King	alliance
+z_67_80_Storm_Peaks	12880	The Master Explorer	alliance
+z_67_80_Storm_Peaks	12973	The Brothers Bronzebeard	alliance
+z_67_80_Storm_Peaks	13417	The Brothers Bronzebeard	alliance
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Grom'arsh Crash-site
+z_67_80_Storm_Peaks	12882	Ancient Relics	horde
+z_67_80_Storm_Peaks	13000	Emergency Measures	horde
+z_67_80_Storm_Peaks	13054	The Missing Tracker	horde
+z_67_80_Storm_Peaks	13055	Cave Medicine	horde
+z_67_80_Storm_Peaks	13056	There's Always Time for Revenge	horde
+z_67_80_Storm_Peaks	12895	The Missing Bronzebeard	horde
+z_67_80_Storm_Peaks	12909	The Nose Knows	horde
+z_67_80_Storm_Peaks	12910	Sniffing Out the Perpetrator	horde
+z_67_80_Storm_Peaks	12913	Speak Orcish, Man!	horde
+z_67_80_Storm_Peaks	12917	Speaking with the Wind's Voice	horde
+z_67_80_Storm_Peaks	12920	Catching up with Brann	horde
+z_67_80_Storm_Peaks	12926	Pieces of the Puzzle	horde
+z_67_80_Storm_Peaks	12927	Data Mining	horde
+z_67_80_Storm_Peaks	13416	The Library Console	horde
+z_67_80_Storm_Peaks	12928	Norgannon's Shell	horde
+z_67_80_Storm_Peaks	13273	Going After the Core	horde
+z_67_80_Storm_Peaks	13274	The Core's Keeper	horde
+z_67_80_Storm_Peaks	13285	Forging the Keystone	horde
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Camp Tunka'lo
+z_67_80_Storm_Peaks	13426	Xarantaur, the Witness	horde
+z_67_80_Storm_Peaks	13034	The Witness and the Hero
+z_67_80_Storm_Peaks	13037	Memories of Stormhoof
+z_67_80_Storm_Peaks	13038	Distortions in Time
+z_67_80_Storm_Peaks	13048	Where Time Went Wrong
+z_67_80_Storm_Peaks	13049	The Hero's Arms
+z_67_80_Storm_Peaks	13058	Changing the Wind's Course
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Bouldercrag’s Refuge
+z_67_80_Storm_Peaks	12885	The Exiles of Ulduar	alliance
+z_67_80_Storm_Peaks	12929	The Earthen of Ulduar	horde
+z_67_80_Storm_Peaks	12930	Rare Earth
+z_67_80_Storm_Peaks	12931	Fighting Back
+z_67_80_Storm_Peaks	12937	Relief for the Fallen
+z_67_80_Storm_Peaks	12957	Slaves of the Stormforged
+z_67_80_Storm_Peaks	12964	The Dark Ore
+z_67_80_Storm_Peaks	12965	The Gifts of Loken
 z_67_80_Storm_Peaks	12978	Facing the Storm
 z_67_80_Storm_Peaks	12979	Armor of Darkness
 z_67_80_Storm_Peaks	12980	The Armor's Secrets
-z_67_80_Storm_Peaks	12983	The Last of Her Kind
 z_67_80_Storm_Peaks	12984	Valduran the Stormborn
-z_67_80_Storm_Peaks	12985	Forging a Head
-z_67_80_Storm_Peaks	12987	Mounting Hodir's Helm
 z_67_80_Storm_Peaks	12988	Destroy the Forges!
-z_67_80_Storm_Peaks	12989	The Slithering Darkness
 z_67_80_Storm_Peaks	12991	Hit Them Where it Hurts
 z_67_80_Storm_Peaks	12993	A Colossal Threat
-z_67_80_Storm_Peaks	12996	The Warm-Up 
-z_67_80_Storm_Peaks	12997	Into the Pit
 z_67_80_Storm_Peaks	12998	The Heart of the Storm
-z_67_80_Storm_Peaks	13001	Raising Hodir's Spear
-z_67_80_Storm_Peaks	13005	The Earthen Oath
 z_67_80_Storm_Peaks	13007	The Iron Colossus
-z_67_80_Storm_Peaks	13009	A New Beginning
-z_67_80_Storm_Peaks	13010	Krolmir, Hammer of Storms
-z_67_80_Storm_Peaks	13011	Jormuttar is Soo Fat...
-z_67_80_Storm_Peaks	13034	The Witness and the Hero
-z_67_80_Storm_Peaks	13035	Loken's Lackeys
-z_67_80_Storm_Peaks	13037	Memories of Stormhoof
-z_67_80_Storm_Peaks	13038	Distortions in Time
-z_67_80_Storm_Peaks	13047	The Reckoning
-z_67_80_Storm_Peaks	13048	Where Time Went Wrong
-z_67_80_Storm_Peaks	13049	The Hero's Arms
-z_67_80_Storm_Peaks	13050	Veranus
-z_67_80_Storm_Peaks	13051	Territorial Trespass
-z_67_80_Storm_Peaks	13054	The Missing Tracker
-z_67_80_Storm_Peaks	13055	Cave Medicine
-z_67_80_Storm_Peaks	13056	There's Always Time for Revenge
-z_67_80_Storm_Peaks	13057	The Terrace of the Makers
-z_67_80_Storm_Peaks	13058	Changing the Wind's Course
-z_67_80_Storm_Peaks	13062	Lok'lira's Parting Gift
-z_67_80_Storm_Peaks	13063	Deemed Worthy
-z_67_80_Storm_Peaks	13064	Sibling Rivalry
-z_67_80_Storm_Peaks	13273	Going After the Core
-z_67_80_Storm_Peaks	13274	The Core's Keeper
-z_67_80_Storm_Peaks	13285	Forging the Keystone
-z_67_80_Storm_Peaks	13415	The Library Console
-z_67_80_Storm_Peaks	13416	The Library Console
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Engineers
+z_67_80_Storm_Peaks	12888	SCRAP-E
+z_67_80_Storm_Peaks	12889	The Prototype Console
 z_67_80_Icecrown	header	67-80: Icecrown: Crusaders Pinnacle
 z_67_80_Icecrown	13226	Judgment Day Comes!	alliance
 z_67_80_Icecrown	13227	Judgment Day Comes!	horde
@@ -1294,6 +1342,42 @@ z_67_80_Icecrown	13080	Hope Yet Remains
 z_67_80_Icecrown	13081	The Will of the Naaru
 z_67_80_Icecrown	13082	The Boon of A'dal
 z_67_80_Icecrown	13083	Light Within the Darkness
+z_67_80_Icecrown	header	67-80: Icecrown: The Airships
+z_67_80_Icecrown	13228	The Broken Front
+z_67_80_Icecrown	13230	Avenge Me!
+z_67_80_Icecrown	13308	Mind Tricks
+z_67_80_Icecrown	13293	Get to Ymirheim!
+z_67_80_Icecrown	13341	Joining the Assault	alliance
+z_67_80_Icecrown	13340	Joining the Assault	horde
+z_67_80_Icecrown	13238	Good For Something?
+z_67_80_Icecrown	13260	Takes One to Know One
+z_67_80_Icecrown	13239	Volatility
+z_67_80_Icecrown	13237	Poke and Prod
+z_67_80_Icecrown	13264	That's Abominable!
+z_67_80_Icecrown	13277	Against the Giants
+z_67_80_Icecrown	13278	Coprous the Defiled
+z_67_80_Icecrown	13279	Basic Chemistry
+z_67_80_Icecrown	13351	Sneak Preview
+z_67_80_Icecrown	13354	Chain of Command
+z_67_80_Icecrown	13355	Cannot Reproduce
+z_67_80_Icecrown	13356	Retest Now
+z_67_80_Icecrown	13352	Drag and Drop
+z_67_80_Icecrown	13358	Not a Bug
+z_67_80_Icecrown	13366	Need More Info
+z_67_80_Icecrown	13367	No Rest For The Wicked
+z_67_80_Icecrown	13332	Raise the Barricades	alliance
+z_67_80_Icecrown	13306	Raise the Barricades	horde
+z_67_80_Icecrown	13312	The Ironwall Rampart
+z_67_80_Icecrown	13337	The Ironwall Rampart
+z_67_80_Icecrown	13313	Blinding the Eyes in the Sky
+z_67_80_Icecrown	13334	Bloodspattered Banners	alliance
+z_67_80_Icecrown	13307	Bloodspattered Banners	horde
+z_67_80_Icecrown	13329	Before the Gate of Horror
+z_67_80_Icecrown	13335	Before the Gate of Horror
+z_67_80_Icecrown	13338	The Guardians of Corp'rethar	alliance
+z_67_80_Icecrown	13316	The Guardians of Corp'rethar	horde
+z_67_80_Icecrown	13328	Shatter the Shards
+z_67_80_Icecrown	13339	Shatter the Shards
 z_67_80_Icecrown	header	67-80: Icecrown: The Shadow Vault
 z_67_80_Icecrown	12887	It's All Fun and Games	alliance
 z_67_80_Icecrown	12892	It's All Fun and Games	horde
@@ -1337,128 +1421,113 @@ z_67_80_Icecrown	13216	Battle at Valhalas: The Return of Sigrid Iceborn
 z_67_80_Icecrown	13217	Battle at Valhalas: Carnage!
 z_67_80_Icecrown	13218	Battle at Valhalas: Thane Deathblow
 z_67_80_Icecrown	13219	Battle at Valhalas: Final Challenge
-z_67_80_Icecrown	header	67-80: Icecrown: Beneath the Citadel
-z_67_80_Icecrown	13225	The Skybreaker	alliance
-z_67_80_Icecrown	13224	Orgrim's Hammer	horde
-z_67_80_Icecrown	13386	Exploiting an Opening	alliance
-z_67_80_Icecrown	13258	Opportunity	horde
-z_67_80_Icecrown	header	67-80: Icecrown (Unsorted)
+z_67_80_Icecrown	header	67-80: Icecrown: Fleshwerks
 z_67_80_Icecrown	13106	Blackwatch
 z_67_80_Icecrown	13117	Where Are They Coming From?
 z_67_80_Icecrown	13119	Destroying the Altars
 z_67_80_Icecrown	13120	Death's Gaze
+z_67_80_Icecrown	13221	I'm Not Dead Yet!	alliance
+z_67_80_Icecrown	13229	I'm Not Dead Yet!	horde
 z_67_80_Icecrown	13134	Spill Their Blood
 z_67_80_Icecrown	13136	Jagged Shards
-z_67_80_Icecrown	13138	I'm Smelting... Smelting!
 z_67_80_Icecrown	13140	The Runesmiths of Malykriss
-z_67_80_Icecrown	13143	New Recruit
-z_67_80_Icecrown	13144	Killing Two Scourge With One Skeleton
-z_67_80_Icecrown	13145	The Vile Hold
-z_67_80_Icecrown	13146	Generosity Abounds
-z_67_80_Icecrown	13147	Matchmaker
+z_67_80_Icecrown	13138	I'm Smelting... Smelting!
 z_67_80_Icecrown	13152	A Visit to the Doctor
-z_67_80_Icecrown	13155	Vereth the Cunning
-z_67_80_Icecrown	13160	Stunning View
-z_67_80_Icecrown	13161	The Rider of the Unholy
-z_67_80_Icecrown	13162	The Rider of Frost
-z_67_80_Icecrown	13163	The Rider of Blood
-z_67_80_Icecrown	13164	The Fate of Bloodbane
+z_67_80_Icecrown	13211	By Fire Be Purged
+z_67_80_Icecrown	13144	Killing Two Scourge With One Skeleton
+z_67_80_Icecrown	13482	Let's Get Out of Here!	alliance
+z_67_80_Icecrown	13481	Let's Get Out of Here!	horde
+z_67_80_Icecrown	13212	He's Gone to Pieces
+z_67_80_Icecrown	13220	Putting Olakin Back Together Again
+z_67_80_Icecrown	13235	The Flesh Giant Champion
+z_67_80_Icecrown	header	67-80: Icecrown: Beneath the Citadel
+z_67_80_Icecrown	13418	Preparations for War	alliance
+z_67_80_Icecrown	13419	Preparations for War	horde
+z_67_80_Icecrown	13225	The Skybreaker	alliance
+z_67_80_Icecrown	13224	Orgrim's Hammer	horde
+z_67_80_Icecrown	13386	Exploiting an Opening	alliance
+z_67_80_Icecrown	13258	Opportunity	horde
+z_67_80_Icecrown	13388	Set it Off!	alliance
+z_67_80_Icecrown	13262	Blow it Up!	horde
+z_67_80_Icecrown	13389	A Short Fuse	alliance
+z_67_80_Icecrown	13263	A Short Fuse	horde
+z_67_80_Icecrown	13271	A Voice in the Dark	horde
+z_67_80_Icecrown	13390	A Voice in the Dark	alliance
+z_67_80_Icecrown	13391	Time to Hide	alliance
+z_67_80_Icecrown	13275	Time to Hide	horde
+z_67_80_Icecrown	13392	Return to the Surface	alliance
+z_67_80_Icecrown	13282	Return to the Surface	horde
+z_67_80_Icecrown	13393	Field Repairs	alliance
+z_67_80_Icecrown	13304	Field Repairs	horde
+z_67_80_Icecrown	13394	Do Your Worst	alliance
+z_67_80_Icecrown	13305	Do Your Worst	horde
+z_67_80_Icecrown	13395	Army of the Damned	alliance
+z_67_80_Icecrown	13236	Army of the Damned	horde
+z_67_80_Icecrown	13396	Futility	alliance
+z_67_80_Icecrown	13348	Futility	horde
+z_67_80_Icecrown	13397	Sindragosa's Fall	alliance
+z_67_80_Icecrown	13349	Cradle of the Frostbrood	horde
+z_67_80_Icecrown	13398	Where Dragons Fell	alliance
+z_67_80_Icecrown	13359	Where Dragons Fell	horde
+z_67_80_Icecrown	13399	Time for Answers	alliance
+z_67_80_Icecrown	13360	Time for Answers	horde
+z_67_80_Icecrown	13400	The Hunter and the Prince	alliance
+z_67_80_Icecrown	13361	The Hunter and the Prince	horde
+z_67_80_Icecrown	13401	Knowledge is a Terrible Burden	alliance
+z_67_80_Icecrown	13362	Knowledge is a Terrible Burden	horde
+z_67_80_Icecrown	13402	Tirion's Help	alliance
+z_67_80_Icecrown	13363	Argent Aid	horde
+z_67_80_Icecrown	13403	Tirion's Gambit	alliance
+z_67_80_Icecrown	13364	Tirion's Gambit	horde
+z_67_80_Icecrown	header	67-80: Icecrown: Breaking the Citadel
 z_67_80_Icecrown	13168	Parting Gifts
 z_67_80_Icecrown	13169	An Undead's Best Friend
 z_67_80_Icecrown	13170	Honor is for the Weak
 z_67_80_Icecrown	13171	From Whence They Came
 z_67_80_Icecrown	13172	Seeds of Chaos
 z_67_80_Icecrown	13174	Amidst the Confusion
-z_67_80_Icecrown	13211	By Fire Be Purged
-z_67_80_Icecrown	13212	He's Gone to Pieces
-z_67_80_Icecrown	13220	Putting Olakin Back Together Again
-z_67_80_Icecrown	13221	I'm Not Dead Yet!
-z_67_80_Icecrown	13228	The Broken Front
-z_67_80_Icecrown	13229	I'm Not Dead Yet!
-z_67_80_Icecrown	13230	Avenge Me!
-z_67_80_Icecrown	13235	The Flesh Giant Champion
-z_67_80_Icecrown	13236	Army of the Damned
-z_67_80_Icecrown	13237	Poke and Prod
-z_67_80_Icecrown	13238	Good For Something?
-z_67_80_Icecrown	13239	Volatility
-z_67_80_Icecrown	13258	Opportunity
-z_67_80_Icecrown	13260	Takes One to Know One
-z_67_80_Icecrown	13262	Blow it Up!
-z_67_80_Icecrown	13263	A Short Fuse
-z_67_80_Icecrown	13264	That's Abominable!
-z_67_80_Icecrown	13271	A Voice in the Dark
-z_67_80_Icecrown	13275	Time to Hide
-z_67_80_Icecrown	13277	Against the Giants
-z_67_80_Icecrown	13279	Basic Chemistry
-z_67_80_Icecrown	13282	Return to the Surface
-z_67_80_Icecrown	13293	Get to Ymirheim!
-z_67_80_Icecrown	13304	Field Repairs
-z_67_80_Icecrown	13305	Do Your Worst
-z_67_80_Icecrown	13306	Raise the Barricades
-z_67_80_Icecrown	13307	Bloodspattered Banners
-z_67_80_Icecrown	13308	Mind Tricks
-z_67_80_Icecrown	13312	The Ironwall Rampart
-z_67_80_Icecrown	13313	Blinding the Eyes in the Sky
-z_67_80_Icecrown	13316	The Guardians of Corp'rethar
-z_67_80_Icecrown	13328	Shatter the Shards
-z_67_80_Icecrown	13329	Before the Gate of Horror
-z_67_80_Icecrown	13332	Raise the Barricades
-z_67_80_Icecrown	13334	Bloodspattered Banners
-z_67_80_Icecrown	13335	Before the Gate of Horror
-z_67_80_Icecrown	13337	The Ironwall Rampart
-z_67_80_Icecrown	13338	The Guardians of Corp'rethar
-z_67_80_Icecrown	13339	Shatter the Shards
-z_67_80_Icecrown	13340	Joining the Assault
-z_67_80_Icecrown	13341	Joining the Assault
-z_67_80_Icecrown	13348	Futility
-z_67_80_Icecrown	13349	Cradle of the Frostbrood
-z_67_80_Icecrown	13351	Sneak Preview
-z_67_80_Icecrown	13352	Drag and Drop
-z_67_80_Icecrown	13354	Chain of Command
-z_67_80_Icecrown	13355	Cannot Reproduce
-z_67_80_Icecrown	13356	Retest Now
-z_67_80_Icecrown	13358	Not a Bug
-z_67_80_Icecrown	13359	Where Dragons Fell
-z_67_80_Icecrown	13360	Time for Answers
-z_67_80_Icecrown	13361	The Hunter and the Prince
-z_67_80_Icecrown	13362	Knowledge is a Terrible Burden
-z_67_80_Icecrown	13363	Argent Aid
-z_67_80_Icecrown	13364	Tirion's Gambit
-z_67_80_Icecrown	13366	Need More Info
-z_67_80_Icecrown	13367	No Rest For The Wicked
-z_67_80_Icecrown	13388	Set it Off!
-z_67_80_Icecrown	13389	A Short Fuse
-z_67_80_Icecrown	13390	A Voice in the Dark
-z_67_80_Icecrown	13391	Time to Hide
-z_67_80_Icecrown	13392	Return to the Surface
-z_67_80_Icecrown	13393	Field Repairs
-z_67_80_Icecrown	13394	Do Your Worst
-z_67_80_Icecrown	13395	Army of the Damned
-z_67_80_Icecrown	13396	Futility
-z_67_80_Icecrown	13397	Sindragosa's Fall
-z_67_80_Icecrown	13398	Where Dragons Fell
-z_67_80_Icecrown	13399	Time for Answers
-z_67_80_Icecrown	13400	The Hunter and the Prince
-z_67_80_Icecrown	13401	Knowledge is a Terrible Burden
-z_67_80_Icecrown	13402	Tirion's Help
-z_67_80_Icecrown	13403	Tirion's Gambit
-z_67_80_Icecrown	13418	Preparations for War
-z_67_80_Icecrown	13419	Preparations for War
-z_67_80_Icecrown	13481	Let's Get Out of Here!
-z_67_80_Icecrown	13482	Let's Get Out of Here
-z_67_80_Icecrown	14443	The Battered Hilt
-z_67_80_Icecrown	14444	What The Dragons Know
-z_67_80_Icecrown	20438	A Suitable Disguise
-z_67_80_Icecrown	20439	A Meeting With The Magister
-z_67_80_Icecrown	24451	An Audience With The Arcanist
-z_67_80_Icecrown	24554	The Battered Hilt
-z_67_80_Icecrown	24555	What The Dragons Know
-z_67_80_Icecrown	24556	A Suitable Disguise
-z_67_80_Icecrown	24558	Return To Myralion Sunblaze
-z_67_80_Icecrown	24560	Tempering The Blade
-z_67_80_Icecrown	24795	A Victory For The Silver Covenant
-z_67_80_Icecrown	24796	A Victory For The Silver Covenant
-z_67_80_Icecrown	24798	A Victory For The Sunreavers
-z_67_80_Icecrown	24799	A Victory For The Sunreavers
-z_67_80_Icecrown	24800	A Victory For The Sunreavers
-z_67_80_Icecrown	24801	A Victory For The Sunreavers
+z_67_80_Icecrown	13155	Vereth the Cunning
+z_67_80_Icecrown	13143	New Recruit
+z_67_80_Icecrown	13145	The Vile Hold
+z_67_80_Icecrown	13146	Generosity Abounds
+z_67_80_Icecrown	13160	Stunning View
+z_67_80_Icecrown	13147	Matchmaker
+z_67_80_Icecrown	13161	The Rider of the Unholy
+z_67_80_Icecrown	13162	The Rider of Frost
+z_67_80_Icecrown	13163	The Rider of Blood
+z_67_80_Icecrown	13164	The Fate of Bloodbane
+z_67_80_Icecrown	header	67-80: Icecrown: Reforging Quel'Delar
+z_67_80_Icecrown	14443	The Battered Hilt	alliance
+z_67_80_Icecrown	24554	The Battered Hilt	horde
+z_67_80_Icecrown	14444	What The Dragons Know	alliance
+z_67_80_Icecrown	24555	What The Dragons Know	horde
+z_67_80_Icecrown	14457	The Sunreaver Plan	alliance
+z_67_80_Icecrown	24457	The Silver Covenant's Scheme	horde
+z_67_80_Icecrown	20438	A Suitable Disguise	alliance
+z_67_80_Icecrown	24556	A Suitable Disguise	horde
+z_67_80_Icecrown	20439	A Meeting With The Magister	alliance
+z_67_80_Icecrown	24451	An Audience With The Arcanist	horde
+z_67_80_Icecrown	24560	Tempering The Blade	alliance
+z_67_80_Icecrown	24558	Return To Myralion Sunblaze	horde
+z_67_80_Icecrown	24461	Reforging The Sword	alliance
+z_67_80_Icecrown	24559	Reforging The Sword	horde
+z_67_80_Icecrown	24476	Tempering The Blade	alliance
+z_67_80_Icecrown	24560	Tempering The Blade	horde
+z_67_80_Icecrown	24480	The Halls Of Reflection	alliance
+z_67_80_Icecrown	24561	The Halls Of Reflection	horde
+z_67_80_Icecrown	24522	Journey To The Sunwell	alliance
+z_67_80_Icecrown	24562	Journey To The Sunwell	horde
+z_67_80_Icecrown	24535	Thalorien Dawnseeker	alliance
+z_67_80_Icecrown	24563	Thalorien Dawnseeker	horde
+z_67_80_Icecrown	24553	The Purification of Quel'Delar	alliance
+z_67_80_Icecrown	24595	The Purification of Quel'Delar	alliance
+z_67_80_Icecrown	24564	The Purification of Quel'Delar	horde
+z_67_80_Icecrown	24598	The Purification of Quel'Delar	horde
+z_67_80_Icecrown	24594	The Purification of Quel'Delar	horde		race_bloodelf_female
+z_67_80_Icecrown	24596	The Purification of Quel'Delar	horde		race_bloodelf_female
+z_67_80_Icecrown	24795	A Victory For The Silver Covenant	alliance
+z_67_80_Icecrown	24796	A Victory For The Silver Covenant	alliance
+z_67_80_Icecrown	24798	A Victory For The Sunreavers	horde
+z_67_80_Icecrown	24801	A Victory For The Sunreavers	horde
+z_67_80_Icecrown	24799	A Victory For The Sunreavers	horde		race_bloodelf_female
+z_67_80_Icecrown	24800	A Victory For The Sunreavers	horde		race_bloodelf_female

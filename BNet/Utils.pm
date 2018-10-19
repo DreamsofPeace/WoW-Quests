@@ -476,45 +476,9 @@ sub percharquests ($) {
 
 sub reputationtohash ($) {
 	my ($reputation) = @_;
-#	my ($pid, $reputation) = @_;
-#	my ($pid, $reputation, %rep) = @_;
-#	print Dumper ($reputation->{'reputation'});
 	my @raids = @{ $reputation->{'reputation'} };
 	my %rep;
 	foreach my $f ( @raids ) {
-	#	print $pid;
-	#	print "\t";
-	#	print $f->{'id'};
-	#	print "\t";
-	#	print $f->{'standing'};
-	#	print "\t";
-	#	print $f->{'value'};
-	#	print "\t";
-	#	print $f->{'max'};
-	#	print "\n";
-		my $temp = $f->{'id'};
-		$rep{$temp} = $f;
-	##	$rep{$temp}->{'id'} = $f->{'id'};
-	##	$rep{$temp}->{'standing'} = $f->{'standing'};
-	##	$rep{$temp}->{'value'} = $f->{'value'};
-	##	$rep{$temp}->{'max'} = $f->{'max'};
-	#	$rep{$pid}{$f->{'id'}}{'id'} = $f->{'id'};
-	#	$rep{$pid}{$f->{'id'}}{'standing'} = $f->{'standing'};
-	#	$rep{$pid}{$f->{'id'}}{'value'} = $f->{'value'};
-	#	$rep{$pid}{$f->{'id'}}{'max'} = $f->{'max'};
-	#	print Dumper ($rep{$pid}{$f->{'id'}}{'id'});
-	#	print "\t";
-	#	print Dumper ($rep{$pid}{$f->{'id'}}{'standing'});
-	#	print "\t";
-	#	print Dumper ($rep{$pid}{$f->{'id'}}{'value'});
-	#	print "\t";
-	#	print Dumper ($rep{$pid}{$f->{'id'}}{'max'});
-	#	print "\t";
-	#	print "\n";
-	}
-#	print Dumper (%rep);
-	return %rep;
-}
 #		print $f->{'id'};
 #		print "\t";
 #		print $f->{'standing'};
@@ -523,13 +487,14 @@ sub reputationtohash ($) {
 #		print "\t";
 #		print $f->{'max'};
 #		print "\n";
-#		my $temp = $f->{'id'};
-#		$rep{$temp}{'standing'} = $f->{'standing'};
-#		$rep{$temp}{'value'} = $f->{'value'};
-#		$rep{$temp}{'max'} = $f->{'max'};
-#		print $rep{$temp}{'standing'};
-#		print "\n";
-#	return %rep;
+		$rep{$f->{'id'}}{'id'} = $f->{'id'};
+		$rep{$f->{'id'}}{'standing'} = $f->{'standing'};
+		$rep{$f->{'id'}}{'value'} = $f->{'value'};
+		$rep{$f->{'id'}}{'max'} = $f->{'max'};
+	}
+#	print Dumper (%rep);
+	return %rep;
+}
 
 sub preprint ($$$%) {
 	my ($count, $qid, $ql, %multiuserquests) = @_;
@@ -559,62 +524,62 @@ sub preprintrep ($$$%) {
 	my ($count, $fid, $ql, %rep) = @_;
 	my %qc;
 	my $wowheadurl = "<a href=\"http://www.wowhead.com/faction=" . $fid . "\" rel=\"faction=" . $fid . "\">" . $ql . "</a>";
-	print Dumper (%rep);
+#	print Dumper (%rep);
 #	valueprintrep ($count, $wowheadurl, $fid, %qc);
 #	print $rep{0}{$fid}{'standing'};
 #	print Dumper ($rep{0});
 #	print "\n";
 #	print Dumper ($rep{1});
 #	print $rep{0}{$fid}{'standing'};
-	print "\n";
-	#if (0 < $count) {
-	#	$qc{zero} =  join(':', $rep{0}{$fid}->{'standing'},$rep{0}{$fid}->{'value'},$rep{0}{$fid}->{'max'});
-	#}
-	#if (1 < $count) {
-	#	$qc{one} =  join(':', $rep{1}{$fid}->{'standing'},$rep{1}{$fid}->{'value'},$rep{1}{$fid}->{'max'});
-	#}
-	#if (2 < $count) {
-	#	$qc{two} =  join(':', $rep{2}{$fid}->{'standing'},$rep{2}{$fid}->{'value'},$rep{2}{$fid}->{'max'});
-	#}
-	#if (3 < $count) {
-	#	$qc{three} =  join(':', $rep{3}{$fid}->{'standing'},$rep{3}{$fid}->{'value'},$rep{3}{$fid}->{'max'});
-	#}
-	#if (4 < $count) {
-	#	$qc{four} =  join(':', $rep{4}{$fid}->{'standing'},$rep{4}{$fid}->{'value'},$rep{4}{$fid}->{'max'});
-	#}
-	#if (5 < $count) {
-	#	$qc{five} = join(':', $rep{5}{$fid}->{'standing'},$rep{5}{$fid}->{'value'},$rep{5}{$fid}->{'max'});
-	#}
-	#if (6 < $count) {
-	#	$qc{six} = join(':', $rep{6}{$fid}->{'standing'},$rep{6}{$fid}->{'value'},$rep{6}{$fid}->{'max'});
-	#}
-	#if (7 < $count) {
-	#	$qc{seven} = join(':', $rep{7}{$fid}->{'standing'},$rep{7}{$fid}->{'value'},$rep{7}{$fid}->{'max'});
-	#}
-	#if (8 < $count) {
-	#	$qc{eight} = join(':', $rep{8}{$fid}->{'standing'},$rep{8}{$fid}->{'value'},$rep{8}{$fid}->{'max'});
-	#}
-	#if (9 < $count) {
-	#	$qc{nine} = join(':', $rep{9}{$fid}->{'standing'},$rep{9}{$fid}->{'value'},$rep{9}{$fid}->{'max'});
-	#}
-	#if (10 < $count) {
-	#	$qc{ten} = join(':', $rep{10}{$fid}->{'standing'},$rep{10}{$fid}->{'value'},$rep{10}{$fid}->{'max'});
-	#}
-	#if (11 < $count) {
-	#	$qc{eleven} = join(':', $rep{11}{$fid}->{'standing'},$rep{11}{$fid}->{'value'},$rep{11}{$fid}->{'max'});
-	#}
-	#if (12 < $count) {
-	#	$qc{twelve} = join(':', $rep{12}{$fid}->{'standing'},$rep{12}{$fid}->{'value'},$rep{12}{$fid}->{'max'});
-	#}
-	#if (13 < $count) {
-	#	$qc{thirteen} = join(':', $rep{13}{$fid}->{'standing'},$rep{13}{$fid}->{'value'},$rep{13}{$fid}->{'max'});
-	#}
-	#if (14 < $count) {
-	#	$qc{fourteen} = join(':', $rep{14}{$fid}->{'standing'},$rep{14}{$fid}->{'value'},$rep{14}{$fid}->{'max'});
-	#}
-	#if (15 < $count) {
-	#	$qc{fifteen} = join(':', $rep{15}{$fid}->{'standing'},$rep{15}{$fid}->{'value'},$rep{15}{$fid}->{'max'});
-	#}
+#	print "\n";
+#	if (0 < $count) {
+#		$qc{zero} =  join(':', $rep{0}{$fid}->{'standing'},$rep{0}{$fid}->{'value'},$rep{0}{$fid}->{'max'});
+#	}
+#	if (1 < $count) {
+#		$qc{one} =  join(':', $rep{1}{$fid}->{'standing'},$rep{1}{$fid}->{'value'},$rep{1}{$fid}->{'max'});
+#	}
+#	if (2 < $count) {
+#		$qc{two} =  join(':', $rep{2}{$fid}->{'standing'},$rep{2}{$fid}->{'value'},$rep{2}{$fid}->{'max'});
+#	}
+#	if (3 < $count) {
+#		$qc{three} =  join(':', $rep{3}{$fid}->{'standing'},$rep{3}{$fid}->{'value'},$rep{3}{$fid}->{'max'});
+#	}
+#	if (4 < $count) {
+#		$qc{four} =  join(':', $rep{4}{$fid}->{'standing'},$rep{4}{$fid}->{'value'},$rep{4}{$fid}->{'max'});
+#	}
+#	if (5 < $count) {
+#		$qc{five} = join(':', $rep{5}{$fid}->{'standing'},$rep{5}{$fid}->{'value'},$rep{5}{$fid}->{'max'});
+#	}
+#	if (6 < $count) {
+#		$qc{six} = join(':', $rep{6}{$fid}->{'standing'},$rep{6}{$fid}->{'value'},$rep{6}{$fid}->{'max'});
+#	}
+#	if (7 < $count) {
+#		$qc{seven} = join(':', $rep{7}{$fid}->{'standing'},$rep{7}{$fid}->{'value'},$rep{7}{$fid}->{'max'});
+#	}
+#	if (8 < $count) {
+#		$qc{eight} = join(':', $rep{8}{$fid}->{'standing'},$rep{8}{$fid}->{'value'},$rep{8}{$fid}->{'max'});
+#	}
+#	if (9 < $count) {
+#		$qc{nine} = join(':', $rep{9}{$fid}->{'standing'},$rep{9}{$fid}->{'value'},$rep{9}{$fid}->{'max'});
+#	}
+#	if (10 < $count) {
+#		$qc{ten} = join(':', $rep{10}{$fid}->{'standing'},$rep{10}{$fid}->{'value'},$rep{10}{$fid}->{'max'});
+#	}
+#	if (11 < $count) {
+#		$qc{eleven} = join(':', $rep{11}{$fid}->{'standing'},$rep{11}{$fid}->{'value'},$rep{11}{$fid}->{'max'});
+#	}
+#	if (12 < $count) {
+#		$qc{twelve} = join(':', $rep{12}{$fid}->{'standing'},$rep{12}{$fid}->{'value'},$rep{12}{$fid}->{'max'});
+#	}
+#	if (13 < $count) {
+#		$qc{thirteen} = join(':', $rep{13}{$fid}->{'standing'},$rep{13}{$fid}->{'value'},$rep{13}{$fid}->{'max'});
+#	}
+#	if (14 < $count) {
+#		$qc{fourteen} = join(':', $rep{14}{$fid}->{'standing'},$rep{14}{$fid}->{'value'},$rep{14}{$fid}->{'max'});
+#	}
+#	if (15 < $count) {
+#		$qc{fifteen} = join(':', $rep{15}{$fid}->{'standing'},$rep{15}{$fid}->{'value'},$rep{15}{$fid}->{'max'});
+#	}
 
 #	if (0 < $count) {
 #		$qc{zero}{standing} = $rep{0}{$fid}{'standing'};
