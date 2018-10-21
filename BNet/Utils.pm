@@ -201,7 +201,6 @@ sub printcharacter($$$) {
 	
 }
 
-
 sub percharachievementscriteria ($) {
 	my ($decoded) = @_;
 	my @raids = @{ $decoded->{'achievements'}{'criteria'} };
@@ -285,7 +284,6 @@ sub percharrecipesengineering ($) {
 	}
 	return $cookrank, @cookrecipes;
 }
-
 
 sub percharrecipesherbalism ($) {
 	my ($decoded) = @_;
@@ -474,28 +472,6 @@ sub percharquests ($) {
 	return @raids;
 }
 
-sub reputationtohash ($) {
-	my ($reputation) = @_;
-	my @raids = @{ $reputation->{'reputation'} };
-	my %rep;
-	foreach my $f ( @raids ) {
-#		print $f->{'id'};
-#		print "\t";
-#		print $f->{'standing'};
-#		print "\t";
-#		print $f->{'value'};
-#		print "\t";
-#		print $f->{'max'};
-#		print "\n";
-		$rep{$f->{'id'}}{'id'} = $f->{'id'};
-		$rep{$f->{'id'}}{'standing'} = $f->{'standing'};
-		$rep{$f->{'id'}}{'value'} = $f->{'value'};
-		$rep{$f->{'id'}}{'max'} = $f->{'max'};
-	}
-#	print Dumper (%rep);
-	return %rep;
-}
-
 sub preprint ($$$%) {
 	my ($count, $qid, $ql, %multiuserquests) = @_;
 	my %qc;
@@ -520,119 +496,6 @@ sub preprint ($$$%) {
 	valueprint ($count, $wowheadurl, %qc);
 }
 
-sub preprintrep ($$$%) {
-	my ($count, $fid, $ql, %rep) = @_;
-	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/faction=" . $fid . "\" rel=\"faction=" . $fid . "\">" . $ql . "</a>";
-#	print Dumper (%rep);
-#	valueprintrep ($count, $wowheadurl, $fid, %qc);
-#	print $rep{0}{$fid}{'standing'};
-#	print Dumper ($rep{0});
-#	print "\n";
-#	print Dumper ($rep{1});
-#	print $rep{0}{$fid}{'standing'};
-#	print "\n";
-#	if (0 < $count) {
-#		$qc{zero} =  join(':', $rep{0}{$fid}->{'standing'},$rep{0}{$fid}->{'value'},$rep{0}{$fid}->{'max'});
-#	}
-#	if (1 < $count) {
-#		$qc{one} =  join(':', $rep{1}{$fid}->{'standing'},$rep{1}{$fid}->{'value'},$rep{1}{$fid}->{'max'});
-#	}
-#	if (2 < $count) {
-#		$qc{two} =  join(':', $rep{2}{$fid}->{'standing'},$rep{2}{$fid}->{'value'},$rep{2}{$fid}->{'max'});
-#	}
-#	if (3 < $count) {
-#		$qc{three} =  join(':', $rep{3}{$fid}->{'standing'},$rep{3}{$fid}->{'value'},$rep{3}{$fid}->{'max'});
-#	}
-#	if (4 < $count) {
-#		$qc{four} =  join(':', $rep{4}{$fid}->{'standing'},$rep{4}{$fid}->{'value'},$rep{4}{$fid}->{'max'});
-#	}
-#	if (5 < $count) {
-#		$qc{five} = join(':', $rep{5}{$fid}->{'standing'},$rep{5}{$fid}->{'value'},$rep{5}{$fid}->{'max'});
-#	}
-#	if (6 < $count) {
-#		$qc{six} = join(':', $rep{6}{$fid}->{'standing'},$rep{6}{$fid}->{'value'},$rep{6}{$fid}->{'max'});
-#	}
-#	if (7 < $count) {
-#		$qc{seven} = join(':', $rep{7}{$fid}->{'standing'},$rep{7}{$fid}->{'value'},$rep{7}{$fid}->{'max'});
-#	}
-#	if (8 < $count) {
-#		$qc{eight} = join(':', $rep{8}{$fid}->{'standing'},$rep{8}{$fid}->{'value'},$rep{8}{$fid}->{'max'});
-#	}
-#	if (9 < $count) {
-#		$qc{nine} = join(':', $rep{9}{$fid}->{'standing'},$rep{9}{$fid}->{'value'},$rep{9}{$fid}->{'max'});
-#	}
-#	if (10 < $count) {
-#		$qc{ten} = join(':', $rep{10}{$fid}->{'standing'},$rep{10}{$fid}->{'value'},$rep{10}{$fid}->{'max'});
-#	}
-#	if (11 < $count) {
-#		$qc{eleven} = join(':', $rep{11}{$fid}->{'standing'},$rep{11}{$fid}->{'value'},$rep{11}{$fid}->{'max'});
-#	}
-#	if (12 < $count) {
-#		$qc{twelve} = join(':', $rep{12}{$fid}->{'standing'},$rep{12}{$fid}->{'value'},$rep{12}{$fid}->{'max'});
-#	}
-#	if (13 < $count) {
-#		$qc{thirteen} = join(':', $rep{13}{$fid}->{'standing'},$rep{13}{$fid}->{'value'},$rep{13}{$fid}->{'max'});
-#	}
-#	if (14 < $count) {
-#		$qc{fourteen} = join(':', $rep{14}{$fid}->{'standing'},$rep{14}{$fid}->{'value'},$rep{14}{$fid}->{'max'});
-#	}
-#	if (15 < $count) {
-#		$qc{fifteen} = join(':', $rep{15}{$fid}->{'standing'},$rep{15}{$fid}->{'value'},$rep{15}{$fid}->{'max'});
-#	}
-
-#	if (0 < $count) {
-#		$qc{zero}{standing} = $rep{0}{$fid}{'standing'};
-#		$qc{zero}{value} = $rep{0}{$fid}{'value'};
-#		$qc{zero}{max} = $rep{0}{$fid}{'max'};
-#	}
-#	$qc{one}{standing} = $rep{1}{$fid}{standing};
-#	$qc{one}{value} = $rep{1}{$fid}{value};
-#	$qc{one}{max} = $rep{1}{$fid}{max};
-#	$qc{two}{standing} = $rep{2}{$fid}{standing};
-#	$qc{two}{value} = $rep{2}{$fid}{value};
-#	$qc{two}{max} = $rep{2}{$fid}{max};
-#	$qc{three}{standing} = $rep{3}{$fid}{standing};
-#	$qc{three}{value} = $rep{3}{$fid}{value};
-#	$qc{three}{max} = $rep{3}{$fid}{max};
-#	$qc{four}{standing} = $rep{4}{$fid}{standing};
-#	$qc{four}{value} = $rep{4}{$fid}{value};
-#	$qc{four}{max} = $rep{4}{$fid}{max};
-#	$qc{five}{standing} = $rep{5}{$fid}{standing};
-#	$qc{five}{value} = $rep{5}{$fid}{value};
-#	$qc{five}{max} = $rep{5}{$fid}{max};
-#	$qc{six}{standing} = $rep{6}{$fid}{standing};
-#	$qc{six}{value} = $rep{6}{$fid}{value};
-#	$qc{six}{max} = $rep{6}{$fid}{max};
-#	$qc{seven}{standing} = $rep{7}{$fid}{standing};
-#	$qc{seven}{value} = $rep{7}{$fid}{value};
-#	$qc{seven}{max} = $rep{7}{$fid}{max};
-#	$qc{eight}{standing} = $rep{8}{$fid}{standing};
-#	$qc{eight}{value} = $rep{8}{$fid}{value};
-#	$qc{eight}{max} = $rep{8}{$fid}{max};
-#	$qc{nine}{standing} = $rep{9}{$fid}{standing};
-#	$qc{nine}{value} = $rep{9}{$fid}{value};
-#	$qc{nine}{max} = $rep{9}{$fid}{max};
-#	$qc{ten}{standing} = $rep{10}{$fid}{standing};
-#	$qc{ten}{value} = $rep{10}{$fid}{value};
-#	$qc{ten}{max} = $rep{10}{$fid}{max};
-#	$qc{eleven}{standing} = $rep{11}{$fid}{standing};
-#	$qc{eleven}{value} = $rep{11}{$fid}{value};
-#	$qc{eleven}{max} = $rep{11}{$fid}{max};
-#	$qc{zero}{standing} = $rep{12}{$fid}{standing};
-#	$qc{zero}{value} = $rep{12}{$fid}{value};
-#	$qc{zero}{max} = $rep{12}{$fid}{max};
-#	$qc{thirteen}{standing} = $rep{13}{$fid}{standing};
-#	$qc{thirteen}{value} = $rep{13}{$fid}{value};
-#	$qc{thirteen}{max} = $rep{13}{$fid}{max};
-#	$qc{fourteen}{standing} = $rep{14}{$fid}{standing};
-#	$qc{fourteen}{value} = $rep{14}{$fid}{value};
-#	$qc{fourteen}{max} = $rep{14}{$fid}{max};
-#	$qc{fifteen}{standing} = $rep{15}{$fid}{standing};
-#	$qc{fifteen}{value} = $rep{15}{$fid}{value};
-#	$qc{fifteen}{max} = $rep{15}{$fid}{max};
-	
-}
 sub preprintprofalchemy ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
@@ -1088,250 +951,6 @@ sub preprintachievementvia4q ($$$$$$$$%) {
 	
 }
 
-=pod
-ff0000	hostile
-f26000	unfriendly
-e4e400	neutral
-33ff33	friendly
-5fe65d	honoured
-53e9bc	revered
-2ee6e6	exalted
-=cut
-
-sub valueprintrepcalc ($$) {
-	my($da, $db) = @_;
-	return my $percent = $da / $db;	
-}
-
-sub valueprintrepcell ($$$$) {
-	my($da, $db, $dc, $dd) = @_;
-	my $mypercent;
-	if (($da == 1419) ||
-		($da == 1691) ||
-		($da == 2011) ||
-		($da == 2010) ||
-		($da == 1374) ||
-		($da == 1619) ||
-		($da == 1277) ||
-		($da == 1275) ||
-		($da == 1283) ||
-		($da == 1282) ||
-		($da == 1281) ||
-		($da == 1279) ||
-		($da == 1273) ||
-		($da == 1276) ||
-		($da == 1278) ||
-		($da == 1280) ||
-		($da == 1975) ||
-		($da == 2102) ||
-		($da == 2097) ||
-		($da == 2098) ||
-		($da == 2099) ||
-		($da == 2100) ||
-		($da == 2101)
-		) {
-			if ($db == 0) {
-				BNet::Utils::tableprint("begintdhated");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Stranger<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 1) {
-				BNet::Utils::tableprint("begintdhostile");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Acquaintance<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 2) {
-				BNet::Utils::tableprint("begintdunfriendly");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Buddy<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 3) {
-				BNet::Utils::tableprint("begintdneutral");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Friend<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 4) {
-				BNet::Utils::tableprint("begintdfriendly");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Good Friend<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 5) {
-				BNet::Utils::tableprint("begintdexalted");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Best Friend<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			}
-		} elsif ($da == 2135) {
-			if ($db == 0) {
-				BNet::Utils::tableprint("begintdhated");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Whelpling<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 1) {
-				BNet::Utils::tableprint("begintdhostile");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Temporal Trainee<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 2) {
-				BNet::Utils::tableprint("begintdunfriendly");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Timehopper<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 3) {
-				BNet::Utils::tableprint("begintdneutral");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Chrono-Friend<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 4) {
-				BNet::Utils::tableprint("begintdfriendly");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Bronze Ally<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 5) {
-				BNet::Utils::tableprint("begintdhonoured");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Epoch-Mender<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 6) {
-				BNet::Utils::tableprint("begintdexalted");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Timelord<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			}
-		} else {
-			if ($db == 0) {
-				BNet::Utils::tableprint("begintdhated");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Hated<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 1) {
-				BNet::Utils::tableprint("begintdhostile");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Hostile<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 2) {
-				BNet::Utils::tableprint("begintdunfriendly");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Unfriendly<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 3) {
-				BNet::Utils::tableprint("begintdneutral");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Hated<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 4) {
-				BNet::Utils::tableprint("begintdfriendly");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Hated<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 5) {
-				BNet::Utils::tableprint("begintdhonoured");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Hated<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 6) {
-				BNet::Utils::tableprint("begintdrevered");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Hated<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			} elsif ($db == 7) {
-				BNet::Utils::tableprint("begintdexalted");
-				$mypercent = valueprintrepcalc ($dc, $dd);
-				print "<div>Hated<div>";
-				print "<div>";
-				print $mypercent;
-				print "</div>";
-				BNet::Utils::tableprint("endtd");
-			}
-		}
-
-}
-
-sub valueprintrep ($%) {
-	my($da, $d0, $fid, %d1) = @_;
-	BNet::Utils::tableprint("beginrow");
-	BNet::Utils::tableprint("beginth");
-#	print $d0;
-	BNet::Utils::tableprint("endth");
-#$count, $wowheadurl, $fid, %qc
-	print Dumper (%d1);
-	if (0 < $da) {
-		if (exists($d1{zero}{standing})) {
-	#		#if (defined $d1{zero}{standing} {
-				print $d1{zero}{standing};
-				print "\t";
-				print $d1{zero}{max};
-				print "\t";
-				print $d1{zero}{value};
-				print "\n";
-	#		#}
-		}
-	BNet::Utils::tableprint("endrow");
-	}
-}
-#				my @splitbysemicolon = split(/;/, $d1->{zero});
-#				valueprintrepcell ($fid, $splitbysemicolon[0], $splitbysemicolon[1], $splitbysemicolon[2]);
-
 sub valueprint($ % ) {
 	my($da, $d0, %d1) = @_;
 	BNet::Utils::tableprint("beginrow");
@@ -1537,6 +1156,536 @@ sub valueprint($ % ) {
 
 }
 
+sub valueprintreputationcellfriend ($$$) {
+	my($db, $dc, $dd) = @_;
+	if ($db == 0) {
+		BNet::Utils::tableprint("begintdhated");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Stranger</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 1) {
+		BNet::Utils::tableprint("begintdhostile");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Acquaintance</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 2) {
+		BNet::Utils::tableprint("begintdunfriendly");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Buddy</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 3) {
+		BNet::Utils::tableprint("begintdneutral");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Friend</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 4) {
+		BNet::Utils::tableprint("begintdfriendly");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Good Friend</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 5) {
+		BNet::Utils::tableprint("begintdexalted");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Best Friend</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		BNet::Utils::tableprint("endtd");
+	}
+}
+
+sub valueprintreputationcellchromie ($$$) {
+	my($db, $dc, $dd) = @_;
+	if ($db == 0) {
+		BNet::Utils::tableprint("begintdhated");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Whelpling</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 1) {
+		BNet::Utils::tableprint("begintdhostile");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Temporal Trainee</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 2) {
+		BNet::Utils::tableprint("begintdunfriendly");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Timehopper</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 3) {
+		BNet::Utils::tableprint("begintdneutral");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Chrono-Friend</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 4) {
+		BNet::Utils::tableprint("begintdfriendly");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Bronze Ally</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 5) {
+		BNet::Utils::tableprint("begintdhonoured");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Epoch-Mender</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 6) {
+		BNet::Utils::tableprint("begintdexalted");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Timelord</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	}
+}
+
+sub valueprintreputationcellgeneral ($$$) {
+	my($db, $dc, $dd) = @_;
+	if ($db == 0) {
+		BNet::Utils::tableprint("begintdhated");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Hated</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 1) {
+		BNet::Utils::tableprint("begintdhostile");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Hostile</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 2) {
+		BNet::Utils::tableprint("begintdunfriendly");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Unfriendly</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 3) {
+		BNet::Utils::tableprint("begintdneutral");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Neutral</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 4) {
+		BNet::Utils::tableprint("begintdfriendly");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Friendly</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 5) {
+		BNet::Utils::tableprint("begintdhonoured");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Honored</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 6) {
+		BNet::Utils::tableprint("begintdrevered");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Revered</div>";
+		print "<div>";
+		print $mypercent;
+		print "</div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	} elsif ($db == 7) {
+		BNet::Utils::tableprint("begintdexalted");
+		my $mypercent = valueprintreputationcalc ($dc, $dd);
+		print "\t\t\t<div>Exalted</div>";
+		print "\t\t\t<div></div>";
+		print "\n";
+		BNet::Utils::tableprint("endtd");
+	}
+}
+
+sub valueprintreputationcell ($$$$) {
+	my($da, $db, $dc, $dd) = @_;
+	if (($da == 1419) ||
+		($da == 1691) ||
+		($da == 2011) ||
+		($da == 2010) ||
+		($da == 1374) ||
+		($da == 1619) ||
+		($da == 1277) ||
+		($da == 1275) ||
+		($da == 1283) ||
+		($da == 1282) ||
+		($da == 1281) ||
+		($da == 1279) ||
+		($da == 1273) ||
+		($da == 1276) ||
+		($da == 1278) ||
+		($da == 1280) ||
+		($da == 1975) ||
+		($da == 2102) ||
+		($da == 2097) ||
+		($da == 2098) ||
+		($da == 2099) ||
+		($da == 2100) ||
+		($da == 2101)
+		) {
+			valueprintreputationcellfriend ($db, $dc, $dd);
+		} elsif ($da == 2135) {
+			valueprintreputationcellchromie ($db, $dc, $dd);
+		} else {
+			valueprintreputationcellgeneral ($db, $dc, $dd);
+		}
+
+}
+
+sub valueprintreputationcalc ($$) {
+	my($da, $db) = @_;
+	if ($da == 0) {
+		return 0;
+	} elsif ($db == 0) {
+		return 0;
+	} else {
+		return sprintf("%.2f", my $percent = $da / $db);	
+	}
+}
+
+sub valueprintreputation ($$$%) {
+	my($count, $rid, $wowheadurl, %reptree) = @_;
+	BNet::Utils::tableprint("beginrow");
+	BNet::Utils::tableprint("beginth");
+	print $wowheadurl;
+	BNet::Utils::tableprint("endth");
+
+#	print Dumper (%d1);
+	if (0 < $count) {
+		if (exists($reptree{zero}{standing})) {
+			if (defined($reptree{zero}{standing})) {
+				valueprintreputationcell($rid, $reptree{zero}{standing},$reptree{zero}{value},$reptree{zero}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (1 < $count) {
+		if (exists($reptree{one}{standing})) {
+			if (defined($reptree{one}{standing})) {
+				valueprintreputationcell($rid, $reptree{one}{standing},$reptree{one}{value},$reptree{one}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (2 < $count) {
+		if (exists($reptree{two}{standing})) {
+			if (defined($reptree{two}{standing})) {
+				valueprintreputationcell($rid, $reptree{two}{standing},$reptree{two}{value},$reptree{two}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (3 < $count) {
+		if (exists($reptree{three}{standing})) {
+			if (defined($reptree{three}{standing})) {
+				valueprintreputationcell($rid, $reptree{three}{standing},$reptree{three}{value},$reptree{three}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (4 < $count) {
+		if (exists($reptree{four}{standing})) {
+			if (defined($reptree{four}{standing})) {
+				valueprintreputationcell($rid, $reptree{four}{standing},$reptree{four}{value},$reptree{four}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (5 < $count) {
+		if (exists($reptree{five}{standing})) {
+			if (defined($reptree{five}{standing})) {
+				valueprintreputationcell($rid, $reptree{five}{standing},$reptree{five}{value},$reptree{five}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (6 < $count) {
+		if (exists($reptree{six}{standing})) {
+			if (defined($reptree{six}{standing})) {
+				valueprintreputationcell($rid, $reptree{six}{standing},$reptree{six}{value},$reptree{six}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (7 < $count) {
+		if (exists($reptree{seven}{standing})) {
+			if (defined($reptree{seven}{standing})) {
+				valueprintreputationcell($rid, $reptree{seven}{standing},$reptree{seven}{value},$reptree{seven}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (8 < $count) {
+		if (exists($reptree{eight}{standing})) {
+			if (defined($reptree{eight}{standing})) {
+				valueprintreputationcell($rid, $reptree{eight}{standing},$reptree{eight}{value},$reptree{eight}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (9 < $count) {
+		if (exists($reptree{nine}{standing})) {
+			if (defined($reptree{nine}{standing})) {
+				valueprintreputationcell($rid, $reptree{nine}{standing},$reptree{nine}{value},$reptree{nine}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (10 < $count) {
+		if (exists($reptree{ten}{standing})) {
+			if (defined($reptree{ten}{standing})) {
+				valueprintreputationcell($rid, $reptree{ten}{standing},$reptree{ten}{value},$reptree{ten}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (11 < $count) {
+		if (exists($reptree{eleven}{standing})) {
+			if (defined($reptree{eleven}{standing})) {
+				valueprintreputationcell($rid, $reptree{eleven}{standing},$reptree{eleven}{value},$reptree{eleven}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (12 < $count) {
+		if (exists($reptree{twelve}{standing})) {
+			if (defined($reptree{twelve}{standing})) {
+				valueprintreputationcell($rid, $reptree{twelve}{standing},$reptree{twelve}{value},$reptree{twelve}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (13 < $count) {
+		if (exists($reptree{thirteen}{standing})) {
+			if (defined($reptree{thirteen}{standing})) {
+				valueprintreputationcell($rid, $reptree{thirteen}{standing},$reptree{thirteen}{value},$reptree{thirteen}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (14 < $count) {
+		if (exists($reptree{fourteen}{standing})) {
+			if (defined($reptree{fourteen}{standing})) {
+				valueprintreputationcell($rid, $reptree{fourteen}{standing},$reptree{fourteen}{value},$reptree{fourteen}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	if (15 < $count) {
+		if (exists($reptree{fiveteen}{standing})) {
+			if (defined($reptree{fiveteen}{standing})) {
+				valueprintreputationcell($rid, $reptree{fiveteen}{standing},$reptree{fiveteen}{value},$reptree{fiveteen}{max})
+			} else {
+				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("endtd");
+			}
+		}
+	}
+	BNet::Utils::tableprint("endrow");
+}
+
+sub preprintreputation ($$$%) {
+	my ($count, $fid, $ql, %rep) = @_;
+	my %qc;
+	my $wowheadurl = "<a href=\"http://www.wowhead.com/faction=" . $fid . "\" rel=\"faction=" . $fid . "\">" . $ql . "</a>";
+
+	if (0 < $count) {
+		$qc{zero}->{'id'}       = $rep{0}{$fid}->{'id'};
+		$qc{zero}->{'standing'} = $rep{0}{$fid}->{'standing'};
+		$qc{zero}->{'value'}    = $rep{0}{$fid}->{'value'};
+		$qc{zero}->{'max'}       = $rep{0}{$fid}->{'max'};
+	}
+	if (1 < $count) {
+		$qc{one}->{'id'}       = $rep{1}{$fid}->{'id'};
+		$qc{one}->{'standing'} = $rep{1}{$fid}->{'standing'};
+		$qc{one}->{'value'}    = $rep{1}{$fid}->{'value'};
+		$qc{one}->{'max'}       = $rep{1}{$fid}->{'max'};
+	}
+	if (2 < $count) {
+		$qc{two}->{'id'}       = $rep{2}{$fid}->{'id'};
+		$qc{two}->{'standing'} = $rep{2}{$fid}->{'standing'};
+		$qc{two}->{'value'}    = $rep{2}{$fid}->{'value'};
+		$qc{two}->{'max'}       = $rep{2}{$fid}->{'max'};
+	}
+	if (3 < $count) {
+		$qc{three}->{'id'}       = $rep{3}{$fid}->{'id'};
+		$qc{three}->{'standing'} = $rep{3}{$fid}->{'standing'};
+		$qc{three}->{'value'}    = $rep{3}{$fid}->{'value'};
+		$qc{three}->{'max'}       = $rep{3}{$fid}->{'max'};
+	}
+	if (4 < $count) {
+		$qc{four}->{'id'}       = $rep{4}{$fid}->{'id'};
+		$qc{four}->{'standing'} = $rep{4}{$fid}->{'standing'};
+		$qc{four}->{'value'}    = $rep{4}{$fid}->{'value'};
+		$qc{four}->{'max'}       = $rep{4}{$fid}->{'max'};
+	}
+	if (5 < $count) {
+		$qc{five}->{'id'}       = $rep{5}{$fid}->{'id'};
+		$qc{five}->{'standing'} = $rep{5}{$fid}->{'standing'};
+		$qc{five}->{'value'}    = $rep{5}{$fid}->{'value'};
+		$qc{five}->{'max'}       = $rep{5}{$fid}->{'max'};
+	}
+	if (6 < $count) {
+		$qc{six}->{'id'}       = $rep{6}{$fid}->{'id'};
+		$qc{six}->{'standing'} = $rep{6}{$fid}->{'standing'};
+		$qc{six}->{'value'}    = $rep{6}{$fid}->{'value'};
+		$qc{six}->{'max'}       = $rep{6}{$fid}->{'max'};
+	}
+	if (7 < $count) {
+		$qc{seven}->{'id'}       = $rep{7}{$fid}->{'id'};
+		$qc{seven}->{'standing'} = $rep{7}{$fid}->{'standing'};
+		$qc{seven}->{'value'}    = $rep{7}{$fid}->{'value'};
+		$qc{seven}->{'max'}       = $rep{7}{$fid}->{'max'};
+	}
+	if (8 < $count) {
+		$qc{eight}->{'id'}       = $rep{8}{$fid}->{'id'};
+		$qc{eight}->{'standing'} = $rep{8}{$fid}->{'standing'};
+		$qc{eight}->{'value'}    = $rep{8}{$fid}->{'value'};
+		$qc{eight}->{'max'}       = $rep{8}{$fid}->{'max'};
+	}
+	if (9 < $count) {
+		$qc{nine}->{'id'}       = $rep{9}{$fid}->{'id'};
+		$qc{nine}->{'standing'} = $rep{9}{$fid}->{'standing'};
+		$qc{nine}->{'value'}    = $rep{9}{$fid}->{'value'};
+		$qc{nine}->{'max'}       = $rep{9}{$fid}->{'max'};
+	}
+	if (10 < $count) {
+		$qc{ten}->{'id'}       = $rep{10}{$fid}->{'id'};
+		$qc{ten}->{'standing'} = $rep{10}{$fid}->{'standing'};
+		$qc{ten}->{'value'}    = $rep{10}{$fid}->{'value'};
+		$qc{ten}->{'max'}       = $rep{10}{$fid}->{'max'};
+	}
+	if (11 < $count) {
+		$qc{eleven}->{'id'}       = $rep{11}{$fid}->{'id'};
+		$qc{eleven}->{'standing'} = $rep{11}{$fid}->{'standing'};
+		$qc{eleven}->{'value'}    = $rep{11}{$fid}->{'value'};
+		$qc{eleven}->{'max'}       = $rep{11}{$fid}->{'max'};
+	}
+	if (12 < $count) {
+		$qc{twelve}->{'id'}       = $rep{12}{$fid}->{'id'};
+		$qc{twelve}->{'standing'} = $rep{12}{$fid}->{'standing'};
+		$qc{twelve}->{'value'}    = $rep{12}{$fid}->{'value'};
+		$qc{twelve}->{'max'}       = $rep{12}{$fid}->{'max'};
+	}
+	if (13 < $count) {
+		$qc{thirteen}->{'id'}       = $rep{13}{$fid}->{'id'};
+		$qc{thirteen}->{'standing'} = $rep{13}{$fid}->{'standing'};
+		$qc{thirteen}->{'value'}    = $rep{13}{$fid}->{'value'};
+		$qc{thirteen}->{'max'}       = $rep{13}{$fid}->{'max'};
+	}
+	if (14 < $count) {
+		$qc{fourteen}->{'id'}       = $rep{14}{$fid}->{'id'};
+		$qc{fourteen}->{'standing'} = $rep{14}{$fid}->{'standing'};
+		$qc{fourteen}->{'value'}    = $rep{14}{$fid}->{'value'};
+		$qc{fourteen}->{'max'}       = $rep{14}{$fid}->{'max'};
+	}
+	if (15 < $count) {
+		$qc{fiveteen}->{'id'}       = $rep{15}{$fid}->{'id'};
+		$qc{fiveteen}->{'standing'} = $rep{15}{$fid}->{'standing'};
+		$qc{fiveteen}->{'value'}    = $rep{15}{$fid}->{'value'};
+		$qc{fiveteen}->{'max'}       = $rep{15}{$fid}->{'max'};
+	}
+	valueprintreputation ($count, $fid, $wowheadurl, %qc)
+}
+
+sub reputationtohash ($) {
+	my ($reputation) = @_;
+	my @raids = @{ $reputation->{'reputation'} };
+	my %rep;
+	foreach my $f ( @raids ) {
+		$rep{$f->{'id'}}{'id'} = $f->{'id'};
+		$rep{$f->{'id'}}{'standing'} = $f->{'standing'};
+		$rep{$f->{'id'}}{'value'} = $f->{'value'};
+		$rep{$f->{'id'}}{'max'} = $f->{'max'};
+	}
+	return %rep;
+}
+
 sub htmlheadprint () {
 	
 	print "<html>\n";
@@ -1661,35 +1810,43 @@ sub htmlheadprint () {
 	print "\t\t}\n";
 
 	print "\t\t.hated{\n";
-	print "\t\t	color:\t#cc0000;\n";
+	print "\t\t\tbackground-color:\t#cc0000;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.hostile{\n";
-	print "\t\t	color:\t#ff0000;\n";
+	print "\t\t\t\t\tbackground-color:\t#ff0000;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.unfriendly{\n";
-	print "\t\t	color:\t#f26000;\n";
+	print "\t\t\t\t\tbackground-color:\t#f26000;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.neutral{\n";
-	print "\t\t	color:\t#e4e400;\n";
+	print "\t\t\t\t\tbackground-color:\t#e4e400;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.friendly{\n";
-	print "\t\t	color:\t#33ff33;\n";
+	print "\t\t\t\t\tbackground-color:\t#33ff33;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.honoured{\n";
-	print "\t\t	color:\t#5fe65d;\n";
+	print "\t\t\t\t\tbackground-color:\t#5fe65d;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.revered{\n";
-	print "\t\t	color:\t#53e9bc;\n";
+	print "\t\t\t\t\tbackground-color:\t#53e9bc;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.exalted{\n";
-	print "\t\t	color:\t#2ee6e6;\n";
+	print "\t\t\t\t\tbackground-color:\t#2ee6e6;\n";
+	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\tdiv {\n";
