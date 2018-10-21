@@ -73,6 +73,8 @@ sub tableprint ($) {
 		print "\t\t<th colspan=\"17\">\n";
 	} elsif ($decoded eq 'begintdhated') {
 		print "\t\t<td class=\"hated\">\n";
+	} elsif ($decoded eq 'begintdhostile') {
+		print "\t\t<td class=\"hostile\">\n";
 	} elsif ($decoded eq 'begintdunfriendly') {
 		print "\t\t<td class=\"unfriendly\">\n";
 	} elsif ($decoded eq 'begintdneutral') {
@@ -85,6 +87,8 @@ sub tableprint ($) {
 		print "\t\t<td class=\"revered\">\n";
 	} elsif ($decoded eq 'begintdexalted') {
 		print "\t\t<td class=\"exalted\">\n";
+	} elsif ($decoded eq 'begintdblackout') {
+		print "\t\t<td class=\"blackout\">\n";
 	}
 }
 
@@ -1411,7 +1415,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{zero}{standing})) {
 				valueprintreputationcell($rid, $reptree{zero}{standing},$reptree{zero}{value},$reptree{zero}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1421,7 +1425,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{one}{standing})) {
 				valueprintreputationcell($rid, $reptree{one}{standing},$reptree{one}{value},$reptree{one}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1431,7 +1435,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{two}{standing})) {
 				valueprintreputationcell($rid, $reptree{two}{standing},$reptree{two}{value},$reptree{two}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1441,7 +1445,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{three}{standing})) {
 				valueprintreputationcell($rid, $reptree{three}{standing},$reptree{three}{value},$reptree{three}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1451,7 +1455,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{four}{standing})) {
 				valueprintreputationcell($rid, $reptree{four}{standing},$reptree{four}{value},$reptree{four}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1461,7 +1465,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{five}{standing})) {
 				valueprintreputationcell($rid, $reptree{five}{standing},$reptree{five}{value},$reptree{five}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1471,7 +1475,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{six}{standing})) {
 				valueprintreputationcell($rid, $reptree{six}{standing},$reptree{six}{value},$reptree{six}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1481,7 +1485,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{seven}{standing})) {
 				valueprintreputationcell($rid, $reptree{seven}{standing},$reptree{seven}{value},$reptree{seven}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1491,7 +1495,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{eight}{standing})) {
 				valueprintreputationcell($rid, $reptree{eight}{standing},$reptree{eight}{value},$reptree{eight}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1501,7 +1505,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{nine}{standing})) {
 				valueprintreputationcell($rid, $reptree{nine}{standing},$reptree{nine}{value},$reptree{nine}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1511,7 +1515,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{ten}{standing})) {
 				valueprintreputationcell($rid, $reptree{ten}{standing},$reptree{ten}{value},$reptree{ten}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1521,7 +1525,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{eleven}{standing})) {
 				valueprintreputationcell($rid, $reptree{eleven}{standing},$reptree{eleven}{value},$reptree{eleven}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1531,7 +1535,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{twelve}{standing})) {
 				valueprintreputationcell($rid, $reptree{twelve}{standing},$reptree{twelve}{value},$reptree{twelve}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1541,7 +1545,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{thirteen}{standing})) {
 				valueprintreputationcell($rid, $reptree{thirteen}{standing},$reptree{thirteen}{value},$reptree{thirteen}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1551,7 +1555,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{fourteen}{standing})) {
 				valueprintreputationcell($rid, $reptree{fourteen}{standing},$reptree{fourteen}{value},$reptree{fourteen}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1561,7 +1565,7 @@ sub valueprintreputation ($$$%) {
 			if (defined($reptree{fiveteen}{standing})) {
 				valueprintreputationcell($rid, $reptree{fiveteen}{standing},$reptree{fiveteen}{value},$reptree{fiveteen}{max})
 			} else {
-				BNet::Utils::tableprint("begintd");
+				BNet::Utils::tableprint("begintdblackout");
 				BNet::Utils::tableprint("endtd");
 			}
 		}
@@ -1815,37 +1819,42 @@ sub htmlheadprint () {
 	print "\t\t}\n";
 
 	print "\t\t.hostile{\n";
-	print "\t\t\t\t\tbackground-color:\t#ff0000;\n";
+	print "\t\t\tbackground-color:\t#ff0000;\n";
 	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.unfriendly{\n";
-	print "\t\t\t\t\tbackground-color:\t#f26000;\n";
+	print "\t\t\tbackground-color:\t#f26000;\n";
 	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.neutral{\n";
-	print "\t\t\t\t\tbackground-color:\t#e4e400;\n";
+	print "\t\t\tbackground-color:\t#e4e400;\n";
 	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.friendly{\n";
-	print "\t\t\t\t\tbackground-color:\t#33ff33;\n";
+	print "\t\t\tbackground-color:\t#33ff33;\n";
 	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.honoured{\n";
-	print "\t\t\t\t\tbackground-color:\t#5fe65d;\n";
+	print "\t\t\tbackground-color:\t#5fe65d;\n";
 	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.revered{\n";
-	print "\t\t\t\t\tbackground-color:\t#53e9bc;\n";
+	print "\t\t\tbackground-color:\t#53e9bc;\n";
 	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
 	print "\t\t.exalted{\n";
-	print "\t\t\t\t\tbackground-color:\t#2ee6e6;\n";
+	print "\t\t\tbackground-color:\t#2ee6e6;\n";
+	print "\t\t\tcolor:\t#000000;\n";
+	print "\t\t}\n";
+
+	print "\t\t.blackout{\n";
+	print "\t\t\tbackground-color:\t#000000;\n";
 	print "\t\t\tcolor:\t#000000;\n";
 	print "\t\t}\n";
 
