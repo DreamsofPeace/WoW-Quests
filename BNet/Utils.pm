@@ -1169,6 +1169,7 @@ sub valueprintreputationcellfriend ($$$) {
 		print "<div>";
 		print $mypercent;
 		print "</div>";
+		print "\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 1) {
 		BNet::Utils::tableprint("begintdhostile");
@@ -1177,6 +1178,7 @@ sub valueprintreputationcellfriend ($$$) {
 		print "<div>";
 		print $mypercent;
 		print "</div>";
+		print "\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 2) {
 		BNet::Utils::tableprint("begintdunfriendly");
@@ -1185,6 +1187,7 @@ sub valueprintreputationcellfriend ($$$) {
 		print "<div>";
 		print $mypercent;
 		print "</div>";
+		print "\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 3) {
 		BNet::Utils::tableprint("begintdneutral");
@@ -1193,6 +1196,7 @@ sub valueprintreputationcellfriend ($$$) {
 		print "<div>";
 		print $mypercent;
 		print "</div>";
+		print "\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 4) {
 		BNet::Utils::tableprint("begintdfriendly");
@@ -1201,14 +1205,14 @@ sub valueprintreputationcellfriend ($$$) {
 		print "<div>";
 		print $mypercent;
 		print "</div>";
+		print "\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 5) {
 		BNet::Utils::tableprint("begintdexalted");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
 		print "\t\t\t<div>Best Friend</div>";
-		print "<div>";
-		print $mypercent;
-		print "</div>";
+		print "\t\t\t<div></div>";
+		print "\n";
 		BNet::Utils::tableprint("endtd");
 	}
 }
@@ -1273,9 +1277,7 @@ sub valueprintreputationcellchromie ($$$) {
 		BNet::Utils::tableprint("begintdexalted");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
 		print "\t\t\t<div>Timelord</div>";
-		print "<div>";
-		print $mypercent;
-		print "</div>";
+		print "\t\t\t<div></div>";
 		print "\n";
 		BNet::Utils::tableprint("endtd");
 	}
@@ -1380,7 +1382,8 @@ sub valueprintreputationcell ($$$$) {
 		($da == 2098) ||
 		($da == 2099) ||
 		($da == 2100) ||
-		($da == 2101)
+		($da == 2101) ||
+		($da == 1358)
 		) {
 			valueprintreputationcellfriend ($db, $dc, $dd);
 		} elsif ($da == 2135) {
@@ -1398,7 +1401,7 @@ sub valueprintreputationcalc ($$) {
 	} elsif ($db == 0) {
 		return 0;
 	} else {
-		return sprintf("%.2f", my $percent = $da / $db);	
+		return sprintf("%.2f%%", $da / $db);	
 	}
 }
 
