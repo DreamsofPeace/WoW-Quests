@@ -1,0 +1,239 @@
+sz_01_20_Durotar	header	01-20: Durotar	horde			
+sz_01_20_Mulgore	header	01-20: Mulgore	horde			
+sz_01_20_Teldrassil	header	01-20: Teldrassil	alliance			
+sz_01_20_Azuremyst_Isle	header	01-20: Azuremyst Isle	alliance			
+z_10_60_Azshara	header	header	10-20: Azshara: The Rear Gate	horde			
+z_10_60_Azshara	28496	Warchief's Command: Azshara!			
+z_10_60_Azshara	25275	Report to the Labor Captain			
+z_10_60_Azshara	14129	Runaway Shredder!			
+z_10_60_Azshara	14134	The Captain's Logs			
+z_10_60_Azshara	14135	Up a Tree			
+z_10_60_Azshara	14146	Defend the Gates!			
+z_10_60_Azshara	14155	Arborcide			
+z_10_60_Azshara	14118	Venison for the Troops			
+z_10_60_Azshara	14117	The Eyes of Ashenvale			
+z_10_60_Azshara	14127	Return of the Highborne?			
+z_10_60_Azshara	header	10-20: Azshara: Orgrimmar Rocketway Exchange	horde		
+z_10_60_Azshara	14162	Report to Horzak			
+z_10_60_Azshara	14128	Return of the Highborne?			
+z_10_60_Azshara	header	10-20: Azshara (Unsorted)	horde			
+z_10_60_Azshara	14130	Friends Come In All Colors			
+z_10_60_Azshara	14131	A Little Pick-me-up			
+z_10_60_Azshara	14132	That's Just Rude!			
+z_10_60_Azshara	14161	Basilisk Bashin'			
+z_10_60_Azshara	14165	Stone Cold			
+z_10_60_Azshara	14190	The Perfect Prism			
+z_10_60_Azshara	14192	Prismbreak			
+z_10_60_Azshara	14194	Refleshification			
+z_10_60_Azshara	14197	A Quota to Meet			
+z_10_60_Azshara	14201	A Thousand Stories in the Sand			
+z_10_60_Azshara	14202	Survey the Lakeshore			
+z_10_60_Azshara	14209	Gunk in the Trunk			
+z_10_60_Azshara	14215	Memories of the Dead			
+z_10_60_Azshara	14216	Mystery of the Sarcen Stone			
+z_10_60_Azshara	14226	Trouble Under Foot			
+z_10_60_Azshara	14230	Manual Labor			
+z_10_60_Azshara	14249	Shear Will			
+z_10_60_Azshara	14250	Renewable Resource			
+z_10_60_Azshara	14258	Mortar the Point			
+z_10_60_Azshara	14261	Ice Cold			
+z_10_60_Azshara	14262	To Gut a Fish			
+z_10_60_Azshara	14263	Waste of Thyme			
+z_10_60_Azshara	14267	Investigating the Sea Shrine			
+z_10_60_Azshara	14270	The Keystone Shard			
+z_10_60_Azshara	14271	Report to Twocrush			
+z_10_60_Azshara	14295	Sisters of the Sea			
+z_10_60_Azshara	14296	Watch Your Step			
+z_10_60_Azshara	14297	Pro-liberation			
+z_10_60_Azshara	14299	Xylem's Asylum			
+z_10_60_Azshara	14300	The Trial of Fire			
+z_10_60_Azshara	14308	When Science Attacks			
+z_10_60_Azshara	14310	Segmentation Fault: Core Dumped			
+z_10_60_Azshara	14322	Bad Science! Bad!			
+z_10_60_Azshara	14323	Absorbent			
+z_10_60_Azshara	14324	Full of Hot Water			
+z_10_60_Azshara	14340	Dressed to Impress			
+z_10_60_Azshara	14345	Wash Out			
+z_10_60_Azshara	14370	Mysterious Azsharite			
+z_10_60_Azshara	14371	A Gigantic Snack			
+z_10_60_Azshara	14377	Befriending Giants			
+z_10_60_Azshara	14383	The Terrible Tinkers of the Ruined Reaches			
+z_10_60_Azshara	14385	Azsharite Experiment Number One			
+z_10_60_Azshara	14388	Azsharite Experiment Number Two			
+z_10_60_Azshara	14389	Wasn't It Obvious?			
+z_10_60_Azshara	14390	Easy is Boring			
+z_10_60_Azshara	14391	Turning the Tables			
+z_10_60_Azshara	14392	Farewell, Minnow			
+z_10_60_Azshara	14407	Azshara Blues			
+z_10_60_Azshara	14408	Nine's Plan			
+z_10_60_Azshara	14413	The Pinnacle of Learning			
+z_10_60_Azshara	14422	Raptor Raptor Rocket			
+z_10_60_Azshara	14423	Dozercism			
+z_10_60_Azshara	14424	Need More Science			
+z_10_60_Azshara	14428	Amberwind's Journal			
+z_10_60_Azshara	14429	Arcane De-Construction			
+z_10_60_Azshara	14430	Hacking the Construct			
+z_10_60_Azshara	14431	The Blackmaw Scar			
+z_10_60_Azshara	14432	A Pale Brew			
+z_10_60_Azshara	14433	Diplomacy by Another Means			
+z_10_60_Azshara	14435	The Blackmaw Doublecross			
+z_10_60_Azshara	14442	My Favorite Subject			
+z_10_60_Azshara	14462	Where's My Head?			
+z_10_60_Azshara	14464	Lightning Strike Assassination			
+z_10_60_Azshara	14468	Another Warm Body			
+z_10_60_Azshara	14469	Hand-me-downs			
+z_10_60_Azshara	14470	Military Breakthrough			
+z_10_60_Azshara	14471	First Degree Mortar			
+z_10_60_Azshara	14472	In The Face!			
+z_10_60_Azshara	14475	Grounded!			
+z_10_60_Azshara	14476	Rigged to Blow			
+z_10_60_Azshara	14477	Push the Button!			
+z_10_60_Azshara	14478	Operation Fishgut			
+z_10_60_Azshara	14479	There Are Many Like It			
+z_10_60_Azshara	14480	Extermination			
+z_10_60_Azshara	14484	Head of the Snake			
+z_10_60_Azshara	14485	Ticker Required			
+z_10_60_Azshara	14486	Handling the Goods			
+z_10_60_Azshara	14487	Still Beating Heart			
+z_10_60_Azshara	24430	Blacken the Skies			
+z_10_60_Azshara	24433	Let Them Feast on Fear			
+z_10_60_Azshara	24434	Commando Drop			
+z_10_60_Azshara	24435	Mop Up			
+z_10_60_Azshara	24436	Halo Drops			
+z_10_60_Azshara	24437	First Come, First Served			
+z_10_60_Azshara	24439	The Conquest of Azshara			
+z_10_60_Azshara	24448	Field Promotion			
+z_10_60_Azshara	24449	Shore Leave			
+z_10_60_Azshara	24452	Profitability Scouting			
+z_10_60_Azshara	24453	Private Chat			
+z_10_60_Azshara	24455	Rapid Deployment			
+z_10_60_Azshara	24458	A Hello to Arms			
+z_10_60_Azshara	24463	Probing into Ashenvale			
+z_10_60_Azshara	24467	Fade to Black			
+z_10_60_Azshara	24478	The Trial of Frost			
+z_10_60_Azshara	24479	The Trial of Shadow			
+z_10_60_Azshara	24497	Airborne Again			
+z_10_60_Bloodmyst_Isle	header	10-60: Bloodmyst Isle			
+z_10_60_Darkshore	header	10-60: Darkshore			
+z_10_60_Northern_Barrens	header	10-60: Northern Barrens			
+z_15_60_Ashenvale	header	15-60: Ashenvale			
+z_20_60_Stonetalon_Mountains	header	20-60: Stonetalon Mountains			
+z_25_60_Southern_Barrens	header	25-60: Southern Barrens			
+z_30_60_Desolace	header	30-60: Desolac			
+z_35_60_Dustwallow_Marsh	header	35-60: Dustwallow Marsh			
+z_35_60_Feralas	header	35-60: Ferelas			
+z_40_60_Thousand_Needles	header	40-60: Thousand Needles			
+z_40_60_Felwood	header	40-60: Felwood			
+z_40_60_Tanaris	header	40-60: Tanaris			
+z_40_60_UnGoro_Crater	header	40-60: Un'Goro Crater			
+z_40_60_Winterspring	header	40-60: Winterspring: Unsorted			
+z_40_60_Winterspring	28544	Hero's Call: Winterspring!	alliance			
+z_40_60_Winterspring	28545	Warchief's Command: Winterspring!	horde			
+z_40_60_Winterspring	28460	Threat of the Winterfall			
+z_40_60_Winterspring	28462	Winterfall Firewater			
+z_40_60_Winterspring	28464	Falling to Corruption			
+z_40_60_Winterspring	28467	Mystery Goo			
+z_40_60_Winterspring	28469	Winterfall Runners			
+z_40_60_Winterspring	28470	High Chief Winterfall			
+z_40_60_Winterspring	28471	The Final Piece			
+z_40_60_Winterspring	28472	Words of the High Chief			
+z_40_60_Winterspring	28479	The Ruins of Kel'Theril			
+z_40_60_Winterspring	28513	Pride of the Highborne			
+z_40_60_Winterspring	28516	Centuries of Suffering			
+z_40_60_Winterspring	28518	Legacy of the High Elves			
+z_40_60_Winterspring	28519	Pain of the Blood Elves			
+z_40_60_Winterspring	28521	Speak to Salfa			
+z_40_60_Winterspring	28522	Winterfall Activity			
+z_40_60_Winterspring	28524	Delivery for Donova			
+z_40_60_Winterspring	28530	Scalding Signs			
+z_40_60_Winterspring	28534	Descendants of the Highborne			
+z_40_60_Winterspring	28535	Descendants of the High Elves			
+z_40_60_Winterspring	28536	The Curse of Zin-Malor			
+z_40_60_Winterspring	28537	In Pursuit of Shades			
+z_40_60_Winterspring	28540	Doin' De E'ko Magic			
+z_40_60_Winterspring	28609	Hammer Time			
+z_40_60_Winterspring	28610	Rubble Trouble			
+z_40_60_Winterspring	28614	Bearzerker			
+z_40_60_Winterspring	28615	Turning the Earth			
+z_40_60_Winterspring	28618	Boulder Delivery			
+z_40_60_Winterspring	28624	Kilram's Boast			
+z_40_60_Winterspring	28625	Chop Chop			
+z_40_60_Winterspring	28626	Tree Delivery			
+z_40_60_Winterspring	28627	Seril's Boast			
+z_40_60_Winterspring	28628	Ice Delivery			
+z_40_60_Winterspring	28629	Are We There, Yeti?			
+z_40_60_Winterspring	28630	Echo Three			
+z_40_60_Winterspring	28631	The Perfect Horns			
+z_40_60_Winterspring	28632	Fresh From The Hills			
+z_40_60_Winterspring	28637	A Taste for Bear			
+z_40_60_Winterspring	28638	The Owls Have It			
+z_40_60_Winterspring	28639	Ursius			
+z_40_60_Winterspring	28640	Fresh Frostsabers			
+z_40_60_Winterspring	28641	Pride of the Dinner Table			
+z_40_60_Winterspring	28656	Strange Life Forces			
+z_40_60_Winterspring	28674	Starfall Village			
+z_40_60_Winterspring	28676	Exterminators at Work			
+z_40_60_Winterspring	28701	Out of Harm's Way			
+z_40_60_Winterspring	28703	Step Into My Barrow			
+z_40_60_Winterspring	28706	Spray it Forward			
+z_40_60_Winterspring	28707	Spray it Again			
+z_40_60_Winterspring	28710	Spray it One More Time			
+z_40_60_Winterspring	28718	Where There's Smoke, There's Delicious Meat			
+z_40_60_Winterspring	28719	A Little Gamy			
+z_40_60_Winterspring	28722	Yetiphobia			
+z_40_60_Winterspring	28742	Shy-Rotam			
+z_40_60_Winterspring	28745	Screechy Keen			
+z_40_60_Winterspring	28768	Winterspring!			
+z_40_60_Winterspring	28782	A Bird of Legend			
+z_40_60_Winterspring	28828	You Gotta Have Eggs			
+z_40_60_Winterspring	28829	Razor Beak and Antlers Pointy			
+z_40_60_Winterspring	28830	Chips off the Old Block			
+z_40_60_Winterspring	28831	Damn You, Frostilicus			
+z_40_60_Winterspring	28837	Altered Beasts			
+z_40_60_Winterspring	28838	The Owlbeasts' Defense			
+z_40_60_Winterspring	28839	Magic Prehistoric			
+z_40_60_Winterspring	28840	Winterwater			
+z_40_60_Winterspring	28841	The Arcane Storm Within			
+z_40_60_Winterspring	28842	Umbranse's Deliverance			
+z_40_60_Winterspring	28847	The Pursuit of Umbranse			
+z_40_60_Winterspring	28848	Trailing the Spiritspeaker			
+z_40_60_Silithus	header	40-60: Silithus: Breadcrumbs			
+z_40_60_Silithus	28528	Hero's Call: Silithus!	alliance			
+z_40_60_Silithus	28527	Warchief's Command: Silithus!	horde			
+z_40_60_Silithus	28859	The Dunes of Silithus			
+z_40_60_Silithus	28856	The Sands of Silithus			
+z_40_60_Silithus	header	55-60: Silithus: Cenarian Hold			
+z_40_60_Silithus	8280	Securing the Supply Lines			
+z_40_60_Silithus	8308	Brann Bronzebeard's Lost Letter			
+z_40_60_Silithus	8281	Stepping Up Security			
+z_40_60_Silithus	8283	Wanted - Deathclasp, Terror of the Sands			
+z_40_60_Silithus	8318	Secret Communication			
+z_40_60_Silithus	header	55-60: Silithus: Saving Noggle			
+z_40_60_Silithus	8277	Deadly Desert Venom			
+z_40_60_Silithus	8278	Noggle's Last Hope			
+z_40_60_Silithus	8282	Noggle's Lost Satchel			
+z_40_60_Silithus	header	55-60: Silithus: Twilight Geolords			
+z_40_60_Silithus	8320	Twilight Geolords			
+z_40_60_Silithus	8321	Vyral the Vile			
+z_40_60_Silithus	header	55-60: Silithus: Hive'Regal			
+z_40_60_Silithus	8304	Dearest Natalia			
+z_40_60_Silithus	8306	Into The Maw of Madness			
+z_40_60_Silithus	8310	Breaking the Code			
+z_40_60_Silithus	8309	Glyph Chasing			
+z_40_60_Silithus	8314	Unraveling the Mystery			
+z_40_60_Silithus	8381	Armaments of War (Obsolete) (Mage, Warlock)			
+z_40_60_Silithus	8379	Armaments of War (Obsolete) (Priest)			
+z_40_60_Silithus	8382	Armaments of War (Obsolete) (Druid)			
+z_40_60_Silithus	8378	Armaments of War (Obsolete) (Rogue)			
+z_40_60_Silithus	8377	Armaments of War (Obsolete) (Hunter)			
+z_40_60_Silithus	8380	Armaments of War (Obsolete) (Shaman)			
+z_40_60_Silithus	8376	Armaments of War (Obsolete) (Paladin)			
+z_40_60_Silithus	header	55-60: Silithus: Hermit Ortell			
+z_40_60_Silithus	8284	The Twilight Mystery			
+z_40_60_Silithus	8285	The Deserter			
+z_40_60_Silithus	8279	The Twilight Lexicon			
+z_40_60_Silithus	8323	True Believers			
+z_40_60_Silithus	8287	A Terrible Purpose			
+z_40_60_Silithus	header	55-60: Silithus: PvP			
+z_40_60_Silithus	9415	Report to Marshal Bluewall	alliance			
+z_40_60_Silithus	9416	Report to General Kirika	horde			

@@ -1,0 +1,1078 @@
+z_98_legion_intro	header	98: Legion Invasion	alliance		
+z_98_legion_intro	40519	The Legion Returns			
+z_98_legion_intro	42782	To Be Prepared			
+z_98_legion_intro	42740	The Battle for Broken Shore			
+z_98_legion_intro	40517	The Fallen Lion			
+z_98_legion_intro	40593	Demons Among Us			
+z_98_legion_intro	44120	Illidari Allies			
+z_98_legion_intro	40717	Calling of the Council			
+z_98_legion_intro	header	98: Legion Invasion	horde		
+z_98_legion_intro	43926	The Legion Returns			
+z_98_legion_intro	44281	To Be Prepared			
+z_98_legion_intro	40518	The Battle for Broken Shore			
+z_98_legion_intro	40522	Fate of the Horde			
+z_98_legion_intro	40976	Audience with the Warchief			
+z_98_legion_intro	40760	Emissary			
+z_98_legion_intro	40607	Demons Among Us			
+z_98_legion_intro	40605	Keep Your Friends Close			
+z_98_legion_intro	40718	Calling of the Council			
+z_98_legion_intro	header	98: Legion Invasion: Teleportation			
+z_98_legion_intro	42970	The Diamond King			
+z_98_legion_intro	40755	Hiding in the Stacks			
+z_98_legion_intro	44182	City Under Siege			
+z_98_legion_intro	44421	Anomalous Anomalies			
+z_98_legion_intro	44500	Author! Author!			
+z_98_legion_intro	44184	In the Blink of an Eye			
+z_100_azsuna	header	100-110: Azsuna: Behind Legion Lines			
+z_100_azsuna	39718	Paradise Lost			
+z_100_azsuna	41220	Down to Azsuna			
+z_100_azsuna	38834	Into the Fray			
+z_100_azsuna	37658	Reignite the Wards			
+z_100_azsuna	37653	Demon Souls			
+z_100_azsuna	37660	The Scythe of Souls			
+z_100_azsuna	44140	From Within			
+z_100_azsuna	37656	Fel Machinations			
+z_100_azsuna	37450	Saving Stellagosa			
+z_100_azsuna	37449	Dark Revelations			
+z_100_azsuna	header	100-110: Azsuna: Defending Azurewing Repose			
+z_100_azsuna	38443	Journey to the Repose			
+z_100_azsuna	37853	The Death of the Eldest			
+z_100_azsuna	37991	Agapanthus			
+z_100_azsuna	42271	Their Dying Breaths			
+z_100_azsuna	37855	The Last of the Last			
+z_100_azsuna	37859	The Consumed			
+z_100_azsuna	37856	The Withered			
+z_100_azsuna	37858	Stellagosa			
+z_100_azsuna	37957	Runas the Shamed			
+z_100_azsuna	37857	Runas Knows the Way			
+z_100_azsuna	37960	Leyline Abuse			
+z_100_azsuna	37959	The Hunger Returns			
+z_100_azsuna	37861	The Nightborne Prince			
+z_100_azsuna	37860	You Scratch My Back...			
+z_100_azsuna	37862	Still Alive			
+z_100_azsuna	38015	On the Brink			
+z_100_azsuna	38014	Feasting on the Dragon			
+z_100_azsuna	42567	Cursed to Wither			
+z_100_azsuna	42756	Hunger's End			
+z_100_azsuna	header	100-110: Azsuna: Azsuna versus Azshara			
+z_100_azsuna	37690	Those Who Remember			
+z_100_azsuna	37256	They Came From the Sea			
+z_100_azsuna	37733	Prince Farondis			
+z_100_azsuna	37257	Our Very Bones			
+z_100_azsuna	37492	A Rather Long Walk			
+z_100_azsuna	37728	Presentation is Everything			
+z_100_azsuna	37727	The Magister of Mixology			
+z_100_azsuna	37497	Trailing the Tidestone			
+z_100_azsuna	37486	Nar'thalas Still Suffers			
+z_100_azsuna	42692	Children of Nar'thalas			
+z_100_azsuna	42693	You Never Know Until You Scry			
+z_100_azsuna	42694	Back from the Dead			
+z_100_azsuna	37467	The Walk of Shame			
+z_100_azsuna	37468	Into the Academy			
+z_100_azsuna	37736	Dressing With Class			
+z_100_azsuna	37678	Hit the Books			
+z_100_azsuna	37518	The Haunted Halls			
+z_100_azsuna	42370	Wanding 101			
+z_100_azsuna	42371	Study Hall: Combat Research			
+z_100_azsuna	37729	Pop Quiz: Advanced Rune Drawing			
+z_100_azsuna	37730	The Headmistress' Keys			
+z_100_azsuna	37469	The Tidestone: Shattered			
+z_100_azsuna	37530	Save Yourself			
+z_100_azsuna	37470	The Head of the Snake			
+z_100_azsuna	header	100-110: Azsuna: Eye of Azshara			
+z_100_azsuna	38286	Eye of Azshara: Wrath of Azshara			
+z_100_azsuna	42213	Eye of Azshara: The Tidestone of Golganneth			
+z_100_azsuna	header	100-110: Azsuna: Against the Giants			
+z_100_azsuna	38407	Bottled Up			
+z_100_azsuna	37496	Infiltrating Shipwreck Arena			
+z_100_azsuna	37507	Boss Whalebelly's in Charge			
+z_100_azsuna	37542	No Time for Tryouts			
+z_100_azsuna	37528	Let Sleeping Giants Lie			
+z_100_azsuna	37510	Sternfathom's Champion			
+z_100_azsuna	37536	Morale Booster			
+z_100_azsuna	37538	Round 1, Fight!			
+z_100_azsuna	37565	The Right Weapon for the Job			
+z_100_azsuna	37566	The Prince is Going Down			
+z_100_azsuna	header	100-110: Azsuna: Mak'rana and the Fate of the Queen's Reprisal			
+z_100_azsuna	38857	A Favor for Mr. Shackle			
+z_100_azsuna	37654	Maritime Law			
+z_100_azsuna	37659	The Captain's Foot Locker			
+z_100_azsuna	42268	Shipwrecked Sailors			
+z_100_azsuna	42244	Fate of the Queen's Reprisal			
+z_100_azsuna	header	100-110: Azsuna: Daglop			
+z_100_azsuna	42238	Missing Demon			
+z_100_azsuna	38460	Let's Make A Deal			
+z_100_azsuna	38232	Minion! Kill Them!			
+z_100_azsuna	38237	This IS In My Contract.			
+z_100_azsuna	header	100-110: Azsuna: PVP			
+z_100_azsuna	43942	Timeworn Artifact			
+z_100_azsuna	header	100-110: Azsuna: Bonus Objectives			
+z_100_azsuna	36811	Retake Faronaar			
+z_100_azsuna	37466	The Broken Academy			
+z_100_azsuna	37963	Those Beyond Redemption			
+z_100_azsuna	37779	Tip the Scales			
+z_100_azsuna	37965	A Tainted Vintage			
+z_100_azsuna	37495	Plunder the Cove			
+z_100_valsharah	header	100-110: Val'sharah: Intro			
+z_100_valsharah	39731	The Tranquil Forest			
+z_100_valsharah	39861	Tying Up Loose Ends			
+z_100_valsharah	38305	Cenarius, Keeper of the Grove			
+z_100_valsharah	38384	Nature's Call			
+z_100_valsharah	header	100-110: Val'sharah: Archdruid of Lore			
+z_100_valsharah	38381	Archdruid of Lore			
+z_100_valsharah	38235	Solid as a Rock			
+z_100_valsharah	38225	Death to the Witchmother			
+z_100_valsharah	38322	Return to the Grove			
+z_100_valsharah	header	100-110: Val'sharah: Archdruid of the Claw			
+z_100_valsharah	38142	Archdruid of the Claw			
+z_100_valsharah	header	100-110: Val'sharah: Archdruid of the Claw: Furlbolgs			
+z_100_valsharah	38455	Frenzied Furbolgs			
+z_100_valsharah	38922	Littlefur			
+z_100_valsharah	38246	Totemic Call			
+z_100_valsharah	38146	The Chieftain's Beads			
+z_100_valsharah	header	100-110: Val'sharah: Archdruid of the Claw: Awakening the Archdruid			
+z_100_valsharah	38143	Awakening the Archdruid			
+z_100_valsharah	38145	Out of the Dream			
+z_100_valsharah	38144	The Demons Below			
+z_100_valsharah	38147	Entangled Dreams			
+z_100_valsharah	38148	Return to the Grove			
+z_100_valsharah	header	100-110: Val'sharah: Archdruid of the Vale			
+z_100_valsharah	38382	Archdruid of the Vale			
+z_100_valsharah	39383	Dishonored			
+z_100_valsharah	39384	The Corruptor			
+z_100_valsharah	40573	The Nightmare Lord			
+z_100_valsharah	38323	Return to the Grove			
+z_100_valsharah	header	100-110: Val'sharah: Into the Nightmare			
+z_100_valsharah	38377	The Emerald Queen			
+z_100_valsharah	38641	The Temple of Elune			
+z_100_valsharah	38662	Tears for Fears			
+z_100_valsharah	38655	Root Cause			
+z_100_valsharah	38656	Mark of the Demon			
+z_100_valsharah	38663	The Die is Cast			
+z_100_valsharah	38595	Malfurion's Fury			
+z_100_valsharah	38582	To Old Friends			
+z_100_valsharah	38753	The Demon's Trail			
+z_100_valsharah	header	100-110: Val'sharah: All Nightmare Long			
+z_100_valsharah	41054	Love Lost			
+z_100_valsharah	41890	Dark Side of the Moon			
+z_100_valsharah	38671	Lost in Retreat			
+z_100_valsharah	41707	Wormtalon Wreckage			
+z_100_valsharah	43576	Regroup at the Refuge			
+z_100_valsharah	38675	Heart of the Nightmare			
+z_100_valsharah	38684	Reading the Leaves			
+z_100_valsharah	41749	Given to Corruption			
+z_100_valsharah	43702	Softening the Target			
+z_100_valsharah	41763	Close Enough to Touch			
+z_100_valsharah	38743	The Fate of Val'sharah			
+z_100_valsharah	40890	The Tears of Elune			
+z_100_valsharah	header	100-110: Val'sharah: Darkheart Thicket			
+z_100_valsharah	40567	Darkheart Thicket: Enter the Nightmare			
+z_100_valsharah	header	100-110: Val'sharah: Bradensbrook			
+z_100_valsharah	38643	A Village in Peril			
+z_100_valsharah	38645	Children of the Night			
+z_100_valsharah	38644	The Farmsteads			
+z_100_valsharah	39117	Shriek No More			
+z_100_valsharah	38646	A Sight For Sore Eyes			
+z_100_valsharah	38647	For the Corn!			
+z_100_valsharah	38691	Jarod's Mission			
+z_100_valsharah	header	100-110: Val'sharah: Black Rook Hold			
+z_100_valsharah	38718	Kur'talos Ravencrest			
+z_100_valsharah	38714	Maiev's Trail			
+z_100_valsharah	38715	The Rook's Guard			
+z_100_valsharah	38717	Black Rook Prison			
+z_100_valsharah	38724	Brotherly Love			
+z_100_valsharah	38719	Illidari Freedom			
+z_100_valsharah	38721	Lieutenant of the Tower			
+z_100_valsharah	header	100-110: Val'sharah: Bonus Areas			
+z_100_valsharah	38716	Black Rook Hold			
+z_100_valsharah	39029	Defend The Temple			
+z_100_valsharah	38842	Faerie Fracas			
+z_100_valsharah	43241	Flow of the Nightmare			
+z_100_valsharah	39393	Moonclaw Vale			
+z_100_valsharah	38748	Ruins of Shala'nir			
+z_100_valsharah	38372	Wretched Sisters			
+z_100_valsharah	header	100-110: Val'sharah: Saylanna Riverbreeze			
+z_100_valsharah	40220	Thorny Dancing			
+z_100_valsharah	38862	Thieving Thistleleaf			
+z_100_valsharah	40221	Spread Your Lunarwings and Fly			
+z_100_valsharah	header	100-110: Val'sharah: Grizzleweald			
+z_100_valsharah	42857	Moist Around the Hedges			
+z_100_valsharah	header	100-110: Val'sharah: Lightsong			
+z_100_valsharah	42747	Where the Wildkin Are			
+z_100_valsharah	42748	Emerald Sisters			
+z_100_valsharah	42750	Dreamcatcher			
+z_100_valsharah	42786	Grotesque Remains			
+z_100_valsharah	42751	Moon Reaver			
+z_100_valsharah	header	100-110: Val'sharah: Single Quests			
+z_100_valsharah	39354	Wisp in the Willows			
+z_100_valsharah	38889	Adopting the Adorable			
+z_100_highmountain	header	100-110: Highmountain: Thunder Totem			
+z_100_highmountain	39733	The Lone Mountain			
+z_100_highmountain	38907	Keepers of the Hammer			
+z_100_highmountain	38911	The Rivermane Tribe			
+z_100_highmountain	39491	Ormgul the Pestilent			
+z_100_highmountain	39272	Poisoned Crops			
+z_100_highmountain	39490	Infestation			
+z_100_highmountain	39496	The Flow of the River			
+z_100_highmountain	39316	Trapped Tauren			
+z_100_highmountain	39277	Spray and Prey			
+z_100_highmountain	39614	Fish Out of Water			
+z_100_highmountain	39572	Moozy's Adventure			
+z_100_highmountain	39323	Moozy's Sojourn			
+z_100_highmountain	42590	Moozy's Reunion			
+z_100_highmountain	39661	Lifespring Cavern			
+z_100_highmountain	39488	Balance of Elements			
+z_100_highmountain	39489	Invading Spelunkers			
+z_100_highmountain	39487	Crystal Fury			
+z_100_highmountain	39498	High Water			
+z_100_highmountain	42104	The Underking Comes			
+z_100_highmountain	header	100-110: Highmountain: Riverbend			
+z_100_highmountain	39025	Grasp of the Underking			
+z_100_highmountain	39026	The Drogbar			
+z_100_highmountain	39043	Bitestone Enclave			
+z_100_highmountain	39027	Dargrul and the Hammer			
+z_100_highmountain	38909	Get to High Ground			
+z_100_highmountain	header	100-110: Highmountain: The Skyhorn Tribe			
+z_100_highmountain	38913	The Skyhorn Tribe			
+z_100_highmountain	39318	Nursing the Wounds			
+z_100_highmountain	38910	Rocs vs Eagles			
+z_100_highmountain	39321	The Three			
+z_100_highmountain	39429	Assaulting the Haglands			
+z_100_highmountain	39322	The Witchqueen			
+z_100_highmountain	39387	The Skies of Highmountain			
+z_100_highmountain	39419	Hex-a-Gone			
+z_100_highmountain	header	100-110: Highmountain: The Bloodtotem Tribe			
+z_100_highmountain	38912	The Bloodtotem Tribe			
+z_100_highmountain	39372	Witch of the Wood			
+z_100_highmountain	39373	Hags of a Feather			
+z_100_highmountain	39873	I Have a Bad Feeling About This			
+z_100_highmountain	39374	An Audience with Torok			
+z_100_highmountain	39455	Cave of the Blood Trial			
+z_100_highmountain	39860	Rite of Blood			
+z_100_highmountain	39381	Rock Troll in a Hard Place			
+z_100_highmountain	39391	Pet Rocks			
+z_100_highmountain	39425	Stonedark Crystal			
+z_100_highmountain	39588	They Will Pay With Blood			
+z_100_highmountain	39426	Blood Debt			
+z_100_highmountain	40229	Step into the Dark			
+z_100_highmountain	39456	Unexpected Allies			
+z_100_highmountain	header	100-110: Highmountain: Huln's War			
+z_100_highmountain	40515	A Walk With the Spirits			
+z_100_highmountain	40167	The Story of Huln			
+z_100_highmountain	40520	To See the Past			
+z_100_highmountain	39983	Huln's War - The Arrival			
+z_100_highmountain	40112	Huln's War - Malorne's Favored			
+z_100_highmountain	39988	Huln's War - Stormrage			
+z_100_highmountain	39990	Huln's War - Reinforcements			
+z_100_highmountain	40388	Huln's War - Shadowsong			
+z_100_highmountain	39992	Huln's War - The Nathrezim			
+z_100_highmountain	header	100-110: Highmountain: Secrets of Highmountain			
+z_100_highmountain	38916	Secrets of Highmountain			
+z_100_highmountain	39575	The Path of Huln			
+z_100_highmountain	40219	In Defiance of Deathwing			
+z_100_highmountain	39578	Titanic Showdown			
+z_100_highmountain	39577	An Ancient Secret			
+z_100_highmountain	39579	The Backdoor			
+z_100_highmountain	39580	The High Chieftain			
+z_100_highmountain	header	100-110: Highmountain: Battle of Snowblind Mesa			
+z_100_highmountain	38915	Battle of Snowblind Mesa			
+z_100_highmountain	39776	Battle Worms			
+z_100_highmountain	39777	Buy Us Time			
+z_100_highmountain	39862	The Siegebrul			
+z_100_highmountain	42088	Evacuate Snowmane			
+z_100_highmountain	42512	Highmountain Stands			
+z_100_highmountain	40594	Justice Rains from Above			
+z_100_highmountain	39780	The Underking			
+z_100_highmountain	header	100-110: Highmountain: Neltharion's Lair			
+z_100_highmountain	39781	Neltharion's Lair			
+z_100_highmountain	42454	Eye of Azshara: The Hammer of Khaz'goroth			
+z_100_highmountain	header	100-110: Highmountain: Stonedark Cavern			
+z_100_highmountain	39440	You Lift, Brul?			
+z_100_highmountain	39439	Stonedark Relics			
+z_100_highmountain	39437	Deep in the Cavern			
+z_100_highmountain	39438	Guhruhlruhlruh			
+z_100_highmountain	header	100-110: Highmountain: Rockcrawler Chasm			
+z_100_highmountain	40070	Eagle Egg Recovery			
+z_100_highmountain	39305	Empty Nest			
+z_100_highmountain	40069	Fledgling Worm Guts			
+z_100_highmountain	42425	Going Down, Going Up			
+z_100_highmountain	40071	Tamer Takedown			
+z_100_highmountain	header	100-110: Highmountain: Hemet Nesingwary			
+z_100_highmountain	40217	An Offering of Ammo			
+z_100_highmountain	39417	Rating Razik			
+z_100_highmountain	40170	Amateur Hour			
+z_100_highmountain	39859	Note-Eating Goats			
+z_100_highmountain	40216	A Hunter at Heart			
+z_100_highmountain	40228	Scout It Out			
+z_100_highmountain	39392	Bear Huntin'			
+z_100_highmountain	39123	Lion Stalkin'			
+z_100_highmountain	39124	Moose Shootin'			
+z_100_highmountain	39178	Moose on the Loose'			
+z_100_highmountain	39867	I'm Not Lion!			
+z_100_highmountain	40244	That Guy in the Costume			
+z_100_highmountain	header	100-110: Highmountain: Shipwreck Cove			
+z_100_highmountain	40049	Slime Time			
+z_100_highmountain	40047	I'll Huff, I'll Puff...			
+z_100_highmountain	40045	Nature vs. Nurture			
+z_100_highmountain	40102	Murlocs: The Next Generation			
+z_100_highmountain	40230	Oh, the Clawdacity!			
+z_100_highmountain	header	100-110: Highmountain: Candle King			
+z_100_highmountain	39768	Candle to the Grave			
+z_100_highmountain	39765	Wax On, Wax Off			
+z_100_highmountain	39769	The Gates of Wax			
+z_100_highmountain	40339	Candle of Command			
+z_100_highmountain	40345	Burn the Candle at Both Ends			
+z_100_highmountain	39772	Can't Hold a Candle To You			
+z_100_highmountain	header	100-110: Highmountain: Aviana			
+z_100_highmountain	41094	Hatchlings of the Talon			
+z_100_highmountain	header	100-110: Highmountain: Thunder Totem Misc.			
+z_100_highmountain	42622	Ceremonial Drums			
+z_100_highmountain	42596	Mountainstrider Round-Up			
+z_100_highmountain	39133	No Time to Talk			
+z_100_highmountain	39134	Wrathshard			
+z_100_highmountain	header	100-110: Highmountain: Bonus Objectives			
+z_100_highmountain	39274	Defend the Riverlands			
+z_100_highmountain	39576	Echoes of Deathwing			
+z_100_highmountain	40050	Shipwreck Cove			
+z_100_highmountain	39317	Siege of Crawliac			
+z_100_highmountain	40316	The Screeching Crag			
+z_100_highmountain	42373	Vengeance for the Stonedark			
+z_100_highmountain	39371	Witches of the Sky			
+z_100_highmountain	39123	Lion Stalkin'			
+z_100_stormheim	header	100-110: Stormheim: Intro: Alliance	alliance		
+z_100_stormheim	39735	Stormheim			
+z_100_stormheim	38035	A Royal Summons			
+z_100_stormheim	38206	Making the Rounds			
+z_100_stormheim	39800	Greymane's Gambit			
+z_100_stormheim	38052	Boarded!			
+z_100_stormheim	38036	Supplies From the Skies			
+z_100_stormheim	38053	Assault and Battery			
+z_100_stormheim	38558	See Ya Later, Oscillator			
+z_100_stormheim	38058	Lightning Rod			
+z_100_stormheim	38057	The Lost Legion			
+z_100_stormheim	38059	Pins and Needles			
+z_100_stormheim	38060	Signal Boost			
+z_100_stormheim	39775	Stormforged Grapple Launcher			
+z_100_stormheim	header	100-110: Stormheim: Intro: Horde	horde		
+z_100_stormheim	39864	Stormheim			
+z_100_stormheim	38307	The Warchief Beckons			
+z_100_stormheim	39698	Making the Rounds			
+z_100_stormheim	39801	The Splintered Fleet			
+z_100_stormheim	38332	The Ranger Lord			
+z_100_stormheim	38358	Pump it Up			
+z_100_stormheim	38357	Side Effects May Include Mild Undeath			
+z_100_stormheim	38360	The Windrunner's Fate			
+z_100_stormheim	38361	Wrath of the Blightcaller			
+z_100_stormheim	38362	A Grim Trophy			
+z_100_stormheim	38308	Eyes in the Overlook			
+z_100_stormheim	38317	Masters of Disguise			
+z_100_stormheim	39775	Stormforged Grapple Launcher			
+z_100_stormheim	header	100-110: Stormheim: Ancient Trials: The Blessing of the Watchers			
+z_100_stormheim	38210	The Ancient Trials	alliance		
+z_100_stormheim	38459	The Ancient Trials	horde		
+z_100_stormheim	38331	Havi's Test			
+z_100_stormheim	39590	Ahead of the Game			
+z_100_stormheim	39595	Blood and Gold			
+z_100_stormheim	39591	A Trial of Valor			
+z_100_stormheim	39592	A Trial of Will			
+z_100_stormheim	39593	The Shattered Watcher			
+z_100_stormheim	39594	A Trial of Might			
+z_100_stormheim	39597	The Blessing of the Watchers			
+z_100_stormheim	header	100-110: Stormheim: Ancient Trials: Where Dragons Rule			
+z_100_stormheim	38473	Will of the Thorignir	alliance		
+z_100_stormheim	38611	Will of the Thorignir	horde		
+z_100_stormheim	38312	A Grapple a Day	alliance		
+z_100_stormheim	38612	A Grapple a Day	horde		
+z_100_stormheim	38318	No Wings Required	alliance		
+z_100_stormheim	38613	No Wings Required	horde		
+z_100_stormheim	38405	To Weather the Storm	alliance		
+z_100_stormheim	38614	To Weather the Storm	horde		
+z_100_stormheim	38616	Built to Scale	horde		
+z_100_stormheim	38337	Built to Scale	alliance		
+z_100_stormheim	38410	Impalement Insurance	alliance		
+z_100_stormheim	38615	Impalement Insurance	horde		
+z_100_stormheim	38342	Another Way	alliance		
+z_100_stormheim	38617	Another Way	horde		
+z_100_stormheim	38412	Above the Winter Moonlight	alliance		
+z_100_stormheim	38618	Above the Winter Moonlight	horde		
+z_100_stormheim	38414	Heart of a Dragon			
+z_100_stormheim	38413	Wings of Liberty			
+z_100_stormheim	40568	Fury of the Storm			
+z_100_stormheim	39652	Where Dragons Rule			
+z_100_stormheim	38624	Cry Thunder!			
+z_100_stormheim	header	100-110: Stormheim: Ancient Trials: The Final Judgement			
+z_100_stormheim	39803	The Trials Continue			
+z_100_stormheim	39804	Speaking of Bones			
+z_100_stormheim	39796	To Haustvald			
+z_100_stormheim	38778	Turn the Keys			
+z_100_stormheim	39788	The Runewood's Revenge			
+z_100_stormheim	38810	The Dreaming Fungus			
+z_100_stormheim	38808	Bjornharta			
+z_100_stormheim	38811	Judgment Day			
+z_100_stormheim	39791	Lay Them to Rest			
+z_100_stormheim	38817	Regal Remains			
+z_100_stormheim	38816	Breaking the Bonespeakers			
+z_100_stormheim	38823	The Runes that Bind			
+z_100_stormheim	38815	Waking the Shieldmaiden			
+z_100_stormheim	38818	The Final Judgment			
+z_100_stormheim	header	100-110: Stormheim: Ancient Trials: Victory is Eternal (Helheim)			
+z_100_stormheim	39837	An Unworthy Task			
+z_100_stormheim	38339	A Little Kelp From My Foes			
+z_100_stormheim	38324	Accessories of the Cursed			
+z_100_stormheim	38347	Stealth by Seaweed			
+z_100_stormheim	39848	A Desperate Bargain			
+z_100_stormheim	39857	The Eternal Nemesis			
+z_100_stormheim	39849	To Light the Way			
+z_100_stormheim	39850	Sundered			
+z_100_stormheim	39851	Allies in Death			
+z_100_stormheim	39853	Victory is Eternal			
+z_100_stormheim	39855	Paid in Lifeblood			
+z_100_stormheim	header	100-110: Stormheim: The Aegis of Agrammar			
+z_100_stormheim	40078	A Heavy Burden			
+z_100_stormheim	40001	Knocking on Valor's Door			
+z_100_stormheim	40002	A Familiar Fate			
+z_100_stormheim	40003	Stem the Tide			
+z_100_stormheim	40004	Break the Spine			
+z_100_stormheim	40005	Stormheim's Salvation			
+z_100_stormheim	header	100-110: Stormheim: Halls of Valor			
+z_100_stormheim	40072	Halls of Valor: Securing the Aegis			
+z_100_stormheim	43349	The Aegis of Aggramar			
+z_100_stormheim	header	100-110: Stormheim: Skold-Ashil (Alliance)			
+z_100_stormheim	39059	To Catch a Banshee			
+z_100_stormheim	39060	Combustible Contagion			
+z_100_stormheim	39061	Whispers from the Dark			
+z_100_stormheim	39472	Cut Out the Heart			
+z_100_stormheim	39062	To Skold-Ashil			
+z_100_stormheim	39063	Shielded Secrets			
+z_100_stormheim	39092	Becoming the Ascendant			
+z_100_stormheim	39122	Ending the New Beginning			
+z_100_stormheim	header	100-110: Stormheim: Skold-Ashil (Horde)			
+z_100_stormheim	38872	The Dark Lady's Bidding			
+z_100_stormheim	38873	Clear the Deck!			
+z_100_stormheim	39153	Dreadwake's Dilemma			
+z_100_stormheim	39385	A Gift for Greymane			
+z_100_stormheim	39154	To Skold-Ashil			
+z_100_stormheim	38878	Shielded Secrets			
+z_100_stormheim	39405	Stories of Battle			
+z_100_stormheim	39155	Becoming the Ascendant			
+z_100_stormheim	38882	A New Life for Undeath			
+z_100_stormheim	header	100-110: Stormheim: Sixtrigger Brothers			
+z_100_stormheim	39789	Eating Into Our Business			
+z_100_stormheim	39793	Only the Finest			
+z_100_stormheim	39787	Rigging the Wager			
+z_100_stormheim	39786	A Stone Cold Gamble			
+z_100_stormheim	39792	A Stack of Racks			
+z_100_stormheim	42483	Put It All on Red			
+z_100_stormheim	43331	Time to Collect			
+z_100_stormheim	header	100-110: Stormheim: Bonus Objectives			
+z_100_stormheim	38442	A Worthy Challenger			
+z_100_stormheim	38343	Raze Hel			
+z_100_stormheim	38939	Assault on Skold-Ashil			
+z_100_stormheim	38374	Assault the Drekirjar			
+z_100_stormheim	39998	Drive Back the Tideskorn			
+z_100_stormheim	40111	Rout the Bilgefin Invaders			
+z_100_stormheim	42431	The Brood of Nithogg			
+z_110_suramar	header	110: Suramar: Nightfallen But Not Forgotten: Nightfall			
+z_110_suramar	39985	Khadgar's Discovery			
+z_110_suramar	44555	Khadgar's Discovery			
+z_110_suramar	39986	Magic Message			
+z_110_suramar	39987	Trail of Echoes			
+z_110_suramar	40008	The Only Way Out is Through			
+z_110_suramar	40123	The Nightborne Pact			
+z_110_suramar	40009	Arcane Thirst			
+z_110_suramar	42229	Shal'Aran			
+z_110_suramar	44672	Ancient Mana			
+z_110_suramar	header	110: Suramar: Nightfallen But Not Forgotten: Arcanist Kel'danath			
+z_110_suramar	40012	An Old Ally			
+z_110_suramar	41149	A Re-Warding Effort			
+z_110_suramar	40326	Scattered Memories			
+z_110_suramar	41702	Written in Stone			
+z_110_suramar	41704	Subject 16			
+z_110_suramar	41760	Kel'danath's Legacy			
+z_110_suramar	header	110: Suramar: Nightfallen But Not Forgotten: Chief Telemancer Oculeth			
+z_110_suramar	40011	Oculeth's Workshop			
+z_110_suramar	40747	The Delicate Art of Telemancy			
+z_110_suramar	40748	Network Security			
+z_110_suramar	40830	Close Enough			
+z_110_suramar	44691	Hungry Work			
+z_110_suramar	40956	Survey Says...			
+z_110_suramar	header	110: Suramar: Nightfallen But Not Forgotten: Feeding Shal'Aran			
+z_110_suramar	40010	Tapping the Leylines			
+z_110_suramar	41028	Power Grid			
+z_110_suramar	41138	Feeding Shal'Aran			
+z_110_suramar	header	110: Suramar: Nightfallen But Not Forgotten: Masquerade			
+z_110_suramar	41762	Sympathizers Among the Shal'dorei			
+z_110_suramar	41834	The Masks We Wear			
+z_110_suramar	41989	Blood of My Blood			
+z_110_suramar	42079	Masquerade			
+z_110_suramar	42147	First Contact			
+z_110_suramar	header	110: Suramar: Nightfallen But Not Forgotten: The Light Below			
+z_110_suramar	40324	Arcane Communion			
+z_110_suramar	40325	Scenes from a Memory			
+z_110_suramar	42224	Cloaked in Moonshade			
+z_110_suramar	42225	Breaking the Seal			
+z_110_suramar	42226	Moonshade Holdout			
+z_110_suramar	42227	Into the Crevasse			
+z_110_suramar	42228	The Hidden City			
+z_110_suramar	42230	The Valewalker's Burden			
+z_110_suramar	header	110: Suramar: Good Suramaritan: The Waning Crescent			
+z_110_suramar	41877	Lady Lunastre			
+z_110_suramar	40746	One of the People			
+z_110_suramar	41148	Dispensing Compassion			
+z_110_suramar	40947	Special Delivery			
+z_110_suramar	41878	The Gondolier			
+z_110_suramar	40727	All Along the Waterways			
+z_110_suramar	40730	Redistribution			
+z_110_suramar	40745	Shift Change			
+z_110_suramar	42722	Friends in Cages			
+z_110_suramar	42486	Little One Lost			
+z_110_suramar	42487	Friends On the Outside			
+z_110_suramar	44051	Wasted Potential			
+z_110_suramar	42488	Thalyssra's Abode			
+z_110_suramar	42489	Thalyssra's Drawers			
+z_110_suramar	44636	Building an Army			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Blood and Wine			
+z_110_suramar	44561	Seed of Hope			
+z_110_suramar	42828	Moths to a Flame			
+z_110_suramar	42829	Make an Entrance			
+z_110_suramar	42832	The Fruit of Our Efforts			
+z_110_suramar	42833	How It's Made: Arcwine			
+z_110_suramar	42834	Intense Concentration			
+z_110_suramar	42835	The Old Fashioned Way			
+z_110_suramar	42836	Silkwing Sabotage			
+z_110_suramar	42837	Balance to Spare			
+z_110_suramar	42838	Reversal			
+z_110_suramar	44084	Vengeance for Margaux			
+z_110_suramar	42839	Seek the Unsavory			
+z_110_suramar	43969	Hired Help			
+z_110_suramar	42840	If Words Don't Work...			
+z_110_suramar	42841	A Big Score			
+z_110_suramar	43352	Asset Security			
+z_110_suramar	42792	Make Your Mark			
+z_110_suramar	44052	And They Will Tremble			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Statecraft			
+z_110_suramar	43309	The Perfect Opportunity			
+z_110_suramar	43310	Either With Us			
+z_110_suramar	43312	Thinly Veiled Threats			
+z_110_suramar	44040	Vote of Confidence			
+z_110_suramar	43311	Or Against Us			
+z_110_suramar	43315	Death Becomes Him			
+z_110_suramar	43313	Rumor Has It			
+z_110_suramar	43317	In the Bag			
+z_110_suramar	43318	Ly'leth's Champion			
+z_110_suramar	44053	Friends With Benefits			
+z_110_suramar	42490	The Arcway: Opening the Arcway			
+z_110_suramar	42491	The Arcway: Long Buried Knowledge			
+z_110_suramar	43314	Court of Stars: Beware the Fury of a Patient Elf			
+z_110_suramar	header	110: Suramar: Good Suramaritan: A Growing Crisis			
+z_110_suramar	44562	Growing Strong			
+z_110_suramar	44152	A Growing Crisis			
+z_110_suramar	43360	The Shardmaidens			
+z_110_suramar	43361	Fragments of Disaster			
+z_110_suramar	44156	Another Arcan'dor Closes...			
+z_110_suramar	40125	Branch of the Arcan'dor			
+z_110_suramar	43362	The Emerald Nightmare: The Stuff of Dreams			
+z_110_suramar	header	110: Suramar: Good Suramaritan: A Change of Seasons			
+z_110_suramar	43502	A Change of Seasons			
+z_110_suramar	43562	Giving It All We've Got			
+z_110_suramar	43563	Ephemeral Manastorm Projector			
+z_110_suramar	43564	Flow Control			
+z_110_suramar	43565	Bring Home the Beacon			
+z_110_suramar	43567	All In			
+z_110_suramar	43568	Arcan'dor, Gift of the Ancient Magi			
+z_110_suramar	43569	Arluin's Request			
+z_110_suramar	44563	Redemption for the Fallen			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Leylines			
+z_110_suramar	43587	Leyline Feed: Elor'shan			
+z_110_suramar	43588	Leyline Feed: Kel'balor			
+z_110_suramar	43590	Leyline Feed: Ley Station Moonfall			
+z_110_suramar	43591	Leyline Feed: Ley Station Aethenar			
+z_110_suramar	43592	Leyline Feed: Falanaar Arcway			
+z_110_suramar	43593	Leyline Feed: Falanaar Depths			
+z_110_suramar	43594	Leyline Feed: Halls of the Eclipse			
+z_110_suramar	44492	Leyline Apprentice			
+z_110_suramar	44493	Leyline Proficiency			
+z_110_suramar	44495	Leyline Master			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Teleporters			
+z_110_suramar	43808	Moon Guard Teleporter Online!			
+z_110_suramar	43809	Tel'anor'eporter Online!			
+z_110_suramar	43811	Lunastre Estate Teleporter Online!			
+z_110_suramar	43813	Sanctum of Order Teleporter Online!			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Breaking the Lightbreaker			
+z_110_suramar	40297	Lyana Darksorrow			
+z_110_suramar	44489	Lyana Darksorrow (Demon Hunter)			
+z_110_suramar	40307	Glaive Circumstances			
+z_110_suramar	40898	Fresh Meat			
+z_110_suramar	40901	Grimwing the Devourer			
+z_110_suramar	44490	Grimwing the Devourer (Demon Hunter)			
+z_110_suramar	40328	A Fate Worse Than Dying			
+z_110_suramar	40929	Symbols of Power			
+z_110_suramar	41097	Shard of Vorgos			
+z_110_suramar	41098	Shard of Kozak			
+z_110_suramar	40412	Azoran Must Die			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Moon Guard Stronghold			
+z_110_suramar	40883	Fate of the Guard			
+z_110_suramar	40949	Not Their Last Stand			
+z_110_suramar	41030	Sigil Reclamation			
+z_110_suramar	40963	Take Them in Claw			
+z_110_suramar	40968	Recovering Stolen Power			
+z_110_suramar	41109	Waiting for Revenge			
+z_110_suramar	41108	Rain Death Upon Them			
+z_110_suramar	40964	The Rift Between			
+z_110_suramar	40967	Precious Little Left			
+z_110_suramar	41032	Stop the Spell Seekers			
+z_110_suramar	40965	Lay Waste, Lay Mines			
+z_110_suramar	40969	Starweaver's Fate			
+z_110_suramar	40970	The Orchestrator of Our Demise			
+z_110_suramar	40971	Overwhelming Distraction			
+z_110_suramar	40972	Last Stand of the Moon Guard			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Tidying Tel'anor			
+z_110_suramar	40266	The Lost Advisor			
+z_110_suramar	40744	An Ancient Recipe			
+z_110_suramar	40227	Bad Intentions			
+z_110_suramar	40300	Tools of the Trade			
+z_110_suramar	40306	The Last Chapter			
+z_110_suramar	40578	Paying Respects			
+z_110_suramar	40315	End of the Line			
+z_110_suramar	40319	The Final Ingredient			
+z_110_suramar	40321	Feathersong's Redemption			
+z_110_suramar	40308	Fragments of Memory			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Eminent Grow-main			
+z_110_suramar	41452	Feline Frantic			
+z_110_suramar	41453	Homeward Bounding			
+z_110_suramar	41462	Trouble Has Huge Feet			
+z_110_suramar	41197	You've Got to Be Kitten Me Right Meow			
+z_110_suramar	41463	Missing Along the Way			
+z_110_suramar	41464	Not Here, Not Now, Not Ever			
+z_110_suramar	41467	The Only Choice We Can Make			
+z_110_suramar	41473	Redhoof the Ancient			
+z_110_suramar	41474	Fertilizing the Future			
+z_110_suramar	41475	Prongs and Fangs			
+z_110_suramar	41478	The Final Blessing			
+z_110_suramar	41479	Natural Adversaries			
+z_110_suramar	41485	Moonwhisper Rescue			
+z_110_suramar	41480	Managazer			
+z_110_suramar	41469	Return to Irongrove Retreat			
+z_110_suramar	41494	Eminent Grow-main			
+z_110_suramar	42223	Scouting the Crimson Thicket			
+z_110_suramar	40617	Turn Around, Nighteyes			
+z_110_suramar	41230	Trapping Evolved			
+z_110_suramar	41215	They Become The Hunted			
+z_110_suramar	41231	Apex Predator			
+z_110_suramar	43582	Shalassic Park			
+z_110_suramar	header	110: Suramar: Good Suramaritan: Jandvik's Jarl			
+z_110_suramar	40907	Removing Obstacles			
+z_110_suramar	40908	Jarl Come Back Now			
+z_110_suramar	40332	Beach Bonfire			
+z_110_suramar	40320	Band of Blood Brothers			
+z_110_suramar	40331	Bite of the Sashj'tar			
+z_110_suramar	40334	Fisherman's Tonic			
+z_110_suramar	41034	Testing the Waters			
+z_110_suramar	40927	Jandvik's Last Hope			
+z_110_suramar	41426	Against Their Will			
+z_110_suramar	41709	Breaking Down the Big Guns			
+z_110_suramar	41410	Dry Powder			
+z_110_suramar	41409	Timing Is Everything			
+z_110_suramar	41606	Finding Brytag			
+z_110_suramar	40364	Bubble Trouble			
+z_110_suramar	41618	The Seawarden			
+z_110_suramar	41425	Sunken Foes			
+z_110_suramar	41001	Shatter the Sashj'tar			
+z_110_suramar	41499	Squid Out of Water			
+z_110_suramar	40336	Turning the Tidemistress			
+z_110_suramar	41137	Fall of the King			
+z_110_suramar	header	110: Suramar: Lespin Silverleaf			
+z_110_suramar	41123	An Artisan's Mark			
+z_110_suramar	41307	All That Glitters			
+z_110_suramar	41466	Estate Jewelry: Haute Claw-ture			
+z_110_suramar	41320	Pry It From Their Cold, Feral Claws			
+z_110_suramar	41465	Estate Jewelry: A Braggart's Brooch			
+z_110_suramar	41146	Elegant Design			
+z_110_suramar	41915	The Master's Legacy			
+z_110_suramar	header	110: Suramar: Kyrtos			
+z_110_suramar	40694	One Small Step for Magic			
+z_110_suramar	40625	A Different Source			
+z_110_suramar	40657	The Road to Fel			
+z_110_suramar	40683	Discovery Requires Experimentation			
+z_110_suramar	40919	Fel Bent for Leather			
+z_110_suramar	40713	The Black Tome			
+z_110_suramar	40642	Power! Get The Power!			
+z_110_suramar	42366	The Bigger They Are, The Harder They Fel			
+z_110_suramar	header	110: Suramar: Iadreth			
+z_110_suramar	40401	A Way Back In			
+z_110_suramar	40469	Final Preparations			
+z_110_suramar	40424	A Desperate Journey			
+z_110_suramar	40470	Quality of Life			
+z_110_suramar	header	110: Suramar: Absolon			
+z_110_suramar	40796	Lingering on the Edge			
+z_110_suramar	40798	Cling to Hope			
+z_110_suramar	header	110: Suramar: Morhun Rivertamer			
+z_110_suramar	40368	Turtle Powered			
+z_110_suramar	40348	Something in the Water			
+z_110_suramar	40370	Purge the Unclean			
+z_110_suramar	header	110: Suramar: Shal'aran Banking Chest			
+z_110_suramar	44176	The Conveniences of Home			
+z_110_suramar	header	110: Suramar: Insurrection: Part One: Lockdown			
+z_110_suramar	45260	One Day at a Time			
+z_110_suramar	38649	Silence in the City			
+z_110_suramar	38695	Crackdown			
+z_110_suramar	38692	Answering Aggression			
+z_110_suramar	38720	No Reason to Stay			
+z_110_suramar	38694	Regroup			
+z_110_suramar	42889	The Way Back Home			
+z_110_suramar	44955	Visitor in Shal'Aran			
+z_110_suramar	header	110: Suramar: Insurrection: Part Two: Missing Persons			
+z_110_suramar	45261	Continuing the Cure			
+z_110_suramar	44722	Disillusioned Defector			
+z_110_suramar	44724	Missing Persons			
+z_110_suramar	44723	More Like Me			
+z_110_suramar	44725	Hostage Situation			
+z_110_suramar	44726	In the Business of Souls			
+z_110_suramar	44727	Smuggled!			
+z_110_suramar	44814	Waning Refuge			
+z_110_suramar	header	110: Suramar: Insurrection: Part Three: Waxing Crescent			
+z_110_suramar	45262	A Message from Ly'leth			
+z_110_suramar	44742	Tavernkeeper's Fate			
+z_110_suramar	44752	Essence Triangulation			
+z_110_suramar	44753	On Public Display			
+z_110_suramar	44754	Waxing Crescent			
+z_110_suramar	44756	Sign of the Dusk Lily			
+z_110_suramar	header	110: Suramar: Insurrection: Part Four: An Elven Problem			
+z_110_suramar	45316	Stabilizing Suramar			
+z_110_suramar	45263	Eating Before the Meeting			
+z_110_suramar	40391	Take Me To Your Leader			
+z_110_suramar	43810	Down to Business	alliance		
+z_110_suramar	43812	Down to Business	horde		
+z_110_suramar	44831	Taking a Promenade	alliance		
+z_110_suramar	41607	Taking a Promenade	horde		
+z_110_suramar	41916	A Better Future			
+z_110_suramar	44834	Nullified			
+z_110_suramar	44843	Crystal Clearing			
+z_110_suramar	44844	Powering Down the Portal			
+z_110_suramar	44842	Shield, Meet Spell			
+z_110_suramar	44845	Break an Arm			
+z_110_suramar	header	110: Suramar: Insurrection: Part Five: Crafting War			
+z_110_suramar	45265	Feeding the Rebellion			
+z_110_suramar	44743	Tyrande's Command	alliance		
+z_110_suramar	44859	Liadrin's Command	horde		
+z_110_suramar	44870	Mouths to Feed			
+z_110_suramar	44873	Oculeth Ex Machina			
+z_110_suramar	44858	Trolling Them	alliance		
+z_110_suramar	44860	Trolling Them	horde		
+z_110_suramar	44928	Something's Not Quite Right...			
+z_110_suramar	44861	Arming the Rebels	alliance		
+z_110_suramar	44862	Arming the Rebels	horde		
+z_110_suramar	44827	Citizens' Army			
+z_110_suramar	44829	We Need Weapons			
+z_110_suramar	44830	Learning From the Dead			
+z_110_suramar	44790	Trial by Demonfire			
+z_110_suramar	header	110: Suramar: Insurrection: Part Six: March on Suramar			
+z_110_suramar	45266	A United Front			
+z_110_suramar	44739	Ready for Battle			
+z_110_suramar	44738	Full Might of the Elves			
+z_110_suramar	44740	Staging Point			
+z_110_suramar	header	110: Suramar: Insurrection: Part Seven: Elisande's Retort			
+z_110_suramar	45317	Fighting on All Fronts			
+z_110_suramar	45267	Before the Siege			
+z_110_suramar	44736	Gates of the Nighthold			
+z_110_suramar	44822	Temporal Investigations			
+z_110_suramar	45209	Those Scrying Eyes			
+z_110_suramar	44832	Scouting the Breach			
+z_110_suramar	44833	The Seal's Power			
+z_110_suramar	header	110: Suramar: Insurrection: Part Eight: As Strong as Our Will			
+z_110_suramar	45268	The Advisor and the Arcanist			
+z_110_suramar	44918	A Message From Our Enemies			
+z_110_suramar	44919	A Challenge From Our Enemies			
+z_110_suramar	45063	The Felsoul Experiments			
+z_110_suramar	45067	Telemantic Expanse			
+z_110_suramar	45062	Resisting Arrest			
+z_110_suramar	45065	Survey the City			
+z_110_suramar	45066	Experimental Instability			
+z_110_suramar	45064	Felborne No More			
+z_110_suramar	header	110: Suramar: Insurrection: Part Nine: Breaking the Nighthold			
+z_110_suramar	45269	A Taste of Freedom			
+z_110_suramar	44964	I'll Just Leave This Here			
+z_110_suramar	44719	Breaching the Sanctum			
+z_110_suramar	45417	The Nighthold: Lord of the Shadow Council			
+z_110_suramar	45372	Fate of the Nightborne			
+z_110_legion_fall	header	110: Broken Shore: Armies of Legionfall			
+z_110_legion_fall	46730	Armies of Legionfall			
+z_110_legion_fall	46734	Assault on Broken Shore			
+z_110_legion_fall	46245	Begin Construction			
+z_110_legion_fall	46832	Aalgen Point			
+z_110_legion_fall	46845	Vengeance Point			
+z_110_legion_fall	46247	Defending Broken Isles			
+z_110_legion_fall	47137	Champions of Legionfall			
+z_110_legion_fall	46251	Shard Times			
+z_110_legion_fall	47139	Mark of the Sentinax			
+z_110_legion_fall	46248	Self-Fulfilling Prophecy			
+z_110_legion_fall	46252	Intolerable Infestation			
+z_110_legion_fall	46769	Relieved of Their Valuables			
+z_110_legion_fall	46250	Take Out the Head...			
+z_110_legion_fall	46249	Championing Our Cause			
+z_110_legion_fall	46246	Strike Them Down			
+z_110_legion_fall	header	Broken Shore: Dungeon/Raid Quests			
+z_110_legion_fall	46244	Altar of the Aegis			
+z_110_legion_fall	46253	Pillars of Creation			
+z_110_legion_fall	46805	The Deceiver's Downfall			
+artifact_improvingonhistory	header	Improving on History			
+artifact_improvingonhistory	43496	The Power Within			
+artifact_improvingonhistory	40668	Eye of Azshara: The Heart of Zin-Azshari (Mythic)			
+artifact_improvingonhistory	43517	Darkheart Thicket: Fallen Power (Mythic)			
+artifact_improvingonhistory	43514	Vainglorious Past			
+artifact_improvingonhistory	43518	Tempering Darkness			
+artifact_improvingonhistory	43519	Lucid Strength 			
+artifact_improvingonhistory	43520	The Emerald Nightmare: In Nightmares			
+artifact_improvingonhistory	43521	Essence of Power			
+artifact_improvingonhistory	43522	Essential Consumption			
+artifact_improvingonhistory	43527	Saving the Guard			
+artifact_improvingonhistory	43523	Repaid Debt			
+artifact_improvingonhistory	40673	Lost Knowledge			
+artifact_improvingonhistory	43525	Vault of the Wardens: Borrowing Without Asking (Mythic)			
+artifact_improvingonhistory	40675	The Arcway: Rite of the Captain (Mythic)			
+artifact_improvingonhistory	43524	Court of Stars: Literary Perfection (Mythic)			
+artifact_improvingonhistory	40678	Twisted Power			
+artifact_improvingonhistory	43526	A True Test			
+artifact_improvingonhistory	40603	Seeking the Valkyra			
+artifact_improvingonhistory	40608	The Mark			
+artifact_improvingonhistory	40613	Maw of Souls: Retrieving the Svalnguard (Mythic)			
+artifact_improvingonhistory	40614	A Feast Fit for Odyn			
+artifact_improvingonhistory	40672	Neltharion's Lair: Presentation is Key (Mythic)			
+artifact_improvingonhistory	40615	Halls of Valor: Odyn's Blessing (Mythic)			
+artifact_improvingonhistory	43528	Planning the Assault			
+artifact_improvingonhistory	43898	Preparing to Move			
+artifact_improvingonhistory	43531	Into the Nighthold			
+artifact_improvingonhistory	43530	The Nighthold: Delusions of Grandeur			
+artifact_improvingonhistory	43532	The Nighthold: Darkness Calls			
+artifact_improvingonhistory	43533	Balance of Power			
+empoweredartifacts	header	Empowering Artifacts			
+empoweredartifacts	46744	Greater Power for Greater Threats			
+empoweredartifacts	46765	The Broken Shore: Investigating the Legion			
+empoweredartifacts	47000	The Council's Call			
+empoweredartifacts	44782	Away From Prying Eyes			
+empoweredartifacts	44821	In Dire Need			
+empoweredartifacts	header	DPS: Archmage Xylem<div>Survival Hunter, Subtlety Rogue, Havoc Demon Hunter, Frost Death Knight, Arms Warrior</div>			
+empoweredartifacts	47046	Frost: The Thieving Apprentice		class_deathknight	
+empoweredartifacts	47043	Havoc: The Thieving Apprentice		class_demonhunter	
+empoweredartifacts	47047	Survival: The Thieving Apprentice		class_hunter	
+empoweredartifacts	47048	Subtlety: The Thieving Apprentice		class_rogue	
+empoweredartifacts	44914	Arms: The Thieving Apprentice		class_warrior	
+empoweredartifacts	44915	Professionally Good Looking			
+empoweredartifacts	44920	Order of Incantations			
+empoweredartifacts	44924	The Archmage Accosted			
+empoweredartifacts	46177	A Portal Away			
+empoweredartifacts	45865	A Gift From the Six			
+empoweredartifacts	44925	Closing the Eye			
+empoweredartifacts	45570	In Safer Hands			
+empoweredartifacts	45908	Xylem's Gift			
+empoweredartifacts	header	DPS: Fate of the Tideskorn<div>Arcane Mage, Assassination Rogue, Retribution Paladin, Enhancement Shaman, Demonology Warlock</div>			
+empoweredartifacts	45482	Arcane: Fate of the Tideskorn		class_mage	
+empoweredartifacts	47052	Retribution: Fate of the Tideskorn		class_paladin	
+empoweredartifacts	47051	Assassination: Fate of the Tideskorn		class_rogue	
+empoweredartifacts	47050	Enhancement: Fate of the Tideskorn		class_shaman	
+empoweredartifacts	47049	Demonology: Fate of the Tideskorn		class_warlock	
+empoweredartifacts	45486	The Reluctant Queen			
+empoweredartifacts	45522	To Silence the Bonespeakers			
+empoweredartifacts	45523	To Tame the Drekirjar			
+empoweredartifacts	45524	The Forgotten Heir			
+empoweredartifacts	45525	Unanswered Questions			
+empoweredartifacts	46340	The Gates Are Closed			
+empoweredartifacts	45862	A Gift From the Six			
+empoweredartifacts	45526	The God-Queen's Fury			
+empoweredartifacts	45527	Eyir's Forgiveness			
+empoweredartifacts	45904	The God-Queen's Gift			
+empoweredartifacts	header	DPS: Folly of Levia Laurence<div>Feral Druid, Outlaw Rogue, Unholy Death Knight, Fury Warrior, Fire Mage, Elemental Shaman</div>			
+empoweredartifacts	47057	Unholy: The Folly of Levia Laurence		class_deathknight	
+empoweredartifacts	47059	Feral: The Folly of Levia Laurence		class_druid	
+empoweredartifacts	47055	Fire: The Folly of Levia Laurence		class_mage	
+empoweredartifacts	47058	Outlaw: The Folly of Levia Laurence		class_rogue	
+empoweredartifacts	45123	Elemental: The Folly of Levia Laurence		class_shaman	
+empoweredartifacts	47056	Fury: The Folly of Levia Laurence		class_warrior	
+empoweredartifacts	45916	The Acolyte Imperiled			
+empoweredartifacts	45917	Following the Scent			
+empoweredartifacts	45125	Dabbling in the Demonic			
+empoweredartifacts	45126	Unlikely Seduction			
+empoweredartifacts	45127	Fel-Crossed Lovers			
+empoweredartifacts	45861	A Gift From the Six			
+empoweredartifacts	46065	An Impossible Foe			
+empoweredartifacts	45902	The Imp Mother's Gift			
+empoweredartifacts	header	DPS: Rumbling Near Feltotem<div>Discipline Priest, Windwalker Monk, Beast Mastery Hunter, Destruction Warlock</div>			
+empoweredartifacts	47018	Beast Mastery: Rumblings Near Feltotem		class_hunter	
+empoweredartifacts	47019	Windwalker: Rumblings Near Feltotem		class_monk	
+empoweredartifacts	47020	Discipline: Rumblings Near Feltotem		class_priest	
+empoweredartifacts	45560	Destruction: Rumblings Near Feltotem		class_warlock	
+empoweredartifacts	45564	The Burning Birds			
+empoweredartifacts	45726	The Tainted Marsh			
+empoweredartifacts	45575	Village of the Corruptors			
+empoweredartifacts	45587	The Feltotem Menace			
+empoweredartifacts	45796	Destroying the Nest			
+empoweredartifacts	45841	A Triumphant Report			
+empoweredartifacts	45842	A Gift From the Six			
+empoweredartifacts	45627	Feltotem's Fall			
+empoweredartifacts	45909	Navarrogg's Gift			
+empoweredartifacts	header	DPS: Twisted Twin<div>Shadow Priest, Affliction Warlock, Marksmanship Hunter, Balance Druid, Frost Mage</div>			
+empoweredartifacts	47037	Balance: The Twisted Twin		class_druid	
+empoweredartifacts	47039	Marksmanship: The Twisted Twin		class_hunter	
+empoweredartifacts	45182	Frost: The Twisted Twin		class_mage	
+empoweredartifacts	47042	Shadow: The Twisted Twin		class_priest	
+empoweredartifacts	47041	Affliction: The Twisted Twin		class_warlock	
+empoweredartifacts	45185	Message from the Shadows			
+empoweredartifacts	45187	Secrets in the Underbelly			
+empoweredartifacts	45188	The Wisdom of the Council			
+empoweredartifacts	45190	Where it's Thinnest			
+empoweredartifacts	45192	Runes of Rending			
+empoweredartifacts	45193	One Step Behind			
+empoweredartifacts	45866	A Gift From the Six			
+empoweredartifacts	46127	Thwarting the Twins			
+empoweredartifacts	45910	Raest's Gift			
+empoweredartifacts	header	Healing: Bradensbrook Investigation<div>Holy Priest, Holy Paladin, Mistweaver Monk, Restoration Druid, Restoration Shaman</div>			
+empoweredartifacts	47004	Restoration: The Bradensbrook Investigation		class_druid	
+empoweredartifacts	47005	Mistweaver: The Bradensbrook Investigation		class_monk	
+empoweredartifacts	47006	Holy: The Bradensbrook Investigation		class_paladin	
+empoweredartifacts	46078	Holy: The Bradensbrook Investigation		class_priest	
+empoweredartifacts	47003	Restoration: The Bradensbrook Investigation		class_shaman	
+empoweredartifacts	46079	Aid on the Front Lines			
+empoweredartifacts	46080	Quieting the Spirits			
+empoweredartifacts	46082	Shadowsong's Return			
+empoweredartifacts	46106	Cutting off the Heads			
+empoweredartifacts	46107	Source of the Corruption			
+empoweredartifacts	46200	The Matter Resolved... For Now...			
+empoweredartifacts	45864	A Gift From the Six			
+empoweredartifacts	46035	End of the Risen Threat			
+empoweredartifacts	45906	Jarod's Gift			
+empoweredartifacts	header	Tank: Aid of the Illidari<div>Blood Death Knight, Vengeance Demon Hunter, Guardian Druid, Brewmaster Monk, Protection Paladin, Protection Warrior</div>			
+empoweredartifacts	47025	Blood: Aid of the Illidari		class_deathknight	
+empoweredartifacts	46314	Vengeance: Seeking Kor'vas		class_demonhunter	
+empoweredartifacts	47023	Guardian: Aid of the Illidari		class_druid	
+empoweredartifacts	47024	Brewmaster: Aid of the Illidari		class_monk	
+empoweredartifacts	47022	Protection: Aid of the Illidari		class_paladin	
+empoweredartifacts	45412	Protection: Aid of the Illidari		class_warrior	
+empoweredartifacts	45413	Gathering Information			
+empoweredartifacts	45414	Confirming Suspicions			
+empoweredartifacts	45415	Between Worlds			
+empoweredartifacts	45843	Dark Omens			
+empoweredartifacts	45863	A Gift From the Six			
+empoweredartifacts	45416	The Highlord's Return			
+empoweredartifacts	45905	Krull's Gift			
+z_110_Argus	header	110: Argus: The Assault Begins			
+z_110_Argus	47221	The Hand of Fate	alliance		
+z_110_Argus	47835	The Hand of Fate	horde		
+z_110_Argus	47222	Two If By Sea	alliance		
+z_110_Argus	47867	Two If By Sea	horde		
+z_110_Argus	47223	Light's Exodus			
+z_110_Argus	47224	The Vindicaar			
+z_110_Argus	48440	Into the Night			
+z_110_Argus	46938	Alone in the Abyss			
+z_110_Argus	47589	Righteous Fury			
+z_110_Argus	46297	Overwhelming Power			
+z_110_Argus	48483	A Stranger's Plea			
+z_110_Argus	47627	Vengeance			
+z_110_Argus	47641	Sign of Resistance			
+z_110_Argus	46732	The Prophet's Gambit			
+z_110_Argus	46816	Rendezvous			
+z_110_Argus	46839	From Darkness			
+z_110_Argus	46840	Prisoners No More			
+z_110_Argus	46841	Threat Reduction			
+z_110_Argus	46842	A Strike at the Heart			
+z_110_Argus	46843	Return to the Vindicaar			
+z_110_Argus	48500	A Moment of Respite			
+z_110_Argus	47431	Gathering Light			
+z_110_Argus	46213	Crystals Not Included			
+z_110_Argus	40238	A Grim Equation			
+z_110_Argus	47541	The Best Prevention			
+z_110_Argus	47508	Fire at Will			
+z_110_Argus	47771	Locating the Longshot			
+z_110_Argus	47526	Bringing the Big Guns			
+z_110_Argus	47754	Lightly Roasted			
+z_110_Argus	47653	Light's Return			
+z_110_Argus	47743	The Child of Light and Shadow			
+z_110_Argus	49143	Essence of the Light Mother			
+z_110_Argus	47287	The Vindicaar Matrix Core			
+z_110_Argus	48559	An Offering of Light			
+z_110_Argus	48199	The Burning Heart			
+z_110_Argus	48200	Securing a Foothold			
+z_110_Argus	48201	Reinforce Light's Purchase			
+z_110_Argus	48202	Reinforce the Veiled Den			
+z_110_Argus	47473	Sizing Up The Opposition			
+z_110_Argus	header	110: Argus: Dark Awakenings			
+z_110_Argus	47889	The Speaker Calls			
+z_110_Argus	47890	Visions of Torment			
+z_110_Argus	47891	Dire News			
+z_110_Argus	47892	Storming the Citadel			
+z_110_Argus	47986	Scars of the Past			
+z_110_Argus	47987	Preventive Measures			
+z_110_Argus	47988	Chaos Theory			
+z_110_Argus	47991	Dark Machinations			
+z_110_Argus	47990	A Touch of Fel			
+z_110_Argus	47989	Heralds of Apocalypse			
+z_110_Argus	47992	Dawn of Justice			
+z_110_Argus	47993	Lord of the Spire			
+z_110_Argus	47994	Forming a Bond			
+z_110_Argus	48081	A Floating Ruin			
+z_110_Argus	46815	Mac'Aree, Jewel of Argus			
+z_110_Argus	46818	Defenseless and Afraid			
+z_110_Argus	46834	Khazaduum, First of His Name			
+z_110_Argus	47066	Consecrating Ground			
+z_110_Argus	46941	The Path Forward			
+z_110_Argus	47686	Not-So-Humble Beginnings			
+z_110_Argus	47882	Conservation of Magic			
+z_110_Argus	47688	Invasive Species			
+z_110_Argus	47883	The Longest Vigil			
+z_110_Argus	47689	Gatekeeper's Challenge: Tenacity			
+z_110_Argus	47685	Gatekeeper's Challenge: Cunning			
+z_110_Argus	47687	Gatekeeper's Challenge: Mastery			
+z_110_Argus	47690	The Defiler's Legacy			
+z_110_Argus	48107	The Sigil of Awakening			
+z_110_Argus	header	110: Argus: War of Light and Shadow			
+z_110_Argus	48461	Where They Least Expect It			
+z_110_Argus	48344	We Have a Problem			
+z_110_Argus	47691	A Non-Prophet Organization			
+z_110_Argus	47854	Wrath of the Hight Exarch			
+z_110_Argus	47995	Overt Ops			
+z_110_Argus	47853	Flanking Maneuvers			
+z_110_Argus	48345	Talgath's Forces			
+z_110_Argus	47855	What Might Have Been			
+z_110_Argus	47856	Across the Universe			
+z_110_Argus	47416	Shadow of the Triumvirate			
+z_110_Argus	47238	The Seat of the Triumvirate			
+z_110_Argus	40761	Whispers from Oronaar			
+z_110_Argus	47101	Arkhaan's Prayers			
+z_110_Argus	47180	The Pulsing Madness			
+z_110_Argus	47100	Arkhaan's Pain			
+z_110_Argus	47183	Arkhaan's Plan			
+z_110_Argus	47184	Arkhaan's Peril			
+z_110_Argus	47203	Throwing Shade			
+z_110_Argus	47217	Sources of Darkness			
+z_110_Argus	47218	The Shadowguard Incursion			
+z_110_Argus	47219	A Vessel Made Ready			
+z_110_Argus	47220	A Beacon in the Dark			
+z_110_Argus	48560	An Offering of Shadow			
+z_110_Argus	47654	Seat of the Triumvirate: The Crest of Knowledge			
+z_110_Argus	header	110: Argus: Side Chain: Class Hall			
+z_110_Argus	48460	The Wranglers			
+z_110_Argus	47967	An Argus Roper			
+z_110_Argus	48455	Duskcloak Problem			
+z_110_Argus	48453	Strike Back			
+z_110_Argus	48544	Woah, Nelly!			
+z_110_Argus	48441	Remnants of Darkfall Ridge			
+z_110_Argus	48442	Nath'raxas Hold: Preparations			
+z_110_Argus	48443	Nath'raxas Hold: Rescue Mission			
+z_110_Argus	48445	The Ruins of Oronaar			
+z_110_Argus	48446	Relics of the Ancient Eredar			
+z_110_Argus	48654	Beneath Oronaar			
+z_110_Argus	48447	Shadowguard Dispersion			
+z_110_Argus	48911	Void Inoculation			
+z_110_Argus	48448	Hindering the Legion War Machine			
+z_110_Argus	48600	Take the Edge Off			
+z_110_Argus	48912	Supplying the Antoran Campaign			
+z_110_Argus	48601	Felfire Shattering			
+z_110_Argus	header	110: Argus: Side Chain: Invasion Points			
+z_110_Argus	48461	Where They Least Expect It			
+z_110_Argus	48513	Invasion Point Offensive			
+z_110_Argus	48605	Commander's Downfall			
+z_110_Argus	header	110: Argus: Side Chain: The Fel Heart of Argus			
+z_110_Argus	47102	The Mysterious Missive			
+z_110_Argus	47554	Intercepting the Legion's Plans			
+z_110_Argus	47104	Imprisoned Inquisitor			
+z_110_Argus	47134	Foiling the Legion's Jailbreak			
+z_110_Argus	47182	Long Overdue			
