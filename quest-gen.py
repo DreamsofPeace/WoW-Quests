@@ -32,6 +32,14 @@ def printheader(headerinfo):
 	print (headerinfo, end="")
 	print ("\");", end="\n")
 
+def printheaderfaction(headerinfo,faction):
+	print ("\tBNet::Utils::groupheader (\"", end="")
+	print (headerinfo, end="")
+	print (" <img src=\\\"https://wow.zamimg.com/images/icons/", end="")
+	print (faction, end="")
+	print (".png\\\">", end="")
+	print ("\");", end="\n")
+
 def printbarequest(questid,questname):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
@@ -86,7 +94,10 @@ if __name__ == "__main__":
 
 		#
 		if splitbytab[1] == 'header':
-			printheader(splitbytab[2])
+			if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
+				printheaderfaction(splitbytab[2],splitbytab[3])
+			else:
+				printheader(splitbytab[2])
 		else:
 			if splitbytab[3] != "alliance" and splitbytab[3] != "horde":
 				printbarequest(splitbytab[1], splitbytab[2])
