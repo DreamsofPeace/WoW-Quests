@@ -47,6 +47,15 @@ def printbarequest(questid,questname):
 	print (questname, end="")
 	print ("\", %multiuserquests);", end="\n")
 
+def printbarequestclass(questid,questname,myclass):
+	print ("\tBNet::Utils::preprint ($count, '", end="")
+	print (questid, end="")
+	print ("', \"", end="")
+	print (questname, end="")
+	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
+	print (myclass, end="")
+	print (".jpg\\\">\", %multiuserquests);", end="\n")
+
 def printquestalliance(questid,questname):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
@@ -100,7 +109,14 @@ if __name__ == "__main__":
 				printheader(splitbytab[2])
 		else:
 			if splitbytab[3] != "alliance" and splitbytab[3] != "horde":
-				printbarequest(splitbytab[1], splitbytab[2])
+				if not (splitbytab[4]):
+					printbarequest(splitbytab[1], splitbytab[2])
+				else:
+					printbarequestclass(splitbytab[1], splitbytab[2], splitbytab[4])
+		#	elif splitbytab[3] != "alliance" and splitbytab[3] != "horde": and ]:
+		#		printbarequestclass(splitbytab[1], splitbytab[2])
+		#	elif splitbytab[3] == "alliance" and not splitbytab[4]:
+		#		printquestallianceclass(splitbytab[1], splitbytab[2])
 			elif splitbytab[3] == "alliance":
 				printquestalliance(splitbytab[1], splitbytab[2])
 			elif splitbytab[3] == "horde":
