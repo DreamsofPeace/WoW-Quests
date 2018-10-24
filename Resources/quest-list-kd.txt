@@ -221,13 +221,14 @@ z_40_60_Silithus	8306	Into The Maw of Madness
 z_40_60_Silithus	8310	Breaking the Code			
 z_40_60_Silithus	8309	Glyph Chasing			
 z_40_60_Silithus	8314	Unraveling the Mystery			
-z_40_60_Silithus	8381	Armaments of War (Obsolete) (Mage, Warlock)			
-z_40_60_Silithus	8379	Armaments of War (Obsolete) (Priest)			
-z_40_60_Silithus	8382	Armaments of War (Obsolete) (Druid)			
-z_40_60_Silithus	8378	Armaments of War (Obsolete) (Rogue)			
-z_40_60_Silithus	8377	Armaments of War (Obsolete) (Hunter)			
-z_40_60_Silithus	8380	Armaments of War (Obsolete) (Shaman)			
-z_40_60_Silithus	8376	Armaments of War (Obsolete) (Paladin)			
+z_40_60_Silithus	8381	Armaments of War (Obsolete)		class_mage	
+z_40_60_Silithus	8381	Armaments of War (Obsolete)		class_warlock	
+z_40_60_Silithus	8379	Armaments of War (Obsolete)		class_priest	
+z_40_60_Silithus	8382	Armaments of War (Obsolete)		class_druid	
+z_40_60_Silithus	8378	Armaments of War (Obsolete)		class_rogue	
+z_40_60_Silithus	8377	Armaments of War (Obsolete)		class_hunter	
+z_40_60_Silithus	8380	Armaments of War (Obsolete)		class_shaman	
+z_40_60_Silithus	8376	Armaments of War (Obsolete)		class_paladin	
 z_40_60_Silithus	header	55-60: Silithus: Hermit Ortell			
 z_40_60_Silithus	8284	The Twilight Mystery			
 z_40_60_Silithus	8285	The Deserter			

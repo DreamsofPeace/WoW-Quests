@@ -2161,6 +2161,7 @@ sub __main__() {
 			BNet::Quests_EK::z_40_60_Burning_Steppes ($count, %multiuserquests);
 			BNet::Quests_EK::z_40_60_Swamp_of_Sorrows ($count, %multiuserquests);
 			BNet::Quests_EK::z_40_60_Blasted_Lands ($count, %multiuserquests);
+			BNet::Quests_EK::z_55_56_Deadwind_Pass ($count, %multiuserquests);
 
 		##Kalimdor
 			BNet::Quests_KD::z_10_60_Azshara ($count, %multiuserquests);
@@ -2179,7 +2180,6 @@ sub __main__() {
 			BNet::Quests_KD::z_40_60_UnGoro_Crater ($count, %multiuserquests);
 			BNet::Quests_KD::z_40_60_Winterspring ($count, %multiuserquests);
 			BNet::Quests_KD::z_40_60_Silithus ($count, %multiuserquests);
-			BNet::Quests_KD::z_55_56_Deadwind_Pass ($count, %multiuserquests);
 
 		##Outland
 			BNet::Quests_BC::z_58_80_Hellfire_Peninsula ($count, %multiuserquests);
