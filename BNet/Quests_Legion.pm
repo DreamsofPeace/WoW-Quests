@@ -3,13 +3,10 @@ package BNet::Quests_Legion;
 use strict;
 use warnings;
 
-
-
-
-sub z_98_legion_intro ($%) {
+sub z_98_legion_intro($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Legion Invasion: Alliance");
+	BNet::Utils::groupheader ("98: Legion Invasion <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprint ($count, '40519', "The Legion Returns", %multiuserquests);
 	BNet::Utils::preprint ($count, '42782', "To Be Prepared", %multiuserquests);
 	BNet::Utils::preprint ($count, '42740', "The Battle for Broken Shore", %multiuserquests);
@@ -17,8 +14,7 @@ sub z_98_legion_intro ($%) {
 	BNet::Utils::preprint ($count, '40593', "Demons Among Us", %multiuserquests);
 	BNet::Utils::preprint ($count, '44120', "Illidari Allies", %multiuserquests);
 	BNet::Utils::preprint ($count, '40717', "Calling of the Council", %multiuserquests);
-
-	BNet::Utils::groupheader ("Legion Invasion: Horde");
+	BNet::Utils::groupheader ("98: Legion Invasion <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '43926', "The Legion Returns", %multiuserquests);
 	BNet::Utils::preprint ($count, '44281', "To Be Prepared", %multiuserquests);
 	BNet::Utils::preprint ($count, '40518', "The Battle for Broken Shore", %multiuserquests);
@@ -28,21 +24,20 @@ sub z_98_legion_intro ($%) {
 	BNet::Utils::preprint ($count, '40607', "Demons Among Us", %multiuserquests);
 	BNet::Utils::preprint ($count, '40605', "Keep Your Friends Close", %multiuserquests);
 	BNet::Utils::preprint ($count, '40718', "Calling of the Council", %multiuserquests);
-
-	BNet::Utils::groupheader ("Legion Invasion: Teleportation");
+	BNet::Utils::groupheader ("98: Legion Invasion: Teleportation");
 	BNet::Utils::preprint ($count, '42970', "The Diamond King", %multiuserquests);
 	BNet::Utils::preprint ($count, '40755', "Hiding in the Stacks", %multiuserquests);
 	BNet::Utils::preprint ($count, '44182', "City Under Siege", %multiuserquests);
 	BNet::Utils::preprint ($count, '44421', "Anomalous Anomalies", %multiuserquests);
 	BNet::Utils::preprint ($count, '44500', "Author! Author!", %multiuserquests);
 	BNet::Utils::preprint ($count, '44184', "In the Blink of an Eye", %multiuserquests);
+
 }
 
-
-sub z_100_azsuna ($%) {
+sub z_100_azsuna($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Azsuna: Behind Legion Lines");
+	BNet::Utils::groupheader ("100-110: Azsuna: Behind Legion Lines");
 	BNet::Utils::preprint ($count, '39718', "Paradise Lost", %multiuserquests);
 	BNet::Utils::preprint ($count, '41220', "Down to Azsuna", %multiuserquests);
 	BNet::Utils::preprint ($count, '38834', "Into the Fray", %multiuserquests);
@@ -53,7 +48,7 @@ sub z_100_azsuna ($%) {
 	BNet::Utils::preprint ($count, '37656', "Fel Machinations", %multiuserquests);
 	BNet::Utils::preprint ($count, '37450', "Saving Stellagosa", %multiuserquests);
 	BNet::Utils::preprint ($count, '37449', "Dark Revelations", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: Defending Azurewing Repose");
+	BNet::Utils::groupheader ("100-110: Azsuna: Defending Azurewing Repose");
 	BNet::Utils::preprint ($count, '38443', "Journey to the Repose", %multiuserquests);
 	BNet::Utils::preprint ($count, '37853', "The Death of the Eldest", %multiuserquests);
 	BNet::Utils::preprint ($count, '37991', "Agapanthus", %multiuserquests);
@@ -73,7 +68,7 @@ sub z_100_azsuna ($%) {
 	BNet::Utils::preprint ($count, '38014', "Feasting on the Dragon", %multiuserquests);
 	BNet::Utils::preprint ($count, '42567', "Cursed to Wither", %multiuserquests);
 	BNet::Utils::preprint ($count, '42756', "Hunger's End", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: Azsuna versus Azshara");
+	BNet::Utils::groupheader ("100-110: Azsuna: Azsuna versus Azshara");
 	BNet::Utils::preprint ($count, '37690', "Those Who Remember", %multiuserquests);
 	BNet::Utils::preprint ($count, '37256', "They Came From the Sea", %multiuserquests);
 	BNet::Utils::preprint ($count, '37733', "Prince Farondis", %multiuserquests);
@@ -98,10 +93,10 @@ sub z_100_azsuna ($%) {
 	BNet::Utils::preprint ($count, '37469', "The Tidestone: Shattered", %multiuserquests);
 	BNet::Utils::preprint ($count, '37530', "Save Yourself", %multiuserquests);
 	BNet::Utils::preprint ($count, '37470', "The Head of the Snake", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: Eye of Azshara");
+	BNet::Utils::groupheader ("100-110: Azsuna: Eye of Azshara");
 	BNet::Utils::preprint ($count, '38286', "Eye of Azshara: Wrath of Azshara", %multiuserquests);
 	BNet::Utils::preprint ($count, '42213', "Eye of Azshara: The Tidestone of Golganneth", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: Against the Giants");
+	BNet::Utils::groupheader ("100-110: Azsuna: Against the Giants");
 	BNet::Utils::preprint ($count, '38407', "Bottled Up", %multiuserquests);
 	BNet::Utils::preprint ($count, '37496', "Infiltrating Shipwreck Arena", %multiuserquests);
 	BNet::Utils::preprint ($count, '37507', "Boss Whalebelly's in Charge", %multiuserquests);
@@ -112,61 +107,62 @@ sub z_100_azsuna ($%) {
 	BNet::Utils::preprint ($count, '37538', "Round 1, Fight!", %multiuserquests);
 	BNet::Utils::preprint ($count, '37565', "The Right Weapon for the Job", %multiuserquests);
 	BNet::Utils::preprint ($count, '37566', "The Prince is Going Down", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: Mak'rana and the Fate of the Queen's Reprisal");
+	BNet::Utils::groupheader ("100-110: Azsuna: Mak'rana and the Fate of the Queen's Reprisal");
 	BNet::Utils::preprint ($count, '38857', "A Favor for Mr. Shackle", %multiuserquests);
 	BNet::Utils::preprint ($count, '37654', "Maritime Law", %multiuserquests);
 	BNet::Utils::preprint ($count, '37659', "The Captain's Foot Locker", %multiuserquests);
 	BNet::Utils::preprint ($count, '42268', "Shipwrecked Sailors", %multiuserquests);
 	BNet::Utils::preprint ($count, '42244', "Fate of the Queen's Reprisal", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: Daglop");
+	BNet::Utils::groupheader ("100-110: Azsuna: Daglop");
 	BNet::Utils::preprint ($count, '42238', "Missing Demon", %multiuserquests);
 	BNet::Utils::preprint ($count, '38460', "Let's Make A Deal", %multiuserquests);
 	BNet::Utils::preprint ($count, '38232', "Minion! Kill Them!", %multiuserquests);
 	BNet::Utils::preprint ($count, '38237', "This IS In My Contract.", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: PVP");
+	BNet::Utils::groupheader ("100-110: Azsuna: PVP");
 	BNet::Utils::preprint ($count, '43942', "Timeworn Artifact", %multiuserquests);
-	BNet::Utils::groupheader ("Azsuna: Bonus Objectives");
+	BNet::Utils::groupheader ("100-110: Azsuna: Bonus Objectives");
 	BNet::Utils::preprint ($count, '36811', "Retake Faronaar", %multiuserquests);
 	BNet::Utils::preprint ($count, '37466', "The Broken Academy", %multiuserquests);
 	BNet::Utils::preprint ($count, '37963', "Those Beyond Redemption", %multiuserquests);
 	BNet::Utils::preprint ($count, '37779', "Tip the Scales", %multiuserquests);
 	BNet::Utils::preprint ($count, '37965', "A Tainted Vintage", %multiuserquests);
 	BNet::Utils::preprint ($count, '37495', "Plunder the Cove", %multiuserquests);
-	
+
 }
-sub z_100_valsharah ($%) {
+
+sub z_100_valsharah($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Val'sharah: Intro");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Intro");
 	BNet::Utils::preprint ($count, '39731', "The Tranquil Forest", %multiuserquests);
 	BNet::Utils::preprint ($count, '39861', "Tying Up Loose Ends", %multiuserquests);
 	BNet::Utils::preprint ($count, '38305', "Cenarius, Keeper of the Grove", %multiuserquests);
 	BNet::Utils::preprint ($count, '38384', "Nature's Call", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Archdruid of Lore");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Archdruid of Lore");
 	BNet::Utils::preprint ($count, '38381', "Archdruid of Lore", %multiuserquests);
 	BNet::Utils::preprint ($count, '38235', "Solid as a Rock", %multiuserquests);
 	BNet::Utils::preprint ($count, '38225', "Death to the Witchmother", %multiuserquests);
 	BNet::Utils::preprint ($count, '38322', "Return to the Grove", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Archdruid of the Claw");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Archdruid of the Claw");
 	BNet::Utils::preprint ($count, '38142', "Archdruid of the Claw", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Archdruid of the Claw: Furlbolgs");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Archdruid of the Claw: Furlbolgs");
 	BNet::Utils::preprint ($count, '38455', "Frenzied Furbolgs", %multiuserquests);
 	BNet::Utils::preprint ($count, '38922', "Littlefur", %multiuserquests);
 	BNet::Utils::preprint ($count, '38246', "Totemic Call", %multiuserquests);
 	BNet::Utils::preprint ($count, '38146', "The Chieftain's Beads", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Archdruid of the Claw: Awakening the Archdruid");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Archdruid of the Claw: Awakening the Archdruid");
 	BNet::Utils::preprint ($count, '38143', "Awakening the Archdruid", %multiuserquests);
 	BNet::Utils::preprint ($count, '38145', "Out of the Dream", %multiuserquests);
 	BNet::Utils::preprint ($count, '38144', "The Demons Below", %multiuserquests);
 	BNet::Utils::preprint ($count, '38147', "Entangled Dreams", %multiuserquests);
 	BNet::Utils::preprint ($count, '38148', "Return to the Grove", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Archdruid of the Vale");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Archdruid of the Vale");
 	BNet::Utils::preprint ($count, '38382', "Archdruid of the Vale", %multiuserquests);
 	BNet::Utils::preprint ($count, '39383', "Dishonored", %multiuserquests);
 	BNet::Utils::preprint ($count, '39384', "The Corruptor", %multiuserquests);
 	BNet::Utils::preprint ($count, '40573', "The Nightmare Lord", %multiuserquests);
 	BNet::Utils::preprint ($count, '38323', "Return to the Grove", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Into the Nightmare");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Into the Nightmare");
 	BNet::Utils::preprint ($count, '38377', "The Emerald Queen", %multiuserquests);
 	BNet::Utils::preprint ($count, '38641', "The Temple of Elune", %multiuserquests);
 	BNet::Utils::preprint ($count, '38662', "Tears for Fears", %multiuserquests);
@@ -176,7 +172,7 @@ sub z_100_valsharah ($%) {
 	BNet::Utils::preprint ($count, '38595', "Malfurion's Fury", %multiuserquests);
 	BNet::Utils::preprint ($count, '38582', "To Old Friends", %multiuserquests);
 	BNet::Utils::preprint ($count, '38753', "The Demon's Trail", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: All Nightmare Long");
+	BNet::Utils::groupheader ("100-110: Val'sharah: All Nightmare Long");
 	BNet::Utils::preprint ($count, '41054', "Love Lost", %multiuserquests);
 	BNet::Utils::preprint ($count, '41890', "Dark Side of the Moon", %multiuserquests);
 	BNet::Utils::preprint ($count, '38671', "Lost in Retreat", %multiuserquests);
@@ -189,9 +185,9 @@ sub z_100_valsharah ($%) {
 	BNet::Utils::preprint ($count, '41763', "Close Enough to Touch", %multiuserquests);
 	BNet::Utils::preprint ($count, '38743', "The Fate of Val'sharah", %multiuserquests);
 	BNet::Utils::preprint ($count, '40890', "The Tears of Elune", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Darkheart Thicket");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Darkheart Thicket");
 	BNet::Utils::preprint ($count, '40567', "Darkheart Thicket: Enter the Nightmare", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Bradensbrook");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Bradensbrook");
 	BNet::Utils::preprint ($count, '38643', "A Village in Peril", %multiuserquests);
 	BNet::Utils::preprint ($count, '38645', "Children of the Night", %multiuserquests);
 	BNet::Utils::preprint ($count, '38644', "The Farmsteads", %multiuserquests);
@@ -199,7 +195,7 @@ sub z_100_valsharah ($%) {
 	BNet::Utils::preprint ($count, '38646', "A Sight For Sore Eyes", %multiuserquests);
 	BNet::Utils::preprint ($count, '38647', "For the Corn!", %multiuserquests);
 	BNet::Utils::preprint ($count, '38691', "Jarod's Mission", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Black Rook Hold");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Black Rook Hold");
 	BNet::Utils::preprint ($count, '38718', "Kur'talos Ravencrest", %multiuserquests);
 	BNet::Utils::preprint ($count, '38714', "Maiev's Trail", %multiuserquests);
 	BNet::Utils::preprint ($count, '38715', "The Rook's Guard", %multiuserquests);
@@ -207,7 +203,7 @@ sub z_100_valsharah ($%) {
 	BNet::Utils::preprint ($count, '38724', "Brotherly Love", %multiuserquests);
 	BNet::Utils::preprint ($count, '38719', "Illidari Freedom", %multiuserquests);
 	BNet::Utils::preprint ($count, '38721', "Lieutenant of the Tower", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Bonus Areas");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Bonus Areas");
 	BNet::Utils::preprint ($count, '38716', "Black Rook Hold", %multiuserquests);
 	BNet::Utils::preprint ($count, '39029', "Defend The Temple", %multiuserquests);
 	BNet::Utils::preprint ($count, '38842', "Faerie Fracas", %multiuserquests);
@@ -215,29 +211,28 @@ sub z_100_valsharah ($%) {
 	BNet::Utils::preprint ($count, '39393', "Moonclaw Vale", %multiuserquests);
 	BNet::Utils::preprint ($count, '38748', "Ruins of Shala'nir", %multiuserquests);
 	BNet::Utils::preprint ($count, '38372', "Wretched Sisters", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Saylanna Riverbreeze");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Saylanna Riverbreeze");
 	BNet::Utils::preprint ($count, '40220', "Thorny Dancing", %multiuserquests);
 	BNet::Utils::preprint ($count, '38862', "Thieving Thistleleaf", %multiuserquests);
 	BNet::Utils::preprint ($count, '40221', "Spread Your Lunarwings and Fly", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Grizzleweald");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Grizzleweald");
 	BNet::Utils::preprint ($count, '42857', "Moist Around the Hedges", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Lightsong");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Lightsong");
 	BNet::Utils::preprint ($count, '42747', "Where the Wildkin Are", %multiuserquests);
 	BNet::Utils::preprint ($count, '42748', "Emerald Sisters", %multiuserquests);
 	BNet::Utils::preprint ($count, '42750', "Dreamcatcher", %multiuserquests);
 	BNet::Utils::preprint ($count, '42786', "Grotesque Remains", %multiuserquests);
 	BNet::Utils::preprint ($count, '42751', "Moon Reaver", %multiuserquests);
-	BNet::Utils::groupheader ("Val'sharah: Single Quests");
+	BNet::Utils::groupheader ("100-110: Val'sharah: Single Quests");
 	BNet::Utils::preprint ($count, '39354', "Wisp in the Willows", %multiuserquests);
 	BNet::Utils::preprint ($count, '38889', "Adopting the Adorable", %multiuserquests);
 
 }
 
-sub z_100_highmountain ($%) {
+sub z_100_highmountain($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Highmountain (Incomplete?)");
-	BNet::Utils::groupheader ("Highmountain: Thunder Totem");
+	BNet::Utils::groupheader ("100-110: Highmountain: Thunder Totem");
 	BNet::Utils::preprint ($count, '39733', "The Lone Mountain", %multiuserquests);
 	BNet::Utils::preprint ($count, '38907', "Keepers of the Hammer", %multiuserquests);
 	BNet::Utils::preprint ($count, '38911', "The Rivermane Tribe", %multiuserquests);
@@ -257,13 +252,13 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39487', "Crystal Fury", %multiuserquests);
 	BNet::Utils::preprint ($count, '39498', "High Water", %multiuserquests);
 	BNet::Utils::preprint ($count, '42104', "The Underking Comes", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Riverbend");
+	BNet::Utils::groupheader ("100-110: Highmountain: Riverbend");
 	BNet::Utils::preprint ($count, '39025', "Grasp of the Underking", %multiuserquests);
 	BNet::Utils::preprint ($count, '39026', "The Drogbar", %multiuserquests);
 	BNet::Utils::preprint ($count, '39043', "Bitestone Enclave", %multiuserquests);
 	BNet::Utils::preprint ($count, '39027', "Dargrul and the Hammer", %multiuserquests);
 	BNet::Utils::preprint ($count, '38909', "Get to High Ground", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: The Skyhorn Tribe");
+	BNet::Utils::groupheader ("100-110: Highmountain: The Skyhorn Tribe");
 	BNet::Utils::preprint ($count, '38913', "The Skyhorn Tribe", %multiuserquests);
 	BNet::Utils::preprint ($count, '39318', "Nursing the Wounds", %multiuserquests);
 	BNet::Utils::preprint ($count, '38910', "Rocs vs Eagles", %multiuserquests);
@@ -272,7 +267,7 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39322', "The Witchqueen", %multiuserquests);
 	BNet::Utils::preprint ($count, '39387', "The Skies of Highmountain", %multiuserquests);
 	BNet::Utils::preprint ($count, '39419', "Hex-a-Gone", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: The Bloodtotem Tribe");
+	BNet::Utils::groupheader ("100-110: Highmountain: The Bloodtotem Tribe");
 	BNet::Utils::preprint ($count, '38912', "The Bloodtotem Tribe", %multiuserquests);
 	BNet::Utils::preprint ($count, '39372', "Witch of the Wood", %multiuserquests);
 	BNet::Utils::preprint ($count, '39373', "Hags of a Feather", %multiuserquests);
@@ -287,7 +282,7 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39426', "Blood Debt", %multiuserquests);
 	BNet::Utils::preprint ($count, '40229', "Step into the Dark", %multiuserquests);
 	BNet::Utils::preprint ($count, '39456', "Unexpected Allies", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Huln's War");
+	BNet::Utils::groupheader ("100-110: Highmountain: Huln's War");
 	BNet::Utils::preprint ($count, '40515', "A Walk With the Spirits", %multiuserquests);
 	BNet::Utils::preprint ($count, '40167', "The Story of Huln", %multiuserquests);
 	BNet::Utils::preprint ($count, '40520', "To See the Past", %multiuserquests);
@@ -297,7 +292,7 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39990', "Huln's War - Reinforcements", %multiuserquests);
 	BNet::Utils::preprint ($count, '40388', "Huln's War - Shadowsong", %multiuserquests);
 	BNet::Utils::preprint ($count, '39992', "Huln's War - The Nathrezim", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Secrets of Highmountain");
+	BNet::Utils::groupheader ("100-110: Highmountain: Secrets of Highmountain");
 	BNet::Utils::preprint ($count, '38916', "Secrets of Highmountain", %multiuserquests);
 	BNet::Utils::preprint ($count, '39575', "The Path of Huln", %multiuserquests);
 	BNet::Utils::preprint ($count, '40219', "In Defiance of Deathwing", %multiuserquests);
@@ -305,7 +300,7 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39577', "An Ancient Secret", %multiuserquests);
 	BNet::Utils::preprint ($count, '39579', "The Backdoor", %multiuserquests);
 	BNet::Utils::preprint ($count, '39580', "The High Chieftain", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Battle of Snowblind Mesa");
+	BNet::Utils::groupheader ("100-110: Highmountain: Battle of Snowblind Mesa");
 	BNet::Utils::preprint ($count, '38915', "Battle of Snowblind Mesa", %multiuserquests);
 	BNet::Utils::preprint ($count, '39776', "Battle Worms", %multiuserquests);
 	BNet::Utils::preprint ($count, '39777', "Buy Us Time", %multiuserquests);
@@ -314,21 +309,21 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '42512', "Highmountain Stands", %multiuserquests);
 	BNet::Utils::preprint ($count, '40594', "Justice Rains from Above", %multiuserquests);
 	BNet::Utils::preprint ($count, '39780', "The Underking", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Neltharion\'s Lair");
-	BNet::Utils::preprint ($count, '39781', "Neltharion\'s Lair", %multiuserquests);
-	BNet::Utils::preprint ($count, '42454', "Eye of Azshara: The Hammer of Khaz\'goroth", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Stonedark Cavern");
+	BNet::Utils::groupheader ("100-110: Highmountain: Neltharion's Lair");
+	BNet::Utils::preprint ($count, '39781', "Neltharion's Lair", %multiuserquests);
+	BNet::Utils::preprint ($count, '42454', "Eye of Azshara: The Hammer of Khaz'goroth", %multiuserquests);
+	BNet::Utils::groupheader ("100-110: Highmountain: Stonedark Cavern");
 	BNet::Utils::preprint ($count, '39440', "You Lift, Brul?", %multiuserquests);
 	BNet::Utils::preprint ($count, '39439', "Stonedark Relics", %multiuserquests);
 	BNet::Utils::preprint ($count, '39437', "Deep in the Cavern", %multiuserquests);
 	BNet::Utils::preprint ($count, '39438', "Guhruhlruhlruh", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Rockcrawler Chasm");
+	BNet::Utils::groupheader ("100-110: Highmountain: Rockcrawler Chasm");
 	BNet::Utils::preprint ($count, '40070', "Eagle Egg Recovery", %multiuserquests);
 	BNet::Utils::preprint ($count, '39305', "Empty Nest", %multiuserquests);
 	BNet::Utils::preprint ($count, '40069', "Fledgling Worm Guts", %multiuserquests);
 	BNet::Utils::preprint ($count, '42425', "Going Down, Going Up", %multiuserquests);
 	BNet::Utils::preprint ($count, '40071', "Tamer Takedown", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Hemet Nesingwary");
+	BNet::Utils::groupheader ("100-110: Highmountain: Hemet Nesingwary");
 	BNet::Utils::preprint ($count, '40217', "An Offering of Ammo", %multiuserquests);
 	BNet::Utils::preprint ($count, '39417', "Rating Razik", %multiuserquests);
 	BNet::Utils::preprint ($count, '40170', "Amateur Hour", %multiuserquests);
@@ -339,29 +334,29 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39123', "Lion Stalkin'", %multiuserquests);
 	BNet::Utils::preprint ($count, '39124', "Moose Shootin'", %multiuserquests);
 	BNet::Utils::preprint ($count, '39178', "Moose on the Loose'", %multiuserquests);
-	BNet::Utils::preprint ($count, '39867', "I\'m Not Lion!", %multiuserquests);
+	BNet::Utils::preprint ($count, '39867', "I'm Not Lion!", %multiuserquests);
 	BNet::Utils::preprint ($count, '40244', "That Guy in the Costume", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Shipwreck Cove");
+	BNet::Utils::groupheader ("100-110: Highmountain: Shipwreck Cove");
 	BNet::Utils::preprint ($count, '40049', "Slime Time", %multiuserquests);
 	BNet::Utils::preprint ($count, '40047', "I'll Huff, I'll Puff...", %multiuserquests);
 	BNet::Utils::preprint ($count, '40045', "Nature vs. Nurture", %multiuserquests);
 	BNet::Utils::preprint ($count, '40102', "Murlocs: The Next Generation", %multiuserquests);
 	BNet::Utils::preprint ($count, '40230', "Oh, the Clawdacity!", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Candle King");
+	BNet::Utils::groupheader ("100-110: Highmountain: Candle King");
 	BNet::Utils::preprint ($count, '39768', "Candle to the Grave", %multiuserquests);
 	BNet::Utils::preprint ($count, '39765', "Wax On, Wax Off", %multiuserquests);
 	BNet::Utils::preprint ($count, '39769', "The Gates of Wax", %multiuserquests);
 	BNet::Utils::preprint ($count, '40339', "Candle of Command", %multiuserquests);
 	BNet::Utils::preprint ($count, '40345', "Burn the Candle at Both Ends", %multiuserquests);
-	BNet::Utils::preprint ($count, '39772', "Can\'t Hold a Candle To You", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Aviana");
+	BNet::Utils::preprint ($count, '39772', "Can't Hold a Candle To You", %multiuserquests);
+	BNet::Utils::groupheader ("100-110: Highmountain: Aviana");
 	BNet::Utils::preprint ($count, '41094', "Hatchlings of the Talon", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Thunder Totem Misc.");
+	BNet::Utils::groupheader ("100-110: Highmountain: Thunder Totem Misc.");
 	BNet::Utils::preprint ($count, '42622', "Ceremonial Drums", %multiuserquests);
 	BNet::Utils::preprint ($count, '42596', "Mountainstrider Round-Up", %multiuserquests);
 	BNet::Utils::preprint ($count, '39133', "No Time to Talk", %multiuserquests);
 	BNet::Utils::preprint ($count, '39134', "Wrathshard", %multiuserquests);
-	BNet::Utils::groupheader ("Highmountain: Bonus Objectives");
+	BNet::Utils::groupheader ("100-110: Highmountain: Bonus Objectives");
 	BNet::Utils::preprint ($count, '39274', "Defend the Riverlands", %multiuserquests);
 	BNet::Utils::preprint ($count, '39576', "Echoes of Deathwing", %multiuserquests);
 	BNet::Utils::preprint ($count, '40050', "Shipwreck Cove", %multiuserquests);
@@ -371,16 +366,12 @@ sub z_100_highmountain ($%) {
 	BNet::Utils::preprint ($count, '39371', "Witches of the Sky", %multiuserquests);
 	BNet::Utils::preprint ($count, '39123', "Lion Stalkin'", %multiuserquests);
 
-
-
 }
 
-
-sub z_100_stormheim ($%) {
+sub z_100_stormheim($%) {
 	my ($count, %multiuserquests) = @_;
 
-
-	BNet::Utils::groupheader ("Stormheim: Intro: Alliance <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
+	BNet::Utils::groupheader ("100-110: Stormheim: Intro: Alliance <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprint ($count, '39735', "Stormheim", %multiuserquests);
 	BNet::Utils::preprint ($count, '38035', "A Royal Summons", %multiuserquests);
 	BNet::Utils::preprint ($count, '38206', "Making the Rounds", %multiuserquests);
@@ -394,7 +385,7 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '38059', "Pins and Needles", %multiuserquests);
 	BNet::Utils::preprint ($count, '38060', "Signal Boost", %multiuserquests);
 	BNet::Utils::preprint ($count, '39775', "Stormforged Grapple Launcher", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Intro: Horde  <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("100-110: Stormheim: Intro: Horde <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '39864', "Stormheim", %multiuserquests);
 	BNet::Utils::preprint ($count, '38307', "The Warchief Beckons", %multiuserquests);
 	BNet::Utils::preprint ($count, '39698', "Making the Rounds", %multiuserquests);
@@ -408,9 +399,9 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '38308', "Eyes in the Overlook", %multiuserquests);
 	BNet::Utils::preprint ($count, '38317', "Masters of Disguise", %multiuserquests);
 	BNet::Utils::preprint ($count, '39775', "Stormforged Grapple Launcher", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Ancient Trials: The Blessing of the Watchers");
-	BNet::Utils::preprint ($count, '38210', "The Ancient Trials <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38459', "The Ancient Trials <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("100-110: Stormheim: Ancient Trials: The Blessing of the Watchers");
+	BNet::Utils::preprint ($count, '38210', "The Ancient Trials <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38459', "The Ancient Trials <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '38331', "Havi's Test", %multiuserquests);
 	BNet::Utils::preprint ($count, '39590', "Ahead of the Game", %multiuserquests);
 	BNet::Utils::preprint ($count, '39595', "Blood and Gold", %multiuserquests);
@@ -419,29 +410,29 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '39593', "The Shattered Watcher", %multiuserquests);
 	BNet::Utils::preprint ($count, '39594', "A Trial of Might", %multiuserquests);
 	BNet::Utils::preprint ($count, '39597', "The Blessing of the Watchers", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Ancient Trials: Where Dragons Rule");
-	BNet::Utils::preprint ($count, '38473', "Will of the Thorignir <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38611', "Will of the Thorignir <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38312', "A Grapple a Day <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38612', "A Grapple a Day <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38318', "No Wings Required <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38613', "No Wings Required <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38405', "To Weather the Storm <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38614', "To Weather the Storm <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38616', "Built to Scale <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38337', "Built to Scale <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38410', "Impalement Insurance <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38615', "Impalement Insurance <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38342', "Another Way <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38617', "Another Way <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38412', "Above the Winter Moonlight <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '38618', "Above the Winter Moonlight <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("100-110: Stormheim: Ancient Trials: Where Dragons Rule");
+	BNet::Utils::preprint ($count, '38473', "Will of the Thorignir <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38611', "Will of the Thorignir <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38312', "A Grapple a Day <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38612', "A Grapple a Day <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38318', "No Wings Required <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38613', "No Wings Required <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38405', "To Weather the Storm <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38614', "To Weather the Storm <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38616', "Built to Scale <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38337', "Built to Scale <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38410', "Impalement Insurance <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38615', "Impalement Insurance <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38342', "Another Way <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38617', "Another Way <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38412', "Above the Winter Moonlight <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '38618', "Above the Winter Moonlight <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '38414', "Heart of a Dragon", %multiuserquests);
 	BNet::Utils::preprint ($count, '38413', "Wings of Liberty", %multiuserquests);
 	BNet::Utils::preprint ($count, '40568', "Fury of the Storm", %multiuserquests);
 	BNet::Utils::preprint ($count, '39652', "Where Dragons Rule", %multiuserquests);
 	BNet::Utils::preprint ($count, '38624', "Cry Thunder!", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Ancient Trials: The Final Judgement");
+	BNet::Utils::groupheader ("100-110: Stormheim: Ancient Trials: The Final Judgement");
 	BNet::Utils::preprint ($count, '39803', "The Trials Continue", %multiuserquests);
 	BNet::Utils::preprint ($count, '39804', "Speaking of Bones", %multiuserquests);
 	BNet::Utils::preprint ($count, '39796', "To Haustvald", %multiuserquests);
@@ -456,7 +447,7 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '38823', "The Runes that Bind", %multiuserquests);
 	BNet::Utils::preprint ($count, '38815', "Waking the Shieldmaiden", %multiuserquests);
 	BNet::Utils::preprint ($count, '38818', "The Final Judgment", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Ancient Trials: Victory is Eternal (Helheim)");
+	BNet::Utils::groupheader ("100-110: Stormheim: Ancient Trials: Victory is Eternal (Helheim)");
 	BNet::Utils::preprint ($count, '39837', "An Unworthy Task", %multiuserquests);
 	BNet::Utils::preprint ($count, '38339', "A Little Kelp From My Foes", %multiuserquests);
 	BNet::Utils::preprint ($count, '38324', "Accessories of the Cursed", %multiuserquests);
@@ -468,17 +459,17 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '39851', "Allies in Death", %multiuserquests);
 	BNet::Utils::preprint ($count, '39853', "Victory is Eternal", %multiuserquests);
 	BNet::Utils::preprint ($count, '39855', "Paid in Lifeblood", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: The Aegis of Agrammar");
+	BNet::Utils::groupheader ("100-110: Stormheim: The Aegis of Agrammar");
 	BNet::Utils::preprint ($count, '40078', "A Heavy Burden", %multiuserquests);
 	BNet::Utils::preprint ($count, '40001', "Knocking on Valor's Door", %multiuserquests);
 	BNet::Utils::preprint ($count, '40002', "A Familiar Fate", %multiuserquests);
 	BNet::Utils::preprint ($count, '40003', "Stem the Tide", %multiuserquests);
 	BNet::Utils::preprint ($count, '40004', "Break the Spine", %multiuserquests);
 	BNet::Utils::preprint ($count, '40005', "Stormheim's Salvation", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Halls of Valor");
+	BNet::Utils::groupheader ("100-110: Stormheim: Halls of Valor");
 	BNet::Utils::preprint ($count, '40072', "Halls of Valor: Securing the Aegis", %multiuserquests);
 	BNet::Utils::preprint ($count, '43349', "The Aegis of Aggramar", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Skold-Ashil (Alliance)");
+	BNet::Utils::groupheader ("100-110: Stormheim: Skold-Ashil (Alliance)");
 	BNet::Utils::preprint ($count, '39059', "To Catch a Banshee", %multiuserquests);
 	BNet::Utils::preprint ($count, '39060', "Combustible Contagion", %multiuserquests);
 	BNet::Utils::preprint ($count, '39061', "Whispers from the Dark", %multiuserquests);
@@ -487,7 +478,7 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '39063', "Shielded Secrets", %multiuserquests);
 	BNet::Utils::preprint ($count, '39092', "Becoming the Ascendant", %multiuserquests);
 	BNet::Utils::preprint ($count, '39122', "Ending the New Beginning", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Skold-Ashil (Horde)");
+	BNet::Utils::groupheader ("100-110: Stormheim: Skold-Ashil (Horde)");
 	BNet::Utils::preprint ($count, '38872', "The Dark Lady's Bidding", %multiuserquests);
 	BNet::Utils::preprint ($count, '38873', "Clear the Deck!", %multiuserquests);
 	BNet::Utils::preprint ($count, '39153', "Dreadwake's Dilemma", %multiuserquests);
@@ -497,7 +488,7 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '39405', "Stories of Battle", %multiuserquests);
 	BNet::Utils::preprint ($count, '39155', "Becoming the Ascendant", %multiuserquests);
 	BNet::Utils::preprint ($count, '38882', "A New Life for Undeath", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Sixtrigger Brothers");
+	BNet::Utils::groupheader ("100-110: Stormheim: Sixtrigger Brothers");
 	BNet::Utils::preprint ($count, '39789', "Eating Into Our Business", %multiuserquests);
 	BNet::Utils::preprint ($count, '39793', "Only the Finest", %multiuserquests);
 	BNet::Utils::preprint ($count, '39787', "Rigging the Wager", %multiuserquests);
@@ -505,7 +496,7 @@ sub z_100_stormheim ($%) {
 	BNet::Utils::preprint ($count, '39792', "A Stack of Racks", %multiuserquests);
 	BNet::Utils::preprint ($count, '42483', "Put It All on Red", %multiuserquests);
 	BNet::Utils::preprint ($count, '43331', "Time to Collect", %multiuserquests);
-	BNet::Utils::groupheader ("Stormheim: Bonus Objectives");
+	BNet::Utils::groupheader ("100-110: Stormheim: Bonus Objectives");
 	BNet::Utils::preprint ($count, '38442', "A Worthy Challenger", %multiuserquests);
 	BNet::Utils::preprint ($count, '38343', "Raze Hel", %multiuserquests);
 	BNet::Utils::preprint ($count, '38939', "Assault on Skold-Ashil", %multiuserquests);
@@ -516,12 +507,12 @@ sub z_100_stormheim ($%) {
 
 }
 
-sub z_110_suramar ($%) {
+sub z_110_suramar($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Suramar: Nightfallen But Not Forgotten: Nightfall");
+	BNet::Utils::groupheader ("110: Suramar: Nightfallen But Not Forgotten: Nightfall");
 	BNet::Utils::preprint ($count, '39985', "Khadgar's Discovery", %multiuserquests);
-#	BNet::Utils::preprint ($count, '44555', "Khadgar's Discovery", %multiuserquests);
+	BNet::Utils::preprint ($count, '44555', "Khadgar's Discovery", %multiuserquests);
 	BNet::Utils::preprint ($count, '39986', "Magic Message", %multiuserquests);
 	BNet::Utils::preprint ($count, '39987', "Trail of Echoes", %multiuserquests);
 	BNet::Utils::preprint ($count, '40008', "The Only Way Out is Through", %multiuserquests);
@@ -529,31 +520,31 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '40009', "Arcane Thirst", %multiuserquests);
 	BNet::Utils::preprint ($count, '42229', "Shal'Aran", %multiuserquests);
 	BNet::Utils::preprint ($count, '44672', "Ancient Mana", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Nightfallen But Not Forgotten: Arcanist Kel'danath");
+	BNet::Utils::groupheader ("110: Suramar: Nightfallen But Not Forgotten: Arcanist Kel'danath");
 	BNet::Utils::preprint ($count, '40012', "An Old Ally", %multiuserquests);
 	BNet::Utils::preprint ($count, '41149', "A Re-Warding Effort", %multiuserquests);
 	BNet::Utils::preprint ($count, '40326', "Scattered Memories", %multiuserquests);
 	BNet::Utils::preprint ($count, '41702', "Written in Stone", %multiuserquests);
 	BNet::Utils::preprint ($count, '41704', "Subject 16", %multiuserquests);
 	BNet::Utils::preprint ($count, '41760', "Kel'danath's Legacy", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Nightfallen But Not Forgotten: Chief Telemancer Oculeth");
+	BNet::Utils::groupheader ("110: Suramar: Nightfallen But Not Forgotten: Chief Telemancer Oculeth");
 	BNet::Utils::preprint ($count, '40011', "Oculeth's Workshop", %multiuserquests);
 	BNet::Utils::preprint ($count, '40747', "The Delicate Art of Telemancy", %multiuserquests);
 	BNet::Utils::preprint ($count, '40748', "Network Security", %multiuserquests);
 	BNet::Utils::preprint ($count, '40830', "Close Enough", %multiuserquests);
 	BNet::Utils::preprint ($count, '44691', "Hungry Work", %multiuserquests);
 	BNet::Utils::preprint ($count, '40956', "Survey Says...", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Nightfallen But Not Forgotten: Feeding Shal'Aran");
+	BNet::Utils::groupheader ("110: Suramar: Nightfallen But Not Forgotten: Feeding Shal'Aran");
 	BNet::Utils::preprint ($count, '40010', "Tapping the Leylines", %multiuserquests);
 	BNet::Utils::preprint ($count, '41028', "Power Grid", %multiuserquests);
 	BNet::Utils::preprint ($count, '41138', "Feeding Shal'Aran", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Nightfallen But Not Forgotten: Masquerade");
+	BNet::Utils::groupheader ("110: Suramar: Nightfallen But Not Forgotten: Masquerade");
 	BNet::Utils::preprint ($count, '41762', "Sympathizers Among the Shal'dorei", %multiuserquests);
 	BNet::Utils::preprint ($count, '41834', "The Masks We Wear", %multiuserquests);
 	BNet::Utils::preprint ($count, '41989', "Blood of My Blood", %multiuserquests);
 	BNet::Utils::preprint ($count, '42079', "Masquerade", %multiuserquests);
 	BNet::Utils::preprint ($count, '42147', "First Contact", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Nightfallen But Not Forgotten: The Light Below");
+	BNet::Utils::groupheader ("110: Suramar: Nightfallen But Not Forgotten: The Light Below");
 	BNet::Utils::preprint ($count, '40324', "Arcane Communion", %multiuserquests);
 	BNet::Utils::preprint ($count, '40325', "Scenes from a Memory", %multiuserquests);
 	BNet::Utils::preprint ($count, '42224', "Cloaked in Moonshade", %multiuserquests);
@@ -562,7 +553,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '42227', "Into the Crevasse", %multiuserquests);
 	BNet::Utils::preprint ($count, '42228', "The Hidden City", %multiuserquests);
 	BNet::Utils::preprint ($count, '42230', "The Valewalker's Burden", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: The Waning Crescent");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: The Waning Crescent");
 	BNet::Utils::preprint ($count, '41877', "Lady Lunastre", %multiuserquests);
 	BNet::Utils::preprint ($count, '40746', "One of the People", %multiuserquests);
 	BNet::Utils::preprint ($count, '41148', "Dispensing Compassion", %multiuserquests);
@@ -578,7 +569,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '42488', "Thalyssra's Abode", %multiuserquests);
 	BNet::Utils::preprint ($count, '42489', "Thalyssra's Drawers", %multiuserquests);
 	BNet::Utils::preprint ($count, '44636', "Building an Army", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Blood and Wine");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Blood and Wine");
 	BNet::Utils::preprint ($count, '44561', "Seed of Hope", %multiuserquests);
 	BNet::Utils::preprint ($count, '42828', "Moths to a Flame", %multiuserquests);
 	BNet::Utils::preprint ($count, '42829', "Make an Entrance", %multiuserquests);
@@ -597,7 +588,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '43352', "Asset Security", %multiuserquests);
 	BNet::Utils::preprint ($count, '42792', "Make Your Mark", %multiuserquests);
 	BNet::Utils::preprint ($count, '44052', "And They Will Tremble", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Statecraft");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Statecraft");
 	BNet::Utils::preprint ($count, '43309', "The Perfect Opportunity", %multiuserquests);
 	BNet::Utils::preprint ($count, '43310', "Either With Us", %multiuserquests);
 	BNet::Utils::preprint ($count, '43312', "Thinly Veiled Threats", %multiuserquests);
@@ -611,7 +602,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '42490', "The Arcway: Opening the Arcway", %multiuserquests);
 	BNet::Utils::preprint ($count, '42491', "The Arcway: Long Buried Knowledge", %multiuserquests);
 	BNet::Utils::preprint ($count, '43314', "Court of Stars: Beware the Fury of a Patient Elf", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: A Growing Crisis");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: A Growing Crisis");
 	BNet::Utils::preprint ($count, '44562', "Growing Strong", %multiuserquests);
 	BNet::Utils::preprint ($count, '44152', "A Growing Crisis", %multiuserquests);
 	BNet::Utils::preprint ($count, '43360', "The Shardmaidens", %multiuserquests);
@@ -619,7 +610,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '44156', "Another Arcan'dor Closes...", %multiuserquests);
 	BNet::Utils::preprint ($count, '40125', "Branch of the Arcan'dor", %multiuserquests);
 	BNet::Utils::preprint ($count, '43362', "The Emerald Nightmare: The Stuff of Dreams", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: A Change of Seasons");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: A Change of Seasons");
 	BNet::Utils::preprint ($count, '43502', "A Change of Seasons", %multiuserquests);
 	BNet::Utils::preprint ($count, '43562', "Giving It All We've Got", %multiuserquests);
 	BNet::Utils::preprint ($count, '43563', "Ephemeral Manastorm Projector", %multiuserquests);
@@ -629,7 +620,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '43568', "Arcan'dor, Gift of the Ancient Magi", %multiuserquests);
 	BNet::Utils::preprint ($count, '43569', "Arluin's Request", %multiuserquests);
 	BNet::Utils::preprint ($count, '44563', "Redemption for the Fallen", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Leylines");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Leylines");
 	BNet::Utils::preprint ($count, '43587', "Leyline Feed: Elor'shan", %multiuserquests);
 	BNet::Utils::preprint ($count, '43588', "Leyline Feed: Kel'balor", %multiuserquests);
 	BNet::Utils::preprint ($count, '43590', "Leyline Feed: Ley Station Moonfall", %multiuserquests);
@@ -640,12 +631,12 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '44492', "Leyline Apprentice", %multiuserquests);
 	BNet::Utils::preprint ($count, '44493', "Leyline Proficiency", %multiuserquests);
 	BNet::Utils::preprint ($count, '44495', "Leyline Master", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Teleporters");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Teleporters");
 	BNet::Utils::preprint ($count, '43808', "Moon Guard Teleporter Online!", %multiuserquests);
 	BNet::Utils::preprint ($count, '43809', "Tel'anor'eporter Online!", %multiuserquests);
 	BNet::Utils::preprint ($count, '43811', "Lunastre Estate Teleporter Online!", %multiuserquests);
 	BNet::Utils::preprint ($count, '43813', "Sanctum of Order Teleporter Online!", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Breaking the Lightbreaker");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Breaking the Lightbreaker");
 	BNet::Utils::preprint ($count, '40297', "Lyana Darksorrow", %multiuserquests);
 	BNet::Utils::preprint ($count, '44489', "Lyana Darksorrow (Demon Hunter)", %multiuserquests);
 	BNet::Utils::preprint ($count, '40307', "Glaive Circumstances", %multiuserquests);
@@ -657,7 +648,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '41097', "Shard of Vorgos", %multiuserquests);
 	BNet::Utils::preprint ($count, '41098', "Shard of Kozak", %multiuserquests);
 	BNet::Utils::preprint ($count, '40412', "Azoran Must Die", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Moon Guard Stronghold");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Moon Guard Stronghold");
 	BNet::Utils::preprint ($count, '40883', "Fate of the Guard", %multiuserquests);
 	BNet::Utils::preprint ($count, '40949', "Not Their Last Stand", %multiuserquests);
 	BNet::Utils::preprint ($count, '41030', "Sigil Reclamation", %multiuserquests);
@@ -673,7 +664,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '40970', "The Orchestrator of Our Demise", %multiuserquests);
 	BNet::Utils::preprint ($count, '40971', "Overwhelming Distraction", %multiuserquests);
 	BNet::Utils::preprint ($count, '40972', "Last Stand of the Moon Guard", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Tidying Tel'anor");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Tidying Tel'anor");
 	BNet::Utils::preprint ($count, '40266', "The Lost Advisor", %multiuserquests);
 	BNet::Utils::preprint ($count, '40744', "An Ancient Recipe", %multiuserquests);
 	BNet::Utils::preprint ($count, '40227', "Bad Intentions", %multiuserquests);
@@ -684,7 +675,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '40319', "The Final Ingredient", %multiuserquests);
 	BNet::Utils::preprint ($count, '40321', "Feathersong's Redemption", %multiuserquests);
 	BNet::Utils::preprint ($count, '40308', "Fragments of Memory", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Eminent Grow-main");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Eminent Grow-main");
 	BNet::Utils::preprint ($count, '41452', "Feline Frantic", %multiuserquests);
 	BNet::Utils::preprint ($count, '41453', "Homeward Bounding", %multiuserquests);
 	BNet::Utils::preprint ($count, '41462', "Trouble Has Huge Feet", %multiuserquests);
@@ -707,7 +698,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '41215', "They Become The Hunted", %multiuserquests);
 	BNet::Utils::preprint ($count, '41231', "Apex Predator", %multiuserquests);
 	BNet::Utils::preprint ($count, '43582', "Shalassic Park", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Good Suramaritan: Jandvik's Jarl");
+	BNet::Utils::groupheader ("110: Suramar: Good Suramaritan: Jandvik's Jarl");
 	BNet::Utils::preprint ($count, '40907', "Removing Obstacles", %multiuserquests);
 	BNet::Utils::preprint ($count, '40908', "Jarl Come Back Now", %multiuserquests);
 	BNet::Utils::preprint ($count, '40332', "Beach Bonfire", %multiuserquests);
@@ -728,7 +719,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '41499', "Squid Out of Water", %multiuserquests);
 	BNet::Utils::preprint ($count, '40336', "Turning the Tidemistress", %multiuserquests);
 	BNet::Utils::preprint ($count, '41137', "Fall of the King", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Lespin Silverleaf");
+	BNet::Utils::groupheader ("110: Suramar: Lespin Silverleaf");
 	BNet::Utils::preprint ($count, '41123', "An Artisan's Mark", %multiuserquests);
 	BNet::Utils::preprint ($count, '41307', "All That Glitters", %multiuserquests);
 	BNet::Utils::preprint ($count, '41466', "Estate Jewelry: Haute Claw-ture", %multiuserquests);
@@ -736,7 +727,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '41465', "Estate Jewelry: A Braggart's Brooch", %multiuserquests);
 	BNet::Utils::preprint ($count, '41146', "Elegant Design", %multiuserquests);
 	BNet::Utils::preprint ($count, '41915', "The Master's Legacy", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Kyrtos");
+	BNet::Utils::groupheader ("110: Suramar: Kyrtos");
 	BNet::Utils::preprint ($count, '40694', "One Small Step for Magic", %multiuserquests);
 	BNet::Utils::preprint ($count, '40625', "A Different Source", %multiuserquests);
 	BNet::Utils::preprint ($count, '40657', "The Road to Fel", %multiuserquests);
@@ -745,21 +736,21 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '40713', "The Black Tome", %multiuserquests);
 	BNet::Utils::preprint ($count, '40642', "Power! Get The Power!", %multiuserquests);
 	BNet::Utils::preprint ($count, '42366', "The Bigger They Are, The Harder They Fel", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Iadreth");
+	BNet::Utils::groupheader ("110: Suramar: Iadreth");
 	BNet::Utils::preprint ($count, '40401', "A Way Back In", %multiuserquests);
 	BNet::Utils::preprint ($count, '40469', "Final Preparations", %multiuserquests);
 	BNet::Utils::preprint ($count, '40424', "A Desperate Journey", %multiuserquests);
 	BNet::Utils::preprint ($count, '40470', "Quality of Life", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Absolon");
+	BNet::Utils::groupheader ("110: Suramar: Absolon");
 	BNet::Utils::preprint ($count, '40796', "Lingering on the Edge", %multiuserquests);
 	BNet::Utils::preprint ($count, '40798', "Cling to Hope", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Morhun Rivertamer");
+	BNet::Utils::groupheader ("110: Suramar: Morhun Rivertamer");
 	BNet::Utils::preprint ($count, '40368', "Turtle Powered", %multiuserquests);
 	BNet::Utils::preprint ($count, '40348', "Something in the Water", %multiuserquests);
 	BNet::Utils::preprint ($count, '40370', "Purge the Unclean", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Shal'aran Banking Chest");
+	BNet::Utils::groupheader ("110: Suramar: Shal'aran Banking Chest");
 	BNet::Utils::preprint ($count, '44176', "The Conveniences of Home", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part One: Lockdown");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part One: Lockdown");
 	BNet::Utils::preprint ($count, '45260', "One Day at a Time", %multiuserquests);
 	BNet::Utils::preprint ($count, '38649', "Silence in the City", %multiuserquests);
 	BNet::Utils::preprint ($count, '38695', "Crackdown", %multiuserquests);
@@ -768,7 +759,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '38694', "Regroup", %multiuserquests);
 	BNet::Utils::preprint ($count, '42889', "The Way Back Home", %multiuserquests);
 	BNet::Utils::preprint ($count, '44955', "Visitor in Shal'Aran", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Two: Missing Persons");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Two: Missing Persons");
 	BNet::Utils::preprint ($count, '45261', "Continuing the Cure", %multiuserquests);
 	BNet::Utils::preprint ($count, '44722', "Disillusioned Defector", %multiuserquests);
 	BNet::Utils::preprint ($count, '44724', "Missing Persons", %multiuserquests);
@@ -777,48 +768,48 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '44726', "In the Business of Souls", %multiuserquests);
 	BNet::Utils::preprint ($count, '44727', "Smuggled!", %multiuserquests);
 	BNet::Utils::preprint ($count, '44814', "Waning Refuge", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Three: Waxing Crescent");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Three: Waxing Crescent");
 	BNet::Utils::preprint ($count, '45262', "A Message from Ly'leth", %multiuserquests);
 	BNet::Utils::preprint ($count, '44742', "Tavernkeeper's Fate", %multiuserquests);
 	BNet::Utils::preprint ($count, '44752', "Essence Triangulation", %multiuserquests);
 	BNet::Utils::preprint ($count, '44753', "On Public Display", %multiuserquests);
 	BNet::Utils::preprint ($count, '44754', "Waxing Crescent", %multiuserquests);
 	BNet::Utils::preprint ($count, '44756', "Sign of the Dusk Lily", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Four: An Elven Problem");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Four: An Elven Problem");
 	BNet::Utils::preprint ($count, '45316', "Stabilizing Suramar", %multiuserquests);
 	BNet::Utils::preprint ($count, '45263', "Eating Before the Meeting", %multiuserquests);
 	BNet::Utils::preprint ($count, '40391', "Take Me To Your Leader", %multiuserquests);
-	BNet::Utils::preprint ($count, '43810', "Down to Business <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '43812', "Down to Business <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '44831', "Taking a Promenade <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '41607', "Taking a Promenade <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '43810', "Down to Business <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '43812', "Down to Business <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '44831', "Taking a Promenade <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '41607', "Taking a Promenade <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '41916', "A Better Future", %multiuserquests);
 	BNet::Utils::preprint ($count, '44834', "Nullified", %multiuserquests);
 	BNet::Utils::preprint ($count, '44843', "Crystal Clearing", %multiuserquests);
 	BNet::Utils::preprint ($count, '44844', "Powering Down the Portal", %multiuserquests);
 	BNet::Utils::preprint ($count, '44842', "Shield, Meet Spell", %multiuserquests);
 	BNet::Utils::preprint ($count, '44845', "Break an Arm", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Five: Crafting War");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Five: Crafting War");
 	BNet::Utils::preprint ($count, '45265', "Feeding the Rebellion", %multiuserquests);
-	BNet::Utils::preprint ($count, '44743', "Tyrande's Command <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '44859', "Liadrin's Command <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '44743', "Tyrande's Command <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '44859', "Liadrin's Command <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '44870', "Mouths to Feed", %multiuserquests);
 	BNet::Utils::preprint ($count, '44873', "Oculeth Ex Machina", %multiuserquests);
-	BNet::Utils::preprint ($count, '44858', "Trolling Them <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '44860', "Trolling Them <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '44858', "Trolling Them <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '44860', "Trolling Them <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '44928', "Something's Not Quite Right...", %multiuserquests);
-	BNet::Utils::preprint ($count, '44861', "Arming the Rebels <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '44862', "Arming the Rebels <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '44861', "Arming the Rebels <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '44862', "Arming the Rebels <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '44827', "Citizens' Army", %multiuserquests);
 	BNet::Utils::preprint ($count, '44829', "We Need Weapons", %multiuserquests);
 	BNet::Utils::preprint ($count, '44830', "Learning From the Dead", %multiuserquests);
 	BNet::Utils::preprint ($count, '44790', "Trial by Demonfire", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Six: March on Suramar");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Six: March on Suramar");
 	BNet::Utils::preprint ($count, '45266', "A United Front", %multiuserquests);
 	BNet::Utils::preprint ($count, '44739', "Ready for Battle", %multiuserquests);
 	BNet::Utils::preprint ($count, '44738', "Full Might of the Elves", %multiuserquests);
 	BNet::Utils::preprint ($count, '44740', "Staging Point", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Seven: Elisande's Retort");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Seven: Elisande's Retort");
 	BNet::Utils::preprint ($count, '45317', "Fighting on All Fronts", %multiuserquests);
 	BNet::Utils::preprint ($count, '45267', "Before the Siege", %multiuserquests);
 	BNet::Utils::preprint ($count, '44736', "Gates of the Nighthold", %multiuserquests);
@@ -826,7 +817,7 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '45209', "Those Scrying Eyes", %multiuserquests);
 	BNet::Utils::preprint ($count, '44832', "Scouting the Breach", %multiuserquests);
 	BNet::Utils::preprint ($count, '44833', "The Seal's Power", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Eight: As Strong as Our Will");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Eight: As Strong as Our Will");
 	BNet::Utils::preprint ($count, '45268', "The Advisor and the Arcanist", %multiuserquests);
 	BNet::Utils::preprint ($count, '44918', "A Message From Our Enemies", %multiuserquests);
 	BNet::Utils::preprint ($count, '44919', "A Challenge From Our Enemies", %multiuserquests);
@@ -836,21 +827,19 @@ sub z_110_suramar ($%) {
 	BNet::Utils::preprint ($count, '45065', "Survey the City", %multiuserquests);
 	BNet::Utils::preprint ($count, '45066', "Experimental Instability", %multiuserquests);
 	BNet::Utils::preprint ($count, '45064', "Felborne No More", %multiuserquests);
-	BNet::Utils::groupheader ("Suramar: Insurrection: Part Nine: Breaking the Nighthold");
+	BNet::Utils::groupheader ("110: Suramar: Insurrection: Part Nine: Breaking the Nighthold");
 	BNet::Utils::preprint ($count, '45269', "A Taste of Freedom", %multiuserquests);
 	BNet::Utils::preprint ($count, '44964', "I'll Just Leave This Here", %multiuserquests);
 	BNet::Utils::preprint ($count, '44719', "Breaching the Sanctum", %multiuserquests);
 	BNet::Utils::preprint ($count, '45417', "The Nighthold: Lord of the Shadow Council", %multiuserquests);
 	BNet::Utils::preprint ($count, '45372', "Fate of the Nightborne", %multiuserquests);
 
-
-
 }
 
-sub z_110_legion_fall ($%) {
+sub z_110_legion_fall($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Broken Shore");
+	BNet::Utils::groupheader ("110: Broken Shore: Armies of Legionfall");
 	BNet::Utils::preprint ($count, '46730', "Armies of Legionfall", %multiuserquests);
 	BNet::Utils::preprint ($count, '46734', "Assault on Broken Shore", %multiuserquests);
 	BNet::Utils::preprint ($count, '46245', "Begin Construction", %multiuserquests);
@@ -873,7 +862,7 @@ sub z_110_legion_fall ($%) {
 
 }
 
-sub artifact_improvingonhistory ($%) {
+sub artifact_improvingonhistory($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Improving on History");
@@ -907,11 +896,11 @@ sub artifact_improvingonhistory ($%) {
 	BNet::Utils::preprint ($count, '43532', "The Nighthold: Darkness Calls", %multiuserquests);
 	BNet::Utils::preprint ($count, '43533', "Balance of Power", %multiuserquests);
 
-
 }
 
-sub empoweredartifacts ($%) {
+sub empoweredartifacts($%) {
 	my ($count, %multiuserquests) = @_;
+
 	BNet::Utils::groupheader ("Empowering Artifacts");
 	BNet::Utils::preprint ($count, '46744', "Greater Power for Greater Threats", %multiuserquests);
 	BNet::Utils::preprint ($count, '46765', "The Broken Shore: Investigating the Legion", %multiuserquests);
@@ -1021,16 +1010,17 @@ sub empoweredartifacts ($%) {
 	BNet::Utils::preprint ($count, '45863', "A Gift From the Six", %multiuserquests);
 	BNet::Utils::preprint ($count, '45416', "The Highlord's Return", %multiuserquests);
 	BNet::Utils::preprint ($count, '45905', "Krull's Gift", %multiuserquests);
+
 }
 
-sub z_110_Argus ($%) {
+sub z_110_Argus($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("110: Argus: The Assault Begins");
-	BNet::Utils::preprint ($count, '47221', "The Hand of Fate <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '47835', "The Hand of Fate <img src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '47222', "Two If By Sea <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '47867', "Two If By Sea <img src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47221', "The Hand of Fate <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47835', "The Hand of Fate <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47222', "Two If By Sea <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '47867', "Two If By Sea <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '47223', "Light's Exodus", %multiuserquests);
 	BNet::Utils::preprint ($count, '47224', "The Vindicaar", %multiuserquests);
 	BNet::Utils::preprint ($count, '48440', "Into the Night", %multiuserquests);
@@ -1066,7 +1056,6 @@ sub z_110_Argus ($%) {
 	BNet::Utils::preprint ($count, '48201', "Reinforce Light's Purchase", %multiuserquests);
 	BNet::Utils::preprint ($count, '48202', "Reinforce the Veiled Den", %multiuserquests);
 	BNet::Utils::preprint ($count, '47473', "Sizing Up The Opposition", %multiuserquests);
-
 	BNet::Utils::groupheader ("110: Argus: Dark Awakenings");
 	BNet::Utils::preprint ($count, '47889', "The Speaker Calls", %multiuserquests);
 	BNet::Utils::preprint ($count, '47890', "Visions of Torment", %multiuserquests);
@@ -1096,7 +1085,6 @@ sub z_110_Argus ($%) {
 	BNet::Utils::preprint ($count, '47687', "Gatekeeper's Challenge: Mastery", %multiuserquests);
 	BNet::Utils::preprint ($count, '47690', "The Defiler's Legacy", %multiuserquests);
 	BNet::Utils::preprint ($count, '48107', "The Sigil of Awakening", %multiuserquests);
-
 	BNet::Utils::groupheader ("110: Argus: War of Light and Shadow");
 	BNet::Utils::preprint ($count, '48461', "Where They Least Expect It", %multiuserquests);
 	BNet::Utils::preprint ($count, '48344', "We Have a Problem", %multiuserquests);
@@ -1122,7 +1110,6 @@ sub z_110_Argus ($%) {
 	BNet::Utils::preprint ($count, '47220', "A Beacon in the Dark", %multiuserquests);
 	BNet::Utils::preprint ($count, '48560', "An Offering of Shadow", %multiuserquests);
 	BNet::Utils::preprint ($count, '47654', "Seat of the Triumvirate: The Crest of Knowledge", %multiuserquests);
-
 	BNet::Utils::groupheader ("110: Argus: Side Chain: Class Hall");
 	BNet::Utils::preprint ($count, '48460', "The Wranglers", %multiuserquests);
 	BNet::Utils::preprint ($count, '47967', "An Argus Roper", %multiuserquests);
@@ -1141,12 +1128,10 @@ sub z_110_Argus ($%) {
 	BNet::Utils::preprint ($count, '48600', "Take the Edge Off", %multiuserquests);
 	BNet::Utils::preprint ($count, '48912', "Supplying the Antoran Campaign", %multiuserquests);
 	BNet::Utils::preprint ($count, '48601', "Felfire Shattering", %multiuserquests);
-
 	BNet::Utils::groupheader ("110: Argus: Side Chain: Invasion Points");
 	BNet::Utils::preprint ($count, '48461', "Where They Least Expect It", %multiuserquests);
 	BNet::Utils::preprint ($count, '48513', "Invasion Point Offensive", %multiuserquests);
 	BNet::Utils::preprint ($count, '48605', "Commander's Downfall", %multiuserquests);
-
 	BNet::Utils::groupheader ("110: Argus: Side Chain: The Fel Heart of Argus");
 	BNet::Utils::preprint ($count, '47102', "The Mysterious Missive", %multiuserquests);
 	BNet::Utils::preprint ($count, '47554', "Intercepting the Legion's Plans", %multiuserquests);
@@ -1156,4 +1141,6 @@ sub z_110_Argus ($%) {
 
 }
 
+
 1;
+
