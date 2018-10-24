@@ -3,32 +3,38 @@ package BNet::Quests_KD;
 use strict;
 use warnings;
 
-
-sub sz_01_20_Durotar ($%) {
+sub sz_01_20_Durotar($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("01-20: Durotar <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 
 }
 
-sub sz_01_20_Mulgore ($%) {
+sub sz_01_20_Mulgore($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("01-20: Mulgore <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 
 }
 
-sub sz_01_20_Teldrassil ($%) {
+sub sz_01_20_Teldrassil($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("01-20: Teldrassil <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 
 }
 
-sub sz_01_20_Azuremyst_Isle ($%) {
+sub sz_01_20_Azuremyst_Isle($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("01-20: Azuremyst Isle <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 
 }
 
-sub z_10_60_Azshara ($%) {
+sub z_10_60_Azshara($%) {
 	my ($count, %multiuserquests) = @_;
 
-#	BNet::Utils::preprint ($count, '', "", %multiuserquests);
-	BNet::Utils::groupheader ("10-20: Azshara: The Rear Gate <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("header");
 	BNet::Utils::preprint ($count, '28496', "Warchief's Command: Azshara!", %multiuserquests);
 	BNet::Utils::preprint ($count, '25275', "Report to the Labor Captain", %multiuserquests);
 	BNet::Utils::preprint ($count, '14129', "Runaway Shredder!", %multiuserquests);
@@ -39,10 +45,10 @@ sub z_10_60_Azshara ($%) {
 	BNet::Utils::preprint ($count, '14118', "Venison for the Troops", %multiuserquests);
 	BNet::Utils::preprint ($count, '14117', "The Eyes of Ashenvale", %multiuserquests);
 	BNet::Utils::preprint ($count, '14127', "Return of the Highborne?", %multiuserquests);
-	BNet::Utils::groupheader ("10-20: Azshara: Orgrimmar Rocketway Exchange");
+	BNet::Utils::groupheader ("10-20: Azshara: Orgrimmar Rocketway Exchange <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '14162', "Report to Horzak", %multiuserquests);
 	BNet::Utils::preprint ($count, '14128', "Return of the Highborne?", %multiuserquests);
-	BNet::Utils::groupheader ("10-20: Azshara <img src=\"http://wow.zamimg.com/images/icons/horde.png\"> (Unsorted\)");
+	BNet::Utils::groupheader ("10-20: Azshara (Unsorted) <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '14130', "Friends Come In All Colors", %multiuserquests);
 	BNet::Utils::preprint ($count, '14131', "A Little Pick-me-up", %multiuserquests);
 	BNet::Utils::preprint ($count, '14132', "That's Just Rude!", %multiuserquests);
@@ -142,78 +148,103 @@ sub z_10_60_Azshara ($%) {
 
 }
 
-
-sub z_10_60_Bloodmyst_Isle ($%) {
+sub z_10_60_Bloodmyst_Isle($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("10-60: Bloodmyst Isle");
 
 }
 
-sub z_10_60_Darkshore ($%) {
+sub z_10_60_Darkshore($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("10-60: Darkshore");
 
 }
 
-sub z_10_60_Northern_Barrens ($%) {
+sub z_10_60_Northern_Barrens($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("10-60: Northern Barrens");
 
 }
 
-sub z_15_60_Ashenvale ($%) {
+sub z_15_60_Ashenvale($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("15-60: Ashenvale");
 
 }
 
-sub z_20_60_Stonetalon_Mountains ($%) {
+sub z_20_60_Stonetalon_Mountains($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("20-60: Stonetalon Mountains");
 
 }
 
-sub z_25_60_Southern_Barrens ($%) {
+sub z_25_60_Southern_Barrens($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("25-60: Southern Barrens");
 
 }
 
-sub z_30_60_Desolace ($%) {
+sub z_30_60_Desolace($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("30-60: Desolac");
 
 }
 
-sub z_35_60_Dustwallow_Marsh ($%) {
+sub z_35_60_Dustwallow_Marsh($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("35-60: Dustwallow Marsh");
 
 }
 
-sub z_35_60_Feralas ($%) {
+sub z_35_60_Feralas($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("35-60: Ferelas");
 
 }
 
-sub z_40_60_Thousand_Needles ($%) {
+sub z_40_60_Thousand_Needles($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("40-60: Thousand Needles");
 
 }
 
-sub z_40_60_Felwood ($%) {
+sub z_40_60_Felwood($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("40-60: Felwood");
 
 }
 
-sub z_40_60_Tanaris ($%) {
+sub z_40_60_Tanaris($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("40-60: Tanaris");
 
 }
 
-sub z_40_60_UnGoro_Crater ($%) {
+sub z_40_60_UnGoro_Crater($%) {
 	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("40-60: Un'Goro Crater");
 
 }
 
-sub z_40_60_Winterspring ($%) {
+sub z_40_60_Winterspring($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("50-55: Winterspring: Unsorted");
-	BNet::Utils::preprint ($count, '28544', "Hero\'s Call: Winterspring! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28545', "Warchief\'s Command: Winterspring! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::groupheader ("40-60: Winterspring: Unsorted");
+	BNet::Utils::preprint ($count, '28544', "Hero's Call: Winterspring! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28545', "Warchief's Command: Winterspring! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '28460', "Threat of the Winterfall", %multiuserquests);
 	BNet::Utils::preprint ($count, '28462', "Winterfall Firewater", %multiuserquests);
 	BNet::Utils::preprint ($count, '28464', "Falling to Corruption", %multiuserquests);
@@ -235,7 +266,7 @@ sub z_40_60_Winterspring ($%) {
 	BNet::Utils::preprint ($count, '28535', "Descendants of the High Elves", %multiuserquests);
 	BNet::Utils::preprint ($count, '28536', "The Curse of Zin-Malor", %multiuserquests);
 	BNet::Utils::preprint ($count, '28537', "In Pursuit of Shades", %multiuserquests);
-	BNet::Utils::preprint ($count, '28540', "Doin\' De E'ko Magic", %multiuserquests);
+	BNet::Utils::preprint ($count, '28540', "Doin' De E'ko Magic", %multiuserquests);
 	BNet::Utils::preprint ($count, '28609', "Hammer Time", %multiuserquests);
 	BNet::Utils::preprint ($count, '28610', "Rubble Trouble", %multiuserquests);
 	BNet::Utils::preprint ($count, '28614', "Bearzerker", %multiuserquests);
@@ -285,11 +316,12 @@ sub z_40_60_Winterspring ($%) {
 
 }
 
-sub z_40_60_Silithus ($%) {
+sub z_40_60_Silithus($%) {
 	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("55-60: Silithus: Breadcrumbs");
-	BNet::Utils::preprint ($count, '28528', "Hero's Call: Silithus! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28527', "Warchief's Command: Silithus! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+
+	BNet::Utils::groupheader ("40-60: Silithus: Breadcrumbs");
+	BNet::Utils::preprint ($count, '28528', "Hero's Call: Silithus! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28527', "Warchief's Command: Silithus! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '28859', "The Dunes of Silithus", %multiuserquests);
 	BNet::Utils::preprint ($count, '28856', "The Sands of Silithus", %multiuserquests);
 	BNet::Utils::groupheader ("55-60: Silithus: Cenarian Hold");
@@ -307,20 +339,10 @@ sub z_40_60_Silithus ($%) {
 	BNet::Utils::preprint ($count, '8321', "Vyral the Vile", %multiuserquests);
 	BNet::Utils::groupheader ("55-60: Silithus: Hive'Regal");
 	BNet::Utils::preprint ($count, '8304', "Dearest Natalia", %multiuserquests);
-	BNet::Utils::preprint ($count, '8310', "Breaking the Code", %multiuserquests);
 	BNet::Utils::preprint ($count, '8306', "Into The Maw of Madness", %multiuserquests);
+	BNet::Utils::preprint ($count, '8310', "Breaking the Code", %multiuserquests);
 	BNet::Utils::preprint ($count, '8309', "Glyph Chasing", %multiuserquests);
 	BNet::Utils::preprint ($count, '8314', "Unraveling the Mystery", %multiuserquests);
-	BNet::Utils::groupheader ("55-60: Silithus: Hermit Ortell");
-	BNet::Utils::preprint ($count, '8284', "The Twilight Mystery", %multiuserquests);
-	BNet::Utils::preprint ($count, '8285', "The Deserter", %multiuserquests);
-	BNet::Utils::preprint ($count, '8279', "The Twilight Lexicon", %multiuserquests);
-	BNet::Utils::preprint ($count, '8323', "True Believers", %multiuserquests);
-	BNet::Utils::preprint ($count, '8287', "A Terrible Purpose", %multiuserquests);
-	BNet::Utils::groupheader ("55-60: Silithus: PvP");
-	BNet::Utils::preprint ($count, '9415', "Report to Marshal Bluewall <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '9416', "Report to General Kirika <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::groupheader ("55-60: Silithus: Obsolete");
 	BNet::Utils::preprint ($count, '8381', "Armaments of War (Obsolete) (Mage, Warlock)", %multiuserquests);
 	BNet::Utils::preprint ($count, '8379', "Armaments of War (Obsolete) (Priest)", %multiuserquests);
 	BNet::Utils::preprint ($count, '8382', "Armaments of War (Obsolete) (Druid)", %multiuserquests);
@@ -328,12 +350,18 @@ sub z_40_60_Silithus ($%) {
 	BNet::Utils::preprint ($count, '8377', "Armaments of War (Obsolete) (Hunter)", %multiuserquests);
 	BNet::Utils::preprint ($count, '8380', "Armaments of War (Obsolete) (Shaman)", %multiuserquests);
 	BNet::Utils::preprint ($count, '8376', "Armaments of War (Obsolete) (Paladin)", %multiuserquests);
+	BNet::Utils::groupheader ("55-60: Silithus: Hermit Ortell");
+	BNet::Utils::preprint ($count, '8284', "The Twilight Mystery", %multiuserquests);
+	BNet::Utils::preprint ($count, '8285', "The Deserter", %multiuserquests);
+	BNet::Utils::preprint ($count, '8279', "The Twilight Lexicon", %multiuserquests);
+	BNet::Utils::preprint ($count, '8323', "True Believers", %multiuserquests);
+	BNet::Utils::preprint ($count, '8287', "A Terrible Purpose", %multiuserquests);
+	BNet::Utils::groupheader ("55-60: Silithus: PvP");
+	BNet::Utils::preprint ($count, '9415', "Report to Marshal Bluewall <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '9416', "Report to General Kirika <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 
 }
 
-sub z_55_56_Deadwind_Pass ($%) {
-	my ($count, %multiuserquests) = @_;
-
-}
 
 1;
+

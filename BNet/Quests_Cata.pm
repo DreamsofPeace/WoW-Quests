@@ -3,37 +3,47 @@ package BNet::Quests_Cata;
 use strict;
 use warnings;
 
-
-sub sz_01_05_Gilneas_City ($%) {
+sub sz_01_05_Gilneas_City($%) {
 	my ($count, %multiuserquests) = @_;
-	
+
+	BNet::Utils::groupheader ("Gilneas City <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
+
 }
 
-sub sz_01_20_Gilneas ($%) {
+sub sz_01_20_Gilneas($%) {
 	my ($count, %multiuserquests) = @_;
-	
+
+	BNet::Utils::groupheader ("Gilneas <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
+
 }
 
-sub sz_10_60_Ruins_of_Gilneas ($%) {
+sub sz_10_60_Ruins_of_Gilneas($%) {
 	my ($count, %multiuserquests) = @_;
-	
+
+	BNet::Utils::groupheader ("Ruins of Filneas <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
+
 }
 
-sub sz_01_05_Kezan ($%) {
+sub sz_01_05_Kezan($%) {
 	my ($count, %multiuserquests) = @_;
-	
+
+	BNet::Utils::groupheader ("01-05: Kezan <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
+
 }
 
-sub sz_01_10_Lost_Isles ($%) {
+sub sz_01_10_Lost_Isles($%) {
 	my ($count, %multiuserquests) = @_;
-	
+
+	BNet::Utils::groupheader ("01-20:Lost Isles <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
+
 }
-sub z_80_90_Mount_Hyjal ($%) {
+
+sub z_80_90_Mount_Hyjal($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("80-90: Mount Hyjal: Intro");
-	BNet::Utils::preprint ($count, '27726', "Hero's Call: Mount Hyjal! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27721', "Warchief's Command: Mount Hyjal! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27726', "Hero's Call: Mount Hyjal! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27721', "Warchief's Command: Mount Hyjal! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '25316', "As Hyjal Burns", %multiuserquests);
 	BNet::Utils::preprint ($count, '25370', "Inciting the Elements", %multiuserquests);
 	BNet::Utils::preprint ($count, '25460', "The Earth Rises", %multiuserquests);
@@ -54,21 +64,18 @@ sub z_80_90_Mount_Hyjal ($%) {
 	BNet::Utils::preprint ($count, '25233', "End of the Supply Line", %multiuserquests);
 	BNet::Utils::preprint ($count, '25234', "In the Rear With the Gear", %multiuserquests);
 	BNet::Utils::preprint ($count, '25255', "Harrying the Hunters", %multiuserquests);
-	BNet::Utils::preprint ($count, '25268', "The Voice of Goldrinn <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25269', "The Voice of Lo'Gosh <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25271', "Goldrinn's Ferocity <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25270', "Howling Mad <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25273', "Lycanthoth the Corruptor <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25272', "Lycanthoth the Corruptor <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25280', "The Shrine Reclaimed <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25279', "The Shrine Reclaimed <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '25278', "Cleaning House <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25268', "The Voice of Goldrinn <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25269', "The Voice of Lo'Gosh <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25271', "Goldrinn's Ferocity <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25270', "Howling Mad <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25273', "Lycanthoth the Corruptor <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25272', "Lycanthoth the Corruptor <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25280', "The Shrine Reclaimed <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25279', "The Shrine Reclaimed <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '25278', "Cleaning House <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '25297', "From the Mouth of Madness", %multiuserquests);
 	BNet::Utils::preprint ($count, '25298', "Free Your Mind, the Rest Follows", %multiuserquests);
-
 	BNet::Utils::groupheader ("80-90: Mount Hyjal: (Unsorted)");
-
-
 	BNet::Utils::preprint ($count, '25223', "Trial By Fire", %multiuserquests);
 	BNet::Utils::preprint ($count, '25224', "In Bloom", %multiuserquests);
 	BNet::Utils::preprint ($count, '25274', "Signed in Blood", %multiuserquests);
@@ -167,18 +174,19 @@ sub z_80_90_Mount_Hyjal ($%) {
 
 }
 
-sub z_80_90_Vashjir ($%) {
+sub z_80_90_Vashjir($%) {
 	my ($count, %multiuserquests) = @_;
 
+	BNet::Utils::groupheader ("Vash'jir");
 
 }
 
-sub z_82_90_Deepholm ($%) {
+sub z_82_90_Deepholm($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("82-90: Deepholm: Intro");
-	BNet::Utils::preprint ($count, '27722', "Warchief's Command: Deepholm! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27722', "Hero's Call: Deepholm! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27722', "Warchief's Command: Deepholm! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27722', "Hero's Call: Deepholm! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27203', "The Maelstrom", %multiuserquests);
 	BNet::Utils::preprint ($count, '27123', "Deepholm, Realm of Earth", %multiuserquests);
 	BNet::Utils::groupheader ("82-90: Deepholm: Upper World Pillar Fragment");
@@ -290,7 +298,7 @@ sub z_82_90_Deepholm ($%) {
 	BNet::Utils::preprint ($count, '26875', "Undying Twilight", %multiuserquests);
 	BNet::Utils::preprint ($count, '26971', "The Binding", %multiuserquests);
 	BNet::Utils::preprint ($count, '26709', "The Stone Throne", %multiuserquests);
-	BNet::Utils::groupheader ("82-90: Deepholm: To Uldum <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">");
+	BNet::Utils::groupheader ("82-90: Deepholm: To Uldum <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprint ($count, '27952', "The Explorers", %multiuserquests);
 	BNet::Utils::preprint ($count, '27004', "The Twilight Plot", %multiuserquests);
 	BNet::Utils::preprint ($count, '27006', "Fly Over", %multiuserquests);
@@ -298,7 +306,7 @@ sub z_82_90_Deepholm ($%) {
 	BNet::Utils::preprint ($count, '27042', "Fight Fire and Water and Air with...", %multiuserquests);
 	BNet::Utils::preprint ($count, '27058', "The Wrong Sequence", %multiuserquests);
 	BNet::Utils::preprint ($count, '28292', "That's No Pyramid!", %multiuserquests);
-	BNet::Utils::groupheader ("82-90: Deepholm: To Uldum <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("82-90: Deepholm: To Uldum <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '27953', "The Reliquary", %multiuserquests);
 	BNet::Utils::preprint ($count, '27005', "The Twilight Plot", %multiuserquests);
 	BNet::Utils::preprint ($count, '27008', "Fly Over", %multiuserquests);
@@ -309,7 +317,7 @@ sub z_82_90_Deepholm ($%) {
 
 }
 
-sub z_83_90_Uldum ($%) {
+sub z_83_90_Uldum($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("83-90: Uldum (Unsorted)");
@@ -426,10 +434,10 @@ sub z_83_90_Uldum ($%) {
 
 }
 
-sub z_84_90_Twilight_Highlands ($%) {
+sub z_84_90_Twilight_Highlands($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("84-90: Twilight Highlands: Intro <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("84-90: Twilight Highlands: Intro <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '28909', "Sauranok Will Point the Way", %multiuserquests);
 	BNet::Utils::preprint ($count, '26311', "Unfamiliar Waters", %multiuserquests);
 	BNet::Utils::preprint ($count, '28717', "Warchief's Command: Twilight Highlands!", %multiuserquests);
@@ -444,7 +452,7 @@ sub z_84_90_Twilight_Highlands ($%) {
 	BNet::Utils::preprint ($count, '26372', "Pre-Flight Checklist", %multiuserquests);
 	BNet::Utils::preprint ($count, '28849', "Twilight Skies", %multiuserquests);
 	BNet::Utils::preprint ($count, '26388', "Twilight Skies", %multiuserquests);
-	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Dragonmaw Clan and the Horde <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Dragonmaw Clan and the Horde <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '26539', "Stalled Negotiations", %multiuserquests);
 	BNet::Utils::preprint ($count, '26539', "Stalled Negotiations", %multiuserquests);
 	BNet::Utils::preprint ($count, '26549', "Madness", %multiuserquests);
@@ -460,12 +468,12 @@ sub z_84_90_Twilight_Highlands ($%) {
 	BNet::Utils::preprint ($count, '26798', "Saurfang Will be Pleased", %multiuserquests);
 	BNet::Utils::preprint ($count, '26830', "Traitor's Bait", %multiuserquests);
 	BNet::Utils::preprint ($count, '26840', "Return to the Highlands", %multiuserquests);
-	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Southern Flank <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Southern Flank <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '27607', "The Southern Flank", %multiuserquests);
 	BNet::Utils::preprint ($count, '27610', "Scouting the Shore", %multiuserquests);
 	BNet::Utils::preprint ($count, '27611', "Blood on the Sand", %multiuserquests);
 	BNet::Utils::preprint ($count, '27622', "Mo' Better Shredder", %multiuserquests);
-	BNet::Utils::groupheader ("84-90: Twilight Highlands: Krazzworks <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("84-90: Twilight Highlands: Krazzworks <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '28583', "Krazzworks", %multiuserquests);
 	BNet::Utils::preprint ($count, '28584', "Quality Construction", %multiuserquests);
 	BNet::Utils::preprint ($count, '28586', "Pool Pony Rescue", %multiuserquests);
@@ -477,12 +485,12 @@ sub z_84_90_Twilight_Highlands ($%) {
 	BNet::Utils::preprint ($count, '28593', "Of Utmost Importance", %multiuserquests);
 	BNet::Utils::preprint ($count, '28594', "Highbank, Crybank", %multiuserquests);
 	BNet::Utils::preprint ($count, '28595', "Krazz Works!", %multiuserquests);
-	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Northern Flank <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Northern Flank <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '27583', "The Northern Flank", %multiuserquests);
 	BNet::Utils::preprint ($count, '27584', "Blood in the Surf", %multiuserquests);
 	BNet::Utils::preprint ($count, '27586', "Shells on the Sea Shore", %multiuserquests);
 	BNet::Utils::preprint ($count, '27606', "Blast Him!", %multiuserquests);
-	BNet::Utils::groupheader ("84-90: Twilight Highlands: Bloodgulch <img src=\"http://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("84-90: Twilight Highlands: Bloodgulch <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '27690', "Narkrall, the Drake-Tamer", %multiuserquests);
 	BNet::Utils::preprint ($count, '27751', "Crushing the Wildhammer", %multiuserquests);
 	BNet::Utils::preprint ($count, '27929', "Drag 'em Down", %multiuserquests);
@@ -502,9 +510,9 @@ sub z_84_90_Twilight_Highlands ($%) {
 	BNet::Utils::preprint ($count, '28166', "Thog's Nightlight", %multiuserquests);
 	BNet::Utils::preprint ($count, '28170', "Night Terrors", %multiuserquests);
 	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Maw of Madness");
-	BNet::Utils::preprint ($count, '27945', "Paint it Black <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27375', "The Weeping Wound <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27374', "The Maw of Madness <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27945', "Paint it Black <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27375', "The Weeping Wound <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27374', "The Maw of Madness <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27299', "Torn Ground", %multiuserquests);
 	BNet::Utils::preprint ($count, '27300', "Pushing Back", %multiuserquests);
 	BNet::Utils::preprint ($count, '27302', "Simple Solutions", %multiuserquests);
@@ -516,8 +524,8 @@ sub z_84_90_Twilight_Highlands ($%) {
 	BNet::Utils::preprint ($count, '27379', "The Terrors of Iso'rath", %multiuserquests);
 	BNet::Utils::preprint ($count, '27380', "Nightmare", %multiuserquests);
 	BNet::Utils::groupheader ("84-90: Twilight Highlands: Vermillion Redoubt");
-	BNet::Utils::preprint ($count, '27485', "Warm Welcome <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27486', "Warm Welcome <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27485', "Warm Welcome <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27486', "Warm Welcome <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27504', "Even Dragons Bleed", %multiuserquests);
 	BNet::Utils::preprint ($count, '27505', "Draconic Mending", %multiuserquests);
 	BNet::Utils::preprint ($count, '27506', "Life from Death", %multiuserquests);
@@ -525,19 +533,19 @@ sub z_84_90_Twilight_Highlands ($%) {
 	BNet::Utils::preprint ($count, '27507', "Encroaching Twilight", %multiuserquests);
 	BNet::Utils::preprint ($count, '27508', "Far from the Nest", %multiuserquests);
 	BNet::Utils::preprint ($count, '27509', "Breach in the Defenses", %multiuserquests);
-	BNet::Utils::preprint ($count, '28101', "Mathias' Command <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28101', "Mathias' Command <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27576', "Patchwork Command", %multiuserquests);
-	BNet::Utils::preprint ($count, '28091', "Easy Pickings <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28103', "Easy Pickings <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28090', "Precious Goods <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28104', "Precious Goods <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28097', "The Gates of Grim Batol <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28108', "If The Key Fits <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28092', "If The Key Fits <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28107', "Paving the Way <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28094', "Paving the Way <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28109', "Pressing Forward <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28093', "Pressing Forward <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28091', "Easy Pickings <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28103', "Easy Pickings <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28090', "Precious Goods <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28104', "Precious Goods <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28097', "The Gates of Grim Batol <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28108', "If The Key Fits <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28092', "If The Key Fits <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28107', "Paving the Way <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28094', "Paving the Way <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28109', "Pressing Forward <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28093', "Pressing Forward <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '28712', "Enter the Dragon Queen", %multiuserquests);
 	BNet::Utils::preprint ($count, '28758', "Battle of Life and Death", %multiuserquests);
 	BNet::Utils::preprint ($count, '28171', "And the Sky Streaked Red", %multiuserquests);
@@ -547,77 +555,122 @@ sub z_84_90_Twilight_Highlands ($%) {
 	BNet::Utils::preprint ($count, '28176', "Following the Young Home", %multiuserquests);
 	BNet::Utils::preprint ($count, '28247', "Last of Her Kind", %multiuserquests);
 	BNet::Utils::groupheader ("84-90: Twilight Highlands: Twilight Rising");
-	BNet::Utils::preprint ($count, '28248', "Victors' Point <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28249', "Crushblow <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27492', "Ogres & Ettins <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27493', "Ogres & Ettins <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27496', "Call in the Artillery <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27497', "Call in the Artillery <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27490', "SI:7 Drop <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27491', "Kor'kron Drop <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27494', "Move the Mountain <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27495', "Move the Mountain <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28248', "Victors' Point <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28249', "Crushblow <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27492', "Ogres & Ettins <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27493', "Ogres & Ettins <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27496', "Call in the Artillery <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27497', "Call in the Artillery <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27490', "SI:7 Drop <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27491', "Kor'kron Drop <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27494', "Move the Mountain <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27495', "Move the Mountain <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27498', "Signal the Attack", %multiuserquests);
 	BNet::Utils::preprint ($count, '27499', "Signal the Attack", %multiuserquests);
-#	BNet::Utils::preprint ($count, '27588', "Signal the Attack <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-#	BNet::Utils::preprint ($count, '27590', "Signal the Attack <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27500', "Four Heads are Better than None <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-#	BNet::Utils::preprint ($count, '27608', "Four Heads are Better than None <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27501', "Four Heads are Better than None <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27502', "Up to the Citadel <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27503', "Up to the Citadel <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27636', "Just You and Mathias <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27638', "Just You and Garona <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27652', "Dark Assassins <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27653', "Dark Assassins <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27654', "Bring the Hammer Down <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27655', "Bring the Hammer Down <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27688', "Distract Them for Me <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27689', "Distract Them for Me <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27695', "The Elementium Axe <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27696', "The Elementium Axe <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27700', "Dragon, Unchained <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27701', "Dragon, Unchained <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27702', "Coup de Grace <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27703', "Coup de Grace <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27657', "Help from the Earthcaller <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27658', "Help from the Earthcaller <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27588', "Signal the Attack <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27590', "Signal the Attack <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27500', "Four Heads are Better than None <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27608', "Four Heads are Better than None <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27501', "Four Heads are Better than None <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27502', "Up to the Citadel <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27503', "Up to the Citadel <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27636', "Just You and Mathias <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27638', "Just You and Garona <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27652', "Dark Assassins <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27653', "Dark Assassins <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27654', "Bring the Hammer Down <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27655', "Bring the Hammer Down <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27688', "Distract Them for Me <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27689', "Distract Them for Me <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27695', "The Elementium Axe <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27696', "The Elementium Axe <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27700', "Dragon, Unchained <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27701', "Dragon, Unchained <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27702', "Coup de Grace <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27703', "Coup de Grace <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27657', "Help from the Earthcaller <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27658', "Help from the Earthcaller <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27660', "Spirit of the Loch", %multiuserquests);
 	BNet::Utils::preprint ($count, '27659', "Portal Overload", %multiuserquests);
 	BNet::Utils::preprint ($count, '27662', "Unbinding", %multiuserquests);
 	BNet::Utils::preprint ($count, '27661', "Fire the Cannon", %multiuserquests);
-	BNet::Utils::preprint ($count, '27719', "Water of Life <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27798', "Water of Life <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27711', "Back to the Elementium Depths <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27712', "Back to the Elementium Depths <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27720', "Mr. Goldmine's Wild Ride <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '28885', "Mr. Goldmine's Wild Ride <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27719', "Water of Life <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27798', "Water of Life <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27711', "Back to the Elementium Depths <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27712', "Back to the Elementium Depths <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27720', "Mr. Goldmine's Wild Ride <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28885', "Mr. Goldmine's Wild Ride <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27742', "A Little on the Side", %multiuserquests);
 	BNet::Utils::preprint ($count, '27743', "While We're Here", %multiuserquests);
 	BNet::Utils::preprint ($count, '27744', "Rune Ruination", %multiuserquests);
 	BNet::Utils::preprint ($count, '27745', "A Fiery Reunion", %multiuserquests);
 	BNet::Utils::preprint ($count, '27782', "Mathias Needs You", %multiuserquests);
 	BNet::Utils::preprint ($count, '27783', "Garona Needs You", %multiuserquests);
-	BNet::Utils::preprint ($count, '27784', "The Hammer of Twilight <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27786', "The Hammer of Twilight <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27787', "Skullcrusher the Mountain <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27788', "Skullcrusher the Mountain <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27784', "The Hammer of Twilight <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27786', "The Hammer of Twilight <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27787', "Skullcrusher the Mountain <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27788', "Skullcrusher the Mountain <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::groupheader ("84-90: Twilight Highlands: The Crucible of Carnage");
 	BNet::Utils::preprint ($count, '28038', "Blood in the Highlands", %multiuserquests);
 	BNet::Utils::preprint ($count, '27861', "The Crucible of Carnage: The Bloodeye Bruiser!", %multiuserquests);
 	BNet::Utils::preprint ($count, '27862', "The Crucible of Carnage: The Bloodeye Bruiser!", %multiuserquests);
 	BNet::Utils::preprint ($count, '27863', "The Crucible of Carnage: The Bloodeye Bruiser!", %multiuserquests);
-	BNet::Utils::preprint ($count, '27864', "The Crucible of Carnage: The Deadly Dragonmaw! <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27865', "The Crucible of Carnage: The Wayward Wildhammer! <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27864', "The Crucible of Carnage: The Deadly Dragonmaw! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '27865', "The Crucible of Carnage: The Wayward Wildhammer! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27866', "The Crucible of Carnage: Calder's Creation!", %multiuserquests);
 	BNet::Utils::preprint ($count, '27867', "The Crucible of Carnage: The Earl of Evisceration!", %multiuserquests);
 	BNet::Utils::preprint ($count, '27868', "The Crucible of Carnage: The Twilight Terror!", %multiuserquests);
+
 }
 
-
-sub z_85_Molten_Front ($%) {
+sub z_85_Molten_Front($%) {
 	my ($count, %multiuserquests) = @_;
-	
+
+	BNet::Utils::groupheader ("85: Molten Front: The Invasion");
+	BNet::Utils::preprint ($count, '29391', "Guardians of Hyjal: Call of the Ancients <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29390', "Guardians of Hyjal: Call of the Ancients <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29387', "Guardians of Hyjal: Firelands Invasion! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29388', "Guardians of Hyjal: Firelands Invasion! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29145', "Opening the Door", %multiuserquests);
+	BNet::Utils::preprint ($count, '29195', "A Ritual of Flame", %multiuserquests);
+	BNet::Utils::preprint ($count, '29196', "To the Sanctuary!", %multiuserquests);
+	BNet::Utils::preprint ($count, '29197', "Caught Unawares", %multiuserquests);
+	BNet::Utils::preprint ($count, '29198', "The Sanctuary Must Not Fall", %multiuserquests);
+	BNet::Utils::groupheader ("85: Molten Front: The Sanctuary of Malorn");
+	BNet::Utils::preprint ($count, '29199', "Calling for Reinforcements", %multiuserquests);
+	BNet::Utils::preprint ($count, '29200', "Leyara", %multiuserquests);
+	BNet::Utils::preprint ($count, '29201', "Through the Gates of Hell", %multiuserquests);
+	BNet::Utils::groupheader ("85: Molten Front: Druids of the Talon");
+	BNet::Utils::preprint ($count, '29181', "Druids of the Talon", %multiuserquests);
+	BNet::Utils::preprint ($count, '29182', "Flight of the Storm Crows", %multiuserquests);
+	BNet::Utils::preprint ($count, '29272', "Need... Water... Badly...", %multiuserquests);
+	BNet::Utils::groupheader ("85: Molten Front: The Shadow Wardens");
+	BNet::Utils::preprint ($count, '29214', "The Shadow Wardens", %multiuserquests);
+	BNet::Utils::preprint ($count, '29215', "The Hunt Begins", %multiuserquests);
+	BNet::Utils::preprint ($count, '29245', "The Mysterious Seed", %multiuserquests);
+	BNet::Utils::preprint ($count, '29249', "Planting Season", %multiuserquests);
+	BNet::Utils::preprint ($count, '29254', "Little Lasher", %multiuserquests);
+	BNet::Utils::preprint ($count, '29204', "The Warden's Charge", %multiuserquests);
+	BNet::Utils::preprint ($count, '29204', "The Forlorn Spire", %multiuserquests);
+	BNet::Utils::groupheader ("85: Molten Front: Additional Armaments");
+	BNet::Utils::preprint ($count, '29281', "Additional Armaments", %multiuserquests);
+	BNet::Utils::preprint ($count, '29282', "Well Armed", %multiuserquests);
+	BNet::Utils::groupheader ("85: Molten Front: Calling the Ancients");
+	BNet::Utils::preprint ($count, '29283', "Calling the Ancients", %multiuserquests);
+	BNet::Utils::preprint ($count, '29284', "Aid of the Ancients", %multiuserquests);
+	BNet::Utils::groupheader ("85: Molten Front: Filling the Moonwell");
+	BNet::Utils::preprint ($count, '29279', "Filling the Moonwell", %multiuserquests);
+	BNet::Utils::preprint ($count, '29280', "Nourishing Waters", %multiuserquests);
+	BNet::Utils::preprint ($count, '29203', "Into the Depths", %multiuserquests);
+	BNet::Utils::preprint ($count, '29298', "A Smoke-Stained Locket", %multiuserquests);
+	BNet::Utils::preprint ($count, '29302', "Unlocking the Secrets Within", %multiuserquests);
+	BNet::Utils::preprint ($count, '29303', "Tragedy and Family", %multiuserquests);
+	BNet::Utils::preprint ($count, '29310', "The Tipping Point", %multiuserquests);
+	BNet::Utils::preprint ($count, '29311', "The Rest is History", %multiuserquests);
+	BNet::Utils::preprint ($count, '29243', "Strike at the Heart", %multiuserquests);
+
 }
+
 
 1;
+
