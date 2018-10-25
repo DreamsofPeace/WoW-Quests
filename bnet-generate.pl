@@ -2134,9 +2134,8 @@ sub __main__() {
 			BNet::Quests_KD::sz_01_20_Mulgore ($count, %multiuserquests);
 			BNet::Quests_KD::sz_01_20_Teldrassil ($count, %multiuserquests);
 			BNet::Quests_Wrath::sz_55_58_Scarlet_Enclave ($count, %multiuserquests);
+			BNet::Quests_Cata::sz_01_05_Gilneas_City ($count, %multiuserquests);
 			BNet::Quests_Cata::sz_01_20_Gilneas ($count, %multiuserquests);
-			BNet::Quests_Cata::sz_01_20_Gilneas ($count, %multiuserquests);
-			BNet::Quests_Cata::sz_10_60_Ruins_of_Gilneas ($count, %multiuserquests);
 			BNet::Quests_Cata::sz_01_05_Kezan ($count, %multiuserquests);
 			BNet::Quests_Cata::sz_01_10_Lost_Isles ($count, %multiuserquests);
 			BNet::Quests_Mists::sz_01_10_Wandering_Isle ($count, %multiuserquests);
@@ -2144,6 +2143,7 @@ sub __main__() {
 		##Eastern Kingdoms
 			BNet::Quests_EK::z_10_60_Ghostlands ($count, %multiuserquests);
 			BNet::Quests_EK::z_10_60_Loch_Modan ($count, %multiuserquests);
+			BNet::Quests_Cata::sz_10_60_Ruins_of_Gilneas ($count, %multiuserquests);
 			BNet::Quests_EK::z_10_60_Silverpine_Forest ($count, %multiuserquests);
 			BNet::Quests_EK::z_10_60_Westfall ($count, %multiuserquests);
 			BNet::Quests_EK::z_15_60_Redridge_Mountains ($count, %multiuserquests);

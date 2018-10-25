@@ -818,4 +818,4 @@ z_40_60_Blasted_Lands	26187	The Downfall of Marl Wormthorn	alliance
 z_40_60_Blasted_Lands	25720	The Downfall of Marl Wormthorn	horde				
 z_40_60_Blasted_Lands	28705	Warchief's Command: Outland!	horde				
 z_40_60_Blasted_Lands	25707	The Future of the Rockpool				
-z_55_56_Deadwind_Pass	header	Deadwind Pass
+z_55_56_Deadwind_Pass	header	Deadwind Pass				

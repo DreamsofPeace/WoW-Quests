@@ -20,7 +20,7 @@ sub sz_01_20_Gilneas($%) {
 sub sz_10_60_Ruins_of_Gilneas($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Ruins of Filneas <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
+	BNet::Utils::groupheader ("Ruins of Gilneas <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 
 }
 
@@ -567,10 +567,7 @@ sub z_84_90_Twilight_Highlands($%) {
 	BNet::Utils::preprint ($count, '27495', "Move the Mountain <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27498', "Signal the Attack", %multiuserquests);
 	BNet::Utils::preprint ($count, '27499', "Signal the Attack", %multiuserquests);
-	BNet::Utils::preprint ($count, '27588', "Signal the Attack <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27590', "Signal the Attack <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27500', "Four Heads are Better than None <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '27608', "Four Heads are Better than None <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27501', "Four Heads are Better than None <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27502', "Up to the Citadel <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27503', "Up to the Citadel <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);

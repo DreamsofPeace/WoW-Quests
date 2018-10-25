@@ -1,6 +1,6 @@
 sz_01_05_Gilneas_City	header	Gilneas City	alliance		
 sz_01_20_Gilneas	header	Gilneas	alliance		
-sz_10_60_Ruins_of_Gilneas	header	Ruins of Filneas	alliance		
+sz_10_60_Ruins_of_Gilneas	header	Ruins of Gilneas	alliance		
 sz_01_05_Kezan	header	01-05: Kezan	horde		
 sz_01_10_Lost_Isles	header	01-20:Lost Isles	horde		
 z_80_90_Mount_Hyjal	header	80-90: Mount Hyjal: Intro			
@@ -134,136 +134,136 @@ z_80_90_Mount_Hyjal	25644	The Twilight Egg
 z_80_90_Mount_Hyjal	29234	Delegation			
 z_80_90_Mount_Hyjal	29437	The Fallen Guardian			
 z_80_90_Vashjir	header	Vash'jir			
-z_82_90_Deepholm	header	82-90: Deepholm: Intro		
-z_82_90_Deepholm	27722	Warchief's Command: Deepholm!	horde	
-z_82_90_Deepholm	27722	Hero's Call: Deepholm!	alliance	
-z_82_90_Deepholm	27203	The Maelstrom		
-z_82_90_Deepholm	27123	Deepholm, Realm of Earth		
-z_82_90_Deepholm	header	82-90: Deepholm: Upper World Pillar Fragment		
-z_82_90_Deepholm	26245	Gunship Down		
-z_82_90_Deepholm	26246	Captain's Log		
-z_82_90_Deepholm	27136	Elemental Energy		
-z_82_90_Deepholm	26244	The Earth Claims All		
-z_82_90_Deepholm	26247	Diplomacy First		
-z_82_90_Deepholm	26248	All Our Friends Are Dead		
-z_82_90_Deepholm	26249	The Admiral's Cabin		
-z_82_90_Deepholm	26427	Without a Captain or Crew		
-z_82_90_Deepholm	26251	Take No Prisoners		
-z_82_90_Deepholm	26250	On Second Thought, Take One Prisoner		
-z_82_90_Deepholm	26254	Some Spraining to Do		
-z_82_90_Deepholm	26255	Return to the Temple of Earth		
-z_82_90_Deepholm	26258	Deathwing's Fall		
-z_82_90_Deepholm	26259	Blood of the Earthwarder		
-z_82_90_Deepholm	26256	Bleed the Bloodshaper		
-z_82_90_Deepholm	26261	Question the Slaves		
-z_82_90_Deepholm	26260	The Forgemaster's Log		
-z_82_90_Deepholm	27007	Silvermarsh Rendezvous		
-z_82_90_Deepholm	27010	Quicksilver Submersion		
-z_82_90_Deepholm	27100	Twilight Research		
-z_82_90_Deepholm	27101	Maziel's Revelation		
-z_82_90_Deepholm	27102	Maziel's Ascendancy		
-z_82_90_Deepholm	27061	The Twilight Overlook		
-z_82_90_Deepholm	26766	Big Game, Big Bait		
-z_82_90_Deepholm	26768	To Catch a Dragon		
-z_82_90_Deepholm	26771	Testing the Trap		
-z_82_90_Deepholm	26857	Abyssion's Minions		
-z_82_90_Deepholm	26861	Block the Gates		
-z_82_90_Deepholm	26876	The World Pillar Fragment		
-z_82_90_Deepholm	header	82-90: Deepholm: Middle World Pillar Fragment		
-z_82_90_Deepholm	26409	Where's Goldmine?		
-z_82_90_Deepholm	26410	Explosive Bonding Compound		
-z_82_90_Deepholm	27135	Something that Burns		
-z_82_90_Deepholm	26411	Apply and Flash Dry		
-z_82_90_Deepholm	26413	Take Him to the Earthcaller		
-z_82_90_Deepholm	26484	To Stonehearth's Aid		
-z_82_90_Deepholm	27931	The Quaking Fields		
-z_82_90_Deepholm	27932	The Axe of Earthly Sundering		
-z_82_90_Deepholm	27933	Elemental Ore		
-z_82_90_Deepholm	27934	One With the Ground		
-z_82_90_Deepholm	27935	Bring Down the Avalanche		
-z_82_90_Deepholm	26499	Stonefather's Boon		
-z_82_90_Deepholm	26501	Sealing the Way		
-z_82_90_Deepholm	26500	We're Surrounded		
-z_82_90_Deepholm	26502	Thunder Stones		
-z_82_90_Deepholm	26537	Shatter Them!		
-z_82_90_Deepholm	26564	Fixer Upper		
-z_82_90_Deepholm	26591	Battlefront Triage		
-z_82_90_Deepholm	26625	Troggzor the Earthinator		
-z_82_90_Deepholm	27126	Rush Delivery		
-z_82_90_Deepholm	26632	Close Escort		
-z_82_90_Deepholm	26755	Keep Them off the Front		
-z_82_90_Deepholm	26762	Reactivate the Constructs		
-z_82_90_Deepholm	26770	Mystic Masters		
-z_82_90_Deepholm	26834	Down Into the Chasm		
-z_82_90_Deepholm	26791	Sprout No More		
-z_82_90_Deepholm	26792	Fungal Monstrosities		
-z_82_90_Deepholm	26835	A Slight Problem		
-z_82_90_Deepholm	26836	Rescue the Stonefather... and Flint		
-z_82_90_Deepholm	27937	The Hero Returns		
-z_82_90_Deepholm	27938	The Middle Fragment		
-z_82_90_Deepholm	header	82-90: Deepholm: Lower World Pillar Fragment		
-z_82_90_Deepholm	26326	The Very Earth Beneath Our Feet		
-z_82_90_Deepholm	26312	Crumbling Defenses		
-z_82_90_Deepholm	26313	Core of Our Troubles		
-z_82_90_Deepholm	26314	On Even Ground		
-z_82_90_Deepholm	26315	Imposing Confrontation		
-z_82_90_Deepholm	26328	Rocky Relations		
-z_82_90_Deepholm	26375	Loose Stones		
-z_82_90_Deepholm	26376	Hatred Runs Deep		
-z_82_90_Deepholm	26377	Unsolid Ground		
-z_82_90_Deepholm	26426	Violent Gale		
-z_82_90_Deepholm	26869	Depth of the Depths		
-z_82_90_Deepholm	26871	A Rock Amongst Many		
-z_82_90_Deepholm	26436	Entrenched		
-z_82_90_Deepholm	26437	Making Things Crystal Clear		
-z_82_90_Deepholm	26438	Intervention		
-z_82_90_Deepholm	26439	Putting the Pieces Together		
-z_82_90_Deepholm	28869	Pebble		
-z_82_90_Deepholm	26440	Clingy		
-z_82_90_Deepholm	26441	So Big, So Round...		
-z_82_90_Deepholm	26575	Rock Bottom		
-z_82_90_Deepholm	26507	Petrified Delicacies		
-z_82_90_Deepholm	26576	Steady Hand		
-z_82_90_Deepholm	26656	Don't. Stop. Moving.		
-z_82_90_Deepholm	26657	Hard Falls		
-z_82_90_Deepholm	26658	Fragile Values		
-z_82_90_Deepholm	26659	Resonating Blow		
-z_82_90_Deepholm	26577	Rocky Upheaval		
-z_82_90_Deepholm	26578	Doomshrooms		
-z_82_90_Deepholm	26579	Gone Soft		
-z_82_90_Deepholm	26580	Familiar Intruders		
-z_82_90_Deepholm	26581	A Head Full of Wind		
-z_82_90_Deepholm	26582	Unnatural Causes		
-z_82_90_Deepholm	26583	Wrath of the Fungalmancer		
-z_82_90_Deepholm	26584	Shaken and Stirred		
-z_82_90_Deepholm	26585	Corruption Destruction		
-z_82_90_Deepholm	26750	At the Stonemother's Call		
-z_82_90_Deepholm	26752	Audience with the Stonemother		
-z_82_90_Deepholm	26827	Rallying the Earthen Ring		
-z_82_90_Deepholm	26828	Our Part of the Bargain		
-z_82_90_Deepholm	26829	The Stone March		
-z_82_90_Deepholm	26832	Therazane's Mercy		
-z_82_90_Deepholm	26831	The Twilight Flight		
-z_82_90_Deepholm	26833	Word In Stone		
-z_82_90_Deepholm	26875	Undying Twilight		
-z_82_90_Deepholm	26971	The Binding		
-z_82_90_Deepholm	26709	The Stone Throne		
-z_82_90_Deepholm	header	82-90: Deepholm: To Uldum	alliance	
-z_82_90_Deepholm	27952	The Explorers		
-z_82_90_Deepholm	27004	The Twilight Plot		
-z_82_90_Deepholm	27006	Fly Over		
-z_82_90_Deepholm	27040	Decryption Made Easy		
-z_82_90_Deepholm	27042	Fight Fire and Water and Air with...		
-z_82_90_Deepholm	27058	The Wrong Sequence		
-z_82_90_Deepholm	28292	That's No Pyramid!		
-z_82_90_Deepholm	header	82-90: Deepholm: To Uldum	horde	
-z_82_90_Deepholm	27953	The Reliquary		
-z_82_90_Deepholm	27005	The Twilight Plot		
-z_82_90_Deepholm	27008	Fly Over		
-z_82_90_Deepholm	27041	Decryption Made Easy		
-z_82_90_Deepholm	27043	Fight Fire and Water and Air with...		
-z_82_90_Deepholm	27059	The Wrong Sequence		
-z_82_90_Deepholm	28293	That's No Pyramid!		
+z_82_90_Deepholm	header	82-90: Deepholm: Intro			
+z_82_90_Deepholm	27722	Warchief's Command: Deepholm!	horde		
+z_82_90_Deepholm	27722	Hero's Call: Deepholm!	alliance		
+z_82_90_Deepholm	27203	The Maelstrom			
+z_82_90_Deepholm	27123	Deepholm, Realm of Earth			
+z_82_90_Deepholm	header	82-90: Deepholm: Upper World Pillar Fragment			
+z_82_90_Deepholm	26245	Gunship Down			
+z_82_90_Deepholm	26246	Captain's Log			
+z_82_90_Deepholm	27136	Elemental Energy			
+z_82_90_Deepholm	26244	The Earth Claims All			
+z_82_90_Deepholm	26247	Diplomacy First			
+z_82_90_Deepholm	26248	All Our Friends Are Dead			
+z_82_90_Deepholm	26249	The Admiral's Cabin			
+z_82_90_Deepholm	26427	Without a Captain or Crew			
+z_82_90_Deepholm	26251	Take No Prisoners			
+z_82_90_Deepholm	26250	On Second Thought, Take One Prisoner			
+z_82_90_Deepholm	26254	Some Spraining to Do			
+z_82_90_Deepholm	26255	Return to the Temple of Earth			
+z_82_90_Deepholm	26258	Deathwing's Fall			
+z_82_90_Deepholm	26259	Blood of the Earthwarder			
+z_82_90_Deepholm	26256	Bleed the Bloodshaper			
+z_82_90_Deepholm	26261	Question the Slaves			
+z_82_90_Deepholm	26260	The Forgemaster's Log			
+z_82_90_Deepholm	27007	Silvermarsh Rendezvous			
+z_82_90_Deepholm	27010	Quicksilver Submersion			
+z_82_90_Deepholm	27100	Twilight Research			
+z_82_90_Deepholm	27101	Maziel's Revelation			
+z_82_90_Deepholm	27102	Maziel's Ascendancy			
+z_82_90_Deepholm	27061	The Twilight Overlook			
+z_82_90_Deepholm	26766	Big Game, Big Bait			
+z_82_90_Deepholm	26768	To Catch a Dragon			
+z_82_90_Deepholm	26771	Testing the Trap			
+z_82_90_Deepholm	26857	Abyssion's Minions			
+z_82_90_Deepholm	26861	Block the Gates			
+z_82_90_Deepholm	26876	The World Pillar Fragment			
+z_82_90_Deepholm	header	82-90: Deepholm: Middle World Pillar Fragment			
+z_82_90_Deepholm	26409	Where's Goldmine?			
+z_82_90_Deepholm	26410	Explosive Bonding Compound			
+z_82_90_Deepholm	27135	Something that Burns			
+z_82_90_Deepholm	26411	Apply and Flash Dry			
+z_82_90_Deepholm	26413	Take Him to the Earthcaller			
+z_82_90_Deepholm	26484	To Stonehearth's Aid			
+z_82_90_Deepholm	27931	The Quaking Fields			
+z_82_90_Deepholm	27932	The Axe of Earthly Sundering			
+z_82_90_Deepholm	27933	Elemental Ore			
+z_82_90_Deepholm	27934	One With the Ground			
+z_82_90_Deepholm	27935	Bring Down the Avalanche			
+z_82_90_Deepholm	26499	Stonefather's Boon			
+z_82_90_Deepholm	26501	Sealing the Way			
+z_82_90_Deepholm	26500	We're Surrounded			
+z_82_90_Deepholm	26502	Thunder Stones			
+z_82_90_Deepholm	26537	Shatter Them!			
+z_82_90_Deepholm	26564	Fixer Upper			
+z_82_90_Deepholm	26591	Battlefront Triage			
+z_82_90_Deepholm	26625	Troggzor the Earthinator			
+z_82_90_Deepholm	27126	Rush Delivery			
+z_82_90_Deepholm	26632	Close Escort			
+z_82_90_Deepholm	26755	Keep Them off the Front			
+z_82_90_Deepholm	26762	Reactivate the Constructs			
+z_82_90_Deepholm	26770	Mystic Masters			
+z_82_90_Deepholm	26834	Down Into the Chasm			
+z_82_90_Deepholm	26791	Sprout No More			
+z_82_90_Deepholm	26792	Fungal Monstrosities			
+z_82_90_Deepholm	26835	A Slight Problem			
+z_82_90_Deepholm	26836	Rescue the Stonefather... and Flint			
+z_82_90_Deepholm	27937	The Hero Returns			
+z_82_90_Deepholm	27938	The Middle Fragment			
+z_82_90_Deepholm	header	82-90: Deepholm: Lower World Pillar Fragment			
+z_82_90_Deepholm	26326	The Very Earth Beneath Our Feet			
+z_82_90_Deepholm	26312	Crumbling Defenses			
+z_82_90_Deepholm	26313	Core of Our Troubles			
+z_82_90_Deepholm	26314	On Even Ground			
+z_82_90_Deepholm	26315	Imposing Confrontation			
+z_82_90_Deepholm	26328	Rocky Relations			
+z_82_90_Deepholm	26375	Loose Stones			
+z_82_90_Deepholm	26376	Hatred Runs Deep			
+z_82_90_Deepholm	26377	Unsolid Ground			
+z_82_90_Deepholm	26426	Violent Gale			
+z_82_90_Deepholm	26869	Depth of the Depths			
+z_82_90_Deepholm	26871	A Rock Amongst Many			
+z_82_90_Deepholm	26436	Entrenched			
+z_82_90_Deepholm	26437	Making Things Crystal Clear			
+z_82_90_Deepholm	26438	Intervention			
+z_82_90_Deepholm	26439	Putting the Pieces Together			
+z_82_90_Deepholm	28869	Pebble			
+z_82_90_Deepholm	26440	Clingy			
+z_82_90_Deepholm	26441	So Big, So Round...			
+z_82_90_Deepholm	26575	Rock Bottom			
+z_82_90_Deepholm	26507	Petrified Delicacies			
+z_82_90_Deepholm	26576	Steady Hand			
+z_82_90_Deepholm	26656	Don't. Stop. Moving.			
+z_82_90_Deepholm	26657	Hard Falls			
+z_82_90_Deepholm	26658	Fragile Values			
+z_82_90_Deepholm	26659	Resonating Blow			
+z_82_90_Deepholm	26577	Rocky Upheaval			
+z_82_90_Deepholm	26578	Doomshrooms			
+z_82_90_Deepholm	26579	Gone Soft			
+z_82_90_Deepholm	26580	Familiar Intruders			
+z_82_90_Deepholm	26581	A Head Full of Wind			
+z_82_90_Deepholm	26582	Unnatural Causes			
+z_82_90_Deepholm	26583	Wrath of the Fungalmancer			
+z_82_90_Deepholm	26584	Shaken and Stirred			
+z_82_90_Deepholm	26585	Corruption Destruction			
+z_82_90_Deepholm	26750	At the Stonemother's Call			
+z_82_90_Deepholm	26752	Audience with the Stonemother			
+z_82_90_Deepholm	26827	Rallying the Earthen Ring			
+z_82_90_Deepholm	26828	Our Part of the Bargain			
+z_82_90_Deepholm	26829	The Stone March			
+z_82_90_Deepholm	26832	Therazane's Mercy			
+z_82_90_Deepholm	26831	The Twilight Flight			
+z_82_90_Deepholm	26833	Word In Stone			
+z_82_90_Deepholm	26875	Undying Twilight			
+z_82_90_Deepholm	26971	The Binding			
+z_82_90_Deepholm	26709	The Stone Throne			
+z_82_90_Deepholm	header	82-90: Deepholm: To Uldum	alliance		
+z_82_90_Deepholm	27952	The Explorers			
+z_82_90_Deepholm	27004	The Twilight Plot			
+z_82_90_Deepholm	27006	Fly Over			
+z_82_90_Deepholm	27040	Decryption Made Easy			
+z_82_90_Deepholm	27042	Fight Fire and Water and Air with...			
+z_82_90_Deepholm	27058	The Wrong Sequence			
+z_82_90_Deepholm	28292	That's No Pyramid!			
+z_82_90_Deepholm	header	82-90: Deepholm: To Uldum	horde		
+z_82_90_Deepholm	27953	The Reliquary			
+z_82_90_Deepholm	27005	The Twilight Plot			
+z_82_90_Deepholm	27008	Fly Over			
+z_82_90_Deepholm	27041	Decryption Made Easy			
+z_82_90_Deepholm	27043	Fight Fire and Water and Air with...			
+z_82_90_Deepholm	27059	The Wrong Sequence			
+z_82_90_Deepholm	28293	That's No Pyramid!			
 z_83_90_Uldum	header	83-90: Uldum (Unsorted)			
 z_83_90_Uldum	27003	Easy Money			
 z_83_90_Uldum	27141	Premature Explosionation			
@@ -505,10 +505,7 @@ z_84_90_Twilight_Highlands	27494	Move the Mountain	alliance
 z_84_90_Twilight_Highlands	27495	Move the Mountain	horde		
 z_84_90_Twilight_Highlands	27498	Signal the Attack			
 z_84_90_Twilight_Highlands	27499	Signal the Attack			
-z_84_90_Twilight_Highlands	27588	Signal the Attack	alliance		
-z_84_90_Twilight_Highlands	27590	Signal the Attack	horde		
 z_84_90_Twilight_Highlands	27500	Four Heads are Better than None	alliance		
-z_84_90_Twilight_Highlands	27608	Four Heads are Better than None	alliance		
 z_84_90_Twilight_Highlands	27501	Four Heads are Better than None	horde		
 z_84_90_Twilight_Highlands	27502	Up to the Citadel	alliance		
 z_84_90_Twilight_Highlands	27503	Up to the Citadel	horde		

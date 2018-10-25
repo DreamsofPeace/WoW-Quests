@@ -1,6 +1,6 @@
-z_110_120_Alliance_Tiragarde_Sound	header	110-120: Tiragarde Sound	alliance
-z_110_120_Alliance_Drustvar	header	110-120: Drustvar	alliance
-z_110_120_Alliance_Stormsong_Valley	header	110-120: Stormsong Valley	alliance
-z_110_120_Horde_Zuldazar	header	110-120: Zuldazar	horde
-z_110_120_Horde_Nazmir	header	110-120: Nazmir	horde
-z_110_120_Horde_Voldun	header	110-120: Voldun	horde
+z_110_120_Alliance_Tiragarde_Sound	header	110-120: Tiragarde Sound	alliance		
+z_110_120_Alliance_Drustvar	header	110-120: Drustvar	alliance		
+z_110_120_Alliance_Stormsong_Valley	header	110-120: Stormsong Valley	alliance		
+z_110_120_Horde_Zuldazar	header	110-120: Zuldazar	horde		
+z_110_120_Horde_Nazmir	header	110-120: Nazmir	horde		
+z_110_120_Horde_Voldun	header	110-120: Voldun	horde		

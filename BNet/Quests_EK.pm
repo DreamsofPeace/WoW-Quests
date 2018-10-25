@@ -961,6 +961,13 @@ sub z_40_60_Blasted_Lands($%) {
 
 }
 
+sub z_55_56_Deadwind_Pass($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Deadwind Pass");
+
+}
+
 
 1;
 
