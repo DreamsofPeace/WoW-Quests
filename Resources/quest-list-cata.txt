@@ -1,8 +1,227 @@
 sz_01_05_Gilneas_City	header	Gilneas City	alliance		
+sz_01_05_Gilneas_City	14078	Lockdown!	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14091	Something's Amiss	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14093	All Hell Breaks Loose	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14094	Salvage the Supplies	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14098	Evacuate the Merchant Square	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14099	Royal Orders	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14154	By the Skin of His Teeth	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14157	Old Divisions	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14159	The Rebel Lord's Arsenal	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14204	From the Shadows	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14212	Sacrifices	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14214	Message to Greymane	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14218	By Blood and Ash	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14221	Never Surrender, Sometimes Retreat	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14222	Last Stand	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14265	Your Instructor	alliance	class_warrior	race_worgen_female
+sz_01_05_Gilneas_City	14269	Someone's Looking for You	alliance	class_rogue	race_worgen_female
+sz_01_05_Gilneas_City	14273	Shady Associates	alliance	class_warlock	race_worgen_female
+sz_01_05_Gilneas_City	14275	Someone's Keeping Track of You	alliance	class_hunter	race_worgen_female
+sz_01_05_Gilneas_City	14277	Arcane Inquiries	alliance	class_mage	race_worgen_female
+sz_01_05_Gilneas_City	14278	Seek the Sister	alliance	class_priest	race_worgen_female
+sz_01_05_Gilneas_City	14280	The Winds Know Your Name... Apparently	alliance	class_druid	race_worgen_female
+sz_01_05_Gilneas_City	14285	Safety in Numbers	alliance	class_rogue	race_worgen_female
+sz_01_05_Gilneas_City	14286	Safety in Numbers	alliance	class_warrior	race_worgen_female
+sz_01_05_Gilneas_City	14287	Safety in Numbers	alliance	class_warlock	race_worgen_female
+sz_01_05_Gilneas_City	14288	Safety in Numbers	alliance	class_mage	race_worgen_female
+sz_01_05_Gilneas_City	14289	Safety in Numbers	alliance	class_priest	race_worgen_female
+sz_01_05_Gilneas_City	14290	Safety in Numbers	alliance	class_hunter	race_worgen_female
+sz_01_05_Gilneas_City	14291	Safety in Numbers	alliance	class_druid	race_worgen_female
+sz_01_05_Gilneas_City	14293	Save Krennan Aranas	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14294	Time to Regroup	alliance		race_worgen_female
+sz_01_05_Gilneas_City	14467	Alas, Gilneas!	alliance		race_worgen_female
+sz_01_05_Gilneas_City	24930	While You're At It	alliance		race_worgen_female
+sz_01_05_Gilneas_City	26129	Brothers In Arms	alliance		race_worgen_female
+sz_01_05_Gilneas_City	28850	The Prison Rooftop	alliance		race_worgen_female
 sz_01_20_Gilneas	header	Gilneas	alliance		
-sz_10_60_Ruins_of_Gilneas	header	Ruins of Gilneas	alliance		
+sz_01_20_Gilneas	14220	This Is the End	alliance		race_worgen_female
+sz_01_20_Gilneas	14272	Eviscerate	alliance	class_rogue	race_worgen_female
+sz_01_20_Gilneas	14274	Corruption	alliance	class_warlock	race_worgen_female
+sz_01_20_Gilneas	14313	Among Humans Again	alliance		race_worgen_female
+sz_01_20_Gilneas	14319	Further Treatment	alliance		race_worgen_female
+sz_01_20_Gilneas	14320	In Need of Ingredients	alliance		race_worgen_female
+sz_01_20_Gilneas	14321	Invasion	alliance		race_worgen_female
+sz_01_20_Gilneas	14336	Kill or Be Killed	alliance		race_worgen_female
+sz_01_20_Gilneas	14347	Hold the Line	alliance		race_worgen_female
+sz_01_20_Gilneas	14348	You Can't Take 'Em Alone	alliance		race_worgen_female
+sz_01_20_Gilneas	14366	Holding Steady	alliance		race_worgen_female
+sz_01_20_Gilneas	14367	The Allens' Storm Cellar	alliance		race_worgen_female
+sz_01_20_Gilneas	14368	Save the Children!	alliance		race_worgen_female
+sz_01_20_Gilneas	14369	Unleash the Beast	alliance		race_worgen_female
+sz_01_20_Gilneas	14375	Last Chance at Humanity	alliance		race_worgen_female
+sz_01_20_Gilneas	14382	Two By Sea	alliance		race_worgen_female
+sz_01_20_Gilneas	14386	Leader of the Pack	alliance		race_worgen_female
+sz_01_20_Gilneas	14395	Gasping for Breath	alliance		race_worgen_female
+sz_01_20_Gilneas	14396	As the Land Shatters	alliance		race_worgen_female
+sz_01_20_Gilneas	14397	Evacuation	alliance		race_worgen_female
+sz_01_20_Gilneas	14398	Grandma Wahl	alliance		race_worgen_female
+sz_01_20_Gilneas	14399	Grandma's Lost It Alright	alliance		race_worgen_female
+sz_01_20_Gilneas	14400	I Can't Wear This	alliance		race_worgen_female
+sz_01_20_Gilneas	14401	Grandma's Cat	alliance		race_worgen_female
+sz_01_20_Gilneas	14402	Ready to Go	alliance		race_worgen_female
+sz_01_20_Gilneas	14403	The Hayward Brothers	alliance		race_worgen_female
+sz_01_20_Gilneas	14404	Not Quite Shipshape	alliance		race_worgen_female
+sz_01_20_Gilneas	14405	Escape By Sea	alliance		race_worgen_female
+sz_01_20_Gilneas	14406	The Crowley Orchard	alliance		race_worgen_female
+sz_01_20_Gilneas	14412	Washed Up	alliance		race_worgen_female
+sz_01_20_Gilneas	14416	The Hungry Ettin	alliance		race_worgen_female
+sz_01_20_Gilneas	14463	Horses for Duskhaven	alliance		race_worgen_female
+sz_01_20_Gilneas	14465	To Greymane Manor	alliance		race_worgen_female
+sz_01_20_Gilneas	14466	The King's Observatory	alliance		race_worgen_female
+sz_01_20_Gilneas	24438	Exodus	alliance		race_worgen_female
+sz_01_20_Gilneas	24468	Stranded at the Marsh	alliance		race_worgen_female
+sz_01_20_Gilneas	24472	Introductions Are in Order	alliance		race_worgen_female
+sz_01_20_Gilneas	24483	Stormglen	alliance		race_worgen_female
+sz_01_20_Gilneas	24484	Pest Control	alliance		race_worgen_female
+sz_01_20_Gilneas	24495	Pieces of the Past	alliance		race_worgen_female
+sz_01_20_Gilneas	24501	Queen-Sized Troubles	alliance		race_worgen_female
+sz_01_20_Gilneas	24575	Liberation Day	alliance		race_worgen_female
+sz_01_20_Gilneas	24578	The Blackwald	alliance		race_worgen_female
+sz_01_20_Gilneas	24592	Betrayal at Tempest's Reach	alliance		race_worgen_female
+sz_01_20_Gilneas	24593	Neither Human Nor Beast	alliance		race_worgen_female
+sz_01_20_Gilneas	24602	Laid to Rest	alliance		race_worgen_female
+sz_01_20_Gilneas	24616	Losing Your Tail	alliance		race_worgen_female
+sz_01_20_Gilneas	24617	Tal'doren, the Wild Home	alliance		race_worgen_female
+sz_01_20_Gilneas	24627	At Our Doorstep	alliance		race_worgen_female
+sz_01_20_Gilneas	24628	Preparations	alliance		race_worgen_female
+sz_01_20_Gilneas	24646	Take Back What's Ours	alliance		race_worgen_female
+sz_01_20_Gilneas	24672	Onwards and Upwards	alliance		race_worgen_female
+sz_01_20_Gilneas	24673	Return to Stormglen	alliance		race_worgen_female
+sz_01_20_Gilneas	24674	Slaves to No One	alliance		race_worgen_female
+sz_01_20_Gilneas	24675	Last Meal	alliance		race_worgen_female
+sz_01_20_Gilneas	24676	Push Them Out	alliance		race_worgen_female
+sz_01_20_Gilneas	24677	Flank the Forsaken	alliance		race_worgen_female
+sz_01_20_Gilneas	24678	Knee-Deep	alliance		race_worgen_female
+sz_01_20_Gilneas	24679	Patriarch's Blessing	alliance		race_worgen_female
+sz_01_20_Gilneas	24680	Keel Harbor	alliance		race_worgen_female
+sz_01_20_Gilneas	24681	They Have Allies, But So Do We	alliance		race_worgen_female
+sz_01_20_Gilneas	24902	The Hunt For Sylvanas	alliance		race_worgen_female
+sz_01_20_Gilneas	24903	Vengeance or Survival	alliance		race_worgen_female
+sz_01_20_Gilneas	24904	The Battle for Gilneas City	alliance		race_worgen_female
+sz_01_20_Gilneas	24920	Slowing the Inevitable	alliance		race_worgen_female
+sz_01_20_Gilneas	26706	Endgame	alliance		race_worgen_female
+sz_01_20_Gilneas	14434	Rut'theran Village	alliance		race_worgen_female
+sz_10_60_Ruins_of_Gilneas	header	Ruins of Gilneas	horde		
+sz_10_60_Ruins_of_Gilneas	27290	To Forsaken Forward Command	horde		
+sz_10_60_Ruins_of_Gilneas	27322	Korok the Colossus			
+sz_10_60_Ruins_of_Gilneas	27333	Losing Ground	horde		
+sz_10_60_Ruins_of_Gilneas	27342	In Time, All Will Be Revealed	horde		
+sz_10_60_Ruins_of_Gilneas	27345	The F.C.D.	horde		
+sz_10_60_Ruins_of_Gilneas	27349	Break in Communications: Dreadwatch Outpost	horde		
+sz_10_60_Ruins_of_Gilneas	27350	Break in Communications: Rutsak's Guard			
+sz_10_60_Ruins_of_Gilneas	27360	Vengeance for Our Soldiers	horde		
+sz_10_60_Ruins_of_Gilneas	27364	On Whose Orders?	horde		
+sz_10_60_Ruins_of_Gilneas	27401	What Tomorrow Brings	horde		
+sz_10_60_Ruins_of_Gilneas	27405	Fall Back!			
+sz_10_60_Ruins_of_Gilneas	27406	A Man Named Godfrey	horde		
+sz_10_60_Ruins_of_Gilneas	27423	Resistance is Futile			
 sz_01_05_Kezan	header	01-05: Kezan	horde		
-sz_01_10_Lost_Isles	header	01-20:Lost Isles	horde		
+sz_01_05_Kezan	14069	Good Help is Hard to Find	horde		race_goblin_female
+sz_01_05_Kezan	14070	Do it Yourself	horde		race_goblin_female
+sz_01_05_Kezan	14071	Rolling with my Homies	horde		race_goblin_female
+sz_01_05_Kezan	14075	Trouble in the Mines	horde		race_goblin_female
+sz_01_05_Kezan	14109	The New You	horde		race_goblin_female
+sz_01_05_Kezan	14110	The New You	horde		race_goblin_female
+sz_01_05_Kezan	14113	Life of the Party	horde		race_goblin_female
+sz_01_05_Kezan	14115	Pirate Party Crashers	horde		race_goblin_female
+sz_01_05_Kezan	14116	The Uninvited Guest	horde		race_goblin_female
+sz_01_05_Kezan	14120	A Bazillion Macaroons?!	horde		race_goblin_female
+sz_01_05_Kezan	14121	Robbing Hoods	horde		race_goblin_female
+sz_01_05_Kezan	14122	The Great Bank Heist	horde		race_goblin_female
+sz_01_05_Kezan	14123	Waltz Right In	horde		race_goblin_female
+sz_01_05_Kezan	14124	Liberate the Kaja'mite	horde		race_goblin_female
+sz_01_05_Kezan	14125	447	horde		race_goblin_female
+sz_01_05_Kezan	14126	Life Savings	horde		race_goblin_female
+sz_01_05_Kezan	14138	Taking Care of Business	horde		race_goblin_female
+sz_01_05_Kezan	14153	Life of the Party	horde		race_goblin_female
+sz_01_05_Kezan	24488	The Replacements	horde		race_goblin_female
+sz_01_05_Kezan	24502	Necessary Roughness	horde		race_goblin_female
+sz_01_05_Kezan	24503	Fourth and Goal	horde		race_goblin_female
+sz_01_05_Kezan	24520	Give Sassy the News	horde		race_goblin_female
+sz_01_05_Kezan	24567	Report for Tryouts	horde		race_goblin_female
+sz_01_05_Kezan	25473	Kaja'Cola	horde		race_goblin_female
+sz_01_05_Kezan	26711	Off to the Bank	horde		race_goblin_female
+sz_01_05_Kezan	26712	Off to the Bank	horde		race_goblin_female
+sz_01_05_Kezan	28349	Megs in Marketing	horde		race_goblin_female
+sz_01_05_Kezan	28414	Fourth and Goal	horde		race_goblin_female
+sz_01_05_Kezan	28606	The Keys to the Hot Rod	horde		race_goblin_female
+sz_01_05_Kezan	28607	The Keys to the Hot Rod	horde		race_goblin_female
+sz_01_10_Lost_Isles	header	01-20: Lost Isles	horde		
+sz_01_10_Lost_Isles	14001	Goblin Escape Pods	horde		race_goblin_female
+sz_01_10_Lost_Isles	14014	Get Our Stuff Back!	horde		race_goblin_female
+sz_01_10_Lost_Isles	14019	Monkey Business	horde		race_goblin_female
+sz_01_10_Lost_Isles	14021	Miner Troubles	horde		race_goblin_female
+sz_01_10_Lost_Isles	14031	Capturing the Unknown	horde		race_goblin_female
+sz_01_10_Lost_Isles	14233	Orcs Can Write?	horde		race_goblin_female
+sz_01_10_Lost_Isles	14234	The Enemy of My Enemy	horde		race_goblin_female
+sz_01_10_Lost_Isles	14235	The Vicious Vale	horde		race_goblin_female
+sz_01_10_Lost_Isles	14236	Weed Whacker	horde		race_goblin_female
+sz_01_10_Lost_Isles	14237	Forward Movement	horde		race_goblin_female
+sz_01_10_Lost_Isles	14238	Infrared = Infradead	horde		race_goblin_female
+sz_01_10_Lost_Isles	14239	Don't Go Into the Light!	horde		race_goblin_female
+sz_01_10_Lost_Isles	14240	To the Cliffs	horde		race_goblin_female
+sz_01_10_Lost_Isles	14241	Get to the Gyrochoppa!	horde		race_goblin_female
+sz_01_10_Lost_Isles	14242	Precious Cargo	horde		race_goblin_female
+sz_01_10_Lost_Isles	14243	Warchief's Revenge	horde		race_goblin_female
+sz_01_10_Lost_Isles	14244	Up, Up &amp; Away!	horde		race_goblin_female
+sz_01_10_Lost_Isles	14245	It's a Town-In-A-Box	horde		race_goblin_female
+sz_01_10_Lost_Isles	14248	Help Wanted	horde		race_goblin_female
+sz_01_10_Lost_Isles	14303	Back to Aggra	horde		race_goblin_female
+sz_01_10_Lost_Isles	14326	Meet Me Up Top	horde		race_goblin_female
+sz_01_10_Lost_Isles	14445	Farewell, For Now	horde		race_goblin_female
+sz_01_10_Lost_Isles	14473	It's Our Problem Now	horde		race_goblin_female
+sz_01_10_Lost_Isles	14474	Goblin Escape Pods	horde		race_goblin_female
+sz_01_10_Lost_Isles	24671	Cluster Cluck	horde		race_goblin_female
+sz_01_10_Lost_Isles	24741	Trading Up	horde		race_goblin_female
+sz_01_10_Lost_Isles	24744	The Biggest Egg Ever	horde		race_goblin_female
+sz_01_10_Lost_Isles	24816	Who's Top of the Food Chain Now?	horde		race_goblin_female
+sz_01_10_Lost_Isles	24817	A Goblin in Shark's Clothing	horde		race_goblin_female
+sz_01_10_Lost_Isles	24856	Invasion Imminent!	horde		race_goblin_female
+sz_01_10_Lost_Isles	24858	Bilgewater Cartel Represent	horde		race_goblin_female
+sz_01_10_Lost_Isles	24859	Naga Hide	horde		race_goblin_female
+sz_01_10_Lost_Isles	24864	Irresistible Pool Pony	horde		race_goblin_female
+sz_01_10_Lost_Isles	24868	Surrender or Else!	horde		race_goblin_female
+sz_01_10_Lost_Isles	24897	Get Back to Town	horde		race_goblin_female
+sz_01_10_Lost_Isles	24901	Town-In-A-Box: Under Attack	horde		race_goblin_female
+sz_01_10_Lost_Isles	24924	Oomlot Village	horde		race_goblin_female
+sz_01_10_Lost_Isles	24925	Free the Captives	horde		race_goblin_female
+sz_01_10_Lost_Isles	24929	Send a Message	horde		race_goblin_female
+sz_01_10_Lost_Isles	24937	Oomlot Dealt With	horde		race_goblin_female
+sz_01_10_Lost_Isles	24940	Up the Volcano	horde		race_goblin_female
+sz_01_10_Lost_Isles	24942	Zombies vs. Super Booster Rocket Boots	horde		race_goblin_female
+sz_01_10_Lost_Isles	24945	Three Little Pygmies	horde		race_goblin_female
+sz_01_10_Lost_Isles	24946	Rockin' Powder	horde		race_goblin_female
+sz_01_10_Lost_Isles	24952	Rocket Boot Boost	horde		race_goblin_female
+sz_01_10_Lost_Isles	24954	Children of a Turtle God	horde		race_goblin_female
+sz_01_10_Lost_Isles	24958	Volcanoth!	horde		race_goblin_female
+sz_01_10_Lost_Isles	25023	Old Friends	horde		race_goblin_female
+sz_01_10_Lost_Isles	25024	Repel the Paratroopers	horde		race_goblin_female
+sz_01_10_Lost_Isles	25058	Mine Disposal, the Goblin Way	horde		race_goblin_female
+sz_01_10_Lost_Isles	25066	The Pride of Kezan	horde		race_goblin_female
+sz_01_10_Lost_Isles	25093	The Heads of the SI:7	horde		race_goblin_female
+sz_01_10_Lost_Isles	25098	The Warchief Wants You	horde		race_goblin_female
+sz_01_10_Lost_Isles	25099	Borrow Bastia	horde		race_goblin_female
+sz_01_10_Lost_Isles	25100	Let's Ride	horde		race_goblin_female
+sz_01_10_Lost_Isles	25109	The Gallywix Labor Mine	horde		race_goblin_female
+sz_01_10_Lost_Isles	25110	Kaja'Cola Gives You IDEAS! (TM)	horde		race_goblin_female
+sz_01_10_Lost_Isles	25122	Morale Boost	horde		race_goblin_female
+sz_01_10_Lost_Isles	25123	Throw It On the Ground!	horde		race_goblin_female
+sz_01_10_Lost_Isles	25125	Light at the End of the Tunnel	horde		race_goblin_female
+sz_01_10_Lost_Isles	25184	Wild Mine Cart Ride	horde		race_goblin_female
+sz_01_10_Lost_Isles	25200	Shredder Shutdown	horde		race_goblin_female
+sz_01_10_Lost_Isles	25201	The Ultimate Footbomb Uniform	horde		race_goblin_female
+sz_01_10_Lost_Isles	25202	The Fastest Way to His Heart	horde		race_goblin_female
+sz_01_10_Lost_Isles	25203	What Kind of Name is Chip, Anyway?	horde		race_goblin_female
+sz_01_10_Lost_Isles	25204	Release the Valves	horde		race_goblin_female
+sz_01_10_Lost_Isles	25207	Good-bye, Sweet Oil	horde		race_goblin_female
+sz_01_10_Lost_Isles	25213	The Slave Pits	horde		race_goblin_female
+sz_01_10_Lost_Isles	25214	Escape Velocity	horde		race_goblin_female
+sz_01_10_Lost_Isles	25243	She Loves Me, She Loves Me NOT!	horde		race_goblin_female
+sz_01_10_Lost_Isles	25244	What Kind of Name is Candy, Anyway?	horde		race_goblin_female
+sz_01_10_Lost_Isles	25251	Final Confrontation	horde		race_goblin_female
+sz_01_10_Lost_Isles	25265	Victory!	horde		race_goblin_female
+sz_01_10_Lost_Isles	27139	Hobart Needs You	horde		race_goblin_female
 z_80_90_Mount_Hyjal	header	80-90: Mount Hyjal: Intro			
 z_80_90_Mount_Hyjal	27726	Hero's Call: Mount Hyjal!	alliance		
 z_80_90_Mount_Hyjal	27721	Warchief's Command: Mount Hyjal!	horde		
@@ -133,7 +352,141 @@ z_80_90_Mount_Hyjal	25555	The Gatekeeper
 z_80_90_Mount_Hyjal	25644	The Twilight Egg			
 z_80_90_Mount_Hyjal	29234	Delegation			
 z_80_90_Mount_Hyjal	29437	The Fallen Guardian			
-z_80_90_Vashjir	header	Vash'jir			
+z_80_90_Vashjir	header	Vash'jir: Kelp'thar Forest			
+z_80_90_Vashjir	28825	A Personal Summons	alliance		
+z_80_90_Vashjir	28790	A Personal Summons	horde		
+z_80_90_Vashjir	28826	The Eye of the Storm	alliance		
+z_80_90_Vashjir	28805	The Eye of the Storm	horde		
+z_80_90_Vashjir	14481	Into The Abyss	alliance		
+z_80_90_Vashjir	27724	Hero's Call: Vashj'ir!	alliance		
+z_80_90_Vashjir	27718	Warchief's Command: Vashj'ir!	horde		
+z_80_90_Vashjir	28827	To the Depths	alliance		
+z_80_90_Vashjir	28816	To the Depths	horde		
+z_80_90_Vashjir	14482	Call of Duty	alliance		
+z_80_90_Vashjir	25924	Call of Duty	horde		
+z_80_90_Vashjir	24432	Sea Legs	alliance		
+z_80_90_Vashjir	25929	Sea Legs	horde		
+z_80_90_Vashjir	25281	Pay It Forward	alliance		
+z_80_90_Vashjir	25936	Pay It Forward	horde		
+z_80_90_Vashjir	25405	Rest For the Weary	alliance		
+z_80_90_Vashjir	25941	Rest For the Weary	horde		
+z_80_90_Vashjir	25357	Buy Us Some Time	alliance		
+z_80_90_Vashjir	25358	Nerve Tonic			
+z_80_90_Vashjir	25371	The Abyssal Ride			
+z_80_90_Vashjir	25377	The Horde's Hoard			
+z_80_90_Vashjir	25384	Raw Materials			
+z_80_90_Vashjir	25388	A Case of Crabs			
+z_80_90_Vashjir	25389	A Taste For Tail			
+z_80_90_Vashjir	25390	A Girl's Best Friend			
+z_80_90_Vashjir	25413	Change of Plans			
+z_80_90_Vashjir	25419	Lady La-La's Medallion			
+z_80_90_Vashjir	25459	Ophidophobia			
+z_80_90_Vashjir	25467	Kliklak's Craw			
+z_80_90_Vashjir	25477	Better Late Than Dead			
+z_80_90_Vashjir	25497	Back in the Saddle			
+z_80_90_Vashjir	25498	Shark Bait			
+z_80_90_Vashjir	25503	Blackfin's Booty			
+z_80_90_Vashjir	25545	To Arms!	alliance		
+z_80_90_Vashjir	25546	Traveling on Our Stomachs	alliance		
+z_80_90_Vashjir	25547	On Our Own Terms	alliance		
+z_80_90_Vashjir	25558	All or Nothing	alliance		
+z_80_90_Vashjir	25564	Stormwind Elite Aquatic and Land Forces	alliance		
+z_80_90_Vashjir	25587	Gimme Shelter!			
+z_80_90_Vashjir	25598	Ain't Too Proud to Beg			
+z_80_90_Vashjir	25602	Can't Start a Fire Without a Spark			
+z_80_90_Vashjir	25636	Starve a Fever, Feed a Cold			
+z_80_90_Vashjir	25638	A Desperate Plea			
+z_80_90_Vashjir	25651	Oh, the Insanity!			
+z_80_90_Vashjir	25657	Dah, Nunt... Dah, Nunt...			
+z_80_90_Vashjir	25666	Getting Your Hands Dirty			
+z_80_90_Vashjir	25670	DUN-dun-DUN-dun-DUN-dun			
+z_80_90_Vashjir	25732	A Bone to Pick			
+z_80_90_Vashjir	25737	Tenuous Negotiations			
+z_80_90_Vashjir	25738	Shallow End of the Gene Pool			
+z_80_90_Vashjir	25742	What? This Old Thing?			
+z_80_90_Vashjir	25743	Decisions, Decisions			
+z_80_90_Vashjir	25794	Undersea Sanctuary			
+z_80_90_Vashjir	25812	Spelunking	alliance		
+z_80_90_Vashjir	25824	Debriefing	alliance		
+z_80_90_Vashjir	25883	How Disarming			
+z_80_90_Vashjir	25884	Come Hell or High Water			
+z_80_90_Vashjir	25885	What? What? In My Gut...?	alliance		
+z_80_90_Vashjir	25887	Wake of Destruction			
+z_80_90_Vashjir	25888	Decompression	alliance		
+z_80_90_Vashjir	25942	Buy Us Some Time	horde		
+z_80_90_Vashjir	25943	Traveling on Our Stomachs	horde		
+z_80_90_Vashjir	25944	Girding Our Loins	horde		
+z_80_90_Vashjir	25946	Helm's Deep	horde		
+z_80_90_Vashjir	25947	Finders, Keepers	horde		
+z_80_90_Vashjir	25948	Bring It On!	horde		
+z_80_90_Vashjir	25949	Blood and Thunder!	horde		
+z_80_90_Vashjir	26000	Spelunking	horde		
+z_80_90_Vashjir	26007	Debriefing	horde		
+z_80_90_Vashjir	26008	Decompression	horde		
+z_80_90_Vashjir	26040	What? What? In My Gut...?	horde		
+z_80_90_Vashjir	27668	Pay Attention!	horde		
+z_80_90_Vashjir	27685	Good Deed Left Undone			
+z_80_90_Vashjir	27687	An Opened Can of Whoop Gnash			
+z_80_90_Vashjir	27699	Shark Weak			
+z_80_90_Vashjir	27708	The Warden's Time			
+z_80_90_Vashjir	27729	Once More, With Eeling			
+z_80_90_Vashjir	header	Vash'jir: Abyssal Depths			
+z_80_90_Vashjir	25950	Sira'kess Slaying	alliance		
+z_80_90_Vashjir	25974	Sira'kess Slaying	horde		
+z_80_90_Vashjir	25975	Treasure Reclamation	alliance		
+z_80_90_Vashjir	25976	Treasure Reclamation	horde		
+z_80_90_Vashjir	25977	A Standard Day for Azrajar	alliance		
+z_80_90_Vashjir	25980	A Standard Day for Azrajar	horde		
+z_80_90_Vashjir	25981	Those Aren't Masks	alliance		
+z_80_90_Vashjir	25982	Those Aren't Masks	horde		
+z_80_90_Vashjir	25983	Promontory Point	alliance		
+z_80_90_Vashjir	25984	Promontory Point	horde		
+z_80_90_Vashjir	25987	Put It On	alliance		
+z_80_90_Vashjir	25988	Put It On	horde		
+z_80_90_Vashjir	26014	The Brothers Digsong	alliance		
+z_80_90_Vashjir	26015	Phosphora Hunting	alliance		
+z_80_90_Vashjir	26017	A Lure	alliance		
+z_80_90_Vashjir	26018	Coldlights Out	alliance		
+z_80_90_Vashjir	26019	Enormous Eel Egg	alliance		
+z_80_90_Vashjir	26021	The Brothers Digsong 2: Eel-Egg-Trick Boogaloo	alliance		
+z_80_90_Vashjir	26056	The Wavespeaker	alliance		
+z_80_90_Vashjir	26057	The Wavespeaker	horde		
+z_80_90_Vashjir	26065	Free Wil'hai			
+z_80_90_Vashjir	26070	Clearing the Defiled	alliance		
+z_80_90_Vashjir	26071	Clearing the Defiled	horde		
+z_80_90_Vashjir	26072	Into the Totem			
+z_80_90_Vashjir	26080	One Last Favor	alliance		
+z_80_90_Vashjir	26086	Orako	horde		
+z_80_90_Vashjir	26087	Glow-Juice	horde		
+z_80_90_Vashjir	26088	Here Fishie Fishie	horde		
+z_80_90_Vashjir	26089	Die Fishman Die	horde		
+z_80_90_Vashjir	26090	I Brought You This Egg	horde		
+z_80_90_Vashjir	26091	Here Fishie Fishie 2: Eel-Egg-Trick Boogaloo	horde		
+z_80_90_Vashjir	26092	Orako's Report	horde		
+z_80_90_Vashjir	26096	Scalding Shrooms			
+z_80_90_Vashjir	26103	Bio-Fuel	alliance		
+z_80_90_Vashjir	26105	Claim Korthun's End	alliance		
+z_80_90_Vashjir	26106	Fuel-ology 101	alliance		
+z_80_90_Vashjir	26111	... It Will Come			
+z_80_90_Vashjir	26121	Claim Korthun's End	alliance		
+z_80_90_Vashjir	26122	Environmental Awareness	horde		
+z_80_90_Vashjir	26124	Secure Seabrush	horde		
+z_80_90_Vashjir	26125	Secure Seabrush	horde		
+z_80_90_Vashjir	26126	The Perfect Fuel	horde		
+z_80_90_Vashjir	26130	Unplug L'ghorek			
+z_80_90_Vashjir	26132	Fiends from the Netherworld	alliance		
+z_80_90_Vashjir	26133	Fiends from the Netherworld	horde		
+z_80_90_Vashjir	26140	Communing with the Ancient			
+z_80_90_Vashjir	26141	Runestones of Binding			
+z_80_90_Vashjir	26142	Ascend No More!			
+z_80_90_Vashjir	26143	All that Rises			
+z_80_90_Vashjir	26144	Prisoners	alliance		
+z_80_90_Vashjir	26149	Prisoners	horde		
+z_80_90_Vashjir	26154	Twilight Extermination			
+z_80_90_Vashjir	26181	Back to Darkbreak Cove	alliance		
+z_80_90_Vashjir	26182	Back to the Tenebrous Cavern	horde		
+z_80_90_Vashjir	26193	Defending the Rift	alliance		
+z_80_90_Vashjir	26194	Defending the Rift	horde		
 z_82_90_Deepholm	header	82-90: Deepholm: Intro			
 z_82_90_Deepholm	27722	Warchief's Command: Deepholm!	horde		
 z_82_90_Deepholm	27722	Hero's Call: Deepholm!	alliance		
