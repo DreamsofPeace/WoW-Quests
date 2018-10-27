@@ -92,7 +92,7 @@ sub sz_01_20_Elwynn_Forest($%) {
 	BNet::Utils::preprint ($count, '114', "The Escape <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '123', "The Collector <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '147', "Manhunt <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '176', "WANTED: "Hogger"", %multiuserquests);
+	BNet::Utils::preprint ($count, '176', "WANTED: \\\"Hogger\\\"", %multiuserquests);
 	BNet::Utils::preprint ($count, '239', "Westbrook Garrison Needs Help! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '2158', "Rest and Relaxation <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '5545', "A Bundle of Trouble <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
@@ -1037,8 +1037,8 @@ sub z_30_60_Cape_of_Stranglethorn($%) {
 	BNet::Utils::preprint ($count, '26822', "Good-Fer-Nothin' Slither-Dogs <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '26823', "Too Big For His Britches <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '26824', "Results: Inconclusive <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '26825', "Dask "The Flask" Gobfizzle <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '26826', "Dask "The Flask" Gobfizzle <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26825', "Dask \\\"The Flask\\\" Gobfizzle <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26826', "Dask \\\"The Flask\\\" Gobfizzle <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '26837', "The Explorers' League Digsite <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '26839', "Get Away From It All! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '28702', "Hero's Call: The Cape of Stranglethorn! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
