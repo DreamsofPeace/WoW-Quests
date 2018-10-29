@@ -195,7 +195,7 @@ sub reputation_warlords ($%) {
 #	BNet::Utils::preprintreputation($count, '1732', "Steamwheedle Draenor Expedition", %multirep);
 	BNet::Utils::preprintreputation($count, '1849', "Order of the Awakened", %multirep);
 	BNet::Utils::preprintreputation($count, '1850', "The Saberstalkers", %multirep);
-	BNet::Utils::preprintreputation($count, '1735', "Barracks Bodyguards", %multirep);
+#	BNet::Utils::preprintreputation($count, '1735', "Barracks Bodyguards", %multirep);
 	BNet::Utils::groupheader ("Warlords of Draenor: Barracks Bodyguards");
 	BNet::Utils::preprintreputation($count, '1741', "Leorajh", %multirep);
 	BNet::Utils::preprintreputation($count, '1736', "Tormmok", %multirep);
