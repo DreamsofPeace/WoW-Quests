@@ -78,7 +78,7 @@ sz_01_20_Elwynn_Forest	112	Collecting Kelp	alliance
 sz_01_20_Elwynn_Forest	114	The Escape	alliance		
 sz_01_20_Elwynn_Forest	123	The Collector	alliance		
 sz_01_20_Elwynn_Forest	147	Manhunt	alliance		
-sz_01_20_Elwynn_Forest	176	WANTED: "Hogger"			
+sz_01_20_Elwynn_Forest	176	WANTED: \\\"Hogger\\\"			
 sz_01_20_Elwynn_Forest	239	Westbrook Garrison Needs Help!	alliance		
 sz_01_20_Elwynn_Forest	2158	Rest and Relaxation	alliance		
 sz_01_20_Elwynn_Forest	5545	A Bundle of Trouble	alliance		
@@ -945,8 +945,8 @@ z_30_60_Cape_of_Stranglethorn	26821	Airwyn Bantamflax	alliance
 z_30_60_Cape_of_Stranglethorn	26822	Good-Fer-Nothin' Slither-Dogs	alliance		
 z_30_60_Cape_of_Stranglethorn	26823	Too Big For His Britches	alliance		
 z_30_60_Cape_of_Stranglethorn	26824	Results: Inconclusive	alliance		
-z_30_60_Cape_of_Stranglethorn	26825	Dask "The Flask" Gobfizzle	alliance		
-z_30_60_Cape_of_Stranglethorn	26826	Dask "The Flask" Gobfizzle	alliance		
+z_30_60_Cape_of_Stranglethorn	26825	Dask \\\"The Flask\\\" Gobfizzle	alliance		
+z_30_60_Cape_of_Stranglethorn	26826	Dask \\\"The Flask\\\" Gobfizzle	alliance		
 z_30_60_Cape_of_Stranglethorn	26837	The Explorers' League Digsite	alliance		
 z_30_60_Cape_of_Stranglethorn	26839	Get Away From It All!	alliance		
 z_30_60_Cape_of_Stranglethorn	28702	Hero's Call: The Cape of Stranglethorn!	alliance		
