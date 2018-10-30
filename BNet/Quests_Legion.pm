@@ -1141,6 +1141,28 @@ sub z_110_Argus($%) {
 
 }
 
+sub chromie($%) {
+	my ($count, %multiuserquests) = @_;
+
+	BNet::Utils::groupheader ("Chromie");
+	BNet::Utils::preprint ($count, '48021', "Chromie", %multiuserquests);
+	BNet::Utils::preprint ($count, '47543', "The Day That Chromie Dies", %multiuserquests);
+	BNet::Utils::preprint ($count, '47545', "Rewind", %multiuserquests);
+	BNet::Utils::preprint ($count, '47550', "The Many Advantages of Being a Time Dragon", %multiuserquests);
+	BNet::Utils::preprint ($count, '47557', "Smoldering Chronoshard", %multiuserquests);
+	BNet::Utils::preprint ($count, '47558', "Fel-Touched Chronoshard", %multiuserquests);
+	BNet::Utils::preprint ($count, '47559', "Gleaming Chronoshard", %multiuserquests);
+	BNet::Utils::preprint ($count, '47560', "Frozen Chronoshard", %multiuserquests);
+	BNet::Utils::preprint ($count, '47642', "Soul Crystal", %multiuserquests);
+	BNet::Utils::preprint ($count, '47643', "The Ancients' Wisdom", %multiuserquests);
+	BNet::Utils::preprint ($count, '47644', "Demonic Corestone", %multiuserquests);
+	BNet::Utils::preprint ($count, '47645', "Voidcallers' Scroll", %multiuserquests);
+	BNet::Utils::preprint ($count, '47807', "Worried About My Friends", %multiuserquests);
+	BNet::Utils::preprint ($count, '47904', "Preserve the True Future", %multiuserquests);
+	BNet::Utils::preprint ($count, '47906', "The Deaths of Chromie", %multiuserquests);
+
+}
+
 
 1;
 

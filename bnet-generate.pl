@@ -2269,7 +2269,7 @@ sub __main__() {
 
 		#Class Specific
 			BNet::Quests_Misc::class_quests ($count, %multiuserquests);
-		#	BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
+			BNet::Quests_Misc::warlock_green_fire ($count, %multiuserquests);
 
 		#Raids
 			BNet::Achievements::raid_30_os ($count, %multiusercriteria);
@@ -2281,13 +2281,13 @@ sub __main__() {
 		#
 		#
 		##Legendaries
-		##	BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
-		##	BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
-		##	BNet::Quests_Legendaries::legendary_shadowmourne ($count, %multiuserquests);
-		##	BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
-		##	BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
-		##	BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
-		##	BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
+			BNet::Quests_Legendaries::legendary_thunderfury ($count, %multiuserquests);
+			BNet::Quests_Legendaries::legendary_valanyr ($count, %multiuserquests);
+			BNet::Quests_Legendaries::legendary_shadowmourne ($count, %multiuserquests);
+			BNet::Quests_Legendaries::legendary_dragonwrath ($count, %multiuserquests);
+			BNet::Quests_Legendaries::legendary_rogue_daggers ($count, %multiuserquests);
+			BNet::Quests_Legendaries::legendary_cloak ($count, %multiuserquests);
+			BNet::Quests_Legendaries::legendary_ring ($count, %multiuserquests);
 		#
 		##Various Achievements
 		##	BNet::Achievements::p20_bloody_rare ($count, %multiusercriteria);
@@ -2310,16 +2310,16 @@ sub __main__() {
 			BNet::Achievements::p73_adventurer_of_argus ($count, %multiusercriteria);
 			BNet::Achievements::p73_invasion_lesser ($count, %multiusercriteria);
 			BNet::Achievements::p73_invasion_greater ($count, %multiusercriteria);
-		#	BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
-		#	BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
-		#
-		##	BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
-		##	BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
-		##	BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
+			BNet::Achievements::p70_archy_a_keen_eye ($count, %multiusercriteria);
+			BNet::Achievements::p70_archy_legion_curator ($count, %multiusercriteria);
+		
+			BNet::Achievements::p60_grand_treasure_hunter ($count, %multiusercriteria);
+			BNet::Achievements::p62_jungle_treasure_hunter ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_azsuna ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_valsharah ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_highmountain ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_stormheim ($count, %multiusercriteria);
+			BNet::Achievements::p70_treasures_of_suramar ($count, %multiusercriteria);
 			BNet::Achievements::p70_shoot_first_loot_later ($count, %multiusercriteria);
 			BNet::Achievements::feats_of_strength ($count, %multiusercriteria);
 
@@ -2405,7 +2405,6 @@ sub __main__() {
 		if (15 < $count) {
 			$rep{15} = { BNet::Utils::reputationtohash ($userinfo15r) };
 		}
-#		print Dumper (%rep);
 		BNet::Reputations::reputation ($count, %rep);
 	}
 }

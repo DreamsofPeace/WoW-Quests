@@ -1,4 +1,4 @@
-sz_01_05_Gilneas_City	header	Gilneas City	alliance		
+sz_01_05_Gilneas_City	header	01-05: Gilneas City	alliance		
 sz_01_05_Gilneas_City	14078	Lockdown!	alliance		race_worgen_female
 sz_01_05_Gilneas_City	14091	Something's Amiss	alliance		race_worgen_female
 sz_01_05_Gilneas_City	14093	All Hell Breaks Loose	alliance		race_worgen_female
@@ -34,7 +34,7 @@ sz_01_05_Gilneas_City	14467	Alas, Gilneas!	alliance		race_worgen_female
 sz_01_05_Gilneas_City	24930	While You're At It	alliance		race_worgen_female
 sz_01_05_Gilneas_City	26129	Brothers In Arms	alliance		race_worgen_female
 sz_01_05_Gilneas_City	28850	The Prison Rooftop	alliance		race_worgen_female
-sz_01_20_Gilneas	header	Gilneas	alliance		
+sz_01_20_Gilneas	header	01-20: Gilneas	alliance		
 sz_01_20_Gilneas	14220	This Is the End	alliance		race_worgen_female
 sz_01_20_Gilneas	14272	Eviscerate	alliance	class_rogue	race_worgen_female
 sz_01_20_Gilneas	14274	Corruption	alliance	class_warlock	race_worgen_female
@@ -102,7 +102,7 @@ sz_01_20_Gilneas	24904	The Battle for Gilneas City	alliance		race_worgen_female
 sz_01_20_Gilneas	24920	Slowing the Inevitable	alliance		race_worgen_female
 sz_01_20_Gilneas	26706	Endgame	alliance		race_worgen_female
 sz_01_20_Gilneas	14434	Rut'theran Village	alliance		race_worgen_female
-sz_10_60_Ruins_of_Gilneas	header	Ruins of Gilneas	horde		
+sz_10_60_Ruins_of_Gilneas	header	10:60 Ruins of Gilneas	horde		
 sz_10_60_Ruins_of_Gilneas	27290	To Forsaken Forward Command	horde		
 sz_10_60_Ruins_of_Gilneas	27322	Korok the Colossus			
 sz_10_60_Ruins_of_Gilneas	27333	Losing Ground	horde		
@@ -932,8 +932,6 @@ z_85_Molten_Front	29215	The Hunt Begins
 z_85_Molten_Front	29245	The Mysterious Seed			
 z_85_Molten_Front	29249	Planting Season			
 z_85_Molten_Front	29254	Little Lasher			
-z_85_Molten_Front	29204	The Warden's Charge			
-z_85_Molten_Front	29204	The Forlorn Spire			
 z_85_Molten_Front	header	85: Molten Front: Additional Armaments			
 z_85_Molten_Front	29281	Additional Armaments			
 z_85_Molten_Front	29282	Well Armed			
@@ -949,4 +947,3 @@ z_85_Molten_Front	29302	Unlocking the Secrets Within
 z_85_Molten_Front	29303	Tragedy and Family			
 z_85_Molten_Front	29310	The Tipping Point			
 z_85_Molten_Front	29311	The Rest is History			
-z_85_Molten_Front	29243	Strike at the Heart			

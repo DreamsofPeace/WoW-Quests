@@ -469,6 +469,54 @@ z_10_60_Westfall	43245	Invasion: Westfall
 z_10_60_Westfall	43287	Defend			
 z_10_60_Westfall	43288	Repel			
 z_15_60_Redridge_Mountains	header	15-60: Redridge Mountains			
+z_15_60_Redridge_Mountains	26365	Hero's Call: Redridge Mountains!	alliance		
+z_15_60_Redridge_Mountains	26503	Still Assessing the Threat	alliance		
+z_15_60_Redridge_Mountains	26504	WANTED: Redridge Gnolls	alliance		
+z_15_60_Redridge_Mountains	26505	Parker's Report	alliance		
+z_15_60_Redridge_Mountains	26506	Franks and Beans	alliance		
+z_15_60_Redridge_Mountains	26508	Nida's Necklace	alliance		
+z_15_60_Redridge_Mountains	26509	An Unwelcome Guest	alliance		
+z_15_60_Redridge_Mountains	26510	We Must Prepare!	alliance		
+z_15_60_Redridge_Mountains	26511	Lake Everstill Clean Up	alliance		
+z_15_60_Redridge_Mountains	26512	Tuning the Gnomecorder	alliance		
+z_15_60_Redridge_Mountains	26513	Like a Fart in the Wind	alliance		
+z_15_60_Redridge_Mountains	26514	Canyon Romp			
+z_15_60_Redridge_Mountains	26519	He Who Controls the Ettins	alliance		
+z_15_60_Redridge_Mountains	26520	Saving Foreman Oslow	alliance		
+z_15_60_Redridge_Mountains	26544	They've Wised Up...			
+z_15_60_Redridge_Mountains	26545	Yowler Must Die!	alliance		
+z_15_60_Redridge_Mountains	26560	Jorgensen	alliance		
+z_15_60_Redridge_Mountains	26561	Krakauer	alliance		
+z_15_60_Redridge_Mountains	26562	And Last But Not Least... Danforth	alliance		
+z_15_60_Redridge_Mountains	26563	Return of the Bravo Company	alliance		
+z_15_60_Redridge_Mountains	26567	John J. Keeshan	alliance		
+z_15_60_Redridge_Mountains	26568	This Ain't My War	alliance		
+z_15_60_Redridge_Mountains	26569	Surveying Equipment	alliance		
+z_15_60_Redridge_Mountains	26570	Render's Army	alliance		
+z_15_60_Redridge_Mountains	26571	Weapons of War	alliance		
+z_15_60_Redridge_Mountains	26573	His Heart Must Be In It	alliance		
+z_15_60_Redridge_Mountains	26586	In Search of Bravo Company	alliance		
+z_15_60_Redridge_Mountains	26587	Breaking Out is Hard to Do	alliance		
+z_15_60_Redridge_Mountains	26607	They Drew First Blood	alliance		
+z_15_60_Redridge_Mountains	26616	It's Never Over	alliance		
+z_15_60_Redridge_Mountains	26636	Bravo Company Field Kit: Camouflage	alliance		
+z_15_60_Redridge_Mountains	26637	Bravo Company Field Kit: Chloroform	alliance		
+z_15_60_Redridge_Mountains	26638	Hunting the Hunters	alliance		
+z_15_60_Redridge_Mountains	26639	Point of Contact: Brubaker	alliance		
+z_15_60_Redridge_Mountains	26640	Unspeakable Atrocities	alliance		
+z_15_60_Redridge_Mountains	26646	Prisoners of War	alliance		
+z_15_60_Redridge_Mountains	26651	To Win a War, You Gotta Become War	alliance		
+z_15_60_Redridge_Mountains	26668	Detonation	alliance		
+z_15_60_Redridge_Mountains	26692	Shadowhide Extinction	alliance		
+z_15_60_Redridge_Mountains	26693	The Dark Tower	alliance		
+z_15_60_Redridge_Mountains	26694	The Grand Magus Doane	alliance		
+z_15_60_Redridge_Mountains	26708	AHHHHHHHHHHHH! AHHHHHHHHH!!!	alliance		
+z_15_60_Redridge_Mountains	26713	Showdown at Stonewatch	alliance		
+z_15_60_Redridge_Mountains	26714	Darkblaze, Brood of the Worldbreaker	alliance		
+z_15_60_Redridge_Mountains	26726	Triumphant Return	alliance		
+z_15_60_Redridge_Mountains	26761	Threat to the Kingdom	alliance		
+z_15_60_Redridge_Mountains	28563	Hero's Call: Redridge Mountains!	alliance		
+z_15_60_Redridge_Mountains	33350	Redridge Group Trial		
 z_15_60_Hillsbrad_Foothills	header	Hillsbrad Foothills	horde		
 z_15_60_Hillsbrad_Foothills	27746	Empire of Dirt			
 z_15_60_Hillsbrad_Foothills	28089	Warchief's Command: Hillsbrad Foothills!			

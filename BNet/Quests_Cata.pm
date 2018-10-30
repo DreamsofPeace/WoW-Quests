@@ -6,7 +6,7 @@ use warnings;
 sub sz_01_05_Gilneas_City($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Gilneas City <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
+	BNet::Utils::groupheader ("01-05: Gilneas City <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprint ($count, '14078', "Lockdown! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '14091', "Something's Amiss <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '14093', "All Hell Breaks Loose <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
@@ -48,7 +48,7 @@ sub sz_01_05_Gilneas_City($%) {
 sub sz_01_20_Gilneas($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Gilneas <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
+	BNet::Utils::groupheader ("01-20: Gilneas <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
 	BNet::Utils::preprint ($count, '14220', "This Is the End <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '14272', "Eviscerate <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/class_rogue.jpg\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '14274', "Corruption <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\"> <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/class_warlock.jpg\">", %multiuserquests);
@@ -122,7 +122,7 @@ sub sz_01_20_Gilneas($%) {
 sub sz_10_60_Ruins_of_Gilneas($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("Ruins of Gilneas <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
+	BNet::Utils::groupheader ("10:60 Ruins of Gilneas <img src=\"https://wow.zamimg.com/images/icons/horde.png\">");
 	BNet::Utils::preprint ($count, '27290', "To Forsaken Forward Command <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '27322', "Korok the Colossus", %multiuserquests);
 	BNet::Utils::preprint ($count, '27333', "Losing Ground <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
@@ -1000,8 +1000,6 @@ sub z_85_Molten_Front($%) {
 	BNet::Utils::preprint ($count, '29245', "The Mysterious Seed", %multiuserquests);
 	BNet::Utils::preprint ($count, '29249', "Planting Season", %multiuserquests);
 	BNet::Utils::preprint ($count, '29254', "Little Lasher", %multiuserquests);
-	BNet::Utils::preprint ($count, '29204', "The Warden's Charge", %multiuserquests);
-	BNet::Utils::preprint ($count, '29204', "The Forlorn Spire", %multiuserquests);
 	BNet::Utils::groupheader ("85: Molten Front: Additional Armaments");
 	BNet::Utils::preprint ($count, '29281', "Additional Armaments", %multiuserquests);
 	BNet::Utils::preprint ($count, '29282', "Well Armed", %multiuserquests);
@@ -1017,7 +1015,6 @@ sub z_85_Molten_Front($%) {
 	BNet::Utils::preprint ($count, '29303', "Tragedy and Family", %multiuserquests);
 	BNet::Utils::preprint ($count, '29310', "The Tipping Point", %multiuserquests);
 	BNet::Utils::preprint ($count, '29311', "The Rest is History", %multiuserquests);
-	BNet::Utils::preprint ($count, '29243', "Strike at the Heart", %multiuserquests);
 
 }
 

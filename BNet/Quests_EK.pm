@@ -525,6 +525,55 @@ sub z_15_60_Redridge_Mountains($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("15-60: Redridge Mountains");
+	BNet::Utils::preprint ($count, '26365', "Hero's Call: Redridge Mountains! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26503', "Still Assessing the Threat <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26504', "WANTED: Redridge Gnolls <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26505', "Parker's Report <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26506', "Franks and Beans <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26508', "Nida's Necklace <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26509', "An Unwelcome Guest <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26510', "We Must Prepare! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26511', "Lake Everstill Clean Up <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26512', "Tuning the Gnomecorder <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26513', "Like a Fart in the Wind <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26514', "Canyon Romp", %multiuserquests);
+	BNet::Utils::preprint ($count, '26519', "He Who Controls the Ettins <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26520', "Saving Foreman Oslow <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26544', "They've Wised Up...", %multiuserquests);
+	BNet::Utils::preprint ($count, '26545', "Yowler Must Die! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26560', "Jorgensen <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26561', "Krakauer <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26562', "And Last But Not Least... Danforth <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26563', "Return of the Bravo Company <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26567', "John J. Keeshan <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26568', "This Ain't My War <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26569', "Surveying Equipment <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26570', "Render's Army <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26571', "Weapons of War <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26573', "His Heart Must Be In It <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26586', "In Search of Bravo Company <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26587', "Breaking Out is Hard to Do <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26607', "They Drew First Blood <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26616', "It's Never Over <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26636', "Bravo Company Field Kit: Camouflage <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26637', "Bravo Company Field Kit: Chloroform <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26638', "Hunting the Hunters <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26639', "Point of Contact: Brubaker <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26640', "Unspeakable Atrocities <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26646', "Prisoners of War <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26651', "To Win a War, You Gotta Become War <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26668', "Detonation <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26692', "Shadowhide Extinction <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26693', "The Dark Tower <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26694', "The Grand Magus Doane <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26708', "AHHHHHHHHHHHH! AHHHHHHHHH!!! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26713', "Showdown at Stonewatch <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26714', "Darkblaze, Brood of the Worldbreaker <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26726', "Triumphant Return <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '26761', "Threat to the Kingdom <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '28563', "Hero's Call: Redridge Mountains! <img align=\"right\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '33350', "Redridge Group Trial <img align=\"right\" src=\"https://wow.zamimg.com/images/wow/icons/small/
+.jpg\">", %multiuserquests);
 
 }
 

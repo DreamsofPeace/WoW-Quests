@@ -1076,3 +1076,19 @@ z_110_Argus	47554	Intercepting the Legion's Plans
 z_110_Argus	47104	Imprisoned Inquisitor			
 z_110_Argus	47134	Foiling the Legion's Jailbreak			
 z_110_Argus	47182	Long Overdue			
+chromie	header	Chromie			
+chromie	48021	Chromie			
+chromie	47543	The Day That Chromie Dies			
+chromie	47545	Rewind			
+chromie	47550	The Many Advantages of Being a Time Dragon			
+chromie	47557	Smoldering Chronoshard			
+chromie	47558	Fel-Touched Chronoshard			
+chromie	47559	Gleaming Chronoshard			
+chromie	47560	Frozen Chronoshard			
+chromie	47642	Soul Crystal			
+chromie	47643	The Ancients' Wisdom			
+chromie	47644	Demonic Corestone			
+chromie	47645	Voidcallers' Scroll			
+chromie	47807	Worried About My Friends			
+chromie	47904	Preserve the True Future			
+chromie	47906	The Deaths of Chromie			
