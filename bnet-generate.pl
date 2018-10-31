@@ -75,11 +75,28 @@ sub __main__() {
 	my $userinfo14r;
 	my $userinfo15;
 	my $userinfo15r;
+	my $userinfo00p;
+	my $userinfo01p;
+	my $userinfo02p;
+	my $userinfo03p;
+	my $userinfo04p;
+	my $userinfo05p;
+	my $userinfo06p;
+	my $userinfo07p;
+	my $userinfo08p;
+	my $userinfo09p;
+	my $userinfo10p;
+	my $userinfo11p;
+	my $userinfo12p;
+	my $userinfo13p;
+	my $userinfo14p;
+	my $userinfo15p;
 
 	my $count = 0;
 	
-	my $fetchtype = 'quests,items,professions,achievements,reputation';
+	my $fetchtype = 'quests,items,professions,achievements';
 	my $fetchtyperep = 'reputation';
+	my $fetchtypeprogression = 'progression';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
 	BNet::Utils::tableprint("beginrow");
@@ -101,6 +118,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo00 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo00r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo00p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo00);
 				my $ail = BNet::Utils::retrieveail($userinfo00);
@@ -126,6 +144,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo01 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo01r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo01p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo01);
 				my $ail = BNet::Utils::retrieveail($userinfo01);
@@ -151,6 +170,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo02 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo02r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo02p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo02);
 				my $ail = BNet::Utils::retrieveail($userinfo02);
@@ -176,6 +196,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo03 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo03r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo03p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo03);
 				my $ail = BNet::Utils::retrieveail($userinfo03);
@@ -201,6 +222,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo04 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo04r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo04p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo04);
 				my $ail = BNet::Utils::retrieveail($userinfo04);
@@ -226,6 +248,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo05 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo05r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo05p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo05);
 				my $ail = BNet::Utils::retrieveail($userinfo05);
@@ -251,6 +274,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo06 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo06r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo06p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo06);
 				my $ail = BNet::Utils::retrieveail($userinfo06);
@@ -276,6 +300,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo07 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo07r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo07p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo07);
 				my $ail = BNet::Utils::retrieveail($userinfo07);
@@ -301,6 +326,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo08 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo08r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo08p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo08);
 				my $ail = BNet::Utils::retrieveail($userinfo08);
@@ -326,6 +352,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo09 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo09r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo09p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo09);
 				my $ail = BNet::Utils::retrieveail($userinfo09);
@@ -351,6 +378,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo10 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo10r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo10p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo10);
 				my $ail = BNet::Utils::retrieveail($userinfo10);
@@ -376,6 +404,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo11 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo11r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo11p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo11);
 				my $ail = BNet::Utils::retrieveail($userinfo11);
@@ -401,6 +430,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo12 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo12r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo12p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo12);
 				my $ail = BNet::Utils::retrieveail($userinfo12);
@@ -426,6 +456,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo13 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo13r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo13p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo13);
 				my $ail = BNet::Utils::retrieveail($userinfo13);
@@ -451,6 +482,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo14 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo14r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo14p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo14);
 				my $ail = BNet::Utils::retrieveail($userinfo14);
@@ -476,6 +508,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo15 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo15r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
+				$userinfo15p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo15);
 				my $ail = BNet::Utils::retrieveail($userinfo15);
@@ -2406,6 +2439,15 @@ sub __main__() {
 			$rep{15} = { BNet::Utils::reputationtohash ($userinfo15r) };
 		}
 		BNet::Reputations::reputation ($count, %rep);
+	}
+	if ($module eq "progression") {
+		
+		BEGIN {
+			require 'BNet/Utils.pm';
+			require 'BNet/Stats_Progression.pm';
+		}
+		
+		
 	}
 }
 
