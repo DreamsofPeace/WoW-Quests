@@ -2,463 +2,562 @@ sz_01_20_Durotar	header	01-20: Durotar	horde
 sz_01_20_Mulgore	header	01-20: Mulgore	horde			
 sz_01_20_Teldrassil	header	01-20: Teldrassil	alliance			
 sz_01_20_Azuremyst_Isle	header	01-20: Azuremyst Isle	alliance			
-z_10_60_Azshara	header	header	10-20: Azshara: The Rear Gate	horde			
-z_10_60_Azshara	28496	Warchief's Command: Azshara!			
-z_10_60_Azshara	25275	Report to the Labor Captain			
-z_10_60_Azshara	14129	Runaway Shredder!			
-z_10_60_Azshara	14134	The Captain's Logs			
-z_10_60_Azshara	14135	Up a Tree			
-z_10_60_Azshara	14146	Defend the Gates!			
-z_10_60_Azshara	14155	Arborcide			
-z_10_60_Azshara	14118	Venison for the Troops			
-z_10_60_Azshara	14117	The Eyes of Ashenvale			
-z_10_60_Azshara	14127	Return of the Highborne?			
-z_10_60_Azshara	header	10-20: Azshara: Orgrimmar Rocketway Exchange	horde		
-z_10_60_Azshara	14162	Report to Horzak			
-z_10_60_Azshara	14128	Return of the Highborne?			
+z_10_60_Azshara	header	header	10-20: Azshara: The Rear Gate	horde		
+z_10_60_Azshara	28496	Warchief's Command: Azshara!				
+z_10_60_Azshara	25275	Report to the Labor Captain				
+z_10_60_Azshara	14129	Runaway Shredder!				
+z_10_60_Azshara	14134	The Captain's Logs				
+z_10_60_Azshara	14135	Up a Tree				
+z_10_60_Azshara	14146	Defend the Gates!				
+z_10_60_Azshara	14155	Arborcide				
+z_10_60_Azshara	14118	Venison for the Troops				
+z_10_60_Azshara	14117	The Eyes of Ashenvale				
+z_10_60_Azshara	14127	Return of the Highborne?				
+z_10_60_Azshara	header	10-20: Azshara: Orgrimmar Rocketway Exchange	horde			
+z_10_60_Azshara	14162	Report to Horzak				
+z_10_60_Azshara	14128	Return of the Highborne?				
 z_10_60_Azshara	header	10-20: Azshara (Unsorted)	horde			
-z_10_60_Azshara	14130	Friends Come In All Colors			
-z_10_60_Azshara	14131	A Little Pick-me-up			
-z_10_60_Azshara	14132	That's Just Rude!			
-z_10_60_Azshara	14161	Basilisk Bashin'			
-z_10_60_Azshara	14165	Stone Cold			
-z_10_60_Azshara	14190	The Perfect Prism			
-z_10_60_Azshara	14192	Prismbreak			
-z_10_60_Azshara	14194	Refleshification			
-z_10_60_Azshara	14197	A Quota to Meet			
-z_10_60_Azshara	14201	A Thousand Stories in the Sand			
-z_10_60_Azshara	14202	Survey the Lakeshore			
-z_10_60_Azshara	14209	Gunk in the Trunk			
-z_10_60_Azshara	14215	Memories of the Dead			
-z_10_60_Azshara	14216	Mystery of the Sarcen Stone			
-z_10_60_Azshara	14226	Trouble Under Foot			
-z_10_60_Azshara	14230	Manual Labor			
-z_10_60_Azshara	14249	Shear Will			
-z_10_60_Azshara	14250	Renewable Resource			
-z_10_60_Azshara	14258	Mortar the Point			
-z_10_60_Azshara	14261	Ice Cold			
-z_10_60_Azshara	14262	To Gut a Fish			
-z_10_60_Azshara	14263	Waste of Thyme			
-z_10_60_Azshara	14267	Investigating the Sea Shrine			
-z_10_60_Azshara	14270	The Keystone Shard			
-z_10_60_Azshara	14271	Report to Twocrush			
-z_10_60_Azshara	14295	Sisters of the Sea			
-z_10_60_Azshara	14296	Watch Your Step			
-z_10_60_Azshara	14297	Pro-liberation			
-z_10_60_Azshara	14299	Xylem's Asylum			
-z_10_60_Azshara	14300	The Trial of Fire			
-z_10_60_Azshara	14308	When Science Attacks			
-z_10_60_Azshara	14310	Segmentation Fault: Core Dumped			
-z_10_60_Azshara	14322	Bad Science! Bad!			
-z_10_60_Azshara	14323	Absorbent			
-z_10_60_Azshara	14324	Full of Hot Water			
-z_10_60_Azshara	14340	Dressed to Impress			
-z_10_60_Azshara	14345	Wash Out			
-z_10_60_Azshara	14370	Mysterious Azsharite			
-z_10_60_Azshara	14371	A Gigantic Snack			
-z_10_60_Azshara	14377	Befriending Giants			
-z_10_60_Azshara	14383	The Terrible Tinkers of the Ruined Reaches			
-z_10_60_Azshara	14385	Azsharite Experiment Number One			
-z_10_60_Azshara	14388	Azsharite Experiment Number Two			
-z_10_60_Azshara	14389	Wasn't It Obvious?			
-z_10_60_Azshara	14390	Easy is Boring			
-z_10_60_Azshara	14391	Turning the Tables			
-z_10_60_Azshara	14392	Farewell, Minnow			
-z_10_60_Azshara	14407	Azshara Blues			
-z_10_60_Azshara	14408	Nine's Plan			
-z_10_60_Azshara	14413	The Pinnacle of Learning			
-z_10_60_Azshara	14422	Raptor Raptor Rocket			
-z_10_60_Azshara	14423	Dozercism			
-z_10_60_Azshara	14424	Need More Science			
-z_10_60_Azshara	14428	Amberwind's Journal			
-z_10_60_Azshara	14429	Arcane De-Construction			
-z_10_60_Azshara	14430	Hacking the Construct			
-z_10_60_Azshara	14431	The Blackmaw Scar			
-z_10_60_Azshara	14432	A Pale Brew			
-z_10_60_Azshara	14433	Diplomacy by Another Means			
-z_10_60_Azshara	14435	The Blackmaw Doublecross			
-z_10_60_Azshara	14442	My Favorite Subject			
-z_10_60_Azshara	14462	Where's My Head?			
-z_10_60_Azshara	14464	Lightning Strike Assassination			
-z_10_60_Azshara	14468	Another Warm Body			
-z_10_60_Azshara	14469	Hand-me-downs			
-z_10_60_Azshara	14470	Military Breakthrough			
-z_10_60_Azshara	14471	First Degree Mortar			
-z_10_60_Azshara	14472	In The Face!			
-z_10_60_Azshara	14475	Grounded!			
-z_10_60_Azshara	14476	Rigged to Blow			
-z_10_60_Azshara	14477	Push the Button!			
-z_10_60_Azshara	14478	Operation Fishgut			
-z_10_60_Azshara	14479	There Are Many Like It			
-z_10_60_Azshara	14480	Extermination			
-z_10_60_Azshara	14484	Head of the Snake			
-z_10_60_Azshara	14485	Ticker Required			
-z_10_60_Azshara	14486	Handling the Goods			
-z_10_60_Azshara	14487	Still Beating Heart			
-z_10_60_Azshara	24430	Blacken the Skies			
-z_10_60_Azshara	24433	Let Them Feast on Fear			
-z_10_60_Azshara	24434	Commando Drop			
-z_10_60_Azshara	24435	Mop Up			
-z_10_60_Azshara	24436	Halo Drops			
-z_10_60_Azshara	24437	First Come, First Served			
-z_10_60_Azshara	24439	The Conquest of Azshara			
-z_10_60_Azshara	24448	Field Promotion			
-z_10_60_Azshara	24449	Shore Leave			
-z_10_60_Azshara	24452	Profitability Scouting			
-z_10_60_Azshara	24453	Private Chat			
-z_10_60_Azshara	24455	Rapid Deployment			
-z_10_60_Azshara	24458	A Hello to Arms			
-z_10_60_Azshara	24463	Probing into Ashenvale			
-z_10_60_Azshara	24467	Fade to Black			
-z_10_60_Azshara	24478	The Trial of Frost			
-z_10_60_Azshara	24479	The Trial of Shadow			
-z_10_60_Azshara	24497	Airborne Again			
-z_10_60_Bloodmyst_Isle	header	10-60: Bloodmyst Isle			
-z_10_60_Darkshore	header	10-60: Darkshore			
-z_10_60_Northern_Barrens	header	10-60: Northern Barrens			
-z_15_60_Ashenvale	header	15-60: Ashenvale			
-z_20_60_Stonetalon_Mountains	header	20-60: Stonetalon Mountains			
-z_25_60_Southern_Barrens	header	25-60: Southern Barrens			
-z_25_60_Southern_Barrens	24504	Clear the High Road	horde		
-z_25_60_Southern_Barrens	24505	Holdout at Hunter's Hill	horde		
-z_25_60_Southern_Barrens	24512	Warriors' Redemption	horde		
-z_25_60_Southern_Barrens	24513	Eye for an Eye	horde		
-z_25_60_Southern_Barrens	24514	Raptor Scraps	horde		
-z_25_60_Southern_Barrens	24515	Signals in the Sky	horde		
-z_25_60_Southern_Barrens	24517	Put the Fear in Them	horde		
-z_25_60_Southern_Barrens	24518	The Low Road	horde		
-z_25_60_Southern_Barrens	24519	Stalling the Survey	horde		
-z_25_60_Southern_Barrens	24525	Keeping the Dogs at Bay	horde		
-z_25_60_Southern_Barrens	24529	Bad to Worse	horde		
-z_25_60_Southern_Barrens	24534	Speaking Their Language	horde		
-z_25_60_Southern_Barrens	24539	When Plants Attack	horde		
-z_25_60_Southern_Barrens	24542	A Curious Bloom	horde		
-z_25_60_Southern_Barrens	24543	A Family Divided	horde		
-z_25_60_Southern_Barrens	24546	A Line in the Dirt	horde		
-z_25_60_Southern_Barrens	24551	Meet the New Boss	horde		
-z_25_60_Southern_Barrens	24552	Lion's Pride	horde		
-z_25_60_Southern_Barrens	24565	Biological Intervention			
-z_25_60_Southern_Barrens	24566	Sowing a Solution			
-z_25_60_Southern_Barrens	24568	To the Walls!			
-z_25_60_Southern_Barrens	24569	Siegebreaker	horde		
-z_25_60_Southern_Barrens	24570	Adder Subtraction			
-z_25_60_Southern_Barrens	24571	Lashvine Seeds			
-z_25_60_Southern_Barrens	24572	Taking Back Taurajo	horde		
-z_25_60_Southern_Barrens	24573	Honoring the Dead	horde		
-z_25_60_Southern_Barrens	24574	To Harvest Chaos			
-z_25_60_Southern_Barrens	24577	Desolation Hold Inspection	horde		
-z_25_60_Southern_Barrens	24591	Changing of the Gar'dul			
-z_25_60_Southern_Barrens	24601	The Nightmare Scar			
-z_25_60_Southern_Barrens	24603	Don't Stop Bereavin'	horde		
-z_25_60_Southern_Barrens	24604	Concern for Mankrik	horde		
-z_25_60_Southern_Barrens	24606	Blood of the Barrens			
-z_25_60_Southern_Barrens	24608	Mangletooth	horde		
-z_25_60_Southern_Barrens	24618	Claim the Battle Scar	horde		
-z_25_60_Southern_Barrens	24619	Parts-is-Parts	horde		
-z_25_60_Southern_Barrens	24620	Hearts-is-Hearts	horde		
-z_25_60_Southern_Barrens	24621	Smarts-is-Smarts	horde		
-z_25_60_Southern_Barrens	24631	Flightmare	horde		
-z_25_60_Southern_Barrens	24632	Tauren Vengeance	horde		
-z_25_60_Southern_Barrens	24633	Mahka's Plea	horde		
-z_25_60_Southern_Barrens	24634	Intelligence Warfare	horde		
-z_25_60_Southern_Barrens	24637	The Butcher of Taurajo	horde		
-z_25_60_Southern_Barrens	24653	Echoes of Agamaggan			
-z_25_60_Southern_Barrens	24654	Silithissues	horde		
-z_25_60_Southern_Barrens	24667	Firestone Point	horde		
-z_25_60_Southern_Barrens	24684	A Weezil in the Henhouse	horde		
-z_25_60_Southern_Barrens	24685	Dwarf Fortress	horde		
-z_25_60_Southern_Barrens	24747	Sabotage!	horde		
-z_25_60_Southern_Barrens	24807	Winnoa Pineforest	horde		
-z_25_60_Southern_Barrens	24824	The Disturbed Earth			
-z_25_60_Southern_Barrens	24862	Running the Gauntlet	alliance		
-z_25_60_Southern_Barrens	24863	Breaking the Siege	alliance		
-z_25_60_Southern_Barrens	24921	Report to Aubrey	alliance		
-z_25_60_Southern_Barrens	24934	Repel Boarders!	alliance		
-z_25_60_Southern_Barrens	24938	The Guns of Northwatch	alliance		
-z_25_60_Southern_Barrens	24939	Run Out the Guns	alliance		
-z_25_60_Southern_Barrens	24941	Langridge Shot	alliance		
-z_25_60_Southern_Barrens	24943	Re-Take the Courtyard	alliance		
-z_25_60_Southern_Barrens	24944	Back in the Fight	alliance		
-z_25_60_Southern_Barrens	24948	Lifting the Siege	alliance		
-z_25_60_Southern_Barrens	24956	Silencing Rageroar	alliance		
-z_25_60_Southern_Barrens	25000	Teegan's People	alliance		
-z_25_60_Southern_Barrens	25002	Scavenged	alliance		
-z_25_60_Southern_Barrens	25008	Filthy Animals	alliance		
-z_25_60_Southern_Barrens	25015	Make 'em Squeal	alliance		
-z_25_60_Southern_Barrens	25022	A Failure to Communicate	alliance		
-z_25_60_Southern_Barrens	25027	You Flicked a Fine Vine to Leaf Me	alliance		
-z_25_60_Southern_Barrens	25028	Trouble From the Ground Up	alliance		
-z_25_60_Southern_Barrens	25034	To the Front!	alliance		
-z_25_60_Southern_Barrens	25036	Teegan's Troubles	alliance		
-z_25_60_Southern_Barrens	25041	Lion's Pride	alliance		
-z_25_60_Southern_Barrens	25042	Marching On Our Stomachs	alliance		
-z_25_60_Southern_Barrens	25043	Fields of Blood	alliance		
-z_25_60_Southern_Barrens	25044	Diplomacy By Another Means	alliance		
-z_25_60_Southern_Barrens	25045	A Line in the Dirt	alliance		
-z_25_60_Southern_Barrens	25057	Clap 'Em In Irons	alliance		
-z_25_60_Southern_Barrens	25059	The Taurajo Briefs	alliance		
-z_25_60_Southern_Barrens	25074	Meet Me at Triumph	alliance		
-z_25_60_Southern_Barrens	25075	Pick-a-Part	alliance		
-z_25_60_Southern_Barrens	25079	Powder Play	alliance		
-z_25_60_Southern_Barrens	25080	Batteries Not Yet Included	alliance		
-z_25_60_Southern_Barrens	25081	Claim the Battlescar	alliance		
-z_25_60_Southern_Barrens	25082	Working the Bugs Out	alliance		
-z_25_60_Southern_Barrens	25084	A Growing Threat	alliance		
-z_25_60_Southern_Barrens	25085	Mangletooth	alliance		
-z_25_60_Southern_Barrens	25086	Firestone Point	alliance		
-z_25_60_Southern_Barrens	25087	Report to Twinbraid	alliance		
-z_25_60_Southern_Barrens	25102	No Bull	alliance		
-z_25_60_Southern_Barrens	25104	Digsite Status	alliance		
-z_25_60_Southern_Barrens	25106	Hands Off Me Dig!	alliance		
-z_25_60_Southern_Barrens	25108	Feegly the Exiled	alliance		
-z_25_60_Southern_Barrens	25120	Marley's Final Flight	alliance		
-z_25_60_Southern_Barrens	25151	He Needs Ale!	alliance		
-z_25_60_Southern_Barrens	25153	Bael'dun Rescue	alliance		
-z_25_60_Southern_Barrens	25163	Who Did This?	alliance		
-z_25_60_Southern_Barrens	25174	Twinbraid Needs to Know	alliance		
-z_25_60_Southern_Barrens	25175	The Bad News	alliance		
-z_25_60_Southern_Barrens	25182	Kill 'em All!	alliance		
-z_25_60_Southern_Barrens	25183	...And Bury the Rest	alliance		
-z_25_60_Southern_Barrens	25185	The Deed Is Done	alliance		
-z_25_60_Southern_Barrens	25186	Futile Resistance	alliance		
-z_25_60_Southern_Barrens	25191	Survey the Destruction	alliance		
-z_25_60_Southern_Barrens	25197	The Admiral Won't Back Down	alliance		
-z_25_60_Southern_Barrens	25284	Feeding the Fear	horde		
-z_25_60_Southern_Barrens	25852	All's Clear	alliance		
-z_25_60_Southern_Barrens	26069	Nura Pathfinder	horde		
-z_25_60_Southern_Barrens	28549	Warchief's Command: Southern Barrens!	horde		
-z_25_60_Southern_Barrens	28550	Hero's Call: Southern Barrens!	alliance		
-z_25_60_Southern_Barrens	28551	Hero's Call: Southern Barrens!	alliance		
-z_30_60_Desolace	header	30-60: Desolace			
-z_35_60_Dustwallow_Marsh	header	35-60: Dustwallow Marsh			
-z_35_60_Dustwallow_Marsh	1168	Army of the Black Dragon	horde		
-z_35_60_Dustwallow_Marsh	1201	Theramore Spies	horde		
-z_35_60_Dustwallow_Marsh	1202	The Theramore Docks	horde		
-z_35_60_Dustwallow_Marsh	1204	Mudrock Soup and Bugs	alliance		
-z_35_60_Dustwallow_Marsh	1205	Deadmire	horde		
-z_35_60_Dustwallow_Marsh	1222	Stinky's Escape	alliance		
-z_35_60_Dustwallow_Marsh	1258	... and Bugs	alliance		
-z_35_60_Dustwallow_Marsh	1270	Stinky's Escape	horde		
-z_35_60_Dustwallow_Marsh	1271	Feast at the Blue Recluse	alliance		
-z_35_60_Dustwallow_Marsh	11208	Delivery for Drazzit			
-z_35_60_Dustwallow_Marsh	11211	Help for Mudsprocket			
-z_35_60_Dustwallow_Marsh	11212	Tabetha's Farm	alliance		
-z_35_60_Dustwallow_Marsh	11213	Check Up on Tabetha	horde		
-z_35_60_Dustwallow_Marsh	11215	Help Mudsprocket	horde		
-z_35_60_Dustwallow_Marsh	25051	Darkmist Extermination	horde		
-z_35_60_Dustwallow_Marsh	25292	Next of Kin	horde		
-z_35_60_Dustwallow_Marsh	26596	The Call of Kalimdor	alliance		
-z_35_60_Dustwallow_Marsh	26682	A Shambling Threat	horde		
-z_35_60_Dustwallow_Marsh	26687	Reinforcements From Theramore	alliance		
-z_35_60_Dustwallow_Marsh	26696	The Call of Kalimdor	horde		
-z_35_60_Dustwallow_Marsh	26701	Flight to Brackenwall	horde		
-z_35_60_Dustwallow_Marsh	26702	Flight to Theramore	alliance		
-z_35_60_Dustwallow_Marsh	27182	The Hermit of Witch Hill	horde		
-z_35_60_Dustwallow_Marsh	27183	Marsh Frog Legs			
-z_35_60_Dustwallow_Marsh	27184	Jarl Needs Eyes			
-z_35_60_Dustwallow_Marsh	27186	Jarl Needs a Blade			
-z_35_60_Dustwallow_Marsh	27188	What's Haunting Witch Hill?			
-z_35_60_Dustwallow_Marsh	27189	The Witch's Bane			
-z_35_60_Dustwallow_Marsh	27190	Cleansing Witch Hill			
-z_35_60_Dustwallow_Marsh	27191	Hungry as an Ogre!			
-z_35_60_Dustwallow_Marsh	27210	Traitors Among Us	alliance		
-z_35_60_Dustwallow_Marsh	27211	Propaganda War	alliance		
-z_35_60_Dustwallow_Marsh	27212	Discrediting the Deserters	alliance		
-z_35_60_Dustwallow_Marsh	27213	The End of the Deserters	alliance		
-z_35_60_Dustwallow_Marsh	27214	A Disturbing Development	alliance		
-z_35_60_Dustwallow_Marsh	27215	The Hermit of Swamplight Manor	alliance		
-z_35_60_Dustwallow_Marsh	27216	This Old Lighthouse	alliance		
-z_35_60_Dustwallow_Marsh	27217	Thresher Oil	alliance		
-z_35_60_Dustwallow_Marsh	27218	Dastardly Denizens of the Deep	alliance		
-z_35_60_Dustwallow_Marsh	27219	Is it Real?	alliance		
-z_35_60_Dustwallow_Marsh	27220	Nat's Bargain	alliance		
-z_35_60_Dustwallow_Marsh	27221	Oh, It's Real	alliance		
-z_35_60_Dustwallow_Marsh	27222	Take Down Tethyr!	alliance		
-z_35_60_Dustwallow_Marsh	27229	SMASH BROODQUEEN	horde		
-z_35_60_Dustwallow_Marsh	27234	Defias in Dustwallow?	alliance		
-z_35_60_Dustwallow_Marsh	27235	Renn McGill	alliance		
-z_35_60_Dustwallow_Marsh	27236	Secondhand Diving Gear	alliance		
-z_35_60_Dustwallow_Marsh	27237	Recover the Cargo!	alliance		
-z_35_60_Dustwallow_Marsh	27238	Jaina Must Know	alliance		
-z_35_60_Dustwallow_Marsh	27239	Survey Alcaz Island	alliance		
-z_35_60_Dustwallow_Marsh	27240	Proof of Treachery	alliance		
-z_35_60_Dustwallow_Marsh	27241	Return to Jaina	alliance		
-z_35_60_Dustwallow_Marsh	27242	Raptor Captor	alliance		
-z_35_60_Dustwallow_Marsh	27243	Unleash the Raptors	alliance		
-z_35_60_Dustwallow_Marsh	27244	The Lost Report	horde		
-z_35_60_Dustwallow_Marsh	27245	Prisoners of the Grimtotems	alliance		
-z_35_60_Dustwallow_Marsh	27246	The Orc Report	alliance		
-z_35_60_Dustwallow_Marsh	27247	Captain Vimes	alliance		
-z_35_60_Dustwallow_Marsh	27248	Mission to Mudsprocket	alliance		
-z_35_60_Dustwallow_Marsh	27249	Inspecting the Ruins	alliance		
-z_35_60_Dustwallow_Marsh	27251	They Call Him Smiling Jim	alliance		
-z_35_60_Dustwallow_Marsh	27252	The Black Shield	alliance		
-z_35_60_Dustwallow_Marsh	27253	Inspecting the Ruins	horde		
-z_35_60_Dustwallow_Marsh	27254	The Black Shield	horde		
-z_35_60_Dustwallow_Marsh	27255	The Black Shield	horde		
-z_35_60_Dustwallow_Marsh	27256	The Black Shield	horde		
-z_35_60_Dustwallow_Marsh	27257	The Black Shield	horde		
-z_35_60_Dustwallow_Marsh	27258	The Black Shield	horde		
-z_35_60_Dustwallow_Marsh	27259	Suspicious Hoofprints	horde		
-z_35_60_Dustwallow_Marsh	27260	Lieutenant Paval Reethe	horde		
-z_35_60_Dustwallow_Marsh	27261	Questioning Reethe	horde		
-z_35_60_Dustwallow_Marsh	27262	Suspicious Hoofprints	alliance		
-z_35_60_Dustwallow_Marsh	27263	Lieutenant Paval Reethe	alliance		
-z_35_60_Dustwallow_Marsh	27264	Lieutenant Paval Reethe	alliance		
-z_35_60_Dustwallow_Marsh	27284	The Black Shield	alliance		
-z_35_60_Dustwallow_Marsh	27285	The Black Shield	alliance		
-z_35_60_Dustwallow_Marsh	27286	Daelin's Men	alliance		
-z_35_60_Dustwallow_Marsh	27287	The Deserters	alliance		
-z_35_60_Dustwallow_Marsh	27288	The Deserters	alliance		
-z_35_60_Dustwallow_Marsh	27291	Peace at Last	alliance		
-z_35_60_Dustwallow_Marsh	27292	Return to Krog	horde		
-z_35_60_Dustwallow_Marsh	27293	The Grimtotem Plot	horde		
-z_35_60_Dustwallow_Marsh	27294	More than Coincidence	horde		
-z_35_60_Dustwallow_Marsh	27295	Seek Out Tabetha	horde		
-z_35_60_Dustwallow_Marsh	27296	Raze Direhorn Post!	horde		
-z_35_60_Dustwallow_Marsh	27297	Justice Dispensed	horde		
-z_35_60_Dustwallow_Marsh	27306	Talk to Ogron	horde		
-z_35_60_Dustwallow_Marsh	27336	The Grimtotem Weapon			
-z_35_60_Dustwallow_Marsh	27339	The Reagent Thief			
-z_35_60_Dustwallow_Marsh	27340	Direhorn Raiders			
-z_35_60_Dustwallow_Marsh	27346	The Zeppelin Crash			
-z_35_60_Dustwallow_Marsh	27347	Corrosion Prevention			
-z_35_60_Dustwallow_Marsh	27348	Secure the Cargo!			
-z_35_60_Dustwallow_Marsh	27407	Bloodfen Feathers			
-z_35_60_Dustwallow_Marsh	27408	Banner of the Stonemaul			
-z_35_60_Dustwallow_Marsh	27409	The Essence of Enmity			
-z_35_60_Dustwallow_Marsh	27410	Spirits of Stonemaul Hold			
-z_35_60_Dustwallow_Marsh	27411	Challenge to the Black Flight			
-z_35_60_Dustwallow_Marsh	27412	WANTED: Goreclaw the Ravenous			
-z_35_60_Dustwallow_Marsh	27413	Catch a Dragon by the Tail			
-z_35_60_Dustwallow_Marsh	27414	Identifying the Brood	horde		
-z_35_60_Dustwallow_Marsh	27415	The Brood of Onyxia	horde		
-z_35_60_Dustwallow_Marsh	27416	The Brood of Onyxia	horde		
-z_35_60_Dustwallow_Marsh	27417	The Brood of Onyxia	horde		
-z_35_60_Dustwallow_Marsh	27418	Challenge Overlord Mok'Morokk	horde		
-z_35_60_Dustwallow_Marsh	27424	Overlord Mok'Morokk's Concern	horde		
-z_35_60_Dustwallow_Marsh	27425	A Grim Connection	alliance		
-z_35_60_Dustwallow_Marsh	27426	Confirming the Suspicion	alliance		
-z_35_60_Dustwallow_Marsh	27427	Arms of the Grimtotems	alliance		
-z_35_60_Dustwallow_Marsh	27428	Tabetha's Assistance	alliance		
-z_35_60_Dustwallow_Marsh	27429	Raze Direhorn Post!	alliance		
-z_35_60_Dustwallow_Marsh	27430	Justice for the Hyals	alliance		
-z_35_60_Dustwallow_Marsh	28552	Hero's Call: Dustwallow Marsh!	alliance		
-z_35_60_Dustwallow_Marsh	28554	Warchief's Command: Dustwallow Marsh!	horde		
-z_35_60_Feralas	header	35-60: Ferelas			
-z_40_60_Thousand_Needles	header	40-60: Thousand Needles			
-z_40_60_Felwood	header	40-60: Felwood			
-z_40_60_Tanaris	header	40-60: Tanaris			
-z_40_60_UnGoro_Crater	header	40-60: Un'Goro Crater			
-z_40_60_Winterspring	header	40-60: Winterspring: Unsorted			
+z_10_60_Azshara	14130	Friends Come In All Colors				
+z_10_60_Azshara	14131	A Little Pick-me-up				
+z_10_60_Azshara	14132	That's Just Rude!				
+z_10_60_Azshara	14161	Basilisk Bashin'				
+z_10_60_Azshara	14165	Stone Cold				
+z_10_60_Azshara	14190	The Perfect Prism				
+z_10_60_Azshara	14192	Prismbreak				
+z_10_60_Azshara	14194	Refleshification				
+z_10_60_Azshara	14197	A Quota to Meet				
+z_10_60_Azshara	14201	A Thousand Stories in the Sand				
+z_10_60_Azshara	14202	Survey the Lakeshore				
+z_10_60_Azshara	14209	Gunk in the Trunk				
+z_10_60_Azshara	14215	Memories of the Dead				
+z_10_60_Azshara	14216	Mystery of the Sarcen Stone				
+z_10_60_Azshara	14226	Trouble Under Foot				
+z_10_60_Azshara	14230	Manual Labor				
+z_10_60_Azshara	14249	Shear Will				
+z_10_60_Azshara	14250	Renewable Resource				
+z_10_60_Azshara	14258	Mortar the Point				
+z_10_60_Azshara	14261	Ice Cold				
+z_10_60_Azshara	14262	To Gut a Fish				
+z_10_60_Azshara	14263	Waste of Thyme				
+z_10_60_Azshara	14267	Investigating the Sea Shrine				
+z_10_60_Azshara	14270	The Keystone Shard				
+z_10_60_Azshara	14271	Report to Twocrush				
+z_10_60_Azshara	14295	Sisters of the Sea				
+z_10_60_Azshara	14296	Watch Your Step				
+z_10_60_Azshara	14297	Pro-liberation				
+z_10_60_Azshara	14299	Xylem's Asylum				
+z_10_60_Azshara	14300	The Trial of Fire				
+z_10_60_Azshara	14308	When Science Attacks				
+z_10_60_Azshara	14310	Segmentation Fault: Core Dumped				
+z_10_60_Azshara	14322	Bad Science! Bad!				
+z_10_60_Azshara	14323	Absorbent				
+z_10_60_Azshara	14324	Full of Hot Water				
+z_10_60_Azshara	14340	Dressed to Impress				
+z_10_60_Azshara	14345	Wash Out				
+z_10_60_Azshara	14370	Mysterious Azsharite				
+z_10_60_Azshara	14371	A Gigantic Snack				
+z_10_60_Azshara	14377	Befriending Giants				
+z_10_60_Azshara	14383	The Terrible Tinkers of the Ruined Reaches				
+z_10_60_Azshara	14385	Azsharite Experiment Number One				
+z_10_60_Azshara	14388	Azsharite Experiment Number Two				
+z_10_60_Azshara	14389	Wasn't It Obvious?				
+z_10_60_Azshara	14390	Easy is Boring				
+z_10_60_Azshara	14391	Turning the Tables				
+z_10_60_Azshara	14392	Farewell, Minnow				
+z_10_60_Azshara	14407	Azshara Blues				
+z_10_60_Azshara	14408	Nine's Plan				
+z_10_60_Azshara	14413	The Pinnacle of Learning				
+z_10_60_Azshara	14422	Raptor Raptor Rocket				
+z_10_60_Azshara	14423	Dozercism				
+z_10_60_Azshara	14424	Need More Science				
+z_10_60_Azshara	14428	Amberwind's Journal				
+z_10_60_Azshara	14429	Arcane De-Construction				
+z_10_60_Azshara	14430	Hacking the Construct				
+z_10_60_Azshara	14431	The Blackmaw Scar				
+z_10_60_Azshara	14432	A Pale Brew				
+z_10_60_Azshara	14433	Diplomacy by Another Means				
+z_10_60_Azshara	14435	The Blackmaw Doublecross				
+z_10_60_Azshara	14442	My Favorite Subject				
+z_10_60_Azshara	14462	Where's My Head?				
+z_10_60_Azshara	14464	Lightning Strike Assassination				
+z_10_60_Azshara	14468	Another Warm Body				
+z_10_60_Azshara	14469	Hand-me-downs				
+z_10_60_Azshara	14470	Military Breakthrough				
+z_10_60_Azshara	14471	First Degree Mortar				
+z_10_60_Azshara	14472	In The Face!				
+z_10_60_Azshara	14475	Grounded!				
+z_10_60_Azshara	14476	Rigged to Blow				
+z_10_60_Azshara	14477	Push the Button!				
+z_10_60_Azshara	14478	Operation Fishgut				
+z_10_60_Azshara	14479	There Are Many Like It				
+z_10_60_Azshara	14480	Extermination				
+z_10_60_Azshara	14484	Head of the Snake				
+z_10_60_Azshara	14485	Ticker Required				
+z_10_60_Azshara	14486	Handling the Goods				
+z_10_60_Azshara	14487	Still Beating Heart				
+z_10_60_Azshara	24430	Blacken the Skies				
+z_10_60_Azshara	24433	Let Them Feast on Fear				
+z_10_60_Azshara	24434	Commando Drop				
+z_10_60_Azshara	24435	Mop Up				
+z_10_60_Azshara	24436	Halo Drops				
+z_10_60_Azshara	24437	First Come, First Served				
+z_10_60_Azshara	24439	The Conquest of Azshara				
+z_10_60_Azshara	24448	Field Promotion				
+z_10_60_Azshara	24449	Shore Leave				
+z_10_60_Azshara	24452	Profitability Scouting				
+z_10_60_Azshara	24453	Private Chat				
+z_10_60_Azshara	24455	Rapid Deployment				
+z_10_60_Azshara	24458	A Hello to Arms				
+z_10_60_Azshara	24463	Probing into Ashenvale				
+z_10_60_Azshara	24467	Fade to Black				
+z_10_60_Azshara	24478	The Trial of Frost				
+z_10_60_Azshara	24479	The Trial of Shadow				
+z_10_60_Azshara	24497	Airborne Again				
+z_10_60_Bloodmyst_Isle	header	10-60: Bloodmyst Isle				
+z_10_60_Darkshore	header	10-60: Darkshore				
+z_10_60_Northern_Barrens	header	10-60: Northern Barrens				
+z_15_60_Ashenvale	header	15-60: Ashenvale				
+z_20_60_Stonetalon_Mountains	header	20-60: Stonetalon Mountains				
+z_25_60_Southern_Barrens	header	25-60: Southern Barrens				
+z_25_60_Southern_Barrens	24504	Clear the High Road	horde			
+z_25_60_Southern_Barrens	24505	Holdout at Hunter's Hill	horde			
+z_25_60_Southern_Barrens	24512	Warriors' Redemption	horde			
+z_25_60_Southern_Barrens	24513	Eye for an Eye	horde			
+z_25_60_Southern_Barrens	24514	Raptor Scraps	horde			
+z_25_60_Southern_Barrens	24515	Signals in the Sky	horde			
+z_25_60_Southern_Barrens	24517	Put the Fear in Them	horde			
+z_25_60_Southern_Barrens	24518	The Low Road	horde			
+z_25_60_Southern_Barrens	24519	Stalling the Survey	horde			
+z_25_60_Southern_Barrens	24525	Keeping the Dogs at Bay	horde			
+z_25_60_Southern_Barrens	24529	Bad to Worse	horde			
+z_25_60_Southern_Barrens	24534	Speaking Their Language	horde			
+z_25_60_Southern_Barrens	24539	When Plants Attack	horde			
+z_25_60_Southern_Barrens	24542	A Curious Bloom	horde			
+z_25_60_Southern_Barrens	24543	A Family Divided	horde			
+z_25_60_Southern_Barrens	24546	A Line in the Dirt	horde			
+z_25_60_Southern_Barrens	24551	Meet the New Boss	horde			
+z_25_60_Southern_Barrens	24552	Lion's Pride	horde			
+z_25_60_Southern_Barrens	24565	Biological Intervention				
+z_25_60_Southern_Barrens	24566	Sowing a Solution				
+z_25_60_Southern_Barrens	24568	To the Walls!				
+z_25_60_Southern_Barrens	24569	Siegebreaker	horde			
+z_25_60_Southern_Barrens	24570	Adder Subtraction				
+z_25_60_Southern_Barrens	24571	Lashvine Seeds				
+z_25_60_Southern_Barrens	24572	Taking Back Taurajo	horde			
+z_25_60_Southern_Barrens	24573	Honoring the Dead	horde			
+z_25_60_Southern_Barrens	24574	To Harvest Chaos				
+z_25_60_Southern_Barrens	24577	Desolation Hold Inspection	horde			
+z_25_60_Southern_Barrens	24591	Changing of the Gar'dul				
+z_25_60_Southern_Barrens	24601	The Nightmare Scar				
+z_25_60_Southern_Barrens	24603	Don't Stop Bereavin'	horde			
+z_25_60_Southern_Barrens	24604	Concern for Mankrik	horde			
+z_25_60_Southern_Barrens	24606	Blood of the Barrens				
+z_25_60_Southern_Barrens	24608	Mangletooth	horde			
+z_25_60_Southern_Barrens	24618	Claim the Battle Scar	horde			
+z_25_60_Southern_Barrens	24619	Parts-is-Parts	horde			
+z_25_60_Southern_Barrens	24620	Hearts-is-Hearts	horde			
+z_25_60_Southern_Barrens	24621	Smarts-is-Smarts	horde			
+z_25_60_Southern_Barrens	24631	Flightmare	horde			
+z_25_60_Southern_Barrens	24632	Tauren Vengeance	horde			
+z_25_60_Southern_Barrens	24633	Mahka's Plea	horde			
+z_25_60_Southern_Barrens	24634	Intelligence Warfare	horde			
+z_25_60_Southern_Barrens	24637	The Butcher of Taurajo	horde			
+z_25_60_Southern_Barrens	24653	Echoes of Agamaggan				
+z_25_60_Southern_Barrens	24654	Silithissues	horde			
+z_25_60_Southern_Barrens	24667	Firestone Point	horde			
+z_25_60_Southern_Barrens	24684	A Weezil in the Henhouse	horde			
+z_25_60_Southern_Barrens	24685	Dwarf Fortress	horde			
+z_25_60_Southern_Barrens	24747	Sabotage!	horde			
+z_25_60_Southern_Barrens	24807	Winnoa Pineforest	horde			
+z_25_60_Southern_Barrens	24824	The Disturbed Earth				
+z_25_60_Southern_Barrens	24862	Running the Gauntlet	alliance			
+z_25_60_Southern_Barrens	24863	Breaking the Siege	alliance			
+z_25_60_Southern_Barrens	24921	Report to Aubrey	alliance			
+z_25_60_Southern_Barrens	24934	Repel Boarders!	alliance			
+z_25_60_Southern_Barrens	24938	The Guns of Northwatch	alliance			
+z_25_60_Southern_Barrens	24939	Run Out the Guns	alliance			
+z_25_60_Southern_Barrens	24941	Langridge Shot	alliance			
+z_25_60_Southern_Barrens	24943	Re-Take the Courtyard	alliance			
+z_25_60_Southern_Barrens	24944	Back in the Fight	alliance			
+z_25_60_Southern_Barrens	24948	Lifting the Siege	alliance			
+z_25_60_Southern_Barrens	24956	Silencing Rageroar	alliance			
+z_25_60_Southern_Barrens	25000	Teegan's People	alliance			
+z_25_60_Southern_Barrens	25002	Scavenged	alliance			
+z_25_60_Southern_Barrens	25008	Filthy Animals	alliance			
+z_25_60_Southern_Barrens	25015	Make 'em Squeal	alliance			
+z_25_60_Southern_Barrens	25022	A Failure to Communicate	alliance			
+z_25_60_Southern_Barrens	25027	You Flicked a Fine Vine to Leaf Me	alliance			
+z_25_60_Southern_Barrens	25028	Trouble From the Ground Up	alliance			
+z_25_60_Southern_Barrens	25034	To the Front!	alliance			
+z_25_60_Southern_Barrens	25036	Teegan's Troubles	alliance			
+z_25_60_Southern_Barrens	25041	Lion's Pride	alliance			
+z_25_60_Southern_Barrens	25042	Marching On Our Stomachs	alliance			
+z_25_60_Southern_Barrens	25043	Fields of Blood	alliance			
+z_25_60_Southern_Barrens	25044	Diplomacy By Another Means	alliance			
+z_25_60_Southern_Barrens	25045	A Line in the Dirt	alliance			
+z_25_60_Southern_Barrens	25057	Clap 'Em In Irons	alliance			
+z_25_60_Southern_Barrens	25059	The Taurajo Briefs	alliance			
+z_25_60_Southern_Barrens	25074	Meet Me at Triumph	alliance			
+z_25_60_Southern_Barrens	25075	Pick-a-Part	alliance			
+z_25_60_Southern_Barrens	25079	Powder Play	alliance			
+z_25_60_Southern_Barrens	25080	Batteries Not Yet Included	alliance			
+z_25_60_Southern_Barrens	25081	Claim the Battlescar	alliance			
+z_25_60_Southern_Barrens	25082	Working the Bugs Out	alliance			
+z_25_60_Southern_Barrens	25084	A Growing Threat	alliance			
+z_25_60_Southern_Barrens	25085	Mangletooth	alliance			
+z_25_60_Southern_Barrens	25086	Firestone Point	alliance			
+z_25_60_Southern_Barrens	25087	Report to Twinbraid	alliance			
+z_25_60_Southern_Barrens	25102	No Bull	alliance			
+z_25_60_Southern_Barrens	25104	Digsite Status	alliance			
+z_25_60_Southern_Barrens	25106	Hands Off Me Dig!	alliance			
+z_25_60_Southern_Barrens	25108	Feegly the Exiled	alliance			
+z_25_60_Southern_Barrens	25120	Marley's Final Flight	alliance			
+z_25_60_Southern_Barrens	25151	He Needs Ale!	alliance			
+z_25_60_Southern_Barrens	25153	Bael'dun Rescue	alliance			
+z_25_60_Southern_Barrens	25163	Who Did This?	alliance			
+z_25_60_Southern_Barrens	25174	Twinbraid Needs to Know	alliance			
+z_25_60_Southern_Barrens	25175	The Bad News	alliance			
+z_25_60_Southern_Barrens	25182	Kill 'em All!	alliance			
+z_25_60_Southern_Barrens	25183	...And Bury the Rest	alliance			
+z_25_60_Southern_Barrens	25185	The Deed Is Done	alliance			
+z_25_60_Southern_Barrens	25186	Futile Resistance	alliance			
+z_25_60_Southern_Barrens	25191	Survey the Destruction	alliance			
+z_25_60_Southern_Barrens	25197	The Admiral Won't Back Down	alliance			
+z_25_60_Southern_Barrens	25284	Feeding the Fear	horde			
+z_25_60_Southern_Barrens	25852	All's Clear	alliance			
+z_25_60_Southern_Barrens	26069	Nura Pathfinder	horde			
+z_25_60_Southern_Barrens	28549	Warchief's Command: Southern Barrens!	horde			
+z_25_60_Southern_Barrens	28550	Hero's Call: Southern Barrens!	alliance			
+z_25_60_Southern_Barrens	28551	Hero's Call: Southern Barrens!	alliance			
+z_30_60_Desolace	header	30-60: Desolace				
+z_30_60_Desolace	14184	My Time Has Passed	horde			
+z_30_60_Desolace	14188	Avenge Furien!	horde			
+z_30_60_Desolace	14189	Translation	horde			
+z_30_60_Desolace	14191	Furien's Footsteps	horde			
+z_30_60_Desolace	14193	Nothing a Couple of Melons Won't Fix	alliance			
+z_30_60_Desolace	14195	All Becoming Clearer				
+z_30_60_Desolace	14196	Firestarter	horde			
+z_30_60_Desolace	14198	Rider on the Storm				
+z_30_60_Desolace	14213	Ten Pounds of Flesh	horde			
+z_30_60_Desolace	14217	Satyrical Offerings	horde			
+z_30_60_Desolace	14219	To the Hilt!	horde			
+z_30_60_Desolace	14223	Peace of Mind	horde			
+z_30_60_Desolace	14225	You'll Know It When You See It	horde			
+z_30_60_Desolace	14227	Putting Their Heads Together	horde			
+z_30_60_Desolace	14232	Ears Are Burning	horde			
+z_30_60_Desolace	14246	Early Adoption				
+z_30_60_Desolace	14247	Stubborn Lands				
+z_30_60_Desolace	14251	New Beginnings				
+z_30_60_Desolace	14252	Good Gold For Bad Tail				
+z_30_60_Desolace	14253	Fletch Me Some Plumage!				
+z_30_60_Desolace	14254	Heavy Metal				
+z_30_60_Desolace	14255	Ethel Rethor	horde			
+z_30_60_Desolace	14256	The Emerging Threat				
+z_30_60_Desolace	14257	Slitherblade Slaughter				
+z_30_60_Desolace	14260	Going Deep				
+z_30_60_Desolace	14264	Wetter Than Wet				
+z_30_60_Desolace	14268	Deep Impact				
+z_30_60_Desolace	14282	Mystery Solved				
+z_30_60_Desolace	14284	A Revenant's Vengeance				
+z_30_60_Desolace	14292	The Enemy of Our Enemy				
+z_30_60_Desolace	14301	Return and Report				
+z_30_60_Desolace	14302	Official Assessment				
+z_30_60_Desolace	14304	Blood Theory				
+z_30_60_Desolace	14305	A Time to Reap				
+z_30_60_Desolace	14306	Pulling Weeds				
+z_30_60_Desolace	14307	Stubborn Winds				
+z_30_60_Desolace	14309	Calming the Kodo				
+z_30_60_Desolace	14311	Taking Part				
+z_30_60_Desolace	14312	An Introduction Is In Order				
+z_30_60_Desolace	14314	Breakout!				
+z_30_60_Desolace	14316	Cenarion Property				
+z_30_60_Desolace	14318	Delicate Negotiations				
+z_30_60_Desolace	14325	Will Work For Food				
+z_30_60_Desolace	14327	My Word is My Bond				
+z_30_60_Desolace	14328	Three Princes				
+z_30_60_Desolace	14329	Not So Fast!				
+z_30_60_Desolace	14330	Behind Closed Doors				
+z_30_60_Desolace	14332	Time For Change				
+z_30_60_Desolace	14333	While You're Here				
+z_30_60_Desolace	14334	Blubbergut	horde			
+z_30_60_Desolace	14335	Chipping In	horde			
+z_30_60_Desolace	14337	Shadowprey Village	horde			
+z_30_60_Desolace	14338	Ghost Walker Post	horde			
+z_30_60_Desolace	14339	Delivery Device	horde			
+z_30_60_Desolace	14341	Smeed's Harnesses	horde			
+z_30_60_Desolace	14342	Infernal Encroachment	horde			
+z_30_60_Desolace	14343	Maurin's Concoction	horde			
+z_30_60_Desolace	14344	Jugkar's Undoing	horde			
+z_30_60_Desolace	14346	Cleansing Our Crevasse	horde			
+z_30_60_Desolace	14354	Elune's Gifts	alliance			
+z_30_60_Desolace	14357	To the Hilt!	alliance			
+z_30_60_Desolace	14358	Ten Pounds of Flesh	alliance			
+z_30_60_Desolace	14359	Blessings From Above	alliance			
+z_30_60_Desolace	14360	Nothing a Couple of Melons Won't Fix				
+z_30_60_Desolace	14361	Peace of Mind	alliance			
+z_30_60_Desolace	14362	Ears Are Burning	alliance			
+z_30_60_Desolace	14363	You'll Know It When You See It	alliance			
+z_30_60_Desolace	14364	Putting Their Heads Together	alliance			
+z_30_60_Desolace	14365	Ethel Rethor	alliance			
+z_30_60_Desolace	14372	Thargad's Camp	alliance			
+z_30_60_Desolace	14373	Infernal Encroachment	alliance			
+z_30_60_Desolace	14374	Portals of the Legion	alliance			
+z_30_60_Desolace	14376	Jugkar's Undoing	alliance			
+z_30_60_Desolace	14378	Hunting Brendol	alliance			
+z_30_60_Desolace	14379	Rock Lobstrock!	alliance			
+z_30_60_Desolace	14380	An Impactful Discovery	alliance			
+z_30_60_Desolace	14381	Cleansing Our Crevasse	alliance			
+z_30_60_Desolace	14384	Rerouted!	alliance			
+z_30_60_Desolace	14387	Lay of the Land	alliance			
+z_30_60_Desolace	14393	Into the Fray!				
+z_30_60_Desolace	14394	Death to Agogridon				
+z_30_60_Desolace	1454	The Karnitol Shipwreck	alliance			
+z_30_60_Desolace	1455	The Karnitol Shipwreck	alliance			
+z_30_60_Desolace	1456	The Karnitol Shipwreck	alliance			
+z_30_60_Desolace	1467	Reagents for Reclaimers Inc.				
+z_30_60_Desolace	25938	Help for Desolace	alliance			
+z_30_60_Desolace	26134	Nothing Left for You Here	horde			
+z_30_60_Desolace	28531	Hero's Call: Desolace!	alliance			
+z_30_60_Desolace	28548	Warchief's Command: Desolace!	horde			
+z_30_60_Desolace	5421	Fish in a Bucket	horde			
+z_30_60_Desolace	5501	Bone Collector				
+z_30_60_Desolace	5561	Kodo Roundup				
+z_30_60_Desolace	5581	Portals of the Legion	horde			
+z_30_60_Desolace	5821	Bodyguard for Hire				
+z_30_60_Desolace	5943	Gizelton Caravan				
+z_30_60_Desolace	6132	Get Me Out of Here!				
+z_30_60_Desolace	6134	Ghost-o-plasm Round Up				
+z_30_60_Desolace	6142	Clam Bait	horde			
+z_30_60_Desolace	6143	Other Fish to Fry	horde			
+z_35_60_Dustwallow_Marsh	header	35-60: Dustwallow Marsh				
+z_35_60_Dustwallow_Marsh	1168	Army of the Black Dragon	horde			
+z_35_60_Dustwallow_Marsh	1201	Theramore Spies	horde			
+z_35_60_Dustwallow_Marsh	1202	The Theramore Docks	horde			
+z_35_60_Dustwallow_Marsh	1204	Mudrock Soup and Bugs	alliance			
+z_35_60_Dustwallow_Marsh	1205	Deadmire	horde			
+z_35_60_Dustwallow_Marsh	1222	Stinky's Escape	alliance			
+z_35_60_Dustwallow_Marsh	1258	... and Bugs	alliance			
+z_35_60_Dustwallow_Marsh	1270	Stinky's Escape	horde			
+z_35_60_Dustwallow_Marsh	1271	Feast at the Blue Recluse	alliance			
+z_35_60_Dustwallow_Marsh	11208	Delivery for Drazzit				
+z_35_60_Dustwallow_Marsh	11211	Help for Mudsprocket				
+z_35_60_Dustwallow_Marsh	11212	Tabetha's Farm	alliance			
+z_35_60_Dustwallow_Marsh	11213	Check Up on Tabetha	horde			
+z_35_60_Dustwallow_Marsh	11215	Help Mudsprocket	horde			
+z_35_60_Dustwallow_Marsh	25051	Darkmist Extermination	horde			
+z_35_60_Dustwallow_Marsh	25292	Next of Kin	horde			
+z_35_60_Dustwallow_Marsh	26596	The Call of Kalimdor	alliance			
+z_35_60_Dustwallow_Marsh	26682	A Shambling Threat	horde			
+z_35_60_Dustwallow_Marsh	26687	Reinforcements From Theramore	alliance			
+z_35_60_Dustwallow_Marsh	26696	The Call of Kalimdor	horde			
+z_35_60_Dustwallow_Marsh	26701	Flight to Brackenwall	horde			
+z_35_60_Dustwallow_Marsh	26702	Flight to Theramore	alliance			
+z_35_60_Dustwallow_Marsh	27182	The Hermit of Witch Hill	horde			
+z_35_60_Dustwallow_Marsh	27183	Marsh Frog Legs				
+z_35_60_Dustwallow_Marsh	27184	Jarl Needs Eyes				
+z_35_60_Dustwallow_Marsh	27186	Jarl Needs a Blade				
+z_35_60_Dustwallow_Marsh	27188	What's Haunting Witch Hill?				
+z_35_60_Dustwallow_Marsh	27189	The Witch's Bane				
+z_35_60_Dustwallow_Marsh	27190	Cleansing Witch Hill				
+z_35_60_Dustwallow_Marsh	27191	Hungry as an Ogre!				
+z_35_60_Dustwallow_Marsh	27210	Traitors Among Us	alliance			
+z_35_60_Dustwallow_Marsh	27211	Propaganda War	alliance			
+z_35_60_Dustwallow_Marsh	27212	Discrediting the Deserters	alliance			
+z_35_60_Dustwallow_Marsh	27213	The End of the Deserters	alliance			
+z_35_60_Dustwallow_Marsh	27214	A Disturbing Development	alliance			
+z_35_60_Dustwallow_Marsh	27215	The Hermit of Swamplight Manor	alliance			
+z_35_60_Dustwallow_Marsh	27216	This Old Lighthouse	alliance			
+z_35_60_Dustwallow_Marsh	27217	Thresher Oil	alliance			
+z_35_60_Dustwallow_Marsh	27218	Dastardly Denizens of the Deep	alliance			
+z_35_60_Dustwallow_Marsh	27219	Is it Real?	alliance			
+z_35_60_Dustwallow_Marsh	27220	Nat's Bargain	alliance			
+z_35_60_Dustwallow_Marsh	27221	Oh, It's Real	alliance			
+z_35_60_Dustwallow_Marsh	27222	Take Down Tethyr!	alliance			
+z_35_60_Dustwallow_Marsh	27229	SMASH BROODQUEEN	horde			
+z_35_60_Dustwallow_Marsh	27234	Defias in Dustwallow?	alliance			
+z_35_60_Dustwallow_Marsh	27235	Renn McGill	alliance			
+z_35_60_Dustwallow_Marsh	27236	Secondhand Diving Gear	alliance			
+z_35_60_Dustwallow_Marsh	27237	Recover the Cargo!	alliance			
+z_35_60_Dustwallow_Marsh	27238	Jaina Must Know	alliance			
+z_35_60_Dustwallow_Marsh	27239	Survey Alcaz Island	alliance			
+z_35_60_Dustwallow_Marsh	27240	Proof of Treachery	alliance			
+z_35_60_Dustwallow_Marsh	27241	Return to Jaina	alliance			
+z_35_60_Dustwallow_Marsh	27242	Raptor Captor	alliance			
+z_35_60_Dustwallow_Marsh	27243	Unleash the Raptors	alliance			
+z_35_60_Dustwallow_Marsh	27244	The Lost Report	horde			
+z_35_60_Dustwallow_Marsh	27245	Prisoners of the Grimtotems	alliance			
+z_35_60_Dustwallow_Marsh	27246	The Orc Report	alliance			
+z_35_60_Dustwallow_Marsh	27247	Captain Vimes	alliance			
+z_35_60_Dustwallow_Marsh	27248	Mission to Mudsprocket	alliance			
+z_35_60_Dustwallow_Marsh	27249	Inspecting the Ruins	alliance			
+z_35_60_Dustwallow_Marsh	27251	They Call Him Smiling Jim	alliance			
+z_35_60_Dustwallow_Marsh	27252	The Black Shield	alliance			
+z_35_60_Dustwallow_Marsh	27253	Inspecting the Ruins	horde			
+z_35_60_Dustwallow_Marsh	27254	The Black Shield	horde			
+z_35_60_Dustwallow_Marsh	27255	The Black Shield	horde			
+z_35_60_Dustwallow_Marsh	27256	The Black Shield	horde			
+z_35_60_Dustwallow_Marsh	27257	The Black Shield	horde			
+z_35_60_Dustwallow_Marsh	27258	The Black Shield	horde			
+z_35_60_Dustwallow_Marsh	27259	Suspicious Hoofprints	horde			
+z_35_60_Dustwallow_Marsh	27260	Lieutenant Paval Reethe	horde			
+z_35_60_Dustwallow_Marsh	27261	Questioning Reethe	horde			
+z_35_60_Dustwallow_Marsh	27262	Suspicious Hoofprints	alliance			
+z_35_60_Dustwallow_Marsh	27263	Lieutenant Paval Reethe	alliance			
+z_35_60_Dustwallow_Marsh	27264	Lieutenant Paval Reethe	alliance			
+z_35_60_Dustwallow_Marsh	27284	The Black Shield	alliance			
+z_35_60_Dustwallow_Marsh	27285	The Black Shield	alliance			
+z_35_60_Dustwallow_Marsh	27286	Daelin's Men	alliance			
+z_35_60_Dustwallow_Marsh	27287	The Deserters	alliance			
+z_35_60_Dustwallow_Marsh	27288	The Deserters	alliance			
+z_35_60_Dustwallow_Marsh	27291	Peace at Last	alliance			
+z_35_60_Dustwallow_Marsh	27292	Return to Krog	horde			
+z_35_60_Dustwallow_Marsh	27293	The Grimtotem Plot	horde			
+z_35_60_Dustwallow_Marsh	27294	More than Coincidence	horde			
+z_35_60_Dustwallow_Marsh	27295	Seek Out Tabetha	horde			
+z_35_60_Dustwallow_Marsh	27296	Raze Direhorn Post!	horde			
+z_35_60_Dustwallow_Marsh	27297	Justice Dispensed	horde			
+z_35_60_Dustwallow_Marsh	27306	Talk to Ogron	horde			
+z_35_60_Dustwallow_Marsh	27336	The Grimtotem Weapon				
+z_35_60_Dustwallow_Marsh	27339	The Reagent Thief				
+z_35_60_Dustwallow_Marsh	27340	Direhorn Raiders				
+z_35_60_Dustwallow_Marsh	27346	The Zeppelin Crash				
+z_35_60_Dustwallow_Marsh	27347	Corrosion Prevention				
+z_35_60_Dustwallow_Marsh	27348	Secure the Cargo!				
+z_35_60_Dustwallow_Marsh	27407	Bloodfen Feathers				
+z_35_60_Dustwallow_Marsh	27408	Banner of the Stonemaul				
+z_35_60_Dustwallow_Marsh	27409	The Essence of Enmity				
+z_35_60_Dustwallow_Marsh	27410	Spirits of Stonemaul Hold				
+z_35_60_Dustwallow_Marsh	27411	Challenge to the Black Flight				
+z_35_60_Dustwallow_Marsh	27412	WANTED: Goreclaw the Ravenous				
+z_35_60_Dustwallow_Marsh	27413	Catch a Dragon by the Tail				
+z_35_60_Dustwallow_Marsh	27414	Identifying the Brood	horde			
+z_35_60_Dustwallow_Marsh	27415	The Brood of Onyxia	horde			
+z_35_60_Dustwallow_Marsh	27416	The Brood of Onyxia	horde			
+z_35_60_Dustwallow_Marsh	27417	The Brood of Onyxia	horde			
+z_35_60_Dustwallow_Marsh	27418	Challenge Overlord Mok'Morokk	horde			
+z_35_60_Dustwallow_Marsh	27424	Overlord Mok'Morokk's Concern	horde			
+z_35_60_Dustwallow_Marsh	27425	A Grim Connection	alliance			
+z_35_60_Dustwallow_Marsh	27426	Confirming the Suspicion	alliance			
+z_35_60_Dustwallow_Marsh	27427	Arms of the Grimtotems	alliance			
+z_35_60_Dustwallow_Marsh	27428	Tabetha's Assistance	alliance			
+z_35_60_Dustwallow_Marsh	27429	Raze Direhorn Post!	alliance			
+z_35_60_Dustwallow_Marsh	27430	Justice for the Hyals	alliance			
+z_35_60_Dustwallow_Marsh	28552	Hero's Call: Dustwallow Marsh!	alliance			
+z_35_60_Dustwallow_Marsh	28554	Warchief's Command: Dustwallow Marsh!	horde			
+z_35_60_Feralas	header	35-60: Ferelas				
+z_40_60_Thousand_Needles	header	40-60: Thousand Needles				
+z_40_60_Felwood	header	40-60: Felwood				
+z_40_60_Tanaris	header	40-60: Tanaris				
+z_40_60_UnGoro_Crater	header	40-60: Un'Goro Crater				
+z_40_60_Winterspring	header	40-60: Winterspring: Unsorted				
 z_40_60_Winterspring	28544	Hero's Call: Winterspring!	alliance			
 z_40_60_Winterspring	28545	Warchief's Command: Winterspring!	horde			
-z_40_60_Winterspring	28460	Threat of the Winterfall			
-z_40_60_Winterspring	28462	Winterfall Firewater			
-z_40_60_Winterspring	28464	Falling to Corruption			
-z_40_60_Winterspring	28467	Mystery Goo			
-z_40_60_Winterspring	28469	Winterfall Runners			
-z_40_60_Winterspring	28470	High Chief Winterfall			
-z_40_60_Winterspring	28471	The Final Piece			
-z_40_60_Winterspring	28472	Words of the High Chief			
-z_40_60_Winterspring	28479	The Ruins of Kel'Theril			
-z_40_60_Winterspring	28513	Pride of the Highborne			
-z_40_60_Winterspring	28516	Centuries of Suffering			
-z_40_60_Winterspring	28518	Legacy of the High Elves			
-z_40_60_Winterspring	28519	Pain of the Blood Elves			
-z_40_60_Winterspring	28521	Speak to Salfa			
-z_40_60_Winterspring	28522	Winterfall Activity			
-z_40_60_Winterspring	28524	Delivery for Donova			
-z_40_60_Winterspring	28530	Scalding Signs			
-z_40_60_Winterspring	28534	Descendants of the Highborne			
-z_40_60_Winterspring	28535	Descendants of the High Elves			
-z_40_60_Winterspring	28536	The Curse of Zin-Malor			
-z_40_60_Winterspring	28537	In Pursuit of Shades			
-z_40_60_Winterspring	28540	Doin' De E'ko Magic			
-z_40_60_Winterspring	28609	Hammer Time			
-z_40_60_Winterspring	28610	Rubble Trouble			
-z_40_60_Winterspring	28614	Bearzerker			
-z_40_60_Winterspring	28615	Turning the Earth			
-z_40_60_Winterspring	28618	Boulder Delivery			
-z_40_60_Winterspring	28624	Kilram's Boast			
-z_40_60_Winterspring	28625	Chop Chop			
-z_40_60_Winterspring	28626	Tree Delivery			
-z_40_60_Winterspring	28627	Seril's Boast			
-z_40_60_Winterspring	28628	Ice Delivery			
-z_40_60_Winterspring	28629	Are We There, Yeti?			
-z_40_60_Winterspring	28630	Echo Three			
-z_40_60_Winterspring	28631	The Perfect Horns			
-z_40_60_Winterspring	28632	Fresh From The Hills			
-z_40_60_Winterspring	28637	A Taste for Bear			
-z_40_60_Winterspring	28638	The Owls Have It			
-z_40_60_Winterspring	28639	Ursius			
-z_40_60_Winterspring	28640	Fresh Frostsabers			
-z_40_60_Winterspring	28641	Pride of the Dinner Table			
-z_40_60_Winterspring	28656	Strange Life Forces			
-z_40_60_Winterspring	28674	Starfall Village			
-z_40_60_Winterspring	28676	Exterminators at Work			
-z_40_60_Winterspring	28701	Out of Harm's Way			
-z_40_60_Winterspring	28703	Step Into My Barrow			
-z_40_60_Winterspring	28706	Spray it Forward			
-z_40_60_Winterspring	28707	Spray it Again			
-z_40_60_Winterspring	28710	Spray it One More Time			
-z_40_60_Winterspring	28718	Where There's Smoke, There's Delicious Meat			
-z_40_60_Winterspring	28719	A Little Gamy			
-z_40_60_Winterspring	28722	Yetiphobia			
-z_40_60_Winterspring	28742	Shy-Rotam			
-z_40_60_Winterspring	28745	Screechy Keen			
-z_40_60_Winterspring	28768	Winterspring!			
-z_40_60_Winterspring	28782	A Bird of Legend			
-z_40_60_Winterspring	28828	You Gotta Have Eggs			
-z_40_60_Winterspring	28829	Razor Beak and Antlers Pointy			
-z_40_60_Winterspring	28830	Chips off the Old Block			
-z_40_60_Winterspring	28831	Damn You, Frostilicus			
-z_40_60_Winterspring	28837	Altered Beasts			
-z_40_60_Winterspring	28838	The Owlbeasts' Defense			
-z_40_60_Winterspring	28839	Magic Prehistoric			
-z_40_60_Winterspring	28840	Winterwater			
-z_40_60_Winterspring	28841	The Arcane Storm Within			
-z_40_60_Winterspring	28842	Umbranse's Deliverance			
-z_40_60_Winterspring	28847	The Pursuit of Umbranse			
-z_40_60_Winterspring	28848	Trailing the Spiritspeaker			
-z_40_60_Silithus	header	40-60: Silithus: Breadcrumbs			
+z_40_60_Winterspring	28460	Threat of the Winterfall				
+z_40_60_Winterspring	28462	Winterfall Firewater				
+z_40_60_Winterspring	28464	Falling to Corruption				
+z_40_60_Winterspring	28467	Mystery Goo				
+z_40_60_Winterspring	28469	Winterfall Runners				
+z_40_60_Winterspring	28470	High Chief Winterfall				
+z_40_60_Winterspring	28471	The Final Piece				
+z_40_60_Winterspring	28472	Words of the High Chief				
+z_40_60_Winterspring	28479	The Ruins of Kel'Theril				
+z_40_60_Winterspring	28513	Pride of the Highborne				
+z_40_60_Winterspring	28516	Centuries of Suffering				
+z_40_60_Winterspring	28518	Legacy of the High Elves				
+z_40_60_Winterspring	28519	Pain of the Blood Elves				
+z_40_60_Winterspring	28521	Speak to Salfa				
+z_40_60_Winterspring	28522	Winterfall Activity				
+z_40_60_Winterspring	28524	Delivery for Donova				
+z_40_60_Winterspring	28530	Scalding Signs				
+z_40_60_Winterspring	28534	Descendants of the Highborne				
+z_40_60_Winterspring	28535	Descendants of the High Elves				
+z_40_60_Winterspring	28536	The Curse of Zin-Malor				
+z_40_60_Winterspring	28537	In Pursuit of Shades				
+z_40_60_Winterspring	28540	Doin' De E'ko Magic				
+z_40_60_Winterspring	28609	Hammer Time				
+z_40_60_Winterspring	28610	Rubble Trouble				
+z_40_60_Winterspring	28614	Bearzerker				
+z_40_60_Winterspring	28615	Turning the Earth				
+z_40_60_Winterspring	28618	Boulder Delivery				
+z_40_60_Winterspring	28624	Kilram's Boast				
+z_40_60_Winterspring	28625	Chop Chop				
+z_40_60_Winterspring	28626	Tree Delivery				
+z_40_60_Winterspring	28627	Seril's Boast				
+z_40_60_Winterspring	28628	Ice Delivery				
+z_40_60_Winterspring	28629	Are We There, Yeti?				
+z_40_60_Winterspring	28630	Echo Three				
+z_40_60_Winterspring	28631	The Perfect Horns				
+z_40_60_Winterspring	28632	Fresh From The Hills				
+z_40_60_Winterspring	28637	A Taste for Bear				
+z_40_60_Winterspring	28638	The Owls Have It				
+z_40_60_Winterspring	28639	Ursius				
+z_40_60_Winterspring	28640	Fresh Frostsabers				
+z_40_60_Winterspring	28641	Pride of the Dinner Table				
+z_40_60_Winterspring	28656	Strange Life Forces				
+z_40_60_Winterspring	28674	Starfall Village				
+z_40_60_Winterspring	28676	Exterminators at Work				
+z_40_60_Winterspring	28701	Out of Harm's Way				
+z_40_60_Winterspring	28703	Step Into My Barrow				
+z_40_60_Winterspring	28706	Spray it Forward				
+z_40_60_Winterspring	28707	Spray it Again				
+z_40_60_Winterspring	28710	Spray it One More Time				
+z_40_60_Winterspring	28718	Where There's Smoke, There's Delicious Meat				
+z_40_60_Winterspring	28719	A Little Gamy				
+z_40_60_Winterspring	28722	Yetiphobia				
+z_40_60_Winterspring	28742	Shy-Rotam				
+z_40_60_Winterspring	28745	Screechy Keen				
+z_40_60_Winterspring	28768	Winterspring!				
+z_40_60_Winterspring	28782	A Bird of Legend				
+z_40_60_Winterspring	28828	You Gotta Have Eggs				
+z_40_60_Winterspring	28829	Razor Beak and Antlers Pointy				
+z_40_60_Winterspring	28830	Chips off the Old Block				
+z_40_60_Winterspring	28831	Damn You, Frostilicus				
+z_40_60_Winterspring	28837	Altered Beasts				
+z_40_60_Winterspring	28838	The Owlbeasts' Defense				
+z_40_60_Winterspring	28839	Magic Prehistoric				
+z_40_60_Winterspring	28840	Winterwater				
+z_40_60_Winterspring	28841	The Arcane Storm Within				
+z_40_60_Winterspring	28842	Umbranse's Deliverance				
+z_40_60_Winterspring	28847	The Pursuit of Umbranse				
+z_40_60_Winterspring	28848	Trailing the Spiritspeaker				
+z_40_60_Silithus	header	40-60: Silithus: Breadcrumbs				
 z_40_60_Silithus	28528	Hero's Call: Silithus!	alliance			
 z_40_60_Silithus	28527	Warchief's Command: Silithus!	horde			
-z_40_60_Silithus	28859	The Dunes of Silithus			
-z_40_60_Silithus	28856	The Sands of Silithus			
-z_40_60_Silithus	header	55-60: Silithus: Cenarian Hold			
-z_40_60_Silithus	8280	Securing the Supply Lines			
-z_40_60_Silithus	8308	Brann Bronzebeard's Lost Letter			
-z_40_60_Silithus	8281	Stepping Up Security			
-z_40_60_Silithus	8283	Wanted - Deathclasp, Terror of the Sands			
-z_40_60_Silithus	8318	Secret Communication			
-z_40_60_Silithus	header	55-60: Silithus: Saving Noggle			
-z_40_60_Silithus	8277	Deadly Desert Venom			
-z_40_60_Silithus	8278	Noggle's Last Hope			
-z_40_60_Silithus	8282	Noggle's Lost Satchel			
-z_40_60_Silithus	header	55-60: Silithus: Twilight Geolords			
-z_40_60_Silithus	8320	Twilight Geolords			
-z_40_60_Silithus	8321	Vyral the Vile			
-z_40_60_Silithus	header	55-60: Silithus: Hive'Regal			
-z_40_60_Silithus	8304	Dearest Natalia			
-z_40_60_Silithus	8306	Into The Maw of Madness			
-z_40_60_Silithus	8310	Breaking the Code			
-z_40_60_Silithus	8309	Glyph Chasing			
-z_40_60_Silithus	8314	Unraveling the Mystery			
-z_40_60_Silithus	8381	Armaments of War (Obsolete)		class_mage	
-z_40_60_Silithus	8381	Armaments of War (Obsolete)		class_warlock	
-z_40_60_Silithus	8379	Armaments of War (Obsolete)		class_priest	
-z_40_60_Silithus	8382	Armaments of War (Obsolete)		class_druid	
-z_40_60_Silithus	8378	Armaments of War (Obsolete)		class_rogue	
-z_40_60_Silithus	8377	Armaments of War (Obsolete)		class_hunter	
-z_40_60_Silithus	8380	Armaments of War (Obsolete)		class_shaman	
-z_40_60_Silithus	8376	Armaments of War (Obsolete)		class_paladin	
-z_40_60_Silithus	header	55-60: Silithus: Hermit Ortell			
-z_40_60_Silithus	8284	The Twilight Mystery			
-z_40_60_Silithus	8285	The Deserter			
-z_40_60_Silithus	8279	The Twilight Lexicon			
-z_40_60_Silithus	8323	True Believers			
-z_40_60_Silithus	8287	A Terrible Purpose			
-z_40_60_Silithus	header	55-60: Silithus: PvP			
+z_40_60_Silithus	28859	The Dunes of Silithus				
+z_40_60_Silithus	28856	The Sands of Silithus				
+z_40_60_Silithus	header	55-60: Silithus: Cenarian Hold				
+z_40_60_Silithus	8280	Securing the Supply Lines				
+z_40_60_Silithus	8308	Brann Bronzebeard's Lost Letter				
+z_40_60_Silithus	8281	Stepping Up Security				
+z_40_60_Silithus	8283	Wanted - Deathclasp, Terror of the Sands				
+z_40_60_Silithus	8318	Secret Communication				
+z_40_60_Silithus	header	55-60: Silithus: Saving Noggle				
+z_40_60_Silithus	8277	Deadly Desert Venom				
+z_40_60_Silithus	8278	Noggle's Last Hope				
+z_40_60_Silithus	8282	Noggle's Lost Satchel				
+z_40_60_Silithus	header	55-60: Silithus: Twilight Geolords				
+z_40_60_Silithus	8320	Twilight Geolords				
+z_40_60_Silithus	8321	Vyral the Vile				
+z_40_60_Silithus	header	55-60: Silithus: Hive'Regal				
+z_40_60_Silithus	8304	Dearest Natalia				
+z_40_60_Silithus	8306	Into The Maw of Madness				
+z_40_60_Silithus	8310	Breaking the Code				
+z_40_60_Silithus	8309	Glyph Chasing				
+z_40_60_Silithus	8314	Unraveling the Mystery				
+z_40_60_Silithus	8381	Armaments of War (Obsolete)		class_mage		
+z_40_60_Silithus	8381	Armaments of War (Obsolete)		class_warlock		
+z_40_60_Silithus	8379	Armaments of War (Obsolete)		class_priest		
+z_40_60_Silithus	8382	Armaments of War (Obsolete)		class_druid		
+z_40_60_Silithus	8378	Armaments of War (Obsolete)		class_rogue		
+z_40_60_Silithus	8377	Armaments of War (Obsolete)		class_hunter		
+z_40_60_Silithus	8380	Armaments of War (Obsolete)		class_shaman		
+z_40_60_Silithus	8376	Armaments of War (Obsolete)		class_paladin		
+z_40_60_Silithus	header	55-60: Silithus: Hermit Ortell				
+z_40_60_Silithus	8284	The Twilight Mystery				
+z_40_60_Silithus	8285	The Deserter				
+z_40_60_Silithus	8279	The Twilight Lexicon				
+z_40_60_Silithus	8323	True Believers				
+z_40_60_Silithus	8287	A Terrible Purpose				
+z_40_60_Silithus	header	55-60: Silithus: PvP				
 z_40_60_Silithus	9415	Report to Marshal Bluewall	alliance			
 z_40_60_Silithus	9416	Report to General Kirika	horde			
