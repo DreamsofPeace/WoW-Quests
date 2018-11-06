@@ -96,29 +96,29 @@ sub __main__() {
 	
 	my $fetchtype = 'quests,items,professions,achievements';
 	my $fetchtyperep = 'reputation';
-	my $fetchtypeprogression = 'progression';
+	my $fetchtypestatistics = 'statistics';
 	BNet::Utils::htmlheadprint();
 	BNet::Utils::tableprint("begintable");
 	BNet::Utils::tableprint("beginrow");
 	BNet::Utils::tableprint("beginth");
-	print "\t\t\t\t<div>Character</div>";
-	print "\t\t\t\t<div>Server</div>";
-	print "\t\t\t\t<div>Average iLvl</div>";
-	print "\t\t\t\t<div>Wowhead</div>";
-	print "\t\t\t\t<div>Level</div>";
+	print "\t\t\t\t<div>Character</div>\n";
+	print "\t\t\t\t<div>Server</div>\n";
+	print "\t\t\t\t<div>Average iLvl</div>\n";
+	print "\t\t\t\t<div>Wowhead</div>\n";
+	print "\t\t\t\t<div>Level</div>\n";
 	BNet::Utils::tableprint("endth");
 
 	foreach my $f (@entire_file) {
 		my @columns = split (/\t/, $f);
 		if( defined($columns[2]) ){
-			chomp ($columns[2]);
+			chomp $columns[2];
 		}
 		$columns[0] =~ s/^\x{FEFF}//;
 		if ($count == 0) {
 			if( defined($columns[1]) ){
 				$userinfo00 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo00r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo00p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo00p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo00);
 				my $ail = BNet::Utils::retrieveail($userinfo00);
@@ -126,7 +126,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -144,7 +144,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo01 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo01r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo01p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo01p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo01);
 				my $ail = BNet::Utils::retrieveail($userinfo01);
@@ -152,7 +152,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -170,7 +170,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo02 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo02r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo02p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo02p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo02);
 				my $ail = BNet::Utils::retrieveail($userinfo02);
@@ -178,7 +178,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -196,7 +196,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo03 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo03r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo03p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo03p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo03);
 				my $ail = BNet::Utils::retrieveail($userinfo03);
@@ -204,7 +204,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -222,7 +222,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo04 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo04r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo04p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo04p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo04);
 				my $ail = BNet::Utils::retrieveail($userinfo04);
@@ -230,7 +230,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -248,7 +248,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo05 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo05r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo05p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo05p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo05);
 				my $ail = BNet::Utils::retrieveail($userinfo05);
@@ -256,7 +256,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -274,7 +274,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo06 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo06r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo06p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo06p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo06);
 				my $ail = BNet::Utils::retrieveail($userinfo06);
@@ -282,7 +282,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -300,7 +300,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo07 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo07r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo07p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo07p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo07);
 				my $ail = BNet::Utils::retrieveail($userinfo07);
@@ -308,7 +308,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -326,7 +326,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo08 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo08r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo08p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo08p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo08);
 				my $ail = BNet::Utils::retrieveail($userinfo08);
@@ -334,7 +334,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -352,7 +352,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo09 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo09r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo09p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo09p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo09);
 				my $ail = BNet::Utils::retrieveail($userinfo09);
@@ -360,7 +360,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -378,7 +378,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo10 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo10r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo10p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo10p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo10);
 				my $ail = BNet::Utils::retrieveail($userinfo10);
@@ -386,7 +386,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -404,7 +404,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo11 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo11r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo11p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo11p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo11);
 				my $ail = BNet::Utils::retrieveail($userinfo11);
@@ -412,7 +412,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -430,7 +430,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo12 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo12r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo12p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo12p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo12);
 				my $ail = BNet::Utils::retrieveail($userinfo12);
@@ -438,7 +438,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -456,7 +456,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo13 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo13r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo13p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo13p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo13);
 				my $ail = BNet::Utils::retrieveail($userinfo13);
@@ -464,7 +464,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -482,7 +482,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo14 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo14r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo14p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo14p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo14);
 				my $ail = BNet::Utils::retrieveail($userinfo14);
@@ -490,7 +490,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -508,7 +508,7 @@ sub __main__() {
 			if( defined($columns[1]) ){
 				$userinfo15 =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtype, $apikey);
 				$userinfo15r =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtyperep, $apikey);
-				$userinfo15p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypeprogression, $apikey);
+				$userinfo15p =  BNet::Utils::downloadinfo($columns[1], $columns[0], $fetchtypestatistics, $apikey);
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo15);
 				my $ail = BNet::Utils::retrieveail($userinfo15);
@@ -516,7 +516,7 @@ sub __main__() {
 				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
-					chomp ($columns[2]);
+					chomp $columns[2];
 					print $columns[2];
 					print "\">WH</a></div>\n";
 					print "\n\t\t\t\t<div>";
@@ -2447,7 +2447,60 @@ sub __main__() {
 			require 'BNet/Stats_Progression.pm';
 		}
 		
+		my %bosses;
 		
+		#print Dumper(\$userinfo00p);
+		
+		if (0 < $count) {
+			$bosses{0} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo00p) };
+		}
+		#if (1 < $count) {
+		#	$bosses{1} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo01p) };
+		#}
+		#if (2 < $count) {
+		#	$bosses{2} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo02p) };
+		#}
+		#if (3 < $count) {
+		#	$bosses{3} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo03p) };
+		#}
+		#if (4 < $count) {
+		#	$bosses{4} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo04p) };
+		#}
+		#if (5 < $count) {
+		#	$bosses{5} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo05p) };
+		#}
+		#if (6 < $count) {
+		#	$bosses{6} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo06p) };
+		#}
+		#if (7 < $count) {
+		#	$bosses{7} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo07p) };
+		#}
+		#if (8 < $count) {
+		#	$bosses{8} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo08p) };
+		#}
+		#if (9 < $count) {
+		#	$bosses{9} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo09p) };
+		#}
+		#if (10 < $count) {
+		#	$bosses{10} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo10p) };
+		#}
+		#if (11 < $count) {
+		#	$bosses{11} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo11p) };
+		#}
+		#if (12 < $count) {
+		#	$bosses{12} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo12p) };
+		#}
+		#if (13 < $count) {
+		#	$bosses{13} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo13p) };
+		#}
+		#if (14 < $count) {
+		#	$bosses{14} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo14p) };
+		#}
+		#if (15 < $count) {
+		#	$bosses{15} = { BNet::Stats_Progression::bossdungeonandraid ($userinfo15p) };
+		#}
+		
+		BNet::Stats_Progression::bossdungeonandraid2 (%bosses);
 	}
 }
 

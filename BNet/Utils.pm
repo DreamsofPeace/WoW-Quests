@@ -1165,54 +1165,78 @@ sub valueprintreputationcellfriend ($$$) {
 	if ($db == 0) {
 		BNet::Utils::tableprint("begintdhated");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Stranger</div>";
-		print "<div>";
+		print "\t\t\t<div>Stranger</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 1) {
 		BNet::Utils::tableprint("begintdhostile");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Acquaintance</div>";
-		print "<div>";
+		print "\t\t\t<div>Acquaintance</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 2) {
 		BNet::Utils::tableprint("begintdunfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Buddy</div>";
-		print "<div>";
+		print "\t\t\t<div>Buddy</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 3) {
 		BNet::Utils::tableprint("begintdneutral");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Friend</div>";
-		print "<div>";
+		print "\t\t\t<div>Friend</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 4) {
 		BNet::Utils::tableprint("begintdfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Good Friend</div>";
-		print "<div>";
+		print "\t\t\t<div>Good Friend</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 5) {
 		BNet::Utils::tableprint("begintdexalted");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Best Friend</div>";
-		print "\t\t\t<div></div>";
-		print "\n";
+		print "\t\t\t<div>Best Friend</div>\n";
+		print "\t\t\t<div></div>\n";
 		BNet::Utils::tableprint("endtd");
 	}
 }
@@ -1222,63 +1246,56 @@ sub valueprintreputationcellchromie ($$$) {
 	if ($db == 0) {
 		BNet::Utils::tableprint("begintdhated");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Whelpling</div>";
-		print "<div>";
+		print "\t\t\t<div>Whelpling</div>\n";
+		print "\t\t\t<div>";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 1) {
 		BNet::Utils::tableprint("begintdhostile");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Temporal Trainee</div>";
-		print "<div>";
+		print "\t\t\t<div>Temporal Trainee</div>\n";
+		print "\t\t\t<div>";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 2) {
 		BNet::Utils::tableprint("begintdunfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Timehopper</div>";
-		print "<div>";
+		print "\t\t\t<div>Timehopper</div>\n";
+		print "\t\t\t<div>";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 3) {
 		BNet::Utils::tableprint("begintdneutral");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Chrono-Friend</div>";
-		print "<div>";
+		print "\t\t\t<div>Chrono-Friend</div>\n";
+		print "\t\t\t<div>";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 4) {
 		BNet::Utils::tableprint("begintdfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Bronze Ally</div>";
-		print "<div>";
+		print "\t\t\t<div>Bronze Ally</div>\n";
+		print "\t\t\t<div>";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 5) {
 		BNet::Utils::tableprint("begintdhonoured");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Epoch-Mender</div>";
-		print "<div>";
+		print "\t\t\t<div>Epoch-Mender</div>\n";
+		print "\t\t\t<div>";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 6) {
 		BNet::Utils::tableprint("begintdexalted");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Timelord</div>";
-		print "\t\t\t<div></div>";
-		print "\n";
+		print "\t\t\t<div>Timelord</div>\n";
+		print "\t\t\t<div></div>\n";
 		BNet::Utils::tableprint("endtd");
 	}
 }
@@ -1288,103 +1305,136 @@ sub valueprintreputationcellgeneral ($$$) {
 	if ($db == 0) {
 		BNet::Utils::tableprint("begintdhated");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Hated</div>";
-		print "<div>";
+		print "\t\t\t<div>Hated</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 1) {
 		BNet::Utils::tableprint("begintdhostile");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Hostile</div>";
-		print "<div>";
+		print "\t\t\t<div>Hostile</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 2) {
 		BNet::Utils::tableprint("begintdunfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Unfriendly</div>";
-		print "<div>";
+		print "\t\t\t<div>Unfriendly</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 3) {
 		BNet::Utils::tableprint("begintdneutral");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Neutral</div>";
-		print "<div>";
+		print "\t\t\t<div>Neutral</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 4) {
 		BNet::Utils::tableprint("begintdfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Friendly</div>";
-		print "<div>";
+		print "\t\t\t<div>Friendly</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 5) {
 		BNet::Utils::tableprint("begintdhonoured");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Honored</div>";
-		print "<div>";
+		print "\t\t\t<div>Honored</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 6) {
 		BNet::Utils::tableprint("begintdrevered");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Revered</div>";
-		print "<div>";
+		print "\t\t\t<div>Revered</div>\n";
+		print "\t\t\t<div>";
+		print "<span class=\"tip\" title=\"";
+		print $dc;
+		print "&nbsp;/&nbsp;";
+		print $dd;
+		print "\">";
 		print $mypercent;
-		print "</div>";
-		print "\n";
+		print "</span>";
+		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 7) {
 		BNet::Utils::tableprint("begintdexalted");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Exalted</div>";
-		print "\t\t\t<div></div>";
-		print "\n";
+		print "\t\t\t<div>Exalted</div>\n";
+		print "\t\t\t<div></div>\n";
 		BNet::Utils::tableprint("endtd");
 	}
 }
 
 sub valueprintreputationcell ($$$$) {
 	my($da, $db, $dc, $dd) = @_;
-	if (($da == 1419) ||
-		($da == 1691) ||
-		($da == 2011) ||
-		($da == 2010) ||
-		($da == 1374) ||
-		($da == 1619) ||
-		($da == 1277) ||
+	if (($da == 1273) ||
 		($da == 1275) ||
-		($da == 1283) ||
-		($da == 1282) ||
-		($da == 1281) ||
-		($da == 1279) ||
-		($da == 1273) ||
 		($da == 1276) ||
+		($da == 1277) ||
 		($da == 1278) ||
+		($da == 1279) ||
 		($da == 1280) ||
+		($da == 1281) ||
+		($da == 1282) ||
+		($da == 1283) ||
+		($da == 1358) ||
+		($da == 1374) ||
+		($da == 1419) ||
+		($da == 1619) ||
+		($da == 1691) ||
 		($da == 1975) ||
-		($da == 2102) ||
+		($da == 2010) ||
+		($da == 2011) ||
 		($da == 2097) ||
 		($da == 2098) ||
 		($da == 2099) ||
 		($da == 2100) ||
 		($da == 2101) ||
-		($da == 1358)
-		) {
+		($da == 2102) ) {
 			valueprintreputationcellfriend ($db, $dc, $dd);
 		} elsif ($da == 2135) {
 			valueprintreputationcellchromie ($db, $dc, $dd);
@@ -1865,6 +1915,12 @@ sub htmlheadprint () {
 	print "\t\t\ttext-align:\tcenter;\n";
 	print "\t\t\tvertical-align:\tmiddle;\n";
 	print "\t\t}\n";
+
+	print "\t\ta span.tip {\n";
+	print "\t\t\tcursor: pointer !important;\n";
+	print "\t\t\tborder-bottom: 1px dotted #808080;\n";
+	print "\t\t}\n";
+
 	print "\t\t</style>\n";
 
 	print "\t\t<script type=\"text/javascript\" src=\"//wow.zamimg.com/widgets/power.js\"></script>\n";
