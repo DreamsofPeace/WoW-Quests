@@ -119,7 +119,117 @@ z_10_60_Northern_Barrens	header	10-60: Northern Barrens
 z_15_60_Ashenvale	header	15-60: Ashenvale			
 z_20_60_Stonetalon_Mountains	header	20-60: Stonetalon Mountains			
 z_25_60_Southern_Barrens	header	25-60: Southern Barrens			
-z_30_60_Desolace	header	30-60: Desolac			
+z_25_60_Southern_Barrens	24504	Clear the High Road	horde		
+z_25_60_Southern_Barrens	24505	Holdout at Hunter's Hill	horde		
+z_25_60_Southern_Barrens	24512	Warriors' Redemption	horde		
+z_25_60_Southern_Barrens	24513	Eye for an Eye	horde		
+z_25_60_Southern_Barrens	24514	Raptor Scraps	horde		
+z_25_60_Southern_Barrens	24515	Signals in the Sky	horde		
+z_25_60_Southern_Barrens	24517	Put the Fear in Them	horde		
+z_25_60_Southern_Barrens	24518	The Low Road	horde		
+z_25_60_Southern_Barrens	24519	Stalling the Survey	horde		
+z_25_60_Southern_Barrens	24525	Keeping the Dogs at Bay	horde		
+z_25_60_Southern_Barrens	24529	Bad to Worse	horde		
+z_25_60_Southern_Barrens	24534	Speaking Their Language	horde		
+z_25_60_Southern_Barrens	24539	When Plants Attack	horde		
+z_25_60_Southern_Barrens	24542	A Curious Bloom	horde		
+z_25_60_Southern_Barrens	24543	A Family Divided	horde		
+z_25_60_Southern_Barrens	24546	A Line in the Dirt	horde		
+z_25_60_Southern_Barrens	24551	Meet the New Boss	horde		
+z_25_60_Southern_Barrens	24552	Lion's Pride	horde		
+z_25_60_Southern_Barrens	24565	Biological Intervention			
+z_25_60_Southern_Barrens	24566	Sowing a Solution			
+z_25_60_Southern_Barrens	24568	To the Walls!			
+z_25_60_Southern_Barrens	24569	Siegebreaker	horde		
+z_25_60_Southern_Barrens	24570	Adder Subtraction			
+z_25_60_Southern_Barrens	24571	Lashvine Seeds			
+z_25_60_Southern_Barrens	24572	Taking Back Taurajo	horde		
+z_25_60_Southern_Barrens	24573	Honoring the Dead	horde		
+z_25_60_Southern_Barrens	24574	To Harvest Chaos			
+z_25_60_Southern_Barrens	24577	Desolation Hold Inspection	horde		
+z_25_60_Southern_Barrens	24591	Changing of the Gar'dul			
+z_25_60_Southern_Barrens	24601	The Nightmare Scar			
+z_25_60_Southern_Barrens	24603	Don't Stop Bereavin'	horde		
+z_25_60_Southern_Barrens	24604	Concern for Mankrik	horde		
+z_25_60_Southern_Barrens	24606	Blood of the Barrens			
+z_25_60_Southern_Barrens	24608	Mangletooth	horde		
+z_25_60_Southern_Barrens	24618	Claim the Battle Scar	horde		
+z_25_60_Southern_Barrens	24619	Parts-is-Parts	horde		
+z_25_60_Southern_Barrens	24620	Hearts-is-Hearts	horde		
+z_25_60_Southern_Barrens	24621	Smarts-is-Smarts	horde		
+z_25_60_Southern_Barrens	24631	Flightmare	horde		
+z_25_60_Southern_Barrens	24632	Tauren Vengeance	horde		
+z_25_60_Southern_Barrens	24633	Mahka's Plea	horde		
+z_25_60_Southern_Barrens	24634	Intelligence Warfare	horde		
+z_25_60_Southern_Barrens	24637	The Butcher of Taurajo	horde		
+z_25_60_Southern_Barrens	24653	Echoes of Agamaggan			
+z_25_60_Southern_Barrens	24654	Silithissues	horde		
+z_25_60_Southern_Barrens	24667	Firestone Point	horde		
+z_25_60_Southern_Barrens	24684	A Weezil in the Henhouse	horde		
+z_25_60_Southern_Barrens	24685	Dwarf Fortress	horde		
+z_25_60_Southern_Barrens	24747	Sabotage!	horde		
+z_25_60_Southern_Barrens	24807	Winnoa Pineforest	horde		
+z_25_60_Southern_Barrens	24824	The Disturbed Earth			
+z_25_60_Southern_Barrens	24862	Running the Gauntlet	alliance		
+z_25_60_Southern_Barrens	24863	Breaking the Siege	alliance		
+z_25_60_Southern_Barrens	24921	Report to Aubrey	alliance		
+z_25_60_Southern_Barrens	24934	Repel Boarders!	alliance		
+z_25_60_Southern_Barrens	24938	The Guns of Northwatch	alliance		
+z_25_60_Southern_Barrens	24939	Run Out the Guns	alliance		
+z_25_60_Southern_Barrens	24941	Langridge Shot	alliance		
+z_25_60_Southern_Barrens	24943	Re-Take the Courtyard	alliance		
+z_25_60_Southern_Barrens	24944	Back in the Fight	alliance		
+z_25_60_Southern_Barrens	24948	Lifting the Siege	alliance		
+z_25_60_Southern_Barrens	24956	Silencing Rageroar	alliance		
+z_25_60_Southern_Barrens	25000	Teegan's People	alliance		
+z_25_60_Southern_Barrens	25002	Scavenged	alliance		
+z_25_60_Southern_Barrens	25008	Filthy Animals	alliance		
+z_25_60_Southern_Barrens	25015	Make 'em Squeal	alliance		
+z_25_60_Southern_Barrens	25022	A Failure to Communicate	alliance		
+z_25_60_Southern_Barrens	25027	You Flicked a Fine Vine to Leaf Me	alliance		
+z_25_60_Southern_Barrens	25028	Trouble From the Ground Up	alliance		
+z_25_60_Southern_Barrens	25034	To the Front!	alliance		
+z_25_60_Southern_Barrens	25036	Teegan's Troubles	alliance		
+z_25_60_Southern_Barrens	25041	Lion's Pride	alliance		
+z_25_60_Southern_Barrens	25042	Marching On Our Stomachs	alliance		
+z_25_60_Southern_Barrens	25043	Fields of Blood	alliance		
+z_25_60_Southern_Barrens	25044	Diplomacy By Another Means	alliance		
+z_25_60_Southern_Barrens	25045	A Line in the Dirt	alliance		
+z_25_60_Southern_Barrens	25057	Clap 'Em In Irons	alliance		
+z_25_60_Southern_Barrens	25059	The Taurajo Briefs	alliance		
+z_25_60_Southern_Barrens	25074	Meet Me at Triumph	alliance		
+z_25_60_Southern_Barrens	25075	Pick-a-Part	alliance		
+z_25_60_Southern_Barrens	25079	Powder Play	alliance		
+z_25_60_Southern_Barrens	25080	Batteries Not Yet Included	alliance		
+z_25_60_Southern_Barrens	25081	Claim the Battlescar	alliance		
+z_25_60_Southern_Barrens	25082	Working the Bugs Out	alliance		
+z_25_60_Southern_Barrens	25084	A Growing Threat	alliance		
+z_25_60_Southern_Barrens	25085	Mangletooth	alliance		
+z_25_60_Southern_Barrens	25086	Firestone Point	alliance		
+z_25_60_Southern_Barrens	25087	Report to Twinbraid	alliance		
+z_25_60_Southern_Barrens	25102	No Bull	alliance		
+z_25_60_Southern_Barrens	25104	Digsite Status	alliance		
+z_25_60_Southern_Barrens	25106	Hands Off Me Dig!	alliance		
+z_25_60_Southern_Barrens	25108	Feegly the Exiled	alliance		
+z_25_60_Southern_Barrens	25120	Marley's Final Flight	alliance		
+z_25_60_Southern_Barrens	25151	He Needs Ale!	alliance		
+z_25_60_Southern_Barrens	25153	Bael'dun Rescue	alliance		
+z_25_60_Southern_Barrens	25163	Who Did This?	alliance		
+z_25_60_Southern_Barrens	25174	Twinbraid Needs to Know	alliance		
+z_25_60_Southern_Barrens	25175	The Bad News	alliance		
+z_25_60_Southern_Barrens	25182	Kill 'em All!	alliance		
+z_25_60_Southern_Barrens	25183	...And Bury the Rest	alliance		
+z_25_60_Southern_Barrens	25185	The Deed Is Done	alliance		
+z_25_60_Southern_Barrens	25186	Futile Resistance	alliance		
+z_25_60_Southern_Barrens	25191	Survey the Destruction	alliance		
+z_25_60_Southern_Barrens	25197	The Admiral Won't Back Down	alliance		
+z_25_60_Southern_Barrens	25284	Feeding the Fear	horde		
+z_25_60_Southern_Barrens	25852	All's Clear	alliance		
+z_25_60_Southern_Barrens	26069	Nura Pathfinder	horde		
+z_25_60_Southern_Barrens	28549	Warchief's Command: Southern Barrens!	horde		
+z_25_60_Southern_Barrens	28550	Hero's Call: Southern Barrens!	alliance		
+z_25_60_Southern_Barrens	28551	Hero's Call: Southern Barrens!	alliance		
+z_30_60_Desolace	header	30-60: Desolace			
 z_35_60_Dustwallow_Marsh	header	35-60: Dustwallow Marsh			
 z_35_60_Feralas	header	35-60: Ferelas			
 z_40_60_Thousand_Needles	header	40-60: Thousand Needles			
