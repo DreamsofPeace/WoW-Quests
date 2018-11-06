@@ -231,6 +231,120 @@ z_25_60_Southern_Barrens	28550	Hero's Call: Southern Barrens!	alliance
 z_25_60_Southern_Barrens	28551	Hero's Call: Southern Barrens!	alliance		
 z_30_60_Desolace	header	30-60: Desolace			
 z_35_60_Dustwallow_Marsh	header	35-60: Dustwallow Marsh			
+z_35_60_Dustwallow_Marsh	1168	Army of the Black Dragon	horde		
+z_35_60_Dustwallow_Marsh	1201	Theramore Spies	horde		
+z_35_60_Dustwallow_Marsh	1202	The Theramore Docks	horde		
+z_35_60_Dustwallow_Marsh	1204	Mudrock Soup and Bugs	alliance		
+z_35_60_Dustwallow_Marsh	1205	Deadmire	horde		
+z_35_60_Dustwallow_Marsh	1222	Stinky's Escape	alliance		
+z_35_60_Dustwallow_Marsh	1258	... and Bugs	alliance		
+z_35_60_Dustwallow_Marsh	1270	Stinky's Escape	horde		
+z_35_60_Dustwallow_Marsh	1271	Feast at the Blue Recluse	alliance		
+z_35_60_Dustwallow_Marsh	11208	Delivery for Drazzit			
+z_35_60_Dustwallow_Marsh	11211	Help for Mudsprocket			
+z_35_60_Dustwallow_Marsh	11212	Tabetha's Farm	alliance		
+z_35_60_Dustwallow_Marsh	11213	Check Up on Tabetha	horde		
+z_35_60_Dustwallow_Marsh	11215	Help Mudsprocket	horde		
+z_35_60_Dustwallow_Marsh	25051	Darkmist Extermination	horde		
+z_35_60_Dustwallow_Marsh	25292	Next of Kin	horde		
+z_35_60_Dustwallow_Marsh	26596	The Call of Kalimdor	alliance		
+z_35_60_Dustwallow_Marsh	26682	A Shambling Threat	horde		
+z_35_60_Dustwallow_Marsh	26687	Reinforcements From Theramore	alliance		
+z_35_60_Dustwallow_Marsh	26696	The Call of Kalimdor	horde		
+z_35_60_Dustwallow_Marsh	26701	Flight to Brackenwall	horde		
+z_35_60_Dustwallow_Marsh	26702	Flight to Theramore	alliance		
+z_35_60_Dustwallow_Marsh	27182	The Hermit of Witch Hill	horde		
+z_35_60_Dustwallow_Marsh	27183	Marsh Frog Legs			
+z_35_60_Dustwallow_Marsh	27184	Jarl Needs Eyes			
+z_35_60_Dustwallow_Marsh	27186	Jarl Needs a Blade			
+z_35_60_Dustwallow_Marsh	27188	What's Haunting Witch Hill?			
+z_35_60_Dustwallow_Marsh	27189	The Witch's Bane			
+z_35_60_Dustwallow_Marsh	27190	Cleansing Witch Hill			
+z_35_60_Dustwallow_Marsh	27191	Hungry as an Ogre!			
+z_35_60_Dustwallow_Marsh	27210	Traitors Among Us	alliance		
+z_35_60_Dustwallow_Marsh	27211	Propaganda War	alliance		
+z_35_60_Dustwallow_Marsh	27212	Discrediting the Deserters	alliance		
+z_35_60_Dustwallow_Marsh	27213	The End of the Deserters	alliance		
+z_35_60_Dustwallow_Marsh	27214	A Disturbing Development	alliance		
+z_35_60_Dustwallow_Marsh	27215	The Hermit of Swamplight Manor	alliance		
+z_35_60_Dustwallow_Marsh	27216	This Old Lighthouse	alliance		
+z_35_60_Dustwallow_Marsh	27217	Thresher Oil	alliance		
+z_35_60_Dustwallow_Marsh	27218	Dastardly Denizens of the Deep	alliance		
+z_35_60_Dustwallow_Marsh	27219	Is it Real?	alliance		
+z_35_60_Dustwallow_Marsh	27220	Nat's Bargain	alliance		
+z_35_60_Dustwallow_Marsh	27221	Oh, It's Real	alliance		
+z_35_60_Dustwallow_Marsh	27222	Take Down Tethyr!	alliance		
+z_35_60_Dustwallow_Marsh	27229	SMASH BROODQUEEN	horde		
+z_35_60_Dustwallow_Marsh	27234	Defias in Dustwallow?	alliance		
+z_35_60_Dustwallow_Marsh	27235	Renn McGill	alliance		
+z_35_60_Dustwallow_Marsh	27236	Secondhand Diving Gear	alliance		
+z_35_60_Dustwallow_Marsh	27237	Recover the Cargo!	alliance		
+z_35_60_Dustwallow_Marsh	27238	Jaina Must Know	alliance		
+z_35_60_Dustwallow_Marsh	27239	Survey Alcaz Island	alliance		
+z_35_60_Dustwallow_Marsh	27240	Proof of Treachery	alliance		
+z_35_60_Dustwallow_Marsh	27241	Return to Jaina	alliance		
+z_35_60_Dustwallow_Marsh	27242	Raptor Captor	alliance		
+z_35_60_Dustwallow_Marsh	27243	Unleash the Raptors	alliance		
+z_35_60_Dustwallow_Marsh	27244	The Lost Report	horde		
+z_35_60_Dustwallow_Marsh	27245	Prisoners of the Grimtotems	alliance		
+z_35_60_Dustwallow_Marsh	27246	The Orc Report	alliance		
+z_35_60_Dustwallow_Marsh	27247	Captain Vimes	alliance		
+z_35_60_Dustwallow_Marsh	27248	Mission to Mudsprocket	alliance		
+z_35_60_Dustwallow_Marsh	27249	Inspecting the Ruins	alliance		
+z_35_60_Dustwallow_Marsh	27251	They Call Him Smiling Jim	alliance		
+z_35_60_Dustwallow_Marsh	27252	The Black Shield	alliance		
+z_35_60_Dustwallow_Marsh	27253	Inspecting the Ruins	horde		
+z_35_60_Dustwallow_Marsh	27254	The Black Shield	horde		
+z_35_60_Dustwallow_Marsh	27255	The Black Shield	horde		
+z_35_60_Dustwallow_Marsh	27256	The Black Shield	horde		
+z_35_60_Dustwallow_Marsh	27257	The Black Shield	horde		
+z_35_60_Dustwallow_Marsh	27258	The Black Shield	horde		
+z_35_60_Dustwallow_Marsh	27259	Suspicious Hoofprints	horde		
+z_35_60_Dustwallow_Marsh	27260	Lieutenant Paval Reethe	horde		
+z_35_60_Dustwallow_Marsh	27261	Questioning Reethe	horde		
+z_35_60_Dustwallow_Marsh	27262	Suspicious Hoofprints	alliance		
+z_35_60_Dustwallow_Marsh	27263	Lieutenant Paval Reethe	alliance		
+z_35_60_Dustwallow_Marsh	27264	Lieutenant Paval Reethe	alliance		
+z_35_60_Dustwallow_Marsh	27284	The Black Shield	alliance		
+z_35_60_Dustwallow_Marsh	27285	The Black Shield	alliance		
+z_35_60_Dustwallow_Marsh	27286	Daelin's Men	alliance		
+z_35_60_Dustwallow_Marsh	27287	The Deserters	alliance		
+z_35_60_Dustwallow_Marsh	27288	The Deserters	alliance		
+z_35_60_Dustwallow_Marsh	27291	Peace at Last	alliance		
+z_35_60_Dustwallow_Marsh	27292	Return to Krog	horde		
+z_35_60_Dustwallow_Marsh	27293	The Grimtotem Plot	horde		
+z_35_60_Dustwallow_Marsh	27294	More than Coincidence	horde		
+z_35_60_Dustwallow_Marsh	27295	Seek Out Tabetha	horde		
+z_35_60_Dustwallow_Marsh	27296	Raze Direhorn Post!	horde		
+z_35_60_Dustwallow_Marsh	27297	Justice Dispensed	horde		
+z_35_60_Dustwallow_Marsh	27306	Talk to Ogron	horde		
+z_35_60_Dustwallow_Marsh	27336	The Grimtotem Weapon			
+z_35_60_Dustwallow_Marsh	27339	The Reagent Thief			
+z_35_60_Dustwallow_Marsh	27340	Direhorn Raiders			
+z_35_60_Dustwallow_Marsh	27346	The Zeppelin Crash			
+z_35_60_Dustwallow_Marsh	27347	Corrosion Prevention			
+z_35_60_Dustwallow_Marsh	27348	Secure the Cargo!			
+z_35_60_Dustwallow_Marsh	27407	Bloodfen Feathers			
+z_35_60_Dustwallow_Marsh	27408	Banner of the Stonemaul			
+z_35_60_Dustwallow_Marsh	27409	The Essence of Enmity			
+z_35_60_Dustwallow_Marsh	27410	Spirits of Stonemaul Hold			
+z_35_60_Dustwallow_Marsh	27411	Challenge to the Black Flight			
+z_35_60_Dustwallow_Marsh	27412	WANTED: Goreclaw the Ravenous			
+z_35_60_Dustwallow_Marsh	27413	Catch a Dragon by the Tail			
+z_35_60_Dustwallow_Marsh	27414	Identifying the Brood	horde		
+z_35_60_Dustwallow_Marsh	27415	The Brood of Onyxia	horde		
+z_35_60_Dustwallow_Marsh	27416	The Brood of Onyxia	horde		
+z_35_60_Dustwallow_Marsh	27417	The Brood of Onyxia	horde		
+z_35_60_Dustwallow_Marsh	27418	Challenge Overlord Mok'Morokk	horde		
+z_35_60_Dustwallow_Marsh	27424	Overlord Mok'Morokk's Concern	horde		
+z_35_60_Dustwallow_Marsh	27425	A Grim Connection	alliance		
+z_35_60_Dustwallow_Marsh	27426	Confirming the Suspicion	alliance		
+z_35_60_Dustwallow_Marsh	27427	Arms of the Grimtotems	alliance		
+z_35_60_Dustwallow_Marsh	27428	Tabetha's Assistance	alliance		
+z_35_60_Dustwallow_Marsh	27429	Raze Direhorn Post!	alliance		
+z_35_60_Dustwallow_Marsh	27430	Justice for the Hyals	alliance		
+z_35_60_Dustwallow_Marsh	28552	Hero's Call: Dustwallow Marsh!	alliance		
+z_35_60_Dustwallow_Marsh	28554	Warchief's Command: Dustwallow Marsh!	horde		
 z_35_60_Feralas	header	35-60: Ferelas			
 z_40_60_Thousand_Needles	header	40-60: Thousand Needles			
 z_40_60_Felwood	header	40-60: Felwood			
