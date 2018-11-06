@@ -119,7 +119,106 @@ z_10_60_Northern_Barrens	header	10-60: Northern Barrens
 z_15_60_Ashenvale	header	15-60: Ashenvale			
 z_20_60_Stonetalon_Mountains	header	20-60: Stonetalon Mountains			
 z_25_60_Southern_Barrens	header	25-60: Southern Barrens			
-z_30_60_Desolace	header	30-60: Desolac			
+z_30_60_Desolace	header	30-60: Desolace			
+z_30_60_Desolace	14184	My Time Has Passed	horde		
+z_30_60_Desolace	14188	Avenge Furien!	horde		
+z_30_60_Desolace	14189	Translation	horde		
+z_30_60_Desolace	14191	Furien's Footsteps	horde		
+z_30_60_Desolace	14193	Nothing a Couple of Melons Won't Fix	alliance		
+z_30_60_Desolace	14195	All Becoming Clearer			
+z_30_60_Desolace	14196	Firestarter	horde		
+z_30_60_Desolace	14198	Rider on the Storm			
+z_30_60_Desolace	14213	Ten Pounds of Flesh	horde		
+z_30_60_Desolace	14217	Satyrical Offerings	horde		
+z_30_60_Desolace	14219	To the Hilt!	horde		
+z_30_60_Desolace	14223	Peace of Mind	horde		
+z_30_60_Desolace	14225	You'll Know It When You See It	horde		
+z_30_60_Desolace	14227	Putting Their Heads Together	horde		
+z_30_60_Desolace	14232	Ears Are Burning	horde		
+z_30_60_Desolace	14246	Early Adoption			
+z_30_60_Desolace	14247	Stubborn Lands			
+z_30_60_Desolace	14251	New Beginnings			
+z_30_60_Desolace	14252	Good Gold For Bad Tail			
+z_30_60_Desolace	14253	Fletch Me Some Plumage!			
+z_30_60_Desolace	14254	Heavy Metal			
+z_30_60_Desolace	14255	Ethel Rethor	horde		
+z_30_60_Desolace	14256	The Emerging Threat			
+z_30_60_Desolace	14257	Slitherblade Slaughter			
+z_30_60_Desolace	14260	Going Deep			
+z_30_60_Desolace	14264	Wetter Than Wet			
+z_30_60_Desolace	14268	Deep Impact			
+z_30_60_Desolace	14282	Mystery Solved			
+z_30_60_Desolace	14284	A Revenant's Vengeance			
+z_30_60_Desolace	14292	The Enemy of Our Enemy			
+z_30_60_Desolace	14301	Return and Report			
+z_30_60_Desolace	14302	Official Assessment			
+z_30_60_Desolace	14304	Blood Theory			
+z_30_60_Desolace	14305	A Time to Reap			
+z_30_60_Desolace	14306	Pulling Weeds			
+z_30_60_Desolace	14307	Stubborn Winds			
+z_30_60_Desolace	14309	Calming the Kodo			
+z_30_60_Desolace	14311	Taking Part			
+z_30_60_Desolace	14312	An Introduction Is In Order			
+z_30_60_Desolace	14314	Breakout!			
+z_30_60_Desolace	14316	Cenarion Property			
+z_30_60_Desolace	14318	Delicate Negotiations			
+z_30_60_Desolace	14325	Will Work For Food			
+z_30_60_Desolace	14327	My Word is My Bond			
+z_30_60_Desolace	14328	Three Princes			
+z_30_60_Desolace	14329	Not So Fast!			
+z_30_60_Desolace	14330	Behind Closed Doors			
+z_30_60_Desolace	14332	Time For Change			
+z_30_60_Desolace	14333	While You're Here			
+z_30_60_Desolace	14334	Blubbergut	horde		
+z_30_60_Desolace	14335	Chipping In	horde		
+z_30_60_Desolace	14337	Shadowprey Village	horde		
+z_30_60_Desolace	14338	Ghost Walker Post	horde		
+z_30_60_Desolace	14339	Delivery Device	horde		
+z_30_60_Desolace	14341	Smeed's Harnesses	horde		
+z_30_60_Desolace	14342	Infernal Encroachment	horde		
+z_30_60_Desolace	14343	Maurin's Concoction	horde		
+z_30_60_Desolace	14344	Jugkar's Undoing	horde		
+z_30_60_Desolace	14346	Cleansing Our Crevasse	horde		
+z_30_60_Desolace	14354	Elune's Gifts	alliance		
+z_30_60_Desolace	14357	To the Hilt!	alliance		
+z_30_60_Desolace	14358	Ten Pounds of Flesh	alliance		
+z_30_60_Desolace	14359	Blessings From Above	alliance		
+z_30_60_Desolace	14360	Nothing a Couple of Melons Won't Fix			
+z_30_60_Desolace	14361	Peace of Mind	alliance		
+z_30_60_Desolace	14362	Ears Are Burning	alliance		
+z_30_60_Desolace	14363	You'll Know It When You See It	alliance		
+z_30_60_Desolace	14364	Putting Their Heads Together	alliance		
+z_30_60_Desolace	14365	Ethel Rethor	alliance		
+z_30_60_Desolace	14372	Thargad's Camp	alliance		
+z_30_60_Desolace	14373	Infernal Encroachment	alliance		
+z_30_60_Desolace	14374	Portals of the Legion	alliance		
+z_30_60_Desolace	14376	Jugkar's Undoing	alliance		
+z_30_60_Desolace	14378	Hunting Brendol	alliance		
+z_30_60_Desolace	14379	Rock Lobstrock!	alliance		
+z_30_60_Desolace	14380	An Impactful Discovery	alliance		
+z_30_60_Desolace	14381	Cleansing Our Crevasse	alliance		
+z_30_60_Desolace	14384	Rerouted!	alliance		
+z_30_60_Desolace	14387	Lay of the Land	alliance		
+z_30_60_Desolace	14393	Into the Fray!			
+z_30_60_Desolace	14394	Death to Agogridon			
+z_30_60_Desolace	1454	The Karnitol Shipwreck	alliance		
+z_30_60_Desolace	1455	The Karnitol Shipwreck	alliance		
+z_30_60_Desolace	1456	The Karnitol Shipwreck	alliance		
+z_30_60_Desolace	1467	Reagents for Reclaimers Inc.			
+z_30_60_Desolace	25938	Help for Desolace	alliance		
+z_30_60_Desolace	26134	Nothing Left for You Here	horde		
+z_30_60_Desolace	28531	Hero's Call: Desolace!	alliance		
+z_30_60_Desolace	28548	Warchief's Command: Desolace!	horde		
+z_30_60_Desolace	5421	Fish in a Bucket	horde		
+z_30_60_Desolace	5501	Bone Collector			
+z_30_60_Desolace	5561	Kodo Roundup			
+z_30_60_Desolace	5581	Portals of the Legion	horde		
+z_30_60_Desolace	5821	Bodyguard for Hire			
+z_30_60_Desolace	5943	Gizelton Caravan			
+z_30_60_Desolace	6132	Get Me Out of Here!			
+z_30_60_Desolace	6134	Ghost-o-plasm Round Up			
+z_30_60_Desolace	6142	Clam Bait	horde		
+z_30_60_Desolace	6143	Other Fish to Fry	horde		
 z_35_60_Dustwallow_Marsh	header	35-60: Dustwallow Marsh			
 z_35_60_Feralas	header	35-60: Ferelas			
 z_40_60_Thousand_Needles	header	40-60: Thousand Needles			
