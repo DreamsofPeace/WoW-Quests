@@ -7,14 +7,14 @@ Quest Completion Order from http://wow.gamepedia.com and user comments from http
 
 #How to Use
 
-bnet-generate.pl -f file-name -a api-key -m module (only partially implemented)
+bnet-generate.pl -f file-name -a api-key -m module
 
 Supported Modules:
-	Reputation (Broken, but being worked on.)
-	Professions (NYI)
-	Achievements (NYI)
-	Quests (NYI)
-	Legendaries (NYI)
+	Reputation: Currently Functional
+	Professions: Currently Functional, But Incomplete Data
+	Achievements: Partially Functional
+	Quests: Currently Functional, But Incomplete Data
+	Legendaries: Part of the Quests Module
 
 api-key is from https://dev.battle.net
 
