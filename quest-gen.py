@@ -118,7 +118,6 @@ if __name__ == "__main__":
 		#Split line by Tabs
 		line = line.strip('\n')
 		splitbytab = line.split('\t')
-#		print (splitbytab[0])
 		#Set the module name on initial start
 		if controlcount == 0:
 			modulename = splitbytab[0]
@@ -140,20 +139,11 @@ if __name__ == "__main__":
 			else:
 				print_header(splitbytab[2])
 		else:
-		#	print (splitbytab[3], end="\t")
-		#	print ("33333333", end="\t")
-		#	print (splitbytab[4], end="\t")
-		#	print ("44444444", end="\t")
-		#	print (splitbytab[5], end="\n")
-		#	print (len(splitbytab[3]), end="\t")
-		#	print (len(splitbytab[4]), end="\t")
-		#	print (len(splitbytab[5]), end="\n")
 			#Has Race Entry
 			if len(splitbytab[5]) != 0:
 				#Has Class Entry
 				if len(splitbytab[4]) != 0:
 					#Has Faction Flag
-					#Works
 					if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
 						print_quest_faction_two_image(splitbytab[1], splitbytab[2], splitbytab[3], splitbytab[4], splitbytab[5])
 					else:
@@ -166,11 +156,14 @@ if __name__ == "__main__":
 						print_quest_no_faction_one_image(splitbytab[1], splitbytab[2], splitbytab[5])
 			elif len(splitbytab[5]) == 0:
 				if len(splitbytab[4]) != 0:
+					#Has Faction Flag
 					if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
 						print_quest_faction_one_image(splitbytab[1], splitbytab[2], splitbytab[3], splitbytab[4])
 					else:
 						print_quest_no_faction_one_image(splitbytab[1], splitbytab[2], splitbytab[4])
+				#Has No Class Entry
 				elif len(splitbytab[4]) == 0:
+					#Has Faction Flag
 					if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
 						print_quest_faction(splitbytab[1], splitbytab[2], splitbytab[3])
 					else:
