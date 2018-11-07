@@ -232,6 +232,167 @@ z_80_90_Jade_Forest	33250	A Time-Lost Treasure
 z_80_90_Jade_Forest	49538	Warchief's Command: Jade Forest!	horde		
 z_80_90_Jade_Forest	49556	Hero's Call: Jade Forest!	alliance		
 z_81_90_Valley_of_the_Four_Winds	header	81-90: Valley of the Four Winds			
+z_81_90_Valley_of_the_Four_Winds	29577	Ashyo's Vision			
+z_81_90_Valley_of_the_Four_Winds	29581	The Golden Dream			
+z_81_90_Valley_of_the_Four_Winds	29600	Snap Judgment			
+z_81_90_Valley_of_the_Four_Winds	29757	Bottletoads			
+z_81_90_Valley_of_the_Four_Winds	29758	Guess Whose Back			
+z_81_90_Valley_of_the_Four_Winds	29871	Clever Ashyo			
+z_81_90_Valley_of_the_Four_Winds	29872	Lin Tenderpaw			
+z_81_90_Valley_of_the_Four_Winds	29877	A Poor Grasp of the Basics			
+z_81_90_Valley_of_the_Four_Winds	29907	Chen and Li Li			
+z_81_90_Valley_of_the_Four_Winds	29908	A Seemingly Endless Nuisance			
+z_81_90_Valley_of_the_Four_Winds	29909	Low Turnip Turnout			
+z_81_90_Valley_of_the_Four_Winds	29910	Rampaging Rodents			
+z_81_90_Valley_of_the_Four_Winds	29911	Practically Perfect Produce			
+z_81_90_Valley_of_the_Four_Winds	29912	The Fabulous Miss Fanny			
+z_81_90_Valley_of_the_Four_Winds	29913	The Meat They'll Eat			
+z_81_90_Valley_of_the_Four_Winds	29914	Back to the Sty			
+z_81_90_Valley_of_the_Four_Winds	29915	A Neighbor's Duty			
+z_81_90_Valley_of_the_Four_Winds	29916	Piercing Talons and Slavering Jaws			
+z_81_90_Valley_of_the_Four_Winds	29917	Lupello			
+z_81_90_Valley_of_the_Four_Winds	29918	A Lesson in Bravery			
+z_81_90_Valley_of_the_Four_Winds	29919	Great Minds Drink Alike			
+z_81_90_Valley_of_the_Four_Winds	29940	Taking a Crop			
+z_81_90_Valley_of_the_Four_Winds	29944	Leaders Among Breeders			
+z_81_90_Valley_of_the_Four_Winds	29945	Yellow and Red Make Orange			
+z_81_90_Valley_of_the_Four_Winds	29946	The Warren-Mother			
+z_81_90_Valley_of_the_Four_Winds	29947	Crouching Carrot, Hidden Turnip			
+z_81_90_Valley_of_the_Four_Winds	29948	Thieves to the Core			
+z_81_90_Valley_of_the_Four_Winds	29949	Legacy			
+z_81_90_Valley_of_the_Four_Winds	29950	Li Li's Day Off			
+z_81_90_Valley_of_the_Four_Winds	29951	Muddy Water			
+z_81_90_Valley_of_the_Four_Winds	29952	Broken Dreams			
+z_81_90_Valley_of_the_Four_Winds	29981	Stemming the Swarm			
+z_81_90_Valley_of_the_Four_Winds	29982	Evacuation Orders			
+z_81_90_Valley_of_the_Four_Winds	29983	The Hidden Master			
+z_81_90_Valley_of_the_Four_Winds	29984	Unyielding Fists: Trial of Bamboo			
+z_81_90_Valley_of_the_Four_Winds	29985	They Will Be Mist			
+z_81_90_Valley_of_the_Four_Winds	29986	Fog Wards			
+z_81_90_Valley_of_the_Four_Winds	29987	Unyielding Fists: Trial of Wood			
+z_81_90_Valley_of_the_Four_Winds	29988	A Taste For Eggs			
+z_81_90_Valley_of_the_Four_Winds	29989	Unyielding Fists: Trial of Stone			
+z_81_90_Valley_of_the_Four_Winds	29990	Training and Discipline			
+z_81_90_Valley_of_the_Four_Winds	29992	Tenderpaw By Name, Tender Paw By Reputation			
+z_81_90_Valley_of_the_Four_Winds	30028	Grain Recovery			
+z_81_90_Valley_of_the_Four_Winds	30029	Wee Little Shenanigans			
+z_81_90_Valley_of_the_Four_Winds	30030	Out of Sprite			
+z_81_90_Valley_of_the_Four_Winds	30031	Taste Test			
+z_81_90_Valley_of_the_Four_Winds	30032	The Quest for Better Barley			
+z_81_90_Valley_of_the_Four_Winds	30046	Chen's Resolution			
+z_81_90_Valley_of_the_Four_Winds	30047	The Chen Taste Test			
+z_81_90_Valley_of_the_Four_Winds	30048	Li Li and the Grain			
+z_81_90_Valley_of_the_Four_Winds	30049	Doesn't Hold Water			
+z_81_90_Valley_of_the_Four_Winds	30050	Gardener Fran and the Watering Can			
+z_81_90_Valley_of_the_Four_Winds	30051	The Great Water Hunt			
+z_81_90_Valley_of_the_Four_Winds	30052	Weed War			
+z_81_90_Valley_of_the_Four_Winds	30053	Hop Hunting			
+z_81_90_Valley_of_the_Four_Winds	30054	Enough is Ookin' Enough			
+z_81_90_Valley_of_the_Four_Winds	30055	Stormstout's Hops			
+z_81_90_Valley_of_the_Four_Winds	30056	The Farmer's Daughter			
+z_81_90_Valley_of_the_Four_Winds	30057	Seeing Orange			
+z_81_90_Valley_of_the_Four_Winds	30058	Mothallus!			
+z_81_90_Valley_of_the_Four_Winds	30059	The Moth Rebellion			
+z_81_90_Valley_of_the_Four_Winds	30072	Where Silk Comes From			
+z_81_90_Valley_of_the_Four_Winds	30073	The Emperor			
+z_81_90_Valley_of_the_Four_Winds	30074	Knocking on the Door			
+z_81_90_Valley_of_the_Four_Winds	30075	Clear the Way			
+z_81_90_Valley_of_the_Four_Winds	30076	The Fanciest Water			
+z_81_90_Valley_of_the_Four_Winds	30077	Barrels, Man			
+z_81_90_Valley_of_the_Four_Winds	30078	Cleaning House			
+z_81_90_Valley_of_the_Four_Winds	30086	The Search for the Hidden Master			
+z_81_90_Valley_of_the_Four_Winds	30117	Stoneplow Thirsts			
+z_81_90_Valley_of_the_Four_Winds	30172	Barreling Along			
+z_81_90_Valley_of_the_Four_Winds	30181	Mushan Mastery			
+z_81_90_Valley_of_the_Four_Winds	30182	Fox Mastery			
+z_81_90_Valley_of_the_Four_Winds	30183	Stalker Mastery			
+z_81_90_Valley_of_the_Four_Winds	30184	Mushan Mastery: Darkhide			
+z_81_90_Valley_of_the_Four_Winds	30185	Tortoise Mastery			
+z_81_90_Valley_of_the_Four_Winds	30186	Parental Mastery			
+z_81_90_Valley_of_the_Four_Winds	30241	Warn Stoneplow	horde		
+z_81_90_Valley_of_the_Four_Winds	30252	A Helping Hand			
+z_81_90_Valley_of_the_Four_Winds	30254	Learn and Grow II: Tilling and Planting			
+z_81_90_Valley_of_the_Four_Winds	30255	Learn and Grow III: Tending Crops			
+z_81_90_Valley_of_the_Four_Winds	30256	Learn and Grow IV: Harvesting			
+z_81_90_Valley_of_the_Four_Winds	30257	Learn and Grow V: Halfhill Market			
+z_81_90_Valley_of_the_Four_Winds	30258	Mung-Mung's Vote I: A Hozen's Problem			
+z_81_90_Valley_of_the_Four_Winds	30259	Mung-Mung's Vote II: Rotten to the Core			
+z_81_90_Valley_of_the_Four_Winds	30260	Growing the Farm I: The Weeds			
+z_81_90_Valley_of_the_Four_Winds	30267	Watery Woes			
+z_81_90_Valley_of_the_Four_Winds	30275	A Crocolisk Tale			
+z_81_90_Valley_of_the_Four_Winds	30325	Where It Counts			
+z_81_90_Valley_of_the_Four_Winds	30326	The Kunzen Legend-Chief			
+z_81_90_Valley_of_the_Four_Winds	30334	Stealing is Bad... Re-Stealing is OK			
+z_81_90_Valley_of_the_Four_Winds	30360	Warn Stoneplow	alliance		
+z_81_90_Valley_of_the_Four_Winds	30376	Hope Springs Eternal			
+z_81_90_Valley_of_the_Four_Winds	30516	Growing the Farm I: A Little Problem			
+z_81_90_Valley_of_the_Four_Winds	30517	Farmer Fung's Vote I: Yak Attack			
+z_81_90_Valley_of_the_Four_Winds	30518	Farmer Fung's Vote II: On the Loose			
+z_81_90_Valley_of_the_Four_Winds	30519	Nana's Vote I: Nana's Secret Recipe			
+z_81_90_Valley_of_the_Four_Winds	30521	Haohan's Vote I: Bungalow Break-In			
+z_81_90_Valley_of_the_Four_Winds	30522	Haohan's Vote II: The Real Culprits			
+z_81_90_Valley_of_the_Four_Winds	30523	Growing the Farm II: The Broken Wagon			
+z_81_90_Valley_of_the_Four_Winds	30524	Growing the Farm II: Knock on Wood			
+z_81_90_Valley_of_the_Four_Winds	30525	Haohan's Vote III: Pure Poison			
+z_81_90_Valley_of_the_Four_Winds	30526	Lost and Lonely			
+z_81_90_Valley_of_the_Four_Winds	30527	Haohan's Vote IV: Melons For Felons			
+z_81_90_Valley_of_the_Four_Winds	30528	Haohan's Vote V: Chief Yip-Yip			
+z_81_90_Valley_of_the_Four_Winds	30529	Growing the Farm III: The Mossy Boulder			
+z_81_90_Valley_of_the_Four_Winds	30534	A Second Hand			
+z_81_90_Valley_of_the_Four_Winds	30535	Learn and Grow I: Seeds			
+z_81_90_Valley_of_the_Four_Winds	30622	The Swarm Begins			
+z_81_90_Valley_of_the_Four_Winds	30623	The Mantidote			
+z_81_90_Valley_of_the_Four_Winds	30624	It Does You No Good In The Keg	alliance		
+z_81_90_Valley_of_the_Four_Winds	30625	Students No More			
+z_81_90_Valley_of_the_Four_Winds	30626	Retreat!			
+z_81_90_Valley_of_the_Four_Winds	30627	The Savior of Stoneplow			
+z_81_90_Valley_of_the_Four_Winds	30628	The Gratitude of Stoneplow			
+z_81_90_Valley_of_the_Four_Winds	30653	It Does You No Good In The Keg	horde		
+z_81_90_Valley_of_the_Four_Winds	31312	The Old Map			
+z_81_90_Valley_of_the_Four_Winds	31313	Just A Folk Story			
+z_81_90_Valley_of_the_Four_Winds	31314	Old Man Thistle's Treasure			
+z_81_90_Valley_of_the_Four_Winds	31315	The Heartland Legacy			
+z_81_90_Valley_of_the_Four_Winds	31320	Buy A Fish A Drink?			
+z_81_90_Valley_of_the_Four_Winds	31321	Buy A Fish A Round?			
+z_81_90_Valley_of_the_Four_Winds	31322	Buy A Fish A Keg?			
+z_81_90_Valley_of_the_Four_Winds	31323	Buy A Fish A Brewery?			
+z_81_90_Valley_of_the_Four_Winds	31325	A Very Nice Necklace			
+z_81_90_Valley_of_the_Four_Winds	31326	Tina's Tasteful Tiara			
+z_81_90_Valley_of_the_Four_Winds	31328	An Exquisite Earring			
+z_81_90_Valley_of_the_Four_Winds	31329	A Beautiful Brooch			
+z_81_90_Valley_of_the_Four_Winds	31338	Lost Sheepie			
+z_81_90_Valley_of_the_Four_Winds	31339	Lost Sheepie... Again			
+z_81_90_Valley_of_the_Four_Winds	31340	Oh Sheepie...			
+z_81_90_Valley_of_the_Four_Winds	31341	A Wolf In Sheep's Clothing			
+z_81_90_Valley_of_the_Four_Winds	31372	The Tillers	alliance		
+z_81_90_Valley_of_the_Four_Winds	31374	The Tillers	horde		
+z_81_90_Valley_of_the_Four_Winds	31529	Mission: Culling The Vermin			
+z_81_90_Valley_of_the_Four_Winds	31530	Mission: The Hozen Dozen			
+z_81_90_Valley_of_the_Four_Winds	31531	Mission: Aerial Threat			
+z_81_90_Valley_of_the_Four_Winds	31532	Mission: Predator of the Cliffs			
+z_81_90_Valley_of_the_Four_Winds	31534	The Beginner's Brew			
+z_81_90_Valley_of_the_Four_Winds	31537	Ella's Taste Test			
+z_81_90_Valley_of_the_Four_Winds	31538	A Worthy Brew			
+z_81_90_Valley_of_the_Four_Winds	31671	Why Not Scallions?			
+z_81_90_Valley_of_the_Four_Winds	31936	The "Jinyu Princess" Irrigation System			
+z_81_90_Valley_of_the_Four_Winds	31937	Thunder King Pest Repellers			
+z_81_90_Valley_of_the_Four_Winds	31938	The "Earth-Slasher" Master Plow			
+z_81_90_Valley_of_the_Four_Winds	31945	Learn and Grow VI: Gina's Vote			
+z_81_90_Valley_of_the_Four_Winds	31946	Mung-Mung's Vote III: The Great Carrot Caper			
+z_81_90_Valley_of_the_Four_Winds	31947	Farmer Fung's Vote III: Crazy For Cabbage			
+z_81_90_Valley_of_the_Four_Winds	31948	Nana's Vote II: The Sacred Springs			
+z_81_90_Valley_of_the_Four_Winds	31949	Nana's Vote III: Witchberry Julep			
+z_81_90_Valley_of_the_Four_Winds	32018	His Name Was... Stormstout			
+z_81_90_Valley_of_the_Four_Winds	32019	They Call Him... Stormstout			
+z_81_90_Valley_of_the_Four_Winds	32035	Got Silk?			
+z_81_90_Valley_of_the_Four_Winds	32038	Stag Mastery			
+z_81_90_Valley_of_the_Four_Winds	32045	Children of the Water			
+z_81_90_Valley_of_the_Four_Winds	32189	A Shabby New Face			
+z_81_90_Valley_of_the_Four_Winds	32198	One Magical, Flying Kingdom's Trash...			
+z_81_90_Valley_of_the_Four_Winds	32682	Inherit the Earth			
+z_81_90_Valley_of_the_Four_Winds	38935	His Name Was... Stormstout			
+z_81_90_Valley_of_the_Four_Winds	49539	Warchief's Command: Valley of the Four Winds!	horde		
+z_81_90_Valley_of_the_Four_Winds	49557	Hero's Call: Valley of the Four Winds!	alliance		
 z_81_90_Krasarang_Wilds	header	81-90: Krasarang Wilds			
 z_82_90_KunLai_Summit	header	82-90: KunLai Summit			
 z_83_90_Townlong_Steppes	header	83-90: Townlong Steppes			
