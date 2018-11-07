@@ -67,6 +67,8 @@ sub tableprint ($) {
 		print "\t\t</td>\n";
 	} elsif ($decoded eq 'beginth') {
 		print "\t\t<th>\n";
+	} elsif ($decoded eq 'beginthquest') {
+		print "\t\t<th class=\"quest\">\n";
 	} elsif ($decoded eq 'endth') {
 		print "\t\t</th>\n";
 	} elsif ($decoded eq 'thbeginspan') {
@@ -958,7 +960,8 @@ sub preprintachievementvia4q ($$$$$$$$%) {
 sub valueprint($ % ) {
 	my($da, $d0, %d1) = @_;
 	BNet::Utils::tableprint("beginrow");
-	BNet::Utils::tableprint("beginth");
+	BNet::Utils::tableprint("beginthquest");
+	print "\t\t\t";
 	print $d0;
 	BNet::Utils::tableprint("endth");
 
@@ -967,7 +970,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {zero})) {
 			if (defined $d1 {zero}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -979,7 +982,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {one})) {
 			if (defined $d1 {one}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -991,7 +994,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {two})) {
 			if (defined $d1 {two}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1003,7 +1006,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {three})) {
 			if (defined $d1 {three}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1015,7 +1018,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {four})) {
 			if (defined $d1 {four}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1027,7 +1030,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {five})) {
 			if (defined $d1 {five}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1039,7 +1042,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {six})) {
 			if (defined $d1 {six}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1051,7 +1054,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {seven})) {
 			if (defined $d1 {seven}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1063,7 +1066,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {eight})) {
 			if (defined $d1 {eight}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1075,7 +1078,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {nine})) {
 			if (defined $d1 {nine}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1087,7 +1090,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {ten})) {
 			if (defined $d1 {ten}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1099,7 +1102,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {eleven})) {
 			if (defined $d1 {eleven}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1111,7 +1114,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {twelve})) {
 			if (defined $d1 {twelve}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1123,7 +1126,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {thirteen})) {
 			if (defined $d1 {thirteen}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1135,7 +1138,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {fourteen})) {
 			if (defined $d1 {fourteen}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1148,7 +1151,7 @@ sub valueprint($ % ) {
 		if (exists($d1 {fifteen})) {
 			if (defined $d1 {fifteen}) {
 				BNet::Utils::tableprint("begintdcomplete");
-				print "\t\t\t\t&#10004\n";
+				print "\t\t\t&#10004\n";
 				BNet::Utils::tableprint("endtd");
 			} else {
 				BNet::Utils::tableprint("begintdincomplete");
@@ -1751,19 +1754,23 @@ sub htmlheadprint () {
 	print "\t\t<style>\n";
 
 	print "\t\ttable {\n";
-	print "\t\t\tborder-collapse: collapse;\n";
-	print "\t\t\tborder: solid 1px;\n";
+	print "\t\t\tborder-collapse:\tcollapse;\n";
+	print "\t\t\tborder:\tsolid 1px;\n";
 	print "\t\t}\n";
 
 	print "\t\ttable th {\n";
-	print "\t\t\tborder: solid 1px;\n";
+	print "\t\t\tborder:\tsolid 1px;\n";
 	print "\t\t\tfont-size:	14px;\n";
 	print "\t\t}\n";
 
+	print "\t\ttable th.quest {\n";
+	print "\t\t\ttext-align:\tleft;\n";
+	print "\t\t}\n";
+
 	print "\t\ttable td {\n";
-	print "\t\t\tborder: solid 1px;\n";
+	print "\t\t\tborder:\tsolid 1px;\n";
 	print "\t\t\tfont-size:	14px;\n";
-	print "\t\t\ttext-align: left;\n";
+	print "\t\t\ttext-align:\tleft;\n";
 	print "\t\t}\n";
 
 	print "\t\ttable td.Death-Knight {\n";
@@ -1917,8 +1924,8 @@ sub htmlheadprint () {
 	print "\t\t}\n";
 
 	print "\t\ta span.tip {\n";
-	print "\t\t\tcursor: pointer !important;\n";
-	print "\t\t\tborder-bottom: 1px dotted #808080;\n";
+	print "\t\t\tcursor:\tpointer !important;\n";
+	print "\t\t\tborder-bottom:\t1px dotted #808080;\n";
 	print "\t\t}\n";
 
 	print "\t\t</style>\n";
