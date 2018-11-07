@@ -1,0 +1,11 @@
+sz_01_10_Wandering_Isle	header	01-10: Wandering Isle			
+z_80_90_Jade_Forest	header	80-90: Jade Forest			
+z_81_90_Valley_of_the_Four_Winds	header	81-90: Valley of the Four Winds			
+z_81_90_Krasarang_Wilds	header	81-90: Krasarang Wilds			
+z_82_90_KunLai_Summit	header	82-90: KunLai Summit			
+z_83_90_Townlong_Steppes	header	83-90: Townlong Steppes			
+z_84_90_Dread_Wastes	header	84-90: Dread Wastes			
+z_85_90_Vale_of_Eternal_Blossoms	header	85-90: Vale of Eternal Blossoms			
+z_85_90_Isle_of_Giants	header	85-90: Isle of Giants			
+z_85_90_Isle_of_Thunder	header	85-90: Isle of Thunder			
+z_85_90_Timeless_Isle	header	85-90: Timeless Isle			
