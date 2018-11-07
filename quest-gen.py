@@ -27,12 +27,12 @@ def printclosesub():
 	print ("}", end="\n")
 	print ("", end="\n")
 
-def printheader(headerinfo):
+def print_header(headerinfo):
 	print ("\tBNet::Utils::groupheader (\"", end="")
 	print (headerinfo, end="")
 	print ("\");", end="\n")
 
-def printheaderfaction(headerinfo,faction):
+def print_header_faction(headerinfo,faction):
 	print ("\tBNet::Utils::groupheader (\"", end="")
 	print (headerinfo, end="")
 	print (" <img src=\\\"https://wow.zamimg.com/images/icons/", end="")
@@ -40,55 +40,68 @@ def printheaderfaction(headerinfo,faction):
 	print (".png\\\">", end="")
 	print ("\");", end="\n")
 
-def printbarequest(questid,questname):
+def print_quest_no_faction(questid,questname):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
 	print ("', \"", end="")
 	print (questname, end="")
 	print ("\", %multiuserquests);", end="\n")
 
-def printbarequestclass(questid,questname,myclass):
+def print_quest_no_faction_one_image(questid,questname,imagename):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
 	print ("', \"", end="")
 	print (questname, end="")
-	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
-	print (myclass, end="")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
+	print (imagename, end="")
 	print (".jpg\\\">\", %multiuserquests);", end="\n")
 
-def printquestallianceclass(questid,questname,myclass):
+def print_quest_no_faction_two_image(questid,questname,imagenameone,imagenametwo):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
 	print ("', \"", end="")
 	print (questname, end="")
-	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/icons/alliance.png\\\">", end="")
-	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
-	print (myclass, end="")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
+	print (imagenameone, end="")
+	print (".jpg\\\">", end="")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
+	print (imagenametwo, end="")
 	print (".jpg\\\">\", %multiuserquests);", end="\n")
 
-def printquestalliance(questid,questname):
+def print_quest_faction(questid,questname,faction):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
 	print ("', \"", end="")
 	print (questname, end="")
-	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/icons/alliance.png\\\">\", %multiuserquests);", end="\n")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/icons/", end="")
+	print (faction, end="")
+	print (".png\\\">\", %multiuserquests);", end="\n")
 
-def printquesthorde(questid,questname):
+def print_quest_faction_one_image(questid,questname,faction,imagename):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
 	print ("', \"", end="")
 	print (questname, end="")
-	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/icons/horde.png\\\">\", %multiuserquests);", end="\n")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/icons/", end="")
+	print (faction, end="")
+	print (".png\\\">", end="")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
+	print (imagename, end="")
+	print (".jpg\\\">\", %multiuserquests);", end="\n")
 
-
-def printquesthordeclass(questid,questname,myclass):
+def print_quest_faction_two_image(questid,questname,faction,imagenameone,imagenametwo):
 	print ("\tBNet::Utils::preprint ($count, '", end="")
 	print (questid, end="")
 	print ("', \"", end="")
 	print (questname, end="")
-	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/icons/horde.png\\\">", end="")
-	print (" <img align=\\\"right\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
-	print (myclass, end="")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/icons/", end="")
+	print (faction, end="")
+	print (".png\\\">", end="")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
+	print (imagenameone, end="")
+	print (".jpg\\\">", end="")
+	print (" <img class=\\\"icons\\\" src=\\\"https://wow.zamimg.com/images/wow/icons/small/", end="")
+	print (imagenametwo, end="")
 	print (".jpg\\\">\", %multiuserquests);", end="\n")
 
 if __name__ == "__main__":
@@ -103,6 +116,7 @@ if __name__ == "__main__":
 	printopenmodule(outputfile)
 	for line in openedfile:
 		#Split line by Tabs
+		line = line.strip('\n')
 		splitbytab = line.split('\t')
 #		print (splitbytab[0])
 		#Set the module name on initial start
@@ -122,24 +136,44 @@ if __name__ == "__main__":
 		#
 		if splitbytab[1] == 'header':
 			if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
-				printheaderfaction(splitbytab[2],splitbytab[3])
+				print_header_faction(splitbytab[2],splitbytab[3])
 			else:
-				printheader(splitbytab[2])
+				print_header(splitbytab[2])
 		else:
-			if splitbytab[3] != "alliance" and splitbytab[3] != "horde":
-				if not (splitbytab[4]):
-					printbarequest(splitbytab[1], splitbytab[2])
-				else:
-					printbarequestclass(splitbytab[1], splitbytab[2], splitbytab[4])
-			elif splitbytab[3] == "alliance":
-				if not (splitbytab[4]):
-					printquestalliance(splitbytab[1], splitbytab[2])
-				else:
-					printquestallianceclass(splitbytab[1], splitbytab[2], splitbytab[4])
-			elif splitbytab[3] == "horde":
-				if not (splitbytab[4]):
-					printquesthorde(splitbytab[1], splitbytab[2])
-				else:
-					printquesthordeclass(splitbytab[1], splitbytab[2], splitbytab[4])
+		#	print (splitbytab[3], end="\t")
+		#	print ("33333333", end="\t")
+		#	print (splitbytab[4], end="\t")
+		#	print ("44444444", end="\t")
+		#	print (splitbytab[5], end="\n")
+		#	print (len(splitbytab[3]), end="\t")
+		#	print (len(splitbytab[4]), end="\t")
+		#	print (len(splitbytab[5]), end="\n")
+			#Has Race Entry
+			if len(splitbytab[5]) != 0:
+				#Has Class Entry
+				if len(splitbytab[4]) != 0:
+					#Has Faction Flag
+					#Works
+					if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
+						print_quest_faction_two_image(splitbytab[1], splitbytab[2], splitbytab[3], splitbytab[4], splitbytab[5])
+					else:
+						print_quest_no_faction_two_image(splitbytab[1], splitbytab[2], splitbytab[4], splitbytab[5])
+				elif len(splitbytab[4]) == 0:
+					#Has Faction Flag
+					if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
+						print_quest_faction_one_image(splitbytab[1], splitbytab[2], splitbytab[3], splitbytab[5])
+					else:
+						print_quest_no_faction_one_image(splitbytab[1], splitbytab[2], splitbytab[5])
+			elif len(splitbytab[5]) == 0:
+				if len(splitbytab[4]) != 0:
+					if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
+						print_quest_faction_one_image(splitbytab[1], splitbytab[2], splitbytab[3], splitbytab[4])
+					else:
+						print_quest_no_faction_one_image(splitbytab[1], splitbytab[2], splitbytab[4])
+				elif len(splitbytab[4]) == 0:
+					if splitbytab[3] == "alliance" or splitbytab[3] == "horde":
+						print_quest_faction(splitbytab[1], splitbytab[2], splitbytab[3])
+					else:
+						print_quest_no_faction(splitbytab[1], splitbytab[2])
 	printclosesub()
 	printclosemodule()
