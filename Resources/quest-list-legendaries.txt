@@ -1,0 +1,142 @@
+legendary_cloak	header	Legendary Cloak			
+legendary_cloak	header	Chapter I: Sha Touched Gem			
+legendary_cloak	31488	Stranger in a Strange Land			
+legendary_cloak	31454	A Legend in the Making			
+legendary_cloak	31468	Trial of the Black Prince			
+legendary_cloak	31473	The Strength of One's Foes			
+legendary_cloak	31481	Fear Itself			
+legendary_cloak	31482	Breath of the Black Prince			
+legendary_cloak	header	Chapter II: Eye of the Black Prince			
+legendary_cloak	31483	Incoming...			
+legendary_cloak	32373	The Measure of a Leader	alliance		
+legendary_cloak	32427	The Measure of a Leader	horde		
+legendary_cloak	32374	The Prince's Pursuit	alliance		
+legendary_cloak	32429	The Prince's Pursuit	horde		
+legendary_cloak	32474	A Test of Valor	alliance		
+legendary_cloak	32476	A Test of Valor	horde		
+legendary_cloak	32388	A Change of Command	alliance		
+legendary_cloak	32430	A Change of Command	horde		
+legendary_cloak	32389	The Lion Roars	alliance		
+legendary_cloak	32431	Glory to the Horde	horde		
+legendary_cloak	32390	Call of the Packmaster	alliance		
+legendary_cloak	32432	The Soul of the Horde	horde		
+legendary_cloak	header	Chapter III: Legendary Meta-Gem			
+legendary_cloak	32590	Meet Me Upstairs			
+legendary_cloak	32591	Secrets of the First Empire			
+legendary_cloak	32592	I Need a Champion			
+legendary_cloak	32593	The Thunder Forge			
+legendary_cloak	32594	Spirit of the Storm Lord			
+legendary_cloak	32595	The Crown of Heaven			
+legendary_cloak	32596	Echoes of the Titans			
+legendary_cloak	32597	Heart of the Thunder King			
+legendary_cloak	header	Chapter IV: Epic Cloak			
+legendary_cloak	32598	A Reckoning			
+legendary_cloak	32805	Celestial Blessings			
+legendary_cloak	32861	Cloak of Virtue			
+legendary_cloak	header	Chapter V: Legendary Cloak			
+legendary_cloak	32870	Preparing to Strike			
+legendary_cloak	33087	Meet Me Back at the Inn			
+legendary_cloak	33088	A Timeless Discovery			
+legendary_cloak	33098	Secrets of the Timeless Isle			
+legendary_cloak	33100	The Emperor's Way			
+legendary_cloak	33104	A Pandaren Legend			
+legendary_cloak	33105	Judgment of the Black Prince			
+legendary_thunderfury	header	Legendary: Thunderfury, Blessed Blade of the Windseeker			
+legendary_thunderfury	7785	Examine the Vessel			
+legendary_thunderfury	7786	Thunderaan the Windseeker			
+legendary_thunderfury	7787	Rise, Thunderfury!			
+legendary_ring	header	Legendary Ring			
+legendary_ring	header	Chapter I: Call of the Archmage			
+legendary_ring	39018	Call of the Archmage			
+legendary_ring	36157	Spires of the Betrayer			
+legendary_ring	35989	Khadgar's Task			
+legendary_ring	35990	Core of Flame			
+legendary_ring	35991	Core of Iron			
+legendary_ring	35992	Core of Life			
+legendary_ring	36158	Draenor's Secret Power			
+legendary_ring	35993	Tackling Teron'gor			
+legendary_ring	36000	Fugitive Dragon			
+legendary_ring	36004	Power Unleashed			
+legendary_ring	header	Chapter II: Gul'dan Strikes Back			
+legendary_ring	35997	Empire's Fall			
+legendary_ring	35998	Legacy of the Sorcerer Kings			
+legendary_ring	36005	The Scrying Game			
+legendary_ring	36006	Hunter: Hunted			
+legendary_ring	36007	Touch of the Kirin-Tor			
+legendary_ring	header	Chapter III: The Foundry Falls			
+legendary_ring	36013	Might of the Elemental Lords			
+legendary_ring	36009	Heart of the Fury			
+legendary_ring	36010	Flamebender's Tome			
+legendary_ring	36012	Reverse Piracy			
+legendary_ring	36016	The Unbroken Circle			
+legendary_ring	header	Chapter IV: Darkness Incarnate			
+legendary_ring	36014	Blackhand's Secret			
+legendary_ring	36017	Prisoner of the Mind			
+legendary_ring	37835	The Shadow War			
+legendary_ring	37834	Orb of Dominion			
+legendary_ring	37836	Breaking Badness			
+legendary_ring	37964	To Gul'dan!			
+legendary_ring	37837	An Inside Job			
+legendary_ring	37838	My Garona			
+legendary_ring	37841	The Final Assault			
+legendary_ring	39057	Command of the Seas			
+legendary_ring	39697	Master vs. Commander			
+legendary_ring	39000	We Don't Need No Library Card			
+legendary_ring	39003	Cooking the Books			
+legendary_ring	37839	Light Be With You (Alliance)			
+legendary_ring	37840	Draenor's Blessing (Horde)			
+legendary_ring	39004	Darkness Incarnate			
+legendary_valanyr	header	Legendary: Val'anyr, Hammer of Ancient Kings			
+legendary_valanyr	13622	Ancient History			
+legendary_valanyr	13629	Val'anyr, Hammer of Ancient Kings			
+legendary_shadowmourne	header	Legendary: Shadowmourne			
+legendary_shadowmourne	24545	The Sacred and the Corrupt			
+legendary_shadowmourne	24547	A Feast of Souls			
+legendary_shadowmourne	24743	Shadow's Edge			
+legendary_shadowmourne	24749	Unholy Infusion			
+legendary_shadowmourne	24756	Blood Infusion			
+legendary_shadowmourne	24757	Frost Infusion			
+legendary_shadowmourne	24548	The Splintered Throne			
+legendary_shadowmourne	24549	Shadowmourne...			
+legendary_shadowmourne	24748	The Lich King's Last Stand			
+legendary_shadowmourne	header	Legendary: Shadowmourne: Rewards			
+legendary_shadowmourne	24914	Personal Property			
+legendary_shadowmourne	24915	Mograine's Reunion			
+legendary_shadowmourne	24916	Jaina's Locket			
+legendary_shadowmourne	24917	Muradin's Lament			
+legendary_shadowmourne	24918	Sylvanas' Vengeance			
+legendary_shadowmourne	24919	The Lightbringer's Redemption			
+legendary_rogue_daggers	header	Legendary: Fangs of the Father			
+legendary_rogue_daggers	29801	Proving Your Worth			
+legendary_rogue_daggers	29802	A Hidden Message			
+legendary_rogue_daggers	29934	To Ravenholdt			
+legendary_rogue_daggers	29847	To Catch a Thief			
+legendary_rogue_daggers	30092	Our Man in Gilneas			
+legendary_rogue_daggers	30093	Assassinate Creed			
+legendary_rogue_daggers	30106	The Deed is Done			
+legendary_rogue_daggers	30107	Cluster Clutch			
+legendary_rogue_daggers	30108	Our Man in Karazhan			
+legendary_rogue_daggers	30109	Blood of the Betrayer			
+legendary_rogue_daggers	30113	Victory in the Depths			
+legendary_rogue_daggers	30116	Sharpening Your Fangs			
+legendary_rogue_daggers	30118	Patricide			
+legendary_dragonwrath	header	Legendary: Dragonwrath: Tarecgosa's Rest			
+legendary_dragonwrath	29453	Your Time Has Come	alliance		
+legendary_dragonwrath	29452	Your Time Has Come	horde		
+legendary_dragonwrath	29132	A Legendary Engagement	alliance		
+legendary_dragonwrath	29129	A Legendary Engagement	horde		
+legendary_dragonwrath	29134	A Wrinkle in Time			
+legendary_dragonwrath	29135	All-Seeing Eye			
+legendary_dragonwrath	29193	On a Wing and a Prayer			
+legendary_dragonwrath	29194	Through a Glass, Darkly			
+legendary_dragonwrath	29225	Actionable Intelligence			
+legendary_dragonwrath	29234	Delegation			
+legendary_dragonwrath	29239	Nordrassil's Bough			
+legendary_dragonwrath	29240	Emergency Extraction			
+legendary_dragonwrath	29269	At One			
+legendary_dragonwrath	29270	Time Grows Short			
+legendary_dragonwrath	29285	Alignment			
+legendary_dragonwrath	29307	Heart of Flame	alliance		
+legendary_dragonwrath	29308	Heart of Flame	horde		
+legendary_dragonwrath	29312	The Stuff of Legends	alliance		
+legendary_dragonwrath	29309	The Stuff of Legends	horde		

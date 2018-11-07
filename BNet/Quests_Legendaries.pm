@@ -3,8 +3,7 @@ package BNet::Quests_Legendaries;
 use strict;
 use warnings;
 
-
-sub legendary_cloak ($%) {
+sub legendary_cloak($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Legendary Cloak");
@@ -15,21 +14,20 @@ sub legendary_cloak ($%) {
 	BNet::Utils::preprint ($count, '31473', "The Strength of One's Foes", %multiuserquests);
 	BNet::Utils::preprint ($count, '31481', "Fear Itself", %multiuserquests);
 	BNet::Utils::preprint ($count, '31482', "Breath of the Black Prince", %multiuserquests);
-	BNet::Utils::groupheader ("Chapter II: Eye of the Black Prince ");
+	BNet::Utils::groupheader ("Chapter II: Eye of the Black Prince");
 	BNet::Utils::preprint ($count, '31483', "Incoming...", %multiuserquests);
-	BNet::Utils::groupheader ("Horde");
-	BNet::Utils::preprint ($count, '32427', "The Measure of a Leader", %multiuserquests);
-	BNet::Utils::preprint ($count, '32429', "The Prince's Pursuit", %multiuserquests);
-	BNet::Utils::preprint ($count, '32476', "A Test of Valor", %multiuserquests);
-	BNet::Utils::preprint ($count, '32430', "A Change of Command", %multiuserquests);
-	BNet::Utils::preprint ($count, '32431', "Glory to the Horde", %multiuserquests);
-	BNet::Utils::preprint ($count, '32432', "The Soul of the Horde", %multiuserquests);
-	BNet::Utils::groupheader ("Alliance");
-	BNet::Utils::preprint ($count, '32373', "The Measure of a Leader", %multiuserquests);
-	BNet::Utils::preprint ($count, '32374', "The Prince's Pursuit", %multiuserquests);
-	BNet::Utils::preprint ($count, '32388', "A Change of Command", %multiuserquests);
-	BNet::Utils::preprint ($count, '32389', "The Lion Roars", %multiuserquests);
-	BNet::Utils::preprint ($count, '32390', "Call of the Packmaster", %multiuserquests);
+	BNet::Utils::preprint ($count, '32373', "The Measure of a Leader <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32427', "The Measure of a Leader <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32374', "The Prince's Pursuit <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32429', "The Prince's Pursuit <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32474', "A Test of Valor <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32476', "A Test of Valor <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32388', "A Change of Command <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32430', "A Change of Command <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32389', "The Lion Roars <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32431', "Glory to the Horde <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32390', "Call of the Packmaster <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '32432', "The Soul of the Horde <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::groupheader ("Chapter III: Legendary Meta-Gem");
 	BNet::Utils::preprint ($count, '32590', "Meet Me Upstairs", %multiuserquests);
 	BNet::Utils::preprint ($count, '32591', "Secrets of the First Empire", %multiuserquests);
@@ -54,19 +52,17 @@ sub legendary_cloak ($%) {
 
 }
 
-
-sub legendary_thunderfury ($%) {
+sub legendary_thunderfury($%) {
 	my ($count, %multiuserquests) = @_;
-	BNet::Utils::groupheader ("Legendary: Thunderfury. Blessed Blade of the Windseeker");
+
+	BNet::Utils::groupheader ("Legendary: Thunderfury, Blessed Blade of the Windseeker");
 	BNet::Utils::preprint ($count, '7785', "Examine the Vessel", %multiuserquests);
 	BNet::Utils::preprint ($count, '7786', "Thunderaan the Windseeker", %multiuserquests);
 	BNet::Utils::preprint ($count, '7787', "Rise, Thunderfury!", %multiuserquests);
 
 }
 
-
-
-sub legendary_ring ($%) {
+sub legendary_ring($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Legendary Ring");
@@ -111,22 +107,20 @@ sub legendary_ring ($%) {
 	BNet::Utils::preprint ($count, '37840', "Draenor's Blessing (Horde)", %multiuserquests);
 	BNet::Utils::preprint ($count, '39004', "Darkness Incarnate", %multiuserquests);
 
-
 }
 
-
-sub legendary_valanyr ($%) {
+sub legendary_valanyr($%) {
 	my ($count, %multiuserquests) = @_;
+
 	BNet::Utils::groupheader ("Legendary: Val'anyr, Hammer of Ancient Kings");
 	BNet::Utils::preprint ($count, '13622', "Ancient History", %multiuserquests);
 	BNet::Utils::preprint ($count, '13629', "Val'anyr, Hammer of Ancient Kings", %multiuserquests);
 
 }
 
-
-sub legendary_shadowmourne ($%) {
-
+sub legendary_shadowmourne($%) {
 	my ($count, %multiuserquests) = @_;
+
 	BNet::Utils::groupheader ("Legendary: Shadowmourne");
 	BNet::Utils::preprint ($count, '24545', "The Sacred and the Corrupt", %multiuserquests);
 	BNet::Utils::preprint ($count, '24547', "A Feast of Souls", %multiuserquests);
@@ -145,13 +139,11 @@ sub legendary_shadowmourne ($%) {
 	BNet::Utils::preprint ($count, '24918', "Sylvanas' Vengeance", %multiuserquests);
 	BNet::Utils::preprint ($count, '24919', "The Lightbringer's Redemption", %multiuserquests);
 
-
 }
 
-
-
-sub legendary_rogue_daggers ($%) {
+sub legendary_rogue_daggers($%) {
 	my ($count, %multiuserquests) = @_;
+
 	BNet::Utils::groupheader ("Legendary: Fangs of the Father");
 	BNet::Utils::preprint ($count, '29801', "Proving Your Worth", %multiuserquests);
 	BNet::Utils::preprint ($count, '29802', "A Hidden Message", %multiuserquests);
@@ -169,15 +161,14 @@ sub legendary_rogue_daggers ($%) {
 
 }
 
-
-sub legendary_dragonwrath ($%) {
+sub legendary_dragonwrath($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("Legendary: Dragonwrath: Tarecgosa's Rest");
-	BNet::Utils::preprint ($count, '29453', "Your Time Has Come <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '29452', "Your Time Has Come <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '29132', "A Legendary Engagement <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '29129', "A Legendary Engagement <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29453', "Your Time Has Come <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29452', "Your Time Has Come <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29132', "A Legendary Engagement <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29129', "A Legendary Engagement <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '29134', "A Wrinkle in Time", %multiuserquests);
 	BNet::Utils::preprint ($count, '29135', "All-Seeing Eye", %multiuserquests);
 	BNet::Utils::preprint ($count, '29193', "On a Wing and a Prayer", %multiuserquests);
@@ -189,11 +180,13 @@ sub legendary_dragonwrath ($%) {
 	BNet::Utils::preprint ($count, '29269', "At One", %multiuserquests);
 	BNet::Utils::preprint ($count, '29270', "Time Grows Short", %multiuserquests);
 	BNet::Utils::preprint ($count, '29285', "Alignment", %multiuserquests);
-	BNet::Utils::preprint ($count, '29307', "Heart of Flame <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '29308', "Heart of Flame <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '29312', "The Stuff of Legends <img src=\"http://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
-	BNet::Utils::preprint ($count, '29309', "The Stuff of Legends <img src=\"http://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29307', "Heart of Flame <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29308', "Heart of Flame <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29312', "The Stuff of Legends <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '29309', "The Stuff of Legends <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 
 }
 
+
 1;
+
