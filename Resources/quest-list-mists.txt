@@ -1,5 +1,236 @@
 sz_01_10_Wandering_Isle	header	01-10: Wandering Isle			
 z_80_90_Jade_Forest	header	80-90: Jade Forest			
+z_80_90_Jade_Forest	29552	Critical Condition	alliance		
+z_80_90_Jade_Forest	29553	The Missing Admiral	alliance		
+z_80_90_Jade_Forest	29555	The White Pawn	alliance		
+z_80_90_Jade_Forest	29556	Hozen Aren't Your Friends, Hozen Are Your Enemies	alliance		
+z_80_90_Jade_Forest	29558	The Path of War	alliance		
+z_80_90_Jade_Forest	29559	Freeing Our Brothers	alliance		
+z_80_90_Jade_Forest	29560	Ancient Power	alliance		
+z_80_90_Jade_Forest	29562	Jailbreak	alliance		
+z_80_90_Jade_Forest	29576	An Air of Worry			
+z_80_90_Jade_Forest	29578	Defiance			
+z_80_90_Jade_Forest	29579	Rally the Survivors			
+z_80_90_Jade_Forest	29580	Orchard-Supplied Hardware			
+z_80_90_Jade_Forest	29585	Spitfire			
+z_80_90_Jade_Forest	29586	The Splintered Path			
+z_80_90_Jade_Forest	29587	Unbound			
+z_80_90_Jade_Forest	29617	Tian Monastery			
+z_80_90_Jade_Forest	29618	The High Elder			
+z_80_90_Jade_Forest	29619	A Courteous Guest			
+z_80_90_Jade_Forest	29620	The Great Banquet			
+z_80_90_Jade_Forest	29622	Your Training Starts Now			
+z_80_90_Jade_Forest	29623	Perfection			
+z_80_90_Jade_Forest	29624	Attention			
+z_80_90_Jade_Forest	29626	Groundskeeper Wu			
+z_80_90_Jade_Forest	29627	A Proper Weapon			
+z_80_90_Jade_Forest	29628	A Strong Back			
+z_80_90_Jade_Forest	29629	A Steady Hand			
+z_80_90_Jade_Forest	29630	And a Heavy Fist			
+z_80_90_Jade_Forest	29631	Burning Bright			
+z_80_90_Jade_Forest	29632	Becoming Battle-Ready			
+z_80_90_Jade_Forest	29633	Zhi-Zhi, the Dextrous			
+z_80_90_Jade_Forest	29634	Husshun, the Wizened			
+z_80_90_Jade_Forest	29635	Xiao, the Eater			
+z_80_90_Jade_Forest	29636	A Test of Endurance			
+z_80_90_Jade_Forest	29637	The Rumpus			
+z_80_90_Jade_Forest	29639	Flying Colors			
+z_80_90_Jade_Forest	29646	Flying Colors			
+z_80_90_Jade_Forest	29647	Flying Colors			
+z_80_90_Jade_Forest	29670	Maul Gormal			
+z_80_90_Jade_Forest	29694	Regroup!	horde		
+z_80_90_Jade_Forest	29716	The Double Hozen Dare			
+z_80_90_Jade_Forest	29717	Down Kitty!			
+z_80_90_Jade_Forest	29723	The Jade Witch			
+z_80_90_Jade_Forest	29725	SI:7 Report: Fire From the Sky	alliance		
+z_80_90_Jade_Forest	29726	SI:7 Report: Hostile Natives	alliance		
+z_80_90_Jade_Forest	29727	SI:7 Report: Take No Prisoners	alliance		
+z_80_90_Jade_Forest	29730	Scouting Report: Hostile Natives	horde		
+z_80_90_Jade_Forest	29731	Scouting Report: On the Right Track	horde		
+z_80_90_Jade_Forest	29733	SI:7 Report: Lost in the Woods	alliance		
+z_80_90_Jade_Forest	29743	Monstrosity	horde		
+z_80_90_Jade_Forest	29745	The Sprites' Plight			
+z_80_90_Jade_Forest	29747	Break the Cycle			
+z_80_90_Jade_Forest	29748	Simulacrumble			
+z_80_90_Jade_Forest	29749	An Urgent Plea			
+z_80_90_Jade_Forest	29750	Vessels of the Spirit			
+z_80_90_Jade_Forest	29751	Ritual Artifacts			
+z_80_90_Jade_Forest	29752	The Wayward Dead			
+z_80_90_Jade_Forest	29753	Back to Nature			
+z_80_90_Jade_Forest	29754	To Bridge Earth and Sky			
+z_80_90_Jade_Forest	29755	Pei-Back			
+z_80_90_Jade_Forest	29756	A Humble Offering			
+z_80_90_Jade_Forest	29759	Kung Din	alliance		
+z_80_90_Jade_Forest	29762	Family Heirlooms	alliance		
+z_80_90_Jade_Forest	29765	Cryin' My Eyes Out	horde		
+z_80_90_Jade_Forest	29804	Seein' Red	horde		
+z_80_90_Jade_Forest	29815	Forensic Science	horde		
+z_80_90_Jade_Forest	29821	Missed Me By... That Much!	horde		
+z_80_90_Jade_Forest	29822	Lay of the Land	horde		
+z_80_90_Jade_Forest	29823	Scouting Report: The Friend of My Enemy	horde		
+z_80_90_Jade_Forest	29824	Scouting Report: Like Jinyu in a Barrel	horde		
+z_80_90_Jade_Forest	29827	Acid Rain	horde		
+z_80_90_Jade_Forest	29865	The Silkwood Road			
+z_80_90_Jade_Forest	29866	The Threads that Stick			
+z_80_90_Jade_Forest	29879	Swallowed Whole	horde		
+z_80_90_Jade_Forest	29881	The Perfect Color			
+z_80_90_Jade_Forest	29882	Quill of Stingers			
+z_80_90_Jade_Forest	29883	The Pearlfin Situation	alliance		
+z_80_90_Jade_Forest	29885	Road Rations	alliance		
+z_80_90_Jade_Forest	29887	The Elder's Instruments	alliance		
+z_80_90_Jade_Forest	29888	Seek Out the Lorewalker	alliance		
+z_80_90_Jade_Forest	29889	Borrowed Brew	alliance		
+z_80_90_Jade_Forest	29890	Finding Your Center	alliance		
+z_80_90_Jade_Forest	29891	Potency	alliance		
+z_80_90_Jade_Forest	29892	Body	alliance		
+z_80_90_Jade_Forest	29893	Hue	alliance		
+z_80_90_Jade_Forest	29894	Spirits of the Water	alliance		
+z_80_90_Jade_Forest	29898	Sacred Waters	alliance		
+z_80_90_Jade_Forest	29899	Rest in Peace	alliance		
+z_80_90_Jade_Forest	29900	An Ancient Legend	alliance		
+z_80_90_Jade_Forest	29901	Anduin's Decision	alliance		
+z_80_90_Jade_Forest	29903	A Perfect Match	alliance		
+z_80_90_Jade_Forest	29904	Bigger Fish to Fry	alliance		
+z_80_90_Jade_Forest	29905	Let Them Burn	alliance		
+z_80_90_Jade_Forest	29906	Carp Diem	alliance		
+z_80_90_Jade_Forest	29920	Getting Permission			
+z_80_90_Jade_Forest	29922	In Search of Wisdom	alliance		
+z_80_90_Jade_Forest	29924	Kill Kher Shan	horde		
+z_80_90_Jade_Forest	29925	All We Can Spare			
+z_80_90_Jade_Forest	29926	Calamity Jade			
+z_80_90_Jade_Forest	29927	Mann's Man			
+z_80_90_Jade_Forest	29928	I Have No Jade And I Must Scream			
+z_80_90_Jade_Forest	29929	Trapped!			
+z_80_90_Jade_Forest	29930	What's Mined Is Yours			
+z_80_90_Jade_Forest	29931	The Serpent's Heart			
+z_80_90_Jade_Forest	29932	The Temple of the Jade Serpent			
+z_80_90_Jade_Forest	29933	The Bees' Knees	horde		
+z_80_90_Jade_Forest	29935	Orders are Orders	horde		
+z_80_90_Jade_Forest	29936	Instant Messaging	horde		
+z_80_90_Jade_Forest	29937	Furious Fowl	horde		
+z_80_90_Jade_Forest	29939	Boom Bait	horde		
+z_80_90_Jade_Forest	29941	Beyond the Horizon	horde		
+z_80_90_Jade_Forest	29942	Silly Wikket, Slickies are for Hozen	horde		
+z_80_90_Jade_Forest	29943	Guerrillas in our Midst	horde		
+z_80_90_Jade_Forest	29966	Burning Down the House	horde		
+z_80_90_Jade_Forest	29967	Boom Goes the Doonamite!	horde		
+z_80_90_Jade_Forest	29968	Green-ish Energy	horde		
+z_80_90_Jade_Forest	29971	The Scouts Return	horde		
+z_80_90_Jade_Forest	29993	Find the Boy			
+z_80_90_Jade_Forest	29995	Shrine of the Dawn			
+z_80_90_Jade_Forest	29997	The Scryer's Dilemma			
+z_80_90_Jade_Forest	29998	The Librarian's Quandary			
+z_80_90_Jade_Forest	29999	The Rider's Bind			
+z_80_90_Jade_Forest	30000	The Jade Serpent			
+z_80_90_Jade_Forest	30001	Moth-Ridden			
+z_80_90_Jade_Forest	30002	Pages of History			
+z_80_90_Jade_Forest	30004	Everything In Its Place			
+z_80_90_Jade_Forest	30005	Lighting Up the Sky			
+z_80_90_Jade_Forest	30006	The Darkness Around Us			
+z_80_90_Jade_Forest	30011	A New Vision			
+z_80_90_Jade_Forest	30015	Dawn's Blossom	horde		
+z_80_90_Jade_Forest	30063	Behind the Masks			
+z_80_90_Jade_Forest	30064	Saving the Sutras			
+z_80_90_Jade_Forest	30065	Arrows of Fortune			
+z_80_90_Jade_Forest	30066	Hidden Power			
+z_80_90_Jade_Forest	30067	The Shadow of Doubt			
+z_80_90_Jade_Forest	30068	Flames of the Void			
+z_80_90_Jade_Forest	30069	No Plan Survives Contact with the Enemy	alliance		
+z_80_90_Jade_Forest	30070	The Fall of Ga'trul	alliance		
+z_80_90_Jade_Forest	30134	Wild Things			
+z_80_90_Jade_Forest	30135	Beating the Odds			
+z_80_90_Jade_Forest	30136	Empty Nests			
+z_80_90_Jade_Forest	30137	Egg Collection			
+z_80_90_Jade_Forest	30138	Choosing the One			
+z_80_90_Jade_Forest	30139	The Rider's Journey			
+z_80_90_Jade_Forest	30140	The Rider's Journey			
+z_80_90_Jade_Forest	30141	The Rider's Journey			
+z_80_90_Jade_Forest	30142	It's A...			
+z_80_90_Jade_Forest	30143	They Grow Like Weeds			
+z_80_90_Jade_Forest	30144	Flight Training: Ring Round-Up			
+z_80_90_Jade_Forest	30145	Flight Training: Full Speed Ahead			
+z_80_90_Jade_Forest	30146	Snack Time			
+z_80_90_Jade_Forest	30147	Fragments of the Past			
+z_80_90_Jade_Forest	30148	Just a Flesh Wound			
+z_80_90_Jade_Forest	30149	A Feast for the Senses			
+z_80_90_Jade_Forest	30150	Sweet as Honey			
+z_80_90_Jade_Forest	30151	Catch!			
+z_80_90_Jade_Forest	30152	The Sky Race			
+z_80_90_Jade_Forest	30154	The Easiest Way To A Serpent's Heart			
+z_80_90_Jade_Forest	30155	Restoring the Balance			
+z_80_90_Jade_Forest	30156	Feeding Time			
+z_80_90_Jade_Forest	30157	Emptier Nests			
+z_80_90_Jade_Forest	30158	Disarming the Enemy			
+z_80_90_Jade_Forest	30159	Preservation			
+z_80_90_Jade_Forest	30187	Flight Training: In Due Course			
+z_80_90_Jade_Forest	30188	Riding the Skies			
+z_80_90_Jade_Forest	30466	Sufficient Motivation	horde		
+z_80_90_Jade_Forest	30484	Gauging Our Progress	horde		
+z_80_90_Jade_Forest	30485	Last Piece of the Puzzle	horde		
+z_80_90_Jade_Forest	30495	Love's Labor			
+z_80_90_Jade_Forest	30498	Get Back Here!	alliance		
+z_80_90_Jade_Forest	30499	Get Back Here!	horde		
+z_80_90_Jade_Forest	30500	Residual Fallout			
+z_80_90_Jade_Forest	30502	Jaded Heart			
+z_80_90_Jade_Forest	30504	Emergency Response	horde		
+z_80_90_Jade_Forest	30565	An Unexpected Advantage	alliance		
+z_80_90_Jade_Forest	30568	Helping the Cause	alliance		
+z_80_90_Jade_Forest	30648	Moving On			
+z_80_90_Jade_Forest	31112	They're So Thorny!	horde		
+z_80_90_Jade_Forest	31121	Stay a While, and Listen	horde		
+z_80_90_Jade_Forest	31130	A Visit with Lorewalker Cho	alliance		
+z_80_90_Jade_Forest	31132	A Mile in My Shoes	horde		
+z_80_90_Jade_Forest	31134	If These Stones Could Speak	horde		
+z_80_90_Jade_Forest	31152	Peering Into the Past	horde		
+z_80_90_Jade_Forest	31167	Family Tree	horde		
+z_80_90_Jade_Forest	31194	Slitherscale Suppression			
+z_80_90_Jade_Forest	31230	Welcome to Dawn's Blossom			
+z_80_90_Jade_Forest	31239	What's in a Name Name?	horde		
+z_80_90_Jade_Forest	31241	Wicked Wikkets	horde		
+z_80_90_Jade_Forest	31261	Captain Jack's Dead	horde		
+z_80_90_Jade_Forest	31303	The Seal is Broken			
+z_80_90_Jade_Forest	31307	FLAG - Jade Infused Blade			
+z_80_90_Jade_Forest	31319	Emergency Response	alliance		
+z_80_90_Jade_Forest	31362	Last Piece of the Puzzle	alliance		
+z_80_90_Jade_Forest	31373	The Order of the Cloud Serpent	alliance		
+z_80_90_Jade_Forest	31375	The Order of the Cloud Serpent	horde		
+z_80_90_Jade_Forest	31732	Unleash Hell	alliance		
+z_80_90_Jade_Forest	31733	Touching Ground	alliance		
+z_80_90_Jade_Forest	31734	Welcome Wagons	alliance		
+z_80_90_Jade_Forest	31735	The Right Tool For The Job	alliance		
+z_80_90_Jade_Forest	31736	Envoy of the Alliance	alliance		
+z_80_90_Jade_Forest	31737	The Cost of War	alliance		
+z_80_90_Jade_Forest	31738	Pillaging Peons	alliance		
+z_80_90_Jade_Forest	31739	Priorities!	alliance		
+z_80_90_Jade_Forest	31740	Koukou's Rampage	alliance		
+z_80_90_Jade_Forest	31741	Twinspire Keep	alliance		
+z_80_90_Jade_Forest	31742	Fractured Forces	alliance		
+z_80_90_Jade_Forest	31743	Smoke Before Fire	alliance		
+z_80_90_Jade_Forest	31744	Unfair Trade	alliance		
+z_80_90_Jade_Forest	31745	Onward and Inward	alliance		
+z_80_90_Jade_Forest	31765	Paint it Red!	horde		
+z_80_90_Jade_Forest	31766	Touching Ground	horde		
+z_80_90_Jade_Forest	31767	Finish Them!	horde		
+z_80_90_Jade_Forest	31768	Fire Is Always the Answer	horde		
+z_80_90_Jade_Forest	31769	The Final Blow!	horde		
+z_80_90_Jade_Forest	31770	You're Either With Us Or...	horde		
+z_80_90_Jade_Forest	31771	Face to Face With Consequence	horde		
+z_80_90_Jade_Forest	31772	Priorities!	horde		
+z_80_90_Jade_Forest	31773	Prowler Problems	horde		
+z_80_90_Jade_Forest	31774	Seeking Zin'jun	horde		
+z_80_90_Jade_Forest	31775	Assault on the Airstrip	horde		
+z_80_90_Jade_Forest	31776	Strongarm Tactics	horde		
+z_80_90_Jade_Forest	31777	Choppertunity	horde		
+z_80_90_Jade_Forest	31778	Unreliable Allies	horde		
+z_80_90_Jade_Forest	31779	The Darkness Within	horde		
+z_80_90_Jade_Forest	31784	Onyx To Goodness			
+z_80_90_Jade_Forest	31810	Riding the Skies			
+z_80_90_Jade_Forest	31811	Riding the Skies			
+z_80_90_Jade_Forest	31978	Priorities!	horde		
+z_80_90_Jade_Forest	31999	Nazgrim's Command	horde		
+z_80_90_Jade_Forest	33250	A Time-Lost Treasure			
+z_80_90_Jade_Forest	49538	Warchief's Command: Jade Forest!	horde		
+z_80_90_Jade_Forest	49556	Hero's Call: Jade Forest!	alliance		
 z_81_90_Valley_of_the_Four_Winds	header	81-90: Valley of the Four Winds			
 z_81_90_Krasarang_Wilds	header	81-90: Krasarang Wilds			
 z_82_90_KunLai_Summit	header	82-90: KunLai Summit			
