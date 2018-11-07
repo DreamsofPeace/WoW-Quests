@@ -6,3 +6,4 @@ quest-gen.py Resources\quest-list-cata.txt Quests_Cata > BNet\Quests_Cata.pm
 quest-gen.py Resources\quest-list-warlords.txt Quests_Warlords > BNet\Quests_Warlords.pm
 quest-gen.py Resources\quest-list-legion.txt Quests_Legion > BNet\Quests_Legion.pm
 quest-gen.py Resources\quest-list-bfa.txt Quests_BFA > BNet\Quests_BFA.pm
+quest-gen.py Resources\quest-list-misc.txt Quests_Misc > BNet\Quests_Misc.pm

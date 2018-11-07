@@ -1,0 +1,579 @@
+dungeons	header	Ragefire Chasm			
+dungeons	30969	A New Enemy	horde		
+dungeons	30983	The Dark	horde	class_shaman	
+dungeons	30984	No Orc Left Behind	horde		
+dungeons	30995	No Man Left Behind	alliance		
+dungeons	30996	The Dark	alliance	class_shaman	
+dungeons	30998	A New Enemy	alliance		
+dungeons	31034	Enemies Below	horde		
+dungeons	31036	Enemies Below	horde		
+dungeons	31037	Enemies Below	horde		
+dungeons	header	The Deadmines			
+dungeons	27756	The Foreman	alliance		
+dungeons	27758	The Carpenter	alliance		
+dungeons	27781	The Machination	alliance		
+dungeons	27785	The Admiral	alliance		
+dungeons	27790	The Defias Kingpin	alliance		
+dungeons	27842	Only the Beginning	horde		
+dungeons	27844	Traitors!!!	horde		
+dungeons	27847	Not Quite There	horde		
+dungeons	27848	Good Intentions...Poor Execution	horde		
+dungeons	27850	The Defias Kingpin	horde		
+dungeons	header	Wailing Caverns			
+dungeons	26870	Cleansing the Caverns			
+dungeons	26872	Deviate Hides			
+dungeons	26873	Preemptive Methods			
+dungeons	26878	Disciples of Naralex	horde		
+dungeons	header	Shadowfang Keep			
+dungeons	27917	Sniffing Them Out	alliance		
+dungeons	27920	Armored to the Teeth	alliance		
+dungeons	27921	Fighting Tooth and Claw	alliance		
+dungeons	27968	Fury of the Pack	alliance		
+dungeons	27974	This Land is Our Land	horde		
+dungeons	27988	Plague...Plague Everywhere!	horde		
+dungeons	27996	Orders Are For the Living	horde		
+dungeons	27998	Sweet, Merciless Revenge	horde		
+dungeons	header	The Stockade			
+dungeons	27733	The Good Ol' Switcheroo	alliance		
+dungeons	27737	By Fire Be Saved!	alliance		
+dungeons	27739	The Gnoll King	alliance		
+dungeons	header	Blackfathom Deeps			
+dungeons	26897	Blackfathom Deeps	alliance		
+dungeons	34672	The Rise of Aku'mai	alliance		
+dungeons	34673	The Rise of Aku'mai	horde		
+dungeons	header	Gnomeregan			
+dungeons	2945	Grime-Encrusted Ring			
+dungeons	2947	Return of the Ring	alliance		
+dungeons	2949	Return of the Ring	horde		
+dungeons	26939	The G-Team	alliance		
+dungeons	26941	The G-Team	alliance		
+dungeons	26942	The G-Team	alliance		
+dungeons	26943	Home Sweet Gnome	alliance		
+dungeons	26944	Exploring Gnomeregan	alliance		
+dungeons	header	26: Scarlet Halls			
+dungeons	31490	Rank and File			
+dungeons	31493	Just for Safekeeping, Of Course			
+dungeons	header	90: Scarlet Halls			
+dungeons	31495	Rank and File			
+dungeons	31497	Just for Safekeeping, Of Course			
+dungeons	header	26: Scarlet Monastery			
+dungeons	31513	Blades of the Anointed			
+dungeons	31514	Unto Dust Thou Shalt Return			
+dungeons	header	90: Scarlet Monastery			
+dungeons	31515	Blades of the Anointed			
+dungeons	31516	Unto Dust Thou Shalt Return			
+dungeons	header	Razorfen Kraul			
+dungeons	26901	Going, Going, Guano!			
+dungeons	26905	Agamaggan's Charge			
+dungeons	26906	Agamaggan			
+dungeons	26907	Take Them Down!			
+dungeons	26908	Feeling Thorny			
+dungeons	header	Maraudon			
+dungeons	27697	Corruption in Maraudon			
+dungeons	27698	Servants of Theradras			
+dungeons	27692	Princess Theradras			
+dungeons	header	Uldaman			
+dungeons	2278	The Platinum Discs			
+dungeons	2280	The Platinum Discs			
+dungeons	27672	The Chamber of Khaz'mul	alliance		
+dungeons	27673	It's What's Inside That Counts	alliance		
+dungeons	27676	Behind Closed Doors	alliance		
+dungeons	27677	Archaedas, The Ancient Stone Watcher	alliance		
+dungeons	27679	The Chamber of Khaz'mul	horde		
+dungeons	27680	Archaedas, The Ancient Stone Watcher	horde		
+dungeons	27681	Behind Closed Doors	horde		
+dungeons	27682	We Require More Minerals	horde		
+dungeons	header	Dire Maul			
+dungeons	27103	Shards of the Felvine			
+dungeons	27104	Alzzin the Wildshaper			
+dungeons	27105	An Unwelcome Guest			
+dungeons	27107	Pusillin The Thief			
+dungeons	27108	Lethtendris's Web			
+dungeons	27109	The Warped Defender			
+dungeons	27110	The Madness Within			
+dungeons	27111	The Treasure of the Shen'dralar			
+dungeons	27112	The Cursed Remains			
+dungeons	27113	The Shen'dralar Ancient			
+dungeons	27114	The Gordok Taste Test			
+dungeons	27118	A Broken Trap			
+dungeons	27119	The Gordok Ogre Suit			
+dungeons	27120	The Gordok Ogre Suit			
+dungeons	27124	Unfinished Gordok Business			
+dungeons	27125	King of the Gordok	alliance		
+dungeons	27128	King of the Gordok	horde		
+dungeons	27129	Saving Warpwood	alliance		
+dungeons	27130	Saving Warpwood	horde		
+dungeons	27131	The Highborne	alliance		
+dungeons	27132	The Highborne	horde		
+dungeons	27133	Eyes in the Sky	alliance		
+dungeons	27134	Ogre in the Field	horde		
+dungeons	header	40: Scholomance			
+dungeons	28756	Aberrations of Bone			
+dungeons	31440	The Four Tomes			
+dungeons	31447	An End to the Suffering			
+dungeons	header	40: Scholomance			
+dungeons	31442	The Four Tomes			
+dungeons	31448	An End to the Suffering			
+dungeons	header	Razorfen Downs			
+dungeons	27063	Looming Threat	alliance		
+dungeons	27062	Looming Threat	horde		
+dungeons	33513	Blackthorn's Lieutenants			
+dungeons	33514	The Ritual			
+dungeons	header	Stratholme			
+dungeons	27185	Cutting the Competition			
+dungeons	27192	The Great Fras Siabi			
+dungeons	27208	The Dreadlord Balnazzar			
+dungeons	27223	Retribution			
+dungeons	27227	Lord Aurius Rivendare			
+dungeons	27228	Man Against Abomination			
+dungeons	27230	Weapons for War			
+dungeons	27305	Of Love and Family			
+dungeons	27352	Liquid Gold			
+dungeons	27359	Argent Reinforcements			
+dungeons	27422	A City Under Siege			
+dungeons	28755	Annals of the Silver Hand			
+dungeons	header	Zul'Farrak			
+dungeons	25556	Into Zul'Farrak			
+dungeons	27068	Chief Ukorz Sandscalp			
+dungeons	27070	A Fool's Errand			
+dungeons	27071	Wrath of the Sandfury			
+dungeons	27076	Breaking and Entering			
+dungeons	header	Blackrock Depths			
+dungeons	28068	Adventurers Wanted: Blackrock Depths	alliance		
+dungeons	28069	Adventurers Wanted: Blackrock Depths	horde		
+dungeons	4083	The Spectral Chalice			
+dungeons	7604	A Binding Contract			
+dungeons	27565	Into the Prison	alliance		
+dungeons	27567	Twilight?! No!	alliance		
+dungeons	27568	Infiltrating Shadowforge City	alliance		
+dungeons	27569	Dark Iron Tacticians	alliance		
+dungeons	27571	The Grim Guzzler	alliance		
+dungeons	27573	The Dark Iron Pact	alliance		
+dungeons	27578	Morgan's Fruition	alliance		
+dungeons	27579	Into the Prison	horde		
+dungeons	27581	Twilight?! No!	horde		
+dungeons	27582	Infiltrating Shadowforge City	horde		
+dungeons	27585	The 109th Division	horde		
+dungeons	27589	The Grim Guzzler	horde		
+dungeons	27591	The Dark Iron Pact	horde		
+dungeons	27593	Rebirth of the K.E.F.	horde		
+dungeons	27596	The Heart of the Mountain			
+dungeons	27603	The Sealed Gate			
+dungeons	header	Blackrock Depths: Class Specific			
+dungeons	28343	The Breath of Cenarius		class_druid	
+dungeons	28394	The Golem Lord's Creations	alliance	class_hunter	
+dungeons	28461	The Golem Lord's Creations	horde	class_hunter	
+dungeons	28398	The Pyromancer's Grimoire	alliance	class_mage	
+dungeons	28458	The Pyromancer's Grimoire	horde	class_mage	
+dungeons	28405	Weapons of Darkness	alliance	class_paladin	
+dungeons	28466	Weapons of Darkness	horde	class_paladin	
+dungeons	28473	Weapons of Darkness	horde	class_paladin	
+dungeons	28328	Twilight Scheming	alliance	class_priest	
+dungeons	28474	Twilight Scheming	horde	class_priest	
+dungeons	28475	Twilight Scheming	horde	class_priest	
+dungeons	28476	Twilight Scheming	horde		
+dungeons	28477	Twilight Scheming	horde	class_priest	
+dungeons	28478	Twilight Scheming	horde		
+dungeons	28406	The Dark Iron Army	alliance	class_rogue	
+dungeons	28463	The Dark Iron Army	horde	class_rogue	
+dungeons	28401	Slaves of the Firelord	alliance	class_shaman	
+dungeons	28465	Slaves of the Firelord	horde	class_shaman	
+dungeons	28399	Stones of Binding	alliance	class_warlock	
+dungeons	28459	Stones of Binding	horde	class_warlock	
+dungeons	28393	A Dangerous Alliance	alliance	class_warrior	
+dungeons	28457	A Dangerous Alliance	horde	class_warrior	
+dungeons	header	Sunken Temple			
+dungeons	27604	Jammal'an the Prophet			
+dungeons	27605	Eranikus			
+dungeons	27633	The Blood God Hakkar			
+dungeons	27915	The Heart of the Temple			
+dungeons	header	Blackrock Spire			
+dungeons	27440	Trolls, Ogres, and Orcs, Oh My!			
+dungeons	27469	Friends on The Other Side			
+dungeons	27470	A Potential Ally			
+dungeons	27471	Blackrock Anomaly	alliance		
+dungeons	header	Hellfire Ramparts			
+dungeons	29528	War on the Ramparts	alliance		
+dungeons	29527	War on the Ramparts	horde		
+dungeons	29529	Demons in the Citadel	alliance		
+dungeons	29530	Demons in the Citadel	horde		
+dungeons	29543	Invading the Citadel	alliance		
+dungeons	29542	Invading the Citadel	horde		
+dungeons	29594	Hitting Them Where It Hurts	alliance		
+dungeons	29593	Hitting Them Where It Hurts	horde		
+dungeons	header	The Blood Furnace			
+dungeons	29535	Make Them Bleed	horde		
+dungeons	29538	Make Them Bleed	alliance		
+dungeons	29536	Heart of Rage	horde		
+dungeons	29539	Heart of Rage	alliance		
+dungeons	29537	Mind the Gap	horde		
+dungeons	29540	The Breaker	alliance		
+dungeons	header	The Slave Pens			
+dungeons	29563	Lost in Action			
+dungeons	29564	A Brother Betrayed			
+dungeons	29565	The Heart of the Matter			
+dungeons	29566	Checking Up			
+dungeons	header	The Underbog			
+dungeons	29567	Stalk the Stalker			
+dungeons	29568	A Necessary Evil			
+dungeons	29570	Rescuing the Expedition			
+dungeons	29571	Defending the Wilds			
+dungeons	29691	Bring Me A Shrubbery!			
+dungeons	29692	Bring Me Another Shrubbery!			
+dungeons	header	Mana-Tombs			
+dungeons	10977	Stasis Chambers of the Mana-Tombs			
+dungeons	10981	Nexus-Prince Shaffar's Personal Chamber			
+dungeons	29573	Safety is Job One			
+dungeons	29574	Intriguing Specimens			
+dungeons	29575	Undercutting the Competition			
+dungeons	29583	Eckert the Mad	alliance		
+dungeons	29582	Grek's Crazy Night	horde		
+dungeons	header	Auchenai Crypts			
+dungeons	10167	Auchindoun...	horde		
+dungeons	10253	Levixus the Soul Caller			
+dungeons	29590	The Dead Watcher			
+dungeons	29591	Raging Spirits			
+dungeons	header	Sethekk Halls			
+dungeons	10180	Can't Stay Away			
+dungeons	29605	Brother Against Brother			
+dungeons	29606	Terokk's Legacy			
+dungeons	29607	Eyes of Desire			
+dungeons	header	The Steamvault			
+dungeons	29613	A Proper Fate			
+dungeons	29614	Containment is Key			
+dungeons	29615	Windcaller Claw and the Water Thief			
+dungeons	29616	Storming the Steamvault			
+dungeons	header	The Shattered Halls			
+dungeons	29649	How to Save a Life	alliance		
+dungeons	29654	Turning the Tide	alliance		
+dungeons	29656	O'mrogg's Warcloth	alliance		
+dungeons	29652	One Last Favor	alliance		
+dungeons	29689	Advancing the Campaign	alliance		
+dungeons	29688	Advancing the Campaign	horde		
+dungeons	29650	Fel Ember	horde		
+dungeons	29651	Honor the Dying	horde		
+dungeons	29653	The Will of the Warchief	horde		
+dungeons	29655	A Very Special Cloth	horde		
+dungeons	header	Shadow Labyrinth			
+dungeons	29640	Find Spy To'gun			
+dungeons	29641	The Soul Devices			
+dungeons	29642	Trouble at Auchindoun			
+dungeons	29643	The Codex of Blood			
+dungeons	29644	Into the Heart of the Labyrinth			
+dungeons	29645	Ambassador Hellmaw			
+dungeons	header	Caverns of Time			
+dungeons	10277	The Caverns of Time			
+dungeons	10279	To The Master's Lair			
+dungeons	12513	Nice Hat...			
+dungeons	29134	A Wrinkle in Time			
+dungeons	29193	On a Wing and a Prayer			
+dungeons	29598	Taretha's Diversion			
+dungeons	29599	Escape from Durnholde			
+dungeons	10282	Old Hillsbrad			
+dungeons	header	The Mechanar			
+dungeons	29657	With Great Power, Comes Great Responsibility			
+dungeons	29658	The Calculator			
+dungeons	29659	Lost Treasure			
+dungeons	header	The Botanica			
+dungeons	29660	Saving the Botanica	horde		
+dungeons	29667	Culling the Herd	horde		
+dungeons	29669	A Most Somber Task			
+dungeons	header	The Arcatraz			
+dungeons	10704	How to Break Into the Arcatraz			
+dungeons	10705	Seer Udalo			
+dungeons	29674	Unbound Darkness			
+dungeons	29675	Hey There Dalliah			
+dungeons	29681	Maximum Security Breakout			
+dungeons	header	The Black Morass			
+dungeons	10296	The Black Morass			
+dungeons	10297	The Opening of the Dark Portal			
+dungeons	header	Magisters' Terrace			
+dungeons	11490	The Scryer's Scryer			
+dungeons	29682	Magisters' Terrace			
+dungeons	29684	Severed Communications			
+dungeons	29685	Hard to Kill			
+dungeons	29686	A Radical Notion			
+dungeons	29687	Twisted Associations			
+dungeons	header	Utgarde Keep			
+dungeons	29763	Stealing Their Thunder	alliance		
+dungeons	29803	Ears of the Lich King	alliance		
+dungeons	29764	Disarmament	alliance		
+dungeons	13206	Disarmament	horde		
+dungeons	11262	Ingvar Must Die!	horde		
+dungeons	11272	A Score to Settle	horde		
+dungeons	30112	A Score to Settle	horde		
+dungeons	header	The Nexus			
+dungeons	11905	Postponing the Inevitable			
+dungeons	11911	Quickening			
+dungeons	11973	Prisoner of War			
+dungeons	13094	Have They No Shame?	alliance		
+dungeons	13095	Have They No Shame?	horde		
+dungeons	29225	Actionable Intelligence			
+dungeons	29820	Into the Nexus			
+dungeons	header	Azjol-Nerub			
+dungeons	29807	Death to the Traitor King			
+dungeons	29808	Don't Forget the Eggs!			
+dungeons	29811	The Gatewatcher's Talisman			
+dungeons	header	Ahn'kahet: The Old Kingdom			
+dungeons	13187	The Faceless Ones			
+dungeons	29825	Pupil No More			
+dungeons	29826	Reclaiming Ahn'Kahet			
+dungeons	header	Drak'Tharon Keep			
+dungeons	12037	Search and Rescue			
+dungeons	12238	Cleansing Drak'Tharon			
+dungeons	13129	Head Games			
+dungeons	29828	What the Scourge Dred			
+dungeons	30120	Cleansing Drak'Tharon			
+dungeons	header	The Violet Hold			
+dungeons	29829	Discretion is Key			
+dungeons	29830	Containment			
+dungeons	header	Gundrak			
+dungeons	29833	Unfinished Business			
+dungeons	29834	Gal'darah Must Pay			
+dungeons	29835	Gal'darah Must Pay			
+dungeons	29836	Just Checkin'			
+dungeons	29838	One of a Kind			
+dungeons	29839	One of a Kind			
+dungeons	29840	For Posterity			
+dungeons	29844	For Posterity			
+dungeons	header	Halls of Stone			
+dungeons	13207	Halls of Stone			
+dungeons	29848	The Forlorn Watcher			
+dungeons	29850	Corrupt Constructs			
+dungeons	header	The Oculus			
+dungeons	13124	The Struggle Persists			
+dungeons	13126	A Unified Front			
+dungeons	13127	Mage-Lord Urom			
+dungeons	13128	A Wing and a Prayer			
+dungeons	header	Halls of Lightning			
+dungeons	29860	Diametrically Opposed			
+dungeons	29861	Whatever it Takes!			
+dungeons	29862	Clearing the Way			
+dungeons	29863	Stormherald Eljrrin			
+dungeons	header	Utgarde Pinnacle			
+dungeons	13131	Junk in My Trunk			
+dungeons	13132	Vengeance Be Mine!			
+dungeons	29864	Working at the Source			
+dungeons	header	The Culling of Stratholme			
+dungeons	13149	Dispelling Illusions			
+dungeons	13151	A Royal Escort			
+dungeons	header	Trial of the Champion			
+dungeons	29851	Champion of the Tournament			
+dungeons	header	The Forge of Souls			
+dungeons	24499	Echoes of Tortured Souls	alliance		
+dungeons	24506	Inside the Frozen Citadel	horde		
+dungeons	24510	Inside the Frozen Citadel	alliance		
+dungeons	24511	Echoes of Tortured Souls	horde		
+dungeons	header	Pit of Saron			
+dungeons	24683	The Pit of Saron	alliance		
+dungeons	24682	The Pit of Saron	horde		
+dungeons	24498	The Path to the Citadel	alliance		
+dungeons	24507	The Path to the Citadel	horde		
+dungeons	24710	Deliverance from the Pit	alliance		
+dungeons	24712	Deliverance from the Pit	horde		
+dungeons	24461	Reforging The Sword	alliance		
+dungeons	24559	Reforging The Sword	horde		
+dungeons	header	Halls of Reflection			
+dungeons	24480	The Halls Of Reflection	alliance		
+dungeons	24561	The Halls Of Reflection	horde		
+dungeons	24711	Frostmourne	alliance		
+dungeons	24713	Frostmourne	horde		
+dungeons	24500	Wrath of the Lich King	alliance		
+dungeons	24802	Wrath of the Lich King	horde		
+dungeons	header	Throne of the Tides			
+dungeons	28834	Rescue the Earthspeaker!	alliance		
+dungeons	28833	Rescue the Earthspeaker!	horde		
+dungeons	28836	Sins of the Sea Witch	alliance		
+dungeons	28843	Sins of the Sea Witch	horde		
+dungeons	header	Blackrock Caverns			
+dungeons	28732	This Can Only Mean One Thing...			
+dungeons	28735	To the Chamber of Incineration!			
+dungeons	28737	What Is This Place?			
+dungeons	28738	The Twilight Forge			
+dungeons	28740	Do My Eyes Deceive Me?			
+dungeons	28741	Ascendant Lord Obsidius			
+dungeons	header	The Stonecore			
+dungeons	28814	Followers and Leaders			
+dungeons	28815	Twilight Documents			
+dungeons	28824	Wayward Child			
+dungeons	28866	Into the Stonecore			
+dungeons	header	The Vortex Pinnacle			
+dungeons	28760	Vengeance for Orsis			
+dungeons	28779	A Long Way from Home			
+dungeons	28845	The Vortex Pinnacle			
+dungeons	header	Lost City of the Tol'vir			
+dungeons	28781	Targets of Opportunity			
+dungeons	28783	The Source of Their Power			
+dungeons	28870	Return to the Lost City			
+dungeons	header	Grim Batol			
+dungeons	28852	Soften them Up			
+dungeons	28853	Kill the Courier			
+dungeons	28854	Closing a Dark Chapter			
+dungeons	header	Halls of Origination			
+dungeons	28654	The Heart of the Matter			
+dungeons	28746	Penetrating Their Defenses			
+dungeons	28753	Doing it the Hard Way			
+dungeons	header	End Time			
+dungeons	30095	The End Time	alliance		
+dungeons	30094	The End Time	horde		
+dungeons	30096	Murozond			
+dungeons	30097	Archival Purposes			
+dungeons	header	Well of Eternity			
+dungeons	30098	The Well of Eternity			
+dungeons	30099	In Unending Numbers			
+dungeons	30100	The Vainglorious			
+dungeons	30101	The Path to the Dragon Soul			
+dungeons	30104	Documenting the Timeways			
+dungeons	header	Hour of Twilight			
+dungeons	30102	The Hour of Twilight			
+dungeons	30103	To Wyrmrest!			
+dungeons	30105	The Twilight Prophet			
+dungeons	header	Temple of the Jade Serpent			
+dungeons	31355	Restoring Jade's Purity			
+dungeons	31356	Deep Doubts, Deep Wisdom			
+dungeons	header	Stormstout Brewery			
+dungeons	30085	Into the Brewery			
+dungeons	31324	Family Secrets			
+dungeons	31327	Trouble Brewing			
+dungeons	header	Mogu'shan Palace			
+dungeons	31357	Relics of the Four Kings			
+dungeons	31360	A New Lesson for the Master			
+dungeons	header	Shado-Pan Monastery			
+dungeons	30757	Lord of the Shado-Pan			
+dungeons	31030	Into the Monastery			
+dungeons	31342	The Path to Respect Lies in Violence			
+dungeons	header	Gate of the Setting Sun			
+dungeons	31363	Lighting the Way			
+dungeons	31364	That's a Big Bug!			
+dungeons	header	Siege of Niuzao Temple			
+dungeons	31365	Somewhere Inside			
+dungeons	31366	Take Down the Wing Leader			
+raid_60_aq10	header	Ruins of Ahn\'Qiraj			
+raid_60_aq10	header	Druid			
+raid_60_aq10	8692	Cloak of Unending Life		class_druid	
+raid_60_aq10	8708	Mace of Unending Life		class_druid	
+raid_60_aq10	8700	Band of Unending Life		class_druid	
+raid_60_aq10	header	Hunter			
+raid_60_aq10	8696	Cloak of the Unseen Path		class_hunter	
+raid_60_aq10	8712	Scythe of the Unseen Path		class_hunter	
+raid_60_aq10	8704	Signet of the Unseen Path		class_hunter	
+raid_60_aq10	header	Mage			
+raid_60_aq10	8691	Drape of Vaulted Secrets		class_mage	
+raid_60_aq10	8707	Blade of Vaulted Secrets		class_mage	
+raid_60_aq10	8699	Band of Vaulted Secrets		class_mage	
+raid_60_aq10	header	Paladin			
+raid_60_aq10	8695	Cape of Eternal Justice		class_paladin	
+raid_60_aq10	8711	Blade of Eternal Justice		class_paladin	
+raid_60_aq10	8703	Ring of Eternal Justice		class_paladin	
+raid_60_aq10	header	Priest			
+raid_60_aq10	8689	Shroud of Infinite Wisdom		class_priest	
+raid_60_aq10	8705	Gavel of Infinite Wisdom		class_priest	
+raid_60_aq10	8697	Ring of Infinite Wisdom		class_priest	
+raid_60_aq10	header	Rogue			
+raid_60_aq10	8693	Cloak of Veiled Shadows		class_rogue	
+raid_60_aq10	8709	Dagger of Veiled Shadows		class_rogue	
+raid_60_aq10	8701	Band of Veiled Shadows		class_rogue	
+raid_60_aq10	header	Shaman			
+raid_60_aq10	8690	Cloak of the Gathering Storm		class_shaman	
+raid_60_aq10	8706	Hammer of the Gathering Storm		class_shaman	
+raid_60_aq10	8698	Ring of the Gathering Storm		class_shaman	
+raid_60_aq10	header	Warlock			
+raid_60_aq10	8694	Shroud of Unspoken Names		class_warlock	
+raid_60_aq10	8710	Kris of Unspoken Names		class_warlock	
+raid_60_aq10	8702	Ring of Unspoken Names		class_warlock	
+raid_60_aq10	header	Warrior			
+raid_60_aq10	8557	Drape of Unyielding Strength		class_warrior	
+raid_60_aq10	8558	Sickle of Unyielding Strength		class_warrior	
+raid_60_aq10	8556	Signet of Unyielding Strength		class_warrior	
+raid_100_brf	header	Blackrock Foundry			
+raid_100_brf	37029	Sigil of the Black Hand (Normal)			
+raid_100_brf	37030	Sigil of the Black Hand (Heroic)			
+raid_100_brf	37031	Sigil of the Black Hand (Mythic)			
+raid_100_hfc	header	Hellfire Citadel			
+raid_100_hfc	39499	Well of Souls (Normal)			
+raid_100_hfc	39500	Well of Souls (Heroic)			
+raid_100_hfc	39501	Well of Souls (Mythic)			
+raid_100_hfc	39502	The Fel Spire (Normal)			
+raid_100_hfc	39504	The Fel Spire (Heroic)			
+raid_100_hfc	39505	The Fel Spire (Mythic)			
+raid_110_en	header	Emerald Nightmare			
+raid_110_en	44283	The Emerald Nightmare: Piercing the Veil (Normal)			
+raid_110_en	44284	The Emerald Nightmare: Piercing the Veil (Heroic)			
+raid_110_en	44285	The Emerald Nightmare: Piercing the Veil (Mythic)			
+raid_110_nh	header	Nighthold			
+raid_110_nh	45381	Talisman of the Shal'dorei (Normal)			
+raid_110_nh	45382	Talisman of the Shal'dorei (Heroic)			
+raid_110_nh	45383	Talisman of the Shal'dorei (Mythic)			
+raid_110_tos	header	Tomb of Sargeras			
+raid_110_tos	47725	Aegwynn's Path (Normal)			
+raid_110_tos	47726	Aegwynn's Path (Heroic)			
+raid_110_tos	47727	Aegwynn's Path (Mythic)			
+class_quests	header	Class Quests			
+class_quests	header	Druid			
+class_quests	27273	An Invitation from Moonglade	alliance	class_druid	
+class_quests	27283	A Journey to Moonglade	horde	class_druid	
+class_quests	27356	The Circle's Future	alliance	class_druid	
+class_quests	27404	The Circle's Future	horde	class_druid	
+class_quests	header	Hunter			
+class_quests	27266	Wulf Calls	alliance	class_hunter	
+class_quests	27278	Grimshot's Call	horde	class_hunter	
+class_quests	27344	A Well-Earned Reward	alliance	class_hunter	
+class_quests	27395	A Marksman's Weapon	horde	class_hunter	
+class_quests	header	Mage			
+class_quests	27271	Journey to the Wizard's Sanctum	alliance	class_mage	
+class_quests	27277	An Audience with Ureda	horde	class_mage	
+class_quests	27354	Mastering the Arcane	alliance	class_mage	
+class_quests	27400	Mastering the Arcane	horde	class_mage	
+class_quests	header	Paladin			
+class_quests	27265	Lord Grayson Shadowbreaker	alliance	class_paladin	
+class_quests	27343	The Hand of the Light	alliance	class_paladin	
+class_quests	27298	Seek Out Master Pyreanor	horde	class_paladin	race_bloodelf_female
+class_quests	27434	The Adept's Path	horde	class_paladin	race_bloodelf_female
+class_quests	27403	A True Sunwalker	horde	class_paladin	race_tauren_female
+class_quests	header	Priest			
+class_quests	27268	Make Haste to the Cathedral	alliance	class_priest	
+class_quests	27269	The Temple of the Moon		class_priest	
+class_quests	27274	The Chief Surgeon		class_priest	
+class_quests	27331	The Seer's Call	horde	class_priest	
+class_quests	27332	Seek the Shadow-Walker		class_priest	
+class_quests	27334	Dark Cleric Cecille		class_priest	
+class_quests	27335	Journey to Orgrimmar		class_priest	
+class_quests	27361	Favored of the Light	alliance	class_priest	
+class_quests	27362	Favored of Elune	alliance	class_priest	
+class_quests	27363	A Budding Young Surgeon	alliance	class_priest	
+class_quests	27435	A Seer's Staff	horde	class_priest	
+class_quests	27436	The Shadow-Walker's Task		class_priest	
+class_quests	27437	The Dark Cleric's Bidding		class_priest	
+class_quests	27439	Staff of the Light		class_priest	
+class_quests	27441	A Seer's Staff		class_priest	
+class_quests	28164	Seek Brother Silverhallow	horde	class_priest	
+class_quests	header	Rogue			
+class_quests	27267	Make Contact with SI:7	alliance	class_rogue	
+class_quests	27279	The Shattered Hand	horde	class_rogue	
+class_quests	27351	A Royal Reward	alliance	class_rogue	
+class_quests	27396	Blade of the Shattered Hand	horde	class_rogue	
+class_quests	header	Shaman			
+class_quests	27270	An Audience with the Farseer	alliance	class_shaman	
+class_quests	27280	The Earthbreaker Calls	horde	class_shaman	
+class_quests	27353	Blessings of the Elements	alliance	class_shaman	
+class_quests	27397	Terga's Task	horde	class_shaman	
+class_quests	header	Warlock			
+class_quests	27272	Demisette Sends Word	alliance	class_warlock	
+class_quests	27282	Kranosh's Behest	horde	class_warlock	
+class_quests	27355	A Boon for the Powerful	alliance	class_warlock	
+class_quests	27402	Token of Power	horde	class_warlock	
+class_quests	header	Warrior			
+class_quests	27225	A Summons from Ander Germaine	alliance	class_warrior	
+class_quests	27337	A Fitting Weapon	alliance	class_warrior	
+class_quests	27281	Grezz Ragefist	horde	class_warrior	
+class_quests	27365	A Fitting Weapon	horde	class_warrior	
+warlock_green_fire	header	Warlock: Green Fire			
+warlock_green_fire	32295	An Unusual Tome		class_warlock	
+warlock_green_fire	32307	Reader for the Dead Tongue		class_warlock	
+warlock_green_fire	32310	A Tale of Six Masters	alliance	class_warlock	
+warlock_green_fire	32309	A Tale of Six Masters	horde	class_warlock	
+warlock_green_fire	32317	Seeking the Soulstones		class_warlock	
+warlock_green_fire	32324	Seek the Signal		class_warlock	
+warlock_green_fire	32325	Infiltrating the Black Temple		class_warlock	
+warlock_green_fire	32340	Plunder the Black Temple		class_warlock	
+warlock_green_fire	32358	The Soulcore		class_warlock	
