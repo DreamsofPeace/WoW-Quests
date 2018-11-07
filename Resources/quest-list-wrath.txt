@@ -40,7 +40,7 @@ sz_55_58_Scarlet_Enclave	12746	A Special Surprise	alliance	class_deathknight	rac
 sz_55_58_Scarlet_Enclave	12742	A Special Surprise	alliance	class_deathknight	race_human_female
 sz_55_58_Scarlet_Enclave	28649	A Special Surprise	alliance	class_deathknight	race_worgen_female
 sz_55_58_Scarlet_Enclave	12748	A Special Surprise	horde	class_deathknight	race_orc_female
-sz_55_58_Scarlet_Enclave	12750	A Special Surprise	horde	class_deathknight	race_undead_female
+sz_55_58_Scarlet_Enclave	12750	A Special Surprise	horde	class_deathknight	race_scourge_female
 sz_55_58_Scarlet_Enclave	12749	A Special Surprise	horde	class_deathknight	race_troll_female
 sz_55_58_Scarlet_Enclave	12747	A Special Surprise	horde	class_deathknight	race_bloodelf_female
 sz_55_58_Scarlet_Enclave	28650	A Special Surprise	horde	class_deathknight	race_goblin_female

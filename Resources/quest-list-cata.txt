@@ -14,20 +14,20 @@ sz_01_05_Gilneas_City	14214	Message to Greymane	alliance		race_worgen_female
 sz_01_05_Gilneas_City	14218	By Blood and Ash	alliance		race_worgen_female
 sz_01_05_Gilneas_City	14221	Never Surrender, Sometimes Retreat	alliance		race_worgen_female
 sz_01_05_Gilneas_City	14222	Last Stand	alliance		race_worgen_female
-sz_01_05_Gilneas_City	14265	Your Instructor	alliance	class_warrior	race_worgen_female
-sz_01_05_Gilneas_City	14269	Someone's Looking for You	alliance	class_rogue	race_worgen_female
-sz_01_05_Gilneas_City	14273	Shady Associates	alliance	class_warlock	race_worgen_female
-sz_01_05_Gilneas_City	14275	Someone's Keeping Track of You	alliance	class_hunter	race_worgen_female
-sz_01_05_Gilneas_City	14277	Arcane Inquiries	alliance	class_mage	race_worgen_female
-sz_01_05_Gilneas_City	14278	Seek the Sister	alliance	class_priest	race_worgen_female
 sz_01_05_Gilneas_City	14280	The Winds Know Your Name... Apparently	alliance	class_druid	race_worgen_female
-sz_01_05_Gilneas_City	14285	Safety in Numbers	alliance	class_rogue	race_worgen_female
-sz_01_05_Gilneas_City	14286	Safety in Numbers	alliance	class_warrior	race_worgen_female
-sz_01_05_Gilneas_City	14287	Safety in Numbers	alliance	class_warlock	race_worgen_female
-sz_01_05_Gilneas_City	14288	Safety in Numbers	alliance	class_mage	race_worgen_female
-sz_01_05_Gilneas_City	14289	Safety in Numbers	alliance	class_priest	race_worgen_female
-sz_01_05_Gilneas_City	14290	Safety in Numbers	alliance	class_hunter	race_worgen_female
 sz_01_05_Gilneas_City	14291	Safety in Numbers	alliance	class_druid	race_worgen_female
+sz_01_05_Gilneas_City	14275	Someone's Keeping Track of You	alliance	class_hunter	race_worgen_female
+sz_01_05_Gilneas_City	14290	Safety in Numbers	alliance	class_hunter	race_worgen_female
+sz_01_05_Gilneas_City	14277	Arcane Inquiries	alliance	class_mage	race_worgen_female
+sz_01_05_Gilneas_City	14288	Safety in Numbers	alliance	class_mage	race_worgen_female
+sz_01_05_Gilneas_City	14278	Seek the Sister	alliance	class_priest	race_worgen_female
+sz_01_05_Gilneas_City	14289	Safety in Numbers	alliance	class_priest	race_worgen_female
+sz_01_05_Gilneas_City	14269	Someone's Looking for You	alliance	class_rogue	race_worgen_female
+sz_01_05_Gilneas_City	14285	Safety in Numbers	alliance	class_rogue	race_worgen_female
+sz_01_05_Gilneas_City	14273	Shady Associates	alliance	class_warlock	race_worgen_female
+sz_01_05_Gilneas_City	14287	Safety in Numbers	alliance	class_warlock	race_worgen_female
+sz_01_05_Gilneas_City	14265	Your Instructor	alliance	class_warrior	race_worgen_female
+sz_01_05_Gilneas_City	14286	Safety in Numbers	alliance	class_warrior	race_worgen_female
 sz_01_05_Gilneas_City	14293	Save Krennan Aranas	alliance		race_worgen_female
 sz_01_05_Gilneas_City	14294	Time to Regroup	alliance		race_worgen_female
 sz_01_05_Gilneas_City	14467	Alas, Gilneas!	alliance		race_worgen_female

@@ -516,7 +516,7 @@ z_15_60_Redridge_Mountains	26714	Darkblaze, Brood of the Worldbreaker	alliance
 z_15_60_Redridge_Mountains	26726	Triumphant Return	alliance		
 z_15_60_Redridge_Mountains	26761	Threat to the Kingdom	alliance		
 z_15_60_Redridge_Mountains	28563	Hero's Call: Redridge Mountains!	alliance		
-z_15_60_Redridge_Mountains	33350	Redridge Group Trial		
+z_15_60_Redridge_Mountains	33350	Redridge Group Trial			
 z_15_60_Hillsbrad_Foothills	header	Hillsbrad Foothills	horde		
 z_15_60_Hillsbrad_Foothills	27746	Empire of Dirt			
 z_15_60_Hillsbrad_Foothills	28089	Warchief's Command: Hillsbrad Foothills!			
