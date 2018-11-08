@@ -1,7 +1,282 @@
 sz_01_20_Durotar	header	01-20: Durotar	horde			
+sz_01_20_Durotar	834	Winds in the Desert	horde		
+sz_01_20_Durotar	835	Securing the Lines	horde		
+sz_01_20_Durotar	6365	Meats to Orgrimmar	horde		
+sz_01_20_Durotar	6384	Ride to Orgrimmar	horde		
+sz_01_20_Durotar	6385	Doras the Wind Rider Master	horde		
+sz_01_20_Durotar	6386	Return to Razor Hill	horde		
+sz_01_20_Durotar	24607	The Rise of the Darkspear	horde	class_warrior	
+sz_01_20_Durotar	24622	A Troll's Truest Companion	horde		
+sz_01_20_Durotar	24623	Saving the Young	horde		
+sz_01_20_Durotar	24624	Mercy for the Lost	horde		
+sz_01_20_Durotar	24625	Consort of the Sea Witch	horde		
+sz_01_20_Durotar	24626	Young and Vicious	horde		
+sz_01_20_Durotar	24639	The Basics: Hitting Things	horde	class_warrior	
+sz_01_20_Durotar	24641	A Rough Start	horde	class_warrior	
+sz_01_20_Durotar	24642	Proving Pit	horde	class_warrior	
+sz_01_20_Durotar	24643	More Than Expected	horde	class_warrior	
+sz_01_20_Durotar	24750	The Rise of the Darkspear	horde	class_mage	
+sz_01_20_Durotar	24751	The Basics: Hitting Things	horde	class_mage	
+sz_01_20_Durotar	24752	The Arts of a class_mage	horde	class_mage	
+sz_01_20_Durotar	24753	A Rough Start	horde	class_mage	
+sz_01_20_Durotar	24754	Proving Pit	horde	class_mage	
+sz_01_20_Durotar	24755	More Than Expected	horde	class_mage	
+sz_01_20_Durotar	24758	The Rise of the Darkspear	horde	class_shaman	
+sz_01_20_Durotar	24759	The Basics: Hitting Things	horde	class_shaman	
+sz_01_20_Durotar	24761	A Rough Start	horde	class_shaman	
+sz_01_20_Durotar	24762	Proving Pit	horde	class_shaman	
+sz_01_20_Durotar	24763	More Than Expected	horde	class_shaman	
+sz_01_20_Durotar	24764	The Rise of the Darkspear	horde	class_druid	race_troll_female
+sz_01_20_Durotar	24765	The Basics: Hitting Things	horde	class_druid	race_troll_female
+sz_01_20_Durotar	24767	A Rough Start	horde	class_druid	race_troll_female
+sz_01_20_Durotar	24768	Proving Pit	horde	class_druid	race_troll_female
+sz_01_20_Durotar	24769	More Than Expected	horde	class_druid	race_troll_female
+sz_01_20_Durotar	24770	The Rise of the Darkspear	horde	class_rogue	
+sz_01_20_Durotar	24771	The Basics: Hitting Things	horde	class_rogue	
+sz_01_20_Durotar	24773	A Rough Start	horde	class_rogue	
+sz_01_20_Durotar	24774	Proving Pit	horde	class_rogue	
+sz_01_20_Durotar	24775	More Than Expected	horde	class_rogue	
+sz_01_20_Durotar	24776	The Rise of the Darkspear	horde	class_hunter	
+sz_01_20_Durotar	24777	The Basics: Hitting Things	horde	class_hunter	
+sz_01_20_Durotar	24779	A Rough Start	horde	class_hunter	
+sz_01_20_Durotar	24780	Proving Pit	horde	class_hunter	
+sz_01_20_Durotar	24781	More Than Expected	horde	class_hunter	
+sz_01_20_Durotar	24782	The Rise of the Darkspear	horde	class_priest	
+sz_01_20_Durotar	24783	The Basics: Hitting Things	horde	class_priest	
+sz_01_20_Durotar	24785	A Rough Start	horde	class_priest	
+sz_01_20_Durotar	24786	Proving Pit	horde	class_priest	
+sz_01_20_Durotar	24787	More Than Expected	horde	class_priest	
+sz_01_20_Durotar	24812	No More Mercy	horde		
+sz_01_20_Durotar	24813	Territorial Fetish	horde		
+sz_01_20_Durotar	24814	An Ancient Enemy	horde		
+sz_01_20_Durotar	25035	Breaking the Line	horde		
+sz_01_20_Durotar	25037	Crab Fishin'	horde		
+sz_01_20_Durotar	25064	Moraya	horde		
+sz_01_20_Durotar	25073	Sen'jin Village	horde		race_troll_female
+sz_01_20_Durotar	25126	Cutting Teeth	horde		
+sz_01_20_Durotar	25127	Sting of the Scorpid	horde		
+sz_01_20_Durotar	25128	Hana'zua	horde		
+sz_01_20_Durotar	25129	Sarkoth	horde		
+sz_01_20_Durotar	25130	Back to the Den	horde		
+sz_01_20_Durotar	25131	Vile Familiars	horde		
+sz_01_20_Durotar	25132	Burning Blade Medallion	horde		
+sz_01_20_Durotar	25133	Report to Sen'jin Village	horde		
+sz_01_20_Durotar	25134	Lazy Peons	horde		
+sz_01_20_Durotar	25135	Thazz'ril's Pick	horde		
+sz_01_20_Durotar	25136	Galgar's Cactus Apple Surprise	horde		
+sz_01_20_Durotar	25152	Your Place In The World	horde		
+sz_01_20_Durotar	25165	Never Trust a Big Barb and a Smile	horde		
+sz_01_20_Durotar	25167	Breaking the Chain	horde		
+sz_01_20_Durotar	25168	Purge the Valley	horde		
+sz_01_20_Durotar	25169	The War of Northwatch Aggression	horde		
+sz_01_20_Durotar	25170	Cleaning Up the Coastline	horde		
+sz_01_20_Durotar	25171	Riding On	horde		
+sz_01_20_Durotar	25172	Invaders in Our Home	horde		
+sz_01_20_Durotar	25173	From Bad to Worse	horde		
+sz_01_20_Durotar	25176	Exploiting the Situation	horde		
+sz_01_20_Durotar	25177	Storming the Beaches	horde		
+sz_01_20_Durotar	25178	Shipwreck Searching	horde		
+sz_01_20_Durotar	25179	Loss Reduction	horde		
+sz_01_20_Durotar	25187	Lost in the Floods	horde		
+sz_01_20_Durotar	25188	Watershed Patrol	horde		
+sz_01_20_Durotar	25190	Raggaran's Rage	horde		
+sz_01_20_Durotar	25192	Raggaran's Fury	horde		
+sz_01_20_Durotar	25193	Lost But Not Forgotten	horde		
+sz_01_20_Durotar	25194	Unbidden Visitors	horde		
+sz_01_20_Durotar	25195	That's the End of That Raptor	horde		
+sz_01_20_Durotar	25196	The Dranosh'ar Blockade	horde		
+sz_01_20_Durotar	25205	The Wolf and The Kodo	horde		
+sz_01_20_Durotar	25206	Ignoring the Warnings	horde		
+sz_01_20_Durotar	25227	Thonk	horde		
+sz_01_20_Durotar	25232	The Burning Blade	horde		
+sz_01_20_Durotar	25236	Thunder Down Under	horde		
+sz_01_20_Durotar	25256	Sent for Help	horde		
+sz_01_20_Durotar	25257	Ghislania	horde		
+sz_01_20_Durotar	25258	Griswold Hanniston	horde		
+sz_01_20_Durotar	25259	Gaur Icehorn	horde		
+sz_01_20_Durotar	25260	Fizzled	horde		
+sz_01_20_Durotar	25261	Margoz	horde		
+sz_01_20_Durotar	25262	Skull Rock	horde		
+sz_01_20_Durotar	25263	Arnak Fireblade	horde		
+sz_01_20_Durotar	26272	The Rise of the Darkspear	horde	class_warlock	
+sz_01_20_Durotar	26273	The Basics: Hitting Things	horde	class_warlock	
+sz_01_20_Durotar	26275	A Rough Start	horde	class_warlock	
+sz_01_20_Durotar	26276	Proving Pit	horde	class_warlock	
+sz_01_20_Durotar	26277	More Than Expected	horde	class_warlock	
+sz_01_20_Durotar	31158	The Basics: Hitting Things	horde		
+sz_01_20_Durotar	31159	The Rise of the Darkspear	horde		
+sz_01_20_Durotar	31160	A Rough Start	horde		
+sz_01_20_Durotar	31161	Proving Pit	horde		
+sz_01_20_Durotar	31163	More Than Expected	horde		
+sz_01_20_Durotar	37446	Lazy Peons	horde		
 sz_01_20_Mulgore	header	01-20: Mulgore	horde			
+sz_01_20_Mulgore	743	Dangers of the Windfury	horde		
+sz_01_20_Mulgore	744	Preparation for Ceremony	horde		
+sz_01_20_Mulgore	749	The Ravaged Caravan	horde		
+sz_01_20_Mulgore	751	The Ravaged Caravan	horde		
+sz_01_20_Mulgore	761	Swoop Hunting	horde		
+sz_01_20_Mulgore	764	The Venture Co.	horde		
+sz_01_20_Mulgore	765	Supervisor Fizsprocket	horde		
+sz_01_20_Mulgore	770	The Demon Scarred Cloak	horde		
+sz_01_20_Mulgore	773	Rite of Wisdom	horde		race_tauren_female
+sz_01_20_Mulgore	833	A Sacred Burial	horde		
+sz_01_20_Mulgore	6361	A Bundle of Hides	horde		race_tauren_female
+sz_01_20_Mulgore	6362	Ride to Thunder Bluff	horde		race_tauren_female
+sz_01_20_Mulgore	6363	Tal the Wind Rider Master	horde		race_tauren_female
+sz_01_20_Mulgore	6364	Return to Varg	horde		race_tauren_female
+sz_01_20_Mulgore	11129	Kyle's Gone Missing!	horde		
+sz_01_20_Mulgore	14087	Learn to Ride in Mulgore	horde		race_tauren_female
+sz_01_20_Mulgore	14436	Dwarven Digging	horde		
+sz_01_20_Mulgore	14438	Sharing the Land	horde		
+sz_01_20_Mulgore	14439	Journey into Thunder Bluff	horde		
+sz_01_20_Mulgore	14449	The First Step	horde		
+sz_01_20_Mulgore	14452	Rite of Strength	horde		
+sz_01_20_Mulgore	14455	Stop the Thorncallers	horde		
+sz_01_20_Mulgore	14456	Rite of Courage	horde		
+sz_01_20_Mulgore	14458	Go to Adana	horde		
+sz_01_20_Mulgore	14459	The Battleboars	horde		
+sz_01_20_Mulgore	14460	Rite of Honor	horde		
+sz_01_20_Mulgore	14461	Feed of Evil	horde		
+sz_01_20_Mulgore	14491	The Restless Earth	horde		
+sz_01_20_Mulgore	20440	Poison Water	horde		race_tauren_female
+sz_01_20_Mulgore	20441	Rite of Vision	horde		race_tauren_female
+sz_01_20_Mulgore	23733	Rites of the Earthmother	horde		
+sz_01_20_Mulgore	24215	Rite of the Winds	horde		
+sz_01_20_Mulgore	24440	Winterhoof Cleansing	horde		race_tauren_female
+sz_01_20_Mulgore	24441	Thunderhorn Totem	horde		race_tauren_female
+sz_01_20_Mulgore	24456	Thunderhorn Cleansing	horde		race_tauren_female
+sz_01_20_Mulgore	24457	Rite of Vision	horde		race_tauren_female
+sz_01_20_Mulgore	24459	Morin Cloudstalker	horde		
+sz_01_20_Mulgore	24523	Wildmane Totem	horde		race_tauren_female
+sz_01_20_Mulgore	24524	Wildmane Cleansing	horde		race_tauren_female
+sz_01_20_Mulgore	24540	War Dance	horde		race_tauren_female
+sz_01_20_Mulgore	24550	Journey into Thunder Bluff	horde		race_tauren_female
+sz_01_20_Mulgore	24852	Our Tribe, Imprisoned	horde		
+sz_01_20_Mulgore	24861	Last Rites, First Rites	horde		
+sz_01_20_Mulgore	26179	The Venture Co.	horde		
+sz_01_20_Mulgore	26180	Supervisor Fizsprocket	horde		
+sz_01_20_Mulgore	26188	Mazzranache	horde		
 sz_01_20_Teldrassil	header	01-20: Teldrassil	alliance			
+sz_01_20_Teldrassil	475	A Troubling Breeze	alliance		a
+sz_01_20_Teldrassil	476	Gnarlpine Corruption	alliance		
+sz_01_20_Teldrassil	483	The Relics of Wakening	alliance		
+sz_01_20_Teldrassil	486	Ursal the Mauler	alliance		
+sz_01_20_Teldrassil	487	The Road to Darnassus	alliance		
+sz_01_20_Teldrassil	488	Zenn's Bidding	alliance		
+sz_01_20_Teldrassil	489	Seek Redemption!	alliance		
+sz_01_20_Teldrassil	918	Timberling Seeds	alliance		
+sz_01_20_Teldrassil	919	Timberling Sprouts	alliance		
+sz_01_20_Teldrassil	922	Rellian Greenspyre	alliance		
+sz_01_20_Teldrassil	923	Mossy Tumors	alliance		
+sz_01_20_Teldrassil	927	The Moss-twined Heart	alliance		
+sz_01_20_Teldrassil	929	Teldrassil: The Refusal of the Aspects	alliance		
+sz_01_20_Teldrassil	930	The Glowing Fruit	alliance		
+sz_01_20_Teldrassil	931	The Shimmering Frond	alliance		
+sz_01_20_Teldrassil	932	Twisted Hatred	alliance		
+sz_01_20_Teldrassil	933	Teldrassil: The Coming Dawn	alliance		
+sz_01_20_Teldrassil	935	The Waters of Teldrassil	alliance		
+sz_01_20_Teldrassil	937	The Enchanted Glade	alliance		
+sz_01_20_Teldrassil	938	Mist	alliance		
+sz_01_20_Teldrassil	941	Planting the Heart	alliance		
+sz_01_20_Teldrassil	997	Denalan's Earth	alliance		
+sz_01_20_Teldrassil	2159	Dolanaar Delivery	alliance		
+sz_01_20_Teldrassil	2399	The Sprouted Fronds	alliance		
+sz_01_20_Teldrassil	2438	The Emerald Dreamcatcher	alliance		
+sz_01_20_Teldrassil	2459	Ferocitas the Dream Eater	alliance		
+sz_01_20_Teldrassil	2499	Oakenscowl	alliance		
+sz_01_20_Teldrassil	2518	Tears of the Moon	alliance		
+sz_01_20_Teldrassil	2541	The Sleeping Druid	alliance		
+sz_01_20_Teldrassil	2561	Druid of the Claw	alliance		
+sz_01_20_Teldrassil	6341	To Darnassus	alliance		
+sz_01_20_Teldrassil	6342	An Unexpected Gift	alliance		
+sz_01_20_Teldrassil	6343	Return to Nyoma	alliance		
+sz_01_20_Teldrassil	6344	Reminders of Home	alliance		
+sz_01_20_Teldrassil	7383	Teldrassil: The Burden of the Kaldorei	alliance		
+sz_01_20_Teldrassil	13945	Resident Danger	alliance		
+sz_01_20_Teldrassil	13946	Nature's Reprisal	alliance		
+sz_01_20_Teldrassil	14005	The Vengeance of Elune	alliance		
+sz_01_20_Teldrassil	14039	Home of the Kaldorei	alliance		
+sz_01_20_Teldrassil	28713	The Balance of Nature	alliance		
+sz_01_20_Teldrassil	28714	Fel Moss Corruption	alliance		
+sz_01_20_Teldrassil	28715	Demonic Thieves	alliance		
+sz_01_20_Teldrassil	28723	Priestess of the Moon	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28724	Iverron's Antidote	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28725	The Woodland Protector	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28726	Webwood Corruption	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28727	Vile Touch	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28728	Signs of Things to Come	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28729	Teldrassil: Crown of Azeroth	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28730	Precious Waters	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28731	Teldrassil: Passing Awareness	alliance	race_nightelf_female	
+sz_01_20_Teldrassil	28734	A Favor for Melithar	alliance		
 sz_01_20_Azuremyst_Isle	header	01-20: Azuremyst Isle	alliance			
+sz_01_20_Azuremyst_Isle	9279	You Survived!	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9280	Replenishing the Healing Crystals	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9283	Rescue the Survivors!	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9293	What Must Be Done...	alliance		
+sz_01_20_Azuremyst_Isle	9294	Healing the Lake	alliance		
+sz_01_20_Azuremyst_Isle	9303	Inoculation	alliance		
+sz_01_20_Azuremyst_Isle	9305	Spare Parts	alliance		
+sz_01_20_Azuremyst_Isle	9309	The Missing Scout	alliance		
+sz_01_20_Azuremyst_Isle	9311	Blood Elf Spy	alliance		
+sz_01_20_Azuremyst_Isle	9312	The Emitter	alliance		
+sz_01_20_Azuremyst_Isle	9313	Travel to Azure Watch	alliance		
+sz_01_20_Azuremyst_Isle	9314	Word from Azure Watch	alliance		
+sz_01_20_Azuremyst_Isle	9369	Replenishing the Healing Crystals	alliance		
+sz_01_20_Azuremyst_Isle	9371	Botanist Taerix	alliance		
+sz_01_20_Azuremyst_Isle	9409	Urgent Delivery!	alliance		
+sz_01_20_Azuremyst_Isle	9452	Red Snapper - Very Tasty!	alliance		
+sz_01_20_Azuremyst_Isle	9453	Find Acteon!	alliance		
+sz_01_20_Azuremyst_Isle	9454	The Great Moongraze Hunt	alliance		
+sz_01_20_Azuremyst_Isle	9455	Strange Findings	alliance		
+sz_01_20_Azuremyst_Isle	9456	Nightstalker Clean Up, Isle 2...	alliance		
+sz_01_20_Azuremyst_Isle	9463	Medicinal Purpose	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9473	An Alternative Alternative	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9505	The Prophecy of Velen	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9506	A Small Start	alliance		
+sz_01_20_Azuremyst_Isle	9512	Cookie's Jumbo Gumbo	alliance		
+sz_01_20_Azuremyst_Isle	9513	Reclaiming the Ruins	alliance		
+sz_01_20_Azuremyst_Isle	9514	Rune Covered Tablet	alliance		
+sz_01_20_Azuremyst_Isle	9515	Warlord Sriss'tiz	alliance		
+sz_01_20_Azuremyst_Isle	9523	Precious and Fragile Things Need Special Handling	alliance		
+sz_01_20_Azuremyst_Isle	9527	All That Remains	alliance		
+sz_01_20_Azuremyst_Isle	9528	A Cry For Help	alliance		
+sz_01_20_Azuremyst_Isle	9530	I've Got a Plant	alliance		
+sz_01_20_Azuremyst_Isle	9531	Tree's Company	alliance		
+sz_01_20_Azuremyst_Isle	9537	Show Gnomercy	alliance		
+sz_01_20_Azuremyst_Isle	9538	Learning the Language	alliance		
+sz_01_20_Azuremyst_Isle	9539	Totem of Coo	alliance		
+sz_01_20_Azuremyst_Isle	9540	Totem of Tikti	alliance		
+sz_01_20_Azuremyst_Isle	9541	Totem of Yor	alliance		
+sz_01_20_Azuremyst_Isle	9542	Totem of Vark	alliance		
+sz_01_20_Azuremyst_Isle	9544	The Prophecy of Akida	alliance		
+sz_01_20_Azuremyst_Isle	9559	Stillpine Hold	alliance		
+sz_01_20_Azuremyst_Isle	9560	Beasts of the Apocalypse!	alliance		
+sz_01_20_Azuremyst_Isle	9562	Murlocs... Why Here? Why Now?	alliance		
+sz_01_20_Azuremyst_Isle	9564	Gurf's Dignity	alliance		
+sz_01_20_Azuremyst_Isle	9565	Search Stillpine Hold	alliance		
+sz_01_20_Azuremyst_Isle	9566	Blood Crystals	alliance		
+sz_01_20_Azuremyst_Isle	9570	The Kurken is Lurkin'	alliance		
+sz_01_20_Azuremyst_Isle	9571	The Kurken's Hide	alliance		
+sz_01_20_Azuremyst_Isle	9573	Chieftain Oomooroo	alliance		
+sz_01_20_Azuremyst_Isle	9602	Deliver Them From Evil...	alliance		
+sz_01_20_Azuremyst_Isle	9603	Beds, Bandages, and Beyond	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9604	On the Wings of a Hippogryph	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9605	Hippogryph Master Stephanos	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9606	Return to Caregiver Chellan	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9612	A Hearty Thanks!	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9616	Bandits!	alliance		
+sz_01_20_Azuremyst_Isle	9622	Warn Your People	alliance		
+sz_01_20_Azuremyst_Isle	9798	Blood Elf Plans	alliance		
+sz_01_20_Azuremyst_Isle	9799	Botanical Legwork	alliance		
+sz_01_20_Azuremyst_Isle	10302	Volatile Mutations	alliance		
+sz_01_20_Azuremyst_Isle	10303	The Blood Elves	alliance		
+sz_01_20_Azuremyst_Isle	10304	Vindicator Aldar	alliance		
+sz_01_20_Azuremyst_Isle	10324	The Great Moongraze Hunt	alliance		
+sz_01_20_Azuremyst_Isle	10428	The Missing Fisherman	alliance		
+sz_01_20_Azuremyst_Isle	14082	Learn to Ride at the Exodar	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	37444	Inoculation	alliance		
+sz_01_20_Azuremyst_Isle	37445	Spare Parts	alliance		
 z_10_60_Azshara	header	header	10-20: Azshara: The Rear Gate	horde		
 z_10_60_Azshara	28496	Warchief's Command: Azshara!				
 z_10_60_Azshara	25275	Report to the Labor Captain				
