@@ -1,22 +1,28 @@
 z_98_legion_intro	header	98: Legion Invasion	alliance		
-z_98_legion_intro	40519	The Legion Returns			
-z_98_legion_intro	42782	To Be Prepared			
-z_98_legion_intro	42740	The Battle for Broken Shore			
-z_98_legion_intro	40517	The Fallen Lion			
-z_98_legion_intro	40593	Demons Among Us			
-z_98_legion_intro	44120	Illidari Allies			
-z_98_legion_intro	40717	Calling of the Council			
-z_98_legion_intro	header	98: Legion Invasion	horde		
-z_98_legion_intro	43926	The Legion Returns			
-z_98_legion_intro	44281	To Be Prepared			
-z_98_legion_intro	40518	The Battle for Broken Shore			
-z_98_legion_intro	40522	Fate of the Horde			
-z_98_legion_intro	40976	Audience with the Warchief			
-z_98_legion_intro	40760	Emissary			
-z_98_legion_intro	40607	Demons Among Us			
-z_98_legion_intro	40605	Keep Your Friends Close			
-z_98_legion_intro	40718	Calling of the Council			
+z_98_legion_intro	40519	The Legion Returns	alliance		
+z_98_legion_intro	43926	The Legion Returns	horde		
+z_98_legion_intro	42782	To Be Prepared	alliance		
+z_98_legion_intro	44281	To Be Prepared	horde		
+z_98_legion_intro	42740	The Battle for Broken Shore	alliance		
+z_98_legion_intro	40518	The Battle for Broken Shore	horde		
+z_98_legion_intro	44543	The Battle for Broken Shore	horde		
+z_98_legion_intro	40517	The Fallen Lion	alliance		
+z_98_legion_intro	39691	The Call of War	alliance	class_demonhunter	race_nightelf_female
+z_98_legion_intro	40522	Fate of the Horde	horde		
+z_98_legion_intro	40976	Audience with the Warchief	horde		
+z_98_legion_intro	44471	Second Sight	alliance	class_demonhunter	race_nightelf_female
+z_98_legion_intro	40760	Emissary	horde		
+z_98_legion_intro	40982	Second Sight	horde	class_demonhunter	race_bloodelf_female
+z_98_legion_intro	40593	Demons Among Us	alliance		
+z_98_legion_intro	40607	Demons Among Us	horde		
+z_98_legion_intro	40983	Demons Among Them	horde	class_demonhunter	race_bloodelf_female
+z_98_legion_intro	44120	Illidari Allies	alliance		
+z_98_legion_intro	44473	A Weapon of the Alliance	alliance	class_demonhunter	race_nightelf_female
+z_98_legion_intro	40605	Keep Your Friends Close	horde		
+z_98_legion_intro	41002	A Weapon of the Horde	horde	class_demonhunter	race_bloodelf_female
 z_98_legion_intro	header	98: Legion Invasion: Teleportation			
+z_98_legion_intro	40717	Calling of the Council	alliance		
+z_98_legion_intro	40718	Calling of the Council	horde		
 z_98_legion_intro	42970	The Diamond King			
 z_98_legion_intro	40755	Hiding in the Stacks			
 z_98_legion_intro	44182	City Under Siege			
@@ -600,11 +606,11 @@ z_110_suramar	43811	Lunastre Estate Teleporter Online!
 z_110_suramar	43813	Sanctum of Order Teleporter Online!			
 z_110_suramar	header	110: Suramar: Good Suramaritan: Breaking the Lightbreaker			
 z_110_suramar	40297	Lyana Darksorrow			
-z_110_suramar	44489	Lyana Darksorrow (Demon Hunter)			
+z_110_suramar	44489	Lyana Darksorrow		class_demonhunter	
 z_110_suramar	40307	Glaive Circumstances			
 z_110_suramar	40898	Fresh Meat			
 z_110_suramar	40901	Grimwing the Devourer			
-z_110_suramar	44490	Grimwing the Devourer (Demon Hunter)			
+z_110_suramar	44490	Grimwing the Devourer		class_demonhunter	
 z_110_suramar	40328	A Fate Worse Than Dying			
 z_110_suramar	40929	Symbols of Power			
 z_110_suramar	41097	Shard of Vorgos			
