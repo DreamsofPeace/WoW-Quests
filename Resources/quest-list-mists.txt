@@ -394,10 +394,264 @@ z_81_90_Valley_of_the_Four_Winds	38935	His Name Was... Stormstout
 z_81_90_Valley_of_the_Four_Winds	49539	Warchief's Command: Valley of the Four Winds!	horde		
 z_81_90_Valley_of_the_Four_Winds	49557	Hero's Call: Valley of the Four Winds!	alliance		
 z_81_90_Krasarang_Wilds	header	81-90: Krasarang Wilds			
+z_81_90_Krasarang_Wilds	29873	Ken-Ken			
+z_81_90_Krasarang_Wilds	29874	Kang Bramblestaff	alliance		
+z_81_90_Krasarang_Wilds	29875	Kang Bramblestaff	horde		
+z_81_90_Krasarang_Wilds	30079	What's Eating Zhu's Watch?			
+z_81_90_Krasarang_Wilds	30080	Finding Yi-Mo			
+z_81_90_Krasarang_Wilds	30081	Materia Medica			
+z_81_90_Krasarang_Wilds	30082	Cheer Up, Yi-Mo			
+z_81_90_Krasarang_Wilds	30083	Securing the Province			
+z_81_90_Krasarang_Wilds	30084	Borderlands			
+z_81_90_Krasarang_Wilds	30088	Why So Serious?			
+z_81_90_Krasarang_Wilds	30089	Apply Directly to the Forehead			
+z_81_90_Krasarang_Wilds	30090	Zhu's Despair			
+z_81_90_Krasarang_Wilds	30091	Tears of Pandaria			
+z_81_90_Krasarang_Wilds	30121	Search Party	horde		
+z_81_90_Krasarang_Wilds	30123	Skitterer Stew	horde		
+z_81_90_Krasarang_Wilds	30124	Blind Them!	horde		
+z_81_90_Krasarang_Wilds	30127	Threat from Dojan	horde		
+z_81_90_Krasarang_Wilds	30128	The Pools of Youth	horde		
+z_81_90_Krasarang_Wilds	30129	The Mogu Agenda	horde		
+z_81_90_Krasarang_Wilds	30130	Herbal Remedies	horde		
+z_81_90_Krasarang_Wilds	30131	Life	horde		
+z_81_90_Krasarang_Wilds	30132	Going West	horde		
+z_81_90_Krasarang_Wilds	30133	Into the Wilds	horde		
+z_81_90_Krasarang_Wilds	30163	For the Tribe	horde		
+z_81_90_Krasarang_Wilds	30164	The Stoneplow Convoy	horde		
+z_81_90_Krasarang_Wilds	30168	Thieving Raiders			
+z_81_90_Krasarang_Wilds	30169	Raid Leader Slovan			
+z_81_90_Krasarang_Wilds	30174	For Family	horde		
+z_81_90_Krasarang_Wilds	30175	The Mantid	horde		
+z_81_90_Krasarang_Wilds	30178	Into the Wilds	alliance		
+z_81_90_Krasarang_Wilds	30179	Poisoned!	horde		
+z_81_90_Krasarang_Wilds	30229	The Greater Danger	horde		
+z_81_90_Krasarang_Wilds	30230	Re-Reclaim	horde		
+z_81_90_Krasarang_Wilds	30268	The Murksweats			
+z_81_90_Krasarang_Wilds	30269	Unsafe Passage			
+z_81_90_Krasarang_Wilds	30270	Blinding the Riverblades			
+z_81_90_Krasarang_Wilds	30271	Sha Can Awe			
+z_81_90_Krasarang_Wilds	30272	Striking the Rain			
+z_81_90_Krasarang_Wilds	30273	In the House of the Red Crane			
+z_81_90_Krasarang_Wilds	30274	The Arcanic Oubliette			
+z_81_90_Krasarang_Wilds	30344	The Lost Dynasty	alliance		
+z_81_90_Krasarang_Wilds	30346	Where are the Pools	alliance		
+z_81_90_Krasarang_Wilds	30347	The Pools of Youth			
+z_81_90_Krasarang_Wilds	30348	Immortality?	alliance		
+z_81_90_Krasarang_Wilds	30349	Threat from Dojan	alliance		
+z_81_90_Krasarang_Wilds	30350	Squirmy Delight	alliance		
+z_81_90_Krasarang_Wilds	30351	Lotus Tea	alliance		
+z_81_90_Krasarang_Wilds	30352	Crane Mastery			
+z_81_90_Krasarang_Wilds	30353	Profit Mastery			
+z_81_90_Krasarang_Wilds	30354	No Sister Left Behind	alliance		
+z_81_90_Krasarang_Wilds	30355	Re-Reclaim	alliance		
+z_81_90_Krasarang_Wilds	30356	Sever Their Supply Line	alliance		
+z_81_90_Krasarang_Wilds	30357	The Stoneplow Convoy	alliance		
+z_81_90_Krasarang_Wilds	30359	The Lord Reclaimer	alliance		
+z_81_90_Krasarang_Wilds	30361	The Mantid	alliance		
+z_81_90_Krasarang_Wilds	30363	Going on the Offensive	alliance		
+z_81_90_Krasarang_Wilds	30384	Blind Them!	alliance		
+z_81_90_Krasarang_Wilds	30445	The Waters of Youth	alliance		
+z_81_90_Krasarang_Wilds	30461	Into the Wilds	horde		
+z_81_90_Krasarang_Wilds	30462	Into the Wilds	alliance		
+z_81_90_Krasarang_Wilds	30464	Going West	horde		
+z_81_90_Krasarang_Wilds	30465	Going on the Offensive	alliance		
+z_81_90_Krasarang_Wilds	30666	Sudden, Unexpected Crocolisk Aggression			
+z_81_90_Krasarang_Wilds	30667	Particular Plumage			
+z_81_90_Krasarang_Wilds	30668	Build Your Own Raft			
+z_81_90_Krasarang_Wilds	30669	The Lorewalker on the Lake			
+z_81_90_Krasarang_Wilds	30671	Wisdom Has A Price			
+z_81_90_Krasarang_Wilds	30672	Balance			
+z_81_90_Krasarang_Wilds	30674	Balance Without Violence			
+z_81_90_Krasarang_Wilds	30675	Buried Hozen Treasure			
+z_81_90_Krasarang_Wilds	30691	Misery			
+z_81_90_Krasarang_Wilds	30694	Tread Lightly			
+z_81_90_Krasarang_Wilds	30695	Ahead on the Way			
+z_81_90_Krasarang_Wilds	31260	Profit Mastery: Chasheen			
+z_81_90_Krasarang_Wilds	31262	Crane Mastery: Needlebeak			
+z_81_90_Krasarang_Wilds	31369	The Anglers	alliance		
+z_81_90_Krasarang_Wilds	31370	The Anglers	horde		
+z_81_90_Krasarang_Wilds	49540	Warchief's Command: Krasarang Wilds!	horde		
+z_81_90_Krasarang_Wilds	49558	Hero's Call: Krasarang Wilds!	alliance		
 z_82_90_KunLai_Summit	header	82-90: KunLai Summit			
+z_82_90_KunLai_Summit	30457	Call Out Their Leader		a	b
+z_82_90_KunLai_Summit	30459	All of the Arrows			
+z_82_90_KunLai_Summit	30460	Hit Medicine			
+z_82_90_KunLai_Summit	30467	My Son...			
+z_82_90_KunLai_Summit	30468	Enraged Vengeance			
+z_82_90_KunLai_Summit	30469	Repossession			
+z_82_90_KunLai_Summit	30480	The Ritual			
+z_82_90_KunLai_Summit	30487	Comin' Round the Mountain			
+z_82_90_KunLai_Summit	30488	The Missing Muskpaw			
+z_82_90_KunLai_Summit	30489	Fresh Needle Scent			
+z_82_90_KunLai_Summit	30490	Yakity Yak			
+z_82_90_KunLai_Summit	30491	At the Yak Wash			
+z_82_90_KunLai_Summit	30492	Back in Yak			
+z_82_90_KunLai_Summit	30496	The Waterspeaker's Staff			
+z_82_90_KunLai_Summit	30506	Admiral Taylor has Awakened	alliance		
+z_82_90_KunLai_Summit	30507	Admiral Taylor has Awakened	alliance		
+z_82_90_KunLai_Summit	30508	Admiral Taylor has Awakened	alliance		
+z_82_90_KunLai_Summit	30509	General Nazgrim has Awakened	horde		
+z_82_90_KunLai_Summit	30510	General Nazgrim has Awakened	horde		
+z_82_90_KunLai_Summit	30511	General Nazgrim has Awakened	horde		
+z_82_90_KunLai_Summit	30512	Westwind Rest	alliance		
+z_82_90_KunLai_Summit	30513	Eastwind Rest	horde		
+z_82_90_KunLai_Summit	30514	Challenge Accepted	alliance		
+z_82_90_KunLai_Summit	30515	Challenge Accepted	horde		
+z_82_90_KunLai_Summit	30569	Trouble on the Farmstead	alliance		
+z_82_90_KunLai_Summit	30570	Trouble on the Farmstead	horde		
+z_82_90_KunLai_Summit	30571	Farmhand Freedom			
+z_82_90_KunLai_Summit	30575	Round 'Em Up	alliance		
+z_82_90_KunLai_Summit	30581	... and the Pot, Too!			
+z_82_90_KunLai_Summit	30582	The Late Mrs. Muskpaw			
+z_82_90_KunLai_Summit	30583	Blue Dwarf Needs Food Badly	alliance		
+z_82_90_KunLai_Summit	30587	Yakity Yak			
+z_82_90_KunLai_Summit	30592	The Burlap Trail: To Burlap Waystation			
+z_82_90_KunLai_Summit	30593	Deanimate the Reanimated	alliance		
+z_82_90_KunLai_Summit	30594	Deanimate the Reanimated	horde		
+z_82_90_KunLai_Summit	30595	Profiting off of the Past			
+z_82_90_KunLai_Summit	30596	A Zandalari Troll?			
+z_82_90_KunLai_Summit	30599	A Monkey Idol			
+z_82_90_KunLai_Summit	30600	No Pack Left Behind			
+z_82_90_KunLai_Summit	30601	Instant Courage			
+z_82_90_KunLai_Summit	30602	The Rabbitsfoot			
+z_82_90_KunLai_Summit	30603	The Broketooth Ravage			
+z_82_90_KunLai_Summit	30604	Breaking Broketooth			
+z_82_90_KunLai_Summit	30605	Bros Before Hozen			
+z_82_90_KunLai_Summit	30606	Thumping Knucklethump			
+z_82_90_KunLai_Summit	30607	Hozen Love Their Keys			
+z_82_90_KunLai_Summit	30608	The Snackrifice			
+z_82_90_KunLai_Summit	30610	Grummle! Grummle! Grummle!			
+z_82_90_KunLai_Summit	30611	Unleash The Yeti!			
+z_82_90_KunLai_Summit	30612	The Leader Hozen			
+z_82_90_KunLai_Summit	30614	Oil Stop			
+z_82_90_KunLai_Summit	30615	A Zandalari Troll?			
+z_82_90_KunLai_Summit	30616	Traffic Issues			
+z_82_90_KunLai_Summit	30617	Roadside Assistance			
+z_82_90_KunLai_Summit	30618	Resupplying One Keg			
+z_82_90_KunLai_Summit	30619	Mogu?! Oh No-gu!	alliance		
+z_82_90_KunLai_Summit	30620	Mogu?! Oh No-gu!	horde		
+z_82_90_KunLai_Summit	30621	They Stole My Luck!			
+z_82_90_KunLai_Summit	30650	Pandaren Prisoners	alliance		
+z_82_90_KunLai_Summit	30651	Barrels of Fun	alliance		
+z_82_90_KunLai_Summit	30652	In Tents Channeling	alliance		
+z_82_90_KunLai_Summit	30655	Pandaren Prisoners	horde		
+z_82_90_KunLai_Summit	30656	Barrels of Fun	horde		
+z_82_90_KunLai_Summit	30657	In Tents Channeling	horde		
+z_82_90_KunLai_Summit	30660	The Ordo Warbringer			
+z_82_90_KunLai_Summit	30661	The Ordo Warbringer			
+z_82_90_KunLai_Summit	30662	The Ordo Warbringer	alliance		
+z_82_90_KunLai_Summit	30663	The Ordo Warbringer	horde		
+z_82_90_KunLai_Summit	30665	The Defense of Shado-Pan Fallback			
+z_82_90_KunLai_Summit	30670	Turnabout			
+z_82_90_KunLai_Summit	30673	Holed Up			
+z_82_90_KunLai_Summit	30680	Holed Up			
+z_82_90_KunLai_Summit	30681	Holed Up			
+z_82_90_KunLai_Summit	30682	Holed Up			
+z_82_90_KunLai_Summit	30683	One Traveler's Misfortune			
+z_82_90_KunLai_Summit	30684	Seeker's Folly			
+z_82_90_KunLai_Summit	30690	Unmasking the Yaungol			
+z_82_90_KunLai_Summit	30692	The Burlap Trail: To Kota Basecamp			
+z_82_90_KunLai_Summit	30699	To Winter's Blossom			
+z_82_90_KunLai_Summit	30710	Provoking the Trolls			
+z_82_90_KunLai_Summit	30715	A Line Unbroken			
+z_82_90_KunLai_Summit	30723	Honor, Even in Death			
+z_82_90_KunLai_Summit	30724	To the Wall!			
+z_82_90_KunLai_Summit	30742	Shut it Down			
+z_82_90_KunLai_Summit	30743	Gourmet Kafa			
+z_82_90_KunLai_Summit	30744	Kota Blend			
+z_82_90_KunLai_Summit	30745	Trouble Brewing			
+z_82_90_KunLai_Summit	30746	A Fair Trade			
+z_82_90_KunLai_Summit	30747	The Burlap Grind			
+z_82_90_KunLai_Summit	30750	Off the Wall!			
+z_82_90_KunLai_Summit	30751	A Terrible Sacrifice			
+z_82_90_KunLai_Summit	30752	Unbelievable!			
+z_82_90_KunLai_Summit	30765	Regaining Honor			
+z_82_90_KunLai_Summit	30766	Profiting off of the Past			
+z_82_90_KunLai_Summit	30794	Emergency Care			
+z_82_90_KunLai_Summit	30795	Staying Connected			
+z_82_90_KunLai_Summit	30796	An End to Everything			
+z_82_90_KunLai_Summit	30797	It Was Almost Alive			
+z_82_90_KunLai_Summit	30798	Breaking the Emperor's Shield			
+z_82_90_KunLai_Summit	30799	The Tomb of Shadows			
+z_82_90_KunLai_Summit	30800	Stealing Their Thunder King			
+z_82_90_KunLai_Summit	30801	Lessons from History			
+z_82_90_KunLai_Summit	30802	Chasing the Storm			
+z_82_90_KunLai_Summit	30804	The Fearmaster			
+z_82_90_KunLai_Summit	30805	Justice			
+z_82_90_KunLai_Summit	30806	The Scent of Life			
+z_82_90_KunLai_Summit	30807	By the Falls, For the Fallen			
+z_82_90_KunLai_Summit	30808	A Grummle's Luck			
+z_82_90_KunLai_Summit	30816	Checking In			
+z_82_90_KunLai_Summit	30819	Preparing the Remains			
+z_82_90_KunLai_Summit	30820	A Funeral			
+z_82_90_KunLai_Summit	30821	The Burlap Grind			
+z_82_90_KunLai_Summit	30823	Shut it Down			
+z_82_90_KunLai_Summit	30824	Gourmet Kafa			
+z_82_90_KunLai_Summit	30825	Kota Blend			
+z_82_90_KunLai_Summit	30826	Trouble Brewing			
+z_82_90_KunLai_Summit	30828	Cleansing the Mere			
+z_82_90_KunLai_Summit	30829	The Tongue of Ba-Shon			
+z_82_90_KunLai_Summit	30834	Father and Child Reunion			
+z_82_90_KunLai_Summit	30855	The Fall of Shai Hu			
+z_82_90_KunLai_Summit	30879	Round 1: Brewmaster Chani			
+z_82_90_KunLai_Summit	30880	Round 1: The Streetfighter			
+z_82_90_KunLai_Summit	30881	Round 2: Clever Ashyo &amp; Ken-Ken			
+z_82_90_KunLai_Summit	30882	Round 2: Kang Bramblestaff			
+z_82_90_KunLai_Summit	30883	Round 3: The Wrestler			
+z_82_90_KunLai_Summit	30885	Round 3: Master Boom Boom			
+z_82_90_KunLai_Summit	30902	Round 4: Master Windfur			
+z_82_90_KunLai_Summit	30907	Round 4: The P.U.G.			
+z_82_90_KunLai_Summit	30935	Fisherman's Tale			
+z_82_90_KunLai_Summit	30942	Make A Fighter Out of Me			
+z_82_90_KunLai_Summit	30943	Handle With Care			
+z_82_90_KunLai_Summit	30944	It Takes A Village			
+z_82_90_KunLai_Summit	30945	What's Yours Is Mine			
+z_82_90_KunLai_Summit	30946	Revelations			
+z_82_90_KunLai_Summit	30967	Free the Dissenters			
+z_82_90_KunLai_Summit	30991	Do a Barrel Roll!			
+z_82_90_KunLai_Summit	30992	Finish This!			
+z_82_90_KunLai_Summit	30993	Where are My Reinforcements?			
+z_82_90_KunLai_Summit	30994	Lao-Chin's Gambit			
+z_82_90_KunLai_Summit	30999	Path Less Traveled			
+z_82_90_KunLai_Summit	31011	Enemies At Our Door			
+z_82_90_KunLai_Summit	31207	The Arena of Annihilation			
+z_82_90_KunLai_Summit	31228	Prophet Khar'zul			
+z_82_90_KunLai_Summit	31251	Best Meals Anywhere!	horde		
+z_82_90_KunLai_Summit	31252	Back to Westwind Rest	alliance		
+z_82_90_KunLai_Summit	31253	Back to Eastwind Rest	horde		
+z_82_90_KunLai_Summit	31254	The Road to Kun-Lai	alliance		
+z_82_90_KunLai_Summit	31255	The Road to Kun-Lai	horde		
+z_82_90_KunLai_Summit	31256	Round 'Em Up	horde		
+z_82_90_KunLai_Summit	31285	The Spring Drifter			
+z_82_90_KunLai_Summit	31286	Robbing Robbers of Robbers			
+z_82_90_KunLai_Summit	31287	Educating Saurok			
+z_82_90_KunLai_Summit	31306	Seeker's Folly			
+z_82_90_KunLai_Summit	31380	Trial At The Temple of the White Tiger			
+z_82_90_KunLai_Summit	31381	Trial At The Temple of the White Tiger			
+z_82_90_KunLai_Summit	31392	Temple of the White Tiger	alliance		
+z_82_90_KunLai_Summit	31393	Temple of the White Tiger	horde		
+z_82_90_KunLai_Summit	31394	A Celestial Experience	alliance		
+z_82_90_KunLai_Summit	31395	A Celestial Experience	horde		
+z_82_90_KunLai_Summit	31451	The Missing Merchant	horde		
+z_82_90_KunLai_Summit	31452	The Missing Merchant	alliance		
+z_82_90_KunLai_Summit	31453	The Shado-Pan	horde		
+z_82_90_KunLai_Summit	31455	The Shado-Pan	alliance		
+z_82_90_KunLai_Summit	31456	Muskpaw Ranch	alliance		
+z_82_90_KunLai_Summit	31457	Muskpaw Ranch	horde		
+z_82_90_KunLai_Summit	31459	Cho's Missive	horde		
+z_82_90_KunLai_Summit	31460	Cho's Missive	alliance		
+z_82_90_KunLai_Summit	31492	The Torch of Strength			
+z_82_90_KunLai_Summit	31511	A Witness to History	horde		
+z_82_90_KunLai_Summit	31512	A Witness to History	alliance		
+z_82_90_KunLai_Summit	31517	Contending With Bullies			
+z_82_90_KunLai_Summit	31518	The Vale of Eternal Blossoms			
+z_82_90_KunLai_Summit	38936	The Road to Kun-Lai			
+z_82_90_KunLai_Summit	49541	Warchief's Command: Kun-Lai Summit!	horde		
+z_82_90_KunLai_Summit	49559	Hero's Call: Kun-Lai Summit!	alliance		
 z_83_90_Townlong_Steppes	header	83-90: Townlong Steppes			
 z_84_90_Dread_Wastes	header	84-90: Dread Wastes			
 z_85_90_Vale_of_Eternal_Blossoms	header	85-90: Vale of Eternal Blossoms			
-z_85_90_Isle_of_Giants	header	85-90: Isle of Giants			
 z_85_90_Isle_of_Thunder	header	85-90: Isle of Thunder			
 z_85_90_Timeless_Isle	header	85-90: Timeless Isle			
+z_85_90_Pandaren_Campaign	header	85-90: Pandaren Campaign			

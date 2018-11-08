@@ -2251,8 +2251,8 @@ sub __main__() {
 			BNet::Quests_Mists::z_84_90_Dread_Wastes ($count, %multiuserquests);
 			BNet::Quests_Mists::z_85_90_Vale_of_Eternal_Blossoms ($count, %multiuserquests);
 			BNet::Quests_Mists::z_85_90_Isle_of_Thunder ($count, %multiuserquests);
-			BNet::Quests_Mists::z_85_90_Isle_of_Giants ($count, %multiuserquests);
 			BNet::Quests_Mists::z_85_90_Timeless_Isle ($count, %multiuserquests);
+			BNet::Quests_Mists::z_85_90_Pandaren_Campaign ($count, %multiuserquests);
 
 		##Draenor
 			BNet::Quests_Warlords::z_90_Blasted_Lands_Intro ($count, %multiuserquests);
