@@ -394,9 +394,9 @@ sub z_81_90_Valley_of_the_Four_Winds($%) {
 	BNet::Utils::preprint ($count, '31537', "Ella's Taste Test", %multiuserquests);
 	BNet::Utils::preprint ($count, '31538', "A Worthy Brew", %multiuserquests);
 	BNet::Utils::preprint ($count, '31671', "Why Not Scallions?", %multiuserquests);
-	BNet::Utils::preprint ($count, '31936', "The "Jinyu Princess" Irrigation System", %multiuserquests);
+	BNet::Utils::preprint ($count, '31936', "The \\\"Jinyu Princess\\\" Irrigation System", %multiuserquests);
 	BNet::Utils::preprint ($count, '31937', "Thunder King Pest Repellers", %multiuserquests);
-	BNet::Utils::preprint ($count, '31938', "The "Earth-Slasher" Master Plow", %multiuserquests);
+	BNet::Utils::preprint ($count, '31938', "The \\\"Earth-Slasher\\\" Master Plow", %multiuserquests);
 	BNet::Utils::preprint ($count, '31945', "Learn and Grow VI: Gina's Vote", %multiuserquests);
 	BNet::Utils::preprint ($count, '31946', "Mung-Mung's Vote III: The Great Carrot Caper", %multiuserquests);
 	BNet::Utils::preprint ($count, '31947', "Farmer Fung's Vote III: Crazy For Cabbage", %multiuserquests);

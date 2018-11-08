@@ -374,9 +374,9 @@ z_81_90_Valley_of_the_Four_Winds	31534	The Beginner's Brew
 z_81_90_Valley_of_the_Four_Winds	31537	Ella's Taste Test			
 z_81_90_Valley_of_the_Four_Winds	31538	A Worthy Brew			
 z_81_90_Valley_of_the_Four_Winds	31671	Why Not Scallions?			
-z_81_90_Valley_of_the_Four_Winds	31936	The "Jinyu Princess" Irrigation System			
+z_81_90_Valley_of_the_Four_Winds	31936	The \\\"Jinyu Princess\\\" Irrigation System			
 z_81_90_Valley_of_the_Four_Winds	31937	Thunder King Pest Repellers			
-z_81_90_Valley_of_the_Four_Winds	31938	The "Earth-Slasher" Master Plow			
+z_81_90_Valley_of_the_Four_Winds	31938	The \\\"Earth-Slasher\\\" Master Plow			
 z_81_90_Valley_of_the_Four_Winds	31945	Learn and Grow VI: Gina's Vote			
 z_81_90_Valley_of_the_Four_Winds	31946	Mung-Mung's Vote III: The Great Carrot Caper			
 z_81_90_Valley_of_the_Four_Winds	31947	Farmer Fung's Vote III: Crazy For Cabbage			
