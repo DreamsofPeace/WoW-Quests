@@ -10,11 +10,11 @@ Quest Completion Order from http://wow.gamepedia.com and user comments from http
 bnet-generate.pl -f file-name -a api-key -m module
 
 Supported Modules:
-	Reputation: Currently Functional
-	Professions: Currently Functional, But Incomplete Data
-	Achievements: Partially Functional
-	Quests: Currently Functional, But Incomplete Data
-	Legendaries: Part of the Quests Module
+	Reputation: Currently Functional  
+	Professions: Currently Functional, But Incomplete Data  
+	Achievements: Partially Functional  
+	Quests: Currently Functional, But Incomplete Data  
+	Legendaries: Part of the Quests Module  
 
 api-key is from https://dev.battle.net
 
