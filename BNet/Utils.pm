@@ -1923,9 +1923,13 @@ sub htmlheadprint () {
 	print "\t\t\tvertical-align:\tmiddle;\n";
 	print "\t\t}\n";
 
-	print "\t\ta span.tip {\n";
+	print "\t\timg.icons {\n";
 	print "\t\t\tcursor:\tpointer !important;\n";
-	print "\t\t\tborder-bottom:\t1px dotted #808080;\n";
+	print "\t\t\tfloat:\tright;\n";
+	print "\t\t\tmargin-left:\t1px;\n";
+	print "\t\t\tmargin-right:\t1px;\n";
+	print "\t\t\theight:\t18px;\n";
+	print "\t\t\twidth:\t18px;\n";
 	print "\t\t}\n";
 
 	print "\t\t</style>\n";

@@ -157,7 +157,7 @@ sz_01_20_Mulgore	26179	The Venture Co.	horde
 sz_01_20_Mulgore	26180	Supervisor Fizsprocket	horde		
 sz_01_20_Mulgore	26188	Mazzranache	horde		
 sz_01_20_Teldrassil	header	01-20: Teldrassil	alliance			
-sz_01_20_Teldrassil	475	A Troubling Breeze	alliance		a
+sz_01_20_Teldrassil	475	A Troubling Breeze	alliance		
 sz_01_20_Teldrassil	476	Gnarlpine Corruption	alliance		
 sz_01_20_Teldrassil	483	The Relics of Wakening	alliance		
 sz_01_20_Teldrassil	486	Ursal the Mauler	alliance		
