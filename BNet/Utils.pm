@@ -1928,8 +1928,8 @@ sub htmlheadprint () {
 	print "\t\t\tfloat:\tright;\n";
 	print "\t\t\tmargin-left:\t1px;\n";
 	print "\t\t\tmargin-right:\t1px;\n";
-	print "\t\t\theight:\t18px;\n";
-	print "\t\t\twidth:\t18px;\n";
+	print "\t\t\theight:\t16px;\n";
+	print "\t\t\twidth:\t16px;\n";
 	print "\t\t}\n";
 
 	print "\t\t</style>\n";
