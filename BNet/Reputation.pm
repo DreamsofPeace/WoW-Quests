@@ -147,13 +147,15 @@ sub reputation_cataclysm ($%) {
 sub reputation_mists ($%) {
 	my ($count, %multirep) = @_;
 	BNet::Utils::groupheader ("Mists of Pandaria");
-	BNet::Utils::preprintreputation($count, '1440', "Darkspear Rebellion", %multirep);
+	#Disabling due to appearing to not be a real rep.
+	#BNet::Utils::preprintreputation($count, '1440', "Darkspear Rebellion", %multirep);
 	BNet::Utils::preprintreputation($count, '1492', "Emperor Shaohao", %multirep);
 	BNet::Utils::preprintreputation($count, '1269', "Golden Lotus", %multirep);
 	BNet::Utils::preprintreputation($count, '1270', "Shado-Pan", %multirep);
 	BNet::Utils::preprintreputation($count, '1271', "Order of the Cloud Serpent", %multirep);
 	BNet::Utils::preprintreputation($count, '1435', "Shado-Pan Assault", %multirep);
-	BNet::Utils::preprintreputation($count, '1216', "Shang Xi's Academy", %multirep);
+	#Disabling due to being a limited rep (Pandaren starting zone only.)
+	#BNet::Utils::preprintreputation($count, '1216', "Shang Xi's Academy", %multirep);
 	BNet::Utils::preprintreputation($count, '1337', "The Klaxxi", %multirep);
 	BNet::Utils::preprintreputation($count, '1341', "The August Celestials", %multirep);
 	BNet::Utils::preprintreputation($count, '1345', "The Lorewalkers", %multirep);

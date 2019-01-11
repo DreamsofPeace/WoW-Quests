@@ -14,7 +14,7 @@ sub downloadinfo($$$$) {
 
 sub apiget ($$$$){
 	my ($character, $server, $field, $apikey) = @_;
-	my $definedurl = "https://us.api.battle.net/wow/character/" . $server . "/" . $character . "?fields=" . $field . "&apikey=" . $apikey;
+	my $definedurl = "https://us.api.blizzard.com/wow/character/" . $server . "/" . $character . "?fields=" . $field . "locale=en_US&&access_token=" . $apikey;
 	my $url = get($definedurl);
 	die "Couldn't get it! $character $server" unless defined $url;
 
