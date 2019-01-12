@@ -177,7 +177,7 @@ sub sz_01_20_Teldrassil($%) {
 	my ($count, %multiuserquests) = @_;
 
 	BNet::Utils::groupheader ("01-20: Teldrassil <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
-	BNet::Utils::preprint ($count, '475', "A Troubling Breeze <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\"> <img class=\"icons\" src=\"https://wow.zamimg.com/images/wow/icons/small/a.jpg\">", %multiuserquests);
+	BNet::Utils::preprint ($count, '475', "A Troubling Breeze <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '476', "Gnarlpine Corruption <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '483', "The Relics of Wakening <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '486', "Ursal the Mauler <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);

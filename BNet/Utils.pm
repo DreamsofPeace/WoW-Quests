@@ -1182,7 +1182,7 @@ sub valueprintreputationcellfriend ($$$) {
 	} elsif ($db == 1) {
 		BNet::Utils::tableprint("begintdhostile");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
-		print "\t\t\t<div>Acquaintance</div>\n";
+		print "\t\t\t<div>Pal</div>\n";
 		print "\t\t\t<div>";
 		print "<span class=\"tip\" title=\"";
 		print $dc;
