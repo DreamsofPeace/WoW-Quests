@@ -122,8 +122,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo00);
 				my $ail = BNet::Utils::retrieveail($userinfo00);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo00);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -148,8 +149,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo01);
 				my $ail = BNet::Utils::retrieveail($userinfo01);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo01);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -174,8 +176,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo02);
 				my $ail = BNet::Utils::retrieveail($userinfo02);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo02);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -200,8 +203,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo03);
 				my $ail = BNet::Utils::retrieveail($userinfo03);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo03);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -226,8 +230,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo04);
 				my $ail = BNet::Utils::retrieveail($userinfo04);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo04);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -252,8 +257,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo05);
 				my $ail = BNet::Utils::retrieveail($userinfo05);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo05);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -278,8 +284,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo06);
 				my $ail = BNet::Utils::retrieveail($userinfo06);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo06);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -304,8 +311,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo07);
 				my $ail = BNet::Utils::retrieveail($userinfo07);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo07);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -330,8 +338,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo08);
 				my $ail = BNet::Utils::retrieveail($userinfo08);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo08);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -356,8 +365,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo09);
 				my $ail = BNet::Utils::retrieveail($userinfo09);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo09);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -382,8 +392,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo10);
 				my $ail = BNet::Utils::retrieveail($userinfo10);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo10);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -408,8 +419,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo11);
 				my $ail = BNet::Utils::retrieveail($userinfo11);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo11);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -434,8 +446,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo12);
 				my $ail = BNet::Utils::retrieveail($userinfo12);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo12);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -460,8 +473,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo13);
 				my $ail = BNet::Utils::retrieveail($userinfo13);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo13);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -486,8 +500,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo14);
 				my $ail = BNet::Utils::retrieveail($userinfo14);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo14);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];
@@ -512,8 +527,9 @@ sub __main__() {
 				$count++;
 				my $classid = BNet::Utils::determineclass($userinfo15);
 				my $ail = BNet::Utils::retrieveail($userinfo15);
+				my $thumb = BNet::Utils::retrievethumbnail($userinfo15);
 				BNet::Utils::tableprint($classid);
-				BNet::Utils::printcharacter($columns[0], $columns[1], $ail);
+				BNet::Utils::printcharacter($columns[0], $columns[1], $ail, $thumb);
 				if( defined($columns[2]) ){
 					print "\n\t\t\t\t<div><a href=\"";
 					chomp $columns[2];

@@ -14,7 +14,7 @@ sub downloadinfo($$$$) {
 
 sub apiget ($$$$){
 	my ($character, $server, $field, $apikey) = @_;
-	my $definedurl = "https://us.api.battle.net/wow/character/" . $server . "/" . $character . "?fields=" . $field . "&apikey=" . $apikey;
+	my $definedurl = "https://us.api.blizzard.com/wow/character/" . $server . "/" . $character . "?fields=" . $field . "locale=en_US&&access_token=" . $apikey;
 	my $url = get($definedurl);
 	die "Couldn't get it! $character $server" unless defined $url;
 
@@ -148,6 +148,12 @@ sub retrieveail ($) {
 	return $class;
 }
 
+sub retrievethumbnail ($) {
+	my ($decoded) = @_;
+	my $class = $decoded->{'thumbnail'};
+	return $class;
+}
+
 sub determinerace ($) {
 	my ($decoded) = @_;
 	
@@ -185,23 +191,30 @@ sub determinerace ($) {
 
 }
 
-sub printcharacter($$$) {
-	my ($server, $char, $ail) = @_;
+sub printcharacter($$$$) {
+	my ($server, $char, $ail, $image) = @_;
 	chomp $server;
 	chomp $char;
 	chomp $ail;
+	chomp $image;
+	my $imageurl = "http://render-us.worldofwarcraft.com/character/" . $image . "\"";
 	my $url = "https://worldofwarcraft.com/en-us/character/" . $server . "/" . $char . "/";
+	chomp $url;
 #	print "\t\t\t\t$columns[0]\n";
 #	print "\t\t\t\t</br>\n";
 #	print "\t\t\t\t$columns[1]\n";
+	print "\n\t\t\t\t<div><img width=\"64px\" height=\"64px\" src=\"";
+	print $imageurl;
+	print "\">\n\t\t\t\t</div>";
 	print "\n\t\t\t\t<div><a href=\"";
 	print $url;
 	print "\">";
 	print $char;
-	print "</a>";
-	print "</div>\n\t\t\t\t<div>";
+	print "</a></div>\n";
+	print "\t\t\t\t<div>";
 	print $server;
-	print "</div>\n\t\t\t\t<div>";
+	print "</div>\n";
+	print "\t\t\t\t<div>";
 	print $ail;
 	print "</div>\n";
 	
