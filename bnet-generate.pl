@@ -96,8 +96,6 @@ sub __main__() {
 	my $fetchtypestatistics;
 
 	my $count = 0;
-	print $module;
-	print "\n";
 	if ($module eq "quests") {
 		$fetchtype = 'items,quests,achievements';
 	} elsif ($module eq "professions") {
