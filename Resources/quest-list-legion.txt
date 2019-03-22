@@ -1,4 +1,4 @@
-z_98_legion_intro	header	98: Legion Invasion	alliance		
+z_98_legion_intro	header	98: Legion Invasion			
 z_98_legion_intro	40519	The Legion Returns	alliance		
 z_98_legion_intro	43926	The Legion Returns	horde		
 z_98_legion_intro	42782	To Be Prepared	alliance		

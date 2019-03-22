@@ -1,4 +1,4 @@
-z_58_80_Hellfire_Peninsula	header	58-80: Hellfire Peninsula	horde	a	b
+z_58_80_Hellfire_Peninsula	header	58-80: Hellfire Peninsula	horde		
 z_58_80_Hellfire_Peninsula	28705	Warchief's Command: Outland!			
 z_58_80_Hellfire_Peninsula	9407	Through the Dark Portal			
 z_58_80_Hellfire_Peninsula	10120	Arrival in Outland			

@@ -741,6 +741,187 @@ z_92_100_Gorgrond	35202	Xuk Me, Right?	horde
 z_92_100_Gorgrond	35151	Your Base, Your Choice	horde		
 z_92_100_Gorgrond	35247	Zero Xuks Given	horde		
 z_94_100_Talador	header	94-100: Talador			
-z_96_100_Spires_of_Arak	header	96-100: Spires of Arak			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Shadows Gather			
+z_96_100_Spires_of_Arak	35554	News from Spires of Arak	alliance		
+z_96_100_Spires_of_Arak	35537	News from Spires of Arak	horde		
+z_96_100_Spires_of_Arak	34653	Arakkoa Exodus			
+z_96_100_Spires_of_Arak	34655	The Shadows of Skettis			
+z_96_100_Spires_of_Arak	34656	Hidden in Plain Sight			
+z_96_100_Spires_of_Arak	34657	Adherents of the Sun God			
+z_96_100_Spires_of_Arak	34658	Orders From On High			
+z_96_100_Spires_of_Arak	34659	The Crone			
+z_96_100_Spires_of_Arak	34756	A Charming Deception			
+z_96_100_Spires_of_Arak	34805	Echo Hunters			
+z_96_100_Spires_of_Arak	35636	All Due Respect			
+z_96_100_Spires_of_Arak	35668	Syth's Secret			
+z_96_100_Spires_of_Arak	35671	A Gathering of Shadows			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Admiral Taylor's Garrison			
+z_96_100_Spires_of_Arak	35293	Old Friends	alliance		
+z_96_100_Spires_of_Arak	35295	What's Theirs is Our	horde		
+z_96_100_Spires_of_Arak	35329	I See Dead People	alliance		
+z_96_100_Spires_of_Arak	35322	I See Dead People	horde		
+z_96_100_Spires_of_Arak	35339	A Parting Favor	alliance		
+z_96_100_Spires_of_Arak	35353	A Piece of the Puzzle	alliance		
+z_96_100_Spires_of_Arak	35380	Second in Command	alliance		
+z_96_100_Spires_of_Arak	35407	Punishable by Death	alliance		
+z_96_100_Spires_of_Arak	35408	Prime the Cannons	alliance		
+z_96_100_Spires_of_Arak	35482	Admiral Taylor	alliance		
+z_96_100_Spires_of_Arak	35549	Honoring a Hero	alliance		
+z_96_100_Spires_of_Arak	35550	Surviving in a Savage Land	horde		
+z_96_100_Spires_of_Arak	36183	Admiral Taylor			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Establishing Axefall			
+z_96_100_Spires_of_Arak	35274	One of Our Own	alliance		
+z_96_100_Spires_of_Arak	35272	One of Our Own	horde		
+z_96_100_Spires_of_Arak	35276	Inspecting the Troops	alliance		
+z_96_100_Spires_of_Arak	35275	Inspecting the Troops	horde		
+z_96_100_Spires_of_Arak	35286	Orders, Commander?	alliance		
+z_96_100_Spires_of_Arak	35277	Orders, Commander?	horde		
+z_96_100_Spires_of_Arak	35699	Peace Offering	alliance		
+z_96_100_Spires_of_Arak	35697	Peace Offering	horde		
+z_96_100_Spires_of_Arak	37296	A Lack of Wasps			
+z_96_100_Spires_of_Arak	37329	Not Here, Not Now	alliance		
+z_96_100_Spires_of_Arak	37331	Not Here, Not Now	alliance		
+z_96_100_Spires_of_Arak	37328	Not Here, Not Now	horde		
+z_96_100_Spires_of_Arak	37330	Not Here, Not Now	horde		
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Establishing Axefall: Inn			
+z_96_100_Spires_of_Arak	35907	Attempted Murder			
+z_96_100_Spires_of_Arak	35915	Attempted Murder			
+z_96_100_Spires_of_Arak	35924	Assassin's Mark			
+z_96_100_Spires_of_Arak	35926	Assassin's Mark			
+z_96_100_Spires_of_Arak	35947	The Power of Poison			
+z_96_100_Spires_of_Arak	35959	The Power of Poison			
+z_96_100_Spires_of_Arak	36022	Extrinsic Motivation			
+z_96_100_Spires_of_Arak	36023	Extrinsic Motivation			
+z_96_100_Spires_of_Arak	36028	Gardul Venomshiv			
+z_96_100_Spires_of_Arak	36029	Gardul Venomshiv			
+z_96_100_Spires_of_Arak	36047	We Have Him Now			
+z_96_100_Spires_of_Arak	36048	We Have Him Now			
+z_96_100_Spires_of_Arak	36165	No Time to Waste			
+z_96_100_Spires_of_Arak	36166	No Time to Waste			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Establishing Axefall: Trading Post			
+z_96_100_Spires_of_Arak	35705	Best Deals Anywhere			
+z_96_100_Spires_of_Arak	35706	Sticky Situation			
+z_96_100_Spires_of_Arak	35716	Sticky Situation			
+z_96_100_Spires_of_Arak	35878	Safety Measures			
+z_96_100_Spires_of_Arak	35879	Safety Measures			
+z_96_100_Spires_of_Arak	35718	Back on Track			
+z_96_100_Spires_of_Arak	35719	Back on Track			
+z_96_100_Spires_of_Arak	35738	All Natural			
+z_96_100_Spires_of_Arak	35739	All Natural			
+z_96_100_Spires_of_Arak	35766	I See Dead Arakkoa			
+z_96_100_Spires_of_Arak	35782	I See Dead Arakkoa			
+z_96_100_Spires_of_Arak	35797	The Ebon Hunter			
+z_96_100_Spires_of_Arak	35835	The Ebon Hunter			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Secrets of the Talonpriests			
+z_96_100_Spires_of_Arak	35611	Return to Veil Terokk			
+z_96_100_Spires_of_Arak	34827	Last of the Talonpriests			
+z_96_100_Spires_of_Arak	34828	Ishaal's Orb			
+z_96_100_Spires_of_Arak	34830	Behind the Veil			
+z_96_100_Spires_of_Arak	34882	Blades in the Dark			
+z_96_100_Spires_of_Arak	34883	A Feast of Shadows			
+z_96_100_Spires_of_Arak	34942	Back from Beyond			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Legacy of the Apexis			
+z_96_100_Spires_of_Arak	35257	Power Unearthed			
+z_96_100_Spires_of_Arak	35258	Legacy of the Apexis			
+z_96_100_Spires_of_Arak	35259	Sol Sisters			
+z_96_100_Spires_of_Arak	35260	Hardly Working			
+z_96_100_Spires_of_Arak	35261	Shot-Caller			
+z_96_100_Spires_of_Arak	35273	Hot Seat			
+z_96_100_Spires_of_Arak	35634	Control is King			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: The Gods of Arak			
+z_96_100_Spires_of_Arak	34998	Talon Watch			
+z_96_100_Spires_of_Arak	35000	Banished From the Sky			
+z_96_100_Spires_of_Arak	35001	Gaze of the Raven God			
+z_96_100_Spires_of_Arak	35002	Sons of Sethe			
+z_96_100_Spires_of_Arak	35003	Ritual Severance			
+z_96_100_Spires_of_Arak	35004	Servants of a Dead God			
+z_96_100_Spires_of_Arak	35011	The False Talon King			
+z_96_100_Spires_of_Arak	35013	Lithic's Gift			
+z_96_100_Spires_of_Arak	35012	Sethe, the Dead God			
+z_96_100_Spires_of_Arak	35245	A Sentimental Relic			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: When the Raven Swallows the Day			
+z_96_100_Spires_of_Arak	34921	Cult of the Ravenspeakers			
+z_96_100_Spires_of_Arak	34991	To the... Rescue?			
+z_96_100_Spires_of_Arak	35010	The High Ravenspeaker			
+z_96_100_Spires_of_Arak	35007	Rendezvous with the Ritualists			
+z_96_100_Spires_of_Arak	34922	Words of the Raven Mother			
+z_96_100_Spires_of_Arak	34923	The Bloodmane			
+z_96_100_Spires_of_Arak	34924	The Egg Thieves			
+z_96_100_Spires_of_Arak	34938	Ralshiara's Demise			
+z_96_100_Spires_of_Arak	34939	Declawing The Bloodmane			
+z_96_100_Spires_of_Arak	36790	The Initiate's Revenge			
+z_96_100_Spires_of_Arak	35009	Call of the Raven Mother			
+z_96_100_Spires_of_Arak	36085	On Ebon Wings			
+z_96_100_Spires_of_Arak	35704	When All Is Aligned			
+z_96_100_Spires_of_Arak	37141	Talonpriest Ishaal			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Terrok's Legend			
+z_96_100_Spires_of_Arak	34884	The Kaliri Whisperer			
+z_96_100_Spires_of_Arak	34898	Ikky			
+z_96_100_Spires_of_Arak	34838	Ikky's Egg			
+z_96_100_Spires_of_Arak	34886	Baby Bird			
+z_96_100_Spires_of_Arak	35733	Rites of the Talonpriests			
+z_96_100_Spires_of_Arak	35734	The Talon King			
+z_96_100_Spires_of_Arak	35897	The Missing Piece			
+z_96_100_Spires_of_Arak	35895	Terokk's Fall			
+z_96_100_Spires_of_Arak	36059	A Worthy Vessel			
+z_96_100_Spires_of_Arak	35896	The Avatar of Terokk			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Pinchwhistle Gearworks			
+z_96_100_Spires_of_Arak	35619	Pinchwhistle Gearworks			
+z_96_100_Spires_of_Arak	35620	Pinchwhistle Gearworks			
+z_96_100_Spires_of_Arak	36861	Pinchwhistle Gearworks			
+z_96_100_Spires_of_Arak	36862	Pinchwhistle Gearworks			
+z_96_100_Spires_of_Arak	35077	Defungination			
+z_96_100_Spires_of_Arak	35079	Spore-be-Gone			
+z_96_100_Spires_of_Arak	36179	Unwanted Pests			
+z_96_100_Spires_of_Arak	35080	The Mother Lode			
+z_96_100_Spires_of_Arak	35082	Getting the Crew Back Together			
+z_96_100_Spires_of_Arak	35089	Skimming Off the Top			
+z_96_100_Spires_of_Arak	36384	Field Trial			
+z_96_100_Spires_of_Arak	35091	Sporicide			
+z_96_100_Spires_of_Arak	35211	Preventing the Worst			
+z_96_100_Spires_of_Arak	36428	Curing With Force			
+z_96_100_Spires_of_Arak	35298	Flame On			
+z_96_100_Spires_of_Arak	36062	Kimzee Pinchwhistle			
+z_96_100_Spires_of_Arak	header	96-100: Spires of Arak: Other/Unknown			
+z_96_100_Spires_of_Arak	34829	New Neighbors			
+z_96_100_Spires_of_Arak	34885	Mother of Thorns			
+z_96_100_Spires_of_Arak	34999	Hatred Undying			
+z_96_100_Spires_of_Arak	35081	Clearing Out Before Cleaning Up			
+z_96_100_Spires_of_Arak	35090	The Right Parts for the Job			
+z_96_100_Spires_of_Arak	35285	Follow that Hotrod!			
+z_96_100_Spires_of_Arak	35649	The Writhing Mire			
+z_96_100_Spires_of_Arak	35669	Wanted: Keeho's Severed Paw			
+z_96_100_Spires_of_Arak	35670	Wanted: Spineslicer's Husk			
+z_96_100_Spires_of_Arak	35672	Wanted: Venombarb			
+z_96_100_Spires_of_Arak	35674	Wanted: Keeho's Severed Paw			
+z_96_100_Spires_of_Arak	35675	Wanted: Spineslicer's Husk			
+z_96_100_Spires_of_Arak	35676	Wanted: Venombarb			
+z_96_100_Spires_of_Arak	35713	The Tinkertoss Twins			
+z_96_100_Spires_of_Arak	36316	Victory is Within Reach			
+z_96_100_Spires_of_Arak	36425	Egg Punt			
+z_96_100_Spires_of_Arak	36951	Arakkoa Exodus			
+z_96_100_Spires_of_Arak	36975	Talbuk Training: Bulbapore			
+z_96_100_Spires_of_Arak	36987	Clefthoof Training: Bulbapore			
+z_96_100_Spires_of_Arak	36997	Boar Training: Bulbapore			
+z_96_100_Spires_of_Arak	37006	Riverbeast Training: Bulbapore			
+z_96_100_Spires_of_Arak	37034	Boar Training: Bulbapore			
+z_96_100_Spires_of_Arak	37052	Clefthoof Training: Bulbapore			
+z_96_100_Spires_of_Arak	37072	Riverbeast Training: Bulbapore			
+z_96_100_Spires_of_Arak	37097	Talbuk Training: Bulbapore			
+z_96_100_Spires_of_Arak	37144	Talon Guard Kurekk			
+z_96_100_Spires_of_Arak	37168	Leorajh, the Enlightened			
+z_96_100_Spires_of_Arak	37177	Call of the Talon King			
+z_96_100_Spires_of_Arak	37276	Standing United			
+z_96_100_Spires_of_Arak	37281	Standing United			
+z_96_100_Spires_of_Arak	37287	Cleaning House			
+z_96_100_Spires_of_Arak	37292	Not In Your Army			
+z_96_100_Spires_of_Arak	37326	Befriending the Locals			
+z_96_100_Spires_of_Arak	37327	Befriending the Locals			
+z_96_100_Spires_of_Arak	37416	Feast of the Spires			
+z_96_100_Spires_of_Arak	37417	Feast of the Spires			
 z_98_100_Nagrand	header	98-100: Nagrand			
+z_98_100_Nagrand	36601	News from Nagrand			
+z_98_100_Nagrand	36602	News from Nagrand			
+z_98_100_Nagrand	36606	News from Nagrand			
+z_98_100_Nagrand	36607	News from Nagrand			
 z_100_Tanaan_Jungle	header	100: Tanaan Jungle			

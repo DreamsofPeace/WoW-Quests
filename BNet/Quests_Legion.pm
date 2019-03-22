@@ -6,7 +6,7 @@ use warnings;
 sub z_98_legion_intro($%) {
 	my ($count, %multiuserquests) = @_;
 
-	BNet::Utils::groupheader ("98: Legion Invasion <img src=\"https://wow.zamimg.com/images/icons/alliance.png\">");
+	BNet::Utils::groupheader ("98: Legion Invasion");
 	BNet::Utils::preprint ($count, '40519', "The Legion Returns <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '43926', "The Legion Returns <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/horde.png\">", %multiuserquests);
 	BNet::Utils::preprint ($count, '42782', "To Be Prepared <img class=\"icons\" src=\"https://wow.zamimg.com/images/icons/alliance.png\">", %multiuserquests);
