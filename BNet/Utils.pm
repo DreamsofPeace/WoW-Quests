@@ -1179,7 +1179,8 @@ sub valueprint($ % ) {
 sub valueprintreputationcellfriend ($$$) {
 	my($db, $dc, $dd) = @_;
 	if ($db == 0) {
-		BNet::Utils::tableprint("begintdhated");
+		BNet::Utils::tableprint("begintdhostile");
+#		BNet::Utils::tableprint("begintdhated");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
 		print "\t\t\t<div>Stranger</div>\n";
 		print "\t\t\t<div>";
@@ -1193,7 +1194,7 @@ sub valueprintreputationcellfriend ($$$) {
 		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 1) {
-		BNet::Utils::tableprint("begintdhostile");
+		BNet::Utils::tableprint("begintdunfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
 		print "\t\t\t<div>Pal</div>\n";
 		print "\t\t\t<div>";
@@ -1207,7 +1208,7 @@ sub valueprintreputationcellfriend ($$$) {
 		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 2) {
-		BNet::Utils::tableprint("begintdunfriendly");
+		BNet::Utils::tableprint("begintdneutral");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
 		print "\t\t\t<div>Buddy</div>\n";
 		print "\t\t\t<div>";
@@ -1221,7 +1222,6 @@ sub valueprintreputationcellfriend ($$$) {
 		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 3) {
-#		BNet::Utils::tableprint("begintdneutral");
 		BNet::Utils::tableprint("begintdfriendly");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
 		print "\t\t\t<div>Friend</div>\n";
@@ -1236,7 +1236,7 @@ sub valueprintreputationcellfriend ($$$) {
 		print "</div>\n";
 		BNet::Utils::tableprint("endtd");
 	} elsif ($db == 4) {
-		BNet::Utils::tableprint("begintdfrevered");
+		BNet::Utils::tableprint("begintdrevered");
 		my $mypercent = valueprintreputationcalc ($dc, $dd);
 		print "\t\t\t<div>Good Friend</div>\n";
 		print "\t\t\t<div>";
