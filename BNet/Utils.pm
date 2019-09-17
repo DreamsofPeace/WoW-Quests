@@ -27,7 +27,9 @@ sub tableprint ($) {
 	
 	if ($decoded eq 'begintable') {
 		print "\t<table>\n";
+		print "\t\t<tbody>\n";
 	} elsif ($decoded eq 'endtable') {
+		print "\t\t</tbody>\n";
 		print "\t</table>\n";
 	} elsif ($decoded eq 'beginrow') {
 		print "\t\t<tr>\n";
@@ -197,16 +199,18 @@ sub printcharacter($$$$) {
 	chomp $char;
 	chomp $ail;
 	chomp $image;
-	my $imageurl = "http://render-us.worldofwarcraft.com/character/" . $image . "\"";
+#	my $imageurl = "http://render-us.worldofwarcraft.com/character/" . $image . "\"";
+	my $imageurl = "http://render-us.worldofwarcraft.com/character/" . $image;
 	my $url = "https://worldofwarcraft.com/en-us/character/" . $server . "/" . $char . "/";
 	chomp $url;
 #	print "\t\t\t\t$columns[0]\n";
 #	print "\t\t\t\t</br>\n";
 #	print "\t\t\t\t$columns[1]\n";
-	print "\n\t\t\t\t<div><img width=\"64px\" height=\"64px\" src=\"";
+#	print "\n\t\t\t\t<div><img width=\"64\" height=\"64\" src=\"";
+	print "\n\t\t\t\t<div><img class=\"character\" src=\"";
 	print $imageurl;
-	print "\">\n\t\t\t\t</div>";
-	print "\n\t\t\t\t<div><a href=\"";
+	print "\"></div>\n";
+	print "\t\t\t\t<div><a href=\"";
 	print $url;
 	print "\">";
 	print $char;
@@ -1844,7 +1848,8 @@ sub reputationtohash ($) {
 
 sub htmlheadprint () {
 	
-	print "<html>\n";
+	print "<\!DOCTYPE html>\n";
+	print "<html lang=\"en\">\n";
 	print "\t<head>\n";
 	print "\t\t<title>Character Quests</title>\n";
 	print "\t\t<style>\n";
@@ -2028,11 +2033,19 @@ sub htmlheadprint () {
 	print "\t\t\twidth:\t16px;\n";
 	print "\t\t}\n";
 
+	print "\t\timg.character {\n";
+	print "\t\t\tmargin-left:\t1px;\n";
+	print "\t\t\tmargin-right:\t1px;\n";
+	print "\t\t\theight:\t64px;\n";
+	print "\t\t\twidth:\t64px;\n";
+	print "\t\t}\n";
+
 	print "\t\t</style>\n";
 
 	print "\t\t<script type=\"text/javascript\" src=\"//wow.zamimg.com/widgets/power.js\"></script>\n";
 	print "\t\t<script>var wowhead_tooltips = { \"colorlinks\": true, \"iconizelinks\": true, \"renamelinks\": false }</script>\n";
-	print "\t\t</head>\n";
+	print "\t</head>\n";
+	print "\t<body>\n";
 }
 
 sub groupheader($) {
