@@ -1850,6 +1850,7 @@ sub htmlheadprint () {
 	
 	print "<\!DOCTYPE html>\n";
 	print "<html lang=\"en\">\n";
+	print "<meta charset=\"windows-1252\">\n";
 	print "\t<head>\n";
 	print "\t\t<title>Character Quests</title>\n";
 	print "\t\t<style>\n";
