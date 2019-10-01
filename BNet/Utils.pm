@@ -200,7 +200,7 @@ sub printcharacter($$$$) {
 	chomp $ail;
 	chomp $image;
 #	my $imageurl = "http://render-us.worldofwarcraft.com/character/" . $image . "\"";
-	my $imageurl = "http://render-us.worldofwarcraft.com/character/" . $image;
+	my $imageurl = "https://render-us.worldofwarcraft.com/character/" . $image;
 	my $url = "https://worldofwarcraft.com/en-us/character/" . $server . "/" . $char . "/";
 	chomp $url;
 #	print "\t\t\t\t$columns[0]\n";
@@ -498,7 +498,7 @@ sub percharquests ($) {
 sub preprint ($$$%) {
 	my ($count, $qid, $ql, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/quest=" . $qid . "\" rel=\"quest=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/quest=" . $qid . "\" rel=\"quest=" . $qid . "\">" . $ql ."</a>";
 #	print $wowheadurl;
 	$qc{zero} = $multiuserquests{0}{$qid};
 	$qc{one} = $multiuserquests{1}{$qid};
@@ -522,7 +522,7 @@ sub preprint ($$$%) {
 sub preprintprofalchemy ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{alchemy}{$qid};
 	$qc{one} = $multiuserquests{1}{alchemy}{$qid};
 	$qc{two} = $multiuserquests{2}{alchemy}{$qid};
@@ -545,7 +545,7 @@ sub preprintprofalchemy ($$$$%) {
 sub preprintprofblacksmithing ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{blacksmithing}{$qid};
 	$qc{one} = $multiuserquests{1}{blacksmithing}{$qid};
 	$qc{two} = $multiuserquests{2}{blacksmithing}{$qid};
@@ -568,7 +568,7 @@ sub preprintprofblacksmithing ($$$$%) {
 sub preprintprofenchanting ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{enchanting}{$qid};
 	$qc{one} = $multiuserquests{1}{enchanting}{$qid};
 	$qc{two} = $multiuserquests{2}{enchanting}{$qid};
@@ -591,7 +591,7 @@ sub preprintprofenchanting ($$$$%) {
 sub preprintprofengineering ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{engineering}{$qid};
 	$qc{one} = $multiuserquests{1}{engineering}{$qid};
 	$qc{two} = $multiuserquests{2}{engineering}{$qid};
@@ -614,7 +614,7 @@ sub preprintprofengineering ($$$$%) {
 sub preprintprofinscription ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{inscription}{$qid};
 	$qc{one} = $multiuserquests{1}{inscription}{$qid};
 	$qc{two} = $multiuserquests{2}{inscription}{$qid};
@@ -637,7 +637,7 @@ sub preprintprofinscription ($$$$%) {
 sub preprintprofjewelcrafting ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{jewelcrafting}{$qid};
 	$qc{one} = $multiuserquests{1}{jewelcrafting}{$qid};
 	$qc{two} = $multiuserquests{2}{jewelcrafting}{$qid};
@@ -660,7 +660,7 @@ sub preprintprofjewelcrafting ($$$$%) {
 sub preprintprofleatherworking ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{leatherworking}{$qid};
 	$qc{one} = $multiuserquests{1}{leatherworking}{$qid};
 	$qc{two} = $multiuserquests{2}{leatherworking}{$qid};
@@ -683,7 +683,7 @@ sub preprintprofleatherworking ($$$$%) {
 sub preprintproftailoring ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{tailoring}{$qid};
 	$qc{one} = $multiuserquests{1}{tailoring}{$qid};
 	$qc{two} = $multiuserquests{2}{tailoring}{$qid};
@@ -706,7 +706,7 @@ sub preprintproftailoring ($$$$%) {
 sub preprintprofherbalism ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{herbalism}{$qid};
 	$qc{one} = $multiuserquests{1}{herbalism}{$qid};
 	$qc{two} = $multiuserquests{2}{herbalism}{$qid};
@@ -729,7 +729,7 @@ sub preprintprofherbalism ($$$$%) {
 sub preprintprofmining ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{mining}{$qid};
 	$qc{one} = $multiuserquests{1}{mining}{$qid};
 	$qc{two} = $multiuserquests{2}{mining}{$qid};
@@ -752,7 +752,7 @@ sub preprintprofmining ($$$$%) {
 sub preprintprofskinning ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{skinning}{$qid};
 	$qc{one} = $multiuserquests{1}{skinning}{$qid};
 	$qc{two} = $multiuserquests{2}{skinning}{$qid};
@@ -775,7 +775,7 @@ sub preprintprofskinning ($$$$%) {
 sub preprintprofcooking ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{cooking}{$qid};
 	$qc{one} = $multiuserquests{1}{cooking}{$qid};
 	$qc{two} = $multiuserquests{2}{cooking}{$qid};
@@ -798,7 +798,7 @@ sub preprintprofcooking ($$$$%) {
 sub preprintproffishing ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{fishing}{$qid};
 	$qc{one} = $multiuserquests{1}{fishing}{$qid};
 	$qc{two} = $multiuserquests{2}{fishing}{$qid};
@@ -821,7 +821,7 @@ sub preprintproffishing ($$$$%) {
 sub preprintprofarchaeology ($$$$%) {
 	my ($count, $qid, $ql, $qic, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/spell=" . $qid . "\" rel=\"spell=" . $qid . "\">" . $ql ."</a>";
 	$qc{zero} = $multiuserquests{0}{archaeology}{$qid};
 	$qc{one} = $multiuserquests{1}{archaeology}{$qid};
 	$qc{two} = $multiuserquests{2}{archaeology}{$qid};
@@ -844,7 +844,7 @@ sub preprintprofarchaeology ($$$$%) {
 sub preprintachievement ($$$$%) {
 	my ($count, $qid, $aid, $ql, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/achievement=" . $aid . "\" rel=\"achievement=" . $aid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/achievement=" . $aid . "\" rel=\"achievement=" . $aid . "\">" . $ql ."</a>";
 #	print $wowheadurl;
 	$qc{zero} = $multiuserquests{0}{$qid};
 	$qc{one} = $multiuserquests{1}{$qid};
@@ -868,7 +868,7 @@ sub preprintachievement ($$$$%) {
 sub preprintachievementvia4q ($$$$$$$$%) {
 	my ($count, $qid, $aid, $ql, $q01, $q02, $q03, $q04, %multiuserquests) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/achievement=" . $aid . "\" rel=\"achievement=" . $aid . "\">" . $ql ."</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/achievement=" . $aid . "\" rel=\"achievement=" . $aid . "\">" . $ql ."</a>";
 #	print $wowheadurl;
 
 	if ($multiuserquests{0}{$q01} eq "yes" ||
@@ -1732,7 +1732,7 @@ sub valueprintreputation ($$$%) {
 sub preprintreputation ($$$%) {
 	my ($count, $fid, $ql, %rep) = @_;
 	my %qc;
-	my $wowheadurl = "<a href=\"http://www.wowhead.com/faction=" . $fid . "\" rel=\"faction=" . $fid . "\">" . $ql . "</a>";
+	my $wowheadurl = "<a href=\"https://www.wowhead.com/faction=" . $fid . "\" rel=\"faction=" . $fid . "\">" . $ql . "</a>";
 
 	if (0 < $count) {
 		$qc{zero}->{'id'}       = $rep{0}{$fid}->{'id'};
