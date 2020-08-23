@@ -2160,7 +2160,8 @@ sub jewelcrafting ($%) {
 }
 
 sub leatherworking ($%) {
-	my ($count, %multiusercriteria) = @_;	BNet::Utils::groupheader ("Leatherworking: Vanilla");
+	my ($count, %multiusercriteria) = @_;
+	BNet::Utils::groupheader ("Leatherworking: Vanilla");
 	BNet::Utils::preprintprofleatherworking($count, '10482', "Cured Thick Hide", "", %multiusercriteria);
 	BNet::Utils::preprintprofleatherworking($count, '10487', "Thick Armor Kit", "", %multiusercriteria);
 	BNet::Utils::preprintprofleatherworking($count, '10490', "Comfortable Leather Hat", "", %multiusercriteria);
