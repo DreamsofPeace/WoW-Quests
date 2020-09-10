@@ -5,228 +5,10 @@ import requests
 import json
 import io
 import sys
+from characterutil import *
+from characterquests import *
 from pprint import pprint
-from datetime import datetime, timedelta, timezone
 from requests.auth import HTTPBasicAuth
-
-#from wowapi import WowApi
-
-def exception_control(Exception):
-	pass
-
-def utcnow():
-	return datetime.now(timezone.utc)
-
-def htmlclose(openfile):
-	print("</html>", end="\n", file=openfile)
-
-def htmlheader(openfile,mytitle):
-	print("<html>", end="\n", file=openfile)
-	print("\t<head>", end="\n", file=openfile)
-	print(f"\t\t<title>{mytitle}</title>", end="\n", file=openfile)
-	print(
-'''
-\t\t<style>
-\t\ttable {
-\t\t\tborder-collapse:\tcollapse;
-\t\t\tborder:\tsolid 1px;
-\t\t}
-\t\ttable th {
-\t\t\tborder:\tsolid 1px;
-\t\t\tfont-size:\t14px;
-\t\t}
-\t\ttable th.quest {
-\t\t\ttext-align:\tleft;
-\t\t}
-\t\ttable td {
-\t\t\tborder:\tsolid 1px;
-\t\t\tfont-size:\t14px;
-\t\t\ttext-align:\tleft;
-\t\t}
-\t\ttable td.Death-Knight {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#C41F3B;
-\t\t}
-\t\ttable td.Demon-Hunter {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#A330C9;
-\t\t}
-\t\ttable td.Druid {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#FF7D0A;
-\t\t}
-\t\ttable td.Hunter {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#ABD473;
-\t\t}
-\t\ttable td.Mage {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#69CCF0;
-\t\t}
-\t\ttable td.Monk {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#00FF96;
-\t\t}
-\t\ttable td.Paladin {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#F58CBA;
-\t\t}
-\t\ttable td.Priest {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#FFFFFF;
-\t\t}
-\t\ttable td.Rogue {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#FFF569;
-\t\t}
-\t\ttable td.Shaman {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#0070DE;
-\t\t}
-\t\ttable td.Warlock {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#9482C9;
-\t\t}
-\t\ttable td.Warrior {
-\t\t\ttext-align:\tcenter;
-\t\t\tbackground-color:\t#C79C6E;
-\t\t}
-\t\ttable tr.Complete {
-\t\t\tbackground-color:\t#1EFF00;
-\t\t}
-\t\ttable tr.Incomplete {
-\t\t\tbackground-color:\t#0070DD;
-\t\t}
-\t\ttable td.Complete {
-\t\t\tbackground-color:\t#1EFF00;
-\t\t\ttext-align:\tcenter;
-\t\t\tvertical-align:\tmiddle;
-\t\t\tfont-size:\t14px;
-\t\t}
-\t\ttable td.Incomplete {
-\t\t\tbackground-color:\t#0070DD;
-\t\t}
-\t\ttable tr.Incomplete2 {
-\t\t\tcolor:\t#000000;
-\t\t\tbackground-color:\t#DC143C;
-\t\t}
-\t\t.r1{
-\t\t\tcolor:\t#ff8040;
-\t\t}
-\t\t.r2{
-\t\t\tcolor:\t#ffff00;
-\t\t}
-\t\t.r3{
-\t\t\tcolor:\t#40bf40;
-\t\t}
-\t\t.r4{
-\t\t\tcolor:\t#808080;
-\t\t}
-\t\t.hated{
-\t\t\tbackground-color:\t#cc0000;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.hostile{
-\t\t\tbackground-color:\t#ff0000;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.unfriendly{
-\t\t\tbackground-color:\t#f26000;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.neutral{
-\t\t\tbackground-color:\t#e4e400;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.friendly{
-\t\t\tbackground-color:\t#33ff33;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.honored{
-\t\t\tbackground-color:\t#5fe65d;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.revered{
-\t\t\tbackground-color:\t#53e9bc;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.exalted{
-\t\t\tbackground-color:\t#2ee6e6;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\t.blackout{
-\t\t\tbackground-color:\t#000000;
-\t\t\tcolor:\t#000000;
-\t\t}
-\t\tdiv {
-\t\t\ttext-align:\tcenter;
-\t\t\tvertical-align:\tmiddle;
-\t\t}
-\t\timg.icons {
-\t\t\tcursor:\tpointer !important;
-\t\t\tfloat:\tright;
-\t\t\tmargin-left:\t1px;
-\t\t\tmargin-right:\t1px;
-\t\t\theight:\t16px;
-\t\t\twidth:\t16px;
-\t\t}
-\t\timg.character {
-\t\t\tmargin-left:\t1px;
-\t\t\tmargin-right:\t1px;
-\t\t\theight:\t64px;
-\t\t\twidth:\t64px;
-\t\t}
-\t\t</style>
-''', end="\n", file=openfile)
-	print("\t</head>", end="\n", file=openfile)
-
-def htmlbodyopen(openfile):
-	print("<body>", end="\n", file=openfile)
-
-def htmlbodyclose(openfile):
-	print("</body>", end="\n", file=openfile)
-
-def htmltableopen(openfile):
-	print("<table>", end="\n", file=openfile)
-
-def htmltableclose(openfile):
-	print("</table>", end="\n", file=openfile)
-
-def htmltabletdcharopen(openfile,myclass):
-	print(f"\t<td class=\"{myclass}\">", end="\n", file=openfile)
-
-def htmltabletdopen(openfile):
-	print(f"\t<td>", end="\n", file=openfile)
-
-def htmltabletdopenclass(openfile,myclass):
-	print(f"\t<td class=\"{myclass}\">", end="\n", file=openfile)
-
-def htmltabletdclose(openfile):
-	print("\t</td>", end="\n", file=openfile)
-
-def htmltabletropen(openfile):
-	print("\t<tr>", end="\n", file=openfile)
-
-def htmltabletrclose(openfile):
-	print("\t</tr>", end="\n", file=openfile)
-
-def htmldivopen(openfile):
-	print("\t\t<div>", end="\n", file=openfile)
-
-def htmldivclose(openfile):
-	print("\t\t</div>", end="\n", file=openfile)
-
-def htmltablethopen(openfile):
-	print("\t\t<th>", end="\n", file=openfile)
-
-def htmltablethclose(openfile):
-	print("\t\t</th>", end="\n", file=openfile)
-
-def htmlthcolspan(openfile,colspan,header):
-	print(f"\t\t<th colspan=\"{colspan}\">{header}</th>", end="\n", file=openfile)
-
-def htmlstraightimg(openfile,imgurl):
-	print(f"\t\t\t<img class=\"character\" src=\"{imgurl}\">", end="\n", file=openfile)
 
 def data_imported_href(href,locale,access_token):
 	if locale == "NULL":
@@ -249,31 +31,6 @@ def data_get_char_info(region,server,character,locale,namespace,access_token):
 		url = (f'https://{region}.api.blizzard.com{path}')
 	return (requests.get(url))
 
-def printdataheader(count,datatree,openfile):
-	htmltabletropen(openfile)
-	htmltabletdopen(openfile)
-	htmltabletdclose(openfile)
-	for number in datatree:
-		if datatree[number]['charcter_class'] == "Death Knight":
-			htmltabletdcharopen(openfile,"Death-Knight")
-		elif datatree[number]['charcter_class'] == "Demon Hunter":
-			htmltabletdcharopen(openfile,"Demon-Hunter")
-		else:
-			htmltabletdcharopen(openfile,datatree[number]['charcter_class'])
-		htmldivopen(openfile)
-		htmlstraightimg(openfile,datatree[number]['avatarurl'])
-		htmldivclose(openfile)
-		htmldivopen(openfile)
-		print (datatree[number]['name'], end="\n", file=openfile)
-		htmldivclose(openfile)
-		htmldivopen(openfile)
-		print (datatree[number]['char_level'], end="\n", file=openfile)
-		htmldivclose(openfile)
-		htmldivopen(openfile)
-		print (datatree[number]['char_ilvl'], end="\n", file=openfile)
-		htmldivclose(openfile)
-		htmltabletdclose(openfile)
-	htmltabletrclose(openfile)
 
 def printsinglerep(count,datatree,openfile,repid):
 	for number in datatree:
@@ -1640,6 +1397,23 @@ def printsingleprofrecipe(count,datatree,openfile,recipeid,recipename):
 		except KeyError:
 			print ("<td class=\"blackout\"></td>", end="\n", file=openfile)
 
+def printquestcompletion(count,datatree,openfile,recipeid,recipename):
+	for number in datatree:
+		try:
+			if (
+			datatree[number]['reputations'][repid]['standingname'] != "Best Friend" and 
+			datatree[number]['reputations'][repid]['standingname'] != "Max Rank" and 
+			datatree[number]['reputations'][repid]['standingname'] != "Exalted"
+			):
+				print ("<div><span class=\"tip\" title=\"\">", end="", file=openfile)
+				print (datatree[number]['reputations'][repid]['standingvalue'], end="", file=openfile)
+				print ("&nbsp;/&nbsp;", end="", file=openfile)
+				print (datatree[number]['reputations'][repid]['standingmax'], end="", file=openfile)
+				print ("</span>", end="\n", file=openfile)
+			htmldivclose(openfile)
+			htmltabletdclose(openfile)
+		except KeyError:
+			print ("<td class=\"blackout\"></td>", end="\n", file=openfile)
 
 def charprofessionoutput(count,datatree,outputfile):
 	mytitle = "Professions"
@@ -1979,6 +1753,7 @@ if __name__ == "__main__":
 	parser.add_argument('-ct','--client_token', help='Client Access Token (already Retrieve from BNET)', required=False)
 	parser.add_argument('-ofrep','--outputrepfile', help='Output filename for the reputation module. Recommended if using multiple modules (default is reputation.html)', required=False)
 	parser.add_argument('-ofprof','--outputproffile', help='Output filename for the professions module. Recommended if using multiple modules (default is professions.html)', required=False)
+	parser.add_argument('-ofquest','--outputquestfile', help='Output filename for the quests module. Recommended if using multiple modules (default is quests.html)', required=False)
 ##	parser.add_argument('-hs1','--hashsha256', help='Hash File using the SHA 256 Algorithm', action='store_true', required=False)
 
 	args = parser.parse_args()
@@ -1989,10 +1764,13 @@ if __name__ == "__main__":
 	region   = args.region
 	outrep   = args.outputrepfile
 	outprof  = args.outputproffile
+	outquest = args.outputquestfile
 	if not outrep:
 		outrep = "reputation.html"
 	if not outprof:
 		outprof = "professions.html"
+	if not outquest:
+		outquest = "quests.html"
 	token_expire = 0
 	if clientid and clientsc and not clienttk:
 		logger.info('Retrieving Access Token')
@@ -2009,11 +1787,11 @@ if __name__ == "__main__":
 		if count > 30:
 			continue
 
-		linesplit = characterline.split("\t")
-		charregion    = linesplit[0]
-		locale    = linesplit[1]
-		server    = linesplit[2]
-		character = linesplit[3]
+		linesplit  = characterline.split("\t")
+		charregion = linesplit[0]
+		locale     = linesplit[1]
+		server     = linesplit[2]
+		character  = linesplit[3]
 		if charregion == "us":
 			namespace = "profile-us"
 		elif charregion == "eu":
@@ -2026,7 +1804,7 @@ if __name__ == "__main__":
 			namespace = "profile-cn"
 		if not locale:
 			locale = "en_US"
-#		logger.info(f'Getting basic profile info for {region} - {server} - {character}')
+		logger.info(f'Getting basic profile info for {region} - {server} - {character}')
 		charjson = data_get_char_info(region,server,character,locale,namespace,access_token)
 		charinfo = charjson.json()
 		canonname = charinfo['name']
@@ -2035,43 +1813,33 @@ if __name__ == "__main__":
 		canonrnme = charinfo['realm']['name']
 		canonlevl = charinfo['level']
 		canonilvl = charinfo['equipped_item_level']
-		profhref  = charinfo['professions']['href']
-		rephref   = charinfo['reputations']['href']
-		mediahref = charinfo['media']['href']
 		if charinfo['gender']['type'] == "MALE":
 			chargender = 0
 		elif charinfo['gender']['type'] == "FEMALE":
 			chargender = 1
+		profhref  = charinfo['professions']['href']
+		rephref   = charinfo['reputations']['href']
+		mediahref = charinfo['media']['href']
+		questshref = charinfo['quests']['href']
 		logger.info(f'Getting profession info for {region} - {server} - {character}')
 		charprofessions = data_imported_href(profhref,locale,access_token)
 		charprofessions = charprofessions.json()
-#		print(json.loads(charprofessions))
-#		print(charprofessions)
 		logger.info(f'Getting reputation info for {region} - {server} - {character}')
 		charreputation = data_imported_href(rephref,locale,access_token)
 		charreputation = charreputation.json()
-#		pprint (charreputation)
 		logger.info(f'Getting media info for {region} - {server} - {character}')
 		charmedia = data_imported_href(mediahref,locale,access_token)
 		charmedia = charmedia.json()
-#		pprint (charmedia)
+		logger.info(f'Getting quest info for {region} - {server} - {character}')
+		tempslit = questshref.split("?")
+		questshref = tempslit[0] + "/completed?" + tempslit[1]
+		charquests = data_imported_href(questshref,locale,access_token)
+		charquests = charquests.json()
+
 		avatarurl = charmedia['avatar_url']
 		busturl = charmedia['bust_url']
 		renderurl = charmedia['render_url']
 
-#		print (canonname, end="\t")
-#		print (canonfact, end="\t")
-#		print (canoncnme, end="\t")
-#		print (canonrnme, end="\t")
-#		print (chargender, end="\t")
-#		print (canonlevl, end="\t")
-#		print (canonilvl, end="\n")
-#		print (avatarurl, end="\n")
-#		print (busturl, end="\n")
-#		print (renderurl, end="\n")
-#		print (profhref,  end="\n")
-#		print (charjson)
-#		print (count)
 		multicharacter[count] = {}
 		multicharacter[count]['reputations'] = {}
 		multicharacter[count]['professions'] = {}
@@ -2119,265 +1887,11 @@ if __name__ == "__main__":
 						pass
 			except KeyError:
 				pass
+		multicharacter[count]["quests"] = list()
+		for quest in charquests['quests']:
+			multicharacter[count]["quests"].append(quest['id'])
 	characterfile.close()
 	charreputationoutput(count,multicharacter,outrep)
 	charprofessionoutput(count,multicharacter,outprof)
+	charquestsoutput(count,multicharacter,outquest)
 #	pprint (multicharacter)
-
-
-
-"""
-		for reputation in charreputation['reputations']:
-			print(" ", reputation['faction']['name'], end="\t")
-			print(" ", reputation['faction']['id'], end="\t")
-			print(" ", reputation['standing']['raw'], end="\t")
-			print(" ", reputation['standing']['value'], end="\t")
-			print(" ", reputation['standing']['max'], end="\t")
-			print(" ", reputation['standing']['tier'], end="\t")
-			print(" ", reputation['standing']['name'], end="\t")
-#			if exists reputation['paragon']['raw']:
-#				print(" ", reputation['standing']['name'], end="\t")
-#			else:
-#				print(" ", reputation['standing']['name'], end="\t")
-			try:
-				print(" ", reputation['paragon']['raw'], end="\t")
-				print(" ", reputation['paragon']['value'], end="\t")
-				print(" ", reputation['paragon']['max'], end="\n")
-			except KeyError:
-				print(end="\n")
-				pass
-		for professions in charprofessions['primaries']:
-			for tier in professions['tiers']:
-				print(" ", tier['tier']['id'], end="\t")
-				print(" ", tier['skill_points'], end="\t")
-				print(" ", tier['max_skill_points'])
-				for recipe in tier['known_recipes']:
-					print("   ", recipe['id'], recipe['name'])
-		for professions in charprofessions['secondaries']:
-			print(professions['profession']['name'])
-			try:
-				for tier in professions['tiers']:
-						print(" ", tier['tier']['name'], end="\t")
-					print(" ", tier['tier']['id'], end="\t")
-					print(" ", tier['skill_points'], end="\t")
-					print(" ", tier['max_skill_points'],end="\n")
-					try:
-						for recipe in tier['known_recipes']:
-							print("   ", recipe['id'], recipe['name'])
-					except KeyError:
-						pass
-			except KeyError:
-				pass
-"""
-"""
-		for professions in charprofessions['primaries']:
-			for tier in professions['tiers']:
-				if tier['tier']['id'] == 2494:
-					print(" ", "Vanilla Enchanting", end="\t")
-				elif tier['tier']['id'] == 2493:
-					print(" ", "Outland Enchanting", end="\t")
-				elif tier['tier']['id'] == 2492:
-					print(" ", "Northrend Enchanting", end="\t")
-				elif tier['tier']['id'] == 2491:
-					print(" ", "Cataclysmic Enchanting", end="\t")
-				elif tier['tier']['id'] == 2489:
-					print(" ", "Pandaren Enchanting", end="\t")
-				elif tier['tier']['id'] == 2488:
-					print(" ", "Warlords Enchanting", end="\t")
-				elif tier['tier']['id'] == 2487:
-					print(" ", "Legion Enchanting", end="\t")
-				elif tier['tier']['id'] == 2540:
-					print(" ", "Vanilla Tailoring", end="\t")
-				elif tier['tier']['id'] == 2539:
-					print(" ", "Outland Tailoring", end="\t")
-				elif tier['tier']['id'] == 2538:
-					print(" ", "Northrend Tailoring", end="\t")
-				elif tier['tier']['id'] == 2537:
-					print(" ", "Cataclysmic Tailoring", end="\t")
-				elif tier['tier']['id'] == 2536:
-					print(" ", "Pandaren Tailoring", end="\t")
-				elif tier['tier']['id'] == 2535:
-					print(" ", "Warlords Tailoring", end="\t")
-				elif tier['tier']['id'] == 2534:
-					print(" ", "Legion Tailoring", end="\t")
-				elif tier['tier']['id'] == 2485:
-					print(" ", "Vanilla Alchemy", end="\t")
-				elif tier['tier']['id'] == 2484:
-					print(" ", "Outland Alchemy", end="\t")
-				elif tier['tier']['id'] == 2483:
-					print(" ", "Northrend Alchemy", end="\t")
-				elif tier['tier']['id'] == 2482:
-					print(" ", "Cataclysmic Alchemy", end="\t")
-				elif tier['tier']['id'] == 2481:
-					print(" ", "Pandaren Alchemy", end="\t")
-				elif tier['tier']['id'] == 2480:
-					print(" ", "Warlords Alchemy", end="\t")
-				elif tier['tier']['id'] == 2476:
-					print(" ", "Legion Alchemy", end="\t")
-				elif tier['tier']['id'] == 2556:
-					print(" ", "Vanilla Herbalism", end="\t")
-				elif tier['tier']['id'] == 2555:
-					print(" ", "Outland Herbalism", end="\t")
-				elif tier['tier']['id'] == 2554:
-					print(" ", "Northrend Herbalism", end="\t")
-				elif tier['tier']['id'] == 2553:
-					print(" ", "Cataclysmic Herbalism", end="\t")
-				elif tier['tier']['id'] == 2552:
-					print(" ", "Pandaren Herbalism", end="\t")
-				elif tier['tier']['id'] == 2551:
-					print(" ", "Warlords Herbalism", end="\t")
-				elif tier['tier']['id'] == 2550:
-					print(" ", "Legion Herbalism", end="\t")
-				elif tier['tier']['id'] == 2506:
-					print(" ", "Vanilla Engineering", end="\t")
-				elif tier['tier']['id'] == 2505:
-					print(" ", "Outland Engineering", end="\t")
-				elif tier['tier']['id'] == 2504:
-					print(" ", "Northrend Engineering", end="\t")
-				elif tier['tier']['id'] == 2503:
-					print(" ", "Cataclysmic Engineering", end="\t")
-				elif tier['tier']['id'] == 2502:
-					print(" ", "Pandaren Engineering", end="\t")
-				elif tier['tier']['id'] == 2501:
-					print(" ", "Warlords Engineering", end="\t")
-				elif tier['tier']['id'] == 2500:
-					print(" ", "Legion Engineering", end="\t")
-				elif tier['tier']['id'] == 2532:
-					print(" ", "Vanilla Leatherworking", end="\t")
-				elif tier['tier']['id'] == 2531:
-					print(" ", "Outland Leatherworking", end="\t")
-				elif tier['tier']['id'] == 2530:
-					print(" ", "Northrend Leatherworking", end="\t")
-				elif tier['tier']['id'] == 2529:
-					print(" ", "Cataclysmic Leatherworking", end="\t")
-				elif tier['tier']['id'] == 2528:
-					print(" ", "Pandaren Leatherworking", end="\t")
-				elif tier['tier']['id'] == 2527:
-					print(" ", "Warlords Leatherworking", end="\t")
-				elif tier['tier']['id'] == 2526:
-					print(" ", "Legion Leatherworking", end="\t")
-				elif tier['tier']['id'] == 2564:
-					print(" ", "Vanilla Skinning", end="\t")
-				elif tier['tier']['id'] == 2563:
-					print(" ", "Outland Skinning", end="\t")
-				elif tier['tier']['id'] == 2562:
-					print(" ", "Northrend Skinning", end="\t")
-				elif tier['tier']['id'] == 2561:
-					print(" ", "Cataclysmic Skinning", end="\t")
-				elif tier['tier']['id'] == 2560:
-					print(" ", "Pandaren Skinning", end="\t")
-				elif tier['tier']['id'] == 2559:
-					print(" ", "Warlords Skinning", end="\t")
-				elif tier['tier']['id'] == 2558:
-					print(" ", "Legion Skinning", end="\t")
-				elif tier['tier']['id'] == 2572:
-					print(" ", "Vanilla Mining", end="\t")
-				elif tier['tier']['id'] == 2571:
-					print(" ", "Outland Mining", end="\t")
-				elif tier['tier']['id'] == 2570:
-					print(" ", "Northrend Mining", end="\t")
-				elif tier['tier']['id'] == 2569:
-					print(" ", "Cataclysmic Mining", end="\t")
-				elif tier['tier']['id'] == 2568:
-					print(" ", "Pandaren Mining", end="\t")
-				elif tier['tier']['id'] == 2567:
-					print(" ", "Warlords Mining", end="\t")
-				elif tier['tier']['id'] == 2566:
-					print(" ", "Legion Mining", end="\t")
-				elif tier['tier']['id'] == 2514:
-					print(" ", "Vanilla Inscription", end="\t")
-				elif tier['tier']['id'] == 2513:
-					print(" ", "Outland Inscription", end="\t")
-				elif tier['tier']['id'] == 2512:
-					print(" ", "Northrend Inscription", end="\t")
-				elif tier['tier']['id'] == 2511:
-					print(" ", "Cataclysmic Inscription", end="\t")
-				elif tier['tier']['id'] == 2510:
-					print(" ", "Pandaren Inscription", end="\t")
-				elif tier['tier']['id'] == 2509:
-					print(" ", "Warlords Inscription", end="\t")
-				elif tier['tier']['id'] == 2508:
-					print(" ", "Legion Inscription", end="\t")
-				elif tier['tier']['id'] == 2477:
-					print(" ", "Vanilla Blacksmithing", end="\t")
-				elif tier['tier']['id'] == 2476:
-					print(" ", "Outland Blacksmithing", end="\t")
-				elif tier['tier']['id'] == 2475:
-					print(" ", "Northrend Blacksmithing", end="\t")
-				elif tier['tier']['id'] == 2474:
-					print(" ", "Cataclysmic Blacksmithing", end="\t")
-				elif tier['tier']['id'] == 2473:
-					print(" ", "Pandaren Blacksmithing", end="\t")
-				elif tier['tier']['id'] == 2472:
-					print(" ", "Warlords Blacksmithing", end="\t")
-				elif tier['tier']['id'] == 2454:
-					print(" ", "Legion Blacksmithing", end="\t")
-				elif tier['tier']['id'] == 2524:
-					print(" ", "Vanilla Jewelcrafting", end="\t")
-				elif tier['tier']['id'] == 2523:
-					print(" ", "Outland Jewelcrafting", end="\t")
-				elif tier['tier']['id'] == 2522:
-					print(" ", "Northrend Jewelcrafting", end="\t")
-				elif tier['tier']['id'] == 2521:
-					print(" ", "Cataclysmic Jewelcrafting", end="\t")
-				elif tier['tier']['id'] == 2520:
-					print(" ", "Pandaren Jewelcrafting", end="\t")
-				elif tier['tier']['id'] == 2519:
-					print(" ", "Warlords Jewelcrafting", end="\t")
-				elif tier['tier']['id'] == 2518:
-					print(" ", "Legion Jewelcrafting", end="\t")
-				else:
-					print(" ", tier['tier']['name'], end="\t")
-				print(" ", tier['tier']['id'], end="\t")
-				print(" ", tier['skill_points'], end="\t")
-				print(" ", tier['max_skill_points'])
-				for recipe in tier['known_recipes']:
-					print("   ", recipe['id'], recipe['name'])
-		for professions in charprofessions['secondaries']:
-			print(professions['profession']['name'])
-			try:
-				for tier in professions['tiers']:
-					if tier['tier']['id'] == 2592:
-						print(" ", "Vanilla Fishing", end="\t")
-					elif tier['tier']['id'] == 2591:
-						print(" ", "Outland Fishing", end="\t")
-					elif tier['tier']['id'] == 2590:
-						print(" ", "Northrend Fishing", end="\t")
-					elif tier['tier']['id'] == 2589:
-						print(" ", "Cataclysmic Fishing", end="\t")
-					elif tier['tier']['id'] == 2588:
-						print(" ", "Pandaren Fishing", end="\t")
-					elif tier['tier']['id'] == 2587:
-						print(" ", "Warlords Fishing", end="\t")
-					elif tier['tier']['id'] == 2586:
-						print(" ", "Legion Fishing", end="\t")
-					elif tier['tier']['id'] == 2548:
-						print(" ", "Vanilla Cooking", end="\t")
-					elif tier['tier']['id'] == 2547:
-						print(" ", "Outland Cooking", end="\t")
-					elif tier['tier']['id'] == 2546:
-						print(" ", "Northrend Cooking", end="\t")
-					elif tier['tier']['id'] == 2545:
-						print(" ", "Cataclysmic Cooking", end="\t")
-					elif tier['tier']['id'] == 2544:
-						print(" ", "Pandaren Cooking", end="\t")
-					elif tier['tier']['id'] == 2543:
-						print(" ", "Warlords Cooking", end="\t")
-					elif tier['tier']['id'] == 2542:
-						print(" ", "Legion Cooking", end="\t")
-#					elif tier['tier']['id'] == 794:
-#						print(" ", tier['tier']['name'], end="\t")
-#						print(" ", tier['tier']['id'], end="\t")
-					else:
-						print(" ", tier['tier']['name'], end="\t")
-					print(" ", tier['tier']['id'], end="\t")
-					print(" ", tier['skill_points'], end="\t")
-					print(" ", tier['max_skill_points'],end="\n")
-					try:
-						for recipe in tier['known_recipes']:
-							print("   ", recipe['id'], recipe['name'])
-					except KeyError:
-						pass
-			except KeyError:
-				pass
-"""
