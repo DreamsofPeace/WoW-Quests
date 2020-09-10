@@ -562,6 +562,14 @@ class_quests	27272	Demisette Sends Word	alliance	class_warlock
 class_quests	27282	Kranosh's Behest	horde	class_warlock	
 class_quests	27355	A Boon for the Powerful	alliance	class_warlock	
 class_quests	27402	Token of Power	horde	class_warlock	
+class_quests	header	Legion Class Mount: Warlock			
+class_quests	46237	Bloodbringer's Missive			
+class_quests	46238	If You Build It			
+class_quests	46239	Fel to the Core			
+class_quests	46240	Give Me Fuel, Give Me Fire			
+class_quests	46241	The Minions of Hel'nurath			
+class_quests	46242	The Dreadlord's Calling			
+class_quests	46243	The Wrathsteed of Xoroth			
 class_quests	header	Warrior			
 class_quests	27225	A Summons from Ander Germaine	alliance	class_warrior	
 class_quests	27337	A Fitting Weapon	alliance	class_warrior	

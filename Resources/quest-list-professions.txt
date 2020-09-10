@@ -1,0 +1,37 @@
+prof_tailoring_1vanilla	header	Vanilla Tailoring	Quests	
+prof_tailoring_1vanilla	6032	Sacred Cloth			
+prof_tailoring_7legion	header	Legion Tailoring	Quests		
+prof_tailoring_7legion	38944	Sew It Begins			
+prof_tailoring_7legion	38945	This Should Be Simple... Right?			
+prof_tailoring_7legion	38946	Consult the Locals			
+prof_tailoring_7legion	38947	Runic Catgut			
+prof_tailoring_7legion	38948	Hard Times			
+prof_tailoring_7legion	38949	So You Think You Can Sew			
+prof_tailoring_7legion	38950	The Wayward Tailor			
+prof_tailoring_7legion	38952	Meticulous Precision			
+prof_tailoring_7legion	38953	Advanced Needlework			
+prof_tailoring_7legion	38954	Where's Lyndras?			
+prof_tailoring_7legion	38955	Sew Far, Sew Good			
+prof_tailoring_7legion	38956	Where's Lyndras Again?			
+prof_tailoring_7legion	38957	Taking Inspiration			
+prof_tailoring_7legion	38958	The Right Color			
+prof_tailoring_7legion	38959	Left Behind			
+prof_tailoring_7legion	38960	Lining Them Up			
+prof_tailoring_7legion	38963	The Final Lesson?			
+prof_tailoring_7legion	38961	Eye of Azshara: The Depraved Nightfallen			
+prof_tailoring_7legion	38964	Where's Lyndras Now?			
+prof_tailoring_7legion	39602	Where's Lyndras: Sewer Sleuthing			
+prof_tailoring_7legion	39605	Where's Lyndras: Downward Spiral			
+prof_tailoring_7legion	39667	Where's Lyndras: Leyflame Larceny			
+prof_tailoring_7legion	38965	Assault on Violet Hold: Into the Hold			
+prof_tailoring_7legion	38966	Secret Silkweaving Methods			
+prof_tailoring_7legion	38962	The Path to Suramar City			
+prof_tailoring_7legion	38967	The Nightborne Connection			
+prof_tailoring_7legion	38968	Proof of Loyalty			
+prof_tailoring_7legion	38969	Master of Silkweave			
+prof_tailoring_7legion	38970	The Queen's Grace Loom			
+prof_tailoring_7legion	38971	Exotic Textiles			
+prof_tailoring_7legion	38974	Halls of Valor: The Right Question			
+prof_tailoring_7legion	38975	Inspire Me!			
+prof_tailoring_7legion	44741	Return to Karazhan: The Big Bag Theory			
+prof_tailoring_7legion	48074	Looming Over Me			

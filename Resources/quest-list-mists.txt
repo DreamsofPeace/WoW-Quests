@@ -474,7 +474,7 @@ z_81_90_Krasarang_Wilds	31370	The Anglers	horde
 z_81_90_Krasarang_Wilds	49540	Warchief's Command: Krasarang Wilds!	horde		
 z_81_90_Krasarang_Wilds	49558	Hero's Call: Krasarang Wilds!	alliance		
 z_82_90_KunLai_Summit	header	82-90: KunLai Summit			
-z_82_90_KunLai_Summit	30457	Call Out Their Leader		a	b
+z_82_90_KunLai_Summit	30457	Call Out Their Leader			
 z_82_90_KunLai_Summit	30459	All of the Arrows			
 z_82_90_KunLai_Summit	30460	Hit Medicine			
 z_82_90_KunLai_Summit	30467	My Son...			

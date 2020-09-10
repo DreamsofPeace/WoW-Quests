@@ -1284,7 +1284,7 @@ z_67_80_Storm_Peaks	13038	Distortions in Time
 z_67_80_Storm_Peaks	13048	Where Time Went Wrong			
 z_67_80_Storm_Peaks	13049	The Hero's Arms			
 z_67_80_Storm_Peaks	13058	Changing the Wind's Course			
-z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Bouldercrag’s Refuge			
+z_67_80_Storm_Peaks	header	67-80: Storm Peaks: Bouldercrag's Refuge			
 z_67_80_Storm_Peaks	12885	The Exiles of Ulduar	alliance		
 z_67_80_Storm_Peaks	12929	The Earthen of Ulduar	horde		
 z_67_80_Storm_Peaks	12930	Rare Earth			

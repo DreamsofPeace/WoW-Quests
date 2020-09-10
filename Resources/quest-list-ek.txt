@@ -1,13 +1,13 @@
 sz_01_20_Dun_Morogh	header	01-20: Dun Morogh	alliance		
 sz_01_20_Dun_Morogh	308	Distracting Jarven			
-sz_01_20_Dun_Morogh	313	Forced to Watch from Afar	alliance		
-sz_01_20_Dun_Morogh	314	Protecting the Herd	alliance		
-sz_01_20_Dun_Morogh	315	The Perfect Stout	alliance		
-sz_01_20_Dun_Morogh	384	Beer Basted Boar Ribs	alliance		
+sz_01_20_Dun_Morogh	313	Forced to Watch from Afar			
+sz_01_20_Dun_Morogh	314	Protecting the Herd			
+sz_01_20_Dun_Morogh	315	The Perfect Stout			
+sz_01_20_Dun_Morogh	384	Beer Basted Boar Ribs			
 sz_01_20_Dun_Morogh	403	Guarded Thunderbrew Barrel			
-sz_01_20_Dun_Morogh	412	Operation Recombobulation	alliance		
+sz_01_20_Dun_Morogh	412	Operation Recombobulation			
 sz_01_20_Dun_Morogh	432	Those Blasted Troggs!			
-sz_01_20_Dun_Morogh	433	The Public Servant	alliance		
+sz_01_20_Dun_Morogh	433	The Public Servant			
 sz_01_20_Dun_Morogh	6387	Honor Students			
 sz_01_20_Dun_Morogh	6388	Gryth Thurden			
 sz_01_20_Dun_Morogh	6391	Ride to Ironforge			
@@ -18,32 +18,32 @@ sz_01_20_Dun_Morogh	24462	Operation Item Get
 sz_01_20_Dun_Morogh	25285	In and Out			
 sz_01_20_Dun_Morogh	25289	One Step Forward...			
 sz_01_20_Dun_Morogh	25295	Press Fire			
-sz_01_20_Dun_Morogh	25667	Culling the Wendigos	alliance		
-sz_01_20_Dun_Morogh	25668	Pilfered Supplies	alliance		
-sz_01_20_Dun_Morogh	25724	Frostmane Aggression	alliance		
-sz_01_20_Dun_Morogh	25792	Pushing Forward	alliance		
-sz_01_20_Dun_Morogh	25838	Help from Steelgrill's Depot	alliance		
-sz_01_20_Dun_Morogh	25839	The Ultrasafe Personnel Launcher	alliance		
-sz_01_20_Dun_Morogh	25840	Eliminate the Resistance	alliance		
-sz_01_20_Dun_Morogh	25841	Strike From Above	alliance		
-sz_01_20_Dun_Morogh	25882	A Hand at the Ranch	alliance		
-sz_01_20_Dun_Morogh	25905	Rams on the Lam	alliance		
-sz_01_20_Dun_Morogh	25932	It's Raid Night Every Night	alliance		
-sz_01_20_Dun_Morogh	25933	Help for the Quarry	alliance		
-sz_01_20_Dun_Morogh	25937	Priceless Treasures	alliance		
-sz_01_20_Dun_Morogh	25978	Entombed in Ice	alliance		
-sz_01_20_Dun_Morogh	25979	Dealing with the Surge	alliance		
-sz_01_20_Dun_Morogh	25986	Trouble at the Lake	alliance		
-sz_01_20_Dun_Morogh	25997	Dark Iron Scheming	alliance		
-sz_01_20_Dun_Morogh	25998	Get to the Airfield	alliance		
-sz_01_20_Dun_Morogh	26078	Extinguish the Fires	alliance		
-sz_01_20_Dun_Morogh	26085	Rallying the Defenders	alliance		
-sz_01_20_Dun_Morogh	26094	Striking Back	alliance		
-sz_01_20_Dun_Morogh	26102	Grimaxe's Demise	alliance		
-sz_01_20_Dun_Morogh	26112	Demanding Answers	alliance		
+sz_01_20_Dun_Morogh	25667	Culling the Wendigos			
+sz_01_20_Dun_Morogh	25668	Pilfered Supplies			
+sz_01_20_Dun_Morogh	25724	Frostmane Aggression			
+sz_01_20_Dun_Morogh	25792	Pushing Forward			
+sz_01_20_Dun_Morogh	25838	Help from Steelgrill's Depot			
+sz_01_20_Dun_Morogh	25839	The Ultrasafe Personnel Launcher			
+sz_01_20_Dun_Morogh	25840	Eliminate the Resistance			
+sz_01_20_Dun_Morogh	25841	Strike From Above			
+sz_01_20_Dun_Morogh	25882	A Hand at the Ranch			
+sz_01_20_Dun_Morogh	25905	Rams on the Lam			
+sz_01_20_Dun_Morogh	25932	It's Raid Night Every Night			
+sz_01_20_Dun_Morogh	25933	Help for the Quarry			
+sz_01_20_Dun_Morogh	25937	Priceless Treasures			
+sz_01_20_Dun_Morogh	25978	Entombed in Ice			
+sz_01_20_Dun_Morogh	25979	Dealing with the Surge			
+sz_01_20_Dun_Morogh	25986	Trouble at the Lake			
+sz_01_20_Dun_Morogh	25997	Dark Iron Scheming			
+sz_01_20_Dun_Morogh	25998	Get to the Airfield			
+sz_01_20_Dun_Morogh	26078	Extinguish the Fires			
+sz_01_20_Dun_Morogh	26085	Rallying the Defenders			
+sz_01_20_Dun_Morogh	26094	Striking Back			
+sz_01_20_Dun_Morogh	26102	Grimaxe's Demise			
+sz_01_20_Dun_Morogh	26112	Demanding Answers			
 sz_01_20_Dun_Morogh	26207	The Arts of a Rogue			
-sz_01_20_Dun_Morogh	26380	Bound for Kharanos	alliance		
-sz_01_20_Dun_Morogh	28868	The View from Down Here	alliance		
+sz_01_20_Dun_Morogh	26380	Bound for Kharanos			
+sz_01_20_Dun_Morogh	28868	The View from Down Here			
 sz_01_20_Dun_Morogh	42803	Invasion: Dun Morogh			
 sz_01_20_Dun_Morogh	43283	Demon Commander			
 sz_01_20_Dun_Morogh	43284	Invasion: Dun Morogh			
@@ -51,41 +51,41 @@ sz_01_20_Dun_Morogh	43291	Defend
 sz_01_20_Dun_Morogh	43292	Repel			
 sz_01_20_Dun_Morogh	47709	The Great Gnomeregan Run			
 sz_01_20_Elwynn_Forest	header	01-20: Elwynn Forest	alliance		
-sz_01_20_Elwynn_Forest	11	Riverpaw Gnoll Bounty	alliance		
-sz_01_20_Elwynn_Forest	16	Give Gerard a Drink	alliance		
-sz_01_20_Elwynn_Forest	35	Further Concerns	alliance		
-sz_01_20_Elwynn_Forest	37	Find the Lost Guards	alliance		
-sz_01_20_Elwynn_Forest	40	A Fishy Peril	alliance		
-sz_01_20_Elwynn_Forest	45	Discover Rolf's Fate	alliance		
-sz_01_20_Elwynn_Forest	46	Bounty on Murlocs	alliance		
-sz_01_20_Elwynn_Forest	47	Gold Dust Exchange	alliance		
-sz_01_20_Elwynn_Forest	52	Protect the Frontier	alliance		
-sz_01_20_Elwynn_Forest	59	Cloth and Leather Armor	alliance		
-sz_01_20_Elwynn_Forest	60	Kobold Candles	alliance		
-sz_01_20_Elwynn_Forest	62	The Fargodeep Mine	alliance		
-sz_01_20_Elwynn_Forest	71	Report to Thomas	alliance		
-sz_01_20_Elwynn_Forest	76	The Jasperlode Mine	alliance		
-sz_01_20_Elwynn_Forest	83	Fine Linen Goods	alliance		
-sz_01_20_Elwynn_Forest	84	Back to Billy	alliance		
-sz_01_20_Elwynn_Forest	85	Lost Necklace	alliance		
-sz_01_20_Elwynn_Forest	86	Pie for Billy	alliance		
-sz_01_20_Elwynn_Forest	87	Goldtooth	alliance		
-sz_01_20_Elwynn_Forest	88	Princess Must Die!	alliance		
-sz_01_20_Elwynn_Forest	106	Young Lovers	alliance		
-sz_01_20_Elwynn_Forest	107	Note to William	alliance		
-sz_01_20_Elwynn_Forest	111	Speak with Gramma	alliance		
-sz_01_20_Elwynn_Forest	112	Collecting Kelp	alliance		
-sz_01_20_Elwynn_Forest	114	The Escape	alliance		
-sz_01_20_Elwynn_Forest	123	The Collector	alliance		
-sz_01_20_Elwynn_Forest	147	Manhunt	alliance		
+sz_01_20_Elwynn_Forest	11	Riverpaw Gnoll Bounty			
+sz_01_20_Elwynn_Forest	16	Give Gerard a Drink			
+sz_01_20_Elwynn_Forest	35	Further Concerns			
+sz_01_20_Elwynn_Forest	37	Find the Lost Guards			
+sz_01_20_Elwynn_Forest	40	A Fishy Peril			
+sz_01_20_Elwynn_Forest	45	Discover Rolf's Fate			
+sz_01_20_Elwynn_Forest	46	Bounty on Murlocs			
+sz_01_20_Elwynn_Forest	47	Gold Dust Exchange			
+sz_01_20_Elwynn_Forest	52	Protect the Frontier			
+sz_01_20_Elwynn_Forest	59	Cloth and Leather Armor			
+sz_01_20_Elwynn_Forest	60	Kobold Candles			
+sz_01_20_Elwynn_Forest	62	The Fargodeep Mine			
+sz_01_20_Elwynn_Forest	71	Report to Thomas			
+sz_01_20_Elwynn_Forest	76	The Jasperlode Mine			
+sz_01_20_Elwynn_Forest	83	Fine Linen Goods			
+sz_01_20_Elwynn_Forest	84	Back to Billy			
+sz_01_20_Elwynn_Forest	85	Lost Necklace			
+sz_01_20_Elwynn_Forest	86	Pie for Billy			
+sz_01_20_Elwynn_Forest	87	Goldtooth			
+sz_01_20_Elwynn_Forest	88	Princess Must Die!			
+sz_01_20_Elwynn_Forest	106	Young Lovers			
+sz_01_20_Elwynn_Forest	107	Note to William			
+sz_01_20_Elwynn_Forest	111	Speak with Gramma			
+sz_01_20_Elwynn_Forest	112	Collecting Kelp			
+sz_01_20_Elwynn_Forest	114	The Escape			
+sz_01_20_Elwynn_Forest	123	The Collector			
+sz_01_20_Elwynn_Forest	147	Manhunt			
 sz_01_20_Elwynn_Forest	176	WANTED: \\\"Hogger\\\"			
-sz_01_20_Elwynn_Forest	239	Westbrook Garrison Needs Help!	alliance		
-sz_01_20_Elwynn_Forest	2158	Rest and Relaxation	alliance		
-sz_01_20_Elwynn_Forest	5545	A Bundle of Trouble	alliance		
+sz_01_20_Elwynn_Forest	239	Westbrook Garrison Needs Help!			
+sz_01_20_Elwynn_Forest	2158	Rest and Relaxation			
+sz_01_20_Elwynn_Forest	5545	A Bundle of Trouble			
 sz_01_20_Elwynn_Forest	7677	White Stallion Exchange			
 sz_01_20_Elwynn_Forest	7678	Palomino Exchange			
-sz_01_20_Elwynn_Forest	26150	A Visit With Maybell	alliance		
-sz_01_20_Elwynn_Forest	26152	WANTED: James Clark	alliance		
+sz_01_20_Elwynn_Forest	26150	A Visit With Maybell			
+sz_01_20_Elwynn_Forest	26152	WANTED: James Clark			
 sz_01_20_Elwynn_Forest	26393	A Swift Message			
 sz_01_20_Elwynn_Forest	26394	Continue to Stormwind			
 sz_01_20_Elwynn_Forest	26395	Dungar Longdrink			
@@ -94,7 +94,7 @@ sz_01_20_Elwynn_Forest	33422	Elwynn Long Distance Practice
 sz_01_20_Elwynn_Forest	33429	Elwynn Long Distance Trial: 25			
 sz_01_20_Elwynn_Forest	33431	Elwynn South Distance Trial: 30			
 sz_01_20_Elwynn_Forest	33432	Elwynn South Distance Practice			
-sz_01_20_Elwynn_Forest	37112	Rest and Relaxation	alliance		
+sz_01_20_Elwynn_Forest	37112	Rest and Relaxation			
 sz_01_20_Elwynn_Forest	38699	Competitive Exorcise			
 sz_01_20_Tirisfal_Glades	header	01-20: Tirisfal Glades	horde		
 sz_01_20_Tirisfal_Glades	24974	Ever So Lonely			
@@ -137,10 +137,10 @@ sz_01_20_Tirisfal_Glades	25039	Have You Seen Anything Weird Out There?
 sz_01_20_Tirisfal_Glades	25046	A Daughter's Embrace			
 sz_01_20_Tirisfal_Glades	25056	Grisly Grizzlies			
 sz_01_20_Tirisfal_Glades	25090	A Putrid Task			
-sz_01_20_Tirisfal_Glades	6321	Supplying Brill			race_scourge_female.jpg
-sz_01_20_Tirisfal_Glades	6322	Michael Garrett			race_scourge_female.jpg
-sz_01_20_Tirisfal_Glades	6323	Ride to the Undercity			race_scourge_female.jpg
-sz_01_20_Tirisfal_Glades	6324	Return to Morris			race_scourge_female.jpg
+sz_01_20_Tirisfal_Glades	6321	Supplying Brill			race_scourge_female
+sz_01_20_Tirisfal_Glades	6322	Michael Garrett			race_scourge_female
+sz_01_20_Tirisfal_Glades	6323	Ride to the Undercity			race_scourge_female
+sz_01_20_Tirisfal_Glades	6324	Return to Morris			race_scourge_female
 sz_01_20_Eversong_Woods	header	01-20: Eversong Woods	horde		
 sz_01_20_Eversong_Woods	8325	Reclaiming Sunstrider Isle			
 sz_01_20_Eversong_Woods	8326	Unfortunate Measures			
@@ -156,65 +156,65 @@ sz_01_20_Eversong_Woods	8347	Aiding the Outrunners
 sz_01_20_Eversong_Woods	9704	Slain by the Wretched			
 sz_01_20_Eversong_Woods	9705	Package Recovery			
 sz_01_20_Eversong_Woods	8350	Completing the Delivery			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Falconwing Square			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Falconwing Square	horde		
 sz_01_20_Eversong_Woods	8463	Unstable Mana Crystals			
 sz_01_20_Eversong_Woods	8468	Wanted: Thaelis the Hungerer			
 sz_01_20_Eversong_Woods	9352	Darnassian Intrusions			
 sz_01_20_Eversong_Woods	8482	Incriminating Documents			
 sz_01_20_Eversong_Woods	8483	The Dwarven Spy			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: West Sanctum			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: West Sanctum	horde		
 sz_01_20_Eversong_Woods	8472	Major Malfunction			
 sz_01_20_Eversong_Woods	8895	Delivery to the North Sanctum			
 sz_01_20_Eversong_Woods	9119	Malfunction at the West Sanctum			
 sz_01_20_Eversong_Woods	8486	Arcane Instability			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Roadside Ambush			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Roadside Ambush	horde		
 sz_01_20_Eversong_Woods	9035	Roadside Ambush			
 sz_01_20_Eversong_Woods	9062	Soaked Pages			
 sz_01_20_Eversong_Woods	9064	Taking the Fall			
 sz_01_20_Eversong_Woods	9066	Swift Discipline			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Breadcrumb to Fairbreeze Village			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Breadcrumb to Fairbreeze Village	horde		
 sz_01_20_Eversong_Woods	9256	Fairbreeze Village			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Fairbreeze Village			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Fairbreeze Village	horde		
 sz_01_20_Eversong_Woods	8491	Pelt Collection			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Flight Points			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Flight Points	horde		
 sz_01_20_Eversong_Woods	9130	Goods from Silvermoon City			
 sz_01_20_Eversong_Woods	9133	Fly to Silvermoon City			
 sz_01_20_Eversong_Woods	8475	The Dead Scar			
 sz_01_20_Eversong_Woods	9134	Skymistress Gloaming			
 sz_01_20_Eversong_Woods	9135	Return to Sathiel			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Sunsail Anchorage			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Sunsail Anchorage	horde		
 sz_01_20_Eversong_Woods	8892	Situation at Sunsail Anchorage			
 sz_01_20_Eversong_Woods	8886	Grimscale Pirates!			
 sz_01_20_Eversong_Woods	8480	Lost Armaments			
 sz_01_20_Eversong_Woods	9076	Wretched Ringleader			
 sz_01_20_Eversong_Woods	8887	Captain Kelisendra's Lost Rutters			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Murlocs			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Murlocs	horde		
 sz_01_20_Eversong_Woods	8884	Fish Heads, Fish Heads...			
 sz_01_20_Eversong_Woods	8885	The Ring of Mmmrrrggglll			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Saltheril's Haven			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Saltheril's Haven	horde		
 sz_01_20_Eversong_Woods	9395	Saltheril's Haven			
 sz_01_20_Eversong_Woods	9067	The Party Never Ends			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Defending Fairbreeze Village			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Defending Fairbreeze Village	horde		
 sz_01_20_Eversong_Woods	9358	Ranger Sareyn			
 sz_01_20_Eversong_Woods	9252	Defending Fairbreeze Village			
 sz_01_20_Eversong_Woods	9253	Runewarden Deryan			
 sz_01_20_Eversong_Woods	8490	Powering our Defenses			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: East Sanctum			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: East Sanctum	horde		
 sz_01_20_Eversong_Woods	9254	The Wayward Apprentice			
 sz_01_20_Eversong_Woods	8487	Corrupted Soil			
 sz_01_20_Eversong_Woods	8488	Unexpected Results			
 sz_01_20_Eversong_Woods	9255	Research Notes			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Scorched Grove			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Scorched Grove	horde		
 sz_01_20_Eversong_Woods	9258	The Scorched Grove			
 sz_01_20_Eversong_Woods	8473	A Somber Task			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Farstrider Retreat			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Farstrider Retreat	horde		
 sz_01_20_Eversong_Woods	9359	Farstrider Retreat			
 sz_01_20_Eversong_Woods	8476	Amani Encroachment			
 sz_01_20_Eversong_Woods	8477	The Spearcrafter's Hammer			
 sz_01_20_Eversong_Woods	8479	Zul'Marosh			
 sz_01_20_Eversong_Woods	9360	Amani Invasion			
 sz_01_20_Eversong_Woods	9363	Warning Fairbreeze Village			
-sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Duskwither Spire			
+sz_01_20_Eversong_Woods	header	01-20: Eversong Woods: Duskwither Spire	horde		
 sz_01_20_Eversong_Woods	8888	The Magister's Apprentice			
 sz_01_20_Eversong_Woods	8889	Deactivating the Spire			
 sz_01_20_Eversong_Woods	9394	Where's Wyllithen?			
@@ -226,21 +226,21 @@ z_10_60_Ghostlands	28560	Warchief's Command: Ghostlands!
 z_10_60_Ghostlands	9144	Missing in the Ghostlands			
 z_10_60_Ghostlands	9147	The Fallen Courier			
 z_10_60_Ghostlands	9148	Delivery to Tranquillien			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Tranquillen			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Tranquillen	horde		
 z_10_60_Ghostlands	9327	The Forsaken			
 z_10_60_Ghostlands	9329	The Forsaken			
 z_10_60_Ghostlands	9758	Return to Arcanist Vandril			
 z_10_60_Ghostlands	9138	Suncrown Village			
 z_10_60_Ghostlands	9139	Goldenmist Village			
 z_10_60_Ghostlands	9140	Windrunner Village			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Night Elf Interferance			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Night Elf Interferance	horde		
 z_10_60_Ghostlands	9160	Investigate An'daroth			
 z_10_60_Ghostlands	9163	Into Occupied Territory			
 z_10_60_Ghostlands	9166	Deliver the Plans to An'telas			
 z_10_60_Ghostlands	9169	Deactivate An'owyn			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Suncrown Village			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Suncrown Village	horde		
 z_10_60_Ghostlands	9315	Anok'suten			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Farstriders			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Farstriders	horde		
 z_10_60_Ghostlands	9145	Help Ranger Valanna!			
 z_10_60_Ghostlands	9143	Dealing with Zeb'Sora			
 z_10_60_Ghostlands	9146	Report to Captain Helios			
@@ -254,19 +254,19 @@ z_10_60_Ghostlands	9274	Spirits of the Drowned
 z_10_60_Ghostlands	9159	Curbing the Plague			
 z_10_60_Ghostlands	9275	A Little Dash of Seasoning			
 z_10_60_Ghostlands	9277	Assault on Zeb'Nowa			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Amani Catacombs			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Amani Catacombs	horde		
 z_10_60_Ghostlands	9193	Investigate the Amani Catacombs			
 z_10_60_Ghostlands	9199	Troll Juju			
 z_10_60_Ghostlands	9212	Escape from the Catacombs			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Windrunner Village			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Windrunner Village	horde		
 z_10_60_Ghostlands	9173	Retaking Windrunner Spire			
 z_10_60_Ghostlands	9175	The Lady's Necklace			
 z_10_60_Ghostlands	9180	Journey to Undercity			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Dead Scar			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Dead Scar	horde		
 z_10_60_Ghostlands	9155	Down the Dead Scar			
 z_10_60_Ghostlands	9216	Rotting Hearts			
 z_10_60_Ghostlands	9218	Spinal Dust			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Deatholme			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Deatholme	horde		
 z_10_60_Ghostlands	9282	The Farstrider Enclave			
 z_10_60_Ghostlands	9161	The Traitor's Shadow			
 z_10_60_Ghostlands	9162	Hints of the Past			
@@ -279,13 +279,13 @@ z_10_60_Ghostlands	9176	The Twin Ziggurats
 z_10_60_Ghostlands	9877	A Restorative Draught			
 z_10_60_Ghostlands	9164	Captives at Deatholme			
 z_10_60_Ghostlands	9167	The Traitor's Destruction			
-z_10_60_Ghostlands	9328	Hero of the Sin'dorei			
+z_10_60_Ghostlands	9328	Hero of the Sin'dorei			race_bloodelf_female
 z_10_60_Ghostlands	9811	Friend of the Sin'dorei			
-z_10_60_Ghostlands	9621	Envoy to the Horde			
+z_10_60_Ghostlands	9621	Envoy to the Horde			race_bloodelf_female
 z_10_60_Ghostlands	9812	Envoy to the Horde			
-z_10_60_Ghostlands	9626	Meeting the Orcs			
+z_10_60_Ghostlands	9626	Meeting the Orcs			race_bloodelf_female
 z_10_60_Ghostlands	9813	Meeting the Orcs			
-z_10_60_Ghostlands	header	10-60: Ghostlands: Miscellaneous			
+z_10_60_Ghostlands	header	10-60: Ghostlands: Miscellaneous	horde		
 z_10_60_Ghostlands	9150	Salvaging the Past			
 z_10_60_Ghostlands	9156	Wanted: Knucklerot and Luzran			
 z_10_60_Ghostlands	9171	Culinary Crunch			
@@ -468,54 +468,54 @@ z_10_60_Westfall	43242	Demon Commander
 z_10_60_Westfall	43245	Invasion: Westfall			
 z_10_60_Westfall	43287	Defend			
 z_10_60_Westfall	43288	Repel			
-z_15_60_Redridge_Mountains	header	15-60: Redridge Mountains			
-z_15_60_Redridge_Mountains	26365	Hero's Call: Redridge Mountains!	alliance		
-z_15_60_Redridge_Mountains	26503	Still Assessing the Threat	alliance		
-z_15_60_Redridge_Mountains	26504	WANTED: Redridge Gnolls	alliance		
-z_15_60_Redridge_Mountains	26505	Parker's Report	alliance		
-z_15_60_Redridge_Mountains	26506	Franks and Beans	alliance		
-z_15_60_Redridge_Mountains	26508	Nida's Necklace	alliance		
-z_15_60_Redridge_Mountains	26509	An Unwelcome Guest	alliance		
-z_15_60_Redridge_Mountains	26510	We Must Prepare!	alliance		
-z_15_60_Redridge_Mountains	26511	Lake Everstill Clean Up	alliance		
-z_15_60_Redridge_Mountains	26512	Tuning the Gnomecorder	alliance		
-z_15_60_Redridge_Mountains	26513	Like a Fart in the Wind	alliance		
+z_15_60_Redridge_Mountains	header	15-60: Redridge Mountains	alliance		
+z_15_60_Redridge_Mountains	26365	Hero's Call: Redridge Mountains!			
+z_15_60_Redridge_Mountains	26503	Still Assessing the Threat			
+z_15_60_Redridge_Mountains	26504	WANTED: Redridge Gnolls			
+z_15_60_Redridge_Mountains	26505	Parker's Report			
+z_15_60_Redridge_Mountains	26506	Franks and Beans			
+z_15_60_Redridge_Mountains	26508	Nida's Necklace			
+z_15_60_Redridge_Mountains	26509	An Unwelcome Guest			
+z_15_60_Redridge_Mountains	26510	We Must Prepare!			
+z_15_60_Redridge_Mountains	26511	Lake Everstill Clean Up			
+z_15_60_Redridge_Mountains	26512	Tuning the Gnomecorder			
+z_15_60_Redridge_Mountains	26513	Like a Fart in the Wind			
 z_15_60_Redridge_Mountains	26514	Canyon Romp			
-z_15_60_Redridge_Mountains	26519	He Who Controls the Ettins	alliance		
-z_15_60_Redridge_Mountains	26520	Saving Foreman Oslow	alliance		
+z_15_60_Redridge_Mountains	26519	He Who Controls the Ettins			
+z_15_60_Redridge_Mountains	26520	Saving Foreman Oslow			
 z_15_60_Redridge_Mountains	26544	They've Wised Up...			
-z_15_60_Redridge_Mountains	26545	Yowler Must Die!	alliance		
-z_15_60_Redridge_Mountains	26560	Jorgensen	alliance		
-z_15_60_Redridge_Mountains	26561	Krakauer	alliance		
-z_15_60_Redridge_Mountains	26562	And Last But Not Least... Danforth	alliance		
-z_15_60_Redridge_Mountains	26563	Return of the Bravo Company	alliance		
-z_15_60_Redridge_Mountains	26567	John J. Keeshan	alliance		
-z_15_60_Redridge_Mountains	26568	This Ain't My War	alliance		
-z_15_60_Redridge_Mountains	26569	Surveying Equipment	alliance		
-z_15_60_Redridge_Mountains	26570	Render's Army	alliance		
-z_15_60_Redridge_Mountains	26571	Weapons of War	alliance		
-z_15_60_Redridge_Mountains	26573	His Heart Must Be In It	alliance		
-z_15_60_Redridge_Mountains	26586	In Search of Bravo Company	alliance		
-z_15_60_Redridge_Mountains	26587	Breaking Out is Hard to Do	alliance		
-z_15_60_Redridge_Mountains	26607	They Drew First Blood	alliance		
-z_15_60_Redridge_Mountains	26616	It's Never Over	alliance		
-z_15_60_Redridge_Mountains	26636	Bravo Company Field Kit: Camouflage	alliance		
-z_15_60_Redridge_Mountains	26637	Bravo Company Field Kit: Chloroform	alliance		
-z_15_60_Redridge_Mountains	26638	Hunting the Hunters	alliance		
-z_15_60_Redridge_Mountains	26639	Point of Contact: Brubaker	alliance		
-z_15_60_Redridge_Mountains	26640	Unspeakable Atrocities	alliance		
-z_15_60_Redridge_Mountains	26646	Prisoners of War	alliance		
-z_15_60_Redridge_Mountains	26651	To Win a War, You Gotta Become War	alliance		
-z_15_60_Redridge_Mountains	26668	Detonation	alliance		
-z_15_60_Redridge_Mountains	26692	Shadowhide Extinction	alliance		
-z_15_60_Redridge_Mountains	26693	The Dark Tower	alliance		
-z_15_60_Redridge_Mountains	26694	The Grand Magus Doane	alliance		
-z_15_60_Redridge_Mountains	26708	AHHHHHHHHHHHH! AHHHHHHHHH!!!	alliance		
-z_15_60_Redridge_Mountains	26713	Showdown at Stonewatch	alliance		
-z_15_60_Redridge_Mountains	26714	Darkblaze, Brood of the Worldbreaker	alliance		
-z_15_60_Redridge_Mountains	26726	Triumphant Return	alliance		
-z_15_60_Redridge_Mountains	26761	Threat to the Kingdom	alliance		
-z_15_60_Redridge_Mountains	28563	Hero's Call: Redridge Mountains!	alliance		
+z_15_60_Redridge_Mountains	26545	Yowler Must Die!			
+z_15_60_Redridge_Mountains	26560	Jorgensen			
+z_15_60_Redridge_Mountains	26561	Krakauer			
+z_15_60_Redridge_Mountains	26562	And Last But Not Least... Danforth			
+z_15_60_Redridge_Mountains	26563	Return of the Bravo Company			
+z_15_60_Redridge_Mountains	26567	John J. Keeshan			
+z_15_60_Redridge_Mountains	26568	This Ain't My War			
+z_15_60_Redridge_Mountains	26569	Surveying Equipment			
+z_15_60_Redridge_Mountains	26570	Render's Army			
+z_15_60_Redridge_Mountains	26571	Weapons of War			
+z_15_60_Redridge_Mountains	26573	His Heart Must Be In It			
+z_15_60_Redridge_Mountains	26586	In Search of Bravo Company			
+z_15_60_Redridge_Mountains	26587	Breaking Out is Hard to Do			
+z_15_60_Redridge_Mountains	26607	They Drew First Blood			
+z_15_60_Redridge_Mountains	26616	It's Never Over			
+z_15_60_Redridge_Mountains	26636	Bravo Company Field Kit: Camouflage			
+z_15_60_Redridge_Mountains	26637	Bravo Company Field Kit: Chloroform			
+z_15_60_Redridge_Mountains	26638	Hunting the Hunters			
+z_15_60_Redridge_Mountains	26639	Point of Contact: Brubaker			
+z_15_60_Redridge_Mountains	26640	Unspeakable Atrocities			
+z_15_60_Redridge_Mountains	26646	Prisoners of War			
+z_15_60_Redridge_Mountains	26651	To Win a War, You Gotta Become War			
+z_15_60_Redridge_Mountains	26668	Detonation			
+z_15_60_Redridge_Mountains	26692	Shadowhide Extinction			
+z_15_60_Redridge_Mountains	26693	The Dark Tower			
+z_15_60_Redridge_Mountains	26694	The Grand Magus Doane			
+z_15_60_Redridge_Mountains	26708	AHHHHHHHHHHHH! AHHHHHHHHH!!!			
+z_15_60_Redridge_Mountains	26713	Showdown at Stonewatch			
+z_15_60_Redridge_Mountains	26714	Darkblaze, Brood of the Worldbreaker			
+z_15_60_Redridge_Mountains	26726	Triumphant Return			
+z_15_60_Redridge_Mountains	26761	Threat to the Kingdom			
+z_15_60_Redridge_Mountains	28563	Hero's Call: Redridge Mountains!			
 z_15_60_Redridge_Mountains	33350	Redridge Group Trial			
 z_15_60_Hillsbrad_Foothills	header	Hillsbrad Foothills	horde		
 z_15_60_Hillsbrad_Foothills	27746	Empire of Dirt			

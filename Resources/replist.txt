@@ -1,0 +1,210 @@
+rep	1168	Guild
+header	Vanilla
+rep	529	Argent Dawn
+rep	87	Bloodsail Buccaneers
+rep	609	Cenarion Circle
+rep	909	Darkmoon Faire
+rep	576	Timbermaw Hold
+rep	349	Ravenholdt
+rep	70	Syndicate
+rep	92	Gelkis Clan Centaur
+rep	93	Magram Clan Centaur
+header	Vanilla: Steamwheedle Cartel
+rep	21	Booty Bay
+rep	577	Everlook
+rep	369	Gadgetzan
+rep	470	Ratchet
+header	Vanilla: Raids
+rep	59	Thorium Brotherhood
+rep	749	Hydraxian Waterlords
+rep	910	Brood of Nozdormu
+header	Vanilla: Alliance
+rep	72	Stormwind
+rep	47	Ironforge
+rep	54	Gnomeregan
+rep	69	Darnassus
+rep	930	Exodar
+rep	1134	Gilneas
+rep	1353	Tushui Pandaren
+header	Vanilla: Horde
+rep	76	Orgrimmar
+rep	81	Thunder Bluff
+rep	68	Undercity
+rep	530	Darkspear Trolls
+rep	911	Silvermoon City
+rep	922	Tranquillien
+rep	1133	Bilgewater Cartel
+rep	1352	Huojin Pandaren
+header	Vanilla: PvP: Alliance
+rep	209	The League of Arathor
+rep	730	Stormpike Guard
+rep	890	Silverwing Sentinels
+rep	1419	Bizmo's Brawlpub (Season 1) (Mists)
+rep	1691	Bizmo's Brawlpub (Season 2) (Warlords)
+rep	2011	Bizmo's Brawlpub (Season 3) (Legion)
+rep	2371	Bizmo's Brawlpub (Season 4) (BFA)
+header	Vanilla: PvP: Horde
+rep	510	The Defilers
+rep	729	Frostwolf Clan
+rep	889	Warsong Outriders
+rep	1374	Brawl'gar Arena (Season 1) (Mists)
+rep	1690	Brawl'gar Arena (Season 2) (Warlords)
+rep	2010	Brawl'gar Arena (Season 3) (Legion)
+rep	2372	Brawl'gar Arena (BfA)
+header	Vanilla: Removed
+rep	809	Shen'dralar
+rep	270	Zandalar Tribe
+header	Burning Crusade
+rep	942	Cenarion Expedition
+rep	1015	Netherwing
+rep	933	The Consortium
+rep	970	Sporeggar
+rep	1038	Ogri'la
+header	Burning Crusade: Shattrath
+rep	932	The Aldor
+rep	934	The Scryers
+rep	935	The Sha'tar
+rep	1011	Lower City
+rep	1031	Sha'tari Skyguard
+rep	1077	Shattered Sun Offensive
+header	Burning Crusade: Raids
+rep	967	The Violet Eye
+rep	989	Keepers of Time
+rep	990	The Scale of the Sands
+rep	1012	Ashtongue Deathsworn
+header	Burning Crusade: Alliance
+rep	946	Honor Hold
+rep	978	Kurenai
+header	Burning Crusade: Horde
+rep	947	Thrallmar
+rep	941	The Mag'har
+header	Wrath of the Lich King
+rep	1106	Argent Crusade
+rep	1090	Kirin Tor
+rep	1098	Knights of the Ebon Blade
+rep	1156	The Ashen Verdict
+rep	1073	The Kalu'ak
+rep	1119	The Sons of Hodir
+rep	1091	The Wyrmrest Accord
+header	Wrath of the Lich King: Shalozar Basin
+rep	1104	Frenzyheart Tribe
+rep	1105	The Oracles
+header	Wrath of the Lich King: Alliance Vanguard
+rep	1037	Alliance Vanguard
+rep	1068	Explorers' League
+rep	1126	The Frostborn
+rep	1094	The Silver Covenant
+rep	1050	Valiance Expedition
+header	Wrath of the Lich King: Horde Expedition
+rep	1052	Horde Expedition
+rep	1064	The Taunka
+rep	1067	The Hand of Vengeance
+rep	1124	The Sunreavers
+rep	1085	Warsong Offensive
+header	Cataclysm
+rep	1204	Avengers of Hyjal
+rep	1158	Guardians of Hyjal
+rep	1173	Ramkahen
+rep	1171	Therazane
+rep	1135	The Earthen Ring
+header	Cataclysm: Alliance
+rep	1174	Wildhammer Clan
+rep	1177	Baradin's Wardens
+header	Cataclysm: Alliance
+rep	1172	Dragonmaw Clan
+rep	1178	Hellscream's Reach
+header	Mists of Pandaria
+rep	1269	Golden Lotus
+rep	1270	Shado-Pan
+rep	1271	Order of the Cloud Serpent
+rep	1435	Shado-Pan Assault
+rep	1492	Emperor Shaohao
+rep	1337	The Klaxxi
+rep	1341	The August Celestials
+rep	1345	The Lorewalkers
+rep	1359	The Black Prince
+header	Mists of Pandaria: The Tillers
+rep	1272	The Tillers
+rep	1273	Jogu the Drunk
+rep	1275	Ella
+rep	1276	Old Hillpaw
+rep	1277	Chee Chee
+rep	1278	Sho
+rep	1279	Haohan Mudclaw
+rep	1280	Tina Mudclaw
+rep	1281	Gina Mudclaw
+rep	1282	Fish Fellreed
+rep	1283	Farmer Fung
+header	Mists of Pandaria: The Anglers
+rep	1302	The Anglers
+rep	1358	Nat Pagle
+header	Mists of Pandaria: Alliance
+rep	1241	Pearlfin Jinyu
+rep	1376	Operation: Shieldwall
+rep	1387	Kirin Tor Offensive
+header	Mists of Pandaria: Horde
+rep	1228	Forest Hozen
+rep	1375	Dominance Offensive
+rep	1388	Sunreaver Onslaught
+header	Warlords of Draenor
+rep	1515	Arakkoa Outcasts
+rep	1711	Steamwheedle Preservation Society
+rep	1849	Order of the Awakened
+rep	1850	The Saberstalkers
+header	Warlords of Draenor: Barracks Bodyguards
+rep	1736	Tormmok
+rep	1737	Talonpriest Ishaal
+rep	1741	Leorajh
+rep	1733	Delvar Ironfist (Alliance)
+rep	1738	Defender Illona (Alliance)
+rep	1739	Vivianne (Horde)
+rep	1740	Aeda Brightdawn (Horde)
+header	Warlords of Draenor: Alliance
+rep	1682	Wrynn's Vanguard
+rep	1710	Sha'tari Defense
+rep	1731	Council of Exarchs
+rep	1847	Hand of the Prophet
+header	Warlords of Draenor: Horde
+rep	1681	Vol'jin's Spear
+rep	1445	Frostwolf Orcs
+rep	1708	Laughing Skull Orcs
+rep	1848	Vol'jin's Headhunters
+header	Legion
+repparagon	1900	Court of Farondis
+repparagon	1883	Dreamweavers
+repparagon	1828	Highmountain Tribe
+repparagon	1948	Valarjar
+repparagon	1894	The Wardens
+repparagon	1859	The Nightfallen
+rep	2018	Talon's Vengeance
+repparagon	2045	Armies of Legionfall
+repparagon	2165	Army of the Light
+repparagon	2170	Argussian Reach
+rep	2135	Chromie
+header	Legion: Fishing
+rep	1975	Conjurer Margoss
+rep	2102	Impus
+rep	2097	Ilyssia of the Waters
+rep	2098	Keeper Raynae
+rep	2099	Akule Riverhorn
+rep	2100	Corbyn
+rep	2101	Sha'leth
+header	Battle for Azeroth
+repparagon	2164	Champions of Azeroth
+repparagon	2163	Tortollan Seekers
+repparagon	2391	Rustbolt Resistance
+repparagon	2415	Rajani
+repparagon	2417	Uldum Accord
+header	Battle for Azeroth: Alliance
+repparagon	2159	7th Legion
+repparagon	2160	Proudmoore Admiralty
+repparagon	2161	Order of Embers
+repparagon	2162	Storm's Wake
+repparagon	2400	Waveblade Ankoan
+rep	2395	Honeyback Hive
+header	Battle for Azeroth: Horder
+repparagon	2103	Zandalari Empire
+repparagon	2156	Talanji's Expedition
+repparagon	2157	The Honorbound
+repparagon	2158	Voldunai
+repparagon	2373	The Unshackled
