@@ -7,6 +7,7 @@ import io
 import sys
 from characterutil import *
 from characterquests import *
+from characterprof import *
 from pprint import pprint
 from requests.auth import HTTPBasicAuth
 
@@ -1415,30 +1416,17 @@ def printquestcompletion(count,datatree,openfile,recipeid,recipename):
 		except KeyError:
 			print ("<td class=\"blackout\"></td>", end="\n", file=openfile)
 
-def charprofessionoutput(count,datatree,outputfile):
-	mytitle = "Professions"
-	openfile = open(outputfile, "w")
-	htmlheader(openfile,mytitle)
-	htmlbodyopen(openfile)
-	htmltableopen(openfile)
-	printdataheader(count,datatree,openfile)
-#	printprofession(count,datatree,openfile)
-	htmltableclose(openfile)
-	htmlbodyclose(openfile)
-	htmlclose(openfile)
-	openfile.close()
+#def printprofessiontailoring(count,datatree,openfile):
+#	totalreps = count + 1
+#	htmltabletropen(openfile)
+#	htmltabletdopen(openfile)
+##	print ("Guild", end="\n", file=openfile)
+#	htmltabletdclose(openfile)
+##	printsingleprofrecipe(count,datatree,openfile,1168)
+#	htmltabletrclose(openfile)
 
-def printprofessiontailoring(count,datatree,openfile):
-	totalreps = count + 1
-	htmltabletropen(openfile)
-	htmltabletdopen(openfile)
-#	print ("Guild", end="\n", file=openfile)
-	htmltabletdclose(openfile)
-#	printsingleprofrecipe(count,datatree,openfile,1168)
-	htmltabletrclose(openfile)
-
-def printprofessiontailoring(count,datatree,openfile):
-	totalreps = count + 1
+#def printprofessiontailoring(count,datatree,openfile):
+#	totalreps = count + 1
 
 '''
                      2537: {'recipes': [
@@ -1578,13 +1566,13 @@ Tailoring: Cataclysm
 125496	Master's Spellthread
 125497	Sanctified Spellthread
 '''
-def printprofession(count,datatree,openfile):
+#def printprofession(count,datatree,openfile):
 #	printprofessionalchemy(count,datatree,openfile)
 #	printprofessionblacksmith(count,datatree,openfile)
 #	printprofessionenchanting(count,datatree,openfile)
 #	printprofessionleatherworking(count,datatree,openfile)
 #	printprofessionjewelcrafting(count,datatree,openfile)
-	printprofessiontailoring(count,datatree,openfile)
+#	printprofessiontailoring(count,datatree,openfile)
 #	printprofessioncooking(count,datatree,openfile)
 #	printprofessionmining(count,datatree,openfile)
 #	printprofessionbotany(count,datatree,openfile)
@@ -1891,7 +1879,7 @@ if __name__ == "__main__":
 		for quest in charquests['quests']:
 			multicharacter[count]["quests"].append(quest['id'])
 	characterfile.close()
-	charreputationoutput(count,multicharacter,outrep)
+#	charreputationoutput(count,multicharacter,outrep)
+#	charquestsoutput(count,multicharacter,outquest)
 	charprofessionoutput(count,multicharacter,outprof)
-	charquestsoutput(count,multicharacter,outquest)
 #	pprint (multicharacter)
