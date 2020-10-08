@@ -210,9 +210,9 @@ sz_01_20_Teldrassil	28730	Precious Waters	alliance	race_nightelf_female
 sz_01_20_Teldrassil	28731	Teldrassil: Passing Awareness	alliance	race_nightelf_female	
 sz_01_20_Teldrassil	28734	A Favor for Melithar	alliance		
 sz_01_20_Azuremyst_Isle	header	01-20: Azuremyst Isle	alliance			
-sz_01_20_Azuremyst_Isle	9279	You Survived!	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9280	Replenishing the Healing Crystals	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9283	Rescue the Survivors!	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9279	You Survived!	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9280	Replenishing the Healing Crystals	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9283	Rescue the Survivors!	alliance	race_draenei_female	
 sz_01_20_Azuremyst_Isle	9293	What Must Be Done...	alliance		
 sz_01_20_Azuremyst_Isle	9294	Healing the Lake	alliance		
 sz_01_20_Azuremyst_Isle	9303	Inoculation	alliance		
@@ -230,9 +230,9 @@ sz_01_20_Azuremyst_Isle	9453	Find Acteon!	alliance
 sz_01_20_Azuremyst_Isle	9454	The Great Moongraze Hunt	alliance		
 sz_01_20_Azuremyst_Isle	9455	Strange Findings	alliance		
 sz_01_20_Azuremyst_Isle	9456	Nightstalker Clean Up, Isle 2...	alliance		
-sz_01_20_Azuremyst_Isle	9463	Medicinal Purpose	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9473	An Alternative Alternative	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9505	The Prophecy of Velen	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9463	Medicinal Purpose	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9473	An Alternative Alternative	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9505	The Prophecy of Velen	alliance	race_draenei_female	
 sz_01_20_Azuremyst_Isle	9506	A Small Start	alliance		
 sz_01_20_Azuremyst_Isle	9512	Cookie's Jumbo Gumbo	alliance		
 sz_01_20_Azuremyst_Isle	9513	Reclaiming the Ruins	alliance		
@@ -260,11 +260,11 @@ sz_01_20_Azuremyst_Isle	9570	The Kurken is Lurkin'	alliance
 sz_01_20_Azuremyst_Isle	9571	The Kurken's Hide	alliance		
 sz_01_20_Azuremyst_Isle	9573	Chieftain Oomooroo	alliance		
 sz_01_20_Azuremyst_Isle	9602	Deliver Them From Evil...	alliance		
-sz_01_20_Azuremyst_Isle	9603	Beds, Bandages, and Beyond	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9604	On the Wings of a Hippogryph	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9605	Hippogryph Master Stephanos	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9606	Return to Caregiver Chellan	alliance	Draenei	
-sz_01_20_Azuremyst_Isle	9612	A Hearty Thanks!	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	9603	Beds, Bandages, and Beyond	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9604	On the Wings of a Hippogryph	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9605	Hippogryph Master Stephanos	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9606	Return to Caregiver Chellan	alliance	race_draenei_female	
+sz_01_20_Azuremyst_Isle	9612	A Hearty Thanks!	alliance	race_draenei_female	
 sz_01_20_Azuremyst_Isle	9616	Bandits!	alliance		
 sz_01_20_Azuremyst_Isle	9622	Warn Your People	alliance		
 sz_01_20_Azuremyst_Isle	9798	Blood Elf Plans	alliance		
@@ -274,7 +274,7 @@ sz_01_20_Azuremyst_Isle	10303	The Blood Elves	alliance
 sz_01_20_Azuremyst_Isle	10304	Vindicator Aldar	alliance		
 sz_01_20_Azuremyst_Isle	10324	The Great Moongraze Hunt	alliance		
 sz_01_20_Azuremyst_Isle	10428	The Missing Fisherman	alliance		
-sz_01_20_Azuremyst_Isle	14082	Learn to Ride at the Exodar	alliance	Draenei	
+sz_01_20_Azuremyst_Isle	14082	Learn to Ride at the Exodar	alliance	race_draenei_female	
 sz_01_20_Azuremyst_Isle	37444	Inoculation	alliance		
 sz_01_20_Azuremyst_Isle	37445	Spare Parts	alliance		
 z_10_60_Azshara	header	header	10-20: Azshara: The Rear Gate	horde		
