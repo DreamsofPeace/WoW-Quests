@@ -1,0 +1,104 @@
+Blacksmithing	164	Blacksmithing	2477
+Blacksmithing	164	Outland Blacksmithing	2476
+Blacksmithing	164	Northrend Blacksmithing	2475
+Blacksmithing	164	Cataclysm Blacksmithing	2474
+Blacksmithing	164	Pandaria Blacksmithing	2473
+Blacksmithing	164	Draenor Blacksmithing	2472
+Blacksmithing	164	Legion Blacksmithing	2454
+Blacksmithing	164	Kul Tiran Blacksmithing / Zandalari Blacksmithing	2437
+Leatherworking	165	Leatherworking	2532
+Leatherworking	165	Outland Leatherworking	2531
+Leatherworking	165	Northrend Leatherworking	2530
+Leatherworking	165	Cataclysm Leatherworking	2529
+Leatherworking	165	Pandaria Leatherworking	2528
+Leatherworking	165	Draenor Leatherworking	2527
+Leatherworking	165	Legion Leatherworking	2526
+Leatherworking	165	Kul Tiran Leatherworking / Zandalari Leatherworking	2525
+Alchemy	171	Alchemy	2485
+Alchemy	171	Outland Alchemy	2484
+Alchemy	171	Northrend Alchemy	2483
+Alchemy	171	Cataclysm Alchemy	2482
+Alchemy	171	Pandaria Alchemy	2481
+Alchemy	171	Draenor Alchemy	2480
+Alchemy	171	Legion Alchemy	2479
+Alchemy	171	Kul Tiran Alchemy / Zandalari Alchemy	2478
+Herbalism	182	Herbalism	2556
+Herbalism	182	Outland Herbalism	2555
+Herbalism	182	Northrend Herbalism	2554
+Herbalism	182	Cataclysm Herbalism	2553
+Herbalism	182	Pandaria Herbalism	2552
+Herbalism	182	Draenor Herbalism	2551
+Herbalism	182	Legion Herbalism	2550
+Herbalism	182	Kul Tiran Herbalism / Zandalari Herbalism	2549
+Cooking	185	Cooking	2548
+Cooking	185	Outland Cooking	2547
+Cooking	185	Northrend Cooking	2546
+Cooking	185	Cataclysm Cooking	2545
+Cooking	185	Pandaria Cooking	2544
+Cooking	185	Draenor Cooking	2543
+Cooking	185	Legion Cooking	2542
+Cooking	185	Kul Tiran Cooking / Zandalari Cooking	2541
+Mining	186	Mining	2572
+Mining	186	Outland Mining	2571
+Mining	186	Northrend Mining	2570
+Mining	186	Cataclysm Mining	2569
+Mining	186	Pandaria Mining	2568
+Mining	186	Draenor Mining	2567
+Mining	186	Legion Mining	2566
+Mining	186	Kul Tiran Mining / Zandalari Mining	2565
+Mining	186	Skinning	2564
+Tailoring	197	Tailoring	2540
+Tailoring	197	Outland Tailoring	2539
+Tailoring	197	Northrend Tailoring	2538
+Tailoring	197	Cataclysm Tailoring	2537
+Tailoring	197	Pandaria Tailoring	2536
+Tailoring	197	Draenor Tailoring	2535
+Tailoring	197	Legion Tailoring	2534
+Tailoring	197	Kul Tiran Tailoring / Zandalari Tailoring	2533
+Engineering	202	Engineering	2506
+Engineering	202	Outland Engineering	2505
+Engineering	202	Northrend Engineering	2504
+Engineering	202	Cataclysm Engineering	2503
+Engineering	202	Pandaria Engineering	2502
+Engineering	202	Draenor Engineering	2501
+Engineering	202	Legion Engineering	2500
+Engineering	202	Kul Tiran Engineering / Zandalari Engineering	2499
+Enchanting	333	Enchanting	2494
+Enchanting	333	Outland Enchanting	2493
+Enchanting	333	Northrend Enchanting	2492
+Enchanting	333	Cataclysm Enchanting	2491
+Enchanting	333	Pandaria Enchanting	2489
+Enchanting	333	Draenor Enchanting	2488
+Enchanting	333	Legion Enchanting	2487
+Enchanting	333	Kul Tiran Enchanting / Zandalari Enchanting	2486
+Fishing	356	Fishing	2592
+Fishing	356	Outland Fishing	2591
+Fishing	356	Northrend Fishing	2590
+Fishing	356	Cataclysm Fishing	2589
+Fishing	356	Pandaria Fishing	2588
+Fishing	356	Draenor Fishing	2587
+Fishing	356	Legion Fishing	2586
+Fishing	356	Kul Tiran Fishing / Zandalari Fishing	2585
+Skinning	393	Outland Skinning	2563
+Skinning	393	Northrend Skinning	2562
+Skinning	393	Cataclysm Skinning	2561
+Skinning	393	Pandaria Skinning	2560
+Skinning	393	Draenor Skinning	2559
+Skinning	393	Legion Skinning	2558
+Skinning	393	Kul Tiran Skinning / Zandalari Skinning	2557
+Jewelcrafting	755	Jewelcrafting	2524
+Jewelcrafting	755	Outland Jewelcrafting	2523
+Jewelcrafting	755	Northrend Jewelcrafting	2522
+Jewelcrafting	755	Cataclysm Jewelcrafting	2521
+Jewelcrafting	755	Pandaria Jewelcrafting	2520
+Jewelcrafting	755	Draenor Jewelcrafting	2519
+Jewelcrafting	755	Legion Jewelcrafting	2518
+Jewelcrafting	755	Kul Tiran Jewelcrafting / Zandalari Jewelcrafting	2517
+Inscription	773	Inscription	2514
+Inscription	773	Outland Inscription	2513
+Inscription	773	Northrend Inscription	2512
+Inscription	773	Cataclysm Inscription	2511
+Inscription	773	Pandaria Inscription	2510
+Inscription	773	Draenor Inscription	2509
+Inscription	773	Legion Inscription	2508
+Inscription	773	Kul Tiran Inscription / Zandalari Inscription	2507
