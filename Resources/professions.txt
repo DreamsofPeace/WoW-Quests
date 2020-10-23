@@ -1,0 +1,1110 @@
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Green Iron Helm	1994
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Golden Scale Coif	1995
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Barbaric Iron Helm	5308
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Steel Plate Helm	5319
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Mithril Coif	5329
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Heavy Mithril Helm	5333
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Ornate Mithril Helm	5337
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Thorium Helm	9170
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Imperial Plate Helm	9177
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Radiant Circlet	9179
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Whitesoul Helm	9321
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Runic Plate Helm	9323
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Helm of the Great Chief	9325
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Lionheart Helm	9331
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Enchanted Thorium Helm	9335
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Dark Iron Helm	12681
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Helms	Darkrune Helm	13081
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Rough Bronze Shoulders	1862
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Silvered Bronze Shoulders	1863
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Green Iron Shoulders	1996
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Golden Scale Shoulders	1997
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Barbaric Iron Shoulders	5306
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Heavy Mithril Shoulder	5315
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Ornate Mithril Shoulder	5325
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Mithril Scale Shoulders	5331
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Dark Iron Shoulders	8220
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Imperial Plate Shoulders	9163
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Dawnbringer Shoulders	9174
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Runic Plate Shoulders	9182
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Fiery Chain Shoulders	11865
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Bloodsoul Shoulders	12831
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shoulders	Darksoul Shoulders	12834
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Runed Copper Breastplate	1638
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Rough Bronze Cuirass	1640
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Shining Silver Breastplate	1645
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Copper Chain Vest	1857
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Green Iron Hauberk	2000
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Golden Scale Cuirass	2001
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Silvered Bronze Breastplate	3975
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Ironforge Chain	4628
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Ironforge Breastplate	4629
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Barbaric Iron Breastplate	5307
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Steel Breastplate	5311
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Heavy Mithril Breastplate	5328
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Ornate Mithril Breastplate	5334
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Truesilver Breastplate	5335
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Rough Copper Vest	6636
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Dark Iron Plate	8216
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Dark Iron Mail	8217
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Thorium Armor	9159
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Radiant Breastplate	9165
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Wildthorn Mail	9167
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Demon Forged Breastplate	9172
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Imperial Plate Chest	9181
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Runic Breastplate	9332
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Enchanted Thorium Breastplate	9337
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Invulnerable Mail	9338
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Bloodsoul Breastplate	12829
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Darksoul Breastplate	12832
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Darkrune Breastplate	13079
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Obsidian Mail Tunic	13807
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Thick Obsidian Breastplate	13808
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Icebane Breastplate	13922
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Chest	Ironvine Breastplate	13944
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Copper Bracers	1634
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Runed Copper Bracers	1635
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Patterned Bronze Bracers	1642
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Green Iron Bracers	1993
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Rough Bronze Bracers	3974
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Golden Scale Bracers	4206
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Mithril Scale Bracers	5320
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Thorium Bracers	9161
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Imperial Plate Bracers	9166
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Dark Iron Bracers	11862
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Bracers	Icebane Bracers	13920
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Runed Copper Gauntlets	1858
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Gemmed Copper Gauntlets	1860
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Silvered Bronze Gauntlets	1865
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Green Iron Gauntlets	1867
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Ironforge Gauntlets	4630
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Barbaric Iron Gloves	5310
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Heavy Mithril Gauntlet	5316
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Mithril Scale Gloves	5322
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Ornate Mithril Gloves	5324
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Truesilver Gauntlets	5326
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Golden Scale Gauntlets	6136
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Radiant Gloves	9171
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Fiery Plate Gauntlets	9175
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Stronghold Gauntlets	9334
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Storm Gauntlets	9579
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Gloves of the Dawn	12680
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Dark Iron Gauntlets	12682
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Bloodsoul Gauntlets	12830
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Darkrune Gauntlets	13080
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Black Grasp of the Destroyer	13806
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Icebane Gauntlets	13923
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Gauntlets	Ironvine Gloves	13945
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Copper Chain Belt	1632
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Runed Copper Belt	1637
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Thorium Belt	9160
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Radiant Belt	9162
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Imperial Plate Belt	9164
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Fiery Chain Girdle	11863
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Heavy Timbermaw Belt	12677
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Girdle of the Dawn	12679
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Heavy Obsidian Belt	13803
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Light Obsidian Belt	13804
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Belts	Ironvine Belt	13946
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Copper Chain Pants	1633
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Rough Bronze Leggings	1639
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Runed Copper Pants	1859
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Green Iron Leggings	1998
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Golden Scale Leggings	1999
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Mithril Scale Pants	5317
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Heavy Mithril Pants	5318
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Ornate Mithril Pants	5323
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Orcish War Leggings	5327
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Silvered Bronze Leggings	6637
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Thorium Leggings	9180
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Radiant Leggings	9322
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Imperial Plate Leggings	9324
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Runic Plate Leggings	9333
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Enchanted Thorium Leggings	9336
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Dark Iron Leggings	11864
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Darksoul Leggings	12833
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Legs	Titanic Leggings	13843
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Copper Chain Boots	1855
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Silvered Bronze Boots	1864
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Green Iron Boots	1866
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Polished Steel Boots	2002
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Golden Scale Boots	2003
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Rough Bronze Boots	4389
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Barbaric Iron Boots	5309
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Heavy Mithril Boots	5332
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Ornate Mithril Boots	5336
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Thorium Boots	9169
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Radiant Boots	9173
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Imperial Plate Boots	9176
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Runic Plate Boots	9183
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Heavy Timbermaw Boots	12678
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Boots	Dark Iron Boots	12901
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Copper Mace	1646
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Bronze Mace	1649
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Bronze Axe	1650
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Copper Axe	1651
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Copper Shortsword	1652
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Bronze Shortsword	1653
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Heavy Copper Broadsword	1849
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Copper Battle Axe	1850
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Thick War Axe	1851
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Deadly Bronze Poniard	1852
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Heavy Bronze Mace	1853
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Mighty Iron Hammer	1854
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Big Bronze Knife	1984
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Hardened Iron Shortsword	1985
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Jade Serpentblade	1986
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Solid Iron Maul	1987
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Golden Iron Destroyer	1988
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Moonsteel Broadsword	1989
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Frost Tiger Blade	1990
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Massive Iron Axe	1991
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Shadow Crescent Axe	1992
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Iridescent Hammer	3971
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Pearl-handled Dagger	3972
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Heavy Copper Maul	4285
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Copper Dagger	4910
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Copper Claymore	5338
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Bronze Warhammer	5339
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Bronze Greatsword	5340
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Bronze Battle Axe	5341
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Heavy Mithril Axe	5342
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Blue Glittering Axe	5343
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Wicked Mithril Blade	5344
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Big Black Mace	5345
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	The Shatterer	5346
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Dazzling Mithril Rapier	5347
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Phantom Blade	5348
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Runed Mithril Hammer	5349
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Blight	5350
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Ebon Shiv	5351
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Truesilver Champion	5352
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Dark Iron Pulverizer	8218
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Dark Iron Sunderer	8219
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Glinting Steel Dagger	8636
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Searing Golden Blade	8637
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Thorium Greatsword	9436
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Bleakwood Hew	9437
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Inlaid Thorium Hammer	9438
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Ornate Thorium Handaxe	9439
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Dawn's Edge	9440
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Huge Thorium Battleaxe	9441
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Enchanted Battlehammer	9442
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Blazing Rapier	9443
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Rune Edge	9444
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Serenity	9445
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Volcanic Hammer	9446
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Corruption	9447
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Blood Talon	9448
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Darkspear	9449
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Hammer of the Titans	9450
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Arcanite Champion	9451
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Annihilator	9452
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Frostguard	9453
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Masterwork Stormhammer	9454
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Arcanite Reaper	9455
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Heartseeker	9456
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Dark Iron Destroyer	11866
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Dark Iron Reaver	11867
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Sulfuron Hammer	11979
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Edge of Winter	12136
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Black Amnesty	12683
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Blackfury	12684
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Ebon Hand	12685
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Blackguard	12686
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Nightfall	12687
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Persuader	13842
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Sageblade	13844
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Light Earthforged Blade	15619
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapons	Heavy Copper Longsword	16001
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Shields	Jagged Obsidian Shield	13805
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Armor Mods	Iron Shield Spike	4207
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Armor Mods	Mithril Shield Spike	5321
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Armor Mods	Mithril Spurs	5330
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Armor Mods	Thorium Shield Spike	9168
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Skeleton Keys	Silver Skeleton Key	11183
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Skeleton Keys	Golden Skeleton Key	11184
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Skeleton Keys	Truesilver Skeleton Key	11185
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Skeleton Keys	Arcanite Skeleton Key	11186
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Rough Sharpening Stone	1631
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Coarse Sharpening Stone	1636
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Heavy Sharpening Stone	1644
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Rough Weightstone	1798
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Heavy Weightstone	1799
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Coarse Weightstone	1800
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Steel Weapon Chain	4205
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Iron Counterweight	4208
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Solid Sharpening Stone	5312
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Solid Weightstone	5313
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Dense Sharpening Stone	9156
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Dense Weightstone	9157
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Weapon Mods	Elemental Sharpening Stone	12302
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Materials	Rough Grinding Stone	1856
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Materials	Coarse Grinding Stone	1861
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Materials	Heavy Grinding Stone	1868
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Materials	Iron Buckle	4847
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Materials	Solid Grinding Stone	5314
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Materials	Inlaid Mithril Cylinder	7417
+prof_bs_01_vanilla	164	2477	Blacksmithing: Vanilla: Materials	Dense Grinding Stone	9158
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Plate Gloves	14181
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Plate Belt	14182
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Plate Boots	14183
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Plate Pants	14184
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Breastplate	14185
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Chain Coif	14186
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Chain Gloves	14187
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Chain Bracers	14188
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Fel Iron Chain Tunic	14189
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Adamantite Plate Bracers	14197
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Adamantite Plate Gloves	14198
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Adamantite Breastplate	14199
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Enchanted Adamantite Belt	14200
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Enchanted Adamantite Boots	14201
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Enchanted Adamantite Breastplate	14202
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Enchanted Adamantite Leggings	14203
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Flamebane Bracers	14204
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Flamebane Helm	14205
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Flamebane Gloves	14206
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Flamebane Breastplate	14207
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Felsteel Gloves	14208
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Felsteel Leggings	14209
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Felsteel Helm	14210
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Khorium Belt	14211
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Khorium Pants	14212
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Khorium Boots	14213
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Ragesteel Gloves	14214
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Ragesteel Helm	14215
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Ragesteel Breastplate	14216
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Swiftsteel Gloves	14217
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Earthpeace Breastplate	14218
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Felfury Gauntlets	14222
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Gauntlets of the Iron Tower	14223
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Steelgrip Gauntlets	14224
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Storm Helm	14225
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Helm of the Stalwart Defender	14226
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Oathkeeper's Helm	14227
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Black Felsteel Bracers	14228
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Bracers of the Green Fortress	14229
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Blessed Bracers	14230
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Breastplate of Kings	15222
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Nether Chain Shirt	15225
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Bulwark of Kings	15231
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Twisting Nether Chain Shirt	15237
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Earthforged Leggings	15618
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Windforged Leggings	15622
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Heavy Earthforged Breastplate	15624
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Stormforged Hauberk	15629
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Embrace of the Twisting Nether	15640
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Bulwark of the Ancient Kings	15641
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Belt of the Guardian	15679
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Red Belt of Battle	15680
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Boots of the Protector	15681
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Red Havoc Boots	15682
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Wildguard Breastplate	15720
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Wildguard Leggings	15721
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Wildguard Helm	15722
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Iceguard Breastplate	15723
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Iceguard Leggings	15724
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Iceguard Helm	15725
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Shadesteel Bracers	15826
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Shadesteel Girdle	15827
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Shadesteel Greaves	15828
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Shadesteel Sabots	15829
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Swiftsteel Bracers	15837
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Swiftsteel Shoulders	15838
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Dawnsteel Shoulders	15839
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Dawnsteel Bracers	15840
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Ragesteel Shoulders	15900
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Hard Khorium Battlefists	16259
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Hard Khorium Battleplate	16260
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Sunblessed Breastplate	16261
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Armor	Sunblessed Gauntlets	16262
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Fel Iron Hatchet	14190
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Fel Iron Hammer	14191
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Fel Iron Greatsword	14192
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Adamantite Maul	14193
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Adamantite Cleaver	14194
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Adamantite Dagger	14195
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Adamantite Rapier	14196
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Felsteel Longblade	14231
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Khorium Champion	14232
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Fel Edged Battleaxe	14233
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Felsteel Reaper	14234
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Runic Hammer	14235
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Fel Hardened Maul	14236
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Eternium Runed Blade	14237
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Dirge	14238
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Hand of Eternity	14239
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Drakefist Hammer	15223
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Lionheart Blade	15224
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Fireguard	15226
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	The Planar Edge	15227
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Thunder	15228
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Lunar Crescent	15229
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Black Planar Edge	15230
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Deep Thunder	15232
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Dragonmaw	15233
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Lionheart Champion	15234
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Mooncleaver	15235
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Blazeguard	15236
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Light Emberforged Hammer	15620
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Light Skyforged Axe	15621
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Great Earthforged Hammer	15623
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Lavaforged Warhammer	15625
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Skyforged Great Axe	15626
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Stoneforged Claymore	15627
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Stormforged Axe	15628
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Windforged Rapier	15630
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Blazefury	15642
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Lionheart Executioner	15643
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Wicked Edge of the Planes	15644
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Bloodmoon	15645
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Dragonstrike	15646
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Stormherald	15647
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Weapons	Hammer of Righteous Might	16009
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Fel Sharpening Stone	14219
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Adamantite Sharpening Stone	14220
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Felsteel Shield Spike	14221
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Lesser Ward of Shielding	14240
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Greater Ward of Shielding	14241
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Lesser Rune of Warding	14819
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Greater Rune of Warding	14820
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Fel Weightstone	15239
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Adamantite Weightstone	15240
+prof_bs_02_bc	164	2476	Outland Blacksmithing: Equipment Mods	Adamantite Weapon Chain	15901
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Belt	17883
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Boots	17884
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Chestpiece	17885
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Legplates	17886
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Helm	17887
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Shoulders	17888
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Belt	18897
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Boots	18898
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Breastplate	18899
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Legplates	18900
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Helm	18901
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Shoulders	18902
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Helm	19163
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Boots	19164
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Shoulders	19165
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Chestpiece	19166
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Gauntlets	19167
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Belt	19168
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Legplates	19169
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Cobalt Bracers	19170
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Horned Cobalt Helm	19171
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Reinforced Cobalt Shoulders	19172
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Reinforced Cobalt Helm	19173
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Reinforced Cobalt Legplates	19174
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Reinforced Cobalt Chestpiece	19175
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Bracers	19177
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Saronite Gauntlets	19179
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Legplates	19185
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Gauntlets	19186
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Boots	19187
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Breastplate	19188
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Chestplate of Conquest	19222
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Legplates of Conquest	19223
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Vengeance Bindings	19273
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Righteous Gauntlets	19274
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Daunting Handguards	19275
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Helm of Command	19276
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Daunting Legplates	19277
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Righteous Greaves	19278
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Bracers	19279
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Pauldrons	19280
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Waistguard	19281
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Walkers	19282
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Gauntlets	19283
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Hauberk	19284
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Legplates	19285
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Savage Saronite Skullshield	19286
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Titansteel Helm	19298
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Titansteel Helm	19299
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Titansteel Helm	19301
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Titansteel Treads	19302
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Tempered Titansteel Treads	19303
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Titansteel Treads	19306
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Bracers	19415
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Cobalt Gauntlets	19416
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Bracers	19580
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Pauldrons	19581
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Waistguard	19582
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Walkers	19583
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Gauntlets	19584
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Legplates	19585
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Hauberk	19586
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Ornate Saronite Skullshield	19587
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Belt	20164
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Bracers	20165
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Pauldrons	20166
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Brilliant Saronite Helm	20167
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Icebane Chestguard	20408
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Icebane Girdle	20409
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Icebane Treads	20410
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Treads of Destiny	20816
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Indestructible Plate Girdle	20817
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Plate Girdle of Righteousness	20818
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Belt of the Titans	20819
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Battlelord's Plate Boots	20820
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Spiked Deathdealers	20821
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Breastplate of the White Knight	21197
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Saronite Swordbreakers	21198
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Titanium Razorplate	21199
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Titanium Spikeguards	21200
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Sunforged Breastplate	21201
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Sunforged Bracers	21202
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Saronite Swordbreakers	21203
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Titanium Razorplate	21204
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Titanium Spikeguards	21205
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Sunforged Breastplate	21206
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Sunforged Bracers	21207
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Breastplate of the White Knight	21208
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Puresteel Legplates	21348
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Protectors of Life	21349
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Legplates of Painful Death	21350
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Pillars of Might	21352
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Boots of Kingly Upheaval	21353
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Armor	Hellfrozen Bonegrinders	21354
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Shields	Cobalt Triangle Shield	18896
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Shields	Saronite Defender	18903
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Shields	Saronite Protector	19176
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Shields	Saronite Bulwark	19178
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Shields	Titansteel Shield Wall	19546
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Honed Cobalt Cleaver	19214
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Savage Cobalt Slicer	19215
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Saronite Ambusher	19216
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Saronite Shiv	19217
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Furious Saronite Beatstick	19218
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Corroded Saronite Edge	19219
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Corroded Saronite Woundbringer	19220
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Saronite Mindcrusher	19221
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Sturdy Cobalt Quickblade	19239
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Cobalt Tenderizer	19240
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Forged Cobalt Claymore	19241
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Notched Cobalt War Axe	19242
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Deadly Saronite Dirk	19244
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Titansteel Guardian	19297
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Titansteel Destroyer	19304
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Titansteel Bonecrusher	19305
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Titansteel Shanker	19533
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Cudgel of Saronite Justice	19536
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Saronite Spellblade	20168
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Weapons	Titansteel Spellblade	20815
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Equipment Mods	Eternal Belt Buckle	19380
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Equipment Mods	Titanium Weapon Chain	19421
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Equipment Mods	Titanium Shield Spike	19540
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Equipment Mods	Titanium Plating	20752
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Skeleton Keys	Cobalt Skeleton Key	20157
+prof_bs_03_wrath	164	2475	Northrend Blacksmithing: Skeleton Keys	Titanium Skeleton Key	20158
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Bracers	21760
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Gauntlets	21761
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Belt	21762
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Boots	21763
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Shoulders	21764
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Legguards	21765
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Helm	21766
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Obsidium Breastplate	21767
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Bracers	21768
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Gauntlets	21769
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Belt	21770
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Boots	21771
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Shoulders	21772
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Legguards	21773
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Helm	21774
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Redsteel Breastplate	21775
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Bracers	21776
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Gauntlets	21777
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Belt	21778
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Boots	21779
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Shoulders	21780
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Legguards	21781
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Helm	21782
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Stormforged Breastplate	21783
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Elementium Hauberk	21796
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Hardened Elementium Girdle	21797
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Elementium Deathplate	21798
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Elementium Girdle of Pain	21799
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Light Elementium Chestguard	21800
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Light Elementium Belt	21801
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Bracers	21809
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Gauntlets	21810
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Belt	21811
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Boots	21812
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Shoulders	21813
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Legguards	21814
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Helm	21815
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Pyrium Breastplate	21816
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Bracers	21817
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Gauntlets	21818
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Belt	21819
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Boots	21820
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Shoulders	21821
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Legguards	21822
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Helm	21823
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Vicious Ornate Pyrium Breastplate	21824
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Fists of Fury	24288
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Eternal Elementium Handguards	24289
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Holy Flame Gauntlets	24290
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Warboots of Mighty Lords	24291
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Mirrored Boots	24292
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Emberforged Elementium Boots	24293
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Pyrium Legplates of Purified Evil	24567
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Unstoppable Destroyer's Legplates	24568
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Foundations of Courage	24569
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Soul Redeemer Bracers	24570
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Bracers of Destructive Strength	24571
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Armor	Titanguard Wristplates	24572
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Shields	Hardened Obsidium Shield	21784
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Shields	Stormforged Shield	21785
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Shields	Elementium Earthguard	21807
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Shields	Elementium Stormshield	21808
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Decapitator's Razor	21786
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Cold-Forged Shank	21787
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Fire-Etched Dagger	21788
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Lifeforce Hammer	21789
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Obsidium Executioner	21790
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Elementium Spellblade	21802
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Elementium Hammer	21803
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Elementium Poleaxe	21804
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Elementium Bonesplitter	21805
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Elementium Shank	21806
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Obsidium Bladespear	21825
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Elementium Gutslicer	24011
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Forged Elementium Mindcrusher	24012
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Brainsplinter	24336
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Masterwork Elementium Spellblade	24337
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Lightforged Elementium Hammer	24338
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Elementium-Edged Scalper	24339
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Pyrium Spellward	24340
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Unbreakable Guardian	24341
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Masterwork Elementium Deathblade	24342
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Weapons	Witch-Hunter's Harvester	24343
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Skeleton Keys	Obsidium Skeleton Key	21791
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Equipment Mods	Ebonsteel Belt Buckle	21792
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Equipment Mods	Pyrium Shield Spike	21793
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Equipment Mods	Elementium Shield Spike	21794
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Equipment Mods	Pyrium Weapon Chain	21795
+prof_bs_04_cata	164	2474	Cataclysm Blacksmithing: Materials	Folded Obsidium	23742
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Skeleton Keys	Ghostly Skeleton Key	26387
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Lightsteel Bracers	26388
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Spiritguard Bracers	26389
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Ghost-Forged Bracers	26390
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Masterwork Lightsteel Bracers	26407
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Masterwork Spiritguard Bracers	26408
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Masterwork Ghost-Forged Bracers	26409
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Contender's Revenant Bracers	26432
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Contender's Spirit Bracers	26433
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Dreadful Gladiator's Bracers of Prowess	31266
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Dreadful Gladiator's Bracers of Meditation	31267
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Dreadful Gladiator's Armplates of Proficiency	31268
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Dreadful Gladiator's Armplates of Alacrity	31269
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Malevolent Gladiator's Bracers of Prowess	31525
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Malevolent Gladiator's Bracers of Meditation	31526
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Malevolent Gladiator's Armplates of Proficiency	31527
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Bracers	Crafted Malevolent Gladiator's Armplates of Alacrity	31528
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Lightsteel Boots	26391
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Spiritguard Boots	26394
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Ghost-Forged Boots	26397
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Masterwork Lightsteel Boots	26413
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Masterwork Spiritguard Boots	26416
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Masterwork Ghost-Forged Boots	26419
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Contender's Revenant Boots	26440
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Contender's Spirit Boots	26443
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Dreadful Gladiator's Greaves of Alacrity	31262
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Dreadful Gladiator's Greaves of Meditation	31263
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Dreadful Gladiator's Warboots of Cruelty	31264
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Dreadful Gladiator's Warboots of Alacrity	31265
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Haunted Steel Greaves	31396
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Haunted Steel Treads	31397
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Haunted Steel Warboots	31398
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Malevolent Gladiator's Greaves of Alacrity	31517
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Malevolent Gladiator's Greaves of Meditation	31518
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Malevolent Gladiator's Warboots of Cruelty	31519
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Boots	Crafted Malevolent Gladiator's Warboots of Alacrity	31520
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Lightsteel Belt	26392
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Spiritguard Belt	26395
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Ghost-Forged Belt	26398
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Masterwork Lightsteel Belt	26414
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Masterwork Spiritguard Belt	26417
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Masterwork Ghost-Forged Belt	26420
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Contender's Revenant Belt	26441
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Contender's Spirit Belt	26444
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Dreadful Gladiator's Clasp of Cruelty	31258
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Dreadful Gladiator's Clasp of Meditation	31259
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Dreadful Gladiator's Girdle of Accuracy	31260
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Dreadful Gladiator's Girdle of Prowess	31261
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Blessed Trillium Belt	31481
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Protector's Trillium Waistguard	31482
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Avenger's Trillium Waistplate	31483
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Malevolent Gladiator's Clasp of Cruelty	31521
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Malevolent Gladiator's Clasp of Meditation	31522
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Malevolent Gladiator's Girdle of Accuracy	31523
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Belts	Crafted Malevolent Gladiator's Girdle of Prowess	31524
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Spiritguard Gauntlets	26393
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Ghost-Forged Gauntlets	26396
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Lightsteel Gauntlets	26399
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Masterwork Spiritguard Gauntlets	26415
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Masterwork Ghost-Forged Gauntlets	26418
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Masterwork Lightsteel Gauntlets	26421
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Contender's Revenant Gauntlets	26439
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Contender's Spirit Gauntlets	26442
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Ghost Reaver's Gauntlets	26469
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Living Steel Gauntlets	26471
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Gauntlets of Ancient Steel	26473
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Gauntlets of Unbound Devotion	27148
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Bloodforged Warfists	27150
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Gauntlets of Battle Command	27152
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Dreadful Gladiator's Scaled Gauntlets	31246
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Dreadful Gladiator's Ornamented Gloves	31247
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Dreadful Gladiator's Plate Gauntlets	31248
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Dreadful Gladiator's Dreadplate Gauntlets	31406
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Malevolent Gladiator's Dreadplate Gauntlets	31513
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Malevolent Gladiator's Scaled Gauntlets	31514
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Malevolent Gladiator's Ornamented Gloves	31515
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Gauntlets	Crafted Malevolent Gladiator's Plate Gauntlets	31516
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Spiritguard Legplates	26400
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Ghost-Forged Legplates	26401
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Lightsteel Legplates	26402
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Masterwork Lightsteel Legplates	26423
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Masterwork Spiritguard Legplates	26424
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Masterwork Ghost-Forged Legplates	26425
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Contender's Revenant Legplates	26446
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Contender's Spirit Legplates	26447
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Dreadful Gladiator's Scaled Legguards	31252
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Dreadful Gladiator's Ornamented Legplates	31253
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Dreadful Gladiator's Plate Legguards	31254
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Dreadful Gladiator's Dreadplate Legguards	31404
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Blessed Trillium Greaves	31478
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Protector's Trillium Legguards	31479
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Avenger's Trillium Legplates	31480
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Malevolent Gladiator's Dreadplate Legguards	31497
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Malevolent Gladiator's Scaled Legguards	31498
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Malevolent Gladiator's Ornamented Legplates	31499
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Legs	Crafted Malevolent Gladiator's Plate Legguards	31500
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Spiritguard Shoulders	26403
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Ghost-Forged Shoulders	26404
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Lightsteel Shoulders	26405
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Masterwork Spiritguard Shoulders	26435
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Masterwork Ghost-Forged Shoulders	26436
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Masterwork Lightsteel Shoulders	26437
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Contender's Revenant Shoulders	26448
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Contender's Spirit Shoulders	26449
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Dreadful Gladiator's Scaled Shoulders	31255
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Dreadful Gladiator's Ornamented Spaulders	31256
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Dreadful Gladiator's Plate Shoulders	31257
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Dreadful Gladiator's Dreadplate Shoulders	31403
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Malevolent Gladiator's Dreadplate Shoulders	31505
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Malevolent Gladiator's Scaled Shoulders	31506
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Malevolent Gladiator's Ornamented Spaulders	31507
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shoulders	Crafted Malevolent Gladiator's Plate Shoulders	31508
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shields	Lightsteel Shield	26406
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shields	Spiritguard Shield	26410
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shields	Masterwork Lightsteel Shield	26456
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shields	Masterwork Spiritguard Shield	26457
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shields	Crafted Malevolent Gladiator's Barrier	31529
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shields	Crafted Malevolent Gladiator's Redoubt	31530
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Shields	Crafted Malevolent Gladiator's Shield Wall	31531
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Forgewire Axe	26411
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Ghost-Forged Blade	26422
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Phantasmal Hammer	26434
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Spiritblade Decimator	26438
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Ghost Shard	26445
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Masterwork Forgewire Axe	26458
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Masterwork Ghost-Forged Blade	26459
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Masterwork Phantasmal Hammer	26460
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Masterwork Spiritblade Decimator	26461
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Masterwork Ghost Shard	26462
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	The Planar Edge, Reborn	31223
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Mooncleaver, Reborn	31224
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Bloodmoon, Reborn	31225
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Lionheart Blade, Reborn	31226
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Lionheart Champion, Reborn	31227
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Lionheart Executioner, Reborn	31228
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Thunder, Reborn	31229
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Deep Thunder, Reborn	31230
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Stormherald, Reborn	31231
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Fireguard, Reborn	31232
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Blazeguard, Reborn	31233
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Blazefury, Reborn	31234
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Drakefist Hammer, Reborn	31235
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Dragonmaw, Reborn	31236
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Dragonstrike, Reborn	31237
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Black Planar Edge, Reborn	31238
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Wicked Edge of the Planes, Reborn	31239
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Weapons	Lunar Crescent, Reborn	31240
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Spiritguard Helm	26426
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Ghost-Forged Helm	26428
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Lightsteel Helm	26430
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Masterwork Spiritguard Helm	26450
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Masterwork Ghost-Forged Helm	26452
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Masterwork Lightsteel Helm	26454
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Contender's Revenant Helm	26463
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Contender's Spirit Helm	26465
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Dreadful Gladiator's Scaled Helm	31249
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Dreadful Gladiator's Ornamented Headcover	31250
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Dreadful Gladiator's Plate Helm	31251
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Haunted Steel Headcover	31399
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Haunted Steel Greathelm	31400
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Haunted Steel Headguard	31401
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Dreadful Gladiator's Dreadplate Helm	31405
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Malevolent Gladiator's Dreadplate Helm	31501
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Malevolent Gladiator's Scaled Helm	31502
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Malevolent Gladiator's Ornamented Headcover	31503
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Helms	Crafted Malevolent Gladiator's Plate Helm	31504
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Spiritguard Breastplate	26427
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Ghost-Forged Breastplate	26429
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Lightsteel Breastplate	26431
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Masterwork Spiritguard Breastplate	26451
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Masterwork Ghost-Forged Breastplate	26453
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Masterwork Lightsteel Breastplate	26455
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Contender's Revenant Breastplate	26464
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Contender's Spirit Breastplate	26466
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Ghost Reaver's Breastplate	26468
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Living Steel Breastplate	26470
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Breastplate of Ancient Steel	26472
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Chestplate of Limitless Faith	27149
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Ornate Battleplate of the Master	27151
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Unyielding Bloodplate	27153
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Dreadful Gladiator's Ornamented Chestguard	31270
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Dreadful Gladiator's Plate Chestpiece	31271
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Dreadful Gladiator's Scaled Chestpiece	31402
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Dreadful Gladiator's Dreadplate Chestpiece	31407
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Malevolent Gladiator's Dreadplate Chestpiece	31509
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Malevolent Gladiator's Scaled Chestpiece	31510
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Malevolent Gladiator's Ornamented Chestguard	31511
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Chest	Crafted Malevolent Gladiator's Plate Chestpiece	31512
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Equipment Mods	Living Steel Belt Buckle	26467
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Equipment Mods	Living Steel Weapon Chain	27512
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Equipment Mods	Ghost Iron Shield Spike	27513
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Materials	Folded Ghost Iron	27154
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Materials	Lightning Steel Ingot	31218
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Materials	Balanced Trillium Ingot	31643
+prof_bs_05_mists	164	2473	Pandaria Blacksmithing: Materials	Accelerated Balanced Trillium Ingot	31861
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Chest	Draenic Steel Chestplate	32213
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Chest	Hardened Draenic Steel Chestplate	32231
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Chest	Peerless Draenic Steel Chestplate	32244
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Boots	Draenic Steel Warboots	32214
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Boots	Hardened Draenic Steel Warboots	32232
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Boots	Peerless Draenic Steel Warboots	32245
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Gauntlets	Draenic Steel Gauntlets	32215
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Gauntlets	Hardened Draenic Steel Gauntlets	32233
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Gauntlets	Peerless Draenic Steel Gauntlets	32246
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Helms	Draenic Steel Helm	32216
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Helms	Hardened Draenic Steel Helm	32234
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Helms	Peerless Draenic Steel Helm	32247
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Legs	Draenic Steel Legguards	32217
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Legs	Hardened Draenic Steel Legguards	32235
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Legs	Peerless Draenic Steel Legguards	32248
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Shoulders	Draenic Steel Shoulders	32218
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Shoulders	Hardened Draenic Steel Shoulders	32236
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Shoulders	Peerless Draenic Steel Shoulders	32249
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Belts	Draenic Steel Girdle	32219
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Belts	Hardened Draenic Steel Girdle	32237
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Belts	Peerless Draenic Steel Wristwraps	32250
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Bracers	Draenic Steel Wristwraps	32220
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Bracers	Hardened Draenic Steel Wristwraps	32238
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Draenic Steel War Axe	32226
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Draenic Steel Sword	32227
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Draenic Steel Dagger	32228
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Draenic Steel Mace	32229
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Hardened Draenic Steel War Axe	32239
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Hardened Draenic Steel Sword	32240
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Hardened Draenic Steel Dagger	32241
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Hardened Draenic Steel Mace	32242
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Peerless Draenic Steel War Axe	32251
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Peerless Draenic Steel Sword	32252
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Peerless Draenic Steel Dagger	32253
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons	Peerless Draenic Steel Mace	32254
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Shields	Draenic Steel Bulwark	32230
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Shields	Hardened Draenic Steel Bulwark	32243
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Shields	Peerless Draenic Steel Bulwark	32255
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Other	Soul of the Forge	32266
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Reagents and Research	Truesteel Ingot	33451
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Reagents and Research	Secrets of Draenor Blacksmithing	33670
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Reagents and Research	Riddle of Truesteel	34036
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Smoldering Helm	33453
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Smoldering Breastplate	33454
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Smoldering Greaves	33455
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Pauldrons	33462
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Helm	33463
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Greaves	33464
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Gauntlets	33465
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Breastplate	33466
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Armguards	33467
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Boots	33468
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Armor	Truesteel Waistguard	33469
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons and Shields	Steelforged Greataxe	33456
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons and Shields	Steelforged Saber	33457
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons and Shields	Steelforged Dagger	33458
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons and Shields	Steelforged Hammer	33459
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons and Shields	Steelforged Shield	33460
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons and Shields	Steelforged Axe	33779
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Weapons and Shields	Steelforged Aegis	33780
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Truesteel Grinder	33461
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Truesteel Essence	33470
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Steelforged Essence	33472
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Truesteel Reshaper	33569
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Upgrade Weapon	33570
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Upgrade Weapon	33572
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Mighty Steelforged Essence	34506
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Mighty Truesteel Essence	34507
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Savage Steelforged Essence	34508
+prof_bs_06_warlords	164	2472	Draenor Blacksmithing: Item Enhancers	Savage Truesteel Essence	34509
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Armguards	34048
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Breastplate	34050
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Boots	34051
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Gauntlets	34052
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Helm	34053
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Greaves	34054
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Pauldrons	34055
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Waistguard	34056
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Armguards	34057
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Breastplate	34058
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Boots	34059
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Gauntlets	34060
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Helm	34061
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Greaves	34062
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Pauldrons	34063
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Waistguard	34064
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Armguards	34065
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Breastplate	34066
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Pauldrons	34067
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Waistguard	34068
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Armguards	34069
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Breastplate	34070
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Boots	34071
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Gauntlets	34072
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Helm	34073
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Greaves	34074
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Pauldrons	34075
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Waistguard	34076
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Armguards	34077
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Breastplate	34078
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Boots	34079
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Gauntlets	34080
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Helm	34081
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Greaves	34082
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Pauldrons	34083
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Waistguard	34084
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Demonsteel Armguards	34085
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Breastplate	34086
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Boots	34087
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Gauntlets	34088
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Helm	34089
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Greaves	34090
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Pauldrons	34091
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Waistguard	34092
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Boots	34637
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Helm	34638
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Gauntlets	34639
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Leystone Greaves	34640
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Rethu's Incessant Courage	36562
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Empyrial Breastplate	36645
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Empyrial Breastplate	36646
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Armor	Empyrial Breastplate	36647
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Other	Leystone Hoofplates	34049
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Other	Demonsteel Stirrups	35790
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Other	Fel Core Hound Harness	35979
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Other	Felslate Anchor	36648
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Reagents	Demonsteel Bar	34273
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Relics	Terrorspike	35309
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Relics	Gleaming Iron Spike	35310
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Relics	Consecrated Spike	35311
+prof_bs_07_legion	164	2454	Legion Blacksmithing: Relics	Flamespike	35312
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Boots	38729
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Breastplate	38730
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Gauntlets	38731
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Helm	38732
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Greaves	38733
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Shield	38734
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Pauldrons	38735
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Waistguard	38736
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Monel-Hardened Armguards	38737
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Stormsteel Legguards	38738
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Imbued Stormsteel Legguards	38739
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Emblazoned Stormsteel Legguards	38740
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Stormsteel Shield	38741
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Stormsteel Shield	38742
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Stormsteel Shield	38743
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Stormsteel Girdle	38744
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Imbued Stormsteel Girdle	38745
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Emblazoned Stormsteel Girdle	38746
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Boots	39442
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Boots	39443
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Boots	39444
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Gauntlets	39445
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Gauntlets	39446
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Gauntlets	39447
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Greaves	39448
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Greaves	39449
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Greaves	39450
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Waistguard	39451
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Waistguard	39452
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Waistguard	39453
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Armguards	39454
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Armguards	39455
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Plate Armguards	39456
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Shield	39457
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Shield	39458
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Honorable Combatant's Shield	39459
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Boots	40019
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Boots	40020
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Boots	40021
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Gauntlets	40022
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Gauntlets	40023
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Gauntlets	40024
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Greaves	40025
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Greaves	40026
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Greaves	40027
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Shield	40028
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Shield	40029
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Shield	40030
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Waistguard	40031
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Waistguard	40032
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Waistguard	40033
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Armguards	40034
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Armguards	40035
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Sinister Combatant's Plate Armguards	40036
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Enhanced Stormsteel Legguards	40175
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Fortified Stormsteel Legguards	40176
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Tempered Stormsteel Legguards	40177
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Enhanced Stormsteel Girdle	40178
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Fortified Stormsteel Girdle	40179
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Tempered Stormsteel Girdle	40180
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Boots	40462
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Boots	40463
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Boots	40464
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Gauntlets	40465
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Gauntlets	40466
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Gauntlets	40467
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Greaves	40468
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Greaves	40469
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Greaves	40470
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Shield	40471
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Shield	40472
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Shield	40473
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Waistguard	40474
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Waistguard	40475
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Waistguard	40476
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Armguards	40477
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Armguards	40478
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Notorious Combatant's Plate Armguards	40479
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Osmenite Legguards	40704
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Reinforced Osmenite Legguards	40705
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Banded Osmenite Legguards	40706
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Osmenite Girdle	40707
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Reinforced Osmenite Girdle	40708
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Banded Osmenite Girdle	40709
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Boots	40987
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Gauntlets	40988
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Greaves	40989
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Shield	40990
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Waistguard	40991
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Armguards	40992
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Unsettling Osmenite Legguards	41075
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Maddening Osmenite Legguards	41076
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Eldritch Osmenite Legguards	41077
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Unsettling Osmenite Girdle	41078
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Maddening Osmenite Girdle	41079
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Eldritch Osmenite Girdle	41080
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Boots	43057
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Boots	43058
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Gauntlets	43059
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Gauntlets	43060
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Greaves	43061
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Greaves	43062
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Waistguard	43063
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Waistguard	43064
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Armguards	43065
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Plate Armguards	43066
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Shield	43077
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Armor	Uncanny Combatant's Shield	43078
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Other	Monel-Hardened Hoofplates	38747
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Other	Monel-Hardened Stirrups	38748
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Other	Monelite Skeleton Key	39432
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Other	Monel-Hardened Hoofplates	40206
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Other	Monel-Hardened Hoofplates	40207
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Monel-Hardened Cutlass	38752
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Monel-Hardened Deckpounder	38754
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Monel-Hardened Claymore	38755
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Monel-Hardened Shanker	38756
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Monel-Hardened Polearm	38757
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Dagger	38767
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Dagger	38768
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Dagger	38769
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Spear	38770
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Spear	38771
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Spear	38772
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Cutlass	39463
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Cutlass	39464
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Cutlass	39465
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Deckpounder	39469
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Deckpounder	39470
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Deckpounder	39471
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Shanker	39475
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Shanker	39476
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Shanker	39477
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Polearm	39478
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Polearm	39479
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Polearm	39480
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Spellblade	39828
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Spellblade	39829
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Honorable Combatant's Spellblade	39830
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Saber	39831
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Saber	39832
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Stormsteel Saber	39833
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Cutlass	40037
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Cutlass	40038
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Cutlass	40039
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Deckpounder	40040
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Deckpounder	40041
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Deckpounder	40042
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Spellblade	40043
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Spellblade	40044
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Spellblade	40045
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Shanker	40046
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Shanker	40047
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Shanker	40048
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Polearm	40049
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Polearm	40050
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Sinister Combatant's Polearm	40051
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Cutlass	40483
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Cutlass	40484
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Cutlass	40485
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Deckpounder	40486
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Deckpounder	40487
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Deckpounder	40488
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Spellblade	40489
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Spellblade	40490
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Spellblade	40491
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Shanker	40492
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Shanker	40493
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Shanker	40494
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Polearm	40495
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Polearm	40496
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Notorious Combatant's Polearm	40497
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Cutlass	40993
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Deckpounder	40994
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Spellblade	40995
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Shanker	40996
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Polearm	40997
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Cutlass	43067
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Cutlass	43068
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Deckpounder	43069
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Deckpounder	43070
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Spellblade	43071
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Spellblade	43072
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Shanker	43073
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Shanker	43074
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Polearm	43075
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Weapons	Uncanny Combatant's Polearm	43076
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Follower Equipment	Magnetic Mining Pick	39839
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Follower Equipment	Storm Silver Spurs	39840
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Follower Equipment	Platinum Whetstone	39841
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Conversions	Sanguinated Reconstruction	40153
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Conversions	Aqueous Reconstruction	40211
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Tool of the Trade	Khaz'gorian Smithing Hammer	40325
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Mount Equipment	Monelite Reinforced Chassis	40480
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Mount Equipment	Inflatable Mount Shoes	40902
+prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Focus	Void Focus	42346
