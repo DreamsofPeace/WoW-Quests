@@ -1108,3 +1108,113 @@ prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Tool 
 prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Mount Equipment	Monelite Reinforced Chassis	40480
 prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Mount Equipment	Inflatable Mount Shoes	40902
 prof_bs_08_bfa	164	2437	Kul Tiran Blacksmithing / Zandalari Blacksmithing: Focus	Void Focus	42346
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Baked Salmon	10252
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Barbecued Buzzard Wing	2499
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Bat Bites	15002
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Beer Basted Boar Ribs	1674
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Big Bear Steak	1901
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Blood Sausage	1872
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Boiled Clams	3964
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Brilliant Smallfish	4353
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Bristle Whisker Catfish	4359
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Carrion Surprise	8621
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Charred Bear Kabobs	16292
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Charred Wolf Meat	1535
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Clam Chowder	3962
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Clamlette Magnifique	20914
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Cooked Crab Claw	1544
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Cooked Glossy Mightfish	10243
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Coyote Steak	1538
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Crab Cake	1543
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Crispy Bat Wing	8616
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Crispy Lizard Tail	3932
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Crocolisk Gumbo	1874
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Crocolisk Steak	1871
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Crunchy Spider Surprise	13924
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Curiously Tasty Omelet	1875
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Delicious Chocolate Cake	16007
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Dig Rat Stew	3931
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Dirge's Kickin' Chimaerok Chops	13343
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Dry Pork Ribs	1545
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Extra Fancy Darkmoon Feast	45915
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Extra Lemony Herb Filet	45914
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Extra Sugary Fish Feast	45909
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Fancy Darkmoon Feast	34291
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Filet of Redgill	10245
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Fillet of Frenzy	3929
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Giant Clam Scorcho	4204
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Goblin Deviled Clams	3963
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Goldthorn Tea	16198
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Gooey Spider Cake	1876
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Goretusk Liver Pie	1539
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Grilled Squid	10246
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Heavy Crocolisk Stew	12905
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Heavy Kodo Stew	8624
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Herb Baked Egg	4786
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Hot Lion Chops	1902
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Hot Smoked Bass	10247
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Hot Wolf Ribs	8619
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Juicy Bear Burger	16293
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Jungle Stew	8620
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Kaldorei Spider Kabob	3926
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Lean Venison	3933
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Lean Wolf Steak	8617
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Lemon Herb Filet	34289
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Lobster Stew	10250
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Loch Frenzy Delight	4356
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Longjaw Mud Snapper	4355
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Lynx Steak	15000
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Mightfish Steak	10251
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Mithril Head Trout	11873
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Monster Omelet	8626
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Murloc Fin Soup	1873
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Mystery Stew	8622
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Nightfin Soup	10248
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Poached Sunscale Salmon	10249
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Rainbow Fin Albacore	4391
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Redridge Goulash	1546
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Roast Raptor	8618
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Roasted Boar Meat	1537
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Roasted Kodo Meat	3928
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Roasted Moongraze Tenderloin	15001
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Rockscale Cod	4392
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Runn Tum Tuber Surprise	12304
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Sagefish Delight	13375
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Scorpid Surprise	3927
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Seasoned Wolf Kabob	1548
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Slitherskin Mackerel	4354
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Smoked Bear Meat	4787
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Smoked Desert Dumplings	13056
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Smoked Sagefish	13344
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Soothing Turtle Bisque	1904
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Spice Bread	15707
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Spiced Chili Crab	8625
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Spiced Wolf Meat	1536
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Spider Sausage	11997
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Spotted Yellowtail	10244
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Strider Stew	3930
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Succulent Pork Ribs	1547
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Sugar-Crusted Fish Feast	34290
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Tasty Lion Steak	1903
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Tender Wolf Steak	12236
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Undermine Clam Chowder	11740
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Venison Jerky	23825
+cooking_01	185	2548	Cooking: Vanilla: Everyday Cooking	Westfall Stew	1540
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Bread of the Dead	21048
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Candied Sweet Potato	20737
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Candied Sweet Potato	21066
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Cranberry Chutney	20739
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Cranberry Chutney	21067
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Gingerbread Cookie	11977
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Hot Apple Cider	16157
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Pumpkin Pie	20735
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Pumpkin Pie	21068
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Slow-Roasted Turkey	20734
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Slow-Roasted Turkey	21069
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Spice Bread Stuffing	20738
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Spice Bread Stuffing	21070
+cooking_01	185	2548	Cooking: Vanilla: Holiday Cooking	Winter Veil Egg Nog	11976
+cooking_01	185	2548	Cooking: Vanilla: Unusual Delights	Captain Rumsey's Lager	16228
+cooking_01	185	2548	Cooking: Vanilla: Unusual Delights	Dragonbreath Chili	8623
+cooking_01	185	2548	Cooking: Vanilla: Unusual Delights	Savory Deviate Delight	4569
+cooking_01	185	2548	Cooking: Vanilla: Unusual Delights	Thistle Tea	5149
