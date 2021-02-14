@@ -1331,11 +1331,11 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2395)
 	htmltabletrclose(openfile)
-	htmltabletrclose(openfile)
-	htmltablethopen(openfile)
-	htmlthcolspan(openfile,totalreps,"Battle for Azeroth: Horder")
-	htmltablethclose(openfile)
 	htmltabletropen(openfile)
+	htmltablethopen(openfile)
+	htmlthcolspan(openfile,totalreps,"Battle for Azeroth: Horde")
+	htmltablethclose(openfile)
+	htmltabletrclose(openfile)
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("Zandalari Empire", end="\n", file=openfile)
@@ -1365,6 +1365,194 @@ def printreputation(count,datatree,openfile):
 	print ("The Unshackled", end="\n", file=openfile)
 	htmltabletdclose(openfile)
 	printsinglerepparagon(count,datatree,openfile,2373)
+	htmltabletrclose(openfile)
+	
+	htmltabletropen(openfile)
+	htmltablethopen(openfile)
+	htmlthcolspan(openfile,totalreps,"Shadowlands: Unsorted")
+	htmltablethclose(openfile)
+	htmltabletrclose(openfile)
+	
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("The Ascended", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2407)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Kleia and Pelagos", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2458)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Sika", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2459)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("The Undying Army", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2410)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Court of Harvesters", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2413)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Shadowlands", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2414)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Ve'nari", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2432)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("The Avowed", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2439)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("The Ember Court", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2445)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Baroness Vashj", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2446)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Lady Moonberry", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2447)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Mikanikos", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2448)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("The Countess", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2449)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Alexandros Mograine", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2450)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Hunt-Captain Korayn", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2451)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Polemarch Adrestes", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2452)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Rendle and Cudgelface", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2453)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Choofa", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2454)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Cryptkeeper Kassir", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2455)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Droman Aliothe", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2456)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Grandmaster Vole", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2457)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Stonehead", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2460)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Plague Deviser Marileth", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2461)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Stitchmasters", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2462)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("Court of Night", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2464)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("The Wild Hunt", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2465)
 	htmltabletrclose(openfile)
 
 def charreputationoutput(count,datatree,outputfile):
@@ -1767,7 +1955,7 @@ if __name__ == "__main__":
 		logger.info('Using Provided Access Token')
 		access_token = clienttk
 	else:
-		sys.exit("Neither a Client token (-ct) or Client ID (-cis) and Client Secret (-csec) were provided.\n Please use one of those options in order to use this script.")
+		sys.exit("Neither a Client token (-ct) or Client ID (-cid) and Client Secret (-csec) were provided.\n Please use one of those options in order to use this script.")
 
 	multicharacter = dict()
 	characterfile = open(charfile, "rt")
@@ -1824,10 +2012,20 @@ if __name__ == "__main__":
 		questshref = tempslit[0] + "/completed?" + tempslit[1]
 		charquests = data_imported_href(questshref,locale,access_token)
 		charquests = charquests.json()
-
-		avatarurl = charmedia['avatar_url']
-		busturl = charmedia['bust_url']
-		renderurl = charmedia['render_url']
+		try:
+			avatarurl = charmedia['avatar_url']
+			busturl = charmedia['bust_url']
+			renderurl = charmedia['render_url']
+		except KeyError:
+			for item in charmedia["assets"]:
+				k = item["key"]
+				v = item["value"]
+				if k == "avatar":
+					avatarurl = v
+				elif k == "inset":
+					busturl = v
+				elif k == "main":
+					renderurl = v
 
 		multicharacter[count] = {}
 		multicharacter[count]['reputations'] = {}
@@ -1848,12 +2046,12 @@ if __name__ == "__main__":
 			multicharacter[count]['reputations'][myid]['factionid']     = reputation['faction']['id']
 			multicharacter[count]['reputations'][myid]['standingvalue'] = reputation['standing']['value']
 			multicharacter[count]['reputations'][myid]['standingmax']   = reputation['standing']['max']
-			multicharacter[count]['reputations'][myid]['standingtier'] = reputation['standing']['tier']
+			multicharacter[count]['reputations'][myid]['standingtier']  = reputation['standing']['tier']
 			multicharacter[count]['reputations'][myid]['standingname']  = reputation['standing']['name']
 			try:
-				multicharacter[count]['reputations'][myid]['paragonraw']    = reputation['paragon']['raw']
-				multicharacter[count]['reputations'][myid]['paragonvalue']  = reputation['paragon']['value']
-				multicharacter[count]['reputations'][myid]['paragonmax']    = reputation['paragon']['max']
+				multicharacter[count]['reputations'][myid]['paragonraw']   = reputation['paragon']['raw']
+				multicharacter[count]['reputations'][myid]['paragonvalue'] = reputation['paragon']['value']
+				multicharacter[count]['reputations'][myid]['paragonmax']   = reputation['paragon']['max']
 			except KeyError:
 				pass
 		for professions in charprofessions['primaries']:
