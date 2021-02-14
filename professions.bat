@@ -1,0 +1,1 @@
+generate-professions.py -if Resources\professions.txt -of z-temp-out.txt
