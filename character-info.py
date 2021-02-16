@@ -27,7 +27,7 @@ def data_get_char_info(region,server,character,locale,namespace,access_token):
 		path = "/profile/wow/character/" + server + "/" + character + "?namespace=" + namespace + "&locale=" + locale + "&access_token=" + access_token
 
 	if region == 'cn':
-		url = 'https://www.battlenet.com.cn' + path
+		url = (f'https://www.battlenet.com.cn{path}')
 	else:
 		url = (f'https://{region}.api.blizzard.com{path}')
 	return (requests.get(url))
