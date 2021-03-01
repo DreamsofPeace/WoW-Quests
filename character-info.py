@@ -423,6 +423,8 @@ def printreputation(count,datatree,openfile):
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
 
+	printdataheader(count,datatree,openfile)
+
 	htmlthcolspan(openfile,totalreps,"Burning Crusade")
 	htmltablethclose(openfile)
 	htmltabletrclose(openfile)
@@ -543,6 +545,8 @@ def printreputation(count,datatree,openfile):
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
 
+	printdataheader(count,datatree,openfile)
+
 	htmlthcolspan(openfile,totalreps,"Wrath of the Lich King")
 	htmltablethclose(openfile)
 	htmltabletrclose(openfile)
@@ -658,6 +662,8 @@ def printreputation(count,datatree,openfile):
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
 
+	printdataheader(count,datatree,openfile)
+
 	htmlthcolspan(openfile,totalreps,"Cataclysm")
 	htmltablethclose(openfile)
 	htmltabletrclose(openfile)
@@ -717,6 +723,8 @@ def printreputation(count,datatree,openfile):
 	printsinglerep(count,datatree,openfile,1178)
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
+
+	printdataheader(count,datatree,openfile)
 
 	htmlthcolspan(openfile,totalreps,"Mists of Pandaria")
 	htmltablethclose(openfile)
@@ -883,6 +891,8 @@ def printreputation(count,datatree,openfile):
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
 
+	printdataheader(count,datatree,openfile)
+
 	htmlthcolspan(openfile,totalreps,"Warlords of Draenor")
 	htmltablethclose(openfile)
 	htmltabletrclose(openfile)
@@ -998,6 +1008,8 @@ def printreputation(count,datatree,openfile):
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
 
+	printdataheader(count,datatree,openfile)
+
 	htmlthcolspan(openfile,totalreps,"Legion")
 	htmltablethclose(openfile)
 	htmltabletrclose(openfile)
@@ -1098,6 +1110,8 @@ def printreputation(count,datatree,openfile):
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
 
+	printdataheader(count,datatree,openfile)
+
 	htmlthcolspan(openfile,totalreps,"Battle for Azeroth")
 	htmltablethclose(openfile)
 	htmltabletrclose(openfile)
@@ -1192,6 +1206,8 @@ def printreputation(count,datatree,openfile):
 	printsinglerepparagon(count,datatree,openfile,2373)
 	htmltabletrclose(openfile)
 	htmltabletrclose(openfile)
+
+	printdataheader(count,datatree,openfile)
 
 	htmlthcolspan(openfile,totalreps,"Shadowlands: Unsorted")
 	htmltablethclose(openfile)
@@ -1326,8 +1342,6 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerepparagon(count,datatree,openfile,2465)
 	htmltabletrclose(openfile)
-	
-
 
 def charreputationoutput(count,datatree,outputfile):
 	mytitle = "Reputations"
@@ -1828,26 +1842,38 @@ if __name__ == "__main__":
 				multicharacter[count]['reputations'][myid]['paragonmax']   = reputation['paragon']['max']
 			except KeyError:
 				pass
-		for professions in charprofessions['primaries']:
-			for tier in professions['tiers']:
-				myid = tier['tier']['id']
-				multicharacter[count]['professions'][myid] = {}
-				multicharacter[count]['professions'][myid]['recipes'] = list()
-				for recipe in tier['known_recipes']:
-					multicharacter[count]['professions'][myid]['recipes'].append(recipe['id'])
-		for professions in charprofessions['secondaries']:
-			try:
+
+		if 'primaries' not in charprofessions:
+			multicharacter[count].setdefault('error',{})
+			multicharacter[count]['error'].setdefault('professions',{})
+			multicharacter[count]['error']['professions']['primary'] = 0
+		else:
+			for professions in charprofessions['primaries']:
 				for tier in professions['tiers']:
 					myid = tier['tier']['id']
 					multicharacter[count]['professions'][myid] = {}
 					multicharacter[count]['professions'][myid]['recipes'] = list()
-					try:
-						for recipe in tier['known_recipes']:
-							multicharacter[count]['professions'][myid]['recipes'].append(recipe['id'])
-					except KeyError:
-						pass
-			except KeyError:
-				pass
+					for recipe in tier['known_recipes']:
+						multicharacter[count]['professions'][myid]['recipes'].append(recipe['id'])
+
+		if 'secondaries' not in charprofessions:
+			multicharacter[count].setdefault('error',{})
+			multicharacter[count]['error'].setdefault('professions',{})
+			multicharacter[count]['error']['professions']['secondaries'] = 0
+		else:
+			for professions in charprofessions['secondaries']:
+				try:
+					for tier in professions['tiers']:
+						myid = tier['tier']['id']
+						multicharacter[count]['professions'][myid] = {}
+						multicharacter[count]['professions'][myid]['recipes'] = list()
+						try:
+							for recipe in tier['known_recipes']:
+								multicharacter[count]['professions'][myid]['recipes'].append(recipe['id'])
+						except KeyError:
+							pass
+				except KeyError:
+					pass
 		multicharacter[count]["quests"] = list()
 		for quest in charquests['quests']:
 			multicharacter[count]["quests"].append(quest['id'])
