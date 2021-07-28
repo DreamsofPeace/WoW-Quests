@@ -1,0 +1,280 @@
+Alchemy	171
+Archaeology	794
+Blacksmithing	164
+Cooking	185
+Enchanting	333
+Engineering	202
+Fishing	356
+Herbalism	182
+Inscription	773
+Jewelcrafting	755
+Leatherworking	165
+Mining	186
+Skinning	393
+Tailoring	197
+	Kul Tiran Tailoring / Zandalari Tailoring	2533
+	Legion Tailoring	2534
+	Draenor Tailoring	2535
+	Pandaria Tailoring	2536
+	Cataclysm Tailoring	2537
+	Northrend Tailoring	2538
+	Outland Tailoring	2539
+	Tailoring	2540
+		Materials
+			Bolt of Linen Cloth	2359
+			Bolt of Woolen Cloth	2370
+			Bolt of Silk Cloth	2376
+			Bolt of Mageweave	2377
+			Bolt of Runecloth	10396
+			Mooncloth	10487
+		Cloaks
+			Linen Cloak	2360
+			Reinforced Linen Cape	2367
+			Woolen Cape	2371
+			Heavy Woolen Cloak	2382
+			Long Silken Cloak	2397
+			Icy Cloak	2398
+			Pearl-clasped Cloak	3973
+			Azure Silk Cloak	4870
+			Crimson Silk Cloak	4871
+			Runecloth Cloak	10404
+			Cindercloth Cloak	10413
+			Brightcloth Cloak	10417
+			Cloak of Fire	10419
+			Cloak of Warding	12344
+			Gaea's Embrace	13909
+			Spidersilk Drape	20877
+		Robes & Tunics
+			Brown Linen Vest	2361
+			Red Linen Robe	2362
+			Barbaric Linen Vest	2368
+			Green Woolen Vest	2372
+			Gray Woolen Robe	2374
+			Azure Silk Vest	2395
+			Lesser Wizard's Robe	4021
+			Robes of Arcana	4022
+			Brown Linen Robe	4302
+			White Linen Robe	4303
+			Blue Linen Vest	4304
+			Red Linen Vest	4305
+			Blue Linen Robe	4306
+			Green Woolen Robe	4307
+			Blue Overalls	4308
+			Greater Adept's Robe	4311
+			Simple Dress	4708
+			White Woolen Dress	4709
+			Earthen Vest	4852
+			Robe of Power	4854
+			Green Silk Armor	4869
+			Crimson Silk Vest	4872
+			Crimson Silk Robe	4877
+			Black Mageweave Vest	6580
+			Black Mageweave Robe	6582
+			Shadoweave Robe	6585
+			Red Mageweave Vest	6586
+			Stormcloth Vest	6599
+			Cindercloth Robe	6600
+			Dreamweave Vest	6601
+			Simple Black Dress	6608
+			White Wedding Dress	6622
+			Tuxedo Jacket	6624
+			Frostweave Tunic	10398
+			Frostweave Robe	10399
+			Runecloth Robe	10400
+			Runecloth Tunic	10402
+			Cindercloth Vest	10403
+			Brightcloth Robe	10410
+			Ghostweave Vest	10411
+			Robe of Winter Night	10423
+			Wizardweave Robe	10432
+			Mooncloth Vest	10433
+			Felcloth Robe	10437
+			Truefaith Vestments	10442
+			Robe of the Archmage	10443
+			Robe of the Void	10444
+			Mooncloth Robe	12349
+			Flarecore Robe	12692
+			Bloodvine Vest	12818
+			Festival Dress	13422
+			Festival Suit	13423
+			Sylvan Vest	13952
+			Red Winter Clothes	16154
+			Green Winter Clothes	16155
+			Haliscan Jacket	17513
+		Boots
+			Linen Boots	2363
+			Woolen Boots	2373
+			Soft-soled Linen Boots	2383
+			Red Woolen Boots	2384
+			Spidersilk Boots	2391
+			Spider Silk Slippers	2392
+			Boots of the Enchanter	2396
+			Boots of Darkness	4857
+			Simple Linen Boots	6577
+			Black Mageweave Boots	6604
+			Shadoweave Boots	6613
+			Cindercloth Boots	6619
+			Stormcloth Boots	6621
+			Runecloth Boots	10420
+			Felcloth Boots	10424
+			Mooncloth Boots	10957
+			Argent Boots	12689
+			Bloodvine Boots	12816
+			Runed Stygian Boots	13074
+			Dress Shoes	17153
+		Shirts
+			Red Linen Shirt	2364
+			White Linen Shirt	2365
+			Blue Linen Shirt	2366
+			Green Linen Shirt	2369
+			Gray Woolen Shirt	2375
+			Stylish Red Shirt	2401
+			Bright Yellow Shirt	2403
+			Dark Silk Shirt	2404
+			Formal White Shirt	2405
+			Rich Purple Silk Shirt	2406
+			Black Swashbuckler's Shirt	2407
+			Brown Linen Shirt	2409
+			Stylish Blue Shirt	4408
+			Stylish Green Shirt	4409
+			Red Swashbuckler's Shirt	4714
+			White Swashbuckler's Shirt	4715
+			Orange Mageweave Shirt	6589
+			Orange Martial Shirt	6592
+			Lavender Mageweave Shirt	6606
+			Pink Mageweave Shirt	6611
+			Tuxedo Shirt	6616
+			Green Holiday Shirt	12141
+		Gloves
+			Heavy Linen Gloves	2378
+			Heavy Woolen Gloves	2381
+			Gloves of Meditation	2389
+			Azure Silk Gloves	2390
+			Phoenix Gloves	2402
+			Hands of Darkness	4867
+			Truefaith Gloves	4868
+			Crimson Silk Gloves	4878
+			Black Mageweave Gloves	6584
+			Stormcloth Gloves	6591
+			Red Mageweave Gloves	6597
+			Dreamweave Gloves	6598
+			Shadoweave Gloves	6602
+			Frostweave Gloves	10406
+			Cindercloth Gloves	10407
+			Brightcloth Gloves	10408
+			Ghostweave Gloves	10409
+			Runecloth Gloves	10412
+			Gloves of Spell Mastery	10440
+			Flarecore Gloves	11857
+			Felcloth Gloves	12341
+			Inferno Gloves	12342
+			Mooncloth Gloves	12343
+		Bracers
+			Green Linen Bracers	2379
+			Flarecore Wraps	12303
+		Pants
+			Handstitched Linen Britches	2380
+			Heavy Woolen Pants	2387
+			Phoenix Pants	2388
+			Brown Linen Pants	2408
+			Azure Silk Pants	4849
+			Crimson Silk Pantaloons	4876
+			Simple Linen Pants	6576
+			Simple Kilt	6578
+			Colorful Kilt	6579
+			Black Mageweave Leggings	6581
+			Shadoweave Pants	6583
+			Red Mageweave Pants	6588
+			Stormcloth Pants	6590
+			Tuxedo Pants	6620
+			Felcloth Pants	10416
+			Wizardweave Leggings	10418
+			Frostweave Pants	10421
+			Cindercloth Pants	10422
+			Runecloth Pants	10425
+			Brightcloth Pants	10426
+			Mooncloth Leggings	10427
+			Ghostweave Pants	10428
+			Flarecore Leggings	12693
+			Bloodvine Leggings	12817
+			Runed Stygian Leggings	13075
+			Haliscan Pantaloons	17514
+		Shoulders
+			Double-stitched Woolen Shoulders	2385
+			Reinforced Woolen Shoulders	2386
+			Green Silken Shoulders	4856
+			Crimson Silk Shoulders	4873
+			Azure Shoulders	4874
+			Black Mageweave Shoulders	6605
+			Shadoweave Shoulders	6607
+			Red Mageweave Shoulders	6609
+			Stormcloth Shoulders	6618
+			Mooncloth Shoulders	10434
+			Runecloth Shoulders	10435
+			Felcloth Shoulders	10439
+			Flarecore Mantle	11856
+			Mantle of the Timbermaw	12690
+			Argent Shoulders	12691
+			Sylvan Shoulders	13951
+		Hats & Hoods
+			Enchanter's Cowl	2393
+			Shadow Hood	2394
+			Azure Silk Hood	4850
+			Silk Headband	4851
+			White Bandit Mask	6587
+			Black Mageweave Headband	6603
+			Admiral's Hat	6612
+			Stormcloth Headband	6614
+			Red Mageweave Headband	6615
+			Shadoweave Mask	6617
+			Dreamweave Circlet	6623
+			Felcloth Hood	10429
+			Runecloth Headband	10430
+			Wizardweave Turban	10436
+			Mooncloth Circlet	10438
+			Sylvan Crown	13950
+		Belts
+			Spider Belt	2399
+			Star Belt	2400
+			Linen Belt	4848
+			Azure Silk Belt	4853
+			Crimson Silk Belt	4855
+			Earthen Silk Belt	4875
+			Runecloth Belt	10397
+			Ghostweave Belt	10405
+			Belt of the Archmage	12340
+			Wisdom of the Timbermaw	12688
+			Runed Stygian Belt	13073
+		Bags
+			Green Woolen Bag	4000
+			Linen Bag	4001
+			Woolen Bag	4002
+			Small Silk Pack	4003
+			Red Linen Bag	4019
+			Red Woolen Bag	4020
+			Green Silk Pack	4023
+			Black Silk Pack	4024
+			Mageweave Bag	6596
+			Red Mageweave Bag	6610
+			Runecloth Bag	10401
+			Mooncloth Bag	10431
+			Bottomless Bag	10441
+			Soul Pouch	13397
+			Felcloth Bag	13398
+			Core Felcloth Bag	13399
+			Enchanted Mageweave Pouch	13811
+			Enchanted Runecloth Bag	13812
+			Cenarion Herb Bag	13814
+		Special
+			Gordok Ogre Suit	12325
+		Bandages
+			Heavy Linen Bandage	39381
+			Heavy Mageweave Bandage	39382
+			Heavy Runecloth Bandage	39384
+			Heavy Silk Bandage	39385
+			Heavy Wool Bandage	39387
+			Linen Bandage	39388
+			Mageweave Bandage	39389
+			Runecloth Bandage	39391
+			Silk Bandage	39393
+			Wool Bandage	39400
