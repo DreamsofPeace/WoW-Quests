@@ -17,6 +17,7 @@ def data_imported_href(href,locale,access_token):
 	else:
 		path = "&locale=" + locale + "&access_token=" + access_token
 	url = href + path
+#	logger.info(f'URL {url}')
 	return (requests.get(url))
 
 def data_get_char_info(region,server,character,locale,namespace,access_token):
@@ -1921,6 +1922,7 @@ if __name__ == "__main__":
 	parser.add_argument('-ofrep','--outputrepfile', help='Output filename for the reputation module. Recommended if using multiple modules (default is reputation.html)', required=False)
 	parser.add_argument('-ofprof','--outputproffile', help='Output filename for the professions module. Recommended if using multiple modules (default is professions.html)', required=False)
 	parser.add_argument('-ofquest','--outputquestfile', help='Output filename for the quests module. Recommended if using multiple modules (default is quests.html)', required=False)
+	parser.add_argument('-ofenc','--outputencountersfile', help='Output filename for the quests module. Recommended if using multiple modules (default is encounters.html)', required=False)
 ##	parser.add_argument('-hs1','--hashsha256', help='Hash File using the SHA 256 Algorithm', action='store_true', required=False)
 
 	args = parser.parse_args()
@@ -1932,12 +1934,15 @@ if __name__ == "__main__":
 	outrep   = args.outputrepfile
 	outprof  = args.outputproffile
 	outquest = args.outputquestfile
+	ofenc    = args.outputencountersfile
 	if not outrep:
 		outrep = "reputation.html"
 	if not outprof:
 		outprof = "professions.html"
 	if not outquest:
 		outquest = "quests.html"
+	if not ofenc:
+		outquest = "encounters.html"
 	token_expire = 0
 	if clientid and clientsc and not clienttk:
 		logger.info('Retrieving Access Token')
@@ -1988,36 +1993,53 @@ if __name__ == "__main__":
 		rephref   = charinfo['reputations']['href']
 		mediahref = charinfo['media']['href']
 		questshref = charinfo['quests']['href']
+		encountershref = charinfo['encounters']['href']
 		logger.info(f'Getting profession info for {region} - {server} - {character}')
 		charprofessions = data_imported_href(profhref,locale,access_token)
 		charprofessions = charprofessions.json()
 		logger.info(f'Getting reputation info for {region} - {server} - {character}')
+#		logger.info(f'Reputation URL {rephref}')
 		charreputation = data_imported_href(rephref,locale,access_token)
 		charreputation = charreputation.json()
 		logger.info(f'Getting media info for {region} - {server} - {character}')
 #		logger.info(f'Media URL {mediahref}')
 		charmedia = data_imported_href(mediahref,locale,access_token)
 		charmedia = charmedia.json()
+#		pprint (charmedia)
+#		logger.info(f'{charmedia}')
+		for key in charmedia["assets"]:
+			k = key["key"]
+			v = key["value"]
+#			print(k, v)
+			if k == "avatar":
+				avatarurl = v
+			elif k == "inset":
+				busturl = v
+			elif k == "main":
+				renderurl = v
 		logger.info(f'Getting quest info for {region} - {server} - {character}')
+#		logger.info(f'{questshref}')
 		tempslit = questshref.split("?")
 		questshref = tempslit[0] + "/completed?" + tempslit[1]
 		charquests = data_imported_href(questshref,locale,access_token)
+#		pprint (charquests)
 		charquests = charquests.json()
-		try:
-			avatarurl = charmedia['avatar_url']
-			busturl = charmedia['bust_url']
-			renderurl = charmedia['render_url']
-		except KeyError:
-			for item in charmedia["assets"]:
-				k = item["key"]
-				v = item["value"]
-				if k == "avatar":
-					avatarurl = v
-				elif k == "inset":
-					busturl = v
-				elif k == "main":
-					renderurl = v
-
+#		pprint (charreputation)
+#		logger.info(f'{charprofessions}')
+#		logger.info(f'{charreputation}')
+#		logger.info(f'{charmedia}')
+#		logger.info(f'{charquests}')
+#		for item in charmedia["assets"]:
+#		while charmedia["assets"]:
+#			k = item["key"]
+#			v = item["value"]
+#			if k == "avatar":
+#				avatarurl = v
+#			elif k == "inset":
+#				busturl = v
+#			elif k == "main":
+#				renderurl = v
+#		logger.info(f'{charmedia}')
 		multicharacter[count] = {}
 		multicharacter[count]['reputations'] = {}
 		multicharacter[count]['professions'] = {}
@@ -2085,3 +2107,21 @@ if __name__ == "__main__":
 	charquestsoutput(count,multicharacter,outquest)
 	charprofessionoutput(count,multicharacter,outprof)
 #	pprint (multicharacter)
+
+'''
+#		for reputation in charmedia['assets']:
+		try:
+			avatarurl = charmedia['avatar_url']
+			busturl = charmedia['bust_url']
+			renderurl = charmedia['render_url']
+		except KeyError:
+			for item in charmedia["assets"]:
+				k = item["key"]
+				v = item["value"]
+				if k == "avatar":
+					avatarurl = v
+				elif k == "inset":
+					busturl = v
+				elif k == "main":
+					renderurl = v
+'''
