@@ -44,6 +44,10 @@ def htmlheader(openfile,mytitle):
 \t\t\ttext-align:\tcenter;
 \t\t\tbackground-color:\t#FF7D0A;
 \t\t}
+\t\ttable td.Evoker {
+\t\t\ttext-align:\tcenter;
+\t\t\tbackground-color:\t#33937F;
+\t\t}
 \t\ttable td.Hunter {
 \t\t\ttext-align:\tcenter;
 \t\t\tbackground-color:\t#ABD473;
@@ -235,13 +239,26 @@ def printdataheader(count,datatree,openfile):
 		htmlstraightimg(openfile,datatree[number]['avatarurl'])
 		htmldivclose(openfile)
 		htmldivopen(openfile)
+		print ("\t", end="", file=openfile)
 		print (datatree[number]['name'], end="\n", file=openfile)
 		htmldivclose(openfile)
 		htmldivopen(openfile)
+		print ("\t", end="", file=openfile)
 		print (datatree[number]['char_level'], end="\n", file=openfile)
 		htmldivclose(openfile)
 		htmldivopen(openfile)
+		print ("\t", end="", file=openfile)
 		print (datatree[number]['char_ilvl'], end="\n", file=openfile)
+		htmldivclose(openfile)
+		htmldivopen(openfile)
+		if len(datatree[number]['wowheadurl']) > 20:
+			wowheadurl = datatree[number]['wowheadurl']
+			wowheadurl = wowheadurl.rstrip("\n")
+			print ("\t\t<a href=",end="", file=openfile)
+			print (wowheadurl, end="", file=openfile)
+			print ("\">Wowhead</a>",end="\n", file=openfile)
+		else:
+			print ("&nbsp;",end="\n", file=openfile)
 		htmldivclose(openfile)
 		htmltabletdclose(openfile)
 	htmltabletrclose(openfile)

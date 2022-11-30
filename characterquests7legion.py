@@ -2,6 +2,7 @@ import characterquests
 from characterutil import *
 
 def charquest_z_98_legion_intro(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"98: Legion Invasion",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,40519,"The Legion Returns","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,43926,"The Legion Returns","horde")
@@ -38,6 +39,7 @@ def charquest_z_98_legion_intro(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,44184,"In the Blink of an Eye")
 
 def charquest_z_100_azsuna(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"100-110: Azsuna: Behind Legion Lines",openfile)
 	characterquests.charquestprint(count,datatree,openfile,39718,"Paradise Lost")
 	characterquests.charquestprint(count,datatree,openfile,41220,"Down to Azsuna")
@@ -130,6 +132,7 @@ def charquest_z_100_azsuna(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,37495,"Plunder the Cove")
 
 def charquest_z_100_valsharah(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"100-110: Val'sharah: Intro",openfile)
 	characterquests.charquestprint(count,datatree,openfile,39731,"The Tranquil Forest")
 	characterquests.charquestprint(count,datatree,openfile,39861,"Tying Up Loose Ends")
@@ -225,6 +228,7 @@ def charquest_z_100_valsharah(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,38889,"Adopting the Adorable")
 
 def charquest_z_100_highmountain(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"100-110: Highmountain: Thunder Totem",openfile)
 	characterquests.charquestprint(count,datatree,openfile,39733,"The Lone Mountain")
 	characterquests.charquestprint(count,datatree,openfile,38907,"Keepers of the Hammer")
@@ -360,6 +364,7 @@ def charquest_z_100_highmountain(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,39123,"Lion Stalkin'")
 
 def charquest_z_100_stormheim(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"100-110: Stormheim: Intro: Alliance","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,39735,"Stormheim")
 	characterquests.charquestprint(count,datatree,openfile,38035,"A Royal Summons")
@@ -495,6 +500,7 @@ def charquest_z_100_stormheim(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,42431,"The Brood of Nithogg")
 
 def charquest_z_110_suramar(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"110: Suramar: Nightfallen But Not Forgotten: Nightfall",openfile)
 	characterquests.charquestprint(count,datatree,openfile,39985,"Khadgar's Discovery")
 	characterquests.charquestprint(count,datatree,openfile,44555,"Khadgar's Discovery")
@@ -820,6 +826,7 @@ def charquest_z_110_suramar(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,45372,"Fate of the Nightborne")
 
 def charquest_z_110_legion_fall(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"110: Broken Shore: Armies of Legionfall",openfile)
 	characterquests.charquestprint(count,datatree,openfile,46730,"Armies of Legionfall")
 	characterquests.charquestprint(count,datatree,openfile,46734,"Assault on Broken Shore")
@@ -843,6 +850,7 @@ def charquest_z_110_legion_fall(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,46805,"The Deceiver's Downfall")
 
 def charquest_z_110_Argus(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"110: Argus: The Assault Begins",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,47221,"The Hand of Fate","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,47835,"The Hand of Fate","horde")
@@ -967,6 +975,7 @@ def charquest_z_110_Argus(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,47182,"Long Overdue")
 
 def charquest_chromie(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"Chromie",openfile)
 	characterquests.charquestprint(count,datatree,openfile,48021,"Chromie")
 	characterquests.charquestprint(count,datatree,openfile,47543,"The Day That Chromie Dies")
@@ -985,6 +994,7 @@ def charquest_chromie(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,47906,"The Deaths of Chromie")
 
 def charquest_artifact_improvingonhistory(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"Improving on History",openfile)
 	characterquests.charquestprint(count,datatree,openfile,43496,"The Power Within")
 	characterquests.charquestprint(count,datatree,openfile,40668,"Eye of Azshara: The Heart of Zin-Azshari (Mythic)")
@@ -1017,6 +1027,7 @@ def charquest_artifact_improvingonhistory(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,43533,"Balance of Power")
 
 def charquest_empoweredartifacts(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"Empowering Artifacts",openfile)
 	characterquests.charquestprint(count,datatree,openfile,46744,"Greater Power for Greater Threats")
 	characterquests.charquestprint(count,datatree,openfile,46765,"The Broken Shore: Investigating the Legion")

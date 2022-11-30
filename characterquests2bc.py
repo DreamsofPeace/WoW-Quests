@@ -2,6 +2,7 @@ import characterquests
 from characterutil import *
 
 def z_58_80_Hellfire_Peninsula(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"58-80: Hellfire Peninsula","horde",openfile)
 	characterquests.charquestprint(count,datatree,openfile,28705,"Warchief's Command: Outland!")
 	characterquests.charquestprint(count,datatree,openfile,9407,"Through the Dark Portal")
@@ -115,6 +116,7 @@ def z_58_80_Hellfire_Peninsula(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,9418,"Avruu's Orb")
 
 def z_60_80_Zangarmarsh(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"60-80: Zangarmarsh: Cenarion Refuge",openfile)
 	characterquests.charquestprint(count,datatree,openfile,9912,"The Cenarion Expedition")
 	characterquests.charquestprint(count,datatree,openfile,39180,"Warchief's Command: Zangarmarsh")
@@ -186,6 +188,7 @@ def z_60_80_Zangarmarsh(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,9752,"Escape from Umbrafen")
 
 def z_62_80_Terokkar_Forest(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"62-80: Terrokar Forest",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,39188,"Hero's Call: Terokkar Forest","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,39182,"Warchief's Command: Terokkar Forest","horde")
@@ -326,6 +329,7 @@ def z_62_80_Terokkar_Forest(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,10553,"Voren'thal the Seer")
 
 def z_64_80_Nagrand(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"64-80: Nagrand: Breadcrumbs",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,39189,"Warchief's Command: Nagrand","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,39197,"Hero's Call: Nagrand","alliance")
@@ -458,6 +462,7 @@ def z_64_80_Nagrand(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,10011,"Forge Camp: Annihilated")
 
 def z_65_80_Blades_Edge_Mountains(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"65-80: Blades Edge Mountain",openfile)
 	characterquests.charquestprint(count,datatree,openfile,10984,"Speak with the Ogre")
 	characterquests.charquestprint(count,datatree,openfile,10983,"Mog'dorg the Wizened")
@@ -519,6 +524,7 @@ def z_65_80_Blades_Edge_Mountains(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,11119,"Assault on Bash'ir Landing!")
 
 def z_67_80_Netherstorm(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"67-80: Netherstorm",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,11042,"A Mystifying Vision","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,11037,"A Strange Vision","horde")
@@ -650,6 +656,7 @@ def z_67_80_Netherstorm(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,10973,"A Thousand Worlds")
 
 def z_67_80_Shadowmoon_Valley(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"67: Shadowmoon Valley",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,11044,"Visions of Destruction","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,11048,"Kroghan\'s Report","horde")
@@ -733,6 +740,7 @@ def z_67_80_Shadowmoon_Valley(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,11108,"Lord Illidan Stormrage")
 
 def z_70_Isle_Of_Queldanas(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"70: Isle of Quel'Danas",openfile)
 	characterquests.charquestprint(count,datatree,openfile,11554,"A Friend in the Frontlines")
 	characterquests.charquestprint(count,datatree,openfile,11555,"Honored by Your Allies")

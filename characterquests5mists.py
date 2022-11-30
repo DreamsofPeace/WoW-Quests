@@ -2,9 +2,11 @@ import characterquests
 from characterutil import *
 
 def sz_01_10_Wandering_Isle(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"01-10: Wandering Isle",openfile)
 
 def z_80_90_Jade_Forest(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"80-90: Jade Forest",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,29552,"Critical Condition","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,29553,"The Missing Admiral","alliance")
@@ -239,6 +241,7 @@ def z_80_90_Jade_Forest(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,49556,"Hero's Call: Jade Forest!","alliance")
 
 def z_81_90_Valley_of_the_Four_Winds(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"81-90: Valley of the Four Winds",openfile)
 	characterquests.charquestprint(count,datatree,openfile,29577,"Ashyo's Vision")
 	characterquests.charquestprint(count,datatree,openfile,29581,"The Golden Dream")
@@ -403,6 +406,7 @@ def z_81_90_Valley_of_the_Four_Winds(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,49557,"Hero's Call: Valley of the Four Winds!","alliance")
 
 def z_81_90_Krasarang_Wilds(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"81-90: Krasarang Wilds",openfile)
 	characterquests.charquestprint(count,datatree,openfile,29873,"Ken-Ken")
 	characterquests.charquestprintfaction(count,datatree,openfile,29874,"Kang Bramblestaff","alliance")
@@ -485,6 +489,7 @@ def z_81_90_Krasarang_Wilds(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,49558,"Hero's Call: Krasarang Wilds!","alliance")
 
 def z_82_90_KunLai_Summit(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"82-90: KunLai Summit",openfile)
 	characterquests.charquestprint(count,datatree,openfile,30457,"Call Out Their Leader")
 	characterquests.charquestprint(count,datatree,openfile,30459,"All of the Arrows")
@@ -663,19 +668,25 @@ def z_82_90_KunLai_Summit(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,49559,"Hero's Call: Kun-Lai Summit!","alliance")
 
 def z_83_90_Townlong_Steppes(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"83-90: Townlong Steppes",openfile)
 
 def z_84_90_Dread_Wastes(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"84-90: Dread Wastes",openfile)
 
 def z_85_90_Vale_of_Eternal_Blossoms(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"85-90: Vale of Eternal Blossoms",openfile)
 
 def z_85_90_Isle_of_Thunder(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"85-90: Isle of Thunder",openfile)
 
 def z_85_90_Timeless_Isle(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"85-90: Timeless Isle",openfile)
 
 def z_85_90_Pandaren_Campaign(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"85-90: Pandaren Campaign",openfile)

@@ -2,6 +2,7 @@ import characterquests
 from characterutil import *
 
 def sz_01_20_Durotar(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Durotar","horde",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,834,"Winds in the Desert","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,835,"Securing the Lines","horde")
@@ -115,6 +116,7 @@ def sz_01_20_Durotar(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,37446,"Lazy Peons","horde")
 
 def sz_01_20_Mulgore(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Mulgore","horde",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,743,"Dangers of the Windfury","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,744,"Preparation for Ceremony","horde")
@@ -164,6 +166,7 @@ def sz_01_20_Mulgore(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,26188,"Mazzranache","horde")
 
 def sz_01_20_Teldrassil(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Teldrassil","alliance",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,475,"A Troubling Breeze","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,476,"Gnarlpine Corruption","alliance")
@@ -219,6 +222,7 @@ def sz_01_20_Teldrassil(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,28734,"A Favor for Melithar","alliance")
 
 def sz_01_20_Azuremyst_Isle(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Azuremyst Isle","alliance",openfile)
 	characterquests.charquestprintfactionclass(count,datatree,openfile,9279,"You Survived!","alliance","race_draenei_female")
 	characterquests.charquestprintfactionclass(count,datatree,openfile,9280,"Replenishing the Healing Crystals","alliance","race_draenei_female")
@@ -289,6 +293,7 @@ def sz_01_20_Azuremyst_Isle(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,37445,"Spare Parts","alliance")
 
 def z_10_60_Azshara(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"header",openfile)
 	characterquests.charquestprint(count,datatree,openfile,28496,"Warchief's Command: Azshara!")
 	characterquests.charquestprint(count,datatree,openfile,25275,"Report to the Labor Captain")
@@ -402,21 +407,27 @@ def z_10_60_Azshara(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,24497,"Airborne Again")
 
 def z_10_60_Bloodmyst_Isle(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"10-60: Bloodmyst Isle",openfile)
 
 def z_10_60_Darkshore(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"10-60: Darkshore",openfile)
 
 def z_10_60_Northern_Barrens(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"10-60: Northern Barrens",openfile)
 
 def z_15_60_Ashenvale(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"15-60: Ashenvale",openfile)
 
 def z_20_60_Stonetalon_Mountains(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"20-60: Stonetalon Mountains",openfile)
 
 def z_25_60_Southern_Barrens(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"25-60: Southern Barrens",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,24504,"Clear the High Road","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,24505,"Holdout at Hunter's Hill","horde")
@@ -530,6 +541,7 @@ def z_25_60_Southern_Barrens(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,28551,"Hero's Call: Southern Barrens!","alliance")
 
 def z_30_60_Desolace(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"30-60: Desolace",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,14184,"My Time Has Passed","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,14188,"Avenge Furien!","horde")
@@ -632,6 +644,7 @@ def z_30_60_Desolace(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,6143,"Other Fish to Fry","horde")
 
 def z_35_60_Dustwallow_Marsh(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"35-60: Dustwallow Marsh",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,1168,"Army of the Black Dragon","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,1201,"Theramore Spies","horde")
@@ -749,21 +762,27 @@ def z_35_60_Dustwallow_Marsh(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,28554,"Warchief's Command: Dustwallow Marsh!","horde")
 
 def z_35_60_Feralas(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"35-60: Ferelas",openfile)
 
 def z_40_60_Thousand_Needles(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Thousand Needles",openfile)
 
 def z_40_60_Felwood(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Felwood",openfile)
 
 def z_40_60_Tanaris(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Tanaris",openfile)
 
 def z_40_60_UnGoro_Crater(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Un'Goro Crater",openfile)
 
 def z_40_60_Winterspring(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Winterspring: Unsorted",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28544,"Hero's Call: Winterspring!","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,28545,"Warchief's Command: Winterspring!","horde")
@@ -837,6 +856,7 @@ def z_40_60_Winterspring(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,28848,"Trailing the Spiritspeaker")
 
 def z_40_60_Silithus(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Silithus: Breadcrumbs",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28528,"Hero's Call: Silithus!","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,28527,"Warchief's Command: Silithus!","horde")

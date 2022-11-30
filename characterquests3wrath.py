@@ -2,6 +2,7 @@ import characterquests
 from characterutil import *
 
 def sz_55_58_Scarlet_Enclave(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"Death Knight Starting Zone",openfile)
 	characterquests.charquestprintclass(count,datatree,openfile,12593,"In Service Of The Lich King","class_deathknight")
 	characterquests.charquestprintclass(count,datatree,openfile,12619,"The Emblazoned Runeblade","class_deathknight")
@@ -62,6 +63,7 @@ def sz_55_58_Scarlet_Enclave(count,datatree,openfile):
 	characterquests.charquestprintfactionclass(count,datatree,openfile,13189,"Warchief's Blessing","horde","class_deathknight")
 
 def z_58_80_Borean_Tundra(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"58-80: Borean Tundra: Intro",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28709,"Hero's Call: Northrend!","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,28711,"Warchief's Command: Northrend!","horde")
@@ -322,6 +324,7 @@ def z_58_80_Borean_Tundra(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,13413,"Aces High!")
 
 def z_58_80_Howling_Fjord(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"58-80: Howling Fjord (Unsorted)",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,11154,"Scare the Guano Out of Them!","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,11155,"Shoveltusk Soup Again?","alliance")
@@ -534,6 +537,7 @@ def z_58_80_Howling_Fjord(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,12566,"Help for Camp Winterhoof","horde")
 
 def z_61_80_Dragonblight(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"Dragonblight (Unsorted)",openfile)
 	characterquests.charquestprint(count,datatree,openfile,11958,"Let Nothing Go To Waste")
 	characterquests.charquestprint(count,datatree,openfile,11959,"Slay Loguhn")
@@ -767,6 +771,7 @@ def z_61_80_Dragonblight(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,39203,"Warchief's Command: Dragonblight","horde")
 
 def z_63_80_Grizzly_Hills(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"63-80: Grizzly Hills (Unsorted)",openfile)
 	characterquests.charquestprint(count,datatree,openfile,11981,"Find Kurun!")
 	characterquests.charquestprint(count,datatree,openfile,11982,"Raining Down Destruction")
@@ -973,11 +978,7 @@ def z_63_80_Grizzly_Hills(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,39207,"Hero's Call: Grizzly Hills","alliance")
 
 def z_64_80_ZulDrak(count,datatree,openfile):
-	characterquests.charquestheader(count,"64-80: Zul'Drak: ",openfile)
-	characterquests.charquestheader(count,"64-80: Zul'Drak: ",openfile)
-	characterquests.charquestheader(count,"64-80: Zul'Drak: ",openfile)
-	characterquests.charquestheader(count,"64-80: Zul'Drak: ",openfile)
-	characterquests.charquestheader(count,"64-80: Zul'Drak: ",openfile)
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"64-80: Zul'Drak: The Amphitheater of Anguish",openfile)
 	characterquests.charquestprint(count,datatree,openfile,12932,"The Amphitheater of Anguish: Yggdras!")
 	characterquests.charquestprint(count,datatree,openfile,12954,"The Amphitheater of Anguish: Yggdras! (Ring of Blood)")
@@ -1085,6 +1086,7 @@ def z_64_80_ZulDrak(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,12730,"Convocation at Zol'Heb")
 
 def z_66_80_Sholazar_Basin(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"66-80: Sholazar Basin: Welcome to the Scholozar Basin",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,49553,"Hero's Call: Sholazar Basin!","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,49535,"Warchief's Command: Sholazar Basin!","horde")
@@ -1176,6 +1178,7 @@ def z_66_80_Sholazar_Basin(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,12546,"Reclamation")
 
 def z_67_80_Storm_Peaks(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"67-80: Storm Peaks: K3",openfile)
 	characterquests.charquestprint(count,datatree,openfile,12853,"Luxurious Getaway!")
 	characterquests.charquestprint(count,datatree,openfile,12818,"Clean Up")

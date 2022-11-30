@@ -56,6 +56,7 @@ def sz_01_20_Dun_Morogh(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,47709,"The Great Gnomeregan Run")
 
 def sz_01_20_Elwynn_Forest(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Elwynn Forest","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,11,"Riverpaw Gnoll Bounty")
 	characterquests.charquestprint(count,datatree,openfile,16,"Give Gerard a Drink")
@@ -104,6 +105,7 @@ def sz_01_20_Elwynn_Forest(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,38699,"Competitive Exorcise")
 
 def sz_01_20_Tirisfal_Glades(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Tirisfal Glades","horde",openfile)
 	characterquests.charquestprint(count,datatree,openfile,24974,"Ever So Lonely")
 	characterquests.charquestprint(count,datatree,openfile,24975,"Fields of Grief")
@@ -151,6 +153,7 @@ def sz_01_20_Tirisfal_Glades(count,datatree,openfile):
 	characterquests.charquestprintrace(count,datatree,openfile,6324,"Return to Morris","race_scourge_female")
 
 def sz_01_20_Eversong_Woods(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Eversong Woods","horde",openfile)
 	characterquests.charquestprint(count,datatree,openfile,8325,"Reclaiming Sunstrider Isle")
 	characterquests.charquestprint(count,datatree,openfile,8326,"Unfortunate Measures")
@@ -233,6 +236,7 @@ def sz_01_20_Eversong_Woods(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,8890,"Word from the Spire")
 
 def z_10_60_Ghostlands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"10-60: Ghostlands: To the Ghostlands","horde",openfile)
 	characterquests.charquestprint(count,datatree,openfile,28560,"Warchief's Command: Ghostlands!")
 	characterquests.charquestprint(count,datatree,openfile,9144,"Missing in the Ghostlands")
@@ -307,6 +311,7 @@ def z_10_60_Ghostlands(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,9152,"Tomber's Supplies")
 
 def z_10_60_Loch_Modan(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"10-60: Loch Modan","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,301,"Report to Ironforge")
 	characterquests.charquestprint(count,datatree,openfile,309,"Protecting the Shipment")
@@ -370,6 +375,7 @@ def z_10_60_Loch_Modan(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,28567,"Hero's Call: Loch Modan!")
 
 def z_10_60_Silverpine_Forest(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"Silverpine Forest","horde",openfile)
 	characterquests.charquestprint(count,datatree,openfile,26965,"The Warchief Cometh")
 	characterquests.charquestprint(count,datatree,openfile,26989,"The Gilneas Liberation Front")
@@ -438,6 +444,7 @@ def z_10_60_Silverpine_Forest(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,27746,"Empire of Dirt")
 
 def z_10_60_Westfall(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"10-60: Westfall","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,184,"Furlbrow's Deed")
 	characterquests.charquestprint(count,datatree,openfile,3861,"LUCK!")
@@ -488,6 +495,7 @@ def z_10_60_Westfall(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,43288,"Repel")
 
 def z_15_60_Redridge_Mountains(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"15-60: Redridge Mountains","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,26365,"Hero's Call: Redridge Mountains!")
 	characterquests.charquestprint(count,datatree,openfile,26503,"Still Assessing the Threat")
@@ -539,6 +547,7 @@ def z_15_60_Redridge_Mountains(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,33350,"Redridge Group Trial")
 
 def z_15_60_Hillsbrad_Foothills(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"Hillsbrad Foothills","horde",openfile)
 	characterquests.charquestprint(count,datatree,openfile,27746,"Empire of Dirt")
 	characterquests.charquestprint(count,datatree,openfile,28089,"Warchief's Command: Hillsbrad Foothills!")
@@ -613,6 +622,7 @@ def z_15_60_Hillsbrad_Foothills(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,28752,"Unstoppable Onslaught")
 
 def z_20_60_Duskwood(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"20-60: Duskwood","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,25235,"Vulgar Vul'Gol")
 	characterquests.charquestprint(count,datatree,openfile,26618,"Wolves at Our Heels")
@@ -671,6 +681,7 @@ def z_20_60_Duskwood(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,28564,"Hero's Call: Duskwood!")
 
 def z_20_60_Wetlands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"20-60: Wetlands","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,25211,"Cleaning Hovel")
 	characterquests.charquestprint(count,datatree,openfile,25395,"The Stolen Keg")
@@ -729,6 +740,7 @@ def z_20_60_Wetlands(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,38841,"Die, Fish-People")
 
 def z_25_60_Arathi_Highlands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"25-60: Arathi Highlands:","alliance",openfile)
 	characterquests.charquestprint(count,datatree,openfile,26139,"Into Arathi")
 	characterquests.charquestprint(count,datatree,openfile,28573,"Hero's Call: Arathi Highlands!")
@@ -798,6 +810,7 @@ def z_25_60_Arathi_Highlands(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,26912,"The Princess Unleashed")
 
 def z_25_60_Northern_Stranglethorn(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"25-60: Northern Stranglethorn",openfile)
 	characterquests.charquestprint(count,datatree,openfile,185,"Tiger Hunting")
 	characterquests.charquestprint(count,datatree,openfile,186,"Tiger Stalking")
@@ -933,6 +946,7 @@ def z_25_60_Northern_Stranglethorn(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,29268,"Some Good Will Come")
 
 def z_30_60_Cape_of_Stranglethorn(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"30-60: Cape of Stranglethorn",openfile)
 	characterquests.charquestprint(count,datatree,openfile,1036,"Avast Ye, Scallywag")
 	characterquests.charquestprint(count,datatree,openfile,4621,"Avast Ye, Admiral!")
@@ -1033,6 +1047,7 @@ def z_30_60_Cape_of_Stranglethorn(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,28704,"Warchief's Command: The Cape of Stranglethorn!","horde")
 
 def z_30_60_Hinterlands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"30-60: The Hinterlands",openfile)
 	characterquests.charquestprint(count,datatree,openfile,485,"Find OOX-09/HL!")
 	characterquests.charquestprintfaction(count,datatree,openfile,26542,"Hero's Call: The Hinterlands!","alliance")
@@ -1104,6 +1119,7 @@ def z_30_60_Hinterlands(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,26368,"Venomous Secrets","horde")
 
 def z_35_60_Western_Plaguelands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"35-60: Western Plaguelands",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,26920,"The Battle for Andorhal","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,26921,"Scourge First... Alliance Later","horde")
@@ -1191,6 +1207,7 @@ def z_35_60_Western_Plaguelands(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,28750,"The Battle for Andorhal","horde")
 
 def z_40_60_Eastern_Plaguelands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Eastern Plaguelands",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28577,"Warchief's Command: Eastern Plaguelands!","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,28578,"Hero's Call: Eastern Plaguelands!","alliance")
@@ -1284,6 +1301,7 @@ def z_40_60_Eastern_Plaguelands(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,27527,"Journey's End")
 
 def z_40_60_Badlands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Badlands",openfile)
 	characterquests.charquestprint(count,datatree,openfile,28579,"Hero's Call: Badlands!")
 	characterquests.charquestprint(count,datatree,openfile,28580,"Warchief's Command: Badlands!")
@@ -1366,6 +1384,7 @@ def z_40_60_Badlands(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,27880,"Half-Ton Holdouts")
 
 def z_40_60_Burning_Steppes(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Burning Steppes",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28172,"Done Nothing Wrong","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,28174,"Burning Vengeance","alliance")
@@ -1459,6 +1478,7 @@ def z_40_60_Burning_Steppes(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,28667,"Warchief's Command: Burning Steppes!","horde")
 
 def z_40_60_Searing_Gorge(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Searing Gorge",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28581,"Warchief's Command: Searing Gorge!","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,28582,"Hero's Call: Searing Gorge!","alliance")
@@ -1505,6 +1525,7 @@ def z_40_60_Searing_Gorge(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,28512,"To the Aid of the Thorium Brotherhood")
 
 def z_40_60_Swamp_of_Sorrows(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"40-60: Swamp of Sorrows",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,24913,"Remember the Light","alliance")
 	characterquests.charquestprint(count,datatree,openfile,27536,"Mostly Harmless")
@@ -1562,6 +1583,7 @@ def z_40_60_Swamp_of_Sorrows(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,28677,"Warchief's Command: Swamp of Sorrows!","horde")
 
 def z_40_60_Blasted_Lands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"55-60: Blasted Lands: Unsorted",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28867,"Nethergarde Needs You!","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,28865,"Call of the Warmatron","horde")
@@ -1645,4 +1667,5 @@ def z_40_60_Blasted_Lands(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,25707,"The Future of the Rockpool")
 
 def z_55_56_Deadwind_Pass(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"Deadwind Pass",openfile)

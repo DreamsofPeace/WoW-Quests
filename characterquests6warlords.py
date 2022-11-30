@@ -2,6 +2,7 @@ import characterquests
 from characterutil import *
 
 def z_90_Blasted_Lands_Intro(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"90: Blasted Lands: Warlords Intro",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,35460,"Attack of the Iron Horde","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,35745,"Attack of the Iron Horde","horde")
@@ -35,6 +36,7 @@ def z_90_Blasted_Lands_Intro(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,36940,"Warning Orgrimmar","horde")
 
 def z_90_Assault_The_Dark_Portal(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"90: Warlords Intro: Assault on the Dark Portal",openfile)
 	characterquests.charquestprint(count,datatree,openfile,34398,"The Dark Portal")
 	characterquests.charquestprint(count,datatree,openfile,36881,"The Dark Portal")
@@ -74,6 +76,7 @@ def z_90_Assault_The_Dark_Portal(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,34446,"The Home Stretch","horde")
 
 def z_90_100_Frostfire_Ridge(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"90-100: Frostfire Ridge",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,34228,"A Clew of Worms","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,34067,"A Collection of Coils","horde")
@@ -261,6 +264,7 @@ def z_90_100_Frostfire_Ridge(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,37961,"Bringing the Bass","horde")
 
 def z_90_100_Shadowmoon_Valley(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"90-100: Shadowmoon Valley",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,33059,"The Fate of Karabor","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,33062,"Catching His Eye","alliance")
@@ -439,6 +443,7 @@ def z_90_100_Shadowmoon_Valley(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,38356,"Bringing the Bass","alliance")
 
 def z_92_100_Gorgrond(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"92-100: Gorgrond",openfile)
 	characterquests.charquestprint(count,datatree,openfile,36037,"A Centurion Without a Cause")
 	characterquests.charquestprintfaction(count,datatree,openfile,33593,"A Flare for the Dramatic","horde")
@@ -754,9 +759,11 @@ def z_92_100_Gorgrond(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,35247,"Zero Xuks Given","horde")
 
 def z_94_100_Talador(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"94-100: Talador",openfile)
 
 def z_96_100_Spires_of_Arak(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"96-100: Spires of Arak: Shadows Gather",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,35554,"News from Spires of Arak","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,35537,"News from Spires of Arak","horde")
@@ -937,6 +944,7 @@ def z_96_100_Spires_of_Arak(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,37417,"Feast of the Spires")
 
 def z_98_100_Nagrand(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"98-100: Nagrand",openfile)
 	characterquests.charquestprint(count,datatree,openfile,36601,"News from Nagrand")
 	characterquests.charquestprint(count,datatree,openfile,36602,"News from Nagrand")
@@ -944,4 +952,5 @@ def z_98_100_Nagrand(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,36607,"News from Nagrand")
 
 def z_100_Tanaan_Jungle(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"100: Tanaan Jungle",openfile)

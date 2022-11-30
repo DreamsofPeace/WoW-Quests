@@ -2,6 +2,7 @@ import characterquests
 from characterutil import *
 
 def sz_01_05_Gilneas_City(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-05: Gilneas City","alliance",openfile)
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14078,"Lockdown!","alliance","race_worgen_female")
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14091,"Something's Amiss","alliance","race_worgen_female")
@@ -40,6 +41,7 @@ def sz_01_05_Gilneas_City(count,datatree,openfile):
 	characterquests.charquestprintfactionrace(count,datatree,openfile,28850,"The Prison Rooftop","alliance","race_worgen_female")
 
 def sz_01_20_Gilneas(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Gilneas","alliance",openfile)
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14220,"This Is the End","alliance","race_worgen_female")
 	characterquests.charquestprintfactionclassrace(count,datatree,openfile,14272,"Eviscerate","alliance","class_rogue","race_worgen_female")
@@ -110,6 +112,7 @@ def sz_01_20_Gilneas(count,datatree,openfile):
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14434,"Rut'theran Village","alliance","race_worgen_female")
 
 def sz_10_60_Ruins_of_Gilneas(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"10:60 Ruins of Gilneas","horde",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,27290,"To Forsaken Forward Command","horde")
 	characterquests.charquestprint(count,datatree,openfile,27322,"Korok the Colossus")
@@ -126,6 +129,7 @@ def sz_10_60_Ruins_of_Gilneas(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,27423,"Resistance is Futile")
 
 def sz_01_05_Kezan(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-05: Kezan","horde",openfile)
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14069,"Good Help is Hard to Find","horde","race_goblin_female")
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14070,"Do it Yourself","horde","race_goblin_female")
@@ -159,6 +163,7 @@ def sz_01_05_Kezan(count,datatree,openfile):
 	characterquests.charquestprintfactionrace(count,datatree,openfile,28607,"The Keys to the Hot Rod","horde","race_goblin_female")
 
 def sz_01_10_Lost_Isles(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"01-20: Lost Isles","horde",openfile)
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14001,"Goblin Escape Pods","horde","race_goblin_female")
 	characterquests.charquestprintfactionrace(count,datatree,openfile,14014,"Get Our Stuff Back!","horde","race_goblin_female")
@@ -236,6 +241,7 @@ def sz_01_10_Lost_Isles(count,datatree,openfile):
 	characterquests.charquestprintfactionrace(count,datatree,openfile,27139,"Hobart Needs You","horde","race_goblin_female")
 
 def z_80_90_Mount_Hyjal(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"80-90: Mount Hyjal: Intro",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,27726,"Hero's Call: Mount Hyjal!","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,27721,"Warchief's Command: Mount Hyjal!","horde")
@@ -368,6 +374,7 @@ def z_80_90_Mount_Hyjal(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,29437,"The Fallen Guardian")
 
 def z_80_90_Vashjir(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"Vash'jir: Kelp'thar Forest",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,28825,"A Personal Summons","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,28790,"A Personal Summons","horde")
@@ -505,6 +512,7 @@ def z_80_90_Vashjir(count,datatree,openfile):
 	characterquests.charquestprintfaction(count,datatree,openfile,26194,"Defending the Rift","horde")
 
 def z_82_90_Deepholm(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"82-90: Deepholm: Intro",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,27722,"Warchief's Command: Deepholm!","horde")
 	characterquests.charquestprintfaction(count,datatree,openfile,27722,"Hero's Call: Deepholm!","alliance")
@@ -637,6 +645,7 @@ def z_82_90_Deepholm(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,28293,"That's No Pyramid!")
 
 def z_83_90_Uldum(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"83-90: Uldum (Unsorted)",openfile)
 	characterquests.charquestprint(count,datatree,openfile,27003,"Easy Money")
 	characterquests.charquestprint(count,datatree,openfile,27141,"Premature Explosionation")
@@ -750,6 +759,7 @@ def z_83_90_Uldum(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,28623,"The Push Westward")
 
 def z_84_90_Twilight_Highlands(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheaderfaction(count,"84-90: Twilight Highlands: Intro","horde",openfile)
 	characterquests.charquestprint(count,datatree,openfile,28909,"Sauranok Will Point the Way")
 	characterquests.charquestprint(count,datatree,openfile,26311,"Unfamiliar Waters")
@@ -932,6 +942,7 @@ def z_84_90_Twilight_Highlands(count,datatree,openfile):
 	characterquests.charquestprint(count,datatree,openfile,27868,"The Crucible of Carnage: The Twilight Terror!")
 
 def z_85_Molten_Front(count,datatree,openfile):
+	printdataheader(count,datatree,openfile)
 	characterquests.charquestheader(count,"85: Molten Front: The Invasion",openfile)
 	characterquests.charquestprintfaction(count,datatree,openfile,29391,"Guardians of Hyjal: Call of the Ancients","alliance")
 	characterquests.charquestprintfaction(count,datatree,openfile,29390,"Guardians of Hyjal: Call of the Ancients","horde")
