@@ -79,7 +79,8 @@ def printsinglerep(count,datatree,openfile,repid):
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 17" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 18" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 19" or 
-			datatree[number]['reputations'][repid]['standingname'] == "Renown 20"
+			datatree[number]['reputations'][repid]['standingname'] == "Renown 20" or 
+			datatree[number]['reputations'][repid]['standingname'] == "Preferred"
 			):
 				htmltabletdopenclass(openfile,"Friendly")
 			elif (
@@ -1796,6 +1797,22 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerepparagon(count,datatree,openfile,2465)
 	htmltabletrclose(openfile)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("<a href=\"https://www.wowhead.com/faction=2472\">The Archivists' Codex</a>", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2472)
+	htmltabletrclose(openfile)
+	htmltabletrclose(openfile)
+
+	htmltabletropen(openfile)
+	htmltabletdopen(openfile)
+	print ("<a href=\"https://www.wowhead.com/faction=2470\">Death's Advance</a>", end="\n", file=openfile)
+	htmltabletdclose(openfile)
+	printsinglerepparagon(count,datatree,openfile,2470)
+	htmltabletrclose(openfile)
 
 	printdataheader(count,datatree,openfile)
 	htmltabletrclose(openfile)
@@ -2035,286 +2052,6 @@ def printquestcompletion(count,datatree,openfile,recipeid,recipename):
 		except KeyError:
 			print ("<td class=\"blackout\"></td>", end="\n", file=openfile)
 
-#def printprofessiontailoring(count,datatree,openfile):
-#	totalreps = count + 1
-#	htmltabletropen(openfile)
-#	htmltabletdopen(openfile)
-##	print ("Guild", end="\n", file=openfile)
-#	htmltabletdclose(openfile)
-##	printsingleprofrecipe(count,datatree,openfile,1168)
-#	htmltabletrclose(openfile)
-
-#def printprofessiontailoring(count,datatree,openfile):
-#	totalreps = count + 1
-
-'''
-                     2537: {'recipes': [
-21661,
-21662,
-21663,
-21664,
-21665,
-21666,
-21667,
-21668,
-21669,
-21670,
-21671,
-21672,
-21673,
-21674,
-21675,
-21676,
-21678,
-21679,
-21680,
-21681,
-21682,
-21683,
-21684,
-21685,
-21686,
-21687,
-21688,
-21689,
-21691,
-21692,
-21693,
-21694,
-21695,
-21696,
-21697,
-21698,
-21699,
-21700,
-21701,
-21703,
-21704,
-21706,
-21707,
-21708,
-21710,
-21711,
-21712,
-21713,
-21714,
-21715,
-21716,
-21717,
-24013,
-24302,
-24303,
-24304,
-24305,
-24309,
-24362,
-24581,
-24582,
-24583,
-24584,
-39374,
-39375,
-39377,
-39379]},
-Tailoring: Cataclysm
-74964	Bolt of Embersilk Cloth
-75141	Dream of Skywall
-75142	Dream of Deepholm
-75144	Dream of Hyjal
-75145	Dream of Ragnaros
-75146	Dream of Azshara
-75247	Embersilk Net
-75248	Deathsilk Belt
-75249	Deathsilk Bracers
-75250	Enchanted 
-75251	Deathsilk Shoulders
-75252	Deathsilk Boots
-75253	Deathsilk Gloves
-75254	Deathsilk Leggings
-75255	Ghostly Spellthread
-75256	Deathsilk Cowl
-75257	Deathsilk Robe
-75258	Spiritmend Belt
-75259	Spiritmend Bracers
-75260	Spiritmend Shoulders
-75261	Spiritmend Boots
-75262	Spiritmend Gloves
-75263	Spiritmend Leggings
-75264	Embersilk Bag
-75265	Otherworldly Bag
-75266	Spiritmend Cowl
-75267	Spiritmend Robe
-75268	Hyjal Expedition Bag
-75269	Vicious Fireweave Belt
-75270	Vicious Embersilk Bracers
-75288	Black Embersilk Gown
-75289	High Society Top Hat
-75290	Vicious Fireweave Bracers
-75291	Vicious Embersilk Shoulders
-75292	Vicious Fireweave Shoulders
-75293	Vicious Embersilk Belt
-75294	Vicious Fireweave Boots
-75295	Vicious Embersilk Gloves
-75296	Vicious Fireweave Gloves
-75297	Vicious Embersilk Boots
-75298	Belt of the Depths
-75299	Dreamless Belt
-75300	Breeches of Mended Nightmares
-75301	Flame-Ascended Pantaloons
-75302	Vicious Fireweave Pants
-75303	Vicious Fireweave Robe
-75304	Vicious Fireweave Cowl
-75305	Vicious Embersilk Robe
-75306	Vicious Embersilk Cowl
-75307	Vicious Embersilk Pants
-75308	Illusionary Bag
-75309	Powerful Enchanted Spellthread
-75310	Powerful Ghostly Spellthread
-75597	Frosty Flying Carpet
-94743	Dream of Destruction
-99448	Grips of Altered Reality
-99449	Don Tayo's Inferno Mittens
-99459	Endless Dream Walkers
-99460	Boots of the Black Flame
-99537	Vicious Embersilk Cape
-100585	Luxurious Silk Gem Bag
-101920	World Mender's Pants
-101921	Lavaquake Legwraps
-101922	Dreamwraps of the Light
-101923	Bracers of Unconquered Power
-125496	Master's Spellthread
-125497	Sanctified Spellthread
-'''
-#def printprofession(count,datatree,openfile):
-#	printprofessionalchemy(count,datatree,openfile)
-#	printprofessionblacksmith(count,datatree,openfile)
-#	printprofessionenchanting(count,datatree,openfile)
-#	printprofessionleatherworking(count,datatree,openfile)
-#	printprofessionjewelcrafting(count,datatree,openfile)
-#	printprofessiontailoring(count,datatree,openfile)
-#	printprofessioncooking(count,datatree,openfile)
-#	printprofessionmining(count,datatree,openfile)
-#	printprofessionbotany(count,datatree,openfile)
-#	printprofessionmining(count,datatree,openfile)
-	
-'''
-2454	Legion Blacksmithing
-2472	Warlords Blacksmithing
-2473	Pandaren Blacksmithing
-2474	Cataclysmic Blacksmithing
-2475	Northrend Blacksmithing
-2476	Legion Alchemy
-2476	Outland Blacksmithing
-2477	Vanilla Blacksmithing
-2480	Warlords Alchemy
-2481	Pandaren Alchemy
-2482	Cataclysmic Alchemy
-2483	Northrend Alchemy
-2484	Outland Alchemy
-2485	Vanilla Alchemy
-2487	Legion Enchanting
-2488	Warlords Enchanting
-2489	Pandaren Enchanting
-2491	Cataclysmic Enchanting
-2492	Northrend Enchanting
-2493	Outland Enchanting
-2494	Vanilla Enchanting
-2500	Legion Engineering
-2501	Warlords Engineering
-2502	Pandaren Engineering
-2503	Cataclysmic Engineering
-2504	Northrend Engineering
-2505	Outland Engineering
-2506	Vanilla Engineering
-2508	Legion Inscription
-2509	Warlords Inscription
-2510	Pandaren Inscription
-2511	Cataclysmic Inscription
-2512	Northrend Inscription
-2513	Outland Inscription
-2514	Vanilla Inscription
-2518	Legion Jewelcrafting
-2519	Warlords Jewelcrafting
-2520	Pandaren Jewelcrafting
-2521	Cataclysmic Jewelcrafting
-2522	Northrend Jewelcrafting
-2523	Outland Jewelcrafting
-2524	Vanilla Jewelcrafting
-2526	Legion Leatherworking
-2527	Warlords Leatherworking
-2528	Pandaren Leatherworking
-2529	Cataclysmic Leatherworking
-2530	Northrend Leatherworking
-2531	Outland Leatherworking
-2532	Vanilla Leatherworking
-2534	Legion Tailoring
-2535	Warlords Tailoring
-2536	Pandaren Tailoring
-2537	Cataclysmic Tailoring
-2538	Northrend Tailoring
-2539	Outland Tailoring
-2540	Vanilla Tailoring
-2542	Legion Cooking
-2543	Warlords Cooking
-2544	Pandaren Cooking
-2545	Cataclysmic Cooking
-2546	Northrend Cooking
-2547	Outland Cooking
-2548	Vanilla Cooking
-2550	Legion Herbalism
-2551	Warlords Herbalism
-2552	Pandaren Herbalism
-2553	Cataclysmic Herbalism
-2554	Northrend Herbalism
-2555	Outland Herbalism
-2556	Vanilla Herbalism
-2558	Legion Skinning
-2559	Warlords Skinning
-2560	Pandaren Skinning
-2561	Cataclysmic Skinning
-2562	Northrend Skinning
-2563	Outland Skinning
-2564	Vanilla Skinning
-2566	Legion Mining
-2567	Warlords Mining
-2568	Pandaren Mining
-2569	Cataclysmic Mining
-2570	Northrend Mining
-2571	Outland Mining
-2572	Vanilla Mining
-2586	Legion Fishing
-2587	Warlords Fishing
-2588	Pandaren Fishing
-2589	Cataclysmic Fishing
-2590	Northrend Fishing
-2591	Outland Fishing
-2592	Vanilla Fishing
-'''
-
-'''
- 1: {
-     'professions': {2437: {'recipes': [38731,
-                                        38737,
-                                        38752,
-                                        38756,
-                                        40153,
-                                        40211]},
-                     2477: {'recipes': [1631, 1634, 1798, 6636]},
-                     2541: {'recipes': [39619, 39625]},
-                     2548: {'recipes': [1535, 1537, 4786]},
-                     2565: {'recipes': [39277, 39286, 39317]},
-                     2572: {'recipes': [3324, 39310]},
-                     2585: {'recipes': []},
-                     2586: {'recipes': []},
-                     2587: {'recipes': []},
-                     2588: {'recipes': []},
-                     2589: {'recipes': []},
-                     2590: {'recipes': []},
-                     2591: {'recipes': []},
-                     2592: {'recipes': []}},
-     'realm_name': 'Malfurion',
-
-'''
 
 def client_creds(client_id, client_secret, region):
 	path = '/oauth/token'
@@ -2515,8 +2252,8 @@ if __name__ == "__main__":
 			if (
 				myid == 2507 or
 				myid == 2503 or
-				myid == 2510
-
+				myid == 2510 or
+				myid == 2511
 				):
 				multicharacter[count]['reputations'][myid]['standingtier']  = reputation['standing']['renown_level']
 				multicharacter[count]['reputations'][myid]['standingname']  = reputation['standing']['name']
