@@ -1827,7 +1827,7 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2507)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2508\">Dragonscale Expedition (Paragon)</a>", end="\n", file=openfile)
@@ -1841,14 +1841,14 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2547)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2503\">Maruuk Centaur</a>", end="\n", file=openfile)
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2503)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2504\">Maruuk Centaur (Paragon)</a>", end="\n", file=openfile)
@@ -1862,14 +1862,14 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2545)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2511\">Iskaara Tuskarr</a>", end="\n", file=openfile)
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2511)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2551\">Iskaara Tuskarr (Paragon)</a>", end="\n", file=openfile)
@@ -1883,7 +1883,7 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2546)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2512\">Clan Aylaag</a>", end="\n", file=openfile)
@@ -1960,7 +1960,7 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2510)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2552\">Valdrakken Accord (Paragon)</a>", end="\n", file=openfile)
@@ -1974,7 +1974,7 @@ def printreputation(count,datatree,openfile):
 	htmltabletdclose(openfile)
 	printsinglerep(count,datatree,openfile,2548)
 	htmltabletrclose(openfile)
-
+	'''
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
 	print ("<a href=\"https://www.wowhead.com/faction=2544\">Artisan's Consortium - Dragon Isles Branch</a>", end="\n", file=openfile)
@@ -2212,13 +2212,14 @@ if __name__ == "__main__":
 					avatarurl = v
 				elif k == "inset":
 					busturl = v
-				elif k == "main":
+#				elif k == "main":
+#					renderurl = v
+				elif k == "main-raw":
 					renderurl = v
 		except:
 			avatarurl  = charmedia['avatar_url']
 			busturl    = charmedia['bust_url']
 			renderurl  = charmedia['render_url']
-			
 		logger.info(f'Getting quest info for {region} - {server} - {character}')
 		tempslit = questshref.split("?")
 		questshref = tempslit[0] + "/completed?" + tempslit[1]
