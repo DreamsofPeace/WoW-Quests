@@ -33,8 +33,6 @@ def data_get_char_info(region,server,character,locale,namespace,access_token):
 		url = (f'https://{region}.api.blizzard.com{path}')
 	return (requests.get(url))
 
-
-
 def printsinglerep(count,datatree,openfile,repid):
 	for number in datatree:
 		try:
@@ -163,8 +161,11 @@ def printsinglerepparagon(count,datatree,openfile,repid):
 				print (datatree[number]['reputations'][repid]['paragonmax'], end="", file=openfile)
 				if datatree[number]['reputations'][repid]['paragonraw'] > 10000:
 					myvalue = datatree[number]['reputations'][repid]['paragonraw']
-					myvalue = str(myvalue)
-					print (f"&nbsp;({myvalue[0]})</span>", end="\n", file=openfile)
+					myvalue = int(myvalue / datatree[number]['reputations'][repid]['paragonmax'])
+					print (f"&nbsp;({myvalue})</span>", end="\n", file=openfile)
+					#	myvalue = str(myvalue)
+				#	print (f"&nbsp;({myvalue[0]})</span>", end="\n", file=openfile)
+				#	print (f"&nbsp;({myvalue[0]})</span>", end="\n", file=openfile)
 				else:
 					print ("</span>", end="\n", file=openfile)
 				htmldivclose(openfile)
@@ -1138,9 +1139,9 @@ def printreputation(count,datatree,openfile):
 
 	htmltabletropen(openfile)
 	htmltabletdopen(openfile)
-	print ("<a href=\"https://www.wowhead.com/faction=1241\">Pearlfin Jinyu</a>", end="\n", file=openfile)
+	print ("<a href=\"https://www.wowhead.com/faction=1242\">Pearlfin Jinyu</a>", end="\n", file=openfile)
 	htmltabletdclose(openfile)
-	printsinglerep(count,datatree,openfile,1241)
+	printsinglerep(count,datatree,openfile,1242)
 	htmltabletrclose(openfile)
 
 	htmltabletropen(openfile)
@@ -2052,7 +2053,6 @@ def printquestcompletion(count,datatree,openfile,recipeid,recipename):
 		except KeyError:
 			print ("<td class=\"blackout\"></td>", end="\n", file=openfile)
 
-
 def client_creds(client_id, client_secret, region):
 	path = '/oauth/token'
 
@@ -2137,13 +2137,15 @@ if __name__ == "__main__":
 	for count, characterline in enumerate(characterfile):
 		if count > 30:
 			continue
+		characterline = characterline.rstrip("\n")
+		linesplit      = characterline.split("\t")
+		charregion     = linesplit[0]
+		locale         = linesplit[1]
+		server         = linesplit[2]
+		character      = linesplit[3]
+		wowheadurl     = linesplit[4]
+		wowofficialurl = linesplit[5]
 
-		linesplit  = characterline.split("\t")
-		charregion = linesplit[0]
-		locale     = linesplit[1]
-		server     = linesplit[2]
-		character  = linesplit[3]
-		wowheadurl = linesplit[4]
 		if charregion == "us":
 			namespace = "profile-us"
 		elif charregion == "eu":
@@ -2241,6 +2243,10 @@ if __name__ == "__main__":
 #		multicharacter[count]['raidsurl']       = charencraids
 		try:
 			multicharacter[count]['wowheadurl'] = wowheadurl
+		except KeyError:
+			pass
+		try:
+			multicharacter[count]['wowofficialurl'] = wowofficialurl
 		except KeyError:
 			pass
 		for reputation in charreputation['reputations']:

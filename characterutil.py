@@ -258,9 +258,29 @@ def printdataheader(count,datatree,openfile):
 		if len(datatree[number]['wowheadurl']) > 20:
 			wowheadurl = datatree[number]['wowheadurl']
 			wowheadurl = wowheadurl.rstrip("\n")
-			print ("\t\t<a href=",end="", file=openfile)
+			print ("\t\t<a href=\"",end="", file=openfile)
 			print (wowheadurl, end="", file=openfile)
 			print ("\">Wowhead</a>",end="\n", file=openfile)
+		else:
+			print ("&nbsp;",end="\n", file=openfile)
+		htmldivclose(openfile)
+		htmldivopen(openfile)
+		if len(datatree[number]['wowofficialurl']) > 20:
+			wowofficialurl = datatree[number]['wowofficialurl']
+			wowofficialurl = wowofficialurl.rstrip("\n")
+			print ("\t\t<a href=\"",end="", file=openfile)
+			print (wowofficialurl, end="", file=openfile)
+			print ("\">WoW Official</a>",end="\n", file=openfile)
+		else:
+			print ("&nbsp;",end="\n", file=openfile)
+		htmldivclose(openfile)
+		htmldivopen(openfile)
+		if len(datatree[number]['renderurl']) > 20:
+			renderurl = datatree[number]['renderurl']
+			renderurl = renderurl.rstrip("\n")
+			print ("\t\t<a href=\"",end="", file=openfile)
+			print (renderurl, end="", file=openfile)
+			print ("\">Render</a>",end="\n", file=openfile)
 		else:
 			print ("&nbsp;",end="\n", file=openfile)
 		htmldivclose(openfile)
