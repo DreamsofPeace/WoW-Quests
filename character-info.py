@@ -45,7 +45,8 @@ def printsinglerep(count,datatree,openfile,repid):
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 29" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 30" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 31" or 
-			datatree[number]['reputations'][repid]['standingname'] == "Renown 32"
+			datatree[number]['reputations'][repid]['standingname'] == "Renown 32" or 
+			datatree[number]['reputations'][repid]['standingname'] == "Esteemed"
 			):
 				htmltabletdopenclass(openfile,"Exalted")
 			elif (
@@ -56,7 +57,8 @@ def printsinglerep(count,datatree,openfile,repid):
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 25" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 26" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 27" or 
-			datatree[number]['reputations'][repid]['standingname'] == "Renown 28"
+			datatree[number]['reputations'][repid]['standingname'] == "Renown 28" or 
+			datatree[number]['reputations'][repid]['standingname'] == "Valued"
 			):
 				htmltabletdopenclass(openfile,"Revered")
 			elif (
@@ -67,7 +69,8 @@ def printsinglerep(count,datatree,openfile,repid):
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 21" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 22" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 23" or 
-			datatree[number]['reputations'][repid]['standingname'] == "Renown 24"
+			datatree[number]['reputations'][repid]['standingname'] == "Renown 24" or 
+			datatree[number]['reputations'][repid]['standingname'] == "Respected"
 			):
 				htmltabletdopenclass(openfile,"Honored")
 			elif (
@@ -88,7 +91,8 @@ def printsinglerep(count,datatree,openfile,repid):
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 13" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 14" or 
 			datatree[number]['reputations'][repid]['standingname'] == "Renown 15" or 
-			datatree[number]['reputations'][repid]['standingname'] == "Renown 16"
+			datatree[number]['reputations'][repid]['standingname'] == "Renown 16" or 
+			datatree[number]['reputations'][repid]['standingname'] == "Neutral"
 			):
 				htmltabletdopenclass(openfile,"Neutral")
 			elif (
